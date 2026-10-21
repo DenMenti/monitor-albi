@@ -1,0 +1,84 @@
+name: Monitor albi
+
+on:
+  workflow_dispatch:
+    inputs:
+      azione:
+        description: "monitora = controlla le determine, albi = cerca i link agli albi"
+        required: true
+        default: monitora
+        type: choice
+        options: [monitora, albi]
+      modo:
+        description: "ultimo = dall'ultimo controllo di ogni comune, data = dalla data indicata"
+        default: ultimo
+        type: choice
+        options: [ultimo, data]
+      data:
+        description: "Data di partenza (AAAA-MM-GG)"
+        default: ""
+      solo:
+        description: "Solo questi comuni, separati da virgola (vuoto = tutti)"
+        default: ""
+  # Controllo automatico: ogni lunedì alle 7 (ora italiana). Cancella queste due righe per disattivarlo.
+  schedule:
+    - cron: "0 5 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor-albi
+  cancel-in-progress: false
+
+jobs:
+  lavoro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      TZ: Europe/Rome
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Cerca i link agli albi
+        if: inputs.azione == 'albi'
+        run: python esegui.py albi
+
+      - name: Controlla le determine
+        id: monitora
+        if: inputs.azione != 'albi'
+        run: >
+          python esegui.py monitora
+          --modo "${{ inputs.modo || 'ultimo' }}"
+          --data "${{ inputs.data }}"
+          --solo "${{ inputs.solo }}"
+
+      - name: Pubblica gli allegati
+        if: steps.monitora.outputs.zip != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >
+          gh release create "${{ steps.monitora.outputs.tag }}" "${{ steps.monitora.outputs.zip }}"
+          --title "Allegati ${{ steps.monitora.outputs.tag }}"
+          --notes "Excel e allegati del controllo. Estrai lo zip: i link nell'Excel aprono i file."
+
+      - name: Salva i risultati
+        if: always()
+        run: |
+          git config user.name "monitor-albi"
+          git config user.email "monitor-albi@users.noreply.github.com"
+          git add docs/dati docs/risultati
+          git diff --cached --quiet && exit 0
+          git commit -m "Risultati $(date +'%Y-%m-%d %H:%M')"
+          git pull --rebase
+          git push

@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+_lavoro/
+_uscita/
+/risultati/
+/dati/
+*.tmp

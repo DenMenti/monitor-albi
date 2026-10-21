@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor Albi Pretori</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📜</text></svg>">
+<style>
+:root {
+  color-scheme: light;
+  --carta: #F6F8F9; --foglio: #FFFFFF; --inchiostro: #1E2A33; --ardesia: #5F6F7B;
+  --linea: #D9E0E5; --abete: #2E5E4E; --abete-chiaro: #E3EEEA;
+  --ambra: #9A5F0C; --ambra-chiaro: #FBF1DF; --rosso: #A33A2C;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --carta: #151B20; --foglio: #1D252B; --inchiostro: #E6ECEF; --ardesia: #9AA8B2;
+    --linea: #33404A; --abete: #7FBFA8; --abete-chiaro: #22362F;
+    --ambra: #E2B15E; --ambra-chiaro: #3A2F1C; --rosso: #E58A7D;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--carta); color: var(--inchiostro); font: 15px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+a { color: var(--abete); }
+header { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 16px 28px; border-bottom: 1px solid var(--linea); background: var(--foglio); }
+header h1 { margin: 0; font-size: 20px; font-weight: 600; }
+header p { margin: 0; color: var(--ardesia); font-size: 14px; flex: 1; min-width: 240px; }
+main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 420px); gap: 24px; padding: 24px 28px; max-width: 1400px; margin: 0 auto; }
+@media (max-width: 960px) { main { grid-template-columns: 1fr; padding: 16px; } }
+section.blocco { background: var(--foglio); border: 1px solid var(--linea); border-radius: 8px; padding: 22px 24px; margin-bottom: 20px; }
+.blocco h2 { margin: 0 0 4px; font-size: 17px; font-weight: 600; display: flex; gap: 10px; align-items: center; }
+.num { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--abete); color: var(--foglio); font-size: 14px; font-weight: 700; flex: none; }
+p.desc { margin: 0 0 16px; color: var(--ardesia); max-width: 70ch; }
+.riga { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 10px 0; }
+label { font-size: 14px; }
+.campo { display: block; margin: 14px 0; }
+.campo > span { display: block; font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+.campo small, small.aiuto { display: block; color: var(--ardesia); font-size: 13px; margin-top: 3px; }
+input[type=text], input[type=password], input[type=date] { font: inherit; color: inherit; background: var(--carta); border: 1px solid var(--linea); border-radius: 6px; padding: 8px 10px; width: 100%; }
+.due { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 700px) { .due { grid-template-columns: 1fr; } }
+button, .bottone { font: inherit; font-weight: 600; border-radius: 6px; padding: 9px 16px; cursor: pointer; border: 1px solid var(--abete); background: var(--abete); color: var(--foglio); text-decoration: none; display: inline-block; }
+button.secondario, .bottone.secondario { background: transparent; color: var(--abete); }
+button.piccolo { padding: 5px 10px; font-size: 13px; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+.bottone[aria-disabled=true] { opacity: .45; pointer-events: none; }
+:focus-visible { outline: 3px solid var(--abete); outline-offset: 2px; }
+.stat { color: var(--ardesia); font-size: 14px; }
+.stat b { color: var(--inchiostro); }
+.avviso { padding: 12px 14px; border-radius: 6px; background: var(--ambra-chiaro); color: var(--inchiostro); margin: 0 0 16px; font-size: 14px; }
+.ok-box { padding: 12px 14px; border-radius: 6px; background: var(--abete-chiaro); margin: 10px 0; font-size: 14px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-height: 100px; align-content: flex-start; background: var(--carta); border: 1px solid var(--linea); border-radius: 6px; padding: 8px; cursor: text; }
+.chips:focus-within { outline: 3px solid var(--abete); outline-offset: 2px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; padding: 3px 4px 3px 10px; border-radius: 14px; background: var(--abete-chiaro); color: var(--abete); font-size: 14px; font-weight: 600; }
+.chips.escl .chip { background: var(--ambra-chiaro); color: var(--ambra); }
+.chip button { border: 0; background: transparent; color: inherit; padding: 0 6px; font-size: 16px; line-height: 1; border-radius: 10px; }
+.chips input { flex: 1; min-width: 160px; border: 0; background: transparent; padding: 4px; font: inherit; color: inherit; outline: none; width: auto; }
+
+details { margin-top: 14px; }
+summary { cursor: pointer; font-weight: 600; color: var(--abete); }
+.tabella { max-height: 460px; overflow: auto; border: 1px solid var(--linea); border-radius: 6px; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 6px 10px; border-bottom: 1px solid var(--linea); text-align: left; vertical-align: top; }
+th { position: sticky; top: 0; background: var(--foglio); font-weight: 600; z-index: 1; }
+td input[type=text] { padding: 5px 8px; font-size: 13px; }
+tr.giallo td { background: var(--ambra-chiaro); }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 10px; white-space: nowrap; }
+.badge.ok { background: var(--abete-chiaro); color: var(--abete); }
+.badge.no { background: var(--ambra-chiaro); color: var(--ambra); }
+
+aside .pannello { position: sticky; top: 16px; background: var(--foglio); border: 1px solid var(--linea); border-radius: 8px; padding: 20px 22px; margin-bottom: 20px; }
+aside h2 { margin: 0 0 10px; font-size: 17px; font-weight: 600; }
+.pallino { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--linea); margin-right: 8px; vertical-align: middle; }
+.pallino.corre { background: var(--abete); animation: pulsa 1.4s infinite; }
+.pallino.ok { background: var(--abete); }
+.pallino.ko { background: var(--rosso); }
+@keyframes pulsa { 50% { opacity: .3; } }
+@media (prefers-reduced-motion: reduce) { .pallino.corre { animation: none; } }
+#stato { font-weight: 600; }
+.storico { list-style: none; margin: 0; padding: 0; }
+.storico li { padding: 10px 0; border-top: 1px solid var(--linea); font-size: 14px; }
+.storico li:first-child { border-top: 0; }
+.storico .quando { color: var(--ardesia); font-size: 13px; }
+#messaggio { font-size: 14px; min-height: 1.2em; margin-top: 8px; }
+#messaggio.errore { color: var(--rosso); }
+.vuoto { color: var(--ardesia); font-style: italic; }
+dialog { border: 1px solid var(--linea); border-radius: 8px; background: var(--foglio); color: var(--inchiostro); max-width: 560px; width: calc(100% - 32px); padding: 22px 24px; }
+dialog::backdrop { background: rgba(0,0,0,.35); }
+dialog ol { padding-left: 20px; font-size: 14px; }
+dialog li { margin: 4px 0; }
+.risultati-wrap { grid-column: 1 / -1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Monitor Albi Pretori</h1>
+  <p>Determine con riferimenti stradali negli albi dei comuni. Il lavoro gira sui server di GitHub: funziona da Mac, PC e telefono.</p>
+  <button class="secondario" id="btnImpostazioni">Collega GitHub</button>
+</header>
+
+<main>
+<div>
+  <div class="avviso" id="avvisoToken" hidden>
+    Stai vedendo i risultati in sola lettura. Per avviare un controllo o modificare le parole chiave
+    <a href="#" id="lnkCollega">collega GitHub</a> (una volta per ogni computer).
+  </div>
+
+  <section class="blocco" aria-labelledby="t1">
+    <h2 id="t1"><span class="num">1</span>Link agli albi dei comuni</h2>
+    <p class="desc">Si fa la prima volta, poi solo se un comune cambia sito. Ci vogliono circa 20–30 minuti.</p>
+    <div class="riga">
+      <button id="btnAlbi" class="serve-token">Cerca i link agli albi</button>
+      <span class="stat" id="statAlbi"></span>
+    </div>
+    <details>
+      <summary>Elenco comuni e link (modificabili a mano)</summary>
+      <div class="riga">
+        <label><input type="checkbox" id="soloDaVerificare"> Mostra solo quelli da verificare</label>
+        <button class="secondario piccolo serve-token" id="btnSalvaLink">Salva i link</button>
+      </div>
+      <small class="aiuto">Se un link manca o è sbagliato, incolla quello giusto e salva: non verrà più sovrascritto. Spunta dei comuni per controllare solo quelli.</small>
+      <div class="tabella">
+        <table>
+          <thead><tr><th scope="col">Sel.</th><th scope="col">Comune</th><th scope="col">Link albo</th><th scope="col">Ultimo controllo</th><th scope="col">Stato</th></tr></thead>
+          <tbody id="corpoComuni"></tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <section class="blocco" aria-labelledby="t2">
+    <h2 id="t2"><span class="num">2</span>Controllo delle determine</h2>
+    <p class="desc">Legge ogni albo fino alla data indicata, tiene le determine che contengono le parole chiave e scarica gli allegati rinominati per comune e data.</p>
+    <div class="due">
+      <div class="campo"><span id="lblParole">Parole chiave <b id="nParole"></b></span>
+        <div class="chips" data-lista="parole"><input type="text" aria-labelledby="lblParole" placeholder="scrivi e premi Invio, es. strada"></div>
+        <small>Invio o virgola per aggiungere. Si possono incollare più parole insieme. Se non ne metti, prende tutte le determine.</small>
+      </div>
+      <div class="campo"><span id="lblEscl">Escludi se contiene <b id="nEscl"></b></span>
+        <div class="chips escl" data-lista="esclusioni"><input type="text" aria-labelledby="lblEscl" placeholder="scrivi e premi Invio"></div>
+        <small>Gli atti con una di queste parole vengono scartati.</small>
+      </div>
+    </div>
+    <div class="riga">
+      <label><input type="checkbox" id="soloDetermine"> Solo determinazioni</label>
+      <label><input type="checkbox" id="scarica"> Scarica gli allegati</label>
+      <button class="secondario piccolo serve-token" id="btnSalvaImp">Salva le impostazioni</button>
+      <span class="stat" id="statImp"></span>
+    </div>
+
+    <fieldset class="campo" style="border:0;padding:0;margin:18px 0 8px">
+      <span>Da quale data</span>
+      <div class="riga">
+        <label><input type="radio" name="modo" value="ultimo" checked> Dall'ultimo controllo di ogni comune</label>
+        <label><input type="radio" name="modo" value="data"> Da una data precisa</label>
+        <input type="date" id="data" style="width:auto" aria-label="Data di partenza">
+      </div>
+      <small>I comuni mai controllati partono dalla data qui a fianco.</small>
+    </fieldset>
+    <div class="riga">
+      <button id="btnMonitora" class="serve-token">Avvia il controllo</button>
+      <span class="stat" id="statSel"></span>
+    </div>
+  </section>
+</div>
+
+<aside>
+  <div class="pannello" aria-live="polite">
+    <h2>Stato</h2>
+    <div><span class="pallino" id="pallino"></span><span id="stato">—</span></div>
+    <div class="stat" id="statoDett"></div>
+    <div class="riga"><a class="bottone secondario" id="lnkRun" target="_blank" rel="noopener" aria-disabled="true">Dettaglio su GitHub</a></div>
+    <div id="messaggio"></div>
+  </div>
+  <div class="pannello" style="position:static">
+    <h2>Controlli fatti</h2>
+    <ul class="storico" id="storico"><li class="vuoto">Ancora nessun controllo.</li></ul>
+  </div>
+</aside>
+
+<section class="blocco risultati-wrap" aria-labelledby="t3">
+  <h2 id="t3">Determine trovate nell'ultimo controllo</h2>
+  <p class="desc" id="descRisultati">—</p>
+  <div class="tabella" style="max-height:600px">
+    <table>
+      <thead><tr><th scope="col">Comune</th><th scope="col">Pubblicata</th><th scope="col">Oggetto</th><th scope="col">Parole</th><th scope="col">Atto</th></tr></thead>
+      <tbody id="corpoRisultati"></tbody>
+    </table>
+  </div>
+  <details id="detRiep">
+    <summary>Albi da controllare a mano nell'ultimo giro</summary>
+    <ul id="riepilogo"></ul>
+  </details>
+</section>
+</main>
+
+<dialog id="dlg">
+  <h2 style="margin-top:0;font-size:18px">Collega GitHub</h2>
+  <p style="font-size:14px">Serve un "token", una chiave personale che permette a questa pagina di avviare i controlli e salvare le impostazioni. Si crea una volta:</p>
+  <ol>
+    <li>Apri <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com → Fine-grained token</a>.</li>
+    <li>Nome: "Monitor albi". Scadenza: quella che preferisci.</li>
+    <li>Repository access: <b>Only select repositories</b> → scegli questo repository.</li>
+    <li>Permissions → Repository: <b>Actions</b> Read and write, <b>Contents</b> Read and write.</li>
+    <li>Genera, copia il token e incollalo qui sotto.</li>
+  </ol>
+  <label class="campo"><span>Token</span><input type="password" id="inToken" autocomplete="off" placeholder="github_pat_…"></label>
+  <label class="campo"><span>Repository</span><input type="text" id="inRepo" placeholder="utente/nome-repository"><small>Di solito si compila da solo.</small></label>
+  <small class="aiuto">Il token resta salvato solo in questo browser. Su un computer condiviso premi "Scollega" quando hai finito.</small>
+  <div class="riga" style="margin-top:16px">
+    <button id="btnSalvaToken">Collega</button>
+    <button class="secondario" id="btnScollega">Scollega</button>
+    <button class="secondario" id="btnChiudi">Chiudi</button>
+  </div>
+  <div id="msgDlg" class="stat"></div>
+</dialog>
+
+<script>
+const $ = id => document.getElementById(id);
+const WORKFLOW = "monitora.yml";
+const CHIAVE = "monitorAlbi";
+let imp = {};
+try { imp = JSON.parse(localStorage.getItem(CHIAVE) || "{}"); } catch (e) {}
+let D = { config: {}, comuni: [], controlli: {}, storico: [], ultimo: {} };
+const liste = { parole: [], esclusioni: [] };
+let ramo = "main";
+let modificheImp = false;
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const dataIt = iso => iso ? iso.slice(0, 10).split("-").reverse().join("/") : "—";
+const quandoIt = s => { const m = /^(\d{4})-(\d{2})-(\d{2})_(\d{2})(\d{2})/.exec(s || ""); return m ? `${m[3]}/${m[2]}/${m[1]} alle ${m[4]}:${m[5]}` : s; };
+
+function repoDaUrl() {
+  const h = location.hostname;
+  if (!h.endsWith(".github.io")) return "";
+  const owner = h.split(".")[0];
+  const nome = location.pathname.split("/").filter(Boolean)[0] || `${owner}.github.io`;
+  return `${owner}/${nome}`;
+}
+const repo = () => imp.repo || repoDaUrl();
+const haToken = () => !!(imp.token && repo());
+
+function messaggio(t, errore) { const m = $("messaggio"); m.textContent = t || ""; m.className = errore ? "errore" : ""; }
+
+async function gh(path, opz = {}) {
+  const r = await fetch("https://api.github.com" + path, {
+    ...opz,
+    headers: { "Authorization": "Bearer " + imp.token, "Accept": opz.raw ? "application/vnd.github.raw+json" : "application/vnd.github+json",
+               "X-GitHub-Api-Version": "2022-11-28", ...(opz.body ? {"Content-Type": "application/json"} : {}) }
+  });
+  if (!r.ok) {
+    let det = ""; try { det = (await r.json()).message; } catch (e) {}
+    if (r.status === 401) throw new Error("Token non valido o scaduto: ricollega GitHub.");
+    if (r.status === 403 || r.status === 404) throw new Error(`GitHub ha rifiutato la richiesta (${r.status}${det ? ": " + det : ""}). Controlla nome del repository e permessi del token.`);
+    throw new Error(`Errore GitHub ${r.status}${det ? ": " + det : ""}`);
+  }
+  if (r.status === 204) return null;
+  return opz.raw ? r.text() : r.json();
+}
+
+async function leggiDato(nome, def) {
+  try {
+    if (haToken()) return JSON.parse(await gh(`/repos/${repo()}/contents/docs/dati/${nome}?ref=${ramo}`, { raw: true }));
+    const r = await fetch(`dati/${nome}?t=${Date.now()}`);
+    return r.ok ? await r.json() : def;
+  } catch (e) { return def; }
+}
+
+function b64(testo) {
+  const byte = new TextEncoder().encode(testo);
+  let s = "";
+  for (let i = 0; i < byte.length; i += 0x8000) s += String.fromCharCode.apply(null, byte.subarray(i, i + 0x8000));
+  return btoa(s);
+}
+
+async function scriviDato(nome, obj, msg) {
+  const path = `/repos/${repo()}/contents/docs/dati/${nome}`;
+  let sha;
+  try { sha = (await gh(`${path}?ref=${ramo}`)).sha; } catch (e) {}
+  await gh(path, { method: "PUT", body: JSON.stringify({ message: msg, content: b64(JSON.stringify(obj, null, 2) + "\n"), branch: ramo, ...(sha ? {sha} : {}) }) });
+}
+
+function linkFile(rel) {
+  if (!rel) return "";
+  return repo() ? `https://github.com/${repo()}/raw/${ramo}/docs/${rel}` : rel;
+}
+
+// ------------------------------------------------------------- chips
+function aggiungi(lista, testo) {
+  let c = false;
+  for (const t of testo.split(/[\n,;]+/).map(x => x.trim()).filter(Boolean)) {
+    if (!liste[lista].some(x => x.toLowerCase() === t.toLowerCase())) { liste[lista].push(t); c = true; }
+  }
+  if (c) { segnaModifica(); disegnaChips(); }
+}
+function segnaModifica() { modificheImp = true; $("statImp").textContent = "Modifiche non salvate"; }
+function disegnaChips() {
+  for (const box of document.querySelectorAll(".chips")) {
+    const lista = box.dataset.lista, input = box.querySelector("input");
+    box.querySelectorAll(".chip").forEach(c => c.remove());
+    liste[lista].forEach((t, i) => {
+      const c = document.createElement("span");
+      c.className = "chip";
+      c.innerHTML = `${esc(t)}<button type="button" aria-label="Togli ${esc(t)}">×</button>`;
+      c.querySelector("button").onclick = () => { liste[lista].splice(i, 1); segnaModifica(); disegnaChips(); input.focus(); };
+      box.insertBefore(c, input);
+    });
+  }
+  $("nParole").textContent = liste.parole.length ? `(${liste.parole.length})` : "";
+  $("nEscl").textContent = liste.esclusioni.length ? `(${liste.esclusioni.length})` : "";
+}
+function confermaInput() {
+  for (const box of document.querySelectorAll(".chips")) {
+    const i = box.querySelector("input");
+    if (i.value.trim()) { aggiungi(box.dataset.lista, i.value); i.value = ""; }
+  }
+}
+for (const box of document.querySelectorAll(".chips")) {
+  const input = box.querySelector("input"), lista = box.dataset.lista;
+  box.addEventListener("click", e => { if (e.target === box) input.focus(); });
+  input.addEventListener("keydown", e => {
+    if ((e.key === "Enter" || e.key === "," || e.key === ";") && input.value.trim()) { e.preventDefault(); aggiungi(lista, input.value); input.value = ""; }
+    else if (e.key === "Enter") e.preventDefault();
+    else if (e.key === "Backspace" && !input.value && liste[lista].length) { liste[lista].pop(); segnaModifica(); disegnaChips(); }
+  });
+  input.addEventListener("paste", e => {
+    const t = (e.clipboardData || window.clipboardData).getData("text");
+    if (/[\n,;]/.test(t)) { e.preventDefault(); aggiungi(lista, t); }
+  });
+  input.addEventListener("blur", () => { if (input.value.trim()) { aggiungi(lista, input.value); input.value = ""; } });
+}
+["soloDetermine", "scarica"].forEach(id => $(id).addEventListener("change", segnaModifica));
+
+// ---------------------------------------------------------- disegno
+const daVerificare = c => !c.albo || /verifica/.test(c.note || "");
+
+function disegnaComuni() {
+  const lista = D.comuni.filter(c => !$("soloDaVerificare").checked || daVerificare(c));
+  const con = D.comuni.filter(c => c.albo).length;
+  $("statAlbi").innerHTML = D.comuni.length ? `<b>${con}</b> albi trovati su <b>${D.comuni.length}</b> comuni` : "Elenco non ancora creato";
+  $("corpoComuni").innerHTML = lista.length ? lista.map(c => {
+    const no = daVerificare(c);
+    return `<tr class="${no ? "giallo" : ""}">
+      <td><input type="checkbox" class="sel" data-nome="${esc(c.nome)}" aria-label="Seleziona ${esc(c.nome)}"></td>
+      <td>${c.sito ? `<a href="${esc(c.sito)}" target="_blank" rel="noopener">${esc(c.nome)}</a>` : esc(c.nome)}</td>
+      <td><input type="text" class="linkAlbo" data-nome="${esc(c.nome)}" value="${esc(c.albo)}" placeholder="incolla il link all'albo"></td>
+      <td>${dataIt(D.controlli[c.nome])}</td>
+      <td>${no ? `<span class="badge no" title="${esc(c.note)}">da verificare</span>` : `<span class="badge ok">${c.manuale ? "inserito a mano" : "ok"}</span>`}</td></tr>`;
+  }).join("") : `<tr><td colspan="5" class="vuoto">${D.comuni.length ? "Nessun comune da verificare." : "Nessun comune: avvia la ricerca dei link."}</td></tr>`;
+  aggiornaSel();
+}
+const selezionati = () => [...document.querySelectorAll(".sel:checked")].map(e => e.dataset.nome);
+function aggiornaSel() { const n = selezionati().length; $("statSel").textContent = n ? `Solo ${n} comuni selezionati` : "Tutti i comuni con un albo"; }
+document.addEventListener("change", e => { if (e.target.classList.contains("sel")) aggiornaSel(); });
+$("soloDaVerificare").onchange = disegnaComuni;
+
+function disegnaStorico() {
+  $("storico").innerHTML = D.storico.length ? D.storico.slice(0, 15).map(s => `<li>
+    <div class="quando">${quandoIt(s.quando)} · ${s.tipo === "albi" ? "ricerca albi" : "controllo determine"}</div>
+    <div>${esc(s.esito)}</div>
+    <div class="riga" style="margin:6px 0 0">
+      ${s.excel ? `<a href="${esc(linkFile(s.excel))}">Excel</a>` : ""}
+      ${s.zip ? `<a href="${esc(s.zip)}">Excel + allegati (zip)</a>` : ""}
+    </div></li>`).join("") : `<li class="vuoto">Ancora nessun controllo.</li>`;
+}
+
+function disegnaRisultati() {
+  const u = D.ultimo || {};
+  const ris = u.risultati || [];
+  $("descRisultati").innerHTML = u.quando
+    ? `Controllo del ${quandoIt(u.quando)}. ${esc(u.esito)} ${u.zip ? `<a href="${esc(u.zip)}">Scarica Excel e allegati</a>` : (u.excel ? `<a href="${esc(linkFile(u.excel))}">Scarica l'Excel</a>` : "")}`
+    : "Ancora nessun controllo.";
+  $("corpoRisultati").innerHTML = ris.length ? ris.map(r => `<tr>
+    <td>${esc(r.comune)}</td><td>${dataIt(r.data)}</td><td>${esc(r.oggetto)}</td>
+    <td>${esc((r.parole || []).join(", "))}</td>
+    <td>${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">apri</a>` : ""}</td></tr>`).join("")
+    : `<tr><td colspan="5" class="vuoto">Nessuna determina.</td></tr>`;
+  const prob = (u.riepilogo || []).filter(r => !String(r.esito).startsWith("OK"));
+  $("detRiep").hidden = !prob.length;
+  $("riepilogo").innerHTML = prob.map(r => `<li><a href="${esc(r.albo)}" target="_blank" rel="noopener">${esc(r.comune)}</a>: ${esc(r.esito)}</li>`).join("");
+}
+
+function aggiornaPermessi() {
+  document.querySelectorAll(".serve-token").forEach(b => b.disabled = !haToken() || corre);
+  $("avvisoToken").hidden = haToken();
+  $("btnImpostazioni").textContent = haToken() ? "GitHub collegato" : "Collega GitHub";
+}
+
+async function carica() {
+  const [config, comuni, controlli, storico, ultimo] = await Promise.all([
+    leggiDato("config.json", {}), leggiDato("comuni.json", []), leggiDato("ultimi_controlli.json", {}),
+    leggiDato("storico.json", []), leggiDato("ultimo_run.json", {})]);
+  D = { config, comuni, controlli, storico, ultimo };
+  if (!modificheImp) {
+    liste.parole = [...(config.parole || [])];
+    liste.esclusioni = [...(config.esclusioni || [])];
+    $("soloDetermine").checked = config.solo_determine !== false;
+    $("scarica").checked = config.scarica !== false;
+    disegnaChips();
+  }
+  disegnaComuni(); disegnaStorico(); disegnaRisultati();
+}
+
+// ------------------------------------------------------------- azioni
+async function salvaImpostazioni() {
+  confermaInput();
+  const cfg = { ...D.config, parole: liste.parole, esclusioni: liste.esclusioni,
+                solo_determine: $("soloDetermine").checked, scarica: $("scarica").checked };
+  await scriviDato("config.json", cfg, "Aggiorna parole chiave e impostazioni");
+  D.config = cfg; modificheImp = false;
+  $("statImp").textContent = "Salvate";
+}
+
+$("btnSalvaImp").onclick = async () => {
+  try { messaggio("Salvo…"); await salvaImpostazioni(); messaggio("Impostazioni salvate."); }
+  catch (e) { messaggio(e.message, true); }
+};
+
+$("btnSalvaLink").onclick = async () => {
+  try {
+    messaggio("Salvo i link…");
+    const nuovi = Object.fromEntries([...document.querySelectorAll(".linkAlbo")].map(i => [i.dataset.nome, i.value.trim()]));
+    const comuni = await leggiDato("comuni.json", []);
+    let n = 0;
+    for (const c of comuni) {
+      if (c.nome in nuovi && nuovi[c.nome] !== (c.albo || "")) {
+        c.albo = nuovi[c.nome]; c.manuale = !!c.albo; c.note = c.albo ? "link inserito a mano" : c.note; n++;
+      }
+    }
+    if (!n) return messaggio("Nessun link modificato.");
+    await scriviDato("comuni.json", comuni, `Corregge a mano ${n} link agli albi`);
+    D.comuni = comuni; disegnaComuni();
+    messaggio(`${n} link salvati.`);
+  } catch (e) { messaggio(e.message, true); }
+};
+
+async function avvia(inputs) {
+  await gh(`/repos/${repo()}/actions/workflows/${WORKFLOW}/dispatches`, { method: "POST", body: JSON.stringify({ ref: ramo, inputs }) });
+  messaggio("Avviato. GitHub impiega qualche secondo a partire.");
+  setTimeout(sonda, 4000);
+}
+
+$("btnAlbi").onclick = async () => {
+  if (!confirm("Cercare di nuovo i link agli albi di tutti i comuni? I link inseriti a mano restano.")) return;
+  try { await avvia({ azione: "albi" }); } catch (e) { messaggio(e.message, true); }
+};
+
+$("btnMonitora").onclick = async () => {
+  try {
+    if (!D.comuni.length) return messaggio("Prima cerca i link agli albi (passo 1).", true);
+    confermaInput();
+    if (modificheImp) { messaggio("Salvo le impostazioni…"); await salvaImpostazioni(); }
+    const modo = document.querySelector("input[name=modo]:checked").value;
+    await avvia({ azione: "monitora", modo, data: $("data").value || "", solo: selezionati().join(", ") });
+  } catch (e) { messaggio(e.message, true); }
+};
+
+// --------------------------------------------------------------- stato
+let corre = false, eraInCorso = false;
+async function sonda() {
+  if (!haToken()) { $("stato").textContent = "Collega GitHub per vedere lo stato"; aggiornaPermessi(); return; }
+  try {
+    const r = await gh(`/repos/${repo()}/actions/workflows/${WORKFLOW}/runs?per_page=1`);
+    const run = (r.workflow_runs || [])[0];
+    const p = $("pallino");
+    if (!run) { $("stato").textContent = "Nessun lavoro ancora eseguito"; corre = false; }
+    else {
+      corre = run.status !== "completed";
+      const min = Math.max(0, Math.round((Date.now() - new Date(run.run_started_at || run.created_at)) / 60000));
+      p.className = "pallino " + (corre ? "corre" : run.conclusion === "success" ? "ok" : "ko");
+      $("stato").textContent = corre ? (run.status === "queued" ? "In coda" : "In corso") :
+        run.conclusion === "success" ? "Ultimo lavoro completato" : run.conclusion === "cancelled" ? "Ultimo lavoro annullato" : "Ultimo lavoro fallito";
+      $("statoDett").textContent = corre ? `Avviato ${min} min fa. Puoi chiudere questa pagina: il lavoro continua.` :
+        `${run.event === "schedule" ? "Controllo automatico" : "Avviato a mano"} il ${new Date(run.created_at).toLocaleString("it-IT")}`;
+      $("lnkRun").href = run.html_url; $("lnkRun").setAttribute("aria-disabled", "false");
+      if (eraInCorso && !corre) { messaggio("Lavoro finito: risultati aggiornati."); await carica(); }
+      eraInCorso = corre;
+    }
+  } catch (e) { $("stato").textContent = "Stato non disponibile"; messaggio(e.message, true); }
+  aggiornaPermessi();
+}
+
+// ------------------------------------------------------------ token
+function apriDialog() { $("inToken").value = imp.token || ""; $("inRepo").value = repo(); $("msgDlg").textContent = ""; $("dlg").showModal(); }
+$("btnImpostazioni").onclick = apriDialog;
+$("lnkCollega").onclick = e => { e.preventDefault(); apriDialog(); };
+$("btnChiudi").onclick = () => $("dlg").close();
+$("btnScollega").onclick = () => { imp = {}; try { localStorage.removeItem(CHIAVE); } catch (e) {} $("dlg").close(); avvio(); };
+$("btnSalvaToken").onclick = async () => {
+  imp = { token: $("inToken").value.trim(), repo: $("inRepo").value.trim().replace(/^https:\/\/github\.com\//, "").replace(/\/$/, "") };
+  $("msgDlg").textContent = "Verifico…";
+  try {
+    const info = await gh(`/repos/${imp.repo}`);
+    ramo = info.default_branch || "main";
+    try { localStorage.setItem(CHIAVE, JSON.stringify(imp)); } catch (e) {}
+    $("dlg").close(); messaggio("GitHub collegato."); avvio();
+  } catch (e) { $("msgDlg").textContent = e.message; }
+};
+
+async function avvio() {
+  if (haToken()) { try { ramo = (await gh(`/repos/${repo()}`)).default_branch || "main"; } catch (e) {} }
+  const t = new Date(); t.setDate(t.getDate() - 30);
+  if (!$("data").value) $("data").value = t.toISOString().slice(0, 10);
+  aggiornaPermessi();
+  await carica();
+  sonda();
+}
+avvio();
+setInterval(() => { if (haToken()) sonda(); }, 15000);
+</script>
+</body>
+</html>
