@@ -1,12 +1,2641 @@
 [
   {
+    "nome": "Acquafredda",
+    "scheda": "https://www.tuttitalia.it/lombardia/87-acquafredda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.acquafredda.bs.it/",
+    "albo": "http://www.halleyweb.com/c017001/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Adro",
+    "scheda": "https://www.tuttitalia.it/lombardia/24-adro/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.adro.bs.it/",
+    "albo": "https://www.comune.adro.bs.it/albo-pretorio",
+    "altri": [
+      "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=dr1543"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Agnosine",
+    "scheda": "https://www.tuttitalia.it/lombardia/38-agnosine/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.agnosine.bs.it/",
+    "albo": "https://bit.ly/alboagnosine",
+    "altri": [
+      "https://agnosine.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Alfianello",
+    "scheda": "https://www.tuttitalia.it/lombardia/43-alfianello/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.alfianello.bs.it/",
+    "albo": "https://alfianello.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Anfo",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-anfo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.anfo.bs.it/",
+    "albo": "https://anfo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "trovato da Amministrazione trasparente"
+  },
+  {
+    "nome": "Angolo Terme",
+    "scheda": "https://www.tuttitalia.it/lombardia/82-angolo-terme/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.angolo-terme.bs.it/",
+    "albo": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Artogne",
+    "scheda": "https://www.tuttitalia.it/lombardia/29-artogne/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.artogne.bs.it/",
+    "albo": "https://artogne.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Azzano Mella",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-azzano-mella/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.azzanomella.bs.it/",
+    "albo": "https://www.comune.azzanomella.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.azzanomella.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=e1609&freeze=1&P="
+    ],
+    "piattaforma": "",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Bagnolo Mella",
+    "scheda": "https://www.tuttitalia.it/lombardia/24-bagnolo-mella/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bagnolomella.bs.it/",
+    "albo": "https://www.comune.bagnolomella.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.bagnolomella.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg701&freeze=1&P="
+    ],
+    "piattaforma": "",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Bagolino",
+    "scheda": "https://www.tuttitalia.it/lombardia/74-bagolino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bagolino.bs.it/",
+    "albo": "https://bagolino.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutra",
+    "altri": [
+      "http://www.halleyweb.com/c017010/mc/mc_p_ricerca.php",
+      "https://www.comune.bagolino.bs.it/area_letturaServizio/2309/pagsistema.html",
+      "https://bagolino.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Halley",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Barbariga",
+    "scheda": "https://www.tuttitalia.it/lombardia/15-barbariga/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.barbariga.bs.it/",
+    "albo": "https://www.comune.barbariga.bs.it/it/page/124794",
+    "altri": [],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Barghe",
+    "scheda": "https://www.tuttitalia.it/lombardia/30-barghe/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.barghe.bs.it/",
+    "albo": "https://bit.ly/albobarghe",
+    "altri": [
+      "https://www.comune.barghe.bs.it/area_letturaServizio/2284/pagsistema.html",
+      "https://barghe.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Bassano Bresciano",
+    "scheda": "https://www.tuttitalia.it/lombardia/43-bassano-bresciano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bassano-bresciano.bs.it/",
+    "albo": "https://bassanobresciano.halleyegov.it/redirect.html?F=MC09",
+    "altri": [
+      "https://bassanobresciano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Halley",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Bedizzole",
+    "scheda": "https://www.tuttitalia.it/lombardia/72-bedizzole/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bedizzole.bs.it/",
+    "albo": "https://bit.ly/albobedizzole",
+    "altri": [
+      "https://bedizzole.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Berlingo",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-berlingo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.berlingo.bs.it/",
+    "albo": "https://www.comune.berlingo.bs.it/Documenti-e-dati/Documenti-albo-pretorio",
+    "altri": [
+      "https://berlingo.halleyegov.it/redirect.html?F=MC09"
+    ],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Berzo Demo",
+    "scheda": "https://www.tuttitalia.it/lombardia/71-berzo-demo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.berzo-demo.bs.it/",
+    "albo": "https://berzodemo.trasparenza-valutazione-merito.it/",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Berzo Inferiore",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-berzo-inferiore/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.berzo-inferiore.bs.it/",
+    "albo": "https://www.halleyweb.com/c017017/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Bienno",
+    "scheda": "https://www.tuttitalia.it/lombardia/62-bienno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bienno.bs.it/",
+    "albo": "https://bienno.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Bione",
+    "scheda": "https://www.tuttitalia.it/lombardia/43-bione/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bione.bs.it/",
+    "albo": "https://bione.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://www.comune.bione.bs.it/area_letturaServizio/1983/pagsistema.html"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Borgo San Giacomo",
+    "scheda": "https://www.tuttitalia.it/lombardia/42-borgo-san-giacomo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.borgosangiacomo.bs.it/",
+    "albo": "https://www.comune.borgosangiacomo.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.borgosangiacomo.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg837&freeze=1&P="
+    ],
+    "piattaforma": "Halley",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Borgosatollo",
+    "scheda": "https://www.tuttitalia.it/lombardia/80-borgosatollo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.borgosatollo.bs.it/",
+    "albo": "https://servizi-borgosatollo.e-pal.it/AlboOnline",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Borno",
+    "scheda": "https://www.tuttitalia.it/lombardia/27-borno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.borno.bs.it/",
+    "albo": "https://borno.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=2698",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Botticino",
+    "scheda": "https://www.tuttitalia.it/lombardia/70-botticino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.botticino.bs.it/",
+    "albo": "https://botticino.trasparenza-valutazione-merito.it/",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Bovegno",
+    "scheda": "https://www.tuttitalia.it/lombardia/98-bovegno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bovegno.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsbovegno/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "https://www.comune.bovegno.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=e1597&freeze=1&P=",
+      "https://albo.studiok.it/bovegno/albo/"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Bovezzo",
+    "scheda": "https://www.tuttitalia.it/lombardia/79-bovezzo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.bovezzo.bs.it/",
+    "albo": "https://bovezzo.halleyegov.it/redirect.html?F=MC09",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Brandico",
+    "scheda": "https://www.tuttitalia.it/lombardia/75-brandico/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.brandico.bs.it/",
+    "albo": "https://brandico.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://brandico.halleyegov.it/redirect.html?F=MC09"
+    ],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Braone",
+    "scheda": "https://www.tuttitalia.it/lombardia/40-braone/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.braone.bs.it/",
+    "albo": "https://www.halleyweb.com/c017027/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Breno",
+    "scheda": "https://www.tuttitalia.it/lombardia/34-breno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.breno.bs.it/",
+    "albo": "https://breno.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Brescia",
+    "scheda": "https://www.tuttitalia.it/lombardia/65-brescia/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.brescia.it/",
+    "albo": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Brione",
+    "scheda": "https://www.tuttitalia.it/lombardia/12-brione/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.brione.bs.it/",
+    "albo": "http://albo.studiok.it/brione/albo/index.php?",
+    "altri": [
+      "https://albo.studiok.it/brione/albo/index.php",
+      "https://servizionline.hspromilaprod.hypersicapp.net/cmsbrione/listaservizi.aspx?U=1&S=200"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Caino",
+    "scheda": "https://www.tuttitalia.it/lombardia/33-caino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.caino.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmscaino/listaservizi.aspx?U=1&S=200",
+    "altri": [
+      "https://albo.studiok.it/caino/albo/index.php"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Calcinato",
+    "scheda": "https://www.tuttitalia.it/lombardia/65-calcinato/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.calcinato.bs.it/",
+    "albo": "https://calcinato.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Calvagese della Riviera",
+    "scheda": "https://www.tuttitalia.it/lombardia/76-calvagese-della-riviera/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.calvagesedellariviera.bs.it/",
+    "albo": "https://www.comune.calvagesedellariviera.bs.it/it/page/159379",
+    "altri": [],
+    "piattaforma": "Maggioli",
+    "note": ""
+  },
+  {
+    "nome": "Calvisano",
+    "scheda": "https://www.tuttitalia.it/lombardia/26-calvisano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.calvisano.bs.it/",
+    "albo": "https://calvisano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Capo di Ponte",
+    "scheda": "https://www.tuttitalia.it/lombardia/36-capo-di-ponte/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.capo-di-ponte.bs.it/",
+    "albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=cpdpnt1569",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Capovalle",
+    "scheda": "https://www.tuttitalia.it/lombardia/95-capovalle/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.capovalle.bs.it/",
+    "albo": "https://bit.ly/albocapovalle",
+    "altri": [
+      "https://www.comune.capovalle.bs.it/area_letturaServizio/2240/pagsistema.html",
+      "https://capovalle.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Capriano del Colle",
+    "scheda": "https://www.tuttitalia.it/lombardia/21-capriano-del-colle/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.capriano.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmscaprianodelcolle/listaservizi.aspx?U=1&S=200",
+    "altri": [
+      "https://servizionline.hspromilaprod.hypersicapp.net/cmscaprianodelcolle/portale/albopretorio/albopretorioconsultazione.aspx?P=400&categoria=4"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Capriolo",
+    "scheda": "https://www.tuttitalia.it/lombardia/90-capriolo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.capriolo.org/",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": "voce 'Albo' presente ma il link non si risolve: verifica"
+  },
+  {
+    "nome": "Carpenedolo",
+    "scheda": "https://www.tuttitalia.it/lombardia/24-carpenedolo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.carpenedolo.bs.it/",
+    "albo": "https://www.comune.carpenedolo.bs.it/it/page/88359",
+    "altri": [],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Castegnato",
+    "scheda": "https://www.tuttitalia.it/lombardia/45-castegnato/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.castegnato.bs.it/",
+    "albo": "https://portale.comunecastegnato.org/openweb/albo/albo_pretorio.php",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Castel Mella",
+    "scheda": "https://www.tuttitalia.it/lombardia/25-castel-mella/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.castelmella.bs.it/",
+    "albo": "https://castelmella.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-sezione?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=68300",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Castelcovati",
+    "scheda": "https://www.tuttitalia.it/lombardia/23-castelcovati/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.castelcovati.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmscastelcovati/portale/albopretorio/albopretorioconsultazione.aspx?P=600",
+    "altri": [
+      "https://albo.apkappa.it/castelcovati/albostorico/"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Castenedolo",
+    "scheda": "https://www.tuttitalia.it/lombardia/39-castenedolo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.castenedolo.bs.it/",
+    "albo": "https://halleyweb.com/c017043/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017043",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Casto",
+    "scheda": "https://www.tuttitalia.it/lombardia/59-casto/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.casto.bs.it/",
+    "albo": "https://casto.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://albo.studiok.it/casto/albo/index.php"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Castrezzato",
+    "scheda": "https://www.tuttitalia.it/lombardia/38-castrezzato/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comunecastrezzato.it/",
+    "albo": "https://castrezzato.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio;jsessionid=9C71B59331F395674FDCB2C0253C0924",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Cazzago San Martino",
+    "scheda": "https://www.tuttitalia.it/lombardia/16-cazzago-san-martino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.cazzago.bs.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n1200468&areaAttiva=1",
+    "altri": [],
+    "piattaforma": "WordPress",
+    "note": ""
+  },
+  {
+    "nome": "Cedegolo",
+    "scheda": "https://www.tuttitalia.it/lombardia/62-cedegolo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cedegolo.bs.it/",
+    "albo": "https://cedegolo.trasparenza-valutazione-merito.it/",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Cellatica",
+    "scheda": "https://www.tuttitalia.it/lombardia/28-cellatica/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cellatica.bs.it/",
+    "albo": "http://halleyweb.com/c017048/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Cerveno",
+    "scheda": "https://www.tuttitalia.it/lombardia/78-cerveno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cerveno.bs.it/",
+    "albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=crvn1570",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Ceto",
+    "scheda": "https://www.tuttitalia.it/lombardia/38-ceto/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.ceto.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsceto/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Cevo",
+    "scheda": "https://www.tuttitalia.it/lombardia/49-cevo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cevo.bs.it/",
+    "albo": "https://cevo.trasparenza-valutazione-merito.it/",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Chiari",
+    "scheda": "https://www.tuttitalia.it/lombardia/67-chiari/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.chiari.brescia.it/",
+    "albo": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Cigole",
+    "scheda": "https://www.tuttitalia.it/lombardia/80-cigole/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cigole.bs.it/",
+    "albo": "https://cigole.halleyweb.it/c017053/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Cimbergo",
+    "scheda": "https://www.tuttitalia.it/lombardia/80-cimbergo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cimbergo.bs.it/",
+    "albo": "http://halleyweb.com/c017054/index.php?servizio=304",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Cividate Camuno",
+    "scheda": "https://www.tuttitalia.it/lombardia/16-cividate-camuno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cividate-camuno.bs.it/",
+    "albo": "https://cividatecamuno.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Coccaglio",
+    "scheda": "https://www.tuttitalia.it/lombardia/67-coccaglio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.coccaglio.bs.it/",
+    "albo": "https://coccaglio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Collebeato",
+    "scheda": "https://www.tuttitalia.it/lombardia/66-collebeato/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.collebeato.bs.it/",
+    "albo": "https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017057",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Collio",
+    "scheda": "https://www.tuttitalia.it/lombardia/85-collio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.collio.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmscollio/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "https://albo.studiok.it/collio/albo/index.php"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Cologne",
+    "scheda": "https://www.tuttitalia.it/lombardia/26-cologne/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cologne.bs.it/",
+    "albo": "https://cologne.trasparenza-valutazione-merito.it/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Comezzano-Cizzago",
+    "scheda": "https://www.tuttitalia.it/lombardia/94-comezzano-cizzago/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.comezzanocizzago.bs.it/",
+    "albo": "https://comune.comezzanocizzago.bs.it/documenti/2177794/albo-pretorio-halley",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Concesio",
+    "scheda": "https://www.tuttitalia.it/lombardia/89-concesio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.concesio.bs.it/",
+    "albo": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Corte Franca",
+    "scheda": "https://www.tuttitalia.it/lombardia/23-corte-franca/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.cortefranca.bs.it/",
+    "albo": "https://halleyweb.com/c017062/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Corteno Golgi",
+    "scheda": "https://www.tuttitalia.it/lombardia/19-corteno-golgi/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.corteno-golgi.bs.it/",
+    "albo": "https://www.comune.corteno-golgi.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Corzano",
+    "scheda": "https://www.tuttitalia.it/lombardia/95-corzano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.corzano.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmscorzano/listaservizi.aspx?U=1&S=200",
+    "altri": [],
+    "piattaforma": "Maggioli",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Darfo Boario Terme",
+    "scheda": "https://www.tuttitalia.it/lombardia/56-darfo-boario-terme/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.darfoboarioterme.bs.it/",
+    "albo": "https://www.comune.darfoboarioterme.bs.it/it/page/albo-pretorio?albo-target-code=AP",
+    "altri": [
+      "https://www.comune.darfoboarioterme.bs.it/it/page/storico-atti?albo-target-code=SA"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Dello",
+    "scheda": "https://www.tuttitalia.it/lombardia/23-dello/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.dello.bs.it/",
+    "albo": "https://dello.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Desenzano del Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/82-desenzano-del-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.desenzano.brescia.it/",
+    "albo": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=26288",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Edolo",
+    "scheda": "https://www.tuttitalia.it/lombardia/12-edolo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.edolo.bs.it/",
+    "albo": "https://www.comune.edolo.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Erbusco",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-erbusco/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.erbusco.bs.it/",
+    "albo": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://www.halleyweb.com/c017069/mc/mc_gridev_messi.php?x=94a832a501147c5a375cec8d3e82d88d&servizio=&bck=https%3A//www.hall"
+    ],
+    "piattaforma": "Halley",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Esine",
+    "scheda": "https://www.tuttitalia.it/lombardia/16-esine/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.esine.bs.it/",
+    "albo": "https://esine.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://www.comune.esine.bs.it/Pages/Albo/"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Fiesse",
+    "scheda": "https://www.tuttitalia.it/lombardia/19-fiesse/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.fiesse.bs.it/",
+    "albo": "http://www.halleyweb.com/c017071/index.php?servizio=304",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Flero",
+    "scheda": "https://www.tuttitalia.it/lombardia/89-flero/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.flero.bs.it/",
+    "albo": "https://flero.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Gambara",
+    "scheda": "https://www.tuttitalia.it/lombardia/56-gambara/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.gambara.bs.it/",
+    "albo": "https://gambara.halleyegov.it/redirect.html?F=MC09",
+    "altri": [
+      "http://asp.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200705"
+    ],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Gardone Riviera",
+    "scheda": "https://www.tuttitalia.it/lombardia/40-gardone-riviera/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.gardoneriviera.bs.it/",
+    "albo": "http://www.halleyweb.com/c017074/mc/mc_p_ricerca.php",
+    "altri": [
+      "https://www.comune.gardoneriviera.bs.it/Documenti-e-dati/Documenti-albo-pretorio",
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00368800173&idsezione=2"
+    ],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Gardone Val Trompia",
+    "scheda": "https://www.tuttitalia.it/lombardia/37-gardone-val-trompia/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.gardonevaltrompia.bs.it/",
+    "albo": "https://servizi.comune.gardonevaltrompia.bs.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200373",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Gargnano",
+    "scheda": "https://www.tuttitalia.it/lombardia/56-gargnano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.gargnano.bs.it/",
+    "albo": "http://www.halleyweb.com/c017076/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Gavardo",
+    "scheda": "https://www.tuttitalia.it/lombardia/44-gavardo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.gavardo.bs.it/",
+    "albo": "https://bit.ly/albogavardo",
+    "altri": [
+      "https://gavardo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Ghedi",
+    "scheda": "https://www.tuttitalia.it/lombardia/94-ghedi/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.ghedi.brescia.it/",
+    "albo": "https://ghedi.halleyweb.it/c017078/index.php?servizio=304",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Gianico",
+    "scheda": "https://www.tuttitalia.it/lombardia/46-gianico/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.gianico.bs.it/",
+    "albo": "https://www.halleyweb.com/c017079/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Gottolengo",
+    "scheda": "https://www.tuttitalia.it/lombardia/49-gottolengo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.gottolengo.bs.it/",
+    "albo": "https://gottolengo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Gussago",
+    "scheda": "https://www.tuttitalia.it/lombardia/36-gussago/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.gussago.bs.it/",
+    "albo": "https://www.comune.gussago.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.gussago.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=egt61&freeze=1&P="
+    ],
+    "piattaforma": "Halley",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Idro",
+    "scheda": "https://www.tuttitalia.it/lombardia/15-idro/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.idro.bs.it/",
+    "albo": "https://bit.ly/alboidro",
+    "altri": [
+      "https://idro.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Incudine",
+    "scheda": "https://www.tuttitalia.it/lombardia/40-incudine/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.incudine.bs.it/",
+    "albo": "https://www.comune.incudine.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Irma",
+    "scheda": "https://www.tuttitalia.it/lombardia/83-irma/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.irma.bs.it/",
+    "albo": "https://albo.studiok.it/irma/albo/index.php",
+    "altri": [
+      "https://servizionline.hspromilaprod.hypersicapp.net/cmsirma/listaservizi.aspx?U=1&S=200"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Iseo",
+    "scheda": "https://www.tuttitalia.it/lombardia/28-iseo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.iseo.bs.it/",
+    "albo": "http://www.halleyweb.com/c017085/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Isorella",
+    "scheda": "https://www.tuttitalia.it/lombardia/35-isorella/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.isorella.bs.it/",
+    "albo": "https://www.comune.isorella.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.isorella.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg800&freeze=1&P="
+    ],
+    "piattaforma": "Halley",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Lavenone",
+    "scheda": "https://www.tuttitalia.it/lombardia/60-lavenone/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.lavenone.bs.it/",
+    "albo": "https://bit.ly/albolavenone",
+    "altri": [
+      "https://www.comune.lavenone.bs.it/area_letturaServizio/2295/pagsistema.html",
+      "https://lavenone.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Leno",
+    "scheda": "https://www.tuttitalia.it/lombardia/91-leno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.leno.bs.it/",
+    "albo": "https://leno.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=18970&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=30404",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Limone sul Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/29-limone-sul-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.limonesulgarda.bs.it/",
+    "albo": "https://limonesulgarda.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Lodrino",
+    "scheda": "https://www.tuttitalia.it/lombardia/58-lodrino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.lodrino.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmslodrino/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "https://albo.studiok.it/lodrino/albo/index.php"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Lograto",
+    "scheda": "https://www.tuttitalia.it/lombardia/56-lograto/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.lograto.bs.it/",
+    "albo": "https://albo.apkappa.it/lograto/albo/index.php",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Lonato del Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/50-lonato-del-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.lonato.bs.it/",
+    "albo": "https://www.comune.lonato.bs.it/albo-pretorio",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Longhena",
+    "scheda": "https://www.tuttitalia.it/lombardia/96-longhena/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.longhena.bs.it/",
+    "albo": "https://longhena.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Losine",
+    "scheda": "https://www.tuttitalia.it/lombardia/92-losine/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.losine.bs.it/",
+    "albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=lsn1571",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Lozio",
+    "scheda": "https://www.tuttitalia.it/lombardia/20-lozio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.lozio.bs.it/",
+    "albo": "https://www.halleyweb.com/c017095/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Lumezzane",
+    "scheda": "https://www.tuttitalia.it/lombardia/90-lumezzane/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.lumezzane.bs.it/",
+    "albo": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+    "altri": [],
+    "piattaforma": "Maggioli",
+    "note": ""
+  },
+  {
+    "nome": "Maclodio",
+    "scheda": "https://www.tuttitalia.it/lombardia/64-maclodio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.maclodio.bs.it/",
+    "albo": "https://www.comune.maclodio.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.maclodio.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg667&freeze=1&P="
+    ],
+    "piattaforma": "",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Magasa",
+    "scheda": "https://www.tuttitalia.it/lombardia/68-magasa/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.magasa.bs.it/",
+    "albo": "http://www.studiok.it/comuni/magasa/albo/albo_lista.php",
+    "altri": [
+      "https://albo.apkappa.it/magasa/albo/index.php"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Mairano",
+    "scheda": "https://www.tuttitalia.it/lombardia/84-mairano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.mairano.bs.it/",
+    "albo": "https://mairano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://www.comune.mairano.bs.it/Documenti-e-dati/Documenti-albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Malegno",
+    "scheda": "https://www.tuttitalia.it/lombardia/66-malegno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.malegno.bs.it/",
+    "albo": "https://malegno.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=17958",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Malonno",
+    "scheda": "https://www.tuttitalia.it/lombardia/82-malonno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.malonno.bs.it/",
+    "albo": "https://www.comune.malonno.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Manerba del Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/57-manerba-del-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.manerbadelgarda.bs.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200775",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Manerbio",
+    "scheda": "https://www.tuttitalia.it/lombardia/23-manerbio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.manerbio.bs.it/",
+    "albo": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Marcheno",
+    "scheda": "https://www.tuttitalia.it/lombardia/95-marcheno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.marcheno.bs.it/",
+    "albo": "https://marcheno.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Marmentino",
+    "scheda": "https://www.tuttitalia.it/lombardia/22-marmentino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.marmentino.bs.it/",
+    "albo": "https://albo.apkappa.it/marmentino/albo/index.php",
+    "altri": [
+      "https://servizionline.hspromilaprod.hypersicapp.net/cmsmarmentino/listaservizi.aspx?U=1&S=200"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Marone",
+    "scheda": "https://www.tuttitalia.it/lombardia/28-marone/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.marone.bs.it/",
+    "albo": "https://marone.soluzionipa.it/openweb/albo/albo_pretorio.php",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Mazzano",
+    "scheda": "https://www.tuttitalia.it/lombardia/72-mazzano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.mazzano.bs.it/",
+    "albo": "https://mazzano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Milzano",
+    "scheda": "https://www.tuttitalia.it/lombardia/81-milzano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.milzano.bs.it/",
+    "albo": "https://www.comune.milzano.bs.it/it/page/16800",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Moniga del Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/23-moniga-del-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.monigadelgarda.bs.it/",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "",
+    "note": "albo non trovato in home"
+  },
+  {
+    "nome": "Monno",
+    "scheda": "https://www.tuttitalia.it/lombardia/78-monno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.monno.bs.it/",
+    "albo": "https://www.comune.monno.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Monte Isola",
+    "scheda": "https://www.tuttitalia.it/lombardia/84-monte-isola/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.monteisola.bs.it/",
+    "albo": "https://monteisola.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=1389",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Monticelli Brusati",
+    "scheda": "https://www.tuttitalia.it/lombardia/35-monticelli-brusati/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.monticellibrusati.bs.it/",
+    "albo": "https://www.comune.monticellibrusati.bs.it/it/menu/349772",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Montichiari",
+    "scheda": "https://www.tuttitalia.it/lombardia/86-montichiari/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.montichiari.bs.it/",
+    "albo": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio1",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Montirone",
+    "scheda": "https://www.tuttitalia.it/lombardia/60-montirone/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.montirone.bs.it/",
+    "albo": "https://montirone.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Mura",
+    "scheda": "https://www.tuttitalia.it/lombardia/62-mura/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.mura.bs.it/",
+    "albo": "https://bit.ly/albomura",
+    "altri": [
+      "https://mura.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Muscoline",
+    "scheda": "https://www.tuttitalia.it/lombardia/45-muscoline/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.muscoline.bs.it/",
+    "albo": "https://bit.ly/albomuscoline",
+    "altri": [
+      "https://www.comune.muscoline.bs.it/area_letturaServizio/2299/pagsistema.html",
+      "https://muscoline.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Nave",
+    "scheda": "https://www.tuttitalia.it/lombardia/22-nave/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.nave.bs.it/",
+    "albo": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Niardo",
+    "scheda": "https://www.tuttitalia.it/lombardia/85-niardo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.niardo.bs.it/",
+    "albo": "https://niardo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Nuvolento",
+    "scheda": "https://www.tuttitalia.it/lombardia/60-nuvolento/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.nuvolento.bs.it/",
+    "albo": "https://nuvolento.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Nuvolera",
+    "scheda": "https://www.tuttitalia.it/lombardia/21-nuvolera/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.nuvolera.bs.it/",
+    "albo": "https://nuvolera.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio-2",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Odolo",
+    "scheda": "https://www.tuttitalia.it/lombardia/63-odolo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.odolo.bs.it/",
+    "albo": "https://bit.ly/alboodolo",
+    "altri": [
+      "https://odolo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Offlaga",
+    "scheda": "https://www.tuttitalia.it/lombardia/55-offlaga/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.offlaga.bs.it/",
+    "albo": "https://offlaga.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Ome",
+    "scheda": "https://www.tuttitalia.it/lombardia/87-ome/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.ome.bs.it/",
+    "albo": "https://ome.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Ono San Pietro",
+    "scheda": "https://www.tuttitalia.it/lombardia/92-ono-san-pietro/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.ono-san-pietro.bs.it/",
+    "albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=nsnptr1572",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Orzinuovi",
+    "scheda": "https://www.tuttitalia.it/lombardia/16-orzinuovi/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.orzinuovi.bs.it/",
+    "albo": "https://orzinuovi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Orzivecchi",
+    "scheda": "https://www.tuttitalia.it/lombardia/95-orzivecchi/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.orzivecchi.bs.it/",
+    "albo": "https://orzivecchi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Ospitaletto",
+    "scheda": "https://www.tuttitalia.it/lombardia/96-ospitaletto/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.ospitaletto.bs.it/",
+    "albo": "https://www.comune.ospitaletto.bs.it/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Ossimo",
+    "scheda": "https://www.tuttitalia.it/lombardia/42-ossimo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.ossimo.bs.it/",
+    "albo": "https://ossimo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Padenghe sul Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/52-padenghe-sul-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.padenghesulgarda.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspadenghesulgarda/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "http://albo.studiok.it/padenghesulgarda/albo/index.php?"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Paderno Franciacorta",
+    "scheda": "https://www.tuttitalia.it/lombardia/14-paderno-franciacorta/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.padernofranciacorta.bs.it/",
+    "albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Home.aspx?Ce=pdrnfrnccrt1545",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Paisco Loveno",
+    "scheda": "https://www.tuttitalia.it/lombardia/49-paisco-loveno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.paisco-loveno.bs.it/",
+    "albo": "https://www.comune.paisco-loveno.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Paitone",
+    "scheda": "https://www.tuttitalia.it/lombardia/14-paitone/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.paitone.bs.it/",
+    "albo": "https://bit.ly/albopaitone",
+    "altri": [
+      "https://www.comune.paitone.bs.it/area_letturaServizio/2252/pagsistema.html",
+      "https://paitone.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Palazzolo sull'Oglio",
+    "scheda": "https://www.tuttitalia.it/lombardia/75-palazzolo-sull-oglio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.palazzolosulloglio.bs.it/",
+    "albo": "https://www.halleyweb.com/c017133/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Paratico",
+    "scheda": "https://www.tuttitalia.it/lombardia/45-paratico/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.paratico.bs.it/",
+    "albo": "https://halleyweb.com/c017134/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Paspardo",
+    "scheda": "https://www.tuttitalia.it/lombardia/39-paspardo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.paspardo.bs.it/",
+    "albo": "https://halleyweb.com/c017135/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Passirano",
+    "scheda": "https://www.tuttitalia.it/lombardia/35-passirano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.passirano.bs.it/",
+    "albo": "https://comune.passirano.bs.it/documenti/2389535/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Pavone del Mella",
+    "scheda": "https://www.tuttitalia.it/lombardia/46-pavone-del-mella/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.pavone-del-mella.bs.it/",
+    "albo": "https://www.comune.pavone-del-mella.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.pavone-del-mella.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg894&freeze=1&P="
+    ],
+    "piattaforma": "Halley",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Pertica Alta",
+    "scheda": "https://www.tuttitalia.it/lombardia/93-pertica-alta/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.perticaalta.bs.it/",
+    "albo": "https://bit.ly/alboperticaalta",
+    "altri": [
+      "https://perticaalta.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Pertica Bassa",
+    "scheda": "https://www.tuttitalia.it/lombardia/66-pertica-bassa/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.perticabassa.bs.it/",
+    "albo": "https://bit.ly/alboperticabassa",
+    "altri": [
+      "https://perticabassa.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Pezzaze",
+    "scheda": "https://www.tuttitalia.it/lombardia/78-pezzaze/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.pezzaze.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspezzaze/listaservizi.aspx?U=1&S=300",
+    "altri": [
+      "https://servizionline.hspromilaprod.hypersicapp.net/cmspezzaze/portale/albopretorio/archivioalbopretorio.aspx?P=500",
+      "https://albo.apkappa.it/pezzaze/albo/index.php"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Pian Camuno",
+    "scheda": "https://www.tuttitalia.it/lombardia/83-pian-camuno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.piancamuno.bs.it/",
+    "albo": "https://piancamuno.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Piancogno",
+    "scheda": "https://www.tuttitalia.it/lombardia/55-piancogno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.piancogno.bs.it/",
+    "albo": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Pisogne",
+    "scheda": "https://www.tuttitalia.it/lombardia/54-pisogne/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.pisogne.bs.it/",
+    "albo": "https://www.comune.pisogne.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.pisogne.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg770&freeze=1&P="
+    ],
+    "piattaforma": "",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Polaveno",
+    "scheda": "https://www.tuttitalia.it/lombardia/22-polaveno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.polaveno.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspolaveno/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Polpenazze del Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/65-polpenazze-del-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.polpenazzedelgarda.bs.it/",
+    "albo": "https://www.comune.polpenazzedelgarda.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.polpenazzedelgarda.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=egt65&freeze=1&P="
+    ],
+    "piattaforma": "Halley",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Pompiano",
+    "scheda": "https://www.tuttitalia.it/lombardia/28-pompiano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.pompiano.brescia.it/",
+    "albo": "https://pompiano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Poncarale",
+    "scheda": "https://www.tuttitalia.it/lombardia/30-poncarale/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.poncarale.brescia.it/",
+    "albo": "https://poncarale.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/grid/251172/5480",
+    "altri": [
+      "https://poncarale.halleyegov.it/redirect.html?F=MC09"
+    ],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Ponte di Legno",
+    "scheda": "https://www.tuttitalia.it/lombardia/90-ponte-di-legno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.ponte-di-legno.bs.it/",
+    "albo": "https://www.comune.ponte-di-legno.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Pontevico",
+    "scheda": "https://www.tuttitalia.it/lombardia/48-pontevico/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "http://www.comune.pontevico.bs.it/",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "",
+    "note": "errore: Page.goto: net::ERR_CONNECTION_RESET at http://www.comune.pontevico.bs.it/\nCall log:\n  - navigating "
+  },
+  {
+    "nome": "Pontoglio",
+    "scheda": "https://www.tuttitalia.it/lombardia/28-pontoglio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.pontoglio.bs.it/",
+    "albo": "https://www.comune.pontoglio.bs.it/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Pozzolengo",
+    "scheda": "https://www.tuttitalia.it/lombardia/64-pozzolengo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.pozzolengo.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspozzolengo/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "https://servizionline.hspromilaprod.hypersicapp.net/cmspozzolengo/portale/albopretorio/archivioalbopretorio.aspx?P=500",
+      "https://albo.apkappa.it/pozzolengo/albostorico/"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Pralboino",
+    "scheda": "https://www.tuttitalia.it/lombardia/50-pralboino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.pralboino.bs.it/",
+    "albo": "https://pralboino.halleyegov.it/redirect.html?F=MC09",
+    "altri": [
+      "https://www.comune.pralboino.bs.it/",
+      "https://www.comune.pralboino.bs.it/Vivere-il-comune/Eventi/L-arte-contemporanea-incontra-il-territorio-a-Pralboino-inaugura-la-mostra-collettiva-Rivedersi-Riidis",
+      "https://www.comune.pralboino.bs.it/openpa/object/1562"
+    ],
+    "piattaforma": "Halley",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Preseglie",
+    "scheda": "https://www.tuttitalia.it/lombardia/39-preseglie/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.preseglie.bs.it/",
+    "albo": "https://bit.ly/albopreseglie",
+    "altri": [
+      "https://preseglie.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Prestine",
+    "scheda": "https://www.tuttitalia.it/lombardia/79-prestine/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.prestine.gov.it",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "",
+    "note": "errore: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.prestine.gov.it/\nCall log:\n  - navigating to \"h"
+  },
+  {
+    "nome": "Prevalle",
+    "scheda": "https://www.tuttitalia.it/lombardia/55-prevalle/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.prevalle.bs.it/",
+    "albo": "https://prevalle.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Provaglio d'Iseo",
+    "scheda": "https://www.tuttitalia.it/lombardia/16-provaglio-d-iseo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.provagliodiseo.bs.it/",
+    "albo": "https://provaglio.soluzionipa.it/openweb/albo/albo_pretorio.php?oggi=1",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Provaglio Val Sabbia",
+    "scheda": "https://www.tuttitalia.it/lombardia/81-provaglio-val-sabbia/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.provagliovalsabbia.bs.it/",
+    "albo": "https://bit.ly/alboprovagliovs",
+    "altri": [
+      "https://www.comune.provagliovalsabbia.bs.it/area_letturaServizio/2310/pagsistema.html",
+      "https://provagliovalsabbia.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Puegnago del Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/85-puegnago-del-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.puegnagodelgarda.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspuegnagogarda/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "https://www.comune.puegnagodelgarda.bs.it/Documenti-e-dati/Documenti-albo-pretorio"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Quinzano d'Oglio",
+    "scheda": "https://www.tuttitalia.it/lombardia/52-quinzano-d-oglio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.quinzanodoglio.bs.it/",
+    "albo": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg173&freeze=1&P="
+    ],
+    "piattaforma": "",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Remedello",
+    "scheda": "https://www.tuttitalia.it/lombardia/56-remedello/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.remedello.bs.it/",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "",
+    "note": "errore: Page.goto: net::ERR_CONNECTION_RESET at https://www.comune.remedello.bs.it/\nCall log:\n  - navigating"
+  },
+  {
+    "nome": "Rezzato",
+    "scheda": "https://www.tuttitalia.it/lombardia/94-rezzato/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.rezzato.bs.it/",
+    "albo": "https://bit.ly/alborezzato",
+    "altri": [
+      "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Roccafranca",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-roccafranca/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.roccafranca.bs.it/",
+    "albo": "https://roccafranca.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Rodengo Saiano",
+    "scheda": "https://www.tuttitalia.it/lombardia/81-rodengo-saiano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.rodengo-saiano.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/listaservizi.aspx?U=1&S=200",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Roè Volciano",
+    "scheda": "https://www.tuttitalia.it/lombardia/15-roe-volciano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.roevolciano.bs.it/",
+    "albo": "https://bit.ly/alboroevolciano",
+    "altri": [
+      "https://roevolciano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Roncadelle",
+    "scheda": "https://www.tuttitalia.it/lombardia/72-roncadelle/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.roncadelle.bs.it/",
+    "albo": "http://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio-1",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Rovato",
+    "scheda": "https://www.tuttitalia.it/lombardia/60-rovato/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.rovato.bs.it/",
+    "albo": "https://trasparenza.comune.rovato.bs.it/redirect.html?F=MC09",
+    "altri": [
+      "https://trasparenza.comune.rovato.bs.it/redirect.html?F=MC11",
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00450610175&idsezione=1"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Rudiano",
+    "scheda": "https://www.tuttitalia.it/lombardia/57-rudiano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.rudiano.bs.it/",
+    "albo": "https://comune.rudiano.bs.it/documenti/2509241/albo-pretorio",
+    "altri": [
+      "https://rudiano.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=20189"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Sabbio Chiese",
+    "scheda": "https://www.tuttitalia.it/lombardia/41-sabbio-chiese/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sabbio.bs.it/",
+    "albo": "https://bit.ly/albosabbio",
+    "altri": [
+      "https://sabbio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Sale Marasino",
+    "scheda": "https://www.tuttitalia.it/lombardia/21-sale-marasino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sale-marasino.bs.it/",
+    "albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=slmrsn1592",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Salò",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-salo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.salo.bs.it/",
+    "albo": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "San Felice del Benaco",
+    "scheda": "https://www.tuttitalia.it/lombardia/54-san-felice-del-benaco/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sanfelicedelbenaco.bs.it/",
+    "albo": "https://sanfelicedelbenaco.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://urlsand.esvalabs.com/?u=https%3A%2F%2Falbo.studiok.it%2Fsanfelicedelbenaco%2Falbostorico%2F&e=53559bfa&h=e3a7ae6a&f=y&p=y"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "San Gervasio Bresciano",
+    "scheda": "https://www.tuttitalia.it/lombardia/77-san-gervasio-bresciano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.sangervasiobresciano.bs.it/",
+    "albo": "https://sangervasiobresciano.halleyegov.it/redirect.html?F=MC09",
+    "altri": [
+      "https://sangervasiobresciano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Halley",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "San Paolo",
+    "scheda": "https://www.tuttitalia.it/lombardia/55-san-paolo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sanpaolo.bs.it/",
+    "albo": "https://sanpaolo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "San Zeno Naviglio",
+    "scheda": "https://www.tuttitalia.it/lombardia/86-san-zeno-naviglio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sanzenonaviglio.bs.it/",
+    "albo": "https://www.halleyweb.com/c017173/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Sarezzo",
+    "scheda": "https://www.tuttitalia.it/lombardia/15-sarezzo/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.sarezzo.bs.it/",
+    "albo": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Saviore dell'Adamello",
+    "scheda": "https://www.tuttitalia.it/lombardia/32-saviore-dell-adamello/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.saviore-delladamello.bs.it/",
+    "albo": "https://savioredelladamello.trasparenza-valutazione-merito.it/",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Sellero",
+    "scheda": "https://www.tuttitalia.it/lombardia/81-sellero/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sellero.bs.it/",
+    "albo": "https://sellero.trasparenza-valutazione-merito.it/",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Seniga",
+    "scheda": "https://www.tuttitalia.it/lombardia/90-seniga/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.seniga.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsseniga/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "https://albo.apkappa.it/seniga/albo/"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Serle",
+    "scheda": "https://www.tuttitalia.it/lombardia/98-serle/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.serle.bs.it/",
+    "albo": "https://serle.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Sirmione",
+    "scheda": "https://www.tuttitalia.it/lombardia/40-sirmione/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sirmione.bs.it/",
+    "albo": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Soiano del Lago",
+    "scheda": "https://www.tuttitalia.it/lombardia/18-soiano-del-lago/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.soianodellago.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmssoianodellago/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [
+      "https://servizionline.hspromilaprod.hypersicapp.net/cmssoianodellago/portale/albopretorio/archivioalbopretorio.aspx?P=500"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Sonico",
+    "scheda": "https://www.tuttitalia.it/lombardia/68-sonico/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sonico.bs.it/",
+    "albo": "https://www.comune.sonico.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Sulzano",
+    "scheda": "https://www.tuttitalia.it/lombardia/41-sulzano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.sulzano.bs.it/",
+    "albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Home.aspx?CE=slzn1554",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Tavernole sul Mella",
+    "scheda": "https://www.tuttitalia.it/lombardia/97-tavernole-sul-mella/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.tavernolesulmella.bs.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmstavernole/listaservizi.aspx?U=1&S=200",
+    "altri": [
+      "https://albo.studiok.it/tavernolesulmella/albo/index.php"
+    ],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Temù",
+    "scheda": "https://www.tuttitalia.it/lombardia/27-temu/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.temu.bs.it/",
+    "albo": "https://www.comune.temu.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Tignale",
+    "scheda": "https://www.tuttitalia.it/lombardia/84-tignale/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.tignale.bs.it/",
+    "albo": "http://www.halleyweb.com/c017185/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Torbole Casaglia",
+    "scheda": "https://www.tuttitalia.it/lombardia/64-torbole-casaglia/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.torbole-casaglia.bs.it/",
+    "albo": "https://torbolecasaglia.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Toscolano-Maderno",
+    "scheda": "https://www.tuttitalia.it/lombardia/77-toscolano-maderno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.toscolanomaderno.bs.it/",
+    "albo": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00581090982",
+    "altri": [],
+    "piattaforma": "Maggioli",
+    "note": ""
+  },
+  {
+    "nome": "Travagliato",
+    "scheda": "https://www.tuttitalia.it/lombardia/71-travagliato/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.travagliato.bs.it/",
+    "albo": "http://travagliato.trasparenza-valutazione-merito.it/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Tremosine sul Garda",
+    "scheda": "https://www.tuttitalia.it/lombardia/43-tremosine-sul-garda/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.tremosine.bs.it/",
+    "albo": "https://www.comune.tremosine.bs.it/documenti/2649353/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Trenzano",
+    "scheda": "https://www.tuttitalia.it/lombardia/72-trenzano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.trenzano.bs.it/",
+    "albo": "https://www.comune.trenzano.bs.it/albo-pretorio",
+    "altri": [
+      "https://trenzano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Treviso Bresciano",
+    "scheda": "https://www.tuttitalia.it/lombardia/38-treviso-bresciano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.trevisobresciano.bs.it/",
+    "albo": "https://bit.ly/albotrevisobs",
+    "altri": [
+      "https://trevisobresciano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Urago d'Oglio",
+    "scheda": "https://www.tuttitalia.it/lombardia/59-urago-d-oglio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.uragodoglio.bs.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200848",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Vallio Terme",
+    "scheda": "https://www.tuttitalia.it/lombardia/81-vallio-terme/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.vallioterme.bs.it/",
+    "albo": "https://vallioterme.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Valvestino",
+    "scheda": "https://www.tuttitalia.it/lombardia/25-valvestino/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://comune.valvestino.bs.it/",
+    "albo": "http://halleyweb.com/c017194/index.php?servizio=304",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Verolanuova",
+    "scheda": "https://www.tuttitalia.it/lombardia/66-verolanuova/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.verolanuova.bs.it/",
+    "albo": "https://www.comune.verolanuova.bs.it/EG0/EGHOMEPAGE.HBL",
+    "altri": [
+      "https://www.comune.verolanuova.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg791&freeze=1&P="
+    ],
+    "piattaforma": "",
+    "note": "link ottenuto cliccando"
+  },
+  {
+    "nome": "Verolavecchia",
+    "scheda": "https://www.tuttitalia.it/lombardia/15-verolavecchia/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.verolavecchia.bs.it/",
+    "albo": "https://verolavecchia.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Vestone",
+    "scheda": "https://www.tuttitalia.it/lombardia/59-vestone/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.vestone.bs.it/",
+    "albo": "https://bit.ly/albovestone",
+    "altri": [
+      "https://vestone.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Vezza d'Oglio",
+    "scheda": "https://www.tuttitalia.it/lombardia/37-vezza-d-oglio/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.vezza-d-oglio.bs.it/",
+    "albo": "https://www.comune.vezza-d-oglio.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Villa Carcina",
+    "scheda": "https://www.tuttitalia.it/lombardia/66-villa-carcina/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.villacarcina.bs.it/",
+    "albo": "https://www.comune.villacarcina.bs.it/it/page/9939",
+    "altri": [],
+    "piattaforma": "",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Villachiara",
+    "scheda": "https://www.tuttitalia.it/lombardia/52-villachiara/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.villachiara.bs.it/",
+    "albo": "https://villachiara.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Villanuova sul Clisi",
+    "scheda": "https://www.tuttitalia.it/lombardia/32-villanuova-sul-clisi/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.villanuova-sul-clisi.bs.it/",
+    "albo": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://albo.studiok.it/villanuovasulclisi/albostorico/index.php"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Vione",
+    "scheda": "https://www.tuttitalia.it/lombardia/14-vione/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.vione.bs.it/",
+    "albo": "https://www.comune.vione.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Visano",
+    "scheda": "https://www.tuttitalia.it/lombardia/57-visano/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "http://www.comune.visano.bs.it/",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "",
+    "note": "errore: Page.goto: net::ERR_CONNECTION_RESET at http://www.comune.visano.bs.it/\nCall log:\n  - navigating to "
+  },
+  {
+    "nome": "Vobarno",
+    "scheda": "https://www.tuttitalia.it/lombardia/78-vobarno/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.vobarno.bs.it/",
+    "albo": "https://vobarno.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Zone",
+    "scheda": "https://www.tuttitalia.it/lombardia/18-zone/",
+    "regione": "Lombardia",
+    "provincia": "Brescia",
+    "sigla": "BS",
+    "sito": "https://www.comune.zone.bs.it/",
+    "albo": "https://www.comune.zone.bs.it/Pages/Albo/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
     "nome": "Agordo",
     "scheda": "https://www.tuttitalia.it/veneto/75-agordo/",
     "sito": "https://www.comune.agordo.bl.it/",
     "albo": "https://agordo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Alleghe",
@@ -15,7 +2644,10 @@
     "albo": "https://alleghe.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Alpago",
@@ -26,7 +2658,10 @@
       "https://alpago.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio"
     ],
     "piattaforma": "Halley",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Arsiè",
@@ -35,7 +2670,10 @@
     "albo": "https://servizionline.comune.arsie.bl.it/c025004/mc/mc_p_ricerca.php",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Auronzo di Cadore",
@@ -44,7 +2682,10 @@
     "albo": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Belluno",
@@ -53,7 +2694,10 @@
     "albo": "https://alboonline.comune.belluno.it/",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Borca di Cadore",
@@ -62,7 +2706,10 @@
     "albo": "https://borcadicadore.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=5652",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Borgo Valbelluna",
@@ -71,7 +2718,10 @@
     "albo": "https://borgovalbelluna.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Calalzo di Cadore",
@@ -82,7 +2732,10 @@
       "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00194080255"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Canale d'Agordo",
@@ -91,7 +2744,10 @@
     "albo": "https://canaledagordo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Cencenighe Agordino",
@@ -100,7 +2756,10 @@
     "albo": "https://cencenigheagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Cesiomaggiore",
@@ -109,7 +2768,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200471&w3cbt=S",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Chies d'Alpago",
@@ -118,7 +2780,10 @@
     "albo": "https://www.comune.chiesdalpago.bl.it/albo_on_line",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Cibiana di Cadore",
@@ -129,7 +2794,10 @@
       "https://www.comune.cibianadicadore.bl.it/albopretorio"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Colle Santa Lucia",
@@ -138,7 +2806,10 @@
     "albo": "https://collesantalucia.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Comelico Superiore",
@@ -147,7 +2818,10 @@
     "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Cortina d'Ampezzo",
@@ -156,7 +2830,10 @@
     "albo": "http://cortina.soluzionipa.it/openweb/albo/albo_pretorio.php",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Danta di Cadore",
@@ -165,7 +2842,10 @@
     "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Domegge di Cadore",
@@ -174,7 +2854,10 @@
     "albo": "https://domeggedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Falcade",
@@ -183,7 +2866,10 @@
     "albo": "https://falcade.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Feltre",
@@ -194,7 +2880,10 @@
       "https://servizi.comune.feltre.bl.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1232596&w3cbt=S"
     ],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Fonzaso",
@@ -203,7 +2892,10 @@
     "albo": "https://servizionline.comune.fonzaso.bl.it/c025022/mc/mc_p_ricerca.php",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Gosaldo",
@@ -212,7 +2904,10 @@
     "albo": "https://gosaldo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "La Valle Agordina",
@@ -221,7 +2916,10 @@
     "albo": "https://servizionline.comune.lavalleagordina.bl.it/c025027/mc/mc_p_ricerca.php",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Lamon",
@@ -230,7 +2928,10 @@
     "albo": "https://servizionline.comune.lamon.bl.it/c025026/mc/mc_p_ricerca.php",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Limana",
@@ -241,7 +2942,10 @@
       "https://www.limana.org/alboneolaureati/"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Livinallongo del CdL",
@@ -250,7 +2954,10 @@
     "albo": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Longarone",
@@ -259,7 +2966,10 @@
     "albo": "https://longarone.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=8885",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Lorenzago di Cadore",
@@ -268,7 +2978,10 @@
     "albo": "https://lorenzagodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Lozzo di Cadore",
@@ -279,7 +2992,10 @@
       "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00185970258"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Ospitale di Cadore",
@@ -288,7 +3004,10 @@
     "albo": "https://servizionline.comune.ospitaledicadore.bl.it/c025035/mc/mc_p_ricerca.php",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Pedavena",
@@ -299,7 +3018,10 @@
       "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200469"
     ],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Perarolo di Cadore",
@@ -308,7 +3030,10 @@
     "albo": "https://perarolodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Pieve di Cadore",
@@ -317,7 +3042,10 @@
     "albo": "https://pievedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Ponte nelle Alpi",
@@ -326,7 +3054,10 @@
     "albo": "https://servizionline.comune.pontenellealpi.bl.it/mc/mc_p_ricerca.php",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Rivamonte Agordino",
@@ -335,7 +3066,10 @@
     "albo": "https://rivamonteagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Rocca Pietore",
@@ -344,7 +3078,10 @@
     "albo": "https://roccapietore.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "San Gregorio nelle Alpi",
@@ -353,7 +3090,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1201636",
     "altri": [],
     "piattaforma": "WordPress",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "San Nicolò di Comelico",
@@ -362,7 +3102,10 @@
     "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmssnicolocomelico/listaservizi.aspx?U=1&S=200",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "San Pietro di Cadore",
@@ -371,7 +3114,10 @@
     "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "San Tomaso Agordino",
@@ -381,7 +3127,10 @@
     "altri": [],
     "piattaforma": "",
     "note": "link inserito a mano",
-    "manuale": true
+    "manuale": true,
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "San Vito di Cadore",
@@ -390,7 +3139,10 @@
     "albo": "https://sanvitodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Santa Giustina",
@@ -399,7 +3151,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200473&w3cbt=S",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Santo Stefano di Cadore",
@@ -409,7 +3164,10 @@
     "altri": [],
     "piattaforma": "",
     "note": "link inserito a mano",
-    "manuale": true
+    "manuale": true,
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Sedico",
@@ -418,7 +3176,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1201705&w3cbt=S",
     "altri": [],
     "piattaforma": "Maggioli",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Selva di Cadore",
@@ -427,7 +3188,10 @@
     "albo": "https://selvadicadore.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Seren del Grappa",
@@ -436,7 +3200,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n1200474&areaAttiva=2",
     "altri": [],
     "piattaforma": "WordPress",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Setteville",
@@ -445,7 +3212,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1241647&w3cbt=S",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Sospirolo",
@@ -454,7 +3224,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1201708",
     "altri": [],
     "piattaforma": "WordPress",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Soverzene",
@@ -465,7 +3238,10 @@
       "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00206600256"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Sovramonte",
@@ -474,7 +3250,10 @@
     "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200475&w3cbt=S",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Taibon Agordino",
@@ -483,7 +3262,10 @@
     "albo": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Tambre",
@@ -495,7 +3277,10 @@
       "http://tambre.trasparenza-valutazione-merito.it/"
     ],
     "piattaforma": "Halley",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Val di Zoldo",
@@ -504,7 +3289,10 @@
     "albo": "https://servizi.comune.valdizoldo.bl.it/ServiziOnLine/Istanze/landingIstanza?Id=22",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Vallada Agordina",
@@ -513,7 +3301,10 @@
     "albo": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Valle di Cadore",
@@ -524,7 +3315,10 @@
       "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00203510250"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Vigo di Cadore",
@@ -535,7 +3329,10 @@
       "https://www.comune.vigodicadore.bl.it/it/page/131209"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Vodo Cadore",
@@ -547,7 +3344,10 @@
       "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00206230252"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Voltago Agordino",
@@ -556,7 +3356,10 @@
     "albo": "https://voltagoagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   },
   {
     "nome": "Zoppè di Cadore",
@@ -567,6 +3370,9 @@
       "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00206090250"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "regione": "Veneto",
+    "provincia": "Belluno",
+    "sigla": "BL"
   }
 ]
