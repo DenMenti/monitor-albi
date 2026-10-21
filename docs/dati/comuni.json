@@ -376,11 +376,12 @@
   {
     "nome": "San Tomaso Agordino",
     "scheda": "https://www.tuttitalia.it/veneto/36-san-tomaso-agordino/",
-    "sito": "https://www.comune.santomasoagordino.bl.it/",
-    "albo": "",
+    "sito": "https://www.comune.santomasoagordino.bl.it/it",
+    "albo": "https://santomasoagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
     "altri": [],
     "piattaforma": "",
-    "note": "errore: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://www.comune.santomasoagordi"
+    "note": "link inserito a mano",
+    "manuale": true
   },
   {
     "nome": "San Vito di Cadore",
@@ -403,11 +404,12 @@
   {
     "nome": "Santo Stefano di Cadore",
     "scheda": "https://www.tuttitalia.it/veneto/66-santo-stefano-di-cadore/",
-    "sito": "https://www.santostefanodicadore.info/",
-    "albo": "",
+    "sito": "https://www.comune.santostefanodicadore.bl.it/it",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsstefanodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
     "altri": [],
     "piattaforma": "",
-    "note": "albo non trovato in home"
+    "note": "link inserito a mano",
+    "manuale": true
   },
   {
     "nome": "Sedico",
