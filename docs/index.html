@@ -316,6 +316,7 @@ function messaggio(t, errore) { const m = $("messaggio"); m.textContent = t || "
 
 async function gh(path, opz = {}) {
   const r = await fetch("https://api.github.com" + path, {
+    cache: "no-store",
     ...opz,
     headers: { "Authorization": "Bearer " + imp.token, "Accept": opz.raw ? "application/vnd.github.raw+json" : "application/vnd.github+json",
                "X-GitHub-Api-Version": "2022-11-28", ...(opz.body ? {"Content-Type": "application/json"} : {}) }
@@ -345,11 +346,28 @@ function b64(testo) {
   return btoa(s);
 }
 
+async function shaDi(path) {
+  try {
+    const info = await gh(`${path}?ref=${ramo}&t=${Date.now()}`);
+    if (!info || !info.sha) throw new Error("Risposta di GitHub incompleta");
+    return info.sha;
+  } catch (e) {
+    if (/\(404/.test(e.message)) return undefined;   // il file non esiste ancora
+    throw e;
+  }
+}
+
 async function scriviDato(nome, obj, msg) {
   const path = `/repos/${repo()}/contents/docs/dati/${nome}`;
-  let sha;
-  try { sha = (await gh(`${path}?ref=${ramo}`)).sha; } catch (e) {}
-  await gh(path, { method: "PUT", body: JSON.stringify({ message: msg, content: b64(JSON.stringify(obj, null, 2) + "\n"), branch: ramo, ...(sha ? {sha} : {}) }) });
+  const corpo = sha => JSON.stringify({ message: msg, content: b64(JSON.stringify(obj, null, 2) + "\n"), branch: ramo, ...(sha ? {sha} : {}) });
+  try {
+    await gh(path, { method: "PUT", body: corpo(await shaDi(path)) });
+  } catch (e) {
+    // file cambiato nel frattempo (es. da un lavoro appena finito): riprendo la versione nuova e riprovo una volta
+    if (!/ (409|422)/.test(e.message)) throw e;
+    await new Promise(r => setTimeout(r, 1500));
+    await gh(path, { method: "PUT", body: corpo(await shaDi(path)) });
+  }
 }
 
 function linkFile(rel) {
