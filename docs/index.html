@@ -91,6 +91,22 @@ dialog { border: 1px solid var(--linea); border-radius: 8px; background: var(--f
 dialog::backdrop { background: rgba(0,0,0,.35); }
 dialog ol { padding-left: 20px; font-size: 14px; }
 dialog li { margin: 4px 0; }
+
+#dlgLavoro { max-width: 480px; }
+.fasi { list-style: none; padding: 0; margin: 16px 0; }
+.fasi li { display: flex; gap: 12px; align-items: flex-start; padding: 8px 0; color: var(--ardesia); font-size: 15px; }
+.fasi li .seg { flex: none; width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--linea); margin-top: 1px; display: grid; place-items: center; font-size: 12px; font-weight: 700; }
+.fasi li.fatta { color: var(--inchiostro); }
+.fasi li.fatta .seg { background: var(--abete); border-color: var(--abete); color: var(--foglio); }
+.fasi li.attiva { color: var(--inchiostro); font-weight: 600; }
+.fasi li.attiva .seg { border-color: var(--abete); border-top-color: transparent; animation: gira 1s linear infinite; }
+.fasi li.errore .seg { background: var(--rosso); border-color: var(--rosso); color: var(--foglio); }
+@keyframes gira { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .fasi li.attiva .seg { animation: none; border-top-color: var(--abete); } }
+.tempo { font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums; }
+#lavoroEsito { padding: 12px 14px; border-radius: 6px; margin: 12px 0; font-size: 14px; }
+#lavoroEsito.ok { background: var(--abete-chiaro); }
+#lavoroEsito.ko { background: var(--ambra-chiaro); }
 .risultati-wrap { grid-column: 1 / -1; }
 </style>
 </head>
@@ -172,7 +188,7 @@ dialog li { margin: 4px 0; }
     <h2>Stato</h2>
     <div><span class="pallino" id="pallino"></span><span id="stato">—</span></div>
     <div class="stat" id="statoDett"></div>
-    <div class="riga"><a class="bottone secondario" id="lnkRun" target="_blank" rel="noopener" aria-disabled="true">Dettaglio su GitHub</a></div>
+    <div class="riga"><button class="secondario" id="btnAvanz" hidden>Mostra avanzamento</button><a class="bottone secondario" id="lnkRun" target="_blank" rel="noopener" aria-disabled="true">Dettaglio su GitHub</a></div>
     <div id="messaggio"></div>
   </div>
   <div class="pannello" style="position:static">
@@ -216,6 +232,21 @@ dialog li { margin: 4px 0; }
     <button class="secondario" id="btnChiudi">Chiudi</button>
   </div>
   <div id="msgDlg" class="stat"></div>
+</dialog>
+
+
+<dialog id="dlgLavoro" aria-labelledby="lavoroTitolo">
+  <h2 id="lavoroTitolo" style="margin-top:0;font-size:18px">Lavoro avviato</h2>
+  <div class="stat">Tempo trascorso</div>
+  <div class="tempo" id="lavoroTempo">0:00</div>
+  <div class="stat" id="lavoroStima"></div>
+  <ol class="fasi" id="lavoroFasi"></ol>
+  <div id="lavoroEsito" hidden></div>
+  <p class="stat" id="lavoroNota">Puoi chiudere questa finestra o anche la pagina: il lavoro continua sui server di GitHub. Quando riapri la pagina vedrai i risultati.</p>
+  <div class="riga">
+    <a class="bottone secondario" id="lavoroLink" target="_blank" rel="noopener" aria-disabled="true">Dettaglio su GitHub</a>
+    <button id="lavoroChiudi">Chiudi</button>
+  </div>
 </dialog>
 
 <script>
@@ -439,13 +470,15 @@ $("btnSalvaLink").onclick = async () => {
 
 async function avvia(inputs) {
   await gh(`/repos/${repo()}/actions/workflows/${WORKFLOW}/dispatches`, { method: "POST", body: JSON.stringify({ ref: ramo, inputs }) });
-  messaggio("Avviato. GitHub impiega qualche secondo a partire.");
+  messaggio("Avviato.");
+  lav.avviatoAlle = Date.now(); lav.inizio = Date.now(); lav.runId = null;
+  apriLavoro(inputs.azione);
   setTimeout(sonda, 4000);
 }
 
 $("btnAlbi").onclick = async () => {
   if (!confirm("Cercare di nuovo i link agli albi di tutti i comuni? I link inseriti a mano restano.")) return;
-  try { await avvia({ azione: "albi" }); } catch (e) { messaggio(e.message, true); }
+  try { await avvia({ azione: "albi" }); } catch (e) { messaggio(e.message, true); alert("Non sono riuscito ad avviare il lavoro.\n\n" + e.message); }
 };
 
 $("btnMonitora").onclick = async () => {
@@ -455,11 +488,107 @@ $("btnMonitora").onclick = async () => {
     if (modificheImp) { messaggio("Salvo le impostazioni…"); await salvaImpostazioni(); }
     const modo = document.querySelector("input[name=modo]:checked").value;
     await avvia({ azione: "monitora", modo, data: $("data").value || "", solo: selezionati().join(", ") });
-  } catch (e) { messaggio(e.message, true); }
+  } catch (e) { messaggio(e.message, true); alert("Non sono riuscito ad avviare il lavoro.\n\n" + e.message); }
 };
 
+
+// ------------------------------------------------- finestra avanzamento
+const FASI = ["In coda su GitHub", "Preparazione del browser", "", "Salvataggio dei risultati"];
+const tipoDaRun = r => /ricerca link/i.test(r.display_title || "") ? "albi" : /controllo determine/i.test(r.display_title || "") ? "monitora" : "?";
+const lav = { aperta: false, inizio: 0, runId: null, tipo: "", avviatoAlle: 0, fase: 0, finito: false, timer: null };
+
+function disegnaFasi(fase, errore) {
+  const nomi = [...FASI];
+  nomi[2] = lav.tipo === "albi" ? "Ricerca dei link agli albi (20–30 minuti)" : lav.tipo === "monitora" ? "Controllo delle determine nei comuni" : "Lavoro sui siti dei comuni";
+  $("lavoroFasi").innerHTML = nomi.map((n, i) => {
+    const cls = errore && i === fase ? "errore" : i < fase || (lav.finito && !errore) ? "fatta" : i === fase && !lav.finito ? "attiva" : "";
+    const segno = cls === "fatta" ? "✓" : cls === "errore" ? "!" : "";
+    return `<li class="${cls}"><span class="seg" aria-hidden="true">${segno}</span><span>${n}</span></li>`;
+  }).join("");
+}
+
+function apriLavoro(tipo, runId) {
+  lav.tipo = tipo || lav.tipo || "monitora";
+  lav.runId = runId || null;
+  lav.finito = false; lav.fase = 0;
+  if (!lav.inizio) lav.inizio = Date.now();
+  $("lavoroTitolo").textContent = lav.tipo === "albi" ? "Ricerca dei link agli albi" : lav.tipo === "monitora" ? "Controllo delle determine" : "Lavoro in corso";
+  $("lavoroStima").textContent = lav.tipo === "albi" ? "Di solito ci vogliono 20–30 minuti." : "Dipende da quanti comuni e da quante pagine ha ogni albo.";
+  $("lavoroEsito").hidden = true;
+  $("lavoroNota").hidden = false;
+  disegnaFasi(0);
+  if (!$("dlgLavoro").open) $("dlgLavoro").showModal();
+  lav.aperta = true;
+  clearInterval(lav.timer);
+  lav.timer = setInterval(() => {
+    const s = Math.floor((Date.now() - lav.inizio) / 1000);
+    $("lavoroTempo").textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+  }, 1000);
+  aggiornaLavoro();
+}
+
+$("lavoroChiudi").onclick = () => { $("dlgLavoro").close(); };
+$("dlgLavoro").addEventListener("close", () => { lav.aperta = false; clearInterval(lav.timer); });
+
+function faseDaSteps(steps) {
+  const attivo = steps.find(s => s.status === "in_progress") || [...steps].reverse().find(s => s.status === "completed");
+  if (!attivo) return 1;
+  const n = attivo.name.toLowerCase();
+  if (/cerca i link|controlla le determine/.test(n)) return 2;
+  if (/pubblica|salva|post |complete/.test(n)) return 3;
+  return 1;
+}
+
+async function trovaRun() {
+  const r = await gh(`/repos/${repo()}/actions/workflows/${WORKFLOW}/runs?per_page=5`);
+  const runs = r.workflow_runs || [];
+  if (lav.runId) return runs.find(x => x.id === lav.runId) || (await gh(`/repos/${repo()}/actions/runs/${lav.runId}`));
+  const soglia = lav.avviatoAlle - 60000;
+  const run = runs.find(x => new Date(x.created_at).getTime() >= soglia) || (!lav.avviatoAlle ? runs[0] : null);
+  if (run) lav.runId = run.id;
+  return run;
+}
+
+async function aggiornaLavoro() {
+  if (!lav.aperta || !haToken()) return;
+  try {
+    const run = await trovaRun();
+    if (!run) {
+      disegnaFasi(0);
+      if (Date.now() - lav.avviatoAlle > 90000) {
+        $("lavoroEsito").hidden = false; $("lavoroEsito").className = "ko";
+        $("lavoroEsito").textContent = "GitHub non ha ancora fatto partire il lavoro. Apri la scheda Actions del repository per controllare.";
+      }
+    } else {
+      $("lavoroLink").href = run.html_url; $("lavoroLink").setAttribute("aria-disabled", "false");
+      if (run.run_started_at || run.created_at) lav.inizio = new Date(run.run_started_at || run.created_at).getTime();
+      if (run.status === "completed") {
+        lav.finito = true;
+        const ok = run.conclusion === "success";
+        disegnaFasi(ok ? 4 : Math.max(lav.fase, 1), !ok);
+        clearInterval(lav.timer);
+        $("lavoroTitolo").textContent = ok ? "Finito" : run.conclusion === "cancelled" ? "Lavoro annullato" : "Il lavoro si è fermato con un errore";
+        $("lavoroNota").hidden = true;
+        $("lavoroEsito").hidden = false; $("lavoroEsito").className = ok ? "ok" : "ko";
+        $("lavoroEsito").textContent = ok ? "Aggiorno i risultati…" : "Apri “Dettaglio su GitHub” per vedere dove si è fermato.";
+        if (ok) { await carica(); $("lavoroEsito").textContent = (D.storico[0] && D.storico[0].esito) || "Risultati aggiornati."; }
+        return;
+      }
+      if (run.status === "queued" || run.status === "waiting" || run.status === "pending") lav.fase = 0;
+      else {
+        try { const j = await gh(`/repos/${repo()}/actions/runs/${run.id}/jobs`); lav.fase = faseDaSteps(((j.jobs || [])[0] || {}).steps || []); }
+        catch (e) { lav.fase = Math.max(lav.fase, 1); }
+      }
+      disegnaFasi(lav.fase);
+    }
+  } catch (e) {
+    $("lavoroEsito").hidden = false; $("lavoroEsito").className = "ko"; $("lavoroEsito").textContent = e.message;
+  }
+  setTimeout(aggiornaLavoro, 5000);
+}
+
 // --------------------------------------------------------------- stato
-let corre = false, eraInCorso = false;
+let corre = false, eraInCorso = false, primaSonda = true;
 async function sonda() {
   if (!haToken()) { $("stato").textContent = "Collega GitHub per vedere lo stato"; aggiornaPermessi(); return; }
   try {
@@ -476,12 +605,18 @@ async function sonda() {
       $("statoDett").textContent = corre ? `Avviato ${min} min fa. Puoi chiudere questa pagina: il lavoro continua.` :
         `${run.event === "schedule" ? "Controllo automatico" : "Avviato a mano"} il ${new Date(run.created_at).toLocaleString("it-IT")}`;
       $("lnkRun").href = run.html_url; $("lnkRun").setAttribute("aria-disabled", "false");
-      if (eraInCorso && !corre) { messaggio("Lavoro finito: risultati aggiornati."); await carica(); }
+      $("btnAvanz").hidden = !corre;
+      lav.ultimoRun = run;
+      if (corre && primaSonda && !lav.aperta) { lav.avviatoAlle = 0; lav.inizio = 0; apriLavoro(tipoDaRun(run), run.id); }
+      if (eraInCorso && !corre && !lav.aperta) { messaggio("Lavoro finito: risultati aggiornati."); await carica(); }
       eraInCorso = corre;
     }
   } catch (e) { $("stato").textContent = "Stato non disponibile"; messaggio(e.message, true); }
+  primaSonda = false;
   aggiornaPermessi();
 }
+
+$("btnAvanz").onclick = () => { const r = lav.ultimoRun; lav.avviatoAlle = 0; lav.inizio = 0; apriLavoro(r ? tipoDaRun(r) : lav.tipo, r && r.id); };
 
 // ------------------------------------------------------------ token
 function apriDialog() { $("inToken").value = imp.token || ""; $("inRepo").value = repo(); $("msgDlg").textContent = ""; $("dlg").showModal(); }
