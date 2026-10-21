@@ -1,1 +1,570 @@
-[]
+[
+  {
+    "nome": "Agordo",
+    "scheda": "https://www.tuttitalia.it/veneto/75-agordo/",
+    "sito": "https://www.comune.agordo.bl.it/",
+    "albo": "https://agordo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Alleghe",
+    "scheda": "https://www.tuttitalia.it/veneto/29-alleghe/",
+    "sito": "https://www.comune.alleghe.bl.it/",
+    "albo": "https://alleghe.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Alpago",
+    "scheda": "https://www.tuttitalia.it/veneto/63-alpago/",
+    "sito": "https://www.comunealpago.bl.it/",
+    "albo": "https://servizionline.comune.alpago.bl.it/c025072/mc/mc_p_ricerca.php",
+    "altri": [
+      "https://alpago.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio"
+    ],
+    "piattaforma": "Halley",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Arsiè",
+    "scheda": "https://www.tuttitalia.it/veneto/51-arsie/",
+    "sito": "https://www.comune.arsie.bl.it/",
+    "albo": "https://servizionline.comune.arsie.bl.it/c025004/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Auronzo di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/43-auronzo-di-cadore/",
+    "sito": "https://www.comune.auronzo.bl.it/",
+    "albo": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Belluno",
+    "scheda": "https://www.tuttitalia.it/veneto/31-belluno/",
+    "sito": "https://www.comune.belluno.it/",
+    "albo": "https://alboonline.comune.belluno.it/",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Borca di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/36-borca-di-cadore/",
+    "sito": "https://www.comune.borcadicadore.bl.it/",
+    "albo": "https://borcadicadore.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=5652",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Borgo Valbelluna",
+    "scheda": "https://www.tuttitalia.it/veneto/16-borgo-valbelluna/",
+    "sito": "https://www.comune.borgovalbelluna.bl.it/",
+    "albo": "https://borgovalbelluna.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Calalzo di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/12-calalzo-di-cadore/",
+    "sito": "https://www.comune.calalzo.bl.it/",
+    "albo": "https://calalzo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00194080255"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Canale d'Agordo",
+    "scheda": "https://www.tuttitalia.it/veneto/39-canale-d-agordo/",
+    "sito": "https://www.comune.canaledagordo.bl.it/",
+    "albo": "https://canaledagordo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Cencenighe Agordino",
+    "scheda": "https://www.tuttitalia.it/veneto/62-cencenighe-agordino/",
+    "sito": "https://www.comune.cencenigheagordino.bl.it/",
+    "albo": "https://cencenigheagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Cesiomaggiore",
+    "scheda": "https://www.tuttitalia.it/veneto/93-cesiomaggiore/",
+    "sito": "https://www.comune.cesiomaggiore.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200471&w3cbt=S",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Chies d'Alpago",
+    "scheda": "https://www.tuttitalia.it/veneto/72-chies-d-alpago/",
+    "sito": "https://www.comune.chiesdalpago.bl.it/",
+    "albo": "https://www.comune.chiesdalpago.bl.it/albo_on_line",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Cibiana di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/60-cibiana-di-cadore/",
+    "sito": "https://www.comune.cibianadicadore.bl.it/",
+    "albo": "https://cibianadicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://www.comune.cibianadicadore.bl.it/albopretorio"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Colle Santa Lucia",
+    "scheda": "https://www.tuttitalia.it/veneto/62-colle-santa-lucia/",
+    "sito": "https://www.comune.collesantalucia.bl.it/",
+    "albo": "https://collesantalucia.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Comelico Superiore",
+    "scheda": "https://www.tuttitalia.it/veneto/36-comelico-superiore/",
+    "sito": "https://www.comune.comelicosuperiore.bl.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Cortina d'Ampezzo",
+    "scheda": "https://www.tuttitalia.it/veneto/26-cortina-d-ampezzo/",
+    "sito": "https://www.comune.cortinadampezzo.bl.it/",
+    "albo": "http://cortina.soluzionipa.it/openweb/albo/albo_pretorio.php",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Danta di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/34-danta-di-cadore/",
+    "sito": "https://www.comune.dantadicadore.bl.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Domegge di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/30-domegge-di-cadore/",
+    "sito": "https://comune.domeggedicadore.bl.it/",
+    "albo": "https://domeggedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Falcade",
+    "scheda": "https://www.tuttitalia.it/veneto/23-falcade/",
+    "sito": "https://www.comune.falcade.bl.it/",
+    "albo": "https://falcade.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Feltre",
+    "scheda": "https://www.tuttitalia.it/veneto/40-feltre/",
+    "sito": "https://comune.feltre.bl.it/",
+    "albo": "https://comune.feltre.bl.it/albo-pretorio/",
+    "altri": [
+      "https://servizi.comune.feltre.bl.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1232596&w3cbt=S"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Fonzaso",
+    "scheda": "https://www.tuttitalia.it/veneto/46-fonzaso/",
+    "sito": "https://www.comune.fonzaso.bl.it/",
+    "albo": "https://servizionline.comune.fonzaso.bl.it/c025022/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Gosaldo",
+    "scheda": "https://www.tuttitalia.it/veneto/79-gosaldo/",
+    "sito": "https://www.comune.gosaldo.bl.it/",
+    "albo": "https://gosaldo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "La Valle Agordina",
+    "scheda": "https://www.tuttitalia.it/veneto/27-la-valle-agordina/",
+    "sito": "https://www.comune.lavalleagordina.bl.it/",
+    "albo": "https://servizionline.comune.lavalleagordina.bl.it/c025027/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Lamon",
+    "scheda": "https://www.tuttitalia.it/veneto/71-lamon/",
+    "sito": "https://www.comune.lamon.bl.it/",
+    "albo": "https://servizionline.comune.lamon.bl.it/c025026/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Limana",
+    "scheda": "https://www.tuttitalia.it/veneto/78-limana/",
+    "sito": "https://www.comune.limana.bl.it/",
+    "albo": "https://limana.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [
+      "https://www.limana.org/alboneolaureati/"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Livinallongo del CdL",
+    "scheda": "https://www.tuttitalia.it/veneto/84-livinallongo-del-col-di-lana/",
+    "sito": "https://www.comune.livinallongo.bl.it/",
+    "albo": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Longarone",
+    "scheda": "https://www.tuttitalia.it/veneto/45-longarone/",
+    "sito": "https://www.comune.longarone.bl.it/",
+    "albo": "https://longarone.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=8885",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Lorenzago di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/24-lorenzago-di-cadore/",
+    "sito": "https://www.comune.lorenzagodicadore.bl.it/",
+    "albo": "https://lorenzagodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Lozzo di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/70-lozzo-di-cadore/",
+    "sito": "https://www.comune.lozzodicadore.bl.it/",
+    "albo": "https://lozzodicadore.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=7184",
+    "altri": [
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00185970258"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Ospitale di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/44-ospitale-di-cadore/",
+    "sito": "https://www.comune.ospitaledicadore.bl.it/",
+    "albo": "https://servizionline.comune.ospitaledicadore.bl.it/c025035/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Pedavena",
+    "scheda": "https://www.tuttitalia.it/veneto/30-pedavena/",
+    "sito": "https://comune.pedavena.bl.it/",
+    "albo": "http://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200469",
+    "altri": [
+      "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200469"
+    ],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Perarolo di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/60-perarolo-di-cadore/",
+    "sito": "https://www.comune.perarolodicadore.bl.it/",
+    "albo": "https://perarolodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Pieve di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/93-pieve-di-cadore/",
+    "sito": "https://www.comune.pievedicadore.bl.it/",
+    "albo": "https://pievedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Ponte nelle Alpi",
+    "scheda": "https://www.tuttitalia.it/veneto/81-ponte-nelle-alpi/",
+    "sito": "https://www.comune.pontenellealpi.bl.it/",
+    "albo": "https://servizionline.comune.pontenellealpi.bl.it/mc/mc_p_ricerca.php",
+    "altri": [],
+    "piattaforma": "Halley",
+    "note": ""
+  },
+  {
+    "nome": "Rivamonte Agordino",
+    "scheda": "https://www.tuttitalia.it/veneto/93-rivamonte-agordino/",
+    "sito": "https://www.comune.rivamonteagordino.bl.it/",
+    "albo": "https://rivamonteagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Rocca Pietore",
+    "scheda": "https://www.tuttitalia.it/veneto/28-rocca-pietore/",
+    "sito": "https://www.comune.roccapietore.bl.it/",
+    "albo": "https://roccapietore.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "San Gregorio nelle Alpi",
+    "scheda": "https://www.tuttitalia.it/veneto/20-san-gregorio-nelle-alpi/",
+    "sito": "https://comune.sangregorionellealpi.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1201636",
+    "altri": [],
+    "piattaforma": "WordPress",
+    "note": ""
+  },
+  {
+    "nome": "San Nicolò di Comelico",
+    "scheda": "https://www.tuttitalia.it/veneto/62-san-nicolo-di-comelico/",
+    "sito": "https://www.comune.sannicolodicomelico.bl.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmssnicolocomelico/listaservizi.aspx?U=1&S=200",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "San Pietro di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/76-san-pietro-di-cadore/",
+    "sito": "https://www.comune.sanpietrodicadore.bl.it/",
+    "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "San Tomaso Agordino",
+    "scheda": "https://www.tuttitalia.it/veneto/36-san-tomaso-agordino/",
+    "sito": "https://www.comune.santomasoagordino.bl.it/",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "",
+    "note": "errore: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://www.comune.santomasoagordi"
+  },
+  {
+    "nome": "San Vito di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/29-san-vito-di-cadore/",
+    "sito": "https://www.comune.sanvitodicadore.bl.it/",
+    "albo": "https://sanvitodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Santa Giustina",
+    "scheda": "https://www.tuttitalia.it/veneto/32-santa-giustina/",
+    "sito": "https://www.comune.santagiustina.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200473&w3cbt=S",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Santo Stefano di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/66-santo-stefano-di-cadore/",
+    "sito": "https://www.santostefanodicadore.info/",
+    "albo": "",
+    "altri": [],
+    "piattaforma": "",
+    "note": "albo non trovato in home"
+  },
+  {
+    "nome": "Sedico",
+    "scheda": "https://www.tuttitalia.it/veneto/50-sedico/",
+    "sito": "https://comune.sedico.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1201705&w3cbt=S",
+    "altri": [],
+    "piattaforma": "Maggioli",
+    "note": ""
+  },
+  {
+    "nome": "Selva di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/78-selva-di-cadore/",
+    "sito": "https://www.comune.selvadicadore.bl.it/",
+    "albo": "https://selvadicadore.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Seren del Grappa",
+    "scheda": "https://www.tuttitalia.it/veneto/44-seren-del-grappa/",
+    "sito": "https://comune.serendelgrappa.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n1200474&areaAttiva=2",
+    "altri": [],
+    "piattaforma": "WordPress",
+    "note": ""
+  },
+  {
+    "nome": "Setteville",
+    "scheda": "https://www.tuttitalia.it/veneto/62-setteville/",
+    "sito": "https://comune.setteville.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1241647&w3cbt=S",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Sospirolo",
+    "scheda": "https://www.tuttitalia.it/veneto/61-sospirolo/",
+    "sito": "https://comune.sospirolo.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1201708",
+    "altri": [],
+    "piattaforma": "WordPress",
+    "note": ""
+  },
+  {
+    "nome": "Soverzene",
+    "scheda": "https://www.tuttitalia.it/veneto/62-soverzene/",
+    "sito": "https://www.comune.soverzene.bl.it/",
+    "albo": "https://soverzene.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00206600256"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Sovramonte",
+    "scheda": "https://www.tuttitalia.it/veneto/98-sovramonte/",
+    "sito": "https://www.comune.sovramonte.bl.it/",
+    "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200475&w3cbt=S",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Taibon Agordino",
+    "scheda": "https://www.tuttitalia.it/veneto/42-taibon-agordino/",
+    "sito": "https://www.comune.taibonagordino.bl.it/",
+    "albo": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Tambre",
+    "scheda": "https://www.tuttitalia.it/veneto/22-tambre/",
+    "sito": "https://www.comune.tambre.bl.it/",
+    "albo": "http://sac5.halleysac.it/c025060/mc/mc_p_ricerca.php",
+    "altri": [
+      "http://tambre.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "http://tambre.trasparenza-valutazione-merito.it/"
+    ],
+    "piattaforma": "Halley",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Val di Zoldo",
+    "scheda": "https://www.tuttitalia.it/veneto/18-val-di-zoldo/",
+    "sito": "https://www.comune.valdizoldo.bl.it/",
+    "albo": "https://servizi.comune.valdizoldo.bl.it/ServiziOnLine/Istanze/landingIstanza?Id=22",
+    "altri": [],
+    "piattaforma": "",
+    "note": ""
+  },
+  {
+    "nome": "Vallada Agordina",
+    "scheda": "https://www.tuttitalia.it/veneto/59-vallada-agordina/",
+    "sito": "https://www.comune.valladaagordina.bl.it/",
+    "albo": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Valle di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/27-valle-di-cadore/",
+    "sito": "https://www.comune.valledicadore.bl.it/",
+    "albo": "https://valledicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00203510250"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Vigo di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/91-vigo-di-cadore/",
+    "sito": "https://www.comune.vigodicadore.bl.it/",
+    "albo": "https://vigodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://www.comune.vigodicadore.bl.it/it/page/131209"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Vodo Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/87-vodo-cadore/",
+    "sito": "https://www.comune.vodo.bl.it/",
+    "albo": "https://vodo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://vodo.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=6984",
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00206230252"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  },
+  {
+    "nome": "Voltago Agordino",
+    "scheda": "https://www.tuttitalia.it/veneto/79-voltago-agordino/",
+    "sito": "https://www.comune.voltagoagordino.bl.it/",
+    "albo": "https://voltagoagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+    "altri": [],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": ""
+  },
+  {
+    "nome": "Zoppè di Cadore",
+    "scheda": "https://www.tuttitalia.it/veneto/54-zoppe-di-cadore/",
+    "sito": "https://www.comune.zoppedicadore.bl.it/",
+    "albo": "https://zoppedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+    "altri": [
+      "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00206090250"
+    ],
+    "piattaforma": "Gazzetta Amministrativa",
+    "note": "presente archivio storico"
+  }
+]
