@@ -72,6 +72,42 @@ JS_CANDIDATI = """(sel) => Array.from(document.querySelectorAll(sel)).map((e, i)
 }))"""
 
 
+# pagina tuttitalia con l'elenco delle province di ogni regione (con le sigle)
+PROVINCE_REGIONE = {
+    "abruzzo": "https://www.tuttitalia.it/abruzzo/42-province/numero-comuni/",
+    "basilicata": "https://www.tuttitalia.it/basilicata/81-province/numero-comuni/",
+    "calabria": "https://www.tuttitalia.it/calabria/65-province/numero-comuni/",
+    "campania": "https://www.tuttitalia.it/campania/96-province/numero-comuni/",
+    "emilia-romagna": "https://www.tuttitalia.it/emilia-romagna/89-province/numero-comuni/",
+    "friuli-venezia-giulia": "https://www.tuttitalia.it/friuli-venezia-giulia/79-province/numero-comuni/",
+    "lazio": "https://www.tuttitalia.it/lazio/27-province/numero-comuni/",
+    "liguria": "https://www.tuttitalia.it/liguria/98-province/numero-comuni/",
+    "lombardia": "https://www.tuttitalia.it/lombardia/20-province/numero-comuni/",
+    "marche": "https://www.tuttitalia.it/marche/36-province/numero-comuni/",
+    "molise": "https://www.tuttitalia.it/molise/97-province/numero-comuni/",
+    "piemonte": "https://www.tuttitalia.it/piemonte/46-province/numero-comuni/",
+    "puglia": "https://www.tuttitalia.it/puglia/74-province/numero-comuni/",
+    "sardegna": "https://www.tuttitalia.it/sardegna/97-province/numero-comuni/",
+    "sicilia": "https://www.tuttitalia.it/sicilia/26-province/numero-comuni/",
+    "toscana": "https://www.tuttitalia.it/toscana/19-province/numero-comuni/",
+    "trentino-alto-adige": "https://www.tuttitalia.it/trentino-alto-adige/77-province/numero-comuni/",
+    "umbria": "https://www.tuttitalia.it/umbria/19-province/numero-comuni/",
+    "valle-d-aosta": "https://www.tuttitalia.it/valle-d-aosta/35-province/numero-comuni/",
+    "veneto": "https://www.tuttitalia.it/veneto/38-province/numero-comuni/",
+}
+
+JS_PROVINCE = r"""(reg) => {
+  const out = [];
+  for (const tr of document.querySelectorAll('table tr')) {
+    const a = Array.from(tr.querySelectorAll('a[href]')).find(a => new RegExp('tuttitalia\\.it/' + reg + '/[^/]+/$').test(a.href));
+    if (!a) continue;
+    const m = (tr.innerText || '').match(/\b([A-Z]{2})\b/);
+    out.push({nome: a.innerText.replace(/\s+/g, ' ').trim(), href: a.href, sigla: m ? m[1] : ''});
+  }
+  return out;
+}"""
+
+
 class Annullato(Exception):
     pass
 
@@ -180,6 +216,82 @@ class Motore:
                     page = self._pagina_nuova(ctx, page)
                 risultati.append(c)
             self.avanzamento(len(comuni), len(comuni), "Fatto")
+            browser.close()
+        return risultati
+
+    def trova_albi_selezione(self, sel, esistenti, salva_parziale=None):
+        """
+        sel: {"regione": "Veneto", "sigla": "BL" o "", "comuni": [nomi] o [], "salta_trovati": bool}
+        esistenti: comuni già in archivio (per tenere i link inseriti a mano e saltare quelli già trovati)
+        Ritorna la lista dei comuni elaborati, con regione/provincia/sigla.
+        """
+        per_chiave = {L.chiave(c): c for c in esistenti}
+        reg_slug = L.slug(sel["regione"].split("/")[0])
+        url_prov = PROVINCE_REGIONE.get(reg_slug)
+        if not url_prov:
+            raise RuntimeError(f"Regione non riconosciuta: {sel['regione']}")
+        risultati = []
+        with sync_playwright() as p:
+            browser = self._avvia(p)
+            ctx = self._contesto(browser)
+            page = ctx.new_page()
+
+            self.log(f"Leggo le province di {sel['regione']}")
+            self._apri(page, url_prov, attesa=500)
+            province = page.evaluate(JS_PROVINCE, reg_slug)
+            if sel.get("sigla"):
+                province = [x for x in province if x["sigla"] == sel["sigla"]]
+            if not province:
+                raise RuntimeError("Provincia non trovata su tuttitalia: " + (sel.get("sigla") or sel["regione"]))
+
+            da_fare = []
+            voluti = {L.norm(n) for n in sel.get("comuni") or []}
+            for pr in province:
+                self._controlla_stop()
+                elenco = self._leggi_elenco(page, pr["href"])
+                nome_prov = re.sub(r"(?i)^(provincia( autonoma)?|citt[aà] metropolitana|libero consorzio( comunale)?) d[i'el]+\s*", "", pr["nome"]).strip()
+                self.log(f"Provincia di {nome_prov} ({pr['sigla']}): {len(elenco)} comuni")
+                for c in elenco:
+                    c.update(regione=sel["regione"].split("/")[0], provincia=nome_prov.title() if nome_prov.isupper() else nome_prov,
+                             sigla=pr["sigla"])
+                    if voluti and L.norm(c["nome"]) not in voluti:
+                        continue
+                    da_fare.append(c)
+            if voluti:
+                trovati = {L.norm(c["nome"]) for c in da_fare}
+                for n in sel.get("comuni"):
+                    if L.norm(n) not in trovati:
+                        self.log(f"{n}: non trovato nell'elenco di tuttitalia")
+
+            for n, c in enumerate(da_fare, 1):
+                self._controlla_stop()
+                self.avanzamento(n - 1, len(da_fare), f"{c['nome']} ({c['sigla']})")
+                vecchio = per_chiave.get(L.chiave(c))
+                if vecchio and vecchio.get("manuale"):
+                    risultati.append({**vecchio, **{k: c[k] for k in ("regione", "provincia", "sigla")}})
+                    self.log(f"{c['nome']}: link inserito a mano, lo tengo")
+                    continue
+                if vecchio and vecchio.get("albo") and sel.get("salta_trovati"):
+                    risultati.append({**vecchio, **{k: c[k] for k in ("regione", "provincia", "sigla")}})
+                    self.log(f"{c['nome']}: già trovato, salto")
+                    continue
+                try:
+                    c["sito"] = self._sito_istituzionale(page, c["scheda"])
+                    if not c["sito"]:
+                        c.update(albo="", altri=[], piattaforma="", note="sito non trovato su tuttitalia")
+                    else:
+                        c.update(self._trova_albo(page, c["sito"]))
+                    self.log(f"{c['nome']}: {c['albo'] or 'NON TROVATO – ' + c['note']}")
+                except Annullato:
+                    raise
+                except Exception as e:
+                    c.update(albo="", altri=[], piattaforma="", note=f"errore: {str(e)[:100]}")
+                    self.log(f"{c['nome']}: errore ({type(e).__name__})")
+                    page = self._pagina_nuova(ctx, page)
+                risultati.append(c)
+                if salva_parziale and n % 5 == 0:
+                    salva_parziale(risultati)
+            self.avanzamento(len(da_fare), len(da_fare), "Fatto")
             browser.close()
         return risultati
 
@@ -298,9 +410,10 @@ class Motore:
             for n, c in enumerate(da_fare, 1):
                 self._controlla_stop()
                 nome = c["nome"]
-                dal = dal_per_comune(nome)
+                dal = dal_per_comune(c)
                 self.avanzamento(n - 1, len(da_fare), nome)
-                rie = {"comune": nome, "albo": c["albo"], "dal": dal, "pagine": 0, "letti": 0, "trovati": 0, "esito": ""}
+                rie = {"comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
+                       "albo": c["albo"], "dal": dal, "pagine": 0, "letti": 0, "trovati": 0, "esito": ""}
                 try:
                     atti, pagine = self._leggi_albo(page, c["albo"], dal)
                     rie.update(pagine=pagine, letti=len(atti))
@@ -318,7 +431,8 @@ class Motore:
                         allegati = []
                         if opz["scarica"]:
                             allegati = self._scarica_allegati(ctx, nome, a, link, cartella, contatore)
-                        risultati.append({"comune": nome, "data": a["data"], "tipo": a["tipo"], "numero": a["numero"],
+                        risultati.append({"comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
+                                          "data": a["data"], "tipo": a["tipo"], "numero": a["numero"],
                                           "oggetto": a["oggetto"], "parole": parole, "link": link,
                                           "allegati": allegati})
                     rie["trovati"] = trovati

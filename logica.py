@@ -26,6 +26,11 @@ def slug(s):
     return s.strip("-")
 
 
+def chiave(c):
+    """Identifica un comune in modo univoco: 'Agordo (BL)'."""
+    return f"{c['nome']} ({c['sigla']})" if c.get("sigla") else c["nome"]
+
+
 def normalizza_url(u):
     u = (u or "").strip().rstrip(".,;")
     if not u:
@@ -286,13 +291,13 @@ def excel_albi(comuni, percorso):
     wb = Workbook()
     ws = wb.active
     ws.title = "Albi pretori"
-    _intesta(ws, ["Comune", "Sito istituzionale", "Link Albo Pretorio", "Altri link albo", "Piattaforma", "Note"],
-              [26, 38, 60, 50, 18, 45])
-    for c in comuni:
+    _intesta(ws, ["Comune", "Provincia", "Regione", "Sito istituzionale", "Link Albo Pretorio", "Altri link albo",
+                  "Piattaforma", "Note"], [26, 10, 16, 38, 60, 50, 18, 45])
+    for c in sorted(comuni, key=lambda c: (c.get("regione", ""), c.get("sigla", ""), c["nome"])):
         albo = c.get("albo", "")
-        _riga(ws, [c["nome"], c.get("sito", ""), albo, "\n".join(c.get("altri", [])),
-                   c.get("piattaforma", ""), c.get("note", "")],
-              link_cols=[(2, c.get("sito")), (3, albo)],
+        _riga(ws, [c["nome"], c.get("sigla", ""), c.get("regione", ""), c.get("sito", ""), albo,
+                   "\n".join(c.get("altri", [])), c.get("piattaforma", ""), c.get("note", "")],
+              link_cols=[(4, c.get("sito")), (5, albo)],
               evidenzia=not albo or "verifica" in c.get("note", ""))
     ws.auto_filter.ref = ws.dimensions
     wb.save(percorso)
@@ -302,25 +307,25 @@ def excel_monitoraggio(risultati, riepilogo, percorso):
     wb = Workbook()
     ws = wb.active
     ws.title = "Determine trovate"
-    _intesta(ws, ["Comune", "Data pubblicazione", "Tipo", "Numero", "Oggetto", "Parole chiave",
-                  "Link atto", "Allegati"], [22, 14, 18, 12, 70, 24, 40, 40])
+    _intesta(ws, ["Comune", "Provincia", "Data pubblicazione", "Tipo", "Numero", "Oggetto", "Parole chiave",
+                  "Link atto", "Allegati"], [22, 10, 14, 18, 12, 70, 24, 40, 40])
     for r in risultati:
         primo = r["allegati"][0] if r["allegati"] else ""
-        _riga(ws, [r["comune"], r["data"].strftime("%d/%m/%Y") if r["data"] else "", r["tipo"], r["numero"],
-                   r["oggetto"], ", ".join(r["parole"]), r["link"], "\n".join(r["allegati"])],
-              link_cols=[(7, r["link"]), (8, primo)],
+        _riga(ws, [r["comune"], r.get("sigla", ""), r["data"].strftime("%d/%m/%Y") if r["data"] else "", r["tipo"],
+                   r["numero"], r["oggetto"], ", ".join(r["parole"]), r["link"], "\n".join(r["allegati"])],
+              link_cols=[(8, r["link"]), (9, primo)],
               evidenzia=not r["allegati"])
     if ws.max_row > 1:
         ws.auto_filter.ref = ws.dimensions
 
     ws2 = wb.create_sheet("Riepilogo comuni")
-    _intesta(ws2, ["Comune", "Link albo", "Controllato dal", "Pagine lette", "Atti letti", "Trovati", "Esito"],
-             [22, 50, 15, 12, 10, 10, 50])
+    _intesta(ws2, ["Comune", "Provincia", "Link albo", "Controllato dal", "Pagine lette", "Atti letti", "Trovati",
+                   "Esito"], [22, 10, 50, 15, 12, 10, 10, 50])
     for r in riepilogo:
         ok = r["esito"].startswith("OK")
-        _riga(ws2, [r["comune"], r["albo"], r["dal"].strftime("%d/%m/%Y") if r["dal"] else "", r["pagine"],
-                    r["letti"], r["trovati"], r["esito"]],
-              link_cols=[(2, r["albo"])], evidenzia=not ok)
+        _riga(ws2, [r["comune"], r.get("sigla", ""), r["albo"], r["dal"].strftime("%d/%m/%Y") if r["dal"] else "",
+                    r["pagine"], r["letti"], r["trovati"], r["esito"]],
+              link_cols=[(3, r["albo"])], evidenzia=not ok)
     ws2.append([])
     ws2.append(["Righe in giallo: albo non letto o errore, da controllare a mano."])
     ws2.cell(row=ws2.max_row, column=1).font = Font(name="Arial", size=9, italic=True)

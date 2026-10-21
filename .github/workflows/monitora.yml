@@ -19,8 +19,17 @@ on:
         description: "Data di partenza (AAAA-MM-GG)"
         default: ""
       solo:
-        description: "Solo questi comuni, separati da virgola (vuoto = tutti)"
+        description: "Solo questi comuni, separati da punto e virgola (vuoto = tutti)"
         default: ""
+      regione:
+        description: "Ricerca albi: regione"
+        default: "Veneto"
+      provincia:
+        description: "Ricerca albi: sigla della provincia (vuoto = tutta la regione)"
+        default: ""
+      salta_trovati:
+        description: "Ricerca albi: salta i comuni già trovati (si/no)"
+        default: "si"
   # Controllo automatico: ogni lunedì alle 7 (ora italiana). Cancella queste due righe per disattivarlo.
   schedule:
     - cron: "0 5 * * 1"
@@ -35,7 +44,7 @@ concurrency:
 jobs:
   lavoro:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 350
     env:
       TZ: Europe/Rome
     steps:
@@ -56,16 +65,21 @@ jobs:
 
       - name: Cerca i link agli albi
         if: inputs.azione == 'albi'
-        run: python esegui.py albi
+        env:
+          REGIONE: ${{ inputs.regione }}
+          PROVINCIA: ${{ inputs.provincia }}
+          SOLO: ${{ inputs.solo }}
+          SALTA: ${{ inputs.salta_trovati }}
+        run: python esegui.py albi --regione "$REGIONE" --provincia "$PROVINCIA" --comuni "$SOLO" --salta-trovati "$SALTA"
 
       - name: Controlla le determine
         id: monitora
         if: inputs.azione != 'albi'
-        run: >
-          python esegui.py monitora
-          --modo "${{ inputs.modo || 'ultimo' }}"
-          --data "${{ inputs.data }}"
-          --solo "${{ inputs.solo }}"
+        env:
+          MODO: ${{ inputs.modo || 'ultimo' }}
+          DATA: ${{ inputs.data }}
+          SOLO: ${{ inputs.solo }}
+        run: python esegui.py monitora --modo "$MODO" --data "$DATA" --solo "$SOLO"
 
       - name: Pubblica gli allegati
         if: steps.monitora.outputs.zip != ''

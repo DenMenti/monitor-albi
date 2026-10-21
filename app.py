@@ -155,9 +155,10 @@ def lavoro_monitora(opz):
     oggi = dt.date.today()
     data_fissa = dt.date.fromisoformat(opz["data"]) if opz.get("data") else oggi - dt.timedelta(days=30)
 
-    def dal(nome):
-        if opz["modo"] == "ultimo" and controlli.get(nome):
-            return dt.date.fromisoformat(controlli[nome])
+    def dal(c):
+        for k in (L.chiave(c), c["nome"]):
+            if opz["modo"] == "ultimo" and controlli.get(k):
+                return dt.date.fromisoformat(controlli[k])
         return data_fissa
 
     stamp = dt.datetime.now().strftime("%Y-%m-%d_%H%M")
@@ -169,7 +170,7 @@ def lavoro_monitora(opz):
     # aggiorno la data dell'ultimo controllo solo per gli albi letti davvero
     for r in riepilogo:
         if r["esito"].startswith("OK"):
-            controlli[r["comune"]] = oggi.isoformat()
+            controlli[L.chiave({"nome": r["comune"], "sigla": r.get("sigla")})] = oggi.isoformat()
     scrivi(F_CONTROLLI, controlli)
 
     risultati.sort(key=lambda r: (r["comune"], r["data"] or dt.date.min))

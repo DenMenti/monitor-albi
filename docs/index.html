@@ -21,6 +21,7 @@
   }
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { margin: 0; }
 body { background: var(--carta); color: var(--inchiostro); font: 15px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
 a { color: var(--abete); }
@@ -107,6 +108,14 @@ dialog li { margin: 4px 0; }
 #lavoroEsito { padding: 12px 14px; border-radius: 6px; margin: 12px 0; font-size: 14px; }
 #lavoroEsito.ok { background: var(--abete-chiaro); }
 #lavoroEsito.ko { background: var(--ambra-chiaro); }
+select { font: inherit; color: inherit; background: var(--carta); border: 1px solid var(--linea); border-radius: 6px; padding: 8px 10px; max-width: 100%; }
+.tre { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 700px) { .tre { grid-template-columns: 1fr; } }
+.tre label > span { display: block; font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+.tre select { width: 100%; }
+.filtri { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 12px 0 4px; }
+.filtri input[type=search] { font: inherit; color: inherit; background: var(--carta); border: 1px solid var(--linea); border-radius: 6px; padding: 7px 10px; min-width: 180px; flex: 1; }
+.selezione-box { padding: 10px 14px; border-radius: 6px; background: var(--carta); border: 1px solid var(--linea); font-size: 14px; margin: 10px 0; }
 .risultati-wrap { grid-column: 1 / -1; }
 </style>
 </head>
@@ -126,21 +135,37 @@ dialog li { margin: 4px 0; }
 
   <section class="blocco" aria-labelledby="t1">
     <h2 id="t1"><span class="num">1</span>Link agli albi dei comuni</h2>
-    <p class="desc">Si fa la prima volta, poi solo se un comune cambia sito. Ci vogliono circa 20–30 minuti.</p>
+    <p class="desc">Scegli dove cercare: una regione intera, una provincia o un solo comune. I risultati si aggiungono all'archivio, quindi puoi procedere una provincia alla volta.</p>
+    <div class="tre">
+      <label><span>Regione</span><select id="selRegione"></select></label>
+      <label><span>Provincia</span><select id="selProvincia"></select></label>
+      <label><span>Comune</span><select id="selComune"></select></label>
+    </div>
+    <div class="riga">
+      <label><input type="checkbox" id="saltaTrovati" checked> Salta i comuni già trovati</label>
+    </div>
     <div class="riga">
       <button id="btnAlbi" class="serve-token">Cerca i link agli albi</button>
-      <span class="stat" id="statAlbi"></span>
+      <span class="stat" id="stimaAlbi"></span>
     </div>
-    <details>
-      <summary>Elenco comuni e link (modificabili a mano)</summary>
-      <div class="riga">
-        <label><input type="checkbox" id="soloDaVerificare"> Mostra solo quelli da verificare</label>
-        <button class="secondario piccolo serve-token" id="btnSalvaLink">Salva i link</button>
+    <details id="detArchivio">
+      <summary>Archivio comuni e link <span class="stat" id="statAlbi"></span></summary>
+      <div class="filtri">
+        <select id="fRegione" aria-label="Filtra per regione"></select>
+        <select id="fProvincia" aria-label="Filtra per provincia"></select>
+        <input type="search" id="fCerca" placeholder="Cerca un comune" aria-label="Cerca un comune">
+        <label><input type="checkbox" id="soloDaVerificare"> Solo da verificare</label>
       </div>
-      <small class="aiuto">Se un link manca o è sbagliato, incolla quello giusto e salva: non verrà più sovrascritto. Spunta dei comuni per controllare solo quelli.</small>
+      <div class="riga">
+        <button class="secondario piccolo" id="btnSelTutti">Seleziona quelli visibili</button>
+        <button class="secondario piccolo" id="btnSelNessuno">Togli la selezione</button>
+        <button class="secondario piccolo serve-token" id="btnSalvaLink">Salva i link</button>
+        <span class="stat" id="statVisibili"></span>
+      </div>
+      <small class="aiuto">Se un link manca o è sbagliato, incolla quello giusto e salva: non verrà più sovrascritto. Spunta comuni o province intere per controllare solo quelli nel passo 2.</small>
       <div class="tabella">
         <table>
-          <thead><tr><th scope="col">Sel.</th><th scope="col">Comune</th><th scope="col">Link albo</th><th scope="col">Ultimo controllo</th><th scope="col">Stato</th></tr></thead>
+          <thead><tr><th scope="col">Sel.</th><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Link albo</th><th scope="col">Ultimo controllo</th><th scope="col">Stato</th></tr></thead>
           <tbody id="corpoComuni"></tbody>
         </table>
       </div>
@@ -176,9 +201,16 @@ dialog li { margin: 4px 0; }
       </div>
       <small>I comuni mai controllati partono dalla data qui a fianco.</small>
     </fieldset>
+    <div class="selezione-box">
+      <b>Comuni da controllare:</b> <span id="statSel"></span>
+      <div class="riga" style="margin:8px 0 0">
+        <select id="selProvMon" aria-label="Seleziona una provincia intera"></select>
+        <button class="secondario piccolo" id="btnSelProv">Seleziona questa provincia</button>
+        <button class="secondario piccolo" id="btnSelNessuno2">Tutto l'archivio</button>
+      </div>
+    </div>
     <div class="riga">
       <button id="btnMonitora" class="serve-token">Avvia il controllo</button>
-      <span class="stat" id="statSel"></span>
     </div>
   </section>
 </div>
@@ -200,9 +232,15 @@ dialog li { margin: 4px 0; }
 <section class="blocco risultati-wrap" aria-labelledby="t3">
   <h2 id="t3">Determine trovate nell'ultimo controllo</h2>
   <p class="desc" id="descRisultati">—</p>
+  <div class="filtri">
+    <select id="rProvincia" aria-label="Filtra i risultati per provincia"></select>
+    <select id="rComune" aria-label="Filtra i risultati per comune"></select>
+    <input type="search" id="rCerca" placeholder="Cerca nell'oggetto" aria-label="Cerca nell'oggetto">
+    <span class="stat" id="rConta"></span>
+  </div>
   <div class="tabella" style="max-height:600px">
     <table>
-      <thead><tr><th scope="col">Comune</th><th scope="col">Pubblicata</th><th scope="col">Oggetto</th><th scope="col">Parole</th><th scope="col">Atto</th></tr></thead>
+      <thead><tr><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Pubblicata</th><th scope="col">Oggetto</th><th scope="col">Parole</th><th scope="col">Atto</th></tr></thead>
       <tbody id="corpoRisultati"></tbody>
     </table>
   </div>
@@ -367,26 +405,119 @@ for (const box of document.querySelectorAll(".chips")) {
 
 // ---------------------------------------------------------- disegno
 const daVerificare = c => !c.albo || /verifica/.test(c.note || "");
+const chiave = c => c.sigla ? `${c.nome} (${c.sigla})` : c.nome;
+const normt = t => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const ultimoControllo = c => D.controlli[chiave(c)] || D.controlli[c.nome];
+const selezione = new Set();
+let ITALIA = null;
 
+function opzioni(sel, voci, prima) {
+  const att = sel.value;
+  sel.innerHTML = (prima ? `<option value="">${esc(prima)}</option>` : "") +
+    voci.map(v => `<option value="${esc(v.value)}">${esc(v.label)}</option>`).join("");
+  if ([...sel.options].some(o => o.value === att)) sel.value = att;
+}
+
+// --- menu a tendina della ricerca (passo 1)
+function menuRicerca() {
+  if (!ITALIA) return;
+  opzioni($("selRegione"), ITALIA.regioni.map(r => ({ value: r.nome, label: r.nome })));
+  if (!$("selRegione").dataset.init) { $("selRegione").value = "Veneto"; $("selRegione").dataset.init = 1; }
+  aggiornaProvince();
+}
+function regioneScelta() { return ITALIA.regioni.find(r => r.nome === $("selRegione").value); }
+function aggiornaProvince() {
+  const r = regioneScelta();
+  opzioni($("selProvincia"), (r ? r.province : []).map(p => ({ value: p.sigla, label: `${p.nome} (${p.sigla})` })), "Tutte le province");
+  aggiornaComuniMenu();
+}
+function aggiornaComuniMenu() {
+  const r = regioneScelta(); const sig = $("selProvincia").value;
+  const p = r && sig ? r.province.find(x => x.sigla === sig) : null;
+  opzioni($("selComune"), (p ? p.comuni : []).map(c => ({ value: c, label: c })), p ? "Tutti i comuni" : "Prima scegli la provincia");
+  $("selComune").disabled = !p;
+  stimaRicerca();
+}
+function daCercare() {
+  const r = regioneScelta(); if (!r) return [];
+  const sig = $("selProvincia").value, com = $("selComune").value;
+  let lista = [];
+  for (const p of r.province) {
+    if (sig && p.sigla !== sig) continue;
+    for (const c of p.comuni) if (!com || c === com) lista.push({ nome: c, sigla: p.sigla });
+  }
+  if ($("saltaTrovati").checked) {
+    const gia = new Set(D.comuni.filter(c => c.albo).map(chiave));
+    lista = lista.filter(c => !gia.has(chiave(c)));
+  }
+  return lista;
+}
+function stimaRicerca() {
+  const n = daCercare().length;
+  const min = Math.max(1, Math.round(n * 25 / 60));
+  $("stimaAlbi").textContent = n === 0 ? "Nessun comune da cercare (già tutti in archivio)." :
+    `${n} ${n === 1 ? "comune" : "comuni"} · circa ${min < 60 ? min + (min === 1 ? " minuto" : " minuti") : Math.round(min / 6) / 10 + " ore"}` +
+    (min > 330 ? " — troppi per un solo giro: scegli una provincia alla volta" : "");
+}
+["selRegione", "selProvincia", "selComune", "saltaTrovati"].forEach(id => $(id).addEventListener("change", () => {
+  if (id === "selRegione") aggiornaProvince(); else if (id === "selProvincia") aggiornaComuniMenu(); else stimaRicerca();
+}));
+
+// --- filtri dell'archivio
+function menuArchivio() {
+  const reg = [...new Set(D.comuni.map(c => c.regione).filter(Boolean))].sort();
+  opzioni($("fRegione"), reg.map(r => ({ value: r, label: r })), "Tutte le regioni");
+  const prov = new Map();
+  D.comuni.filter(c => !$("fRegione").value || c.regione === $("fRegione").value)
+    .forEach(c => c.sigla && prov.set(c.sigla, c.provincia || c.sigla));
+  const vp = [...prov].sort((a, b) => a[1].localeCompare(b[1])).map(([s, n]) => ({ value: s, label: `${n} (${s})` }));
+  opzioni($("fProvincia"), vp, "Tutte le province");
+  const tutte = new Map(); D.comuni.forEach(c => c.sigla && tutte.set(c.sigla, c.provincia || c.sigla));
+  opzioni($("selProvMon"), [...tutte].sort((a, b) => a[1].localeCompare(b[1])).map(([s, n]) => ({ value: s, label: `${n} (${s})` })), "Scegli una provincia…");
+}
+function visibili() {
+  const r = $("fRegione").value, p = $("fProvincia").value, q = normt($("fCerca").value.trim());
+  return D.comuni.filter(c => (!r || c.regione === r) && (!p || c.sigla === p) && (!q || normt(c.nome).includes(q))
+    && (!$("soloDaVerificare").checked || daVerificare(c)));
+}
 function disegnaComuni() {
-  const lista = D.comuni.filter(c => !$("soloDaVerificare").checked || daVerificare(c));
+  menuArchivio();
+  const lista = visibili();
   const con = D.comuni.filter(c => c.albo).length;
-  $("statAlbi").innerHTML = D.comuni.length ? `<b>${con}</b> albi trovati su <b>${D.comuni.length}</b> comuni` : "Elenco non ancora creato";
-  $("corpoComuni").innerHTML = lista.length ? lista.map(c => {
-    const no = daVerificare(c);
+  $("statAlbi").textContent = D.comuni.length ? `· ${con} albi su ${D.comuni.length} comuni` : "· vuoto";
+  $("statVisibili").textContent = `${lista.length} visibili`;
+  $("corpoComuni").innerHTML = lista.length ? lista.slice(0, 800).map(c => {
+    const no = daVerificare(c), k = chiave(c);
     return `<tr class="${no ? "giallo" : ""}">
-      <td><input type="checkbox" class="sel" data-nome="${esc(c.nome)}" aria-label="Seleziona ${esc(c.nome)}"></td>
+      <td><input type="checkbox" class="sel" data-k="${esc(k)}" ${selezione.has(k) ? "checked" : ""} aria-label="Seleziona ${esc(c.nome)}"></td>
       <td>${c.sito ? `<a href="${esc(c.sito)}" target="_blank" rel="noopener">${esc(c.nome)}</a>` : esc(c.nome)}</td>
-      <td><input type="text" class="linkAlbo" data-nome="${esc(c.nome)}" value="${esc(c.albo)}" placeholder="incolla il link all'albo"></td>
-      <td>${dataIt(D.controlli[c.nome])}</td>
+      <td>${esc(c.sigla || "")}</td>
+      <td><input type="text" class="linkAlbo" data-k="${esc(k)}" value="${esc(c.albo)}" placeholder="incolla il link all'albo"></td>
+      <td>${dataIt(ultimoControllo(c))}</td>
       <td>${no ? `<span class="badge no" title="${esc(c.note)}">da verificare</span>` : `<span class="badge ok">${c.manuale ? "inserito a mano" : "ok"}</span>`}</td></tr>`;
-  }).join("") : `<tr><td colspan="5" class="vuoto">${D.comuni.length ? "Nessun comune da verificare." : "Nessun comune: avvia la ricerca dei link."}</td></tr>`;
+  }).join("") + (lista.length > 800 ? `<tr><td colspan="6" class="vuoto">Mostro i primi 800: usa i filtri per restringere.</td></tr>` : "")
+    : `<tr><td colspan="6" class="vuoto">${D.comuni.length ? "Nessun comune con questi filtri." : "Archivio vuoto: cerca i link agli albi."}</td></tr>`;
   aggiornaSel();
 }
-const selezionati = () => [...document.querySelectorAll(".sel:checked")].map(e => e.dataset.nome);
-function aggiornaSel() { const n = selezionati().length; $("statSel").textContent = n ? `Solo ${n} comuni selezionati` : "Tutti i comuni con un albo"; }
-document.addEventListener("change", e => { if (e.target.classList.contains("sel")) aggiornaSel(); });
-$("soloDaVerificare").onchange = disegnaComuni;
+const selezionati = () => [...selezione];
+function aggiornaSel() {
+  const n = selezione.size, conAlbo = D.comuni.filter(c => c.albo).length;
+  const prov = [...new Set(D.comuni.filter(c => selezione.has(chiave(c))).map(c => c.sigla))].filter(Boolean);
+  $("statSel").textContent = n ? `${n} comuni selezionati` + (prov.length && prov.length <= 4 ? ` (${prov.join(", ")})` : "")
+    : `tutto l'archivio (${conAlbo} comuni con albo)`;
+}
+document.addEventListener("change", e => {
+  if (e.target.classList.contains("sel")) { e.target.checked ? selezione.add(e.target.dataset.k) : selezione.delete(e.target.dataset.k); aggiornaSel(); }
+});
+["fRegione", "fProvincia", "soloDaVerificare"].forEach(id => $(id).addEventListener("change", disegnaComuni));
+$("fCerca").addEventListener("input", disegnaComuni);
+$("btnSelTutti").onclick = () => { visibili().forEach(c => selezione.add(chiave(c))); disegnaComuni(); };
+$("btnSelNessuno").onclick = $("btnSelNessuno2").onclick = () => { selezione.clear(); disegnaComuni(); };
+$("btnSelProv").onclick = () => {
+  const s = $("selProvMon").value; if (!s) return;
+  D.comuni.filter(c => c.sigla === s).forEach(c => selezione.add(chiave(c)));
+  disegnaComuni();
+};
 
 function disegnaStorico() {
   $("storico").innerHTML = D.storico.length ? D.storico.slice(0, 15).map(s => `<li>
@@ -404,15 +535,25 @@ function disegnaRisultati() {
   $("descRisultati").innerHTML = u.quando
     ? `Controllo del ${quandoIt(u.quando)}. ${esc(u.esito)} ${u.zip ? `<a href="${esc(u.zip)}">Scarica Excel e allegati</a>` : (u.excel ? `<a href="${esc(linkFile(u.excel))}">Scarica l'Excel</a>` : "")}`
     : "Ancora nessun controllo.";
-  $("corpoRisultati").innerHTML = ris.length ? ris.map(r => `<tr>
-    <td>${esc(r.comune)}</td><td>${dataIt(r.data)}</td><td>${esc(r.oggetto)}</td>
+  const prov = [...new Set(ris.map(r => r.sigla).filter(Boolean))].sort();
+  opzioni($("rProvincia"), prov.map(p => ({ value: p, label: p })), "Tutte le province");
+  const fp = $("rProvincia").value;
+  const com = [...new Set(ris.filter(r => !fp || r.sigla === fp).map(r => r.comune))].sort();
+  opzioni($("rComune"), com.map(c => ({ value: c, label: c })), "Tutti i comuni");
+  const fc = $("rComune").value, q = normt($("rCerca").value.trim());
+  const vis = ris.filter(r => (!fp || r.sigla === fp) && (!fc || r.comune === fc) && (!q || normt(r.oggetto).includes(q)));
+  $("rConta").textContent = ris.length ? `${vis.length} di ${ris.length}` : "";
+  $("corpoRisultati").innerHTML = vis.length ? vis.map(r => `<tr>
+    <td>${esc(r.comune)}</td><td>${esc(r.sigla || "")}</td><td>${dataIt(r.data)}</td><td>${esc(r.oggetto)}</td>
     <td>${esc((r.parole || []).join(", "))}</td>
     <td>${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">apri</a>` : ""}</td></tr>`).join("")
-    : `<tr><td colspan="5" class="vuoto">Nessuna determina.</td></tr>`;
+    : `<tr><td colspan="6" class="vuoto">${ris.length ? "Nessuna determina con questi filtri." : "Nessuna determina."}</td></tr>`;
   const prob = (u.riepilogo || []).filter(r => !String(r.esito).startsWith("OK"));
   $("detRiep").hidden = !prob.length;
-  $("riepilogo").innerHTML = prob.map(r => `<li><a href="${esc(r.albo)}" target="_blank" rel="noopener">${esc(r.comune)}</a>: ${esc(r.esito)}</li>`).join("");
+  $("riepilogo").innerHTML = prob.map(r => `<li><a href="${esc(r.albo)}" target="_blank" rel="noopener">${esc(r.comune)}${r.sigla ? " (" + esc(r.sigla) + ")" : ""}</a>: ${esc(r.esito)}</li>`).join("");
 }
+["rProvincia", "rComune"].forEach(id => $(id).addEventListener("change", disegnaRisultati));
+$("rCerca").addEventListener("input", disegnaRisultati);
 
 function aggiornaPermessi() {
   document.querySelectorAll(".serve-token").forEach(b => b.disabled = !haToken() || corre);
@@ -432,6 +573,12 @@ async function carica() {
     $("scarica").checked = config.scarica !== false;
     disegnaChips();
   }
+  // vecchi record senza provincia: erano tutti della provincia di Belluno
+  D.comuni.forEach(c => { if (!c.sigla) Object.assign(c, { regione: "Veneto", provincia: "Belluno", sigla: "BL" }); });
+  if (!ITALIA) {
+    try { ITALIA = await (await fetch("dati/italia.json")).json(); } catch (e) { ITALIA = { regioni: [] }; }
+  }
+  menuRicerca();
   disegnaComuni(); disegnaStorico(); disegnaRisultati();
 }
 
@@ -453,12 +600,14 @@ $("btnSalvaImp").onclick = async () => {
 $("btnSalvaLink").onclick = async () => {
   try {
     messaggio("Salvo i link…");
-    const nuovi = Object.fromEntries([...document.querySelectorAll(".linkAlbo")].map(i => [i.dataset.nome, i.value.trim()]));
+    const nuovi = Object.fromEntries([...document.querySelectorAll(".linkAlbo")].map(i => [i.dataset.k, i.value.trim()]));
     const comuni = await leggiDato("comuni.json", []);
+    comuni.forEach(c => { if (!c.sigla) Object.assign(c, { regione: "Veneto", provincia: "Belluno", sigla: "BL" }); });
     let n = 0;
     for (const c of comuni) {
-      if (c.nome in nuovi && nuovi[c.nome] !== (c.albo || "")) {
-        c.albo = nuovi[c.nome]; c.manuale = !!c.albo; c.note = c.albo ? "link inserito a mano" : c.note; n++;
+      const k = chiave(c);
+      if (k in nuovi && nuovi[k] !== (c.albo || "")) {
+        c.albo = nuovi[k]; c.manuale = !!c.albo; c.note = c.albo ? "link inserito a mano" : c.note; n++;
       }
     }
     if (!n) return messaggio("Nessun link modificato.");
@@ -477,8 +626,14 @@ async function avvia(inputs) {
 }
 
 $("btnAlbi").onclick = async () => {
-  if (!confirm("Cercare di nuovo i link agli albi di tutti i comuni? I link inseriti a mano restano.")) return;
-  try { await avvia({ azione: "albi" }); } catch (e) { messaggio(e.message, true); alert("Non sono riuscito ad avviare il lavoro.\n\n" + e.message); }
+  const n = daCercare().length;
+  const reg = $("selRegione").value, sig = $("selProvincia").value, com = $("selComune").value;
+  if (!n) return messaggio("Nessun comune da cercare: sono già tutti in archivio. Togli la spunta “Salta i comuni già trovati” per rifarli.", true);
+  const dove = com ? com : sig ? `provincia ${$("selProvincia").selectedOptions[0].text}` : `tutta la regione ${reg}`;
+  if (!confirm(`Cercare i link agli albi per ${dove} (${n} comuni)?\nI link inseriti a mano restano.`)) return;
+  try {
+    await avvia({ azione: "albi", regione: reg, provincia: sig, solo: com || "", salta_trovati: $("saltaTrovati").checked ? "si" : "no" });
+  } catch (e) { messaggio(e.message, true); alert("Non sono riuscito ad avviare il lavoro.\n\n" + e.message); }
 };
 
 $("btnMonitora").onclick = async () => {
@@ -487,10 +642,11 @@ $("btnMonitora").onclick = async () => {
     confermaInput();
     if (modificheImp) { messaggio("Salvo le impostazioni…"); await salvaImpostazioni(); }
     const modo = document.querySelector("input[name=modo]:checked").value;
-    await avvia({ azione: "monitora", modo, data: $("data").value || "", solo: selezionati().join(", ") });
+    const solo = selezionati().join(";");
+    if (solo.length > 60000) return messaggio("Troppi comuni selezionati per un solo giro: dividi per provincia.", true);
+    await avvia({ azione: "monitora", modo, data: $("data").value || "", solo });
   } catch (e) { messaggio(e.message, true); alert("Non sono riuscito ad avviare il lavoro.\n\n" + e.message); }
 };
-
 
 // ------------------------------------------------- finestra avanzamento
 const FASI = ["In coda su GitHub", "Preparazione del browser", "", "Salvataggio dei risultati"];

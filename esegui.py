@@ -62,6 +62,32 @@ def output_github(**kv):
                 h.write(f"{k}={v}\n")
 
 
+def carica_comuni():
+    """Legge l'archivio dei comuni; i vecchi record (solo Belluno) ricevono provincia e sigla."""
+    comuni = leggi("comuni.json", [])
+    for c in comuni:
+        if not c.get("sigla"):
+            c.update(regione="Veneto", provincia="Belluno", sigla="BL")
+    return comuni
+
+
+def carica_controlli(comuni):
+    """Date dell'ultimo controllo, con le vecchie chiavi (solo nome) convertite in 'Nome (SIGLA)'."""
+    controlli = leggi("ultimi_controlli.json", {})
+    for c in comuni:
+        k = L.chiave(c)
+        if c["nome"] in controlli and k not in controlli:
+            controlli[k] = controlli.pop(c["nome"])
+    return controlli
+
+
+def unisci(archivio, nuovi):
+    per_chiave = {L.chiave(c): c for c in archivio}
+    for c in nuovi:
+        per_chiave[L.chiave(c)] = c
+    return sorted(per_chiave.values(), key=lambda c: (c.get("regione", ""), c.get("sigla", ""), L.norm(c["nome"])))
+
+
 def registra_run(voce):
     storico = leggi("storico.json", [])
     storico.insert(0, voce)
@@ -69,35 +95,49 @@ def registra_run(voce):
 
 
 def cmd_albi(args):
-    cfg = {**CONFIG_DEFAULT, **leggi("config.json", {})}
+    archivio = carica_comuni()
+    sel = {"regione": args.regione or "Veneto", "sigla": args.provincia or "",
+           "comuni": [x.strip() for x in (args.comuni or "").split(";") if x.strip()],
+           "salta_trovati": args.salta_trovati == "si"}
+    descr = sel["regione"] + (f" / {sel['sigla']}" if sel["sigla"] else "") + \
+        (f" / {len(sel['comuni'])} comuni" if sel["comuni"] else "")
+    log(f"Ricerca albi: {descr}")
+
+    def parziale(fatti):
+        scrivi("comuni.json", unisci(archivio, fatti))
+
     m = Motore(log, avanzamento, threading.Event())
-    comuni = m.trova_albi(cfg["url_elenco"], leggi("comuni.json", []))
-    scrivi("comuni.json", comuni)
+    nuovi = m.trova_albi_selezione(sel, archivio, parziale)
+    tutti = unisci(archivio, nuovi)
+    scrivi("comuni.json", tutti)
+
     stamp = dt.datetime.now().strftime("%Y-%m-%d_%H%M")
     os.makedirs(PUB, exist_ok=True)
     nome_x = f"albi_pretori_{stamp}.xlsx"
-    L.excel_albi(comuni, os.path.join(PUB, nome_x))
-    trovati = sum(1 for c in comuni if c.get("albo"))
-    esito = f"Albo trovato per {trovati} comuni su {len(comuni)}."
+    L.excel_albi(tutti, os.path.join(PUB, nome_x))
+    trovati = sum(1 for c in nuovi if c.get("albo"))
+    esito = f"{descr}: albo trovato per {trovati} comuni su {len(nuovi)}. In archivio {len(tutti)} comuni."
     registra_run({"quando": stamp, "tipo": "albi", "esito": esito, "excel": f"risultati/{nome_x}", "zip": ""})
     log(esito)
 
 
 def cmd_monitora(args):
     cfg = {**CONFIG_DEFAULT, **leggi("config.json", {})}
-    comuni = leggi("comuni.json", [])
+    comuni = carica_comuni()
     if not comuni:
         sys.exit("Nessun comune: esegui prima la ricerca dei link agli albi.")
-    solo = [s.strip() for s in (args.solo or "").split(",") if s.strip()]
+    solo = {x.strip() for x in (args.solo or "").split(";") if x.strip()}
     if solo:
-        comuni = [c for c in comuni if c["nome"] in solo]
-    controlli = leggi("ultimi_controlli.json", {})
+        comuni = [c for c in comuni if L.chiave(c) in solo or c["nome"] in solo]
+        log(f"Controllo solo {len(comuni)} comuni selezionati")
+    controlli = carica_controlli(carica_comuni())
     oggi = dt.date.today()
     data_fissa = dt.date.fromisoformat(args.data) if args.data else oggi - dt.timedelta(days=30)
 
-    def dal(nome):
-        if args.modo == "ultimo" and controlli.get(nome):
-            return dt.date.fromisoformat(controlli[nome])
+    def dal(c):
+        k = L.chiave(c)
+        if args.modo == "ultimo" and controlli.get(k):
+            return dt.date.fromisoformat(controlli[k])
         return data_fissa
 
     stamp = dt.datetime.now().strftime("%Y-%m-%d_%H%M")
@@ -112,10 +152,10 @@ def cmd_monitora(args):
 
     for r in riepilogo:
         if r["esito"].startswith("OK"):
-            controlli[r["comune"]] = oggi.isoformat()
+            controlli[L.chiave({"nome": r["comune"], "sigla": r.get("sigla")})] = oggi.isoformat()
     scrivi("ultimi_controlli.json", controlli)
 
-    risultati.sort(key=lambda r: (r["comune"], r["data"] or dt.date.min))
+    risultati.sort(key=lambda r: (r.get("sigla", ""), r["comune"], r["data"] or dt.date.min))
     nome_x = f"determine_{stamp}.xlsx"
     L.excel_monitoraggio(risultati, riepilogo, os.path.join(cartella, nome_x))
     os.makedirs(PUB, exist_ok=True)
@@ -154,7 +194,11 @@ def cmd_monitora(args):
 def main():
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("albi")
+    a = sub.add_parser("albi")
+    a.add_argument("--regione", default="")
+    a.add_argument("--provincia", default="", help="sigla, es. BL (vuoto = tutta la regione)")
+    a.add_argument("--comuni", default="", help="nomi separati da punto e virgola (vuoto = tutti)")
+    a.add_argument("--salta-trovati", dest="salta_trovati", default="si")
     m = sub.add_parser("monitora")
     m.add_argument("--modo", default="ultimo", choices=["ultimo", "data"])
     m.add_argument("--data", default="")
