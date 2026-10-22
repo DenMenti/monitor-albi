@@ -1,7 +1,29 @@
 {
   "url_elenco": "https://www.tuttitalia.it/veneto/provincia-di-belluno/67-comuni/",
-  "parole": [],
-  "esclusioni": ["impegno di spesa", "subappalto"],
+  "parole": [
+    "lavori",
+    "affidamento",
+    "manutenzione",
+    "stradale",
+    "edilizia",
+    "gara",
+    "appalto",
+    "manifestazione",
+    "interesse",
+    "progettazione",
+    "incarico",
+    "progetto",
+    "esecutivo",
+    "procedura negoziata",
+    "aggiudicazione",
+    "impiantistica",
+    "efficentamento",
+    "intervento"
+  ],
+  "esclusioni": [
+    "impegno di spesa",
+    "subappalto"
+  ],
   "solo_determine": true,
   "scarica": true
 }
