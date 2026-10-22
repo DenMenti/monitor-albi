@@ -1,10 +1,11 @@
 {
-  "quando": "2026-10-22_1422",
-  "esito": "26 determine trovate in 60 comuni, 0 allegati. 53 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-22_1422.xlsx",
+  "quando": "2026-10-22_1639",
+  "esito": "28 determine trovate in 60 comuni, 0 allegati. 53 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-10-22_1639.xlsx",
   "zip": "",
   "risultati": [
     {
+      "id": "BL|Comelico Superiore|2026-10-08|555|DETERMINA N. Sett.185 DEL 08/10/2026 - AREA TECNICA - N. Gen.: 288/2026: AFFIDAM",
       "comune": "Comelico Superiore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -17,10 +18,11 @@
         "affidamento",
         "manutenzione"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Comelico Superiore|2026-10-08|552|DETERMINA N. Sett.184 DEL 08/10/2026 - AREA TECNICA - N. Gen.: 287/2026: LIQUIDA",
       "comune": "Comelico Superiore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -34,10 +36,11 @@
         "incarico",
         "progetto"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Comelico Superiore|2026-10-09|561|DETERMINA N. Sett.188 DEL 09/10/2026 - AREA TECNICA - N. Gen.: 295/2026: : O.C.D",
       "comune": "Comelico Superiore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -53,10 +56,11 @@
         "esecutivo",
         "intervento"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Comelico Superiore|2026-10-14|569|DETERMINA N. Sett.191 DEL 14/10/2026 - AREA TECNICA - N. Gen.: 298/2026: IMPEGNO",
       "comune": "Comelico Superiore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -67,10 +71,11 @@
       "parole": [
         "lavori"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Comelico Superiore|2026-10-14|568|DETERMINA N. Sett.189 DEL 13/10/2026 - AREA TECNICA - N. Gen.: 296/2026: OGGETTO",
       "comune": "Comelico Superiore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -84,10 +89,11 @@
         "incarico",
         "progetto"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Comelico Superiore|2026-10-16|572|DETERMINA N. Sett.194 DEL 16/10/2026 - AREA TECNICA - N. Gen.: 301/2026: SERVIZI",
       "comune": "Comelico Superiore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -99,10 +105,11 @@
         "lavori",
         "progetto"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Danta di Cadore|2026-10-07|447|DETERMINA N. Sett.41 DEL 07/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 128/20",
       "comune": "Danta di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -114,10 +121,11 @@
         "affidamento",
         "stradale"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Danta di Cadore|2026-10-08|449|DETERMINA N. Sett.88 DEL 08/10/2026 - AREA AMMINISTRATIVA FINANZIARIA DEMOGRAFIC",
       "comune": "Danta di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -128,10 +136,11 @@
       "parole": [
         "progetto"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Danta di Cadore|2026-10-09|453|DETERMINA N. Sett.42 DEL 09/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 130/20",
       "comune": "Danta di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -145,10 +154,11 @@
         "manutenzione",
         "stradale"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Danta di Cadore|2026-10-15|460|DETERMINA N. Sett.89 DEL 15/10/2026 - AREA AMMINISTRATIVA FINANZIARIA DEMOGRAFIC",
       "comune": "Danta di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -159,10 +169,11 @@
       "parole": [
         "progettazione"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Longarone|2026-10-07|2026/792|AFFIDAMENTO SERVICE AUDIO PER LA REALIZZAZIONE DELLO SPETTACOLO “M'INNAMORAVO DI",
       "comune": "Longarone",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -178,6 +189,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Longarone|2026-10-08|2026/797|LAVORI DI MANUTENZIONE DELL’IMPIANTO DI RISCALDAMENTO DEGLI APPARTAMENTI DELL’EX",
       "comune": "Longarone",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -193,6 +205,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Longarone|2026-10-13|2026/816|CONTRIBUTO PROGETTO REGIONALE R.I.A. XI - DGR 1309/2024 \"PROSECUZIONE MISURE FIN",
       "comune": "Longarone",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -207,6 +220,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Longarone|2026-10-15|2026/820|GARA EUROPEA A PROCEDURA TELEMATICA PER IL SERVIZIO DI GESTIONE IN CONCESSIONE D",
       "comune": "Longarone",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -222,6 +236,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Longarone|2026-10-20|2026/829|FORNITURA DI ALIMENTATORI DI RICAMBIO PER APPARECCHI ILLUMINANTI DI ILLUMINAZION",
       "comune": "Longarone",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -236,6 +251,39 @@
       "allegati": []
     },
     {
+      "id": "BL|Longarone|2026-10-22|2026/836|“RIGENERAZIONE E VALORIZZAZIONE URBANA: PIAZZA NOVE OTTOBRE 1963, IL CARDINE DI ",
+      "comune": "Longarone",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-22",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/836",
+      "oggetto": "“RIGENERAZIONE E VALORIZZAZIONE URBANA: PIAZZA NOVE OTTOBRE 1963, IL CARDINE DI LONGARONE” - I E II STRALCIO. INCARICO PROFESSIONALE PER LA PROGETTAZIONE DEFINITIVA ED ESECUTIVA, DIREZIONE LAVORI, MISURA E CONTABILITÀ DEI LAVORI, COORDINAMENTO PER LA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE DELL’OPERA. CUP C52F22000500005 - CIG 95153001F7. LIQUIDAZIONE ACCONTO N.3 COMPETENZE DIREZIONE LAVORI.",
+      "parole": [
+        "lavori",
+        "progettazione",
+        "incarico"
+      ],
+      "link": "https://longarone.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1452537?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BL|Longarone|2026-10-22|2026/835|CONTRIBUTO PROGETTO REGIONALE R.I.A. XII - DGR 1130/2025 \"PROSECUZIONE MISURE FI",
+      "comune": "Longarone",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-22",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/835",
+      "oggetto": "CONTRIBUTO PROGETTO REGIONALE R.I.A. XII - DGR 1130/2025 \"PROSECUZIONE MISURE FINALIZZATE ALL'INCLUSIONE E AL REINSERIMENTO SOCIALE E/O LAVORATIVO\" ANNO 2026. ACCERTAMENTO DELL’ENTRATA",
+      "parole": [
+        "progetto"
+      ],
+      "link": "https://longarone.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1452474?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BL|Lozzo di Cadore|2026-10-06|2026/343|AFFIDAMENTO SERVIZIO DI MANUTENZIONE DI UN MEZZO A SERVIZIO DEI MANUTENTORI COMU",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -251,6 +299,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Lozzo di Cadore|2026-10-07|2026/344|PROCEDURA AD EVIDENZA PUBBLICA PER L'AFFIDAMENTO IN LOCAZIONE AD USO ABITATIVO D",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -266,6 +315,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Lozzo di Cadore|2026-10-12|2026/352|AFFIDAMENTO FORNITURA DI ENERGIA ELETTRICA E AUMENTO DI POTENZA DELL’UTENZA ELET",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -280,6 +330,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Lozzo di Cadore|2026-10-15|2026/354|FONDO COMUNI CONFINANTI PROGRAMMAZIONE STRATEGICA 2019-2024 - LAVORI INERENTI LA",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -295,6 +346,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Lozzo di Cadore|2026-10-16|2026/356|PROCEDURA DI ASTA PUBBLICA PER L'AFFIDAMENTO IN LOCAZIONE AD USO ABITATIVO DELL'",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -311,6 +363,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Lozzo di Cadore|2026-10-20|2026/360|FONDO COMUNI CONFINANTI PROGRAMMAZIONE STRATEGICA 2019-2024 - LAVORI INERENTI LA",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -325,6 +378,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Lozzo di Cadore|2026-10-21|2026/365|FONDO COMUNI CONFINANTI PROGRAMMAZIONE STRATEGICA 2019-2024 - LAVORI INERENTI LA",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -339,6 +393,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Lozzo di Cadore|2026-10-21|2026/363|FONDO COMUNI CONFINANTI PROGRAMMAZIONE STRATEGICA 2019-2024 - LAVORI INERENTI LA",
       "comune": "Lozzo di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -353,6 +408,7 @@
       "allegati": []
     },
     {
+      "id": "BL|Santo Stefano di Cadore|2026-10-13|392|DETERMINA N.164 DEL 13/10/2026 - AREA TECNICA - EDILIZIA PRIVATA E PUBBLICA: INT",
       "comune": "Santo Stefano di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -364,10 +420,11 @@
         "affidamento",
         "edilizia"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsstefanodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Santo Stefano di Cadore|2026-10-16|401|DETERMINA N.169 DEL 16/10/2026 - AREA FINANZIARIA E AMMINISTRATIVA: MISURE REGIO",
       "comune": "Santo Stefano di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -378,10 +435,11 @@
       "parole": [
         "progetto"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsstefanodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     },
     {
+      "id": "BL|Santo Stefano di Cadore|2026-10-22|407|DETERMINA N.174 DEL 22/10/2026 - AREA TECNICA - EDILIZIA PRIVATA E PUBBLICA: INT",
       "comune": "Santo Stefano di Cadore",
       "sigla": "BL",
       "provincia": "Belluno",
@@ -393,7 +451,7 @@
         "lavori",
         "edilizia"
       ],
-      "link": "",
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsstefanodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
       "allegati": []
     }
   ],
@@ -407,7 +465,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://agordo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-agordo.jpg"
     },
     {
       "comune": "Alleghe",
@@ -418,7 +480,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://alleghe.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-alleghe.jpg"
     },
     {
       "comune": "Alpago",
@@ -429,7 +495,10 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.comune.alpag"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": ""
     },
     {
       "comune": "Arsiè",
@@ -440,7 +509,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.comune.arsie"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-arsie.jpg"
     },
     {
       "comune": "Auronzo di Cadore",
@@ -451,7 +524,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-auronzo-di-cadore.jpg"
     },
     {
       "comune": "Belluno",
@@ -462,7 +539,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://alboonline.comune.belluno.it/AlboOnline/ricercaAlbo",
+      "screenshot": "BL-belluno.jpg"
     },
     {
       "comune": "Borca di Cadore",
@@ -484,7 +565,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://borgovalbelluna.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-borgo-valbelluna.jpg"
     },
     {
       "comune": "Calalzo di Cadore",
@@ -495,7 +580,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://calalzo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-calalzo-di-cadore.jpg"
     },
     {
       "comune": "Canale d'Agordo",
@@ -506,7 +595,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://canaledagordo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-canale-d-agordo.jpg"
     },
     {
       "comune": "Cencenighe Agordino",
@@ -517,7 +610,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://cencenigheagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-cencenighe-agordino.jpg"
     },
     {
       "comune": "Cesiomaggiore",
@@ -528,7 +625,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200471&w3cbt=S",
+      "screenshot": "BL-cesiomaggiore.jpg"
     },
     {
       "comune": "Chies d'Alpago",
@@ -539,7 +640,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://www.comune.chiesdalpago.bl.it/albo_on_line",
+      "screenshot": "BL-chies-d-alpago.jpg"
     },
     {
       "comune": "Cibiana di Cadore",
@@ -550,7 +655,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://cibianadicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-cibiana-di-cadore.jpg"
     },
     {
       "comune": "Colle Santa Lucia",
@@ -561,7 +670,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://collesantalucia.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-colle-santa-lucia.jpg"
     },
     {
       "comune": "Comelico Superiore",
@@ -572,7 +685,7 @@
       "pagine": 3,
       "letti": 33,
       "trovati": 6,
-      "esito": "OK – 6 trovati"
+      "esito": "OK – 6 trovati, 6 senza allegati"
     },
     {
       "comune": "Cortina d'Ampezzo",
@@ -583,7 +696,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: bloccato dal sito (protezione anti-robot)",
+      "diagnosi": "bloccato dal sito (protezione anti-robot)",
+      "diag_stato": 403,
+      "diag_url": "http://cortina.soluzionipa.it/openweb/albo/albo_pretorio.php",
+      "screenshot": "BL-cortina-d-ampezzo.jpg"
     },
     {
       "comune": "Danta di Cadore",
@@ -594,7 +711,7 @@
       "pagine": 3,
       "letti": 44,
       "trovati": 4,
-      "esito": "OK – 4 trovati"
+      "esito": "OK – 4 trovati, 4 senza allegati"
     },
     {
       "comune": "Domegge di Cadore",
@@ -605,7 +722,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://domeggedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-domegge-di-cadore.jpg"
     },
     {
       "comune": "Falcade",
@@ -616,7 +737,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://falcade.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-falcade.jpg"
     },
     {
       "comune": "Feltre",
@@ -638,7 +763,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.comune.fonza"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-fonzaso.jpg"
     },
     {
       "comune": "Gosaldo",
@@ -649,7 +778,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://gosaldo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-gosaldo.jpg"
     },
     {
       "comune": "La Valle Agordina",
@@ -660,7 +793,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.comune.laval"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-la-valle-agordina.jpg"
     },
     {
       "comune": "Lamon",
@@ -671,7 +808,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.comune.lamon"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-lamon.jpg"
     },
     {
       "comune": "Limana",
@@ -682,7 +823,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://limana.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-limana.jpg"
     },
     {
       "comune": "Livinallongo del CdL",
@@ -693,7 +838,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-livinallongo-del-cdl.jpg"
     },
     {
       "comune": "Longarone",
@@ -702,9 +851,9 @@
       "albo": "https://longarone.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=8885",
       "dal": "2026-09-08",
       "pagine": 3,
-      "letti": 47,
-      "trovati": 5,
-      "esito": "OK – 5 trovati"
+      "letti": 52,
+      "trovati": 7,
+      "esito": "OK – 7 trovati, 7 senza allegati"
     },
     {
       "comune": "Lorenzago di Cadore",
@@ -715,7 +864,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://lorenzagodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-lorenzago-di-cadore.jpg"
     },
     {
       "comune": "Lozzo di Cadore",
@@ -724,9 +877,9 @@
       "albo": "https://lozzodicadore.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=7184",
       "dal": "2026-09-08",
       "pagine": 2,
-      "letti": 33,
+      "letti": 34,
       "trovati": 8,
-      "esito": "OK – 8 trovati"
+      "esito": "OK – 8 trovati, 8 senza allegati"
     },
     {
       "comune": "Ospitale di Cadore",
@@ -737,7 +890,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.comune.ospit"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-ospitale-di-cadore.jpg"
     },
     {
       "comune": "Pedavena",
@@ -748,7 +905,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1200469",
+      "screenshot": "BL-pedavena.jpg"
     },
     {
       "comune": "Perarolo di Cadore",
@@ -759,7 +920,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://perarolodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-perarolo-di-cadore.jpg"
     },
     {
       "comune": "Pieve di Cadore",
@@ -770,7 +935,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://pievedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-pieve-di-cadore.jpg"
     },
     {
       "comune": "Ponte nelle Alpi",
@@ -781,7 +950,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.comune.ponte"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-ponte-nelle-alpi.jpg"
     },
     {
       "comune": "Rivamonte Agordino",
@@ -792,7 +965,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://rivamonteagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-rivamonte-agordino.jpg"
     },
     {
       "comune": "Rocca Pietore",
@@ -803,7 +980,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://roccapietore.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-rocca-pietore.jpg"
     },
     {
       "comune": "San Gregorio nelle Alpi",
@@ -814,7 +995,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1201636",
+      "screenshot": "BL-san-gregorio-nelle-alpi.jpg"
     },
     {
       "comune": "San Nicolò di Comelico",
@@ -825,7 +1010,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizionline.hspromilapro"
+      "esito": "Nessuna riga letta: l'elenco è dentro un riquadro (iframe) non letto",
+      "diagnosi": "l'elenco è dentro un riquadro (iframe) non letto",
+      "diag_stato": 200,
+      "diag_url": "https://servizionline.hspromilaprod.hypersicapp.net/cmssnicolocomelico/listaservizi.aspx?U=1&S=200",
+      "screenshot": "BL-san-nicolo-di-comelico.jpg"
     },
     {
       "comune": "San Pietro di Cadore",
@@ -836,7 +1025,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: l'elenco è dentro un riquadro (iframe) non letto",
+      "diagnosi": "l'elenco è dentro un riquadro (iframe) non letto",
+      "diag_stato": 200,
+      "diag_url": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
+      "screenshot": "BL-san-pietro-di-cadore.jpg"
     },
     {
       "comune": "San Tomaso Agordino",
@@ -847,7 +1040,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://santomasoagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-san-tomaso-agordino.jpg"
     },
     {
       "comune": "San Vito di Cadore",
@@ -858,7 +1055,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://sanvitodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-san-vito-di-cadore.jpg"
     },
     {
       "comune": "Santa Giustina",
@@ -869,7 +1070,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200473&w3cbt=S",
+      "screenshot": "BL-santa-giustina.jpg"
     },
     {
       "comune": "Santo Stefano di Cadore",
@@ -880,7 +1085,7 @@
       "pagine": 3,
       "letti": 35,
       "trovati": 3,
-      "esito": "OK – 3 trovati"
+      "esito": "OK – 3 trovati, 3 senza allegati"
     },
     {
       "comune": "Sedico",
@@ -891,7 +1096,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1201705&w3cbt=S",
+      "screenshot": "BL-sedico.jpg"
     },
     {
       "comune": "Selva di Cadore",
@@ -902,7 +1111,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://selvadicadore.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-selva-di-cadore.jpg"
     },
     {
       "comune": "Seren del Grappa",
@@ -913,7 +1126,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n1200474&areaAttiva=2",
+      "screenshot": "BL-seren-del-grappa.jpg"
     },
     {
       "comune": "Setteville",
@@ -924,7 +1141,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1241647&w3cbt=S",
+      "screenshot": "BL-setteville.jpg"
     },
     {
       "comune": "Sospirolo",
@@ -935,7 +1156,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME001.sto?DB_NAME=n1201708",
+      "screenshot": "BL-sospirolo.jpg"
     },
     {
       "comune": "Soverzene",
@@ -946,7 +1171,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://soverzene.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-soverzene.jpg"
     },
     {
       "comune": "Sovramonte",
@@ -957,7 +1186,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
+      "diagnosi": "elenco presente ma in un formato non riconosciuto",
+      "diag_stato": 200,
+      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200475&w3cbt=S",
+      "screenshot": "BL-sovramonte.jpg"
     },
     {
       "comune": "Taibon Agordino",
@@ -968,7 +1201,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-taibon-agordino.jpg"
     },
     {
       "comune": "Tambre",
@@ -979,7 +1216,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"http://sac5.halleysac.it/c025060/m"
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-tambre.jpg"
     },
     {
       "comune": "Val di Zoldo",
@@ -990,7 +1231,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: TimeoutError: Page.goto: Timeout 40000ms exceeded.\nCall log:\n  - navigating to \"https://servizi.comune.valdizoldo."
+      "esito": "Errore: il sito non risponde (timeout)",
+      "diagnosi": "il sito non risponde (timeout)",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BL-val-di-zoldo.jpg"
     },
     {
       "comune": "Vallada Agordina",
@@ -1001,7 +1246,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-vallada-agordina.jpg"
     },
     {
       "comune": "Valle di Cadore",
@@ -1012,7 +1261,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://valledicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-valle-di-cadore.jpg"
     },
     {
       "comune": "Vigo di Cadore",
@@ -1023,7 +1276,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://vigodicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-vigo-di-cadore.jpg"
     },
     {
       "comune": "Vodo Cadore",
@@ -1034,7 +1291,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://vodo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-vodo-cadore.jpg"
     },
     {
       "comune": "Voltago Agordino",
@@ -1045,7 +1306,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://voltagoagordino.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
+      "screenshot": "BL-voltago-agordino.jpg"
     },
     {
       "comune": "Zoppè di Cadore",
@@ -1056,7 +1321,11 @@
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: albo da controllare a mano"
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://zoppedicadore.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "screenshot": "BL-zoppe-di-cadore.jpg"
     }
   ]
 }

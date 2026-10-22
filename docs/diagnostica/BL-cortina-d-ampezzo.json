@@ -1,0 +1,14 @@
+{
+ "comune": "Cortina d'Ampezzo",
+ "sigla": "BL",
+ "albo": "http://cortina.soluzionipa.it/openweb/albo/albo_pretorio.php",
+ "motivo": "nessuna riga letta",
+ "diagnosi": "bloccato dal sito (protezione anti-robot)",
+ "stato_http": 403,
+ "url": "http://cortina.soluzionipa.it/openweb/albo/albo_pretorio.php",
+ "titolo": "Service unavailable",
+ "testo": "The request is blocked. 20261022T144707Z-r1dfb999567fb29fhC1SN1ucww00000002s0000000005dq4",
+ "tabelle": 0,
+ "link": 0,
+ "frame": []
+}
