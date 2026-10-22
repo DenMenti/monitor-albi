@@ -1,5 +1,12 @@
 [
   {
+    "quando": "2026-10-22_0842",
+    "tipo": "monitoraggio",
+    "esito": "1216 determine trovate in 260 comuni, 3 allegati. 171 albi da controllare a mano.",
+    "excel": "risultati/determine_2026-10-22_0842.xlsx",
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-22_0842/allegati_2026-10-22_0842.zip"
+  },
+  {
     "quando": "2026-10-21_1800",
     "tipo": "albi",
     "esito": "Lombardia / BS: albo trovato per 200 comuni su 206. In archivio 266 comuni.",
