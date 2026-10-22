@@ -264,6 +264,7 @@ tr.fissato td { background: var(--abete-chiaro); }
   </div>
   <details id="detRiep">
     <summary>Albi da controllare a mano nell'ultimo giro</summary>
+    <p class="stat" id="riepSomm"></p>
     <ul id="riepilogo"></ul>
   </details>
 </section>
@@ -618,7 +619,10 @@ function disegnaRisultati() {
   }).join("") : `<tr><td colspan="8" class="vuoto">${{ attivi: "Nessuna determina da vedere.", fissati: "Nessun atto fissato.", nascosti: "Nessun atto nascosto.", eliminati: "Nessun atto eliminato." }[vista]}</td></tr>`;
   const prob = (u.riepilogo || []).filter(r => !String(r.esito).startsWith("OK"));
   $("detRiep").hidden = !prob.length;
-  $("riepilogo").innerHTML = prob.map(r => `<li><a href="${esc(r.albo)}" target="_blank" rel="noopener">${esc(r.comune)}${r.sigla ? " (" + esc(r.sigla) + ")" : ""}</a>: ${esc(r.esito)}</li>`).join("");
+  const perDiagnosi = {};
+  prob.forEach(r => { const d = r.diagnosi || "altro"; perDiagnosi[d] = (perDiagnosi[d] || 0) + 1; });
+  $("riepSomm").textContent = prob.length ? `${prob.length} albi non letti — ` + Object.entries(perDiagnosi).sort((a, b) => b[1] - a[1]).map(([d, n]) => `${n} ${d}`).join(" · ") : "";
+  $("riepilogo").innerHTML = prob.map(r => `<li><a href="${esc(r.albo)}" target="_blank" rel="noopener">${esc(r.comune)}${r.sigla ? " (" + esc(r.sigla) + ")" : ""}</a>: ${esc(r.esito)}${r.screenshot ? ` — <a href="${esc(linkFile("diagnostica/" + r.screenshot))}" target="_blank" rel="noopener">cosa ha visto il robot</a>` : ""}</li>`).join("");
 }
 
 document.querySelectorAll("#vista button").forEach(b => b.onclick = () => { vista = b.dataset.v; disegnaRisultati(); });

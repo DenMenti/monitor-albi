@@ -2,9 +2,12 @@
 motore.py — la parte che usa il browser (Microsoft Edge via Playwright).
 """
 import datetime as dt
+import json
 import os
+import random
 import re
-from urllib.parse import urldefrag, urljoin
+import time
+from urllib.parse import urldefrag, urljoin, urlparse
 
 from playwright.sync_api import TimeoutError as PWTimeout
 from playwright.sync_api import sync_playwright
@@ -16,6 +19,7 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 SEL_CLICK = "a, button, [role=link], [role=menuitem], [role=button], [onclick]"
 COOKIE_TESTI = ["accetta tutti", "accetto tutti", "accetta", "accetto", "acconsento", "ho capito", "ok", "chiudi"]
 MAX_PAGINE = 40
+PAUSA_STESSO_SITO = 4   # secondi minimi tra due albi sullo stesso dominio
 
 JS_RIGHE = r"""() => {
   const txt = e => (e.innerText || '').replace(/\s+/g, ' ').trim();
@@ -236,8 +240,32 @@ class Motore:
             except Exception:
                 pass
 
-    def _apri(self, page, url, attesa=1500):
-        page.goto(url, wait_until="domcontentloaded", timeout=40000)
+    def _pausa_cortesia(self, url):
+        """Non bombarda lo stesso sito: tra due albi sullo stesso dominio lascia qualche secondo."""
+        if not hasattr(self, "_ultimo_accesso"):
+            self._ultimo_accesso = {}
+        host = urlparse(url).hostname or ""
+        base = ".".join(host.split(".")[-2:])
+        trascorso = time.time() - self._ultimo_accesso.get(base, 0)
+        attesa = PAUSA_STESSO_SITO + random.uniform(0, 2)
+        if trascorso < attesa:
+            time.sleep(attesa - trascorso)
+        self._ultimo_accesso[base] = time.time()
+
+    def _apri(self, page, url, attesa=1500, cortese=False):
+        if cortese:
+            self._pausa_cortesia(url)
+        self.ultimo_stato = None
+        for tentativo in (1, 2):
+            try:
+                risp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                self.ultimo_stato = risp.status if risp else None
+                break
+            except PWTimeout:
+                if tentativo == 2:
+                    raise
+                self.log("  pagina lenta, riprovo…")
+                page.wait_for_timeout(5000)
         try:
             page.wait_for_load_state("networkidle", timeout=10000)
         except PWTimeout:
@@ -526,7 +554,9 @@ class Motore:
                     risultati += trovati_qui
                     senza = sum(1 for r in trovati_qui if not r["allegati"])
                     if not atti:
-                        rie["esito"] = "Nessuna riga letta: albo da controllare a mano"
+                        d = self._diagnosi(page, c, opz.get("diagnostica"), "nessuna riga letta")
+                        rie.update(d)
+                        rie["esito"] = "Nessuna riga letta: " + d["diagnosi"]
                     else:
                         rie["esito"] = f"OK – {len(trovati_qui)} trovati" + (f", {senza} senza allegati" if opz["scarica"] and senza else "")
                     self.log(f"{nome}: {len(atti)} atti letti su {pagine} pagine, {len(trovati_qui)} trovati"
@@ -535,13 +565,66 @@ class Motore:
                     raise
                 except Exception as e:
                     risultati += trovati_qui
-                    rie["esito"] = f"Errore: {type(e).__name__}: {str(e)[:100]}"
+                    d = self._diagnosi(page, c, opz.get("diagnostica"), f"{type(e).__name__}: {str(e).splitlines()[0][:120]}")
+                    rie.update(d)
+                    rie["esito"] = f"Errore: {d['diagnosi']}"
                     self.log(f"{nome}: errore ({type(e).__name__})")
                     page = self._pagina_nuova(ctx, page)
                 riepilogo.append(rie)
             self.avanzamento(len(da_fare), len(da_fare), "Fatto")
             browser.close()
         return risultati, riepilogo
+
+    def _diagnosi(self, page, comune, cartella, motivo):
+        """Salva screenshot e testo della pagina dell'albo che non si è riusciti a leggere, e prova a dire perché."""
+        info = {"url": "", "titolo": "", "testo": "", "frame": [], "tabelle": 0, "link": 0}
+        try:
+            info = page.evaluate("""() => ({
+                url: location.href, titolo: document.title,
+                testo: (document.body ? document.body.innerText : '').replace(/\\s+/g, ' ').slice(0, 3000),
+                tabelle: document.querySelectorAll('table').length,
+                link: document.querySelectorAll('a[href]').length,
+                frame: Array.from(document.querySelectorAll('iframe')).map(f => f.src).slice(0, 5)
+            })""")
+        except Exception:
+            pass
+        t = L.norm(info.get("titolo", "") + " " + info.get("testo", ""))
+        stato = getattr(self, "ultimo_stato", None)
+        if stato in (403, 429) or re.search(r"captcha|access denied|accesso negato|forbidden|request unsuccessful|incapsula"
+                                             r"|are you a robot|sei un robot|bot detection|cloudflare|attention required"
+                                             r"|richiesta bloccata|too many requests", t):
+            diagnosi = "bloccato dal sito (protezione anti-robot)"
+        elif "timeout" in motivo.lower():
+            diagnosi = "il sito non risponde (timeout)"
+        elif stato and stato >= 400:
+            diagnosi = f"il sito risponde con errore {stato}"
+        elif len(info.get("testo", "")) < 80:
+            diagnosi = "pagina vuota o non caricata"
+        elif info.get("frame"):
+            diagnosi = "l'elenco è dentro un riquadro (iframe) non letto"
+        elif re.search(r"nessun (atto|documento|risultato)|non ci sono|nessuna pubblicazione|0 risultati", t):
+            diagnosi = "l'albo risulta vuoto in questo momento"
+        elif info.get("tabelle", 0) == 0:
+            diagnosi = "pagina senza elenco: forse è un menu, serve il link alla lista degli atti"
+        else:
+            diagnosi = "elenco presente ma in un formato non riconosciuto"
+        out = {"diagnosi": diagnosi, "diag_stato": stato, "diag_url": info.get("url", "")}
+        if cartella:
+            try:
+                os.makedirs(cartella, exist_ok=True)
+                base = f"{comune.get('sigla', '')}-{L.slug(comune['nome'])}".strip("-")
+                try:
+                    page.screenshot(path=os.path.join(cartella, base + ".jpg"), type="jpeg", quality=45, timeout=10000)
+                    out["screenshot"] = base + ".jpg"
+                except Exception:
+                    pass
+                with open(os.path.join(cartella, base + ".json"), "w", encoding="utf-8") as f:
+                    json.dump({"comune": comune["nome"], "sigla": comune.get("sigla", ""), "albo": comune.get("albo"),
+                               "motivo": motivo, "diagnosi": diagnosi, "stato_http": stato, **info}, f, ensure_ascii=False, indent=1)
+            except Exception:
+                pass
+        self.log(f"  diagnosi: {diagnosi}")
+        return out
 
     def _righe_pagina(self, page):
         righe = []
@@ -575,7 +658,7 @@ class Motore:
 
     def _leggi_albo(self, page, url, dal, gestisci=None):
         """Legge le pagine dell'albo; per ogni atto nuovo chiama gestisci() finché la riga è ancora sulla pagina."""
-        self._apri(page, url)
+        self._apri(page, url, cortese=True)
         atti, visti, pagine, firma_prec = [], set(), 0, None
         while pagine < MAX_PAGINE:
             self._controlla_stop()

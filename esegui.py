@@ -21,6 +21,7 @@ from motore import Motore
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATI = os.path.join(BASE, "docs", "dati")
 PUB = os.path.join(BASE, "docs", "risultati")
+DIAG = os.path.join(BASE, "docs", "diagnostica")
 LAVORO = os.path.join(BASE, "_lavoro")
 USCITA = os.path.join(BASE, "_uscita")
 
@@ -151,6 +152,9 @@ def cmd_monitora(args):
            "solo_determine": cfg["solo_determine"], "scarica": cfg["scarica"], "esclusi": esclusi}
     if esclusi:
         log(f"{len(esclusi)} atti eliminati in passato verranno ignorati")
+    # diagnostica: tengo solo quella dell'ultimo controllo
+    shutil.rmtree(DIAG, ignore_errors=True)
+    opz["diagnostica"] = DIAG
     m = Motore(log, avanzamento, threading.Event())
     risultati, riepilogo = m.monitora(comuni, dal, opz, cartella)
 
