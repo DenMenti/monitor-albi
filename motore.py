@@ -2,6 +2,7 @@
 motore.py — la parte che usa il browser (Microsoft Edge via Playwright).
 """
 import datetime as dt
+import hashlib
 import json
 import os
 import random
@@ -807,54 +808,109 @@ class Motore:
             pass
 
     def _allegati_atto(self, page, frame, riga, atto, link_dett, ctx, comune, cartella, contatore):
-        """Trova e scarica gli allegati di un atto: link nella riga, tendine/dettagli aperti, pagina di dettaglio."""
+        """Trova e scarica gli allegati di un atto: link nella riga, tendine/dettagli aperti, clic sulla riga,
+        finestre e schede che si aprono, pagina di dettaglio."""
         urls = self._link_allegato(atto["links"])
         salvati = []
         rid = riga.get("id")
+        scaricati, popup = [], []           # download partiti da soli e nuove schede aperte dai clic
 
+        def su_download(d):
+            scaricati.append(d)
+
+        def su_pagina(p):
+            popup.append(p)
+            p.on("download", su_download)
+
+        page.on("download", su_download)
+        ctx.on("page", su_pagina)
         html_prima = ""
-        if rid:
-            try:
-                html_prima = frame.evaluate(JS_HTML_AMBITO, rid)
-            except Exception:
-                pass
-            prima = {l["href"] for l in self._tutti_link(page)}
-            url_prima = page.url
-            info = None
-            try:
-                info = frame.evaluate(JS_SEGNA_TENDINE, rid)
-            except Exception:
-                pass
-            targets = (info or {}).get("targets", [])
-            for i in range((info or {}).get("n", 0)):
+        try:
+            if rid:
                 try:
-                    el = frame.locator(f'[data-albi-toggle="{i}"]').first
-                    if not el.count():
-                        continue
-                    el.scroll_into_view_if_needed(timeout=2000)
-                    el.click(timeout=3000)
+                    html_prima = frame.evaluate(JS_HTML_AMBITO, rid)
+                except Exception:
+                    pass
+                prima = {l["href"] for l in self._tutti_link(page)}
+                url_prima = page.url
+                info = None
+                try:
+                    info = frame.evaluate(JS_SEGNA_TENDINE, rid)
+                except Exception:
+                    pass
+                targets = (info or {}).get("targets", [])
+
+                def raccogli():
+                    trovati = []
+                    try:
+                        trovati += self._link_allegato(frame.evaluate(JS_LINK_AMBITO, [rid, targets]))
+                    except Exception:
+                        pass
+                    trovati += self._link_allegato([l for l in self._tutti_link(page) if l["href"] not in prima])
+                    return trovati
+
+                def clicca(locator):
+                    """Clic e attesa; True se il clic ci ha portato su un'altra pagina."""
+                    try:
+                        if not locator.count():
+                            return False
+                        locator.scroll_into_view_if_needed(timeout=2000)
+                        locator.click(timeout=3000)
+                    except Exception:
+                        return False
                     try:
                         page.wait_for_load_state("networkidle", timeout=6000)
                     except PWTimeout:
                         pass
-                    page.wait_for_timeout(900)
-                except Exception:
-                    continue
-                if page.url != url_prima:     # il clic ha aperto una pagina di dettaglio
+                    page.wait_for_timeout(1000)
+                    return page.url != url_prima
+
+                navigato = False
+                # 1) comandi riconosciuti come tendine/dettaglio
+                for i in range((info or {}).get("n", 0)):
+                    if clicca(frame.locator(f'[data-albi-toggle="{i}"]').first):
+                        navigato = True
+                        break
+                # 2) se non è uscito niente: clic sulla prima cella (tipico delle tabelle con "+" disegnato)
+                #    e poi sulla riga stessa (molte piattaforme aprono il dettaglio cliccando la riga)
+                if not navigato and not raccogli() and not scaricati and not popup:
+                    for sel in (f'[data-albi-id="{rid}"] > td:first-child', f'[data-albi-id="{rid}"]'):
+                        if clicca(frame.locator(sel).first):
+                            navigato = True
+                            break
+                        if raccogli() or scaricati or popup:
+                            break
+                if navigato:                      # il clic ha aperto una pagina di dettaglio
                     urls += self._link_allegato(self._tutti_link(page))
                     urls += self._espandi_e_raccogli(page)
-                    break
-            if page.url == url_prima:
+                else:
+                    urls += raccogli()
+                    # allegati che si scaricano solo cliccando (nessun link vero)
+                    if not urls and not scaricati:
+                        salvati += self._scarica_cliccando(page, frame, rid, comune, atto, cartella, contatore)
+                    self._chiudi_finestre(page)
+
+            # schede aperte dai clic: possono essere il dettaglio o direttamente il file
+            for p in popup:
                 try:
-                    urls += self._link_allegato(frame.evaluate(JS_LINK_AMBITO, [rid, targets]))
+                    p.wait_for_load_state("domcontentloaded", timeout=15000)
+                    p.wait_for_timeout(800)
+                    if L.sembra_allegato({"href": p.url, "text": ""}):
+                        urls.append(p.url)
+                    urls += self._link_allegato(self._tutti_link(p))
                 except Exception:
                     pass
-                dopo = self._tutti_link(page)
-                urls += self._link_allegato([l for l in dopo if l["href"] not in prima])
-                # allegati che si scaricano solo cliccando (nessun link vero)
-                if not urls:
-                    salvati += self._scarica_cliccando(page, frame, rid, comune, atto, cartella, contatore)
-                self._chiudi_finestre(page)
+        finally:
+            page.remove_listener("download", su_download)
+            ctx.remove_listener("page", su_pagina)
+            for p in popup:
+                try:
+                    p.close()
+                except Exception:
+                    pass
+
+        for d in scaricati:
+            salvati += self._salva_download(d, comune, atto, cartella, contatore)
 
         diag_dettaglio = None
         if link_dett and not urls and not salvati:
@@ -871,10 +927,26 @@ class Motore:
                 p2.close()
 
         salvati += self._scarica_url(ctx, comune, atto, list(dict.fromkeys(urls)), cartella, contatore)
+        salvati = list(dict.fromkeys(salvati))
         if not salvati:
             self.log(f"  {comune}: nessun allegato trovato per «{atto['oggetto'][:60]}»")
             self._diag_atto(page, frame, rid, comune, atto, html_prima, urls, link_dett, diag_dettaglio)
         return salvati
+
+    def _salva_download(self, d, comune, atto, cartella, contatore):
+        try:
+            percorso = d.path()
+            if not percorso:
+                return []
+            with open(percorso, "rb") as f:
+                dati = f.read()
+            if len(dati) < 200:
+                return []
+            nome = d.suggested_filename or ""
+            est = L.estensione(nome or d.url, "", f'filename="{nome}"')
+            return [self._salva(comune, atto, cartella, contatore, est, dati)]
+        except Exception:
+            return []
 
     def _diag_pagina(self, pg):
         """Fotografa una pagina (di dettaglio) per capire dove sono gli allegati."""
@@ -948,6 +1020,12 @@ class Motore:
         return self._link_allegato([l for l in dopo if l["href"] not in prima])
 
     def _salva(self, comune, atto, cartella, contatore, est, dati):
+        # lo stesso file arrivato per due strade diverse (link e clic) si salva una volta sola
+        impronta = (comune, atto["data"], atto["oggetto"], hashlib.sha1(dati).hexdigest())
+        if not hasattr(self, "_gia_salvati"):
+            self._gia_salvati = {}
+        if impronta in self._gia_salvati:
+            return self._gia_salvati[impronta]
         chiave = (comune, atto["data"])
         contatore[chiave] = contatore.get(chiave, 0) + 1
         dest = os.path.join(cartella, L.slug(comune))
@@ -955,7 +1033,9 @@ class Motore:
         nome = L.nome_file(comune, atto["data"], contatore[chiave], est)
         with open(os.path.join(dest, nome), "wb") as f:
             f.write(dati)
-        return os.path.join(L.slug(comune), nome)
+        rel = os.path.join(L.slug(comune), nome)
+        self._gia_salvati[impronta] = rel
+        return rel
 
     def _scarica_cliccando(self, page, frame, rid, comune, atto, cartella, contatore):
         salvati = []
@@ -969,14 +1049,7 @@ class Motore:
                 el = frame.locator(f'[data-albi-dl="{i}"]').first
                 with page.expect_download(timeout=12000) as dl:
                     el.click(timeout=3000)
-                d = dl.value
-                percorso = d.path()
-                with open(percorso, "rb") as f:
-                    dati = f.read()
-                if len(dati) < 200:
-                    continue
-                est = L.estensione(d.suggested_filename or "", "", f'filename="{d.suggested_filename}"')
-                salvati.append(self._salva(comune, atto, cartella, contatore, est, dati))
+                salvati += self._salva_download(dl.value, comune, atto, cartella, contatore)
             except Exception:
                 continue
         return salvati
@@ -985,18 +1058,36 @@ class Motore:
         salvati = []
         for u in urls:
             self._controlla_stop()
+            fatto = False
             try:
                 r = ctx.request.get(u, timeout=60000)
-                if not r.ok:
-                    continue
                 ctype = r.headers.get("content-type", "")
-                if "text/html" in ctype:
-                    continue  # è una pagina, non un file
-                body = r.body()
-                if len(body) < 200:
-                    continue
-                est = L.estensione(u, ctype, r.headers.get("content-disposition", ""))
-                salvati.append(self._salva(comune, atto, cartella, contatore, est, body))
+                if r.ok and "text/html" not in ctype:
+                    body = r.body()
+                    if len(body) >= 200:
+                        est = L.estensione(u, ctype, r.headers.get("content-disposition", ""))
+                        salvati.append(self._salva(comune, atto, cartella, contatore, est, body))
+                        fatto = True
             except Exception:
-                continue
+                pass
+            if not fatto:
+                # alcuni siti danno il file solo a un browser vero (sessione, protezioni): lo apro in una scheda
+                salvati += self._scarica_con_browser(ctx, u, comune, atto, cartella, contatore)
         return salvati
+
+    def _scarica_con_browser(self, ctx, url, comune, atto, cartella, contatore):
+        p = ctx.new_page()
+        try:
+            with p.expect_download(timeout=20000) as dl:
+                try:
+                    p.goto(url, timeout=20000)
+                except Exception:
+                    pass        # "Download is starting": normale quando l'indirizzo è un file
+            return self._salva_download(dl.value, comune, atto, cartella, contatore)
+        except Exception:
+            return []
+        finally:
+            try:
+                p.close()
+            except Exception:
+                pass
