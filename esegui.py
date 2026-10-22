@@ -161,6 +161,15 @@ def cmd_monitora(args):
     for r in riepilogo:
         if r["esito"].startswith("OK"):
             controlli[L.chiave({"nome": r["comune"], "sigla": r.get("sigla")})] = oggi.isoformat()
+    # link diretti agli elenchi trovati seguendo i menu: li ricordo per i prossimi controlli
+    nuovi_link = {L.chiave({"nome": r["comune"], "sigla": r.get("sigla")}): r["albo_lista"] for r in riepilogo if r.get("albo_lista")}
+    if nuovi_link:
+        archivio = carica_comuni()
+        for c in archivio:
+            if L.chiave(c) in nuovi_link:
+                c["albo_lista"] = nuovi_link[L.chiave(c)]
+        scrivi("comuni.json", archivio)
+        log(f"Ricordo il link diretto all'elenco per {len(nuovi_link)} comuni")
     scrivi("ultimi_controlli.json", controlli)
 
     risultati.sort(key=lambda r: (r.get("sigla", ""), r["comune"], r["data"] or dt.date.min))

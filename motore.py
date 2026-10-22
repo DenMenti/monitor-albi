@@ -190,6 +190,23 @@ JS_SEGNA_DOWNLOAD = "(id) => {" + JS_AMBITO + r"""
 }
 """
 
+JS_HTML_AMBITO = "(id) => {" + JS_AMBITO + r"""
+  return __albiAmbito(id).map(e => e.outerHTML).join("\n").slice(0, 15000);
+}"""
+
+# elenco degli elementi cliccabili (in una riga, o nell'intera pagina se id è null)
+JS_CLICCABILI = "(id) => {" + JS_AMBITO + r"""
+  const radici = id ? __albiAmbito(id) : [document.body];
+  const out = [];
+  for (const r of radici) for (const c of r.querySelectorAll('a, button, input[type=button], input[type=submit], input[type=image], [onclick], [role=button], [data-toggle], [data-bs-toggle], td.details-control, td.dt-control')) {
+    if (out.length >= 80) break;
+    out.push({tag: c.tagName, testo: (c.innerText || c.value || c.alt || '').trim().slice(0, 80), title: c.title || '',
+              classe: (typeof c.className === 'string' ? c.className : '').slice(0, 60), href: (c.getAttribute('href') || '').slice(0, 200),
+              onclick: (c.getAttribute('onclick') || '').slice(0, 200), visibile: !!(c.offsetWidth || c.offsetHeight)});
+  }
+  return out;
+}"""
+
 JS_TUTTI_LINK = "() => Array.from(document.querySelectorAll('a[href]')).map(a => ({href: a.href, text: (a.innerText || a.title || '').trim()}))"
 
 
@@ -512,6 +529,7 @@ class Motore:
         """
         risultati, riepilogo = [], []
         esclusi = set(opz.get("esclusi") or [])
+        self._diag_dir = opz.get("diagnostica")
         da_fare = [c for c in comuni if c.get("albo")]
         with sync_playwright() as p:
             browser = self._avvia(p)
@@ -548,8 +566,14 @@ class Motore:
                                         "oggetto": a["oggetto"], "parole": parole, "link": link or c["albo"],
                                         "allegati": allegati})
 
+                self._diag_contati = 0
                 try:
-                    atti, pagine = self._leggi_albo(page, c["albo"], dal, gestisci)
+                    url_albo = c.get("albo_lista") or c["albo"]
+                    atti, pagine = self._leggi_albo(page, url_albo, dal, gestisci, opz["solo_determine"])
+                    if not atti and c.get("albo_lista"):      # il link "diretto" non funziona più: riparto dal link originale
+                        atti, pagine = self._leggi_albo(page, c["albo"], dal, gestisci, opz["solo_determine"])
+                    if self.url_lista:
+                        rie["albo_lista"] = self.url_lista
                     rie.update(pagine=pagine, letti=len(atti), trovati=len(trovati_qui))
                     risultati += trovati_qui
                     senza = sum(1 for r in trovati_qui if not r["allegati"])
@@ -656,9 +680,66 @@ class Motore:
                     return False
         return False
 
-    def _leggi_albo(self, page, url, dal, gestisci=None):
+    def _vai_alla_lista(self, page, solo_determine, salti=2):
+        """Se la pagina è un menu (nessun elenco), segue la voce che porta all'elenco degli atti. Ritorna True se trova righe."""
+        for _ in range(salti):
+            if self._righe_pagina(page):
+                return True
+            candidati = []
+            for fi, fr in enumerate(page.frames):
+                try:
+                    els = fr.evaluate(JS_CANDIDATI, "a, button, [role=link], [role=button]")
+                except Exception:
+                    continue
+                for c in els:
+                    t = L.norm(c.get("text", "") + " " + c.get("title", ""))
+                    h = (c.get("href") or "").lower()
+                    if not t or len(t) > 120:
+                        continue
+                    if re.search(r"matrimon|archivio|storic|ricerca avanzata|scrutator|fornitor|cookie|privacy|accessibil"
+                                 r"|amministrazione trasparente|^\d{4}$|accedi|login|spid|stampa|rss|feed", t):
+                        continue
+                    sc = 0
+                    if solo_determine and re.search(r"\bdetermin", t):
+                        sc += 12
+                    if re.search(r"documenti all.albo|albo pretorio on ?line|albo on ?line|atti in pubblicazione"
+                                 r"|pubblicazioni in corso|in pubblicazione|elenco (atti|pubblicazioni|documenti)", t):
+                        sc += 9
+                    if re.search(r"^albo pretorio$|^albo pretorio informatico$|^albo$", t):
+                        sc += 8
+                    if re.search(r"vai al servizio|consulta|accedi al servizio", t):
+                        sc += 3
+                    if re.search(r"papca|dettaglio-albo|mc_p_ricerca|albopretorioconsultazione|ricercaalbo", h):
+                        sc += 6
+                    if sc >= 6:
+                        c.update(score=sc, frame=fi)
+                        candidati.append(c)
+            if not candidati:
+                return False
+            candidati.sort(key=lambda c: -c["score"])
+            top = candidati[0]
+            self.log(f"  la pagina è un menu: seguo «{top['text'][:50]}»")
+            if L.href_utile(top["href"]) and not top["href"].startswith("#"):
+                self._apri(page, urljoin(page.url, top["href"]))
+            else:
+                try:
+                    page.frames[top["frame"]].locator("a, button, [role=link], [role=button]").nth(top["i"]).click(timeout=5000)
+                    try:
+                        page.wait_for_load_state("networkidle", timeout=10000)
+                    except PWTimeout:
+                        pass
+                    page.wait_for_timeout(1500)
+                except Exception:
+                    return False
+        return bool(self._righe_pagina(page))
+
+    def _leggi_albo(self, page, url, dal, gestisci=None, solo_determine=True):
         """Legge le pagine dell'albo; per ogni atto nuovo chiama gestisci() finché la riga è ancora sulla pagina."""
         self._apri(page, url, cortese=True)
+        self.url_lista = None
+        if not self._righe_pagina(page):
+            if self._vai_alla_lista(page, solo_determine):
+                self.url_lista = page.url
         atti, visti, pagine, firma_prec = [], set(), 0, None
         while pagine < MAX_PAGINE:
             self._controlla_stop()
@@ -731,7 +812,12 @@ class Motore:
         salvati = []
         rid = riga.get("id")
 
+        html_prima = ""
         if rid:
+            try:
+                html_prima = frame.evaluate(JS_HTML_AMBITO, rid)
+            except Exception:
+                pass
             prima = {l["href"] for l in self._tutti_link(page)}
             url_prima = page.url
             info = None
@@ -770,12 +856,15 @@ class Motore:
                     salvati += self._scarica_cliccando(page, frame, rid, comune, atto, cartella, contatore)
                 self._chiudi_finestre(page)
 
+        diag_dettaglio = None
         if link_dett and not urls and not salvati:
             p2 = ctx.new_page()
             try:
                 self._apri(p2, link_dett, attesa=800)
                 urls += self._link_allegato(self._tutti_link(p2))
                 urls += self._espandi_e_raccogli(p2)
+                if not urls:
+                    diag_dettaglio = self._diag_pagina(p2)
             except Exception as e:
                 self.log(f"  {comune}: dettaglio non apribile ({type(e).__name__})")
             finally:
@@ -784,7 +873,48 @@ class Motore:
         salvati += self._scarica_url(ctx, comune, atto, list(dict.fromkeys(urls)), cartella, contatore)
         if not salvati:
             self.log(f"  {comune}: nessun allegato trovato per «{atto['oggetto'][:60]}»")
+            self._diag_atto(page, frame, rid, comune, atto, html_prima, urls, link_dett, diag_dettaglio)
         return salvati
+
+    def _diag_pagina(self, pg):
+        """Fotografa una pagina (di dettaglio) per capire dove sono gli allegati."""
+        out = {"url": pg.url}
+        try:
+            out["elementi"] = pg.evaluate(JS_CLICCABILI, None)
+            out["testo"] = pg.evaluate("() => (document.body ? document.body.innerText : '').replace(/\\s+/g, ' ').slice(0, 2500)")
+            out["_png"] = pg.screenshot(type="jpeg", quality=45, full_page=True, timeout=10000)
+        except Exception:
+            pass
+        return out
+
+    def _diag_atto(self, page, frame, rid, comune, atto, html_prima, urls, link_dett, diag_dettaglio):
+        """Per i primi atti senza allegati di ogni comune salva cosa ha visto il robot (per correggere il motore)."""
+        cartella = getattr(self, "_diag_dir", None)
+        if not cartella or getattr(self, "_diag_contati", 0) >= 2:
+            return
+        self._diag_contati = getattr(self, "_diag_contati", 0) + 1
+        base = f"{L.slug(comune)}-atto{self._diag_contati}"
+        dati = {"comune": comune, "oggetto": atto["oggetto"], "data": str(atto["data"]), "url_albo": page.url,
+                "link_dettaglio": link_dett, "link_trovati_non_scaricabili": urls[:20], "html_riga_prima": html_prima}
+        try:
+            os.makedirs(cartella, exist_ok=True)
+            if rid:
+                dati["html_riga_dopo"] = frame.evaluate(JS_HTML_AMBITO, rid)
+                dati["elementi_riga"] = frame.evaluate(JS_CLICCABILI, rid)
+                el = frame.locator(f'[data-albi-id="{rid}"]').first
+                if el.count():
+                    el.scroll_into_view_if_needed(timeout=2000)
+            page.screenshot(path=os.path.join(cartella, base + ".jpg"), type="jpeg", quality=45, timeout=10000)
+            if diag_dettaglio:
+                png = diag_dettaglio.pop("_png", None)
+                if png:
+                    with open(os.path.join(cartella, base + "-dettaglio.jpg"), "wb") as f:
+                        f.write(png)
+                dati["pagina_dettaglio"] = diag_dettaglio
+            with open(os.path.join(cartella, base + ".json"), "w", encoding="utf-8") as f:
+                json.dump(dati, f, ensure_ascii=False, indent=1)
+        except Exception:
+            pass
 
     def _espandi_e_raccogli(self, page):
         """In una pagina di dettaglio apre tutte le tendine (Dettaglio, Allegati, ecc.) e raccoglie i link."""
