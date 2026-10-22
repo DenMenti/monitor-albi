@@ -145,8 +145,12 @@ def cmd_monitora(args):
     shutil.rmtree(cartella, ignore_errors=True)
     os.makedirs(cartella, exist_ok=True)
 
+    segnati = leggi("segnati.json", {})
+    esclusi = [k for k, v in segnati.items() if v.get("stato") == "eliminato"]
     opz = {"parole": cfg["parole"], "esclusioni": cfg["esclusioni"],
-           "solo_determine": cfg["solo_determine"], "scarica": cfg["scarica"]}
+           "solo_determine": cfg["solo_determine"], "scarica": cfg["scarica"], "esclusi": esclusi}
+    if esclusi:
+        log(f"{len(esclusi)} atti eliminati in passato verranno ignorati")
     m = Motore(log, avanzamento, threading.Event())
     risultati, riepilogo = m.monitora(comuni, dal, opz, cartella)
 

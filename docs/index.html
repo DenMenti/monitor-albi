@@ -116,6 +116,15 @@ select { font: inherit; color: inherit; background: var(--carta); border: 1px so
 .filtri { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 12px 0 4px; }
 .filtri input[type=search] { font: inherit; color: inherit; background: var(--carta); border: 1px solid var(--linea); border-radius: 6px; padding: 7px 10px; min-width: 180px; flex: 1; }
 .selezione-box { padding: 10px 14px; border-radius: 6px; background: var(--carta); border: 1px solid var(--linea); font-size: 14px; margin: 10px 0; }
+tr.fissato td { background: var(--abete-chiaro); }
+.azioni { white-space: nowrap; display: flex; gap: 4px; }
+.azioni button { padding: 3px 8px; font-size: 12px; font-weight: 600; background: transparent; color: var(--abete); border: 1px solid var(--linea); }
+.azioni button[aria-pressed=true] { background: var(--abete); color: var(--foglio); border-color: var(--abete); }
+.azioni button.rosso { color: var(--rosso); }
+.azioni button:disabled { opacity: .4; }
+.vista { display: inline-flex; border: 1px solid var(--linea); border-radius: 6px; overflow: hidden; }
+.vista button { border: 0; border-radius: 0; background: transparent; color: var(--inchiostro); font-weight: 500; padding: 7px 12px; font-size: 14px; }
+.vista button[aria-pressed=true] { background: var(--abete); color: var(--foglio); font-weight: 600; }
 .risultati-wrap { grid-column: 1 / -1; }
 </style>
 </head>
@@ -230,8 +239,17 @@ select { font: inherit; color: inherit; background: var(--carta); border: 1px so
 </aside>
 
 <section class="blocco risultati-wrap" aria-labelledby="t3">
-  <h2 id="t3">Determine trovate nell'ultimo controllo</h2>
+  <h2 id="t3">Determine trovate</h2>
   <p class="desc" id="descRisultati">—</p>
+  <div class="riga" role="group" aria-label="Quali risultati mostrare">
+    <div class="vista" id="vista">
+      <button data-v="attivi" aria-pressed="true">Da vedere <span id="nAttivi"></span></button>
+      <button data-v="fissati" aria-pressed="false">Fissati <span id="nFissati"></span></button>
+      <button data-v="nascosti" aria-pressed="false">Nascosti <span id="nNascosti"></span></button>
+      <button data-v="eliminati" aria-pressed="false">Eliminati <span id="nEliminati"></span></button>
+    </div>
+  </div>
+  <small class="aiuto">📌 <b>Fissa</b> tiene l'atto in cima e lo conserva anche nei controlli successivi. <b>Nascondi</b> lo toglie dalla vista, ma lo ritrovi in "Nascosti". <b>Elimina</b> lo scarta: non verrà più proposto né scaricato nei prossimi controlli (si può ripristinare).</small>
   <div class="filtri">
     <select id="rProvincia" aria-label="Filtra i risultati per provincia"></select>
     <select id="rComune" aria-label="Filtra i risultati per comune"></select>
@@ -240,7 +258,7 @@ select { font: inherit; color: inherit; background: var(--carta); border: 1px so
   </div>
   <div class="tabella" style="max-height:600px">
     <table>
-      <thead><tr><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Pubblicata</th><th scope="col">Oggetto</th><th scope="col">Parole</th><th scope="col">Atto</th></tr></thead>
+      <thead><tr><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Pubblicata</th><th scope="col">Oggetto</th><th scope="col">Parole</th><th scope="col">Allegati</th><th scope="col">Atto</th><th scope="col">Azioni</th></tr></thead>
       <tbody id="corpoRisultati"></tbody>
     </table>
   </div>
@@ -547,29 +565,117 @@ function disegnaStorico() {
     </div></li>`).join("") : `<li class="vuoto">Ancora nessun controllo.</li>`;
 }
 
+const idAtto = r => r.id || `${r.sigla || ""}|${r.comune}|${(r.data || "").slice(0, 10)}|${String(r.numero || "").trim()}|${String(r.oggetto || "").replace(/\s+/g, " ").trim().slice(0, 80)}`;
+let vista = "attivi";
+
+function tuttiGliAtti() {
+  // risultati dell'ultimo controllo + atti fissati nei controlli precedenti
+  const u = D.ultimo || {};
+  const mappa = new Map();
+  for (const r of u.risultati || []) mappa.set(idAtto(r), { ...r, zip: u.zip, quando: u.quando });
+  for (const [id, v] of Object.entries(D.segnati || {})) if (v.atto && !mappa.has(id)) mappa.set(id, v.atto);
+  return [...mappa].map(([id, r]) => ({ ...r, _id: id, _stato: (D.segnati[id] || {}).stato || "" }));
+}
+
 function disegnaRisultati() {
   const u = D.ultimo || {};
-  const ris = u.risultati || [];
   $("descRisultati").innerHTML = u.quando
-    ? `Controllo del ${quandoIt(u.quando)}. ${esc(u.esito)} ${u.zip ? `<a href="${esc(u.zip)}">Scarica Excel e allegati</a>` : (u.excel ? `<a href="${esc(linkFile(u.excel))}">Scarica l'Excel</a>` : "")}`
+    ? `Ultimo controllo: ${quandoIt(u.quando)}. ${esc(u.esito)} ${u.zip ? `<a href="${esc(u.zip)}">Scarica Excel e allegati</a>` : (u.excel ? `<a href="${esc(linkFile(u.excel))}">Scarica l'Excel</a>` : "")}`
     : "Ancora nessun controllo.";
-  const prov = [...new Set(ris.map(r => r.sigla).filter(Boolean))].sort();
+  const tutti = tuttiGliAtti();
+  const conta = st => tutti.filter(r => st === "attivi" ? !["nascosto", "eliminato"].includes(r._stato) : r._stato === st).length;
+  const n = { attivi: conta("attivi"), fissati: conta("fissato"), nascosti: conta("nascosto"), eliminati: conta("eliminato") };
+  $("nAttivi").textContent = `(${n.attivi})`; $("nFissati").textContent = `(${n.fissati})`;
+  $("nNascosti").textContent = `(${n.nascosti})`; $("nEliminati").textContent = `(${n.eliminati})`;
+  document.querySelectorAll("#vista button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === vista ? "true" : "false"));
+
+  let lista = tutti.filter(r => vista === "attivi" ? !["nascosto", "eliminato"].includes(r._stato)
+    : vista === "fissati" ? r._stato === "fissato" : vista === "nascosti" ? r._stato === "nascosto" : r._stato === "eliminato");
+  const prov = [...new Set(lista.map(r => r.sigla).filter(Boolean))].sort();
   opzioni($("rProvincia"), prov.map(p => ({ value: p, label: p })), "Tutte le province");
   const fp = $("rProvincia").value;
-  const com = [...new Set(ris.filter(r => !fp || r.sigla === fp).map(r => r.comune))].sort();
+  const com = [...new Set(lista.filter(r => !fp || r.sigla === fp).map(r => r.comune))].sort();
   opzioni($("rComune"), com.map(c => ({ value: c, label: c })), "Tutti i comuni");
   const fc = $("rComune").value, q = normt($("rCerca").value.trim());
-  const vis = ris.filter(r => (!fp || r.sigla === fp) && (!fc || r.comune === fc) && (!q || normt(r.oggetto).includes(q)));
-  $("rConta").textContent = ris.length ? `${vis.length} di ${ris.length}` : "";
-  $("corpoRisultati").innerHTML = vis.length ? vis.map(r => `<tr>
-    <td>${esc(r.comune)}</td><td>${esc(r.sigla || "")}</td><td>${dataIt(r.data)}</td><td>${esc(r.oggetto)}</td>
-    <td>${esc((r.parole || []).join(", "))}</td>
-    <td>${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">apri</a>` : ""}</td></tr>`).join("")
-    : `<tr><td colspan="6" class="vuoto">${ris.length ? "Nessuna determina con questi filtri." : "Nessuna determina."}</td></tr>`;
+  const vis = lista.filter(r => (!fp || r.sigla === fp) && (!fc || r.comune === fc) && (!q || normt(r.oggetto).includes(q)))
+    .sort((a, b) => (b._stato === "fissato") - (a._stato === "fissato") || (b.data || "").localeCompare(a.data || ""));
+  $("rConta").textContent = lista.length ? `${vis.length} di ${lista.length}` : "";
+  const puo = haToken() ? "" : "disabled title=\"Collega GitHub per modificare\"";
+  $("corpoRisultati").innerHTML = vis.length ? vis.map(r => {
+    const fis = r._stato === "fissato", nas = r._stato === "nascosto", eli = r._stato === "eliminato";
+    const nAll = (r.allegati || []).length;
+    const all = nAll ? (r.zip ? `<a href="${esc(r.zip)}" title="Nello zip del controllo">${nAll} file</a>` : `${nAll} file`) : `<span class="badge no">nessuno</span>`;
+    const az = eli
+      ? `<button data-az="ripristina" ${puo}>Ripristina</button>`
+      : `<button data-az="fissa" aria-pressed="${fis}" ${puo} title="${fis ? "Togli da fissati" : "Fissa in cima"}">📌 ${fis ? "Fissato" : "Fissa"}</button>
+         <button data-az="${nas ? "ripristina" : "nascondi"}" ${puo}>${nas ? "Mostra" : "Nascondi"}</button>
+         <button data-az="elimina" class="rosso" ${puo}>Elimina</button>`;
+    return `<tr class="${fis ? "fissato" : ""}" data-id="${esc(r._id)}">
+      <td>${esc(r.comune)}</td><td>${esc(r.sigla || "")}</td><td>${dataIt(r.data)}</td><td>${esc(r.oggetto)}</td>
+      <td>${esc((r.parole || []).join(", "))}</td><td>${all}</td>
+      <td>${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">apri</a>` : ""}</td>
+      <td><div class="azioni">${az}</div></td></tr>`;
+  }).join("") : `<tr><td colspan="8" class="vuoto">${{ attivi: "Nessuna determina da vedere.", fissati: "Nessun atto fissato.", nascosti: "Nessun atto nascosto.", eliminati: "Nessun atto eliminato." }[vista]}</td></tr>`;
   const prob = (u.riepilogo || []).filter(r => !String(r.esito).startsWith("OK"));
   $("detRiep").hidden = !prob.length;
   $("riepilogo").innerHTML = prob.map(r => `<li><a href="${esc(r.albo)}" target="_blank" rel="noopener">${esc(r.comune)}${r.sigla ? " (" + esc(r.sigla) + ")" : ""}</a>: ${esc(r.esito)}</li>`).join("");
 }
+
+document.querySelectorAll("#vista button").forEach(b => b.onclick = () => { vista = b.dataset.v; disegnaRisultati(); });
+
+// ---- fissa / nascondi / elimina: salvati in docs/dati/segnati.json, condivisi tra chi usa la pagina
+async function leggiConSha(nome) {
+  try {
+    const info = await gh(`/repos/${repo()}/contents/docs/dati/${nome}?ref=${ramo}&t=${Date.now()}`);
+    const byte = Uint8Array.from(atob((info.content || "").replace(/\n/g, "")), c => c.charCodeAt(0));
+    const testo = new TextDecoder().decode(byte);
+    return { obj: testo.trim() ? JSON.parse(testo) : {}, sha: info.sha };
+  } catch (e) {
+    if (/\(404/.test(e.message)) return { obj: {}, sha: undefined };
+    throw e;
+  }
+}
+
+async function aggiornaSegnati(modifica, messaggioCommit) {
+  const path = `/repos/${repo()}/contents/docs/dati/segnati.json`;
+  for (let tentativo = 0; tentativo < 4; tentativo++) {
+    const { obj, sha } = await leggiConSha("segnati.json");
+    modifica(obj);
+    try {
+      await gh(path, { method: "PUT", body: JSON.stringify({ message: messaggioCommit, branch: ramo,
+        content: b64(JSON.stringify(obj, null, 2) + "\n"), ...(sha ? { sha } : {}) }) });
+      return obj;
+    } catch (e) {
+      if (!/ (409|422)/.test(e.message)) throw e;     // qualcun altro ha salvato nello stesso istante: riprovo
+      await new Promise(r => setTimeout(r, 800 + 700 * tentativo));
+    }
+  }
+  throw new Error("Non riesco a salvare: troppe modifiche contemporanee. Riprova.");
+}
+
+$("corpoRisultati").addEventListener("click", async e => {
+  const btn = e.target.closest("button[data-az]"); if (!btn || btn.disabled) return;
+  const id = btn.closest("tr").dataset.id, az = btn.dataset.az;
+  const atto = tuttiGliAtti().find(r => r._id === id); if (!atto) return;
+  if (az === "elimina" && !confirm(`Eliminare questo atto?\n\n${atto.oggetto}\n\nNon verrà più proposto né scaricato nei prossimi controlli. Potrai ripristinarlo dalla vista "Eliminati".`)) return;
+  const prima = JSON.parse(JSON.stringify(D.segnati || {}));
+  const snap = { ...atto }; delete snap._id; delete snap._stato;
+  const applica = obj => {
+    const cur = obj[id];
+    if (az === "fissa") { if (cur && cur.stato === "fissato") delete obj[id]; else obj[id] = { stato: "fissato", quando: new Date().toISOString(), atto: snap }; }
+    else if (az === "nascondi") obj[id] = { stato: "nascosto", quando: new Date().toISOString(), atto: snap };
+    else if (az === "elimina") obj[id] = { stato: "eliminato", quando: new Date().toISOString(), atto: snap };
+    else if (az === "ripristina") delete obj[id];
+  };
+  applica(D.segnati); disegnaRisultati();                 // aggiorno subito la vista
+  try {
+    const verbo = { fissa: "Fissa/sfissa", nascondi: "Nasconde", elimina: "Elimina", ripristina: "Ripristina" }[az];
+    D.segnati = await aggiornaSegnati(applica, `${verbo}: ${atto.comune} – ${String(atto.oggetto).slice(0, 60)}`);
+    disegnaRisultati();
+  } catch (err) {
+    D.segnati = prima; disegnaRisultati(); messaggio(err.message, true);
+  }
+});
 ["rProvincia", "rComune"].forEach(id => $(id).addEventListener("change", disegnaRisultati));
 $("rCerca").addEventListener("input", disegnaRisultati);
 
@@ -580,10 +686,10 @@ function aggiornaPermessi() {
 }
 
 async function carica() {
-  const [config, comuni, controlli, storico, ultimo] = await Promise.all([
+  const [config, comuni, controlli, storico, ultimo, segnati] = await Promise.all([
     leggiDato("config.json", {}), leggiDato("comuni.json", []), leggiDato("ultimi_controlli.json", {}),
-    leggiDato("storico.json", []), leggiDato("ultimo_run.json", {})]);
-  D = { config, comuni, controlli, storico, ultimo };
+    leggiDato("storico.json", []), leggiDato("ultimo_run.json", {}), leggiDato("segnati.json", {})]);
+  D = { config, comuni, controlli, storico, ultimo, segnati: segnati || {} };
   if (!modificheImp) {
     liste.parole = [...(config.parole || [])];
     liste.esclusioni = [...(config.esclusioni || [])];

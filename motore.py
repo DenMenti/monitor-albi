@@ -4,7 +4,7 @@ motore.py — la parte che usa il browser (Microsoft Edge via Playwright).
 import datetime as dt
 import os
 import re
-from urllib.parse import urljoin
+from urllib.parse import urldefrag, urljoin
 
 from playwright.sync_api import TimeoutError as PWTimeout
 from playwright.sync_api import sync_playwright
@@ -21,6 +21,8 @@ JS_RIGHE = r"""() => {
   const txt = e => (e.innerText || '').replace(/\s+/g, ' ').trim();
   const links = e => Array.from(e.querySelectorAll('a[href]')).map(a => ({href: a.href, text: txt(a) || a.title || ''}));
   const out = [];
+  window.__albiN = window.__albiN || 0;
+  const id = e => { if (!e.dataset.albiId) e.dataset.albiId = String(++window.__albiN); return e.dataset.albiId; };
   for (const t of document.querySelectorAll('table')) {
     let headers = Array.from(t.querySelectorAll('thead th, thead td')).map(txt);
     let rows = Array.from(t.querySelectorAll('tbody tr'));
@@ -32,7 +34,7 @@ JS_RIGHE = r"""() => {
       if (r.querySelector('table')) continue;
       const cells = Array.from(r.querySelectorAll(':scope > td')).map(txt);
       if (cells.length < 2) continue;
-      out.push({headers, cells, text: txt(r), links: links(r)});
+      out.push({headers, cells, text: txt(r), links: links(r), id: id(r)});
     }
   }
   if (out.length < 2) {
@@ -42,7 +44,7 @@ JS_RIGHE = r"""() => {
       if (t.length < 20 || t.length > 3000) continue;
       if (!/\d{1,2}[\/.\-]\d{1,2}[\/.\-]\d{2,4}/.test(t)) continue;
       if (c.querySelector(sel)) continue;
-      out.push({headers: [], cells: [], text: t, links: links(c)});
+      out.push({headers: [], cells: [], text: t, links: links(c), id: id(c)});
     }
   }
   return out;
@@ -106,6 +108,85 @@ JS_PROVINCE = r"""(reg) => {
   }
   return out;
 }"""
+
+
+# Ambito di una riga: la riga stessa più le righe "di dettaglio" subito sotto (tendine di tabelle)
+JS_AMBITO = r"""
+const __albiAmbito = (id) => {
+  const el = document.querySelector('[data-albi-id="' + id + '"]');
+  if (!el) return [];
+  const out = [el];
+  if (el.tagName === 'TR') {
+    const nc = el.children.length;
+    let s = el.nextElementSibling, k = 0;
+    while (s && k < 4 && s.tagName === 'TR' && !s.dataset.albiId &&
+           (s.children.length < Math.max(2, nc / 2) || s.querySelector('td[colspan]') || /detail|dettagl|child|collapse|espans/i.test(s.className || ''))) {
+      out.push(s); s = s.nextElementSibling; k++;
+    }
+  }
+  return out;
+};
+"""
+
+# Segna i comandi che aprono tendine/dettagli nella riga (senza toccare i link che portano altrove)
+JS_SEGNA_TENDINE = "(id) => {" + JS_AMBITO + r"""
+  const amb = __albiAmbito(id);
+  if (!amb.length) return null;
+  document.querySelectorAll('[data-albi-toggle]').forEach(e => e.removeAttribute('data-albi-toggle'));
+  const targets = []; let n = 0;
+  const sel = 'a, button, [role=button], [data-toggle], [data-bs-toggle], [aria-expanded], summary, [onclick], .details-control, td.dt-control';
+  for (const sc of amb) for (const c of sc.querySelectorAll(sel)) {
+    if (n >= 6) break;
+    const href = c.getAttribute('href') || '';
+    if (c.tagName === 'A' && href && !href.startsWith('#') && !/^javascript:/i.test(href)) continue;
+    const cls = typeof c.className === 'string' ? c.className : '';
+    const testo = ((c.innerText || '') + ' ' + (c.title || '') + ' ' + (c.getAttribute('aria-label') || '') + ' ' + cls).toLowerCase();
+    const soloSimbolo = /^[\s+▸▶▼▾›»>⌄˅…]*$/.test((c.innerText || '').trim());
+    const tendina = c.getAttribute('aria-expanded') === 'false' || c.hasAttribute('data-toggle') || c.hasAttribute('data-bs-toggle')
+      || c.tagName === 'SUMMARY' || /details-control|dt-control|toggle|expand|collaps|accordion/.test(cls)
+      || /dettagl|allegat|espandi|mostra|visualizza|document|apri|plus|chevron|caret|freccia/.test(testo) || soloSimbolo;
+    if (!tendina) continue;
+    c.setAttribute('data-albi-toggle', String(n++));
+    const tg = c.getAttribute('aria-controls') || c.getAttribute('data-target') || c.getAttribute('data-bs-target') || (href.length > 1 && href.startsWith('#') ? href : '');
+    if (tg) tg.split(/\s+/).forEach(t => targets.push(t.startsWith('#') ? t : '#' + t));
+  }
+  return {n, targets};
+}
+"""
+
+# Raccoglie i link nell'ambito della riga, nei pannelli aperti e nelle finestre visibili
+JS_LINK_AMBITO = "([id, targets]) => {" + JS_AMBITO + r"""
+  const out = [];
+  const add = root => { if (root && root.querySelectorAll) root.querySelectorAll('a[href]').forEach(a => out.push({href: a.href, text: (a.innerText || a.title || '').trim()})); };
+  __albiAmbito(id).forEach(add);
+  for (const t of targets || []) { try { document.querySelectorAll(t).forEach(add); } catch (e) {} }
+  document.querySelectorAll('.modal.show, .modal.in, [role=dialog], dialog[open], .ui-dialog, .popup, .featherlight').forEach(m => {
+    const r = m.getBoundingClientRect(); if (r.width > 0 && r.height > 0) add(m);
+  });
+  return out;
+}
+"""
+
+# Comandi che scaricano un file solo cliccando (nessun link vero), nell'ambito della riga o nelle finestre aperte
+JS_SEGNA_DOWNLOAD = "(id) => {" + JS_AMBITO + r"""
+  document.querySelectorAll('[data-albi-dl]').forEach(e => e.removeAttribute('data-albi-dl'));
+  const radici = __albiAmbito(id);
+  document.querySelectorAll('.modal.show, .modal.in, [role=dialog], dialog[open], .ui-dialog').forEach(m => {
+    const r = m.getBoundingClientRect(); if (r.width > 0 && r.height > 0) radici.push(m); });
+  let n = 0;
+  for (const rt of radici) for (const c of rt.querySelectorAll('a, button, [role=button], [onclick], input[type=button], input[type=submit]')) {
+    if (n >= 12) break;
+    const href = c.getAttribute('href') || '';
+    const vero = c.tagName === 'A' && href && !href.startsWith('#') && !/^javascript:/i.test(href);
+    if (vero) continue;
+    const t = ((c.innerText || c.value || '') + ' ' + (c.title || '') + ' ' + (c.getAttribute('aria-label') || '')).toLowerCase();
+    if (/\.(pdf|p7m|docx?|odt|zip|xlsx?|rtf|tiff?|jpe?g)\b|scarica|download|allegat/.test(t)) c.setAttribute('data-albi-dl', String(n++));
+  }
+  return n;
+}
+"""
+
+JS_TUTTI_LINK = "() => Array.from(document.querySelectorAll('a[href]')).map(a => ({href: a.href, text: (a.innerText || a.title || '').trim()}))"
 
 
 class Annullato(Exception):
@@ -398,10 +479,11 @@ class Motore:
     def monitora(self, comuni, dal_per_comune, opz, cartella):
         """
         comuni: lista con 'nome' e 'albo'
-        dal_per_comune: funzione(nome) -> date
-        opz: parole, esclusioni, solo_determine, scarica
+        dal_per_comune: funzione(comune) -> date
+        opz: parole, esclusioni, solo_determine, scarica, esclusi (id di atti eliminati dall'utente)
         """
         risultati, riepilogo = [], []
+        esclusi = set(opz.get("esclusi") or [])
         da_fare = [c for c in comuni if c.get("albo")]
         with sync_playwright() as p:
             browser = self._avvia(p)
@@ -414,36 +496,45 @@ class Motore:
                 self.avanzamento(n - 1, len(da_fare), nome)
                 rie = {"comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
                        "albo": c["albo"], "dal": dal, "pagine": 0, "letti": 0, "trovati": 0, "esito": ""}
+                contatore = {}
+                trovati_qui = []
+
+                def gestisci(pg, frame, riga, a, c=c, nome=nome, dal=dal, contatore=contatore, trovati_qui=trovati_qui):
+                    if a["data"] and a["data"] < dal:
+                        return
+                    parole = L.valuta_atto(a, opz["parole"], opz["esclusioni"], opz["solo_determine"])
+                    if not parole:
+                        return
+                    ida = L.id_atto(nome, c.get("sigla", ""), a["data"], a["numero"], a["oggetto"])
+                    if ida in esclusi:
+                        return
+                    self._controlla_stop()
+                    link = L.link_dettaglio(a)
+                    if link and urldefrag(link)[0] == urldefrag(pg.url)[0]:
+                        link = ""      # "link" alla pagina stessa (es. pulsante di una tendina): non è un dettaglio
+                    allegati = []
+                    if opz["scarica"]:
+                        allegati = self._allegati_atto(pg, frame, riga, a, link, ctx, nome, cartella, contatore)
+                    trovati_qui.append({"id": ida, "comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
+                                        "data": a["data"], "tipo": a["tipo"], "numero": a["numero"],
+                                        "oggetto": a["oggetto"], "parole": parole, "link": link or c["albo"],
+                                        "allegati": allegati})
+
                 try:
-                    atti, pagine = self._leggi_albo(page, c["albo"], dal)
-                    rie.update(pagine=pagine, letti=len(atti))
-                    trovati = 0
-                    contatore = {}
-                    for a in atti:
-                        if a["data"] and a["data"] < dal:
-                            continue
-                        parole = L.valuta_atto(a, opz["parole"], opz["esclusioni"], opz["solo_determine"])
-                        if not parole:
-                            continue
-                        self._controlla_stop()
-                        trovati += 1
-                        link = L.link_dettaglio(a)
-                        allegati = []
-                        if opz["scarica"]:
-                            allegati = self._scarica_allegati(ctx, nome, a, link, cartella, contatore)
-                        risultati.append({"comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
-                                          "data": a["data"], "tipo": a["tipo"], "numero": a["numero"],
-                                          "oggetto": a["oggetto"], "parole": parole, "link": link,
-                                          "allegati": allegati})
-                    rie["trovati"] = trovati
+                    atti, pagine = self._leggi_albo(page, c["albo"], dal, gestisci)
+                    rie.update(pagine=pagine, letti=len(atti), trovati=len(trovati_qui))
+                    risultati += trovati_qui
+                    senza = sum(1 for r in trovati_qui if not r["allegati"])
                     if not atti:
                         rie["esito"] = "Nessuna riga letta: albo da controllare a mano"
                     else:
-                        rie["esito"] = f"OK – {trovati} trovati"
-                    self.log(f"{nome}: {len(atti)} atti letti su {pagine} pagine, {trovati} trovati")
+                        rie["esito"] = f"OK – {len(trovati_qui)} trovati" + (f", {senza} senza allegati" if opz["scarica"] and senza else "")
+                    self.log(f"{nome}: {len(atti)} atti letti su {pagine} pagine, {len(trovati_qui)} trovati"
+                             + (f" ({senza} senza allegati)" if opz["scarica"] and senza else ""))
                 except Annullato:
                     raise
                 except Exception as e:
+                    risultati += trovati_qui
                     rie["esito"] = f"Errore: {type(e).__name__}: {str(e)[:100]}"
                     self.log(f"{nome}: errore ({type(e).__name__})")
                     page = self._pagina_nuova(ctx, page)
@@ -454,9 +545,11 @@ class Motore:
 
     def _righe_pagina(self, page):
         righe = []
-        for frame in page.frames:
+        for fi, frame in enumerate(page.frames):
             try:
-                righe += frame.evaluate(JS_RIGHE)
+                for r in frame.evaluate(JS_RIGHE):
+                    r["frame"] = fi
+                    righe.append(r)
             except Exception:
                 pass
         return righe
@@ -480,7 +573,8 @@ class Motore:
                     return False
         return False
 
-    def _leggi_albo(self, page, url, dal):
+    def _leggi_albo(self, page, url, dal, gestisci=None):
+        """Legge le pagine dell'albo; per ogni atto nuovo chiama gestisci() finché la riga è ancora sulla pagina."""
         self._apri(page, url)
         atti, visti, pagine, firma_prec = [], set(), 0, None
         while pagine < MAX_PAGINE:
@@ -491,14 +585,30 @@ class Motore:
                 break
             firma_prec = firma
             pagine += 1
-            nuovi = 0
+            url_pagina = page.url
+            nuovi = []
             for r in righe:
                 if r["text"] in visti:
                     continue
                 visti.add(r["text"])
-                atti.append(L.riga_in_atto(r))
-                nuovi += 1
-            date = [a["data"] for a in atti[-nuovi:] if a["data"]] if nuovi else []
+                a = L.riga_in_atto(r)
+                atti.append(a)
+                nuovi.append(a)
+                if gestisci:
+                    fr = page.frames[r["frame"]] if r["frame"] < len(page.frames) else page.main_frame
+                    try:
+                        gestisci(page, fr, r, a)
+                    except Annullato:
+                        raise
+                    except Exception as e:
+                        self.log(f"  atto non elaborato ({type(e).__name__}: {str(e)[:80]})")
+                    if page.url != url_pagina:   # un clic ci ha portato altrove: torno all'elenco
+                        try:
+                            page.go_back(wait_until="domcontentloaded", timeout=20000)
+                            page.wait_for_timeout(1200)
+                        except Exception:
+                            self._apri(page, url_pagina)
+            date = [a["data"] for a in nuovi if a["data"]]
             # albo ordinato dal più recente: se l'intera pagina è più vecchia della data, mi fermo
             if date and max(date) < dal:
                 break
@@ -506,27 +616,161 @@ class Motore:
                 break
         return atti, pagine
 
-    def _scarica_allegati(self, ctx, comune, atto, link_dett, cartella, contatore):
-        urls = [l["href"] for l in atto["links"] if L.sembra_allegato(l)]
-        if link_dett:
+    # --------------------------------------------------- allegati di un atto
+
+    def _link_allegato(self, links):
+        return [l["href"] for l in links if L.sembra_allegato(l)]
+
+    def _tutti_link(self, page):
+        out = []
+        for fr in page.frames:
+            try:
+                out += fr.evaluate(JS_TUTTI_LINK)
+            except Exception:
+                pass
+        return out
+
+    def _chiudi_finestre(self, page):
+        try:
+            page.keyboard.press("Escape")
+            for sel in [".modal.show [data-dismiss]", ".modal.show [data-bs-dismiss]", ".modal.show .close",
+                        ".modal.in .close", ".ui-dialog-titlebar-close"]:
+                loc = page.locator(sel)
+                if loc.count() and loc.first.is_visible():
+                    loc.first.click(timeout=1500)
+            page.wait_for_timeout(300)
+        except Exception:
+            pass
+
+    def _allegati_atto(self, page, frame, riga, atto, link_dett, ctx, comune, cartella, contatore):
+        """Trova e scarica gli allegati di un atto: link nella riga, tendine/dettagli aperti, pagina di dettaglio."""
+        urls = self._link_allegato(atto["links"])
+        salvati = []
+        rid = riga.get("id")
+
+        if rid:
+            prima = {l["href"] for l in self._tutti_link(page)}
+            url_prima = page.url
+            info = None
+            try:
+                info = frame.evaluate(JS_SEGNA_TENDINE, rid)
+            except Exception:
+                pass
+            targets = (info or {}).get("targets", [])
+            for i in range((info or {}).get("n", 0)):
+                try:
+                    el = frame.locator(f'[data-albi-toggle="{i}"]').first
+                    if not el.count():
+                        continue
+                    el.scroll_into_view_if_needed(timeout=2000)
+                    el.click(timeout=3000)
+                    try:
+                        page.wait_for_load_state("networkidle", timeout=6000)
+                    except PWTimeout:
+                        pass
+                    page.wait_for_timeout(900)
+                except Exception:
+                    continue
+                if page.url != url_prima:     # il clic ha aperto una pagina di dettaglio
+                    urls += self._link_allegato(self._tutti_link(page))
+                    urls += self._espandi_e_raccogli(page)
+                    break
+            if page.url == url_prima:
+                try:
+                    urls += self._link_allegato(frame.evaluate(JS_LINK_AMBITO, [rid, targets]))
+                except Exception:
+                    pass
+                dopo = self._tutti_link(page)
+                urls += self._link_allegato([l for l in dopo if l["href"] not in prima])
+                # allegati che si scaricano solo cliccando (nessun link vero)
+                if not urls:
+                    salvati += self._scarica_cliccando(page, frame, rid, comune, atto, cartella, contatore)
+                self._chiudi_finestre(page)
+
+        if link_dett and not urls and not salvati:
             p2 = ctx.new_page()
             try:
                 self._apri(p2, link_dett, attesa=800)
-                for frame in p2.frames:
-                    try:
-                        links = frame.eval_on_selector_all(
-                            "a[href]", "els => els.map(a => ({href: a.href, text: (a.innerText || a.title || '').trim()}))")
-                    except Exception:
-                        continue
-                    urls += [l["href"] for l in links if L.sembra_allegato(l)]
+                urls += self._link_allegato(self._tutti_link(p2))
+                urls += self._espandi_e_raccogli(p2)
             except Exception as e:
                 self.log(f"  {comune}: dettaglio non apribile ({type(e).__name__})")
             finally:
                 p2.close()
-        unici = list(dict.fromkeys(urls))
-        salvati = []
+
+        salvati += self._scarica_url(ctx, comune, atto, list(dict.fromkeys(urls)), cartella, contatore)
+        if not salvati:
+            self.log(f"  {comune}: nessun allegato trovato per «{atto['oggetto'][:60]}»")
+        return salvati
+
+    def _espandi_e_raccogli(self, page):
+        """In una pagina di dettaglio apre tutte le tendine (Dettaglio, Allegati, ecc.) e raccoglie i link."""
+        prima = {l["href"] for l in self._tutti_link(page)}
+        for fr in page.frames:
+            try:
+                n = fr.evaluate(r"""() => {
+                  let n = 0;
+                  document.querySelectorAll('details:not([open])').forEach(d => { d.open = true; });
+                  for (const c of document.querySelectorAll('[aria-expanded="false"], [data-toggle="collapse"], [data-bs-toggle="collapse"], .accordion-button.collapsed, button, a[href^="#"], a[href^="javascript"]')) {
+                    if (n >= 10) break;
+                    const t = ((c.innerText || '') + ' ' + (c.title || '')).toLowerCase();
+                    const tend = c.getAttribute('aria-expanded') === 'false' || /collapse/.test(c.getAttribute('data-toggle') || c.getAttribute('data-bs-toggle') || '') || /collapsed/.test(c.className || '');
+                    if (tend || /dettagl|allegat|document|file/.test(t)) c.setAttribute('data-albi-esp', String(n++));
+                  }
+                  return n;
+                }""")
+            except Exception:
+                continue
+            for i in range(n):
+                try:
+                    fr.locator(f'[data-albi-esp="{i}"]').first.click(timeout=2500)
+                    page.wait_for_timeout(500)
+                except Exception:
+                    pass
+        try:
+            page.wait_for_load_state("networkidle", timeout=5000)
+        except PWTimeout:
+            pass
+        dopo = self._tutti_link(page)
+        return self._link_allegato([l for l in dopo if l["href"] not in prima])
+
+    def _salva(self, comune, atto, cartella, contatore, est, dati):
+        chiave = (comune, atto["data"])
+        contatore[chiave] = contatore.get(chiave, 0) + 1
         dest = os.path.join(cartella, L.slug(comune))
-        for u in unici:
+        os.makedirs(dest, exist_ok=True)
+        nome = L.nome_file(comune, atto["data"], contatore[chiave], est)
+        with open(os.path.join(dest, nome), "wb") as f:
+            f.write(dati)
+        return os.path.join(L.slug(comune), nome)
+
+    def _scarica_cliccando(self, page, frame, rid, comune, atto, cartella, contatore):
+        salvati = []
+        try:
+            n = frame.evaluate(JS_SEGNA_DOWNLOAD, rid)
+        except Exception:
+            return salvati
+        for i in range(n):
+            self._controlla_stop()
+            try:
+                el = frame.locator(f'[data-albi-dl="{i}"]').first
+                with page.expect_download(timeout=12000) as dl:
+                    el.click(timeout=3000)
+                d = dl.value
+                percorso = d.path()
+                with open(percorso, "rb") as f:
+                    dati = f.read()
+                if len(dati) < 200:
+                    continue
+                est = L.estensione(d.suggested_filename or "", "", f'filename="{d.suggested_filename}"')
+                salvati.append(self._salva(comune, atto, cartella, contatore, est, dati))
+            except Exception:
+                continue
+        return salvati
+
+    def _scarica_url(self, ctx, comune, atto, urls, cartella, contatore):
+        salvati = []
+        for u in urls:
             self._controlla_stop()
             try:
                 r = ctx.request.get(u, timeout=60000)
@@ -538,16 +782,8 @@ class Motore:
                 body = r.body()
                 if len(body) < 200:
                     continue
-                chiave = (comune, atto["data"])
-                contatore[chiave] = contatore.get(chiave, 0) + 1
                 est = L.estensione(u, ctype, r.headers.get("content-disposition", ""))
-                os.makedirs(dest, exist_ok=True)
-                nome = L.nome_file(comune, atto["data"], contatore[chiave], est)
-                with open(os.path.join(dest, nome), "wb") as f:
-                    f.write(body)
-                salvati.append(os.path.join(L.slug(comune), nome))
+                salvati.append(self._salva(comune, atto, cartella, contatore, est, body))
             except Exception:
                 continue
-        if unici and not salvati:
-            self.log(f"  {comune}: allegati presenti ma non scaricabili")
         return salvati

@@ -26,6 +26,13 @@ def slug(s):
     return s.strip("-")
 
 
+def id_atto(comune, sigla, data, numero, oggetto):
+    """Identificativo stabile di un atto (lo stesso calcolato dalla webapp per fissare/nascondere/eliminare)."""
+    d = data.isoformat() if hasattr(data, "isoformat") else (data or "")
+    ogg = re.sub(r"\s+", " ", oggetto or "").strip()[:80]
+    return f"{sigla or ''}|{comune}|{d}|{(numero or '').strip()}|{ogg}"
+
+
 def chiave(c):
     """Identifica un comune in modo univoco: 'Agordo (BL)'."""
     return f"{c['nome']} ({c['sigla']})" if c.get("sigla") else c["nome"]
@@ -214,14 +221,16 @@ def sembra_allegato(link):
         return True
     t = norm(link.get("text", ""))
     if re.search(r"allegat|download|scarica|attachment|mc_attachment|visualizza documento|documento principale"
-                 r"|getfile|file\.php|downloadfile|apri file", h + " " + t):
+                 r"|getfile|file\.php|downloadfile|apri file|getdoc|visualizzadoc|viewdoc|downloaddoc|apridoc"
+                 r"|documento\.aspx|allegato\.aspx|stampa\.aspx", h + " " + t):
         return True
     return False
 
 
 def link_dettaglio(atto):
     """Il link migliore per aprire il dettaglio dell'atto (non un allegato)."""
-    candidati = [l for l in atto["links"] if href_utile(l.get("href")) and not sembra_allegato(l)]
+    candidati = [l for l in atto["links"] if href_utile(l.get("href")) and not sembra_allegato(l)
+                 and not l["href"].endswith("#")]
     if not candidati:
         return ""
     for l in candidati:
