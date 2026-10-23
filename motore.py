@@ -611,7 +611,7 @@ class Motore:
                 def gestisci(pg, frame, riga, a, c=c, nome=nome, dal=dal, contatore=contatore, trovati_qui=trovati_qui, saltati=saltati):
                     if a["data"] and a["data"] < dal:
                         return
-                    parole = L.valuta_atto(a, opz["parole"], opz["esclusioni"], opz["solo_determine"])
+                    parole = L.valuta_atto(a, opz["parole"], opz["esclusioni"], opz["solo_determine"], opz.get("temi"))
                     if not parole:
                         return
                     ida = L.id_atto(nome, c.get("sigla", ""), a["data"], a["numero"], a["oggetto"])

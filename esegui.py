@@ -151,7 +151,7 @@ def cmd_monitora(args):
 
     segnati = leggi("segnati.json", {})
     esclusi = [k for k, v in segnati.items() if v.get("stato") == "eliminato"]
-    opz = {"parole": cfg["parole"], "esclusioni": cfg["esclusioni"],
+    opz = {"parole": cfg["parole"], "esclusioni": cfg["esclusioni"], "temi": cfg.get("temi", []),
            "solo_determine": cfg["solo_determine"], "scarica": cfg["scarica"], "esclusi": esclusi}
     if esclusi:
         log(f"{len(esclusi)} atti eliminati in passato verranno ignorati")

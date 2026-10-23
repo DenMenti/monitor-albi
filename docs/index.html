@@ -57,6 +57,7 @@ button:disabled { opacity: .45; cursor: not-allowed; }
 .chips:focus-within { outline: 3px solid var(--abete); outline-offset: 2px; }
 .chip { display: inline-flex; align-items: center; gap: 4px; padding: 3px 4px 3px 10px; border-radius: 14px; background: var(--abete-chiaro); color: var(--abete); font-size: 14px; font-weight: 600; }
 .chips.escl .chip { background: var(--ambra-chiaro); color: var(--ambra); }
+.chips.temi .chip { background: var(--carta); color: var(--inchiostro); border: 1px solid var(--abete); }
 .chip button { border: 0; background: transparent; color: inherit; padding: 0 6px; font-size: 16px; line-height: 1; border-radius: 10px; }
 .chips input { flex: 1; min-width: 160px; border: 0; background: transparent; padding: 4px; font: inherit; color: inherit; outline: none; width: auto; }
 
@@ -187,11 +188,20 @@ tr.fissato td { background: var(--abete-chiaro); }
     <div class="due">
       <div class="campo"><span id="lblParole">Parole chiave <b id="nParole"></b></span>
         <div class="chips" data-lista="parole"><input type="text" aria-labelledby="lblParole" placeholder="scrivi e premi Invio, es. strada"></div>
-        <small>Invio o virgola per aggiungere. Si possono incollare più parole insieme. Se non ne metti, prende tutte le determine.</small>
+        <small>Basta che ne compaia una. Invio o virgola per aggiungere; si possono incollare più parole insieme.</small>
       </div>
+      <div class="campo"><span id="lblTemi">Deve riguardare anche <b id="nTemi"></b></span>
+        <div class="chips temi" data-lista="temi"><input type="text" aria-labelledby="lblTemi" placeholder="es. strada, viabilità, marciapiede"></div>
+        <small>Se compili questo elenco, un atto viene tenuto solo se contiene <b>anche</b> una di queste parole. Lascialo vuoto per non usarlo.</small>
+      </div>
+    </div>
+    <div class="due">
       <div class="campo"><span id="lblEscl">Escludi se contiene <b id="nEscl"></b></span>
         <div class="chips escl" data-lista="esclusioni"><input type="text" aria-labelledby="lblEscl" placeholder="scrivi e premi Invio"></div>
         <small>Gli atti con una di queste parole vengono scartati.</small>
+      </div>
+      <div class="campo"><span>Come vengono scelti gli atti</span>
+        <small id="spiegaFiltro" style="font-size:14px;color:var(--inchiostro)"></small>
       </div>
     </div>
     <div class="riga">
@@ -324,7 +334,7 @@ const CHIAVE = "monitorAlbi";
 let imp = {};
 try { imp = JSON.parse(localStorage.getItem(CHIAVE) || "{}"); } catch (e) {}
 let D = { config: {}, comuni: [], controlli: {}, storico: [], ultimo: {} };
-const liste = { parole: [], esclusioni: [] };
+const liste = { parole: [], temi: [], esclusioni: [] };
 let ramo = "main";
 let modificheImp = false;
 
@@ -438,6 +448,11 @@ function disegnaChips() {
   }
   $("nParole").textContent = liste.parole.length ? `(${liste.parole.length})` : "";
   $("nEscl").textContent = liste.esclusioni.length ? `(${liste.esclusioni.length})` : "";
+  $("nTemi").textContent = liste.temi.length ? `(${liste.temi.length})` : "";
+  const q = a => a.length > 3 ? a.slice(0, 3).map(x => `“${x}”`).join(", ") + "…" : a.map(x => `“${x}”`).join(", ");
+  $("spiegaFiltro").innerHTML = (liste.parole.length ? `Tiene le determine che contengono ${q(liste.parole)}` : "Tiene tutte le determine")
+    + (liste.temi.length ? ` <b>e</b> che riguardano ${q(liste.temi)}` : "")
+    + (liste.esclusioni.length ? `, scartando quelle con ${q(liste.esclusioni)}` : "") + ".";
 }
 function confermaInput() {
   for (const box of document.querySelectorAll(".chips")) {
@@ -722,6 +737,7 @@ async function carica() {
   if (!modificheImp) {
     liste.parole = [...(config.parole || [])];
     liste.esclusioni = [...(config.esclusioni || [])];
+    liste.temi = [...(config.temi || [])];
     $("soloDetermine").checked = config.solo_determine !== false;
     $("scarica").checked = config.scarica !== false;
     disegnaChips();
@@ -738,7 +754,7 @@ async function carica() {
 // ------------------------------------------------------------- azioni
 async function salvaImpostazioni() {
   confermaInput();
-  const cfg = { ...D.config, parole: liste.parole, esclusioni: liste.esclusioni,
+  const cfg = { ...D.config, parole: liste.parole, temi: liste.temi, esclusioni: liste.esclusioni,
                 solo_determine: $("soloDetermine").checked, scarica: $("scarica").checked };
   await scriviDato("config.json", cfg, "Aggiorna parole chiave e impostazioni");
   D.config = cfg; modificheImp = false;

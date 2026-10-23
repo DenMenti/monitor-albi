@@ -193,18 +193,25 @@ def riga_in_atto(r):
     }
 
 
-def valuta_atto(atto, parole, esclusioni, solo_determine):
-    """Ritorna la lista di parole chiave trovate, oppure None se l'atto va scartato."""
+def valuta_atto(atto, parole, esclusioni, solo_determine, temi=None):
+    """Ritorna le parole trovate (parole chiave + temi), oppure None se l'atto va scartato.
+    temi: se l'elenco non è vuoto, l'atto deve contenere anche almeno uno di questi (es. strada, viabilità)."""
     t = norm(atto["testo"] + " " + atto["oggetto"] + " " + atto["tipo"])
     if solo_determine and "determin" not in t:
         return None
     if any(norm(e) in t for e in esclusioni if e.strip()):
         return None
+    temi = [x for x in (temi or []) if x.strip()]
+    temi_trovati = [x for x in temi if norm(x) in t]
+    if temi and not temi_trovati:
+        return None
     parole = [p for p in parole if p.strip()]
     if not parole:
-        return ["(nessuna parola chiave: tutte le determine)"]
+        return temi_trovati or ["(nessuna parola chiave: tutte le determine)"]
     trovate = [p for p in parole if norm(p) in t]
-    return trovate or None
+    if not trovate:
+        return None
+    return trovate + [x for x in temi_trovati if x not in trovate]
 
 
 ESTENSIONI_FILE = (".pdf", ".p7m", ".doc", ".docx", ".odt", ".rtf", ".zip", ".xls", ".xlsx", ".ods",
