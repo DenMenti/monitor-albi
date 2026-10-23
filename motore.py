@@ -20,7 +20,9 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 SEL_CLICK = "a, button, [role=link], [role=menuitem], [role=button], [onclick]"
 COOKIE_TESTI = ["accetta tutti", "accetto tutti", "accetta", "accetto", "acconsento", "ho capito", "ok", "chiudi"]
 MAX_PAGINE = 40
-PAUSA_STESSO_SITO = 4   # secondi minimi tra due albi sullo stesso dominio
+PAUSA_STESSO_SITO = 4             # secondi minimi tra due albi sullo stesso dominio
+TEMPO_ALLEGATI_COMUNE = 15 * 60   # oltre questo tempo su un comune, gli atti trovati vengono elencati senza scaricare gli allegati
+TEMPO_MAX_COMUNE = 30 * 60        # oltre questo tempo si passa al comune successivo
 
 JS_RIGHE = r"""() => {
   const txt = e => (e.innerText || '').replace(/\s+/g, ' ').trim();
@@ -250,7 +252,7 @@ JS_PRONTA = r"""() => {
   if (document.readyState !== 'complete') return false;
   const giro = Array.from(document.querySelectorAll('[class*=spinner], [class*=loader], [class*=loading], [id*=loading], [id*=spinner], .blockUI'))
     .some(e => { const r = e.getBoundingClientRect(); const st = getComputedStyle(e); return r.width > 0 && r.height > 0 && st.visibility !== 'hidden' && st.display !== 'none' && st.opacity !== '0'; });
-  return !giro && document.body && document.body.innerText.trim().length > 200;
+  return !giro && document.body && document.body.innerText.trim().length > 40;
 }"""
 
 
@@ -313,7 +315,7 @@ class Motore:
             time.sleep(attesa - trascorso)
         self._ultimo_accesso[base] = time.time()
 
-    def _apri(self, page, url, attesa=1500, cortese=False):
+    def _apri(self, page, url, attesa=1500, cortese=False, veloce=False):
         if cortese:
             self._pausa_cortesia(url)
         self.ultimo_stato = None
@@ -334,7 +336,7 @@ class Motore:
                 self.log("  pagina lenta, riprovo…")
                 page.wait_for_timeout(5000)
         try:
-            page.wait_for_load_state("networkidle", timeout=10000)
+            page.wait_for_load_state("networkidle", timeout=3000 if veloce else 8000)
         except PWTimeout:
             pass
         page.wait_for_timeout(attesa)
@@ -587,15 +589,26 @@ class Motore:
             page = ctx.new_page()
             for n, c in enumerate(da_fare, 1):
                 self._controlla_stop()
+                if n > 1:
+                    # browser "pulito" per ogni comune: evita che la memoria cresca nei giri lunghi
+                    try:
+                        ctx.close()
+                    except Exception:
+                        pass
+                    ctx = self._contesto(browser)
+                    page = ctx.new_page()
                 nome = c["nome"]
                 dal = dal_per_comune(c)
+                self._inizio_comune = time.time()
+                self._scadenza_lettura = self._inizio_comune + TEMPO_MAX_COMUNE
+                saltati = [0]
                 self.avanzamento(n - 1, len(da_fare), nome)
                 rie = {"comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
                        "albo": c["albo"], "dal": dal, "pagine": 0, "letti": 0, "trovati": 0, "esito": ""}
                 contatore = {}
                 trovati_qui = []
 
-                def gestisci(pg, frame, riga, a, c=c, nome=nome, dal=dal, contatore=contatore, trovati_qui=trovati_qui):
+                def gestisci(pg, frame, riga, a, c=c, nome=nome, dal=dal, contatore=contatore, trovati_qui=trovati_qui, saltati=saltati):
                     if a["data"] and a["data"] < dal:
                         return
                     parole = L.valuta_atto(a, opz["parole"], opz["esclusioni"], opz["solo_determine"])
@@ -611,7 +624,12 @@ class Motore:
                         link = ""      # "link" alla pagina stessa (es. pulsante di una tendina): non è un dettaglio
                     allegati = []
                     if opz["scarica"]:
-                        allegati = self._allegati_atto(pg, frame, riga, a, link, ctx, nome, cartella, contatore)
+                        if time.time() - self._inizio_comune > TEMPO_ALLEGATI_COMUNE:
+                            saltati[0] += 1            # troppo tempo su questo comune: elenco l'atto senza allegati
+                        else:
+                            t0 = time.time()
+                            allegati = self._allegati_atto(pg, frame, riga, a, link, ctx, nome, cartella, contatore)
+                            self.log(f"  {len(trovati_qui) + 1}. {len(allegati)} allegati in {time.time() - t0:.0f}s – {a['oggetto'][:70]}")
                     trovati_qui.append({"id": ida, "comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
                                         "data": a["data"], "tipo": a["tipo"], "numero": a["numero"],
                                         "oggetto": a["oggetto"], "parole": parole, "link": link or url_elenco,
@@ -634,6 +652,10 @@ class Motore:
                         rie["esito"] = "Nessuna riga letta: " + d["diagnosi"]
                     else:
                         rie["esito"] = f"OK – {len(trovati_qui)} trovati" + (f", {senza} senza allegati" if opz["scarica"] and senza else "")
+                        if saltati[0]:
+                            rie["esito"] += f" (per {saltati[0]} atti allegati non scaricati: tempo massimo per comune raggiunto)"
+                        if time.time() > self._scadenza_lettura:
+                            rie["esito"] += " – lettura interrotta dopo 30 minuti: albo molto grande, restringi la data"
                     self.log(f"{nome}: {len(atti)} atti letti su {pagine} pagine, {len(trovati_qui)} trovati"
                              + (f" ({senza} senza allegati)" if opz["scarica"] and senza else ""))
                 except Annullato:
@@ -801,6 +823,9 @@ class Motore:
         atti, visti, pagine, firma_prec = [], set(), 0, None
         while pagine < MAX_PAGINE:
             self._controlla_stop()
+            if time.time() > getattr(self, "_scadenza_lettura", float("inf")):
+                self.log("  tempo massimo per questo comune raggiunto: passo al successivo")
+                break
             righe = self._righe_pagina(page)
             firma = "|".join(r["text"][:80] for r in righe[:3])
             if not righe or firma == firma_prec:
@@ -856,14 +881,14 @@ class Motore:
                 break
         return atti, pagine
 
-    def _ritrova_riga(self, page, r, tentativi=10):
+    def _ritrova_riga(self, page, r, tentativi=6):
         """Dopo essere tornati all'elenco ritrova la stessa riga (l'elenco può comparire qualche secondo dopo)."""
         chiave = re.sub(r"\s+", " ", L.norm(r["text"]))[:150]
         for _ in range(tentativi):
             for x in self._righe_pagina(page):
                 if re.sub(r"\s+", " ", L.norm(x["text"]))[:150] == chiave:
                     return x
-            page.wait_for_timeout(1500)
+            page.wait_for_timeout(1000)
         return None
 
     # --------------------------------------------------- allegati di un atto
@@ -877,16 +902,16 @@ class Motore:
                 out.append(l["href"])
         return out
 
-    def _attendi_pronta(self, page, secondi=25):
+    def _attendi_pronta(self, page, secondi=10):
         try:
             page.wait_for_load_state("load", timeout=secondi * 1000)
         except Exception:
             pass
         try:
-            page.wait_for_function(JS_PRONTA, timeout=secondi * 1000, polling=500)
+            page.wait_for_function(JS_PRONTA, timeout=min(secondi, 8) * 1000, polling=400)
         except Exception:
             pass
-        page.wait_for_timeout(600)
+        page.wait_for_timeout(300)
 
     def _scarica_cliccando_pagina(self, pg, ctx, comune, atto, cartella, contatore):
         """In una pagina di dettaglio clicca i pulsanti 'Scarica'/'Download' senza link vero e raccoglie i file."""
@@ -1011,7 +1036,7 @@ class Motore:
                     except Exception:
                         return False
                     try:
-                        page.wait_for_load_state("networkidle", timeout=6000)
+                        page.wait_for_load_state("networkidle", timeout=2500)
                     except PWTimeout:
                         pass
                     page.wait_for_timeout(1000)
@@ -1031,7 +1056,8 @@ class Motore:
                         break
                 # 2) se non è uscito niente: clic sulla prima cella (tipico delle tabelle con "+" disegnato)
                 #    e poi sulla riga stessa (molte piattaforme aprono il dettaglio cliccando la riga)
-                if not navigato and not raccogli() and not scaricati and not popup:
+                # (se l'atto ha già un link di dettaglio vero, salto i clic "alla cieca" e vado direttamente al dettaglio)
+                if not navigato and not link_dett and not raccogli() and not scaricati and not popup:
                     for sel in (f'[data-albi-id="{rid}"] > td:first-child', f'[data-albi-id="{rid}"]'):
                         if clicca(frame.locator(sel).first):
                             navigato = True
@@ -1082,9 +1108,11 @@ class Motore:
         if link_dett and not urls and not salvati:
             p2 = ctx.new_page()
             try:
-                self._apri(p2, link_dett, attesa=800)
-                self._attendi_pronta(p2, secondi=15)
+                self._apri(p2, link_dett, attesa=500, veloce=True)
                 urls += self._link_allegato(self._tutti_link(p2))
+                if not urls:                       # la pagina forse sta ancora caricando
+                    self._attendi_pronta(p2, secondi=8)
+                    urls += self._link_allegato(self._tutti_link(p2))
                 urls += self._espandi_e_raccogli(p2)
                 if not urls:
                     s2, u2 = self._scarica_cliccando_pagina(p2, ctx, comune, atto, cartella, contatore)
@@ -1249,9 +1277,9 @@ class Motore:
     def _scarica_con_browser(self, ctx, url, comune, atto, cartella, contatore):
         p = ctx.new_page()
         try:
-            with p.expect_download(timeout=20000) as dl:
+            with p.expect_download(timeout=12000) as dl:
                 try:
-                    p.goto(url, timeout=20000)
+                    p.goto(url, timeout=12000)
                 except Exception:
                     pass        # "Download is starting": normale quando l'indirizzo è un file
             return self._salva_download(dl.value, comune, atto, cartella, contatore)
