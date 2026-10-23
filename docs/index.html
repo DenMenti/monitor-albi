@@ -308,9 +308,11 @@ tr.fissato td { background: var(--abete-chiaro); }
   <div class="stat" id="lavoroStima"></div>
   <ol class="fasi" id="lavoroFasi"></ol>
   <div id="lavoroEsito" hidden></div>
+  <pre id="lavoroLog" hidden style="max-height:180px;overflow:auto;font:12px/1.4 Consolas,ui-monospace,monospace;background:var(--carta);border:1px solid var(--linea);border-radius:6px;padding:8px;white-space:pre-wrap"></pre>
   <p class="stat" id="lavoroNota">Puoi chiudere questa finestra o anche la pagina: il lavoro continua sui server di GitHub. Quando riapri la pagina vedrai i risultati.</p>
   <div class="riga">
     <a class="bottone secondario" id="lavoroLink" target="_blank" rel="noopener" aria-disabled="true">Dettaglio su GitHub</a>
+    <button class="secondario" id="lavoroStop" hidden>Interrompi</button>
     <button id="lavoroChiudi">Chiudi</button>
   </div>
 </dialog>
@@ -337,8 +339,15 @@ function repoDaUrl() {
   const nome = location.pathname.split("/").filter(Boolean)[0] || `${owner}.github.io`;
   return `${owner}/${nome}`;
 }
+// Versione per il computer: la stessa pagina servita dal programma locale (robot su questo PC)
+const LOCALE = ["127.0.0.1", "localhost"].includes(location.hostname);
 const repo = () => imp.repo || repoDaUrl();
-const haToken = () => !!(imp.token && repo());
+const haToken = () => LOCALE || !!(imp.token && repo());
+async function apiLocale(path, metodo = "GET", corpo) {
+  const r = await fetch(path, { method: metodo, cache: "no-store", headers: corpo ? { "Content-Type": "application/json" } : {}, body: corpo ? JSON.stringify(corpo) : undefined });
+  if (!r.ok) throw new Error(`Errore del programma locale (${r.status})`);
+  return r.json();
+}
 
 function messaggio(t, errore) { const m = $("messaggio"); m.textContent = t || ""; m.className = errore ? "errore" : ""; }
 
@@ -360,6 +369,7 @@ async function gh(path, opz = {}) {
 }
 
 async function leggiDato(nome, def) {
+  if (LOCALE) { try { return await apiLocale(`/api/dati/${nome}?t=${Date.now()}`); } catch (e) { return def; } }
   try {
     if (haToken()) return JSON.parse(await gh(`/repos/${repo()}/contents/docs/dati/${nome}?ref=${ramo}`, { raw: true }));
     const r = await fetch(`dati/${nome}?t=${Date.now()}`);
@@ -386,6 +396,7 @@ async function shaDi(path) {
 }
 
 async function scriviDato(nome, obj, msg) {
+  if (LOCALE) return apiLocale(`/api/dati/${nome}`, "PUT", obj);
   const path = `/repos/${repo()}/contents/docs/dati/${nome}`;
   const corpo = sha => JSON.stringify({ message: msg, content: b64(JSON.stringify(obj, null, 2) + "\n"), branch: ramo, ...(sha ? {sha} : {}) });
   try {
@@ -399,6 +410,7 @@ async function scriviDato(nome, obj, msg) {
 }
 
 function linkFile(rel) {
+  if (LOCALE) return rel ? `/file/${rel}` : "";
   if (!rel) return "";
   return repo() ? `https://github.com/${repo()}/raw/${ramo}/docs/${rel}` : rel;
 }
@@ -652,6 +664,7 @@ async function leggiConSha(nome) {
 }
 
 async function aggiornaSegnati(modifica, messaggioCommit) {
+  if (LOCALE) { const obj = await leggiDato("segnati.json", {}); modifica(obj); await scriviDato("segnati.json", obj); return obj; }
   const path = `/repos/${repo()}/contents/docs/dati/segnati.json`;
   for (let tentativo = 0; tentativo < 4; tentativo++) {
     const { obj, sha } = await leggiConSha("segnati.json");
@@ -698,7 +711,7 @@ function aggiornaPermessi() {
   document.querySelectorAll(".serve-token").forEach(b => b.disabled = !haToken() || corre);
   document.querySelectorAll(".btn-singolo").forEach(b => { b.disabled = !haToken() || corre || !(D.comuni.find(c => chiave(c) === b.dataset.k) || {}).albo; });
   $("avvisoToken").hidden = haToken();
-  $("btnImpostazioni").textContent = haToken() ? "GitHub collegato" : "Collega GitHub";
+  if (!LOCALE) $("btnImpostazioni").textContent = haToken() ? "GitHub collegato" : "Collega GitHub";
 }
 
 async function carica() {
@@ -758,6 +771,15 @@ $("btnSalvaLink").onclick = async () => {
 };
 
 async function avvia(inputs) {
+  if (LOCALE) {
+    const r = await apiLocale("/api/avvia", "POST", { inputs });
+    if (!r.ok) throw new Error(r.errore || "Non riesco ad avviare il lavoro");
+    messaggio("Avviato su questo computer.");
+    lav.avviatoAlle = Date.now(); lav.inizio = Date.now(); lav.runId = null;
+    apriLavoro(inputs.azione);
+    setTimeout(sonda, 1500);
+    return;
+  }
   await gh(`/repos/${repo()}/actions/workflows/${WORKFLOW}/dispatches`, { method: "POST", body: JSON.stringify({ ref: ramo, inputs }) });
   messaggio("Avviato.");
   lav.avviatoAlle = Date.now(); lav.inizio = Date.now(); lav.runId = null;
@@ -818,6 +840,7 @@ const lav = { aperta: false, inizio: 0, runId: null, tipo: "", avviatoAlle: 0, f
 
 function disegnaFasi(fase, errore) {
   const nomi = [...FASI];
+  if (LOCALE) nomi[0] = "Avvio del programma";
   nomi[2] = lav.tipo === "albi" ? "Ricerca dei link agli albi (20–30 minuti)" : lav.tipo === "monitora" ? "Controllo delle determine nei comuni" : "Lavoro sui siti dei comuni";
   $("lavoroFasi").innerHTML = nomi.map((n, i) => {
     const cls = errore && i === fase ? "errore" : i < fase || (lav.finito && !errore) ? "fatta" : i === fase && !lav.finito ? "attiva" : "";
@@ -835,6 +858,9 @@ function apriLavoro(tipo, runId) {
   $("lavoroStima").textContent = lav.tipo === "albi" ? "Di solito ci vogliono 20–30 minuti." : "Dipende da quanti comuni e da quante pagine ha ogni albo.";
   $("lavoroEsito").hidden = true;
   $("lavoroNota").hidden = false;
+  $("lavoroNota").textContent = LOCALE ? "Il lavoro gira su questo computer: non chiudere la finestra nera del programma finché non è finito. Questa finestra invece puoi chiuderla."
+    : "Puoi chiudere questa finestra o anche la pagina: il lavoro continua sui server di GitHub. Quando riapri la pagina vedrai i risultati.";
+  $("lavoroLink").hidden = LOCALE; $("lavoroStop").hidden = !LOCALE; $("lavoroStop").disabled = false;
   disegnaFasi(0);
   if (!$("dlgLavoro").open) $("dlgLavoro").showModal();
   lav.aperta = true;
@@ -868,7 +894,47 @@ async function trovaRun() {
   return run;
 }
 
+async function aggiornaLavoroLocale() {
+  if (!lav.aperta) return;
+  try {
+    const st = await apiLocale("/api/stato");
+    if (st.inizio) lav.inizio = new Date(st.inizio).getTime();
+    $("lavoroLog").hidden = false;
+    const log = $("lavoroLog"); const giu = log.scrollTop + log.clientHeight >= log.scrollHeight - 20;
+    log.textContent = (st.log || []).slice(-60).join("\n");
+    if (giu) log.scrollTop = log.scrollHeight;
+    if (!st.attivo && (st.esito || st.fine)) {
+      lav.finito = true;
+      disegnaFasi(st.errore ? 2 : 4, st.errore);
+      clearInterval(lav.timer);
+      $("lavoroStop").hidden = true;
+      $("lavoroTitolo").textContent = st.errore ? "Il lavoro si è fermato" : "Finito";
+      $("lavoroNota").hidden = true;
+      $("lavoroEsito").hidden = false; $("lavoroEsito").className = st.errore ? "ko" : "ok";
+      $("lavoroEsito").textContent = st.esito || "Fatto.";
+      await carica();
+      return;
+    }
+    $("lavoroStop").hidden = !st.attivo;
+    lav.fase = st.totale ? 2 : 1;
+    disegnaFasi(lav.fase);
+    if (st.totale) {
+      const li = $("lavoroFasi").children[2];
+      if (li) li.lastElementChild.textContent += ` — ${Math.min(st.fatti + 1, st.totale)} di ${st.totale}: ${st.corrente}`;
+    }
+  } catch (e) {
+    $("lavoroEsito").hidden = false; $("lavoroEsito").className = "ko";
+    $("lavoroEsito").textContent = "Il programma sul computer non risponde: la finestra nera è stata chiusa?";
+  }
+  setTimeout(aggiornaLavoroLocale, 2000);
+}
+$("lavoroStop").onclick = async () => {
+  if (!confirm("Interrompere il lavoro in corso?")) return;
+  await apiLocale("/api/stop", "POST", {}); $("lavoroStop").disabled = true;
+};
+
 async function aggiornaLavoro() {
+  if (LOCALE) return aggiornaLavoroLocale();
   if (!lav.aperta || !haToken()) return;
   try {
     const run = await trovaRun();
@@ -908,7 +974,24 @@ async function aggiornaLavoro() {
 
 // --------------------------------------------------------------- stato
 let corre = false, eraInCorso = false, primaSonda = true;
+async function sondaLocale() {
+  try {
+    const st = await apiLocale("/api/stato");
+    corre = st.attivo;
+    $("pallino").className = "pallino " + (corre ? "corre" : st.errore ? "ko" : st.fine ? "ok" : "");
+    $("stato").textContent = corre ? "In corso su questo computer" : st.fine ? (st.errore ? "Ultimo lavoro interrotto" : "Ultimo lavoro completato") : "Pronto";
+    $("statoDett").textContent = corre ? `${st.totale ? `${Math.min(st.fatti + 1, st.totale)} di ${st.totale} comuni` : "Preparazione…"}` : (st.esito || "");
+    $("btnAvanz").hidden = !corre;
+    if (eraInCorso && !corre && !lav.aperta) { messaggio("Lavoro finito: risultati aggiornati."); await carica(); }
+    if (corre && primaSonda && !lav.aperta) apriLavoro(st.tipo);
+    eraInCorso = corre;
+  } catch (e) { $("stato").textContent = "Il programma sul computer non risponde"; }
+  primaSonda = false;
+  aggiornaPermessi();
+}
+
 async function sonda() {
+  if (LOCALE) return sondaLocale();
   if (!haToken()) { $("stato").textContent = "Collega GitHub per vedere lo stato"; aggiornaPermessi(); return; }
   try {
     const r = await gh(`/repos/${repo()}/actions/workflows/${WORKFLOW}/runs?per_page=1`);
@@ -935,7 +1018,8 @@ async function sonda() {
   aggiornaPermessi();
 }
 
-$("btnAvanz").onclick = () => { const r = lav.ultimoRun; lav.avviatoAlle = 0; lav.inizio = 0; apriLavoro(r ? tipoDaRun(r) : lav.tipo, r && r.id); };
+$("btnAvanz").onclick = () => {
+  if (LOCALE) { lav.avviatoAlle = 0; lav.inizio = 0; return apriLavoro(lav.tipo); } const r = lav.ultimoRun; lav.avviatoAlle = 0; lav.inizio = 0; apriLavoro(r ? tipoDaRun(r) : lav.tipo, r && r.id); };
 
 // ------------------------------------------------------------ token
 function apriDialog() { $("inToken").value = imp.token || ""; $("inRepo").value = repo(); $("msgDlg").textContent = ""; $("dlg").showModal(); }
@@ -955,7 +1039,22 @@ $("btnSalvaToken").onclick = async () => {
 };
 
 async function avvio() {
-  if (haToken()) { try { ramo = (await gh(`/repos/${repo()}`)).default_branch || "main"; } catch (e) {} }
+  if (LOCALE) {
+    $("btnImpostazioni").textContent = "Versione per il computer";
+    $("btnImpostazioni").onclick = () => alert("Questa è la versione che gira sul computer: il robot usa la vostra connessione.\n\nL'archivio (comuni, risultati, allegati) è nella cartella \"archivio\" accanto al programma.");
+    $("lnkRun").hidden = true;
+    const b = document.createElement("button"); b.className = "secondario"; b.textContent = "Apri la cartella degli allegati";
+    b.onclick = () => apiLocale("/api/apri-cartella", "POST", {}).catch(e => messaggio(e.message, true));
+    $("lnkRun").after(b);
+    const imp2 = document.createElement("button"); imp2.className = "secondario"; imp2.textContent = "Aggiorna archivio dalla versione online";
+    imp2.title = "Copia da GitHub comuni, link agli albi, parole chiave e atti fissati/eliminati";
+    imp2.onclick = async () => {
+      if (!confirm("Copiare dalla versione online comuni, link agli albi, parole chiave e atti segnati?\nI risultati dei controlli fatti su questo computer restano.")) return;
+      const r = await apiLocale("/api/importa", "POST", {}); messaggio(r.ok ? "Archivio aggiornato." : r.errore, !r.ok); await carica();
+    };
+    b.after(imp2);
+  }
+  if (!LOCALE && haToken()) { try { ramo = (await gh(`/repos/${repo()}`)).default_branch || "main"; } catch (e) {} }
   const t = new Date(); t.setDate(t.getDate() - 30);
   if (!$("data").value) $("data").value = t.toISOString().slice(0, 10);
   aggiornaPermessi();
@@ -963,7 +1062,7 @@ async function avvio() {
   sonda();
 }
 avvio();
-setInterval(() => { if (haToken()) sonda(); }, 15000);
+setInterval(() => { if (haToken()) sonda(); }, LOCALE ? 4000 : 15000);
 </script>
 </body>
 </html>

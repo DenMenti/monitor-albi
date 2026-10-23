@@ -18,7 +18,10 @@ import zipfile
 import logica as L
 from motore import Motore
 
-BASE = os.path.dirname(os.path.abspath(__file__))
+# MONITOR_BASE: cartella dei dati (usata dalla versione per Windows/Mac, che tiene l'archivio accanto al programma)
+BASE = os.environ.get("MONITOR_BASE") or os.path.dirname(os.path.abspath(__file__))
+LOCALE = bool(os.environ.get("MONITOR_LOCALE"))
+STOP = threading.Event()        # la versione locale lo usa per il pulsante "Interrompi"
 DATI = os.path.join(BASE, "docs", "dati")
 PUB = os.path.join(BASE, "docs", "risultati")
 DIAG = os.path.join(BASE, "docs", "diagnostica")
@@ -107,7 +110,7 @@ def cmd_albi(args):
     def parziale(fatti):
         scrivi("comuni.json", unisci(archivio, fatti))
 
-    m = Motore(log, avanzamento, threading.Event())
+    m = Motore(log, avanzamento, STOP)
     nuovi = m.trova_albi_selezione(sel, archivio, parziale)
     tutti = unisci(archivio, nuovi)
     scrivi("comuni.json", tutti)
@@ -155,7 +158,7 @@ def cmd_monitora(args):
     # diagnostica: tengo solo quella dell'ultimo controllo
     shutil.rmtree(DIAG, ignore_errors=True)
     opz["diagnostica"] = DIAG
-    m = Motore(log, avanzamento, threading.Event())
+    m = Motore(log, avanzamento, STOP)
     risultati, riepilogo = m.monitora(comuni, dal, opz, cartella)
 
     for r in riepilogo:
@@ -190,7 +193,9 @@ def cmd_monitora(args):
                     p = os.path.join(root, f)
                     z.write(p, os.path.join(f"monitoraggio_{stamp}", os.path.relpath(p, cartella)))
         repo = os.environ.get("GITHUB_REPOSITORY", "")
-        if repo:
+        if LOCALE:
+            url_zip = f"/uscita/{nome_zip}"
+        elif repo:
             url_zip = f"https://github.com/{repo}/releases/download/run-{stamp}/{nome_zip}"
         output_github(zip=os.path.join(USCITA, nome_zip), tag=f"run-{stamp}")
 
@@ -200,6 +205,7 @@ def cmd_monitora(args):
 
     scrivi("ultimo_run.json", {
         "quando": stamp, "esito": esito, "excel": f"risultati/{nome_x}", "zip": url_zip,
+        "cartella": cartella if LOCALE else "",
         "risultati": [{**r, "data": r["data"].isoformat() if r["data"] else ""} for r in risultati],
         "riepilogo": [{**r, "dal": r["dal"].isoformat() if r["dal"] else ""} for r in riepilogo],
     })

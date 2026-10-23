@@ -1,5 +1,5 @@
 #!/bin/bash
-# Versione locale per Mac: doppio clic per avviare.
+# Versione per il computer (Mac): doppio clic per avviare.
 cd "$(dirname "$0")"
 if ! command -v python3 >/dev/null; then
   echo "Python 3 non trovato. Installalo da https://www.python.org/downloads/"; read -p "Premi Invio per chiudere"; exit 1
@@ -11,4 +11,4 @@ if [ ! -x venv/bin/python ]; then
   venv/bin/python -m pip install -r requirements.txt
   venv/bin/python -m playwright install chromium
 fi
-venv/bin/python app.py
+venv/bin/python monitor_locale.py

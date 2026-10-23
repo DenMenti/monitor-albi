@@ -1,0 +1,72 @@
+name: Programma per Windows
+
+# Crea MonitorAlbi-Windows.zip (MonitorAlbi.exe + file necessari) e lo pubblica nella release "app-windows".
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["*.py", "docs/index.html", "requirements.txt", ".github/workflows/windows.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: programma-windows
+  cancel-in-progress: true
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Installa
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pyinstaller
+      - name: Crea MonitorAlbi.exe
+        run: >
+          pyinstaller --noconfirm --onedir --name MonitorAlbi
+          --add-data "docs/index.html;web"
+          --add-data "docs/dati/italia.json;web"
+          --add-data "docs/dati/config.json;web"
+          --hidden-import esegui --hidden-import motore --hidden-import logica
+          --collect-all playwright
+          monitor_locale.py
+      - name: Prova di avvio
+        shell: bash
+        env:
+          MONITOR_NO_BROWSER: "1"
+        run: |
+          ./dist/MonitorAlbi/MonitorAlbi.exe > avvio.log 2>&1 &
+          sleep 15
+          curl -sf http://127.0.0.1:8766/ | head -c 200
+          curl -sf http://127.0.0.1:8766/api/stato
+          cat avvio.log
+          taskkill //IM MonitorAlbi.exe //F || true
+          sleep 3
+          rm -rf dist/MonitorAlbi/archivio
+      - name: Prepara lo zip
+        shell: pwsh
+        run: |
+          Set-Content -Path dist/MonitorAlbi/LEGGIMI.txt -Encoding UTF8 -Value @"
+          MONITOR ALBI PRETORI - versione per Windows
+
+          1. Doppio clic su MonitorAlbi.exe
+             (se Windows avvisa "PC protetto": Ulteriori informazioni -> Esegui comunque)
+          2. Si apre il browser con la stessa pagina della versione online.
+             Al primo avvio l'archivio (comuni, link, parole chiave) viene copiato dalla versione online.
+          3. Lascia aperta la finestra nera finche' il controllo non e' finito.
+
+          Allegati ed Excel finiscono nella cartella "archivio" accanto al programma.
+          "@
+          Compress-Archive -Path dist/MonitorAlbi/* -DestinationPath MonitorAlbi-Windows.zip
+      - name: Pubblica
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view app-windows >/dev/null 2>&1 || gh release create app-windows --title "Monitor Albi per Windows" --notes "Scarica MonitorAlbi-Windows.zip, estrailo e fai doppio clic su MonitorAlbi.exe." --latest=false
+          gh release upload app-windows MonitorAlbi-Windows.zip --clobber

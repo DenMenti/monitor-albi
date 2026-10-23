@@ -38,9 +38,16 @@ la pagina è pubblicata con GitHub Pages. Non serve installare niente.
 - I server di GitHub sono all'estero: se qualche sito comunale blocca gli accessi dall'estero,
   quell'albo risulterà "da controllare a mano". In quel caso c'è la versione locale.
 
-## Versione locale (alternativa)
+## Versione per il computer (Windows)
 
-Gira sul computer invece che su GitHub e usa gli stessi file.
-- **Windows:** doppio clic su `avvia.bat` (serve Python, con "Add python.exe to PATH").
-- **Mac:** doppio clic su `avvia.command` (la prima volta: tasto destro → Apri).
-Si apre il browser su `http://127.0.0.1:8765`.
+Per i siti dei comuni che non rispondono ai server di GitHub o li bloccano, il robot può girare sul vostro computer,
+con la vostra connessione. La pagina è la stessa della versione online.
+
+- **Windows:** scarica `MonitorAlbi-Windows.zip` dalla release **app-windows** del repository
+  (https://github.com/DenMenti/monitor-albi/releases/tag/app-windows), estrailo e fai doppio clic su `MonitorAlbi.exe`.
+  Non serve installare Python: usa Microsoft Edge, già presente in Windows.
+  Lo zip si ricrea da solo a ogni modifica del programma (workflow "Programma per Windows").
+- **Mac (o Windows con Python):** doppio clic su `avvia.command` (Mac) o `avvia.bat` (Windows).
+
+Al primo avvio l'archivio (comuni, link agli albi, parole chiave, atti segnati) viene copiato dalla versione online.
+Excel, allegati e diagnostica finiscono nella cartella `archivio` accanto al programma.
