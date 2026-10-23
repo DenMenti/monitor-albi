@@ -1,25 +1,179 @@
 {
-  "quando": "2026-10-23_2259",
-  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-23_2259.xlsx",
-  "zip": "",
+  "quando": "2026-10-23_2320",
+  "esito": "7 determine trovate in 1 comuni, 32 allegati.",
+  "excel": "risultati/determine_2026-10-23_2320.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2320/allegati_2026-10-23_2320.zip",
   "cartella": "",
-  "risultati": [],
-  "riepilogo": [
+  "risultati": [
     {
-      "comune": "Borgosatollo",
+      "id": "BS|Botticino|2026-10-08|2026/1084|AUTORIZZAZIONE ALLO SVINCOLO DELLA POLIZZA FIDEIUSSORIA N. 114365 PRESTATA A GAR",
+      "comune": "Botticino",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://servizi-borgosatollo.e-pal.it/AlboOnline",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1084",
+      "oggetto": "AUTORIZZAZIONE ALLO SVINCOLO DELLA POLIZZA FIDEIUSSORIA N. 114365 PRESTATA A GARANZIA DELL’ESECUZIONE DEL CONTRATTO D’APPALTO PER IL SERVIZIO DI RISTORAZIONE COLLETTIVA DAL 1° SETTEMBRE 2023 AL 31 LUGLIO 2026 C.I.G. 9858629E01 – C.I.G. DERIVATO 9985703EC9 – CIRFOOD S.C.",
+      "parole": [
+        "gara",
+        "appalto"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8437997?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-08_01.pdf.p7m",
+        "botticino/botticino_2026-10-08_02.pdf",
+        "botticino/botticino_2026-10-08_03.pdf.p7m",
+        "botticino/botticino_2026-10-08_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Botticino|2026-10-08|2026/1080|DETERMINA DI APPROVAZIONE CONTABILITÀ FINALE, CERTIFICATO DI REGOLARE ESECUZIONE",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1080",
+      "oggetto": "DETERMINA DI APPROVAZIONE CONTABILITÀ FINALE, CERTIFICATO DI REGOLARE ESECUZIONE E QUADRO ECONOMICO FINALE DELLE OPERE DI \"MANUTENZIONE STRAORDINARIA DELLA COPERTURA DEL CIMITERO DI BOTTICINO MATTINA\" - CUP. G22F25000040004 CIG. B9046B2B2F",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8437766?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-08_05.pdf.p7m",
+        "botticino/botticino_2026-10-08_06.pdf",
+        "botticino/botticino_2026-10-08_07.pdf.p7m",
+        "botticino/botticino_2026-10-08_08.pdf",
+        "botticino/botticino_2026-10-08_09.pdf.p7m",
+        "botticino/botticino_2026-10-08_10.pdf",
+        "botticino/botticino_2026-10-08_11.p7m",
+        "botticino/botticino_2026-10-08_12.pdf",
+        "botticino/botticino_2026-10-08_13.pdf.p7m",
+        "botticino/botticino_2026-10-08_14.pdf"
+      ]
+    },
+    {
+      "id": "BS|Botticino|2026-10-09|2026/1090|NOMINA DEL RESPONSABILE UNICO DEL PROCEDIMENTO E COSTITUZIONE DEL GRUPPO DI LAVO",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-09",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1090",
+      "oggetto": "NOMINA DEL RESPONSABILE UNICO DEL PROCEDIMENTO E COSTITUZIONE DEL GRUPPO DI LAVORO RELATIVAMENTE AI LAVORI DI \"REALIZZAZIONE, MANUTENZIONE E RIORDINO DELLA SEGNALETICA ORIZZONTALE E VERTICALE TERRITORIO COMUNALE DI BOTTICINO (BS) – CUP G26G26000110004",
+      "parole": [
+        "lavori",
+        "manutenzione"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8439619?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-09_01.pdf.p7m",
+        "botticino/botticino_2026-10-09_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Botticino|2026-10-12|2026/1093|AGGIUDICAZIONE DEFINITIVA DEI LAVORI DI \"REALIZZAZIONE, MANUTENZIONE E RIORDINO ",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-12",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1093",
+      "oggetto": "AGGIUDICAZIONE DEFINITIVA DEI LAVORI DI \"REALIZZAZIONE, MANUTENZIONE E RIORDINO DELLA SEGNALETICA ORIZZONTALE E VERTICALE-TERRITORIO COMUNALE DI BOTTICINO (BS)\" – CUP G26G26000110004 CIG BD4D3ECFA2",
+      "parole": [
+        "lavori",
+        "manutenzione",
+        "aggiudicazione"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8441746?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-12_01.pdf.p7m",
+        "botticino/botticino_2026-10-12_02.pdf",
+        "botticino/botticino_2026-10-12_03.pdf.p7m",
+        "botticino/botticino_2026-10-12_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Botticino|2026-10-20|2026/1112|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI RE",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1112",
+      "oggetto": "DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI REDAZIONE PROGETTO ESECUTIVO, DIREZIONE LAVORI, CONTABILITÀ, COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE PER LE \"OPERE DI MESSA IN SICUREZZA DELLA COPERTURA E DELLE SCALE DI EMERGENZA DELLA PALESTRA COMUNALE DELLA SCUOLA SECONDARIA DI PRIMO GRADO ‘G. SCALVINI’ IN BOTTICINO (BS)\" - CUP G22H26000370004 CIG. BD56762FEB",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "progettazione",
+        "incarico",
+        "progetto",
+        "esecutivo"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456595?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-20_01.pdf.p7m",
+        "botticino/botticino_2026-10-20_02.pdf",
+        "botticino/botticino_2026-10-20_03.pdf.p7m",
+        "botticino/botticino_2026-10-20_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Botticino|2026-10-20|2026/1111|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER LA REVISIONE DELLE INDAGINI DI",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1111",
+      "oggetto": "DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER LA REVISIONE DELLE INDAGINI DI RILIEVO DEI DISTACCHI DI INTONACO E DI SFONDELLAMENTO NEI SOLAI PRESSO LA SCUOLA PRIMARIA “TITO SPERI” E LA SCUOLA DELL’INFANZIA “FRANCESCO CARINI”CIG BD19C3F7A4",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456495?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-20_05.pdf.p7m",
+        "botticino/botticino_2026-10-20_06.pdf",
+        "botticino/botticino_2026-10-20_07.pdf.p7m",
+        "botticino/botticino_2026-10-20_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Botticino|2026-10-20|2026/1110|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE PER R",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1110",
+      "oggetto": "DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE PER REDAZIONE PROGETTO DI FATTIBILITÀ TECNICO ECONOMICA DELL' INTERVENTO DI \"REALIZZAZIONE DI IMPIANTO FOTOVOLTAICO PRESSO LA PALESTRA COMUNALE DELLA SCUOAL SECONDARIA DI PRIMO GRADO G. SCALVINI\" CIG BD53FC929E",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "intervento"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456347?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-20_09.pdf.p7m",
+        "botticino/botticino_2026-10-20_10.pdf",
+        "botticino/botticino_2026-10-20_11.pdf.p7m",
+        "botticino/botticino_2026-10-20_12.pdf"
+      ]
+    }
+  ],
+  "riepilogo": [
+    {
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://botticino.trasparenza-valutazione-merito.it/",
       "dal": "2026-09-06",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
-      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
-      "diag_stato": 200,
-      "diag_url": "https://servizi-borgosatollo.e-pal.it/AlboOnline/ricercaAlbo",
-      "screenshot": "BS-borgosatollo.jpg"
+      "pagine": 5,
+      "letti": 89,
+      "trovati": 7,
+      "esito": "OK – 7 trovati",
+      "albo_lista": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=211"
     }
   ]
 }
