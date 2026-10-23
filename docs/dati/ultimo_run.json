@@ -1,16 +1,16 @@
 {
-  "quando": "2026-10-23_2254",
+  "quando": "2026-10-23_2259",
   "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-23_2254.xlsx",
+  "excel": "risultati/determine_2026-10-23_2259.xlsx",
   "zip": "",
   "cartella": "",
   "risultati": [],
   "riepilogo": [
     {
-      "comune": "Gussago",
+      "comune": "Borgosatollo",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://www.comune.gussago.bs.it/EG0/EGHOMEPAGE.HBL",
+      "albo": "https://servizi-borgosatollo.e-pal.it/AlboOnline",
       "dal": "2026-09-06",
       "pagine": 0,
       "letti": 0,
@@ -18,8 +18,8 @@
       "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
       "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
       "diag_stato": 200,
-      "diag_url": "https://www.comune.gussago.bs.it/EG0/EGHOMEPAGE.HBL",
-      "screenshot": "BS-gussago.jpg"
+      "diag_url": "https://servizi-borgosatollo.e-pal.it/AlboOnline/ricercaAlbo",
+      "screenshot": "BS-borgosatollo.jpg"
     }
   ]
 }
