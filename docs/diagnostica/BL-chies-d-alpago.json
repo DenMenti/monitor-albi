@@ -2,13 +2,13 @@
  "comune": "Chies d'Alpago",
  "sigla": "BL",
  "albo": "https://www.comune.chiesdalpago.bl.it/albo_on_line",
- "motivo": "nessuna riga letta",
- "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
- "stato_http": 200,
- "url": "https://www.comune.chiesdalpago.bl.it/albo_on_line",
- "titolo": "Comune di Chies d'Alpago - Albo on line",
- "testo": "I cookie ci aiutano a fornire i nostri servizi. Utilizzando tali servizi, accetti l'utilizzo dei cookie da parte nostra. Privacy policy Personalizza RIFIUTA TUTTO ACCETTA TUTTO Albo on line Vai al contenuto principale Regione del Veneto MENU MENU Chiude il menu principale Home Amministrazione Vivere Notizie e Avvisi Albo Pretorio Comune di Chies d'Alpago Provincia di Belluno alla digitazione è possibile consultare le opzioni suggerite nel menu a tendina che compare sotto Amministrazione Vivere Notizie e Avvisi Albo Pretorio MENU Home Amministrazione Vivere Notizie e Avvisi Albo Pretorio Home Albo on line Albo on line dall'8/11/2024 Albo on line fino al 7/11/2024 Comune di Chies d'Alpago MyPortal Regione Veneto Siti Tematici Domus - Dolomites Museums of Science Dolomiti Prealpi Visit Dolomiti Bellunesi Alpago Cansiglio APS Link Utili Regione del Veneto Provincia di Belluno Europe for Citizens Farmacie di turno AULSS1 Dolomiti ARPAV Dolomiti Meteo Trasparenza Amministrazione Trasparente Albo Pretorio Contatti Piazza Roma, 1 - 32010 Chies d'Alpago (BL) TEL: 0437 470072 FAX: 0437 440066 E-Mail: protocollo@comune.chiesdalpago.bl.it PEC: comune.chiesdalpago.bl@pecveneto.it Tutti gli uffici Seguici sui social network Icona Facebook Area Personale Scopri cos'è MyPA Scopri cos'è MyPA HomepageAccessibilitàDichiarazione di AccessibilitàPrivacyInformativa CookieNote legali Codice fiscale (P.IVA): 00206480253 Rimuovi le preferenze dei Cookie Informazioni portale: versione: 282 (bf6bc) - ultimo aggiornamento: 15/04/2026 13:41",
+ "motivo": "TimeoutError: Page.goto: Timeout 60000ms exceeded.",
+ "diagnosi": "il sito non risponde (timeout)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
  "tabelle": 0,
- "link": 112,
- "frame": []
+ "link": 0
 }

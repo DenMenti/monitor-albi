@@ -1,0 +1,99 @@
+{
+ "comune": "Vallada Agordina",
+ "oggetto": "ACQUISTO BENI E/O MATERIALI PER MANUTENZIONE E RIPARAZIONE IMMOBILI COMUNALI. LIQUIDAZIONE DI SPESA. CIG: B6D196B75C",
+ "data": "2026-10-20",
+ "url_albo": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=46228",
+ "link_dettaglio": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up",
+ "link_trovati_non_scaricabili": [],
+ "html_riga_prima": "<tr class=\"master-detail-list-line master-detail-list-line-even\" data-id=\"8456294\" data-albi-id=\"14\"> <td tabindex=\"0\" role=\"cell\" class=\"annonumeroregistrazione number\">2026/437</td> <td tabindex=\"0\" role=\"cell\" class=\"categoria text\"><span class=\"categoria categoria_categoria\">DETERMINAZIONI</span><span class=\"categoria categoria_separatore\"> /<br></span><span class=\"categoria categoria_sottocategoria\">DETERMINAZIONE</span></td> <td tabindex=\"0\" role=\"cell\" class=\"oggetto text\">ACQUISTO BENI E/O MATERIALI PER MANUTENZIONE E RIPARAZIONE IMMOBILI COMUNALI. LIQUIDAZIONE DI SPESA. CIG: B6D196B75C </td> <td tabindex=\"0\" role=\"cell\" class=\"periodo-pubblicazione date\"> 20/10/2026 <br> 04/11/2026 </td> <td tabindex=\"0\" role=\"cell\" class=\"actions\"> <a class=\"master-detail-list-link-a\" title=\"Visualizza Allegato\" href=\"https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up\"><span class=\"icon-download-unlocked\"><span style=\"margin-top: 15px; margin-left: -4px;\" class=\"badge\">2</span></span></a> <a class=\"master-detail-list-link-a\" title=\"Apri Dettaglio\" href=\"https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up\"><span class=\"icon-detail\"></span></a> </td> </tr>",
+ "html_riga_dopo": "<tr class=\"master-detail-list-line master-detail-list-line-even\" data-id=\"8456294\" data-albi-id=\"14\"> <td tabindex=\"0\" role=\"cell\" class=\"annonumeroregistrazione number\" data-focus-mouse=\"false\">2026/437</td> <td tabindex=\"0\" role=\"cell\" class=\"categoria text\"><span class=\"categoria categoria_categoria\">DETERMINAZIONI</span><span class=\"categoria categoria_separatore\"> /<br></span><span class=\"categoria categoria_sottocategoria\">DETERMINAZIONE</span></td> <td tabindex=\"0\" role=\"cell\" class=\"oggetto text focus--mouse\" data-focus-mouse=\"true\">ACQUISTO BENI E/O MATERIALI PER MANUTENZIONE E RIPARAZIONE IMMOBILI COMUNALI. LIQUIDAZIONE DI SPESA. CIG: B6D196B75C </td> <td tabindex=\"0\" role=\"cell\" class=\"periodo-pubblicazione date\"> 20/10/2026 <br> 04/11/2026 </td> <td tabindex=\"0\" role=\"cell\" class=\"actions\"> <a class=\"master-detail-list-link-a\" title=\"Visualizza Allegato\" href=\"https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up\"><span class=\"icon-download-unlocked\"><span style=\"margin-top: 15px; margin-left: -4px;\" class=\"badge\">2</span></span></a> <a class=\"master-detail-list-link-a\" title=\"Apri Dettaglio\" href=\"https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up\"><span class=\"icon-detail\"></span></a> </td> </tr>",
+ "elementi_riga": [
+  {
+   "tag": "A",
+   "testo": "2",
+   "title": "Visualizza Allegato",
+   "classe": "master-detail-list-link-a",
+   "href": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "",
+   "title": "Apri Dettaglio",
+   "classe": "master-detail-list-link-a",
+   "href": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up",
+   "onclick": "",
+   "visibile": true
+  }
+ ],
+ "pagina_dettaglio": {
+  "url": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456294?p_p_state=pop_up",
+  "elementi": [
+   {
+    "tag": "A",
+    "testo": "Copia URL Pubblicazione",
+    "title": "",
+    "classe": "btn btn-small btn-list",
+    "href": "javascript:void(0);",
+    "onclick": "copyLink();",
+    "visibile": true
+   },
+   {
+    "tag": "A",
+    "testo": "Torna a lista",
+    "title": "",
+    "classe": "btn btn-small btn-list",
+    "href": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap?p_p_id=jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&_jcitygovalbo",
+    "onclick": "history.back();return false;",
+    "visibile": true
+   },
+   {
+    "tag": "A",
+    "testo": "",
+    "title": "Download versione firmata",
+    "classe": "btn btn-small",
+    "href": "javascript:void(0)",
+    "onclick": "(typeof trackEvent !== 'undefined' && typeof trackEvent === 'function') ? trackEvent('Download', 'this.dataset.title', 'this.href'): ''; window.open(atob('aHR0cHM6Ly92YWxsYWRhYWdvcmRpbmEudHJhc3BhcmVue",
+    "visibile": true
+   },
+   {
+    "tag": "A",
+    "testo": "",
+    "title": "Download versione non firmata",
+    "classe": "btn btn-small",
+    "href": "javascript:void(0)",
+    "onclick": "(typeof trackEvent !== 'undefined' && typeof trackEvent === 'function') ? trackEvent('Download', 'this.dataset.title', 'this.href'): ''; window.open(atob('aHR0cHM6Ly92YWxsYWRhYWdvcmRpbmEudHJhc3BhcmVue",
+    "visibile": true
+   },
+   {
+    "tag": "A",
+    "testo": "",
+    "title": "Download versione firmata",
+    "classe": "btn btn-small",
+    "href": "javascript:void(0)",
+    "onclick": "(typeof trackEvent !== 'undefined' && typeof trackEvent === 'function') ? trackEvent('Download', 'this.dataset.title', 'this.href'): ''; window.open(atob('aHR0cHM6Ly92YWxsYWRhYWdvcmRpbmEudHJhc3BhcmVue",
+    "visibile": true
+   },
+   {
+    "tag": "A",
+    "testo": "",
+    "title": "Download versione non firmata",
+    "classe": "btn btn-small",
+    "href": "javascript:void(0)",
+    "onclick": "(typeof trackEvent !== 'undefined' && typeof trackEvent === 'function') ? trackEvent('Download', 'this.dataset.title', 'this.href'): ''; window.open(atob('aHR0cHM6Ly92YWxsYWRhYWdvcmRpbmEudHJhc3BhcmVue",
+    "visibile": true
+   },
+   {
+    "tag": "A",
+    "testo": "Torna a lista",
+    "title": "",
+    "classe": "btn btn-small btn-list",
+    "href": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap?p_p_id=jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=pop_up&p_p_mode=view&_jcitygovalbo",
+    "onclick": "history.back();return false;",
+    "visibile": true
+   }
+  ],
+  "testo": "DETTAGLIO ATTO Copia URL Pubblicazione Torna a lista Categoria DETERMINAZIONI Sottocategoria DETERMINAZIONE Anno atto 2026 Numero atto 275 Data documento 20/10/2026 Tipo registrazione Albo Pretorio Data di registro 20/10/2026 Anno di registro 2026 Numero di registro 437 Proponente Segretario Comunale Oggetto ACQUISTO BENI E/O MATERIALI PER MANUTENZIONE E RIPARAZIONE IMMOBILI COMUNALI. LIQUIDAZIONE DI SPESA. CIG: B6D196B75C Data atto 20/10/2026 Dirigente/Firmatario Giacomo D'Ancona Data esecutività 20/10/2026 Classifica GESTIONE DELLA SPESA: IMPEGNO, LIQUIDAZIONE, ORDINAZIONE E PAGAMENTO Periodo Pubblicazione 20/10/2026 - 04/11/2026 Provenienza Interna Stato attivo Numero allegati 2 Titolo Descrizione Scarica Determinazione n. 00275/2026 Documento principale VISTO CONTABILE LIQUIDAZIONE firma digitale Allegato parte integrante Contenuto inserito il 20/10/2026 aggiornato al 20/10/2026 Torna a lista"
+ }
+}
