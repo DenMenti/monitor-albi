@@ -98,37 +98,6 @@
       "quando": "2026-10-23_2122"
     }
   },
-  "BS|Desenzano del Garda|2026-10-15|2026/2567|AFFIDAMENTO INCARICO PROFESSIONALE PER PROGETTAZIONE E DIREZIONE LAVORI PER LE O": {
-    "stato": "fissato",
-    "quando": "2026-10-23T19:32:49.554Z",
-    "atto": {
-      "id": "BS|Desenzano del Garda|2026-10-15|2026/2567|AFFIDAMENTO INCARICO PROFESSIONALE PER PROGETTAZIONE E DIREZIONE LAVORI PER LE O",
-      "comune": "Desenzano del Garda",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
-      "numero": "2026/2567",
-      "oggetto": "AFFIDAMENTO INCARICO PROFESSIONALE PER PROGETTAZIONE E DIREZIONE LAVORI PER LE OPERE DI MANUTENZIONE STRAORDINARIA DELLA PISCINA DEL CENTRO SOCIALE ANFFAS - ARCH. ROBERTO BERTOLINELLI - CUP I18C26000290004 - CIG BD4A7040DA",
-      "parole": [
-        "lavori",
-        "affidamento",
-        "manutenzione",
-        "progettazione",
-        "incarico"
-      ],
-      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2789706?p_p_state=pop_up",
-      "allegati": [
-        "desenzano-del-garda/desenzano-del-garda_2026-10-15_01.pdf.p7m",
-        "desenzano-del-garda/desenzano-del-garda_2026-10-15_02.pdf",
-        "desenzano-del-garda/desenzano-del-garda_2026-10-15_03.pdf",
-        "desenzano-del-garda/desenzano-del-garda_2026-10-15_04.pdf.p7m",
-        "desenzano-del-garda/desenzano-del-garda_2026-10-15_05.pdf"
-      ],
-      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
-      "quando": "2026-10-23_2122"
-    }
-  },
   "BS|Botticino|2026-10-20|2026/1110|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE PER R": {
     "stato": "fissato",
     "quando": "2026-10-23T21:27:14.241Z",
