@@ -159,5 +159,34 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2320/allegati_2026-10-23_2320.zip",
       "quando": "2026-10-23_2320"
     }
+  },
+  "BS|Botticino|2026-10-20|2026/1110|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE PER R": {
+    "stato": "fissato",
+    "quando": "2026-10-23T21:27:14.241Z",
+    "atto": {
+      "id": "BS|Botticino|2026-10-20|2026/1110|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE PER R",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1110",
+      "oggetto": "DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE PER REDAZIONE PROGETTO DI FATTIBILITÀ TECNICO ECONOMICA DELL' INTERVENTO DI \"REALIZZAZIONE DI IMPIANTO FOTOVOLTAICO PRESSO LA PALESTRA COMUNALE DELLA SCUOAL SECONDARIA DI PRIMO GRADO G. SCALVINI\" CIG BD53FC929E",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "intervento"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456347?p_p_state=pop_up",
+      "allegati": [
+        "botticino/botticino_2026-10-20_09.pdf.p7m",
+        "botticino/botticino_2026-10-20_10.pdf",
+        "botticino/botticino_2026-10-20_11.pdf.p7m",
+        "botticino/botticino_2026-10-20_12.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2320/allegati_2026-10-23_2320.zip",
+      "quando": "2026-10-23_2320"
+    }
   }
 }
