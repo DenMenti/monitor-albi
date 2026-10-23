@@ -319,8 +319,14 @@ class Motore:
         self.ultimo_stato = None
         for tentativo in (1, 2):
             try:
-                risp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                # prima aspetto solo che il server risponda, poi diamo tempo alla pagina di costruirsi:
+                # così un sito lento non viene scambiato per un sito che non risponde
+                risp = page.goto(url, wait_until="commit", timeout=45000)
                 self.ultimo_stato = risp.status if risp else None
+                try:
+                    page.wait_for_load_state("domcontentloaded", timeout=45000)
+                except PWTimeout:
+                    self.log("  la pagina risponde ma è molto lenta a caricarsi")
                 break
             except PWTimeout:
                 if tentativo == 2:
@@ -783,6 +789,13 @@ class Motore:
         self._apri(page, url, cortese=True)
         self.url_lista = None
         if not self._righe_pagina(page):
+            # l'elenco può comparire qualche secondo dopo (caricato dal server): aspetto prima di arrendermi
+            self._attendi_pronta(page, secondi=15)
+            for _ in range(6):
+                if self._righe_pagina(page):
+                    break
+                page.wait_for_timeout(1500)
+        if not self._righe_pagina(page):
             if self._vai_alla_lista(page, solo_determine):
                 self.url_lista = page.url
         atti, visti, pagine, firma_prec = [], set(), 0, None
@@ -796,7 +809,7 @@ class Motore:
             pagine += 1
             url_pagina = page.url
             nuovi = []
-            fresche = None          # righe ritrovate dopo essere tornati all'elenco
+            ricaricata = False      # dopo un dettaglio siamo tornati all'elenco: le righe vanno ritrovate
             for r in righe:
                 if r["text"] in visti:
                     continue
@@ -805,8 +818,11 @@ class Motore:
                 atti.append(a)
                 nuovi.append(a)
                 if gestisci:
-                    if fresche is not None:
-                        r = {**r, **(fresche.get(r["text"]) or {"id": None})}
+                    if ricaricata:
+                        x = self._ritrova_riga(page, r)
+                        r = {**r, **x} if x else {**r, "id": None}
+                        if not x:
+                            self.log(f"  riga non ritrovata dopo il ritorno all'elenco: «{a['oggetto'][:50]}»")
                     fr = page.frames[r["frame"]] if r["frame"] < len(page.frames) else page.main_frame
                     self._ricarica_lista = False
                     try:
@@ -831,7 +847,7 @@ class Motore:
                                 self._attendi_pronta(page, secondi=15)
                             except Exception:
                                 pass
-                        fresche = {x["text"]: x for x in self._righe_pagina(page)}
+                        ricaricata = True
             date = [a["data"] for a in nuovi if a["data"]]
             # albo ordinato dal più recente: se l'intera pagina è più vecchia della data, mi fermo
             if date and max(date) < dal:
@@ -839,6 +855,16 @@ class Motore:
             if not self._successiva(page):
                 break
         return atti, pagine
+
+    def _ritrova_riga(self, page, r, tentativi=10):
+        """Dopo essere tornati all'elenco ritrova la stessa riga (l'elenco può comparire qualche secondo dopo)."""
+        chiave = re.sub(r"\s+", " ", L.norm(r["text"]))[:150]
+        for _ in range(tentativi):
+            for x in self._righe_pagina(page):
+                if re.sub(r"\s+", " ", L.norm(x["text"]))[:150] == chiave:
+                    return x
+            page.wait_for_timeout(1500)
+        return None
 
     # --------------------------------------------------- allegati di un atto
 
