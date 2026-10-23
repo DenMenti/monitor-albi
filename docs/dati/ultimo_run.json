@@ -1,404 +1,155 @@
 {
-  "quando": "2026-10-23_2134",
-  "esito": "16 determine trovate in 1 comuni, 120 allegati.",
-  "excel": "risultati/determine_2026-10-23_2134.xlsx",
-  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2134/allegati_2026-10-23_2134.zip",
+  "quando": "2026-10-23_2153",
+  "esito": "7 determine trovate in 1 comuni, 16 allegati.",
+  "excel": "risultati/determine_2026-10-23_2153.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2153/allegati_2026-10-23_2153.zip",
   "cartella": "",
   "risultati": [
     {
-      "id": "BS|Montichiari|2026-10-08|2026/1533|FORNITURA DI SMART TV DESTINATA ALLA SEDE DEL SERVIZIO INFORMAGIOVANI RELATIVO A",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-08",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1533",
-      "oggetto": "FORNITURA DI SMART TV DESTINATA ALLA SEDE DEL SERVIZIO INFORMAGIOVANI RELATIVO AL PROGETTO “TAG – TERRITORIO, AZIONE E GIOVANI” FINANZIATO NELL’AMBITO DEL BANDO “LA LOMBARDIA È DEI GIOVANI 2025\" - CUP E81B25000260002 - CIG BD3A7CA23A",
-      "parole": [
-        "progetto"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10559055",
-      "allegati": [
-        "montichiari/montichiari_2026-10-08_01.pdf",
-        "montichiari/montichiari_2026-10-08_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-08_03.pdf",
-        "montichiari/montichiari_2026-10-08_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-08_05.pdf",
-        "montichiari/montichiari_2026-10-08_06.pdf.p7m",
-        "montichiari/montichiari_2026-10-08_07.pdf",
-        "montichiari/montichiari_2026-10-08_08.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-08|2026/1531|FORNITURA DI MOBILETTO TV DESTINATO ALLA SEDE DEL SERVIZIO INFORMAGIOVANI RELATI",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-08",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1531",
-      "oggetto": "FORNITURA DI MOBILETTO TV DESTINATO ALLA SEDE DEL SERVIZIO INFORMAGIOVANI RELATIVO AL PROGETTO “TAG – TERRITORIO, AZIONE E GIOVANI” FINANZIATO NELL’AMBITO DEL BANDO “LA LOMBARDIA È DEI GIOVANI 2025\" - CUP E81B25000260002 - CIG BD4299E570",
-      "parole": [
-        "progetto"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10559023",
-      "allegati": [
-        "montichiari/montichiari_2026-10-08_09.pdf",
-        "montichiari/montichiari_2026-10-08_10.pdf.p7m",
-        "montichiari/montichiari_2026-10-08_11.pdf",
-        "montichiari/montichiari_2026-10-08_12.pdf.p7m",
-        "montichiari/montichiari_2026-10-08_13.pdf",
-        "montichiari/montichiari_2026-10-08_14.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-08|2026/1528|NOMINA COMMISSIONE GIUDICATRICE PER PROCEDURA DI CO-PROGETTAZIONE ART. 55, COMMA",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-08",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1528",
-      "oggetto": "NOMINA COMMISSIONE GIUDICATRICE PER PROCEDURA DI CO-PROGETTAZIONE ART. 55, COMMA 2, D.LGS. N. 117 DEL 2017 PER LA GESTIONE INTEGRATA DEI SERVIZI NELL’AMBITO MINORI – FAMIGLIA E DEL WELFARE DI COMUNITA’ A VALERE SULLE RISORSE DEI COMUNI, DEL FONDO NAZIONALE POLITICHE SOCIALI (RISORSE INDISTINTE E P.I.P.P.I.) E DELLA QUOTA SERVIZI FONDO POVERTA’ A FAVORE DEI COMUNI DELL’AMBITO TERRITORIALE BASSA BRESCIANA ORIENTALE PER IL BIENNIO 2027/2028. CIG BCF029CAA2",
-      "parole": [
-        "progettazione"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10558821",
-      "allegati": [
-        "montichiari/montichiari_2026-10-08_15.pdf",
-        "montichiari/montichiari_2026-10-08_16.pdf.p7m",
-        "montichiari/montichiari_2026-10-08_17.pdf",
-        "montichiari/montichiari_2026-10-08_18.pdf.p7m",
-        "montichiari/montichiari_2026-10-08_19.pdf",
-        "montichiari/montichiari_2026-10-08_20.pdf",
-        "montichiari/montichiari_2026-10-08_21.pdf",
-        "montichiari/montichiari_2026-10-08_22.pdf",
-        "montichiari/montichiari_2026-10-08_23.pdf",
-        "montichiari/montichiari_2026-10-08_24.pdf",
-        "montichiari/montichiari_2026-10-08_25.pdf",
-        "montichiari/montichiari_2026-10-08_26.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-09|2026/1537|RINNOVO DELL’AFFIDAMENTO DI SERVIZI RELATIVI ALL’INCARICO DI DPO (DATA PROTECTIO",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-09",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1537",
-      "oggetto": "RINNOVO DELL’AFFIDAMENTO DI SERVIZI RELATIVI ALL’INCARICO DI DPO (DATA PROTECTION OFFICER) PREVISTO DALL’ARTICOLO 37 DEL REGOLAMENTO EUROPEO SUL TRATTAMENTO DEI DATI (R.E. 679/2016), SVILUPPO AD AGGIORNAMENTO DEI PROCEDIMENTI E POLICY PREVISTI DAL GDPR – PERIODO 01/01/2027 - 31/12/2028 – CIG B3F8D50E27",
-      "parole": [
-        "affidamento",
-        "incarico"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10561530",
-      "allegati": [
-        "montichiari/montichiari_2026-10-09_01.pdf",
-        "montichiari/montichiari_2026-10-09_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-09_03.pdf",
-        "montichiari/montichiari_2026-10-09_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-09_05.pdf",
-        "montichiari/montichiari_2026-10-09_06.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-09|2026/1536|RINNOVO DELL’AFFIDAMENTO DEL SERVIZIO DI RECAPITO DELLA CORRISPONDENZA COMUNALE ",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-09",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1536",
-      "oggetto": "RINNOVO DELL’AFFIDAMENTO DEL SERVIZIO DI RECAPITO DELLA CORRISPONDENZA COMUNALE PER IL PERIODO DAL 1°GENNAIO 2027 AL 31 DICEMBRE 2027 - CIG: B8A2328B2B",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10560998",
-      "allegati": [
-        "montichiari/montichiari_2026-10-09_07.pdf",
-        "montichiari/montichiari_2026-10-09_08.pdf.p7m",
-        "montichiari/montichiari_2026-10-09_09.pdf",
-        "montichiari/montichiari_2026-10-09_10.pdf.p7m",
-        "montichiari/montichiari_2026-10-09_11.pdf",
-        "montichiari/montichiari_2026-10-09_12.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-13|2026/1549|AFFIDAMENTO SERVIZIO RESTAURO OPERE SU CARTA DI ANTONIO PASINETTI – CIG BD0E1796",
-      "comune": "Montichiari",
+      "id": "BS|Lumezzane|2026-10-13||DETERMINAZIONE Determina n. 611 servizio: 52 - Servizio ambiente, manutenzioni, ",
+      "comune": "Lumezzane",
       "sigla": "BS",
       "provincia": "Brescia",
       "data": "2026-10-13",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1549",
-      "oggetto": "AFFIDAMENTO SERVIZIO RESTAURO OPERE SU CARTA DI ANTONIO PASINETTI – CIG BD0E179648",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567528",
-      "allegati": [
-        "montichiari/montichiari_2026-10-13_01.pdf",
-        "montichiari/montichiari_2026-10-13_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-13_03.pdf",
-        "montichiari/montichiari_2026-10-13_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-13_05.pdf",
-        "montichiari/montichiari_2026-10-13_06.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-13|2026/1543|SERVIZIO DI IDEAZIONE GRAFICA A SUPPORTO DELL’ATTIVITÀ DI COMUNICAZIONE DEL PROG",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1543",
-      "oggetto": "SERVIZIO DI IDEAZIONE GRAFICA A SUPPORTO DELL’ATTIVITÀ DI COMUNICAZIONE DEL PROGETTO “TAG – TERRITORIO, AZIONE E GIOVANI” FINANZIATO DELL’AMBITO DEL BANDO “LA LOMBARDIA È DEI GIOVANI 2025”- CUP E81B25000260002 - CIG BD4A5E64D5",
-      "parole": [
-        "progetto"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567168",
-      "allegati": [
-        "montichiari/montichiari_2026-10-13_07.pdf",
-        "montichiari/montichiari_2026-10-13_08.pdf.p7m",
-        "montichiari/montichiari_2026-10-13_09.pdf",
-        "montichiari/montichiari_2026-10-13_10.pdf.p7m",
-        "montichiari/montichiari_2026-10-13_11.pdf",
-        "montichiari/montichiari_2026-10-13_12.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-14|2026/1553|SERVIZIO DI TERZO RESPONSABILE, AVVIAMENTO, CONTROLLO, MANUTENZIONE ED IGIENIZZA",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-14",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1553",
-      "oggetto": "SERVIZIO DI TERZO RESPONSABILE, AVVIAMENTO, CONTROLLO, MANUTENZIONE ED IGIENIZZAZIONE IMPIANTI DI RISCALDAMENTO E RAFFRESCAMENTO 2026-2027 VELODROMO CIG BD5BA9693E",
-      "parole": [
-        "manutenzione"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10569927",
-      "allegati": [
-        "montichiari/montichiari_2026-10-14_01.pdf",
-        "montichiari/montichiari_2026-10-14_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-14_03.pdf",
-        "montichiari/montichiari_2026-10-14_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-14_05.pdf",
-        "montichiari/montichiari_2026-10-14_06.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-16|2026/1568|AFFIDAMENTO DELL'INCARICO PER UN EVENTO CULTURALE IN DATA 16 OTTOBRE 2026 A MONT",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-16",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1568",
-      "oggetto": "AFFIDAMENTO DELL'INCARICO PER UN EVENTO CULTURALE IN DATA 16 OTTOBRE 2026 A MONTICHIARI CON LA PARTECIPAZIONE DELLA DOTT. SSA BEATRICE CRISTALLI, A CALENDARIO DELLA RASSEGNA \"LOGOS -PAROLE IN MOVIMENTO\" – CIG. BD00752FDE",
-      "parole": [
-        "affidamento",
-        "incarico"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10575846",
-      "allegati": [
-        "montichiari/montichiari_2026-10-16_01.pdf",
-        "montichiari/montichiari_2026-10-16_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-16_03.pdf",
-        "montichiari/montichiari_2026-10-16_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-16_05.pdf",
-        "montichiari/montichiari_2026-10-16_06.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-20|2026/1577|SERVIZIO ONE LEGALE INTEGRATO CON L’INTELLIGENZA ARTIFICIALE DENOMINATA LIBRA. C",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-20",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1577",
-      "oggetto": "SERVIZIO ONE LEGALE INTEGRATO CON L’INTELLIGENZA ARTIFICIALE DENOMINATA LIBRA. CIG BD6DF09F70 AFFIDAMENTO DIRETTO TRAMITE IL MERCATO ELETTRONICO DELLA PUBBLICA AMMINISTRAZIONE (MEPA).",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10581979",
-      "allegati": [
-        "montichiari/montichiari_2026-10-20_01.pdf",
-        "montichiari/montichiari_2026-10-20_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-20_03.pdf",
-        "montichiari/montichiari_2026-10-20_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-20_05.pdf",
-        "montichiari/montichiari_2026-10-20_06.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-22|2026/1601|APPALTO PER L’EROGAZIONE DI PLURALITA’ DI SERVIZI A FAVORE DEI COMUNI DELL’AMBIT",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1601",
-      "oggetto": "APPALTO PER L’EROGAZIONE DI PLURALITA’ DI SERVIZI A FAVORE DEI COMUNI DELL’AMBITO DISTRETTUALE BASSA BRESCIANA ORIENTALE – PROROGA DEI SERVIZI TRASVERSALI CONNESSI AL PROGETTO \"PERCORSI DI CRESCITA CON SPRINT\" NELL'AMBITO DELL'AVVISO \"SPRINT! LOMBARDIA INSIEME\" DGR N. 1904 DEL 19/02/2024 – CUP: I39G24000370008 CIG: B4BFCB7501",
-      "parole": [
-        "appalto",
-        "progetto"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10589358",
-      "allegati": [
-        "montichiari/montichiari_2026-10-22_01.pdf",
-        "montichiari/montichiari_2026-10-22_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_03.pdf",
-        "montichiari/montichiari_2026-10-22_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_05.pdf",
-        "montichiari/montichiari_2026-10-22_06.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-22|2026/1599|AFFIDAMENTO DELLA FORNITURA DI MATERIALE RELATIVO AL PROGETTO TAG 2025 – CIG: BD",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1599",
-      "oggetto": "AFFIDAMENTO DELLA FORNITURA DI MATERIALE RELATIVO AL PROGETTO TAG 2025 – CIG: BD64E99DE1 - CUP: E81B25000260002",
-      "parole": [
-        "affidamento",
-        "progetto"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10589258",
-      "allegati": [
-        "montichiari/montichiari_2026-10-22_07.pdf",
-        "montichiari/montichiari_2026-10-22_08.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_09.pdf",
-        "montichiari/montichiari_2026-10-22_10.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_11.pdf",
-        "montichiari/montichiari_2026-10-22_12.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-22|2026/1590|APPROVAZIONE DELLO STATO FINALE, DEL CERTIFICATO DI REGOLARE ESECUZIONE E DEL QU",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1590",
-      "oggetto": "APPROVAZIONE DELLO STATO FINALE, DEL CERTIFICATO DI REGOLARE ESECUZIONE E DEL QUADRO ECONOMICO FINALE DEI: “LAVORI DI ADEGUAMENTO ACUSTICO MENSA SCUOLA PRIMARIA IC 2 \"RITA LEVI MONTALCINI\" - PLESSO FALCONE (VIA FALCONE) RIQUALIFICAZIONE MENSA SCOLASTICA ESISTENTE MISSIONE 4 – ISTRUZIONE E RICERCA – COMPONENTE 1 – POTENZIAMENTO DELL’OFFERTA DEI SERVIZI DI ISTRUZIONE: DAGLI ASILI NIDO ALLE UNIVERSITÀ – INVESTIMENTO 1.2 “PIANO DI ESTENSIONE DEL TEMPO PIENO E MENSE”, FINANZIATO DALL’UNIONE EUROPEA – NEXT GENERATION EU P.N.R.R.” CUP I28H24000300006 CIG BC2D559886",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 611 servizio: 52 - Servizio ambiente, manutenzioni, lavori pubblici, RIM del 13/10/2026 ACCORDO QUADRO 2026-2030 PER LA FORNITURA DI MATERIALI DI FERRAMENTA VARIA, ATTREZZATURE ED ANTINFORTUNISTICA - CIG PADRE BB9387D496. APPROVAZIONE VERBALE DI CONCORDAMENTO NUOVI PREZZI N. 2.",
       "parole": [
         "lavori"
       ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10587264",
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
       "allegati": [
-        "montichiari/montichiari_2026-10-22_13.pdf",
-        "montichiari/montichiari_2026-10-22_14.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_15.pdf",
-        "montichiari/montichiari_2026-10-22_16.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_17.pdf",
-        "montichiari/montichiari_2026-10-22_18.pdf.p7m"
+        "lumezzane/lumezzane_2026-10-13_01.pdf.p7m",
+        "lumezzane/lumezzane_2026-10-13_02.pdf"
       ]
     },
     {
-      "id": "BS|Montichiari|2026-10-22|2026/1589|AFFIDAMENTO PRESTAZIONI TECNICHE PER FRAZIONAMENTO RELIQUATO STRADALE SITO IN VI",
-      "comune": "Montichiari",
+      "id": "BS|Lumezzane|2026-10-13||DETERMINAZIONE Determina n. 610 servizio: 53 - Servizio edilizia, urbanistica, S",
+      "comune": "Lumezzane",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1589",
-      "oggetto": "AFFIDAMENTO PRESTAZIONI TECNICHE PER FRAZIONAMENTO RELIQUATO STRADALE SITO IN VIA GUERZONI OGGETTO DI ALIENAZIONE. CIG BD7616D97E",
+      "data": "2026-10-13",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 610 servizio: 53 - Servizio edilizia, urbanistica, SUED, SUAP, patrimonio del 13/10/2026 CONVENZIONE CONSIP TELEFONIA MOBILE 9 - LOTTO UNICO. CIG: 9458158EE1. CIG DERIVATO: B3067908E7. PROROGA SCADENZA TERMINI 31/03/2027.",
+      "parole": [
+        "edilizia"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+      "allegati": [
+        "lumezzane/lumezzane_2026-10-13_03.pdf.p7m",
+        "lumezzane/lumezzane_2026-10-13_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Lumezzane|2026-10-15||DETERMINAZIONE Determina n. 622 servizio: 53 - Servizio edilizia, urbanistica, S",
+      "comune": "Lumezzane",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 622 servizio: 53 - Servizio edilizia, urbanistica, SUED, SUAP, patrimonio del 15/10/2026 Bando pubblico di sostegno alle micro, piccole e medie imprese nell’ambito dei negozi di vicinato, pubblici esercizi, artigianato alimentare e alla persona: approvazione graduatoria",
+      "parole": [
+        "edilizia"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+      "allegati": [
+        "lumezzane/lumezzane_2026-10-15_01.pdf",
+        "lumezzane/lumezzane_2026-10-15_02.pdf",
+        "lumezzane/lumezzane_2026-10-15_03.pdf.p7m",
+        "lumezzane/lumezzane_2026-10-15_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Lumezzane|2026-10-15||DETERMINAZIONE Determina n. 620 servizio: 36 - Servizi alla persona del 15/10/20",
+      "comune": "Lumezzane",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 620 servizio: 36 - Servizi alla persona del 15/10/2026 INTERVENTO A FAVORE DI DISABILI. DIMINUZIONE IMPEGNI N° 2026/626 E N° 2026/951.",
+      "parole": [
+        "intervento"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+      "allegati": [
+        "lumezzane/lumezzane_2026-10-15_05.pdf.p7m",
+        "lumezzane/lumezzane_2026-10-15_06.pdf"
+      ]
+    },
+    {
+      "id": "BS|Lumezzane|2026-10-15||DETERMINAZIONE Determina n. 619 servizio: 52 - Servizio ambiente, manutenzioni, ",
+      "comune": "Lumezzane",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 619 servizio: 52 - Servizio ambiente, manutenzioni, lavori pubblici, RIM del 15/10/2026 ACCORDO QUADRO 2024-2027 PER LAVORI DI MANUTENZIONE ORDINARIA E STRAORDINARIA VIABILITÀ COMUNALE OPERE STRADALI – CIG PADRE B17CF142F3. AFFIDAMENTO 4° ORDINE DI LAVORO MANUTENZIONE ORDINARIA - CIG DERIVATO BD42F56D8F.",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+      "allegati": [
+        "lumezzane/lumezzane_2026-10-15_07.pdf.p7m",
+        "lumezzane/lumezzane_2026-10-15_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Lumezzane|2026-10-15||DETERMINAZIONE Determina n. 617 servizio: 52 - Servizio ambiente, manutenzioni, ",
+      "comune": "Lumezzane",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 617 servizio: 52 - Servizio ambiente, manutenzioni, lavori pubblici, RIM del 15/10/2026 ACCORDO QUADRO 2024-2027 PER IL SERVIZIO DI MANUTENZIONE DEGLI IMPIANTI ANTINCENDIO - CIG PADRE B094FB9DD6. AFFIDAMENTO 6° ORDINE DI SERVIZIO ANNO 2026 – CIG DERIVATO BD1B58B7CE.",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+      "allegati": [
+        "lumezzane/lumezzane_2026-10-15_09.pdf.p7m",
+        "lumezzane/lumezzane_2026-10-15_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Lumezzane|2026-10-15||DETERMINAZIONE Determina n. 616 servizio: 25 - Servizio risorse umane del 15/10/",
+      "comune": "Lumezzane",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 616 servizio: 25 - Servizio risorse umane del 15/10/2026 CODICE CIG: BD4E0352FC - PROCEDURA SOTTO SOGLIA DI VALORE INFERIORE A 5.000 €, PER L’AFFIDAMENTO DEL SERVIZIO DI FORMAZIONE SPECIALISTICA FINALIZZATA AD OTTENERE E MANTENERE I REQUISITI RICHIESTI PER LE STAZIONI APPALTANTI QUALIFICATE PER LA FASE DI AFFIDAMENTO E PROGETTAZIONE, ORGANIZZATO DA FONDAZIONE UNIBS, NEL RISPETTO DI QUANTO PREVISTO DALL’ART. 50, CO. 1, LETT. B) DEL D.LGS. 36/2023.",
       "parole": [
         "affidamento",
-        "stradale"
+        "progettazione"
       ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10587260",
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
       "allegati": [
-        "montichiari/montichiari_2026-10-22_19.pdf",
-        "montichiari/montichiari_2026-10-22_20.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_21.pdf",
-        "montichiari/montichiari_2026-10-22_22.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_23.pdf",
-        "montichiari/montichiari_2026-10-22_24.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-22|2026/1587|AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E COLLABORAZIONE PER LA REDAZIONE E INVIO",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1587",
-      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E COLLABORAZIONE PER LA REDAZIONE E INVIO DEL MOD 770/2026, MOD 770/2027 E MOD 770/2028 RELATIVO - RISPETTIVAMENTE - ALL’ANNO 2025, ALL’ANNO 2026 E ALL’ANNO 2027 PARTE AUTONOMI. CIG BD729856DC",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10587033",
-      "allegati": [
-        "montichiari/montichiari_2026-10-22_25.pdf",
-        "montichiari/montichiari_2026-10-22_26.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_27.pdf",
-        "montichiari/montichiari_2026-10-22_28.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_29.pdf",
-        "montichiari/montichiari_2026-10-22_30.pdf.p7m",
-        "montichiari/montichiari_2026-10-22_31.pdf",
-        "montichiari/montichiari_2026-10-22_32.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Montichiari|2026-10-23|2026/1605|PROCEDURA APERTA PER L'AFFIDAMENTO IN CONCESSIONE DEL SERVIZIO DI RISCOSSIONE CO",
-      "comune": "Montichiari",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-23",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
-      "numero": "2026/1605",
-      "oggetto": "PROCEDURA APERTA PER L'AFFIDAMENTO IN CONCESSIONE DEL SERVIZIO DI RISCOSSIONE COATTIVA DELLE ENTRATE DELL'ENTE - DETERMINAZIONE A CONTRARRE ED APPROVAZIONE ATTI DI GARA - CIG BD7B081B5E.",
-      "parole": [
-        "affidamento",
-        "gara"
-      ],
-      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10590699",
-      "allegati": [
-        "montichiari/montichiari_2026-10-23_01.pdf",
-        "montichiari/montichiari_2026-10-23_02.pdf.p7m",
-        "montichiari/montichiari_2026-10-23_03.pdf",
-        "montichiari/montichiari_2026-10-23_04.pdf.p7m",
-        "montichiari/montichiari_2026-10-23_05.pdf",
-        "montichiari/montichiari_2026-10-23_06.pdf.p7m",
-        "montichiari/montichiari_2026-10-23_07.pdf",
-        "montichiari/montichiari_2026-10-23_08.pdf.p7m",
-        "montichiari/montichiari_2026-10-23_09.pdf",
-        "montichiari/montichiari_2026-10-23_10.pdf.p7m",
-        "montichiari/montichiari_2026-10-23_11.pdf",
-        "montichiari/montichiari_2026-10-23_12.pdf",
-        "montichiari/montichiari_2026-10-23_13.pdf",
-        "montichiari/montichiari_2026-10-23_14.pdf",
-        "montichiari/montichiari_2026-10-23_15.pdf",
-        "montichiari/montichiari_2026-10-23_16.pdf",
-        "montichiari/montichiari_2026-10-23_17.xml",
-        "montichiari/montichiari_2026-10-23_18.pdf",
-        "montichiari/montichiari_2026-10-23_19.pdf",
-        "montichiari/montichiari_2026-10-23_20.pdf.p7m"
+        "lumezzane/lumezzane_2026-10-15_11.pdf.p7m",
+        "lumezzane/lumezzane_2026-10-15_12.pdf"
       ]
     }
   ],
   "riepilogo": [
     {
-      "comune": "Montichiari",
+      "comune": "Lumezzane",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio1",
+      "albo": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
       "dal": "2026-09-06",
-      "pagine": 6,
-      "letti": 102,
-      "trovati": 16,
-      "esito": "OK – 16 trovati"
+      "pagine": 1,
+      "letti": 52,
+      "trovati": 7,
+      "esito": "OK – 7 trovati"
     }
   ]
 }
