@@ -1,262 +1,448 @@
 {
-  "quando": "2026-10-23_2357",
-  "esito": "11 determine trovate in 1 comuni, 61 allegati.",
-  "excel": "risultati/determine_2026-10-23_2357.xlsx",
-  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2357/allegati_2026-10-23_2357.zip",
+  "quando": "2026-10-24_0006",
+  "esito": "19 determine trovate in 1 comuni, 104 allegati.",
+  "excel": "risultati/determine_2026-10-24_0006.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0006/allegati_2026-10-24_0006.zip",
   "cartella": "",
   "risultati": [
     {
-      "id": "BS|Concesio|2026-10-08|2026/1373|Lavori di ampliamento e ristrutturazione con demolizione della sede municipale n",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-12|2026/964|MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRE",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-08",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1373",
-      "oggetto": "Lavori di ampliamento e ristrutturazione con demolizione della sede municipale nel Comune di Concesio (BS) - codice nuts: ITC47 - CUP D45E20005980006 - CIG MASTER: 9552151C5C - Presa d’atto dell’emissione dei SAL 1-BIS, 2-BIS, 3-BIS E 4-BIS per l'incremento dei costi dei materiali (ai sensi dell'art. 26 del D.L. n. 50 del 17.05.2022 e ss.mm.ii.) e dell'istanza di accesso al fondo per la prosecuzione delle opere pubbliche istituito presso il MIT (c.d. fondo adeguamento prezzi).",
+      "data": "2026-10-12",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/964",
+      "oggetto": "MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) D.Lgs 36/2023, DELL’APPALTO PER IL SERVIZIO DI INDAGINE DIAGNOSTICA STRUTTURALE RELATIVO ALLA COPERTURA CON IMPIANTO FOTOVOLTAICO PER IL CENTRO DI RACCOLTA RIFIUTI FINANZIATO CON FONDI NEXT GENERATION EU PNRR - MISURA M2 C1 I1.1 LINEA DI INTERVENTO A \"MIGLIORAMENTO E MECCANIZZAZIONE DELLA RETE DI RACCOLTA DIFFERENZIATA DEI RIFIUTI URBANI”. LABORATORIO TECNOLOGICO LOMBARDO SRL (C.F. 03966370987) - CIG: BD3406F790 - CUP C61E22000270001.",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "aggiudicazione",
+        "intervento"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567565?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-12_01.pdf",
+        "nave/nave_2026-10-12_02.pdf.p7m",
+        "nave/nave_2026-10-12_03.pdf",
+        "nave/nave_2026-10-12_04.pdf.p7m",
+        "nave/nave_2026-10-12_05.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-13|2026/986|MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRE",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/986",
+      "oggetto": "MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLgs 36/2023, DELL’ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO, PER LA REALIZZAZIONE DEL SERVIZIO ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO, PER LA REALIZZAZIONE DEL SERVIZIO DI MANUTENZIONE IMMOBILI COMUNALI – OPERE STRADALI ED OPERE LEGATE AL PATRIMONIO. SISTEM WORK SNC DI ALBINI & NAVARRA (C.F. 02870400989) – CIG PADRE: BD392E8690. AFFIDAMENTO 1° CONTRATTO APPLICATIVO CIG DERIVATO: BD43BEF2ED",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567862?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-13_01.pdf",
+        "nave/nave_2026-10-13_02.pdf.p7m",
+        "nave/nave_2026-10-13_03.pdf",
+        "nave/nave_2026-10-13_04.pdf.p7m",
+        "nave/nave_2026-10-13_05.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-13|2026/985|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/985",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLGS 36/2023, DELL’APPALTO PER LA FORNITURA NOTIFICHE DIGITALI SEND UFFICIO TRIBUTI A FAVORE DELLA DITTA GRUPPO MAGGIOLI SPA (C.F. /P.IVA 02066400405) TRAMITE ODA MEPA - CIG: BD539D8B70",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567814?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-13_06.pdf",
+        "nave/nave_2026-10-13_07.pdf.p7m",
+        "nave/nave_2026-10-13_08.pdf",
+        "nave/nave_2026-10-13_09.pdf.p7m",
+        "nave/nave_2026-10-13_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-13|2026/983|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO AI SENSI ",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/983",
+      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO AI SENSI DELL'ART.50, COMMA 2, LETT.A), DEL D.LGS. N.36/2023, PER INTEGRAZIONE DEL SERVIZIO DI GESTIONE STIPENDI E ADEMPIMENTI CONNESSI -PRATICHE INAIL - DITTA ALMA SPA (C.F.00572290047) - CIG: BD43A7D198",
+      "parole": [
+        "affidamento",
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567810?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-13_11.pdf",
+        "nave/nave_2026-10-13_12.pdf.p7m",
+        "nave/nave_2026-10-13_13.pdf",
+        "nave/nave_2026-10-13_14.pdf.p7m",
+        "nave/nave_2026-10-13_15.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-13|2026/980|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE ,MEDIANTE ADESIONE ALLA CONVENZIONE GA",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/980",
+      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE ,MEDIANTE ADESIONE ALLA CONVENZIONE GAS NATURALE 17 - LOTTO 3 - TRA CONSIP E MAGIS ENERGIA SPA (C.F. e P.IVA 02968430237), PER LA FORNITURA DI GAS NATURALE A PREZZO VARIABILE SUL TERRITORIO DI NAVE (CIG MASTER B6207489A2 - CIG DERIVATO BC5418A4DA)",
+      "parole": [
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567804?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-13_16.pdf.p7m",
+        "nave/nave_2026-10-13_17.pdf",
+        "nave/nave_2026-10-13_18.pdf.p7m",
+        "nave/nave_2026-10-13_19.pdf",
+        "nave/nave_2026-10-13_20.xlsx",
+        "nave/nave_2026-10-13_21.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-13|2026/979|MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRE",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/979",
+      "oggetto": "MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLgs 36/2023, DELL’ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO, PER LA REALIZZAZIONE DEL SERVIZIO DI MANUTENZIONE STRADE COMUNALI – SEGNALETICA ORIZZONTALE E VERTICALE. ASECAR SRL (C.F. 02155560176) – CIG PADRE: BD2FA75876.AFFIDAMENTO 1° CONTRATTO APPLICATIVO CIG DERIVATO: BD45DAA8BF",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567802?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-13_22.pdf",
+        "nave/nave_2026-10-13_23.pdf.p7m",
+        "nave/nave_2026-10-13_24.pdf",
+        "nave/nave_2026-10-13_25.pdf.p7m",
+        "nave/nave_2026-10-13_26.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-13|2026/976|LAVORI PUBBLICI - QUINTO CONTRATTO APPLICATIVO DI ACCORDO QUADRO CON UNICO OPERA",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/976",
+      "oggetto": "LAVORI PUBBLICI - QUINTO CONTRATTO APPLICATIVO DI ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO PER IL SERVIZIO TECNICO DI SUPPORTO AL RUP NELLA'MBITO DELLA REALIZZAZIONE DI OPERE PUBBLICHE CIG PADRE: B7FD042E09 CIG DERIVATO: BD454D0AC8.",
       "parole": [
         "lavori"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10559003",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567796?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-08_01.pdf",
-        "concesio/concesio_2026-10-08_02.pdf",
-        "concesio/concesio_2026-10-08_03.pdf.p7m",
-        "concesio/concesio_2026-10-08_04.pdf",
-        "concesio/concesio_2026-10-08_05.pdf.p7m",
-        "concesio/concesio_2026-10-08_06.pdf",
-        "concesio/concesio_2026-10-08_07.pdf.p7m",
-        "concesio/concesio_2026-10-08_08.pdf",
-        "concesio/concesio_2026-10-08_09.p7m",
-        "concesio/concesio_2026-10-08_10.pdf",
-        "concesio/concesio_2026-10-08_11.p7m",
-        "concesio/concesio_2026-10-08_12.p7m",
-        "concesio/concesio_2026-10-08_13.p7m",
-        "concesio/concesio_2026-10-08_14.pdf",
-        "concesio/concesio_2026-10-08_15.pdf.p7m",
-        "concesio/concesio_2026-10-08_16.pdf",
-        "concesio/concesio_2026-10-08_17.pdf.p7m",
-        "concesio/concesio_2026-10-08_18.pdf",
-        "concesio/concesio_2026-10-08_19.pdf.p7m",
-        "concesio/concesio_2026-10-08_20.pdf",
-        "concesio/concesio_2026-10-08_21.pdf.p7m",
-        "concesio/concesio_2026-10-08_22.pdf",
-        "concesio/concesio_2026-10-08_23.pdf",
-        "concesio/concesio_2026-10-08_24.p7m",
-        "concesio/concesio_2026-10-08_25.pdf",
-        "concesio/concesio_2026-10-08_26.p7m",
-        "concesio/concesio_2026-10-08_27.pdf",
-        "concesio/concesio_2026-10-08_28.p7m",
-        "concesio/concesio_2026-10-08_29.pdf",
-        "concesio/concesio_2026-10-08_30.pdf.p7m",
-        "concesio/concesio_2026-10-08_31.pdf"
+        "nave/nave_2026-10-13_27.pdf",
+        "nave/nave_2026-10-13_28.pdf.p7m",
+        "nave/nave_2026-10-13_29.pdf",
+        "nave/nave_2026-10-13_30.pdf.p7m",
+        "nave/nave_2026-10-13_31.pdf"
       ]
     },
     {
-      "id": "BS|Concesio|2026-10-13|2026/1404|PROCEDURA APERTA EX ART. 71 DEL D.LGS 36/2023 E S.M.I. PER L'AFFIDAMENTO DEI LAV",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-13|2026/975|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZIONE ENE",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
       "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1404",
-      "oggetto": "PROCEDURA APERTA EX ART. 71 DEL D.LGS 36/2023 E S.M.I. PER L'AFFIDAMENTO DEI LAVORI DI “REALIZZAZIONE DELLA STRADA DI ACCESSO AL DEPURATORE DELLA VALLE TROMPIA IN VIA FALCONE – CUP D41B25000120009” – CIG BCEFC07C20. PROROGA TERMINI PER LA PRESENTAZIONE DELLE OFFERTE (ART. 92 DEL D.LGS. N. 36/2023)",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/975",
+      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZIONE ENERGIA ELETTRICA N.ID 2880 - LOTTO 3 - TRA CONSIP E MAGIS ENERGIA SPA (P.I. 02968430237), PER LA FORNITURA DI ENERGIA ELETTRICA A PREZZO VARIABILE SUL TERRITORIO DI NAVE, UTENZE: PARCO ZANARDELLI E VIA BARCELLA A DISPOSIZIONE - PER LA DURATA DI 24 MESI (CIG MASTER: B762D8D6BD - CIG DERIVATO:BCD09BD8A3)",
       "parole": [
-        "lavori",
-        "affidamento"
+        "aggiudicazione"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10568178",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567794?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-13_01.pdf",
-        "concesio/concesio_2026-10-13_02.pdf"
+        "nave/nave_2026-10-13_32.pdf",
+        "nave/nave_2026-10-13_33.pdf.p7m",
+        "nave/nave_2026-10-13_34.pdf",
+        "nave/nave_2026-10-13_35.pdf.p7m",
+        "nave/nave_2026-10-13_36.pdf",
+        "nave/nave_2026-10-13_37.xlsx",
+        "nave/nave_2026-10-13_38.pdf.p7m",
+        "nave/nave_2026-10-13_39.pdf"
       ]
     },
     {
-      "id": "BS|Concesio|2026-10-13|2026/1401|AFFIDAMENTO DIRETTO AI SENSI DELL'ART 50, COMMA 1, LETT B) DEL D.LGS. 36/2023 PE",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-13|2026/974|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZION ENER",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
       "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1401",
-      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART 50, COMMA 1, LETT B) DEL D.LGS. 36/2023 PER IL SERVIZIO DI REVISIONE GRU DEL MEZZO NISSAN CB007FX- CIG BD4FDE310E",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/974",
+      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZION ENERGIA ELETTRICA N.ID 2880 - LOTTO 3 - TRA CONSIP E MAGIS ENERGIA SPA (P.I. 02968430237), PER LA FORNITURA DI ENERGIA ELETTRICA A PREZZO VARIABILE SUL TERRITORIO DI NAVE, UTENZE: VIDEOSORVEGLIANZA IN VIA MURATELLO N.28 E PIAZZA GIOVANNI PAOLO II - PER LA DURATA DI 24 MESI (CIG MASTER: B762D8D6BD - CIG DERIVATO: BCD04B6294",
       "parole": [
-        "affidamento"
+        "aggiudicazione"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10568175",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567792?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-13_03.pdf",
-        "concesio/concesio_2026-10-13_04.pdf"
+        "nave/nave_2026-10-13_40.pdf",
+        "nave/nave_2026-10-13_41.pdf.p7m",
+        "nave/nave_2026-10-13_42.pdf",
+        "nave/nave_2026-10-13_43.pdf.p7m",
+        "nave/nave_2026-10-13_44.pdf"
       ]
     },
     {
-      "id": "BS|Concesio|2026-10-14|2026/1417|PRESA D'ATTO E CONFERMA DELLA LIQUIDAZIONE DELL’INCARICO RETRIBUITO PER ATTIVITA",
-      "comune": "Concesio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-14",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1417",
-      "oggetto": "PRESA D'ATTO E CONFERMA DELLA LIQUIDAZIONE DELL’INCARICO RETRIBUITO PER ATTIVITA' OCCASIONALE, AI SENSI DELL'ART. 53 D.LGS. 165/2001, ALL’ING. DONATO FONTANA PER LE ATTIVITA’ DI VERIFICA DELLA PROGETTAZIONE ESECUTIVA, EX ART. 42 DEL D.LGS. N. 36/2023, PER LA REALIZZAZIONE DELL’OPERA PUBBLICA “STRADA DI ACCESSO AL DEPURATORE DELLA VALLE TROMPIA IN VIA FALCONE – CUP D41B25000120009” – CIG BA74FF4D62.",
-      "parole": [
-        "progettazione",
-        "incarico"
-      ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10569609",
-      "allegati": [
-        "concesio/concesio_2026-10-14_01.pdf",
-        "concesio/concesio_2026-10-14_02.pdf"
-      ]
-    },
-    {
-      "id": "BS|Concesio|2026-10-15|2026/1430|Nomina commissione giudicatrice ai sensi dell’art. 93 D.Lgs n. 36/2023 per la pr",
-      "comune": "Concesio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1430",
-      "oggetto": "Nomina commissione giudicatrice ai sensi dell’art. 93 D.Lgs n. 36/2023 per la procedura aperta ex art. 71 del D.Lgs. n. 36/2023 e s.m.i. per l'affidamento dei lavori di “Realizzazione della strada di accesso al depuratore della Valle Trompia in via Falcone – CUP D41B25000120009” - CIG: BCEFC07C20” mediante criterio dell’offerta economicamente più vantaggiosa, ai sensi dell’art. 108, commi 1 e 4.",
-      "parole": [
-        "lavori",
-        "affidamento"
-      ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10574391",
-      "allegati": [
-        "concesio/concesio_2026-10-15_01.pdf",
-        "concesio/concesio_2026-10-15_02.pdf",
-        "concesio/concesio_2026-10-15_03.pdf.p7m",
-        "concesio/concesio_2026-10-15_04.pdf",
-        "concesio/concesio_2026-10-15_05.pdf",
-        "concesio/concesio_2026-10-15_06.pdf",
-        "concesio/concesio_2026-10-15_07.pdf",
-        "concesio/concesio_2026-10-15_08.pdf.p7m",
-        "concesio/concesio_2026-10-15_09.pdf",
-        "concesio/concesio_2026-10-15_10.pdf"
-      ]
-    },
-    {
-      "id": "BS|Concesio|2026-10-15|2026/1427|ASSUNZIONE A TEMPO PIENO ED INDETERMINATO DELLA SIG.RA TREZZA CLAUDIA IN QUALITA",
-      "comune": "Concesio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1427",
-      "oggetto": "ASSUNZIONE A TEMPO PIENO ED INDETERMINATO DELLA SIG.RA TREZZA CLAUDIA IN QUALITA’ DI FUNZIONARIO TECNICO (AREA DEI FUNZIONARI ED EQ) PRESSO IL SETTORE EDILIZIA ED ECOLOGIA DEL COMUNE DI CONCESIO.",
-      "parole": [
-        "edilizia"
-      ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10574386",
-      "allegati": [
-        "concesio/concesio_2026-10-15_11.pdf",
-        "concesio/concesio_2026-10-15_12.pdf"
-      ]
-    },
-    {
-      "id": "BS|Concesio|2026-10-19|2026/1439|DETERMINA A CONTRARRE PER L'AFFIDAMENTO DEL SERVIZIO DI CONNETTIVITA DELLE SEDI ",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-19|2026/993|DETERMINAZIONE PER SECONDO CONTRATTO APPLICATIVO AFFIDAMENTO DIRETTO AI SENSI DE",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
       "data": "2026-10-19",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1439",
-      "oggetto": "DETERMINA A CONTRARRE PER L'AFFIDAMENTO DEL SERVIZIO DI CONNETTIVITA DELLE SEDI SCOLASTICHE (01/10/2026-31/07/2028) CIG BD2BFC16F7",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/993",
+      "oggetto": "DETERMINAZIONE PER SECONDO CONTRATTO APPLICATIVO AFFIDAMENTO DIRETTO AI SENSI DEL ART. 50 COMMA 1 LETTERA B) DLGS 36/2023, DELL’ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO,, PER LA FORNITURA DEL VESTIARIO IN DOTAZIONE ALLA POLIZIA LOCALE DI NAVE - PERIODO 2026- 2030- DITTA UNIFORMERIA SRL (CF.:03554190177) - CIG MASTER: BACAA168BF - CIG DERIVATO BD50DD6A71",
       "parole": [
         "affidamento"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10578123",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10577950?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-19_01.pdf",
-        "concesio/concesio_2026-10-19_02.pdf"
+        "nave/nave_2026-10-19_01.pdf",
+        "nave/nave_2026-10-19_02.pdf.p7m",
+        "nave/nave_2026-10-19_03.pdf",
+        "nave/nave_2026-10-19_04.pdf.p7m",
+        "nave/nave_2026-10-19_05.pdf"
       ]
     },
     {
-      "id": "BS|Concesio|2026-10-19|2026/1437|DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER LA FORNITURA DI UN SISTEMA ",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-19|2026/992|AFFIDAMENTO DIRETTO PER L'ACQUISTO DEL CANONE DI ABBONAMENTO \" RECONEYEZ \" INERE",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
       "data": "2026-10-19",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1437",
-      "oggetto": "DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER LA FORNITURA DI UN SISTEMA DI VIDEOCONFERENZA PER LA SALA RIUNIONI. CIG BD18DBF069",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/992",
+      "oggetto": "AFFIDAMENTO DIRETTO PER L'ACQUISTO DEL CANONE DI ABBONAMENTO \" RECONEYEZ \" INERENTE ALLE FOTOTRAPPOLE A FAVORE DELLA DITTA R.V.M. IMPIANTI S.R.L. P.IVA 00665380986 C.F. 01928000171 - CIG BD4B4DABCA",
       "parole": [
         "affidamento"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10578121",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10577948?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-19_03.pdf",
-        "concesio/concesio_2026-10-19_04.pdf",
-        "concesio/concesio_2026-10-19_05.pdf"
+        "nave/nave_2026-10-19_06.pdf",
+        "nave/nave_2026-10-19_07.pdf.p7m",
+        "nave/nave_2026-10-19_08.pdf",
+        "nave/nave_2026-10-19_09.pdf.p7m",
+        "nave/nave_2026-10-19_10.pdf"
       ]
     },
     {
-      "id": "BS|Concesio|2026-10-19|2026/1436|DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER SERVIZIO DI FORMAZIONE SUGL",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-21|2026/1006|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-19",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1436",
-      "oggetto": "DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER SERVIZIO DI FORMAZIONE SUGLI APPLICATIVI DEL SISTEMA GESTIONALE DELL'ENTE - CIG BD42995E00",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/1006",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLgs 36/2023, DEL SERVIZIO DI FORNITURA E POSA DI ARREDO URBANO E INTERVENTI DI MANUTENZIONE PRESSO PARCO CAPRIM - SARBA SPA C.F. E P.IVA 00227660362 CIG:BD63E0F7E1",
       "parole": [
-        "affidamento"
+        "affidamento",
+        "manutenzione",
+        "aggiudicazione"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10578120",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585465?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-19_06.pdf",
-        "concesio/concesio_2026-10-19_07.pdf",
-        "concesio/concesio_2026-10-19_08.pdf"
+        "nave/nave_2026-10-21_01.pdf",
+        "nave/nave_2026-10-21_02.pdf.p7m",
+        "nave/nave_2026-10-21_03.pdf",
+        "nave/nave_2026-10-21_04.pdf.p7m",
+        "nave/nave_2026-10-21_05.pdf"
       ]
     },
     {
-      "id": "BS|Concesio|2026-10-20|2026/1447|ACCERTAMENTO DELLE ENTRATE PER RICHIESTE DI ACCESSO AGLI ATTI - INFORTUNISTICA S",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-21|2026/1005|AFFIDAMENTO INCARICO PER LA REDAZIONE DEL COLLAUDO TECNICO/AMMNITRATIVO DELLE OP",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-20",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1447",
-      "oggetto": "ACCERTAMENTO DELLE ENTRATE PER RICHIESTE DI ACCESSO AGLI ATTI - INFORTUNISTICA STRADALE - MAGGIO/SETTEMBRE 2026",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/1005",
+      "oggetto": "AFFIDAMENTO INCARICO PER LA REDAZIONE DEL COLLAUDO TECNICO/AMMNITRATIVO DELLE OPERE DI URBANIZZAZIONE PREVISTE NELL' ATTO UNILATERALE APPROVATO CON DELIBERAZIONE DI GIUNTA COMUNALE N. 129 DEL 12/11/2018 E SOTTOSCRITTO IN BRESCIA PRESSO IL NOTAIO FRANCESCA CAPALDO IN DATA 05/02/2019 COME MODIFICATO CON DELIBERAZIONE DI GIUNTA COMUNALE N. 61 DEL 30/06/2026 - ING. PIETRO BRIANZA, PROGETTO B20 SRL .",
       "parole": [
-        "stradale"
+        "affidamento",
+        "incarico",
+        "progetto"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10582992",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585463?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-20_01.pdf",
-        "concesio/concesio_2026-10-20_02.pdf"
+        "nave/nave_2026-10-21_06.pdf",
+        "nave/nave_2026-10-21_07.pdf.p7m",
+        "nave/nave_2026-10-21_08.pdf",
+        "nave/nave_2026-10-21_09.pdf.p7m",
+        "nave/nave_2026-10-21_10.pdf"
       ]
     },
     {
-      "id": "BS|Concesio|2026-10-22|2026/1454|DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO, AI SENSI DELL' ART. 50 DEL D.LGS. 3",
-      "comune": "Concesio",
+      "id": "BS|Nave|2026-10-21|2026/1004|MANUTENZIONI: 3° CONTRATTO APPLICATIVO ACCORDO QUADRO PER LA REALIZZAZIONE DEL S",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/1454",
-      "oggetto": "DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO, AI SENSI DELL' ART. 50 DEL D.LGS. 36/2023, DELLA FORNITURA DI UNA MEDAGLIA - CIG: BD6EFF4581",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/1004",
+      "oggetto": "MANUTENZIONI: 3° CONTRATTO APPLICATIVO ACCORDO QUADRO PER LA REALIZZAZIONE DEL SERVIZIO DI MANUTENZIONE ORDINARIA TAPPETI ERBOSI CAMPI DI CALCIO. A FAVORE DELL'OPERATORE ECONOMICO “FERRARI VIVAI SRL” (CF. 02181020989). CIG DERIVATO:BD4D5C66CD",
       "parole": [
-        "affidamento"
+        "manutenzione"
       ],
-      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10588464",
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585461?p_p_state=pop_up",
       "allegati": [
-        "concesio/concesio_2026-10-22_01.pdf",
-        "concesio/concesio_2026-10-22_02.pdf"
+        "nave/nave_2026-10-21_11.pdf",
+        "nave/nave_2026-10-21_12.pdf.p7m",
+        "nave/nave_2026-10-21_13.pdf",
+        "nave/nave_2026-10-21_14.pdf.p7m",
+        "nave/nave_2026-10-21_15.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-21|2026/1003|MANUTENZIONI. 1° CONTRATTO APPLICATIVO DELL'ACCORDO QUADRO CON UNICO OPERATORE E",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/1003",
+      "oggetto": "MANUTENZIONI. 1° CONTRATTO APPLICATIVO DELL'ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO PER IL SERVIZIO DI MANUTENZIONE IMMOBILI COMUNALI – OPERE DA IDRAULICO.” DITTA F.G. SAS DI FILIPPINI FABIO & C. (CF.03223740170) ) C.I.G. DERIVATO:BD16EDC358",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585459?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-21_16.pdf",
+        "nave/nave_2026-10-21_17.pdf.p7m",
+        "nave/nave_2026-10-21_18.pdf",
+        "nave/nave_2026-10-21_19.pdf.p7m",
+        "nave/nave_2026-10-21_20.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-21|2026/999|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/999",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL'ART. 50 C.1 LETT B) D.LGS 36/2023 DELL'APPALTO PER LA FORNITURA DI TORCHIO E MATERIALE PER BOTTONI BP E MAGNETI PER LA BIBLIOTECA COMUNALE. OPERATORE ECONOMICO \"CPL S.R.L\" C.F. E P.IVA 00470030099 - CIG BD60B13508",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584180?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-21_21.pdf",
+        "nave/nave_2026-10-21_22.pdf.p7m",
+        "nave/nave_2026-10-21_23.pdf",
+        "nave/nave_2026-10-21_24.pdf.p7m",
+        "nave/nave_2026-10-21_25.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-21|2026/998|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE AFFIDAMENTO DIRETTO AI SENSI DE",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/998",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 C.1 LETT B) D.LGS 36/2023 PER LA FORNITURA DI N.1 TARGA PER LE COMMEMORAZIONI CIVILI, A FAVORE DELL'OPERATORE ECONOMICO ZANOLLI SRL (C.F. 00090100173) - CIG BD665F7664",
+      "parole": [
+        "affidamento",
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584178?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-21_26.pdf",
+        "nave/nave_2026-10-21_27.pdf.p7m",
+        "nave/nave_2026-10-21_28.pdf",
+        "nave/nave_2026-10-21_29.pdf.p7m",
+        "nave/nave_2026-10-21_30.pdf",
+        "nave/nave_2026-10-21_31.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-21|2026/997|LAVORI PUBBLICI - APPROVAZIONE MODIFICA CONTRATTUALE ART.120 COMMA 1 LETT.A) DEL",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/997",
+      "oggetto": "LAVORI PUBBLICI - APPROVAZIONE MODIFICA CONTRATTUALE ART.120 COMMA 1 LETT.A) DEL D.LGS.36/2023 OPERE OPZIONALI DEI LAVORI DI SISTEMAZIONE AREE ESTERNE E OPERE COMPLEMENTARI DEL NUOVO POLO ZEROSEI IN VIA MOIA. CUP C64D26000140004. DITTA L.M.G.BUILDING SRL C.F. 06527450156. CIG.BC247939C4.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584176?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-21_32.pdf",
+        "nave/nave_2026-10-21_33.pdf.p7m",
+        "nave/nave_2026-10-21_34.pdf",
+        "nave/nave_2026-10-21_35.pdf.p7m",
+        "nave/nave_2026-10-21_36.pdf",
+        "nave/nave_2026-10-21_37.pdf.p7m",
+        "nave/nave_2026-10-21_38.pdf",
+        "nave/nave_2026-10-21_39.p7m",
+        "nave/nave_2026-10-21_40.pdf"
+      ]
+    },
+    {
+      "id": "BS|Nave|2026-10-21|2026/996|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/996",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL'ART. 50 C.1 LETT B) D.LGS 36/2023 PER LA FORNITURA DI TIMBRI ISTITUZIONALI IN USO ALL’AMMINISTRAZIONE COMUNALE. DITTA FRANCHI S.R.L. (C.F. 01962030985). C.I.G. BD57EFC9F1",
+      "parole": [
+        "affidamento",
+        "aggiudicazione"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584174?p_p_state=pop_up",
+      "allegati": [
+        "nave/nave_2026-10-21_41.pdf",
+        "nave/nave_2026-10-21_42.pdf.p7m",
+        "nave/nave_2026-10-21_43.pdf",
+        "nave/nave_2026-10-21_44.pdf.p7m",
+        "nave/nave_2026-10-21_45.pdf"
       ]
     }
   ],
   "riepilogo": [
     {
-      "comune": "Concesio",
+      "comune": "Nave",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "albo": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 6,
-      "letti": 103,
-      "trovati": 11,
-      "esito": "OK – 11 trovati"
+      "pagine": 3,
+      "letti": 60,
+      "trovati": 19,
+      "esito": "OK – 19 trovati"
     }
   ]
 }
