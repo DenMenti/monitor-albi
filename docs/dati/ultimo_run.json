@@ -1,88 +1,24 @@
 {
-  "quando": "2026-10-23_1154",
-  "esito": "4 determine trovate in 1 comuni, 1 allegati.",
-  "excel": "risultati/determine_2026-10-23_1154.xlsx",
-  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_1154/allegati_2026-10-23_1154.zip",
-  "risultati": [
-    {
-      "id": "BL|San Pietro di Cadore|2026-10-09|435|AVVISO PUBBLICO PER L'ACQUISIZIONE DI MANIFESTAZIONI DI INTERESSE FINALIZZATE AL",
-      "comune": "San Pietro di Cadore",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "data": "2026-10-09",
-      "tipo": "Varie",
-      "numero": "435",
-      "oggetto": "AVVISO PUBBLICO PER L'ACQUISIZIONE DI MANIFESTAZIONI DI INTERESSE FINALIZZATE ALLA FORMAZIONE DELLA GRADUATORIA DEGLI EDIFICI SCOLASTICI DA SOTTOPORRE A VERIFICA DI VULNERABILITÀ SISMICA (PROGRAMMA NAZIONALE DI PREVENZIONE SISMICA)",
-      "parole": [
-        "interesse"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": []
-    },
-    {
-      "id": "BL|San Pietro di Cadore|2026-10-19|445|Delibera: Giunta Comunale N.53 DEL 19/10/2026: APPROVAZIONE PROGETTO ESECUTIVO R",
-      "comune": "San Pietro di Cadore",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "data": "2026-10-19",
-      "tipo": "Delibere di Giunta",
-      "numero": "445",
-      "oggetto": "Delibera: Giunta Comunale N.53 DEL 19/10/2026: APPROVAZIONE PROGETTO ESECUTIVO RELATIVO ALL’INTERVENTO N. 51 RIGUARDANTE IL RIPRISTINO CONDIZIONI DI PERCORRIBILITA' IN SICUREZZA DELLA STRADA DA POSTAUTA A LOC LA SIEGA- CUP G87H23002880001",
-      "parole": [
-        "progetto",
-        "esecutivo",
-        "intervento"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": []
-    },
-    {
-      "id": "BL|San Pietro di Cadore|2026-10-20|446|DETERMINA N. Sett.161 DEL 20/10/2026 - AREA TECNICA - N. Gen.: 249/2026: AFFIDAM",
-      "comune": "San Pietro di Cadore",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "data": "2026-10-20",
-      "tipo": "Determinazioni",
-      "numero": "446",
-      "oggetto": "DETERMINA N. Sett.161 DEL 20/10/2026 - AREA TECNICA - N. Gen.: 249/2026: AFFIDAMENTO LAVORI DI MANUTENZIONE STRAORDINARIA PROPEDEUTICI ALL’INTERVENTO PRINCIPALE DI RIPRISTINO CONDIZIONI DI PERCORRIBILITA' IN SICUREZZA DELLA STRADA DA POSTAUTA A LOC LA SIEGA. CUP G87H23002880001 CIG: BD6D74895F",
-      "parole": [
-        "lavori",
-        "affidamento",
-        "manutenzione",
-        "intervento"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": []
-    },
-    {
-      "id": "BL|San Pietro di Cadore|2026-10-21|448|ORDINANZA DIRIGENZIALE N.20 DEL 21/10/2026 - UFFICIO TECNICO: CHIUSURA TEMPORANE",
-      "comune": "San Pietro di Cadore",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "data": "2026-10-21",
-      "tipo": "Ordinanze Dirigenziali",
-      "numero": "448",
-      "oggetto": "ORDINANZA DIRIGENZIALE N.20 DEL 21/10/2026 - UFFICIO TECNICO: CHIUSURA TEMPORANEA DELLA STRADA COMUNALE DI COLLEGAMENTO CON FORCELLA ZOVO A COSTALTA DALLA LOC. LA SEGA VERSO LOC. PRAMAIÒ DAL GIORNO 22 OTTOBRE 2026 FINO A FINE LAVORI PER LAVORI DI ASFALTATURA DA PARTE DELLA DITTA FRATELLI DE PRA SPA.",
-      "parole": [
-        "lavori"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": [
-        "san-pietro-di-cadore/san-pietro-di-cadore_2026-10-21_01.pdf"
-      ]
-    }
-  ],
+  "quando": "2026-10-23_1443",
+  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-10-23_1443.xlsx",
+  "zip": "",
+  "risultati": [],
   "riepilogo": [
     {
-      "comune": "San Pietro di Cadore",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
-      "dal": "2026-09-08",
-      "pagine": 1,
-      "letti": 15,
-      "trovati": 4,
-      "esito": "OK – 4 trovati, 3 senza allegati"
+      "comune": "Bagnolo Mella",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.comune.bagnolomella.bs.it/EG0/EGHOMEPAGE.HBL",
+      "dal": "2026-09-06",
+      "pagine": 0,
+      "letti": 0,
+      "trovati": 0,
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://www.comune.bagnolomella.bs.it/EG0/EGHOMEPAGE.HBL",
+      "screenshot": "BS-bagnolo-mella.jpg"
     }
   ]
 }
