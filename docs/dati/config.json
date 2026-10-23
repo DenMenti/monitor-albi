@@ -24,6 +24,6 @@
     "impegno di spesa",
     "subappalto"
   ],
-  "solo_determine": true,
+  "solo_determine": false,
   "scarica": true
 }
