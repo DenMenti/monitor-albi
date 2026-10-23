@@ -1,24 +1,24 @@
 {
-  "quando": "2026-10-23_1443",
+  "quando": "2026-10-23_1642",
   "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-23_1443.xlsx",
+  "excel": "risultati/determine_2026-10-23_1642.xlsx",
   "zip": "",
   "risultati": [],
   "riepilogo": [
     {
-      "comune": "Bagnolo Mella",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.comune.bagnolomella.bs.it/EG0/EGHOMEPAGE.HBL",
-      "dal": "2026-09-06",
+      "comune": "San Pietro di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
+      "dal": "2026-09-08",
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
-      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
-      "diag_stato": 200,
-      "diag_url": "https://www.comune.bagnolomella.bs.it/EG0/EGHOMEPAGE.HBL",
-      "screenshot": "BS-bagnolo-mella.jpg"
+      "esito": "Nessuna riga letta: bloccato dal sito (protezione anti-robot)",
+      "diagnosi": "bloccato dal sito (protezione anti-robot)",
+      "diag_stato": 403,
+      "diag_url": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
+      "screenshot": "BL-san-pietro-di-cadore.jpg"
     }
   ]
 }
