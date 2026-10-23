@@ -1,24 +1,707 @@
 {
-  "quando": "2026-10-23_1642",
-  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-23_1642.xlsx",
-  "zip": "",
-  "risultati": [],
+  "quando": "2026-10-23_2122",
+  "esito": "33 determine trovate in 1 comuni, 146 allegati.",
+  "excel": "risultati/determine_2026-10-23_2122.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
+  "cartella": "",
+  "risultati": [
+    {
+      "id": "BS|Desenzano del Garda|2026-09-28|2026/2404|ADOZIONE DEL PIANO TRIENNALE DEI LAVORI PUBBLICI 2027/2029 E DELL'ELENCO ANNUALE",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-09-28",
+      "tipo": "ATTI AMMINISTRATIVI / DELIBERE DI GIUNTA COMUNALE",
+      "numero": "2026/2404",
+      "oggetto": "ADOZIONE DEL PIANO TRIENNALE DEI LAVORI PUBBLICI 2027/2029 E DELL'ELENCO ANNUALE DEI LAVORI PER L'ANNO 2027 AI FINI DELLA SUCCESSIVA APPROVAZIONE (ART. 37, COMMI 1 E 2 DEL D.LGS. N. 36/2023)",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2761722?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_04.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_05.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_06.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_07.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_08.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_09.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-09-28_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2512|AFFIDAMENTO INCARICO PROFESSIONALE ALL'ING. ALESSIA BRIGANTINI PER LA REDAZIONE ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2512",
+      "oggetto": "AFFIDAMENTO INCARICO PROFESSIONALE ALL'ING. ALESSIA BRIGANTINI PER LA REDAZIONE DI PLANIMETRIE DI EMERGENZA CASTELLO - EVENTO MATTONCINI IN CASTELLO 2026 - CIG N.BD2F5E2221",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781942?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2510|AFFIDAMENTO LAVORI DI RELAMPING IMPIANTO DI ILLUMINAZIONE CENTRO SPORTIVO TRE ST",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2510",
+      "oggetto": "AFFIDAMENTO LAVORI DI RELAMPING IMPIANTO DI ILLUMINAZIONE CENTRO SPORTIVO TRE STELLE CUP I14J26000350004 CIG BD1D5C1C9D CORUS SRL",
+      "parole": [
+        "lavori",
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781937?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_05.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_06.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_07.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2508|MANUTENZIONE STRAORDINARIA COPERTURA SCUOLA MATERNA MONTESSORI SITUATA A SAN MAR",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2508",
+      "oggetto": "MANUTENZIONE STRAORDINARIA COPERTURA SCUOLA MATERNA MONTESSORI SITUATA A SAN MARTINO D/B. CIG BD2E7FA851 IMPERADORI COPERTURE SRL",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781930?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_09.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_10.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_11.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_12.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2507|AFFIDAMENTO DIRETTO PER ACQUISTO SERVIZIO DI MANUTENZIONE ED ASSISTENZA DELLA SA",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2507",
+      "oggetto": "AFFIDAMENTO DIRETTO PER ACQUISTO SERVIZIO DI MANUTENZIONE ED ASSISTENZA DELLA SALA MULTIMEDIALE DELLA BIBLIOTECA PER L' ANNO 2027 (PERIODO DAL 01.01.2027 AL 31.12.2027) - DITTA COMPERIO SRL - CIG BD25B31A57",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781927?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_13.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_14.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_15.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_16.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2506|AFFIDAMENTO DIRETTO PER L' ANNO 2027 (PERIODO DAL 01.01.2027 AL 31.12.2027) PER ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2506",
+      "oggetto": "AFFIDAMENTO DIRETTO PER L' ANNO 2027 (PERIODO DAL 01.01.2027 AL 31.12.2027) PER IL SERVIZIO DI MANUTENZIONE, ASSISTENZA ED HOSTING DELL' APPLICATIVO IN CLOUD Z-SOSTA (D-PARK) - DITTA INTERSAIL ENGINEERING SRL - CIG BD25596A24",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781924?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_17.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_18.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_19.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_20.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2504|AFFIDAMENTO SERVIZIO REALIZZAZIONE LEZIONE/CONCERTO \"MUSICAVIAGGIANDO\" - UNIVERS",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2504",
+      "oggetto": "AFFIDAMENTO SERVIZIO REALIZZAZIONE LEZIONE/CONCERTO \"MUSICAVIAGGIANDO\" - UNIVERSITA' DEL GARDA 2026 - CIG: BD1E4424B0",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781918?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_21.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_22.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_23.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_24.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2503|AFFIDAMENTO DIRETTO PER REVAMPING DEL SISTEMA DI DATA LOGGER DELL' ARATRO DEL MU",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2503",
+      "oggetto": "AFFIDAMENTO DIRETTO PER REVAMPING DEL SISTEMA DI DATA LOGGER DELL' ARATRO DEL MUSEO CIVICO RAMBOTTI (ACQUISTO DISPOSITIVI, INSTALLAZIONE ONSITE, SERVIZIO SAAS E CORSO DI FORMAZIONE) - CIG BD12C98435 - E CANONE SERVIZI CLOUD (PERIODO DAL 01.10.2026 AL 30.09.2029) - CIG BD12C98435 - DITTA CEAM CONTROL EQUIPMENT SRL",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781915?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_25.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_26.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_27.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_28.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2502|MANUTENZIONE STRAORDINARIA DELLA SEGNALETICA ORIZZONTALE SUL TERRITORIO COMUNALE",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2502",
+      "oggetto": "MANUTENZIONE STRAORDINARIA DELLA SEGNALETICA ORIZZONTALE SUL TERRITORIO COMUNALE ANNO 2026 CIG BD0676F093 P&M SRL",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781912?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_29.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_30.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_31.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_32.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2501|AFFIDAMENTO INCARICO A ESPERTO PSICOLOGO IN QUALITA' DI COMPONENTE AGGIUNTO NELL",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2501",
+      "oggetto": "AFFIDAMENTO INCARICO A ESPERTO PSICOLOGO IN QUALITA' DI COMPONENTE AGGIUNTO NELLA COMMISSIONE ESAMINATRICE DI CONCORSO PUBBLICO PER ESAMI PER LA COPERTURA A TEMPO PIENO E INDETERMINATO DI UN POSTO DI UFFICIALE DIRETTIVO DI POLIZIA LOCALE (AREA DEI FUNZIONARI E DELL’ELEVATA QUALIFICAZIONE)",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2781909?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_33.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_34.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_35.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_36.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2499|AFFIDAMENTO DIRETTO PER ACQUISTO PACCHETTO DI 17 GIORNATE DI LAVORO DA REMOTO PE",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2499",
+      "oggetto": "AFFIDAMENTO DIRETTO PER ACQUISTO PACCHETTO DI 17 GIORNATE DI LAVORO DA REMOTO PER MODIFICHE APPLICATIVO INFORMATICO ZUCCHETTI - DITTA PALITALSOFT SRL - CIG BD4005C965",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2780911?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_37.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_38.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_39.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_40.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-08|2026/2495|ACQUISTO DIVISA INVERNALE PER MESSI NOTIFICATORI - SETTORE SEGRETERIA GENERALE. ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2495",
+      "oggetto": "ACQUISTO DIVISA INVERNALE PER MESSI NOTIFICATORI - SETTORE SEGRETERIA GENERALE. AFFIDAMENTO DIRETTO ALLA DITTA MICHELETTI FORNITURE - CIG BCD6E885F3.",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2780676?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_41.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_42.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_43.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-08_44.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-12|2026/2521|APPROVAZIONE PROGETTO \"MERCATINI DI NATALE DESENZANO 2026\" IN PROGRAMMA IN PIAZZ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-12",
+      "tipo": "ATTI AMMINISTRATIVI / DELIBERE DI GIUNTA COMUNALE",
+      "numero": "2026/2521",
+      "oggetto": "APPROVAZIONE PROGETTO \"MERCATINI DI NATALE DESENZANO 2026\" IN PROGRAMMA IN PIAZZA CAPPELLETTI",
+      "parole": [
+        "progetto"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2784257?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_04.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_05.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_06.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_07.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_08.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_09.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-12|2026/2517|APPROVAZIONE CONVENZIONE RELATIVA AL PERMESSO DI COSTRUIRE CONVENZIONATO (P.C.C.",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-12",
+      "tipo": "ATTI AMMINISTRATIVI / DELIBERE DI GIUNTA COMUNALE",
+      "numero": "2026/2517",
+      "oggetto": "APPROVAZIONE CONVENZIONE RELATIVA AL PERMESSO DI COSTRUIRE CONVENZIONATO (P.C.C.) INTERVENTO EDILIZIO EDIFICIO ESISTENTE IN VIALE MARCONI N. 131 - PROPONENTE: SOC. RISANAMENTO S.R.L.",
+      "parole": [
+        "intervento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2784245?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_10.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_11.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_12.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_13.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_14.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_15.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_16.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_17.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-12_18.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-14|2026/2541|AFFIDAMENTO SERVIZI DI REALIZZAZIONE DI LABORATORI PRESSO LA BIBLIOTECA CIVICA \"",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2541",
+      "oggetto": "AFFIDAMENTO SERVIZI DI REALIZZAZIONE DI LABORATORI PRESSO LA BIBLIOTECA CIVICA \"ANELLI\" (OTTOBRE 2026-APRILE 2027) A \"INNOVIA S.R.L\"",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2788171?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-14|2026/2539|ACQUISTO FOTOTRAPPOLA EL04 CRYPTO PER LA POLIZIA LOCALE - AFFIDAMENTO DIRETTO AL",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2539",
+      "oggetto": "ACQUISTO FOTOTRAPPOLA EL04 CRYPTO PER LA POLIZIA LOCALE - AFFIDAMENTO DIRETTO ALLA DITTA OBS SRL DI VOLTA MANTOVANA (MN) - CIG BD2318894E",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2788165?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_05.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_06.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_07.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-14|2026/2537|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE SENSO UNICO ALTERN",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2537",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE SENSO UNICO ALTERNATO REGOLATO DA MOVIERI, RESTRINGIMENTO DELLA CARREGGIATA, LIMITE DI VELOCITA’ DI 30 KM/H E DIVIETO DI SOSTA CON RIMOZIONE FORZATA IN UN TRATTO DI VIA UNITA’ D’ITALIA DAL 09 AL 13 NOVEMBRE 2026 PER LAVORI DI ALLACCIAMENTO DI NUOVA CABINA DENOMINATA “DA RENATO” PER CONTO DI E-DISTRIBUZIONE.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2787593?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_09.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-14|2026/2535|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DIVIETO DI TRANSIT",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2535",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DIVIETO DI TRANSITO IN VIA PARROCCHIALE NEL TRATO COMPRESO TRA L’INTERSEZIONE CON VIA AGELLO E L’INTERSEZIONE CON VIA G. DI VITTORIO IL GIORNO 26 OTTOBRE 2026 PER LAVORI DI TRASLOCO.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2787587?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_11.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-14_12.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-15|2026/2567|AFFIDAMENTO INCARICO PROFESSIONALE PER PROGETTAZIONE E DIREZIONE LAVORI PER LE O",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2567",
+      "oggetto": "AFFIDAMENTO INCARICO PROFESSIONALE PER PROGETTAZIONE E DIREZIONE LAVORI PER LE OPERE DI MANUTENZIONE STRAORDINARIA DELLA PISCINA DEL CENTRO SOCIALE ANFFAS - ARCH. ROBERTO BERTOLINELLI - CUP I18C26000290004 - CIG BD4A7040DA",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "manutenzione",
+        "progettazione",
+        "incarico"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2789706?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_03.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_04.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_05.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-15|2026/2564|LAVORI DI RIPRISTINO AREE PUBBLICHE A SEGUITO DI EVENTI METEOROLOGICI AVVERSI - ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2564",
+      "oggetto": "LAVORI DI RIPRISTINO AREE PUBBLICHE A SEGUITO DI EVENTI METEOROLOGICI AVVERSI - DITTA LA CASCINA COOPERATIVA SOCIALE - CIG BD3B173B00",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2789697?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_06.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_07.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_08.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_09.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-15|2026/2557|INCARICO PER PERIZIA TECNICA SU NATANTE LEVANTE",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "ATTI AMMINISTRATIVI / DELIBERE DI GIUNTA COMUNALE",
+      "numero": "2026/2557",
+      "oggetto": "INCARICO PER PERIZIA TECNICA SU NATANTE LEVANTE",
+      "parole": [
+        "incarico"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2789306?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_10.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_11.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_12.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_13.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_14.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_15.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_16.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_17.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-15|2026/2555|ATTO DI INDIRIZZO PER LA REALIZZAZIONE DEL PROGETTO DI COMUNICAZIONE SOCIALE DAL",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "ATTI AMMINISTRATIVI / DELIBERE DI GIUNTA COMUNALE",
+      "numero": "2026/2555",
+      "oggetto": "ATTO DI INDIRIZZO PER LA REALIZZAZIONE DEL PROGETTO DI COMUNICAZIONE SOCIALE DAL VALORE CIVICO “LA COSTITUZIONE IN COMUNE”",
+      "parole": [
+        "progetto"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2789300?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_18.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_19.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_20.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_21.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_22.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_23.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_24.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-15_25.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-17|2026/2575|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: PROROGA ISTITUZIONE DI DIVIETO",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-17",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2575",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: PROROGA ISTITUZIONE DI DIVIETO DI TRANSITO IN VIA MARCONI NEL TRATTO COMPRESO TRA L’INTERSEZIONE CON VIALE ANDREIS E L’INTERSEZIONE CON VIA GRAMSCI DAL 19 AL 22 OTTOBRE 2026 PER LAVORI DI POSA CAVI ENERGIA ELETTRICA PER CONTO DI E-DISTRIBUZIONE.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2791511?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-17_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-17_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-17|2026/2574|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DI SENSO UNICO ALT",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-17",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2574",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DI SENSO UNICO ALTERNATO REGOLATO DA MOVIERI, RESTRINGIMENTO DELLA CARREGGIATA, LIMITE MASSIMO DI VELOCITA’ DI 30 KM/H E DIVIETO DI SOSTA CON RIMOZIONE FORZATA OVE NECESSARIO IN VARIE VIE DEL COMUNE PER LAVORI DI MANUTENZIONE ORDINARIA DELLA SEGNALETICA ORIZZONTALE DAL 19 OTTOBRE AL 17 DICEMBRE 2026.",
+      "parole": [
+        "lavori",
+        "manutenzione"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2791508?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-17_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-17_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-19|2026/2581|DOCENZE UNIVERSITA' DEL GARDA 2026/2027 - AFFIDAMENTO INCARICHI DI PRESTAZIONE O",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-19",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2581",
+      "oggetto": "DOCENZE UNIVERSITA' DEL GARDA 2026/2027 - AFFIDAMENTO INCARICHI DI PRESTAZIONE OCCASIONALE",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2792777?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-19|2026/2570|CONCESSIONE PATROCINIO ALLA FONDAZIONE ANT FRANCO PANNUTI ETS PER LA REALIZZAZIO",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-19",
+      "tipo": "ATTI AMMINISTRATIVI / DELIBERE DI GIUNTA COMUNALE",
+      "numero": "2026/2570",
+      "oggetto": "CONCESSIONE PATROCINIO ALLA FONDAZIONE ANT FRANCO PANNUTI ETS PER LA REALIZZAZIONE DEL PROGETTO “PREVENZIONE E CURA DI SE’ – PERCORSO DI PROMOZIONE DELLA SALUTE E DEL BENESSERE” RIVOLTO AGLI STUDENTI DEL LICEO BAGATTA",
+      "parole": [
+        "progetto"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2791403?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_05.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_06.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_07.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_08.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_09.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_10.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_11.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-19_12.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-20|2026/2591|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DIVIETO DI TRANSIT",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2591",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DIVIETO DI TRANSITO IN UN TRATTO DI VIA FENILETTO DAL 2 AL 30 NOVEMBRE 2026 PER LAVORI DI MESSA IN SICUREZZA DELLA STRADA MEDIANTE REALIZZAZIONE DI NUOVO MURO DI SOSTEGNO.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2793777?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-20_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-20_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-20_03.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-21|2026/2605|MANUTENZIONE ORDINARIA ATTREZZATURA IN DOTAZIONE PRESSO IL MAGAZZINO COMUNALE - ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2605",
+      "oggetto": "MANUTENZIONE ORDINARIA ATTREZZATURA IN DOTAZIONE PRESSO IL MAGAZZINO COMUNALE - DITTA SOCAR SPA - CIG BD3B337004",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794850?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-21_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-21_02.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-21_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-21_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2638|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE SENSO UNICO ALTERN",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2638",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE SENSO UNICO ALTERNATO, RESTRINGIMENTO DELLA CARREGGIATA, LIMITE DI VELOCITA’ DI 30 KM/H E DIVIETO DI SOSTA CON RIMOZIONE FORZATA IN UN VIA SAN BENEDETTO ALL’ALTEZZA DEL CIVICO 55 PER LAVORI DI REALIZZAZIONE DI NUOVA RETE IN FIBRA OTTICA DAL 26 OTTOBRE AL 06 NOVEMBRE 2026.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797473?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2635|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: PROROGA ISTITUZIONE DI DIVIETO",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2635",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: PROROGA ISTITUZIONE DI DIVIETO DI TRANSITO IN VIA MARCONI CORSIA DI MARCIA DIREZIONE SIRMIONE NEL TRATTO COMPRESO TRA L’INTERSEZIONE CON VIALE ANDREIS E L’INTERSEZIONE CON VIA GRAMSCI SINO AL 23 OTTOBRE – DAL 22 AL 31 OTTOBRE 2026 RESTRINGIMENTO DELLA CARREGGIATA SULLA ROTATORIA VIA MARCONI/VIA GRAMSCI – DIVIETO DI TRANSITO IN VIA MONTANARA - DIVIETO DI TRANSITO IN VIA MARCONI SULLA CORSIA DI MARCIA DIREZIONE SIRMIONE NEL TRATTO COMPRESO TRA L’INTERSEZIONE CON VIA GRAMSCI E L’INTERSEZIONE CON VIA MEZZOCOLLE PER LAVORI DI POSA CAVI ENERGIA ELETTRICA PER CONTO DI E-DISTRIBUZIONE.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797464?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_03.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2634|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DI SENSO UNICO ALT",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2634",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DI SENSO UNICO ALTERNATO IN VIA U. LA MALFA DAL 24 AL 31 OTTOBRE 2026 PER LAVORI DI ASFALTATURA E RIPOSIZIONAMENTO CADITOIE",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797461?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_05.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_06.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2625|LABORATORI CREATIVI UNIVERSITA' DEL GARDA 2026 - \"FOGLIE, COLORI E FANTASIA\"\" - ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2625",
+      "oggetto": "LABORATORI CREATIVI UNIVERSITA' DEL GARDA 2026 - \"FOGLIE, COLORI E FANTASIA\"\" - AFFIDAMENTO INCARICO DI PRESTAZIONE OCCASIONALE",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797387?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_07.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_08.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_09.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2618|SERVIZIO DI DOCENZA CORSO UNIVERSITA' DEL GARDA \"MANGIARE PER STARE BENE\" - AFFI",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2618",
+      "oggetto": "SERVIZIO DI DOCENZA CORSO UNIVERSITA' DEL GARDA \"MANGIARE PER STARE BENE\" - AFFIDAMENTO DIRETTO - CIG N. BD5BFED156",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797307?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_11.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_12.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_13.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_14.pdf"
+      ]
+    }
+  ],
   "riepilogo": [
     {
-      "comune": "San Pietro di Cadore",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
-      "dal": "2026-09-08",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Nessuna riga letta: bloccato dal sito (protezione anti-robot)",
-      "diagnosi": "bloccato dal sito (protezione anti-robot)",
-      "diag_stato": 403,
-      "diag_url": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/listaservizi.aspx?U=1&S=200",
-      "screenshot": "BL-san-pietro-di-cadore.jpg"
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=26288",
+      "dal": "2026-09-06",
+      "pagine": 8,
+      "letti": 149,
+      "trovati": 33,
+      "esito": "OK – 33 trovati"
     }
   ]
 }
