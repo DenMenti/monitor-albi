@@ -1,84 +1,25 @@
 {
-  "quando": "2026-10-23_2230",
-  "esito": "4 determine trovate in 1 comuni, 0 allegati.",
-  "excel": "risultati/determine_2026-10-23_2230.xlsx",
+  "quando": "2026-10-23_2244",
+  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-10-23_2244.xlsx",
   "zip": "",
   "cartella": "",
-  "risultati": [
-    {
-      "id": "BS|Rovato|2026-10-14||PUBBLICAZIONE N. 1977 Acquisizione dei lavori edili di realizzazione di nuova ra",
-      "comune": "Rovato",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-14",
-      "tipo": "",
-      "numero": "",
-      "oggetto": "PUBBLICAZIONE N. 1977 Acquisizione dei lavori edili di realizzazione di nuova rampa pedonale nell'ambito dell'intervento di riorganizzazione dell'area mercatale - operatore economico FRANCIACORTA SCAVI S.R.L.. (C.U.P. J17G20000040006 - C.I.G. BD3DDDC102) Mittente: Comune di Rovato Tipo: DETERMINA Atto n. 184 del 14-10-2026 Registro generale n. 793 del 14-10-2026 Pubblicazione dal 15-10-2026 al 30-10-2026",
-      "parole": [
-        "lavori",
-        "intervento"
-      ],
-      "link": "https://trasparenza.comune.rovato.bs.it/EG0/EGHOMEPAGE.HBL",
-      "allegati": []
-    },
-    {
-      "id": "BS|Rovato|2026-10-15||PUBBLICAZIONE N. 1986 Acquisizione del servizio di manutenzione del verde pubbli",
-      "comune": "Rovato",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "",
-      "numero": "",
-      "oggetto": "PUBBLICAZIONE N. 1986 Acquisizione del servizio di manutenzione del verde pubblico presso il cimitero Centro per la ricorrenza della Commemorazione dei Defunti, ai sensi del D.Lgs. 36/2023 - ditta Az. Agr. Mombelli Giuseppe. (C.I.G. n. BD5259422D) Mittente: Comune di Rovato Tipo: DETERMINA Atto n. 186 del 15-10-2026 Registro generale n. 801 del 15-10-2026 Pubblicazione dal 16-10-2026 al 31-10-2026",
-      "parole": [
-        "manutenzione"
-      ],
-      "link": "https://trasparenza.comune.rovato.bs.it/EG0/EGHOMEPAGE.HBL",
-      "allegati": []
-    },
-    {
-      "id": "BS|Rovato|2026-10-15||PUBBLICAZIONE N. 1984 Affidamento incarico professionale per supporto qualificat",
-      "comune": "Rovato",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "",
-      "numero": "",
-      "oggetto": "PUBBLICAZIONE N. 1984 Affidamento incarico professionale per supporto qualificato per rilascio di autorizzazioni sismiche nonché controlli a campione delle pratiche strutturali depositate ai sensi dell'art. 10 della L.R. 33/2015 - ing. Guani Gabriele. (CIG n. BD55D2F544) Mittente: Comune di Rovato Tipo: DETERMINA Atto n. 41 del 15-10-2026 Registro generale n. 800 del 15-10-2026 Pubblicazione dal 15-10-2026 al 30-10-2026",
-      "parole": [
-        "affidamento",
-        "incarico"
-      ],
-      "link": "https://trasparenza.comune.rovato.bs.it/EG0/EGHOMEPAGE.HBL",
-      "allegati": []
-    },
-    {
-      "id": "BS|Rovato|2026-10-15||PUBBLICAZIONE N. 1979 Affidamento fornitura pacchetto corsi di formazione on-lin",
-      "comune": "Rovato",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "",
-      "numero": "",
-      "oggetto": "PUBBLICAZIONE N. 1979 Affidamento fornitura pacchetto corsi di formazione on-line per dipendenti comunali triennio 2026 -2028, ai sensi dell'art. 50, comma 1, lett. b) del D.Lgs. 36/2023, mediante ricorso al Mercato Elettronico della Pubblica Amministrazione (MePa), gestito da Consip S.p.A. - ditta Myo SpA. (CIG n. BD51BAD639) Mittente: Comune di Rovato Tipo: DETERMINA Atto n. 48 del 15-10-2026 Registro generale n. 795 del 15-10-2026 Pubblicazione dal 15-10-2026 al 30-10-2026",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://trasparenza.comune.rovato.bs.it/EG0/EGHOMEPAGE.HBL",
-      "allegati": []
-    }
-  ],
+  "risultati": [],
   "riepilogo": [
     {
-      "comune": "Rovato",
+      "comune": "Ghedi",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://trasparenza.comune.rovato.bs.it/redirect.html?F=MC09",
+      "albo": "https://ghedi.halleyweb.it/c017078/index.php?servizio=304",
       "dal": "2026-09-06",
-      "pagine": 7,
-      "letti": 70,
-      "trovati": 4,
-      "esito": "OK – 4 trovati, 4 senza allegati"
+      "pagine": 0,
+      "letti": 0,
+      "trovati": 0,
+      "esito": "Errore: pagina vuota o non caricata",
+      "diagnosi": "pagina vuota o non caricata",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BS-ghedi.jpg"
     }
   ]
 }
