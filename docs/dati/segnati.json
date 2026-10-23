@@ -70,5 +70,32 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
       "quando": "2026-10-23_2122"
     }
+  },
+  "BS|Desenzano del Garda|2026-10-22|2026/2625|LABORATORI CREATIVI UNIVERSITA' DEL GARDA 2026 - \"FOGLIE, COLORI E FANTASIA\"\" - ": {
+    "stato": "eliminato",
+    "quando": "2026-10-23T19:31:53.646Z",
+    "atto": {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2625|LABORATORI CREATIVI UNIVERSITA' DEL GARDA 2026 - \"FOGLIE, COLORI E FANTASIA\"\" - ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2625",
+      "oggetto": "LABORATORI CREATIVI UNIVERSITA' DEL GARDA 2026 - \"FOGLIE, COLORI E FANTASIA\"\" - AFFIDAMENTO INCARICO DI PRESTAZIONE OCCASIONALE",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797387?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_07.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_08.pdf",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_09.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_10.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
+      "quando": "2026-10-23_2122"
+    }
   }
 }
