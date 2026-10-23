@@ -46,5 +46,29 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
       "quando": "2026-10-23_2122"
     }
+  },
+  "BS|Desenzano del Garda|2026-10-22|2026/2634|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DI SENSO UNICO ALT": {
+    "stato": "eliminato",
+    "quando": "2026-10-23T19:31:49.979Z",
+    "atto": {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2634|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DI SENSO UNICO ALT",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2634",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE DI SENSO UNICO ALTERNATO IN VIA U. LA MALFA DAL 24 AL 31 OTTOBRE 2026 PER LAVORI DI ASFALTATURA E RIPOSIZIONAMENTO CADITOIE",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797461?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_05.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_06.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
+      "quando": "2026-10-23_2122"
+    }
   }
 }
