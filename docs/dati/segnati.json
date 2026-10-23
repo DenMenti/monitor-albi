@@ -1,1 +1,26 @@
-{}
+{
+  "BS|Desenzano del Garda|2026-10-22|2026/2638|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE SENSO UNICO ALTERN": {
+    "stato": "eliminato",
+    "quando": "2026-10-23T19:31:42.486Z",
+    "atto": {
+      "id": "BS|Desenzano del Garda|2026-10-22|2026/2638|ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE SENSO UNICO ALTERN",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI AMMINISTRATIVI / ORDINANZA DIRIGENZIALE",
+      "numero": "2026/2638",
+      "oggetto": "ORDINANZA DI MODIFICA TEMPORANEA ALLA VIABILITA’: ISTITUZIONE SENSO UNICO ALTERNATO, RESTRINGIMENTO DELLA CARREGGIATA, LIMITE DI VELOCITA’ DI 30 KM/H E DIVIETO DI SOSTA CON RIMOZIONE FORZATA IN UN VIA SAN BENEDETTO ALL’ALTEZZA DEL CIVICO 55 PER LAVORI DI REALIZZAZIONE DI NUOVA RETE IN FIBRA OTTICA DAL 26 OTTOBRE AL 06 NOVEMBRE 2026.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2797473?p_p_state=pop_up",
+      "allegati": [
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_01.pdf.p7m",
+        "desenzano-del-garda/desenzano-del-garda_2026-10-22_02.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
+      "quando": "2026-10-23_2122"
+    }
+  }
+}
