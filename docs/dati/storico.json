@@ -1,5 +1,12 @@
 [
   {
+    "quando": "2026-10-23_2230",
+    "tipo": "monitoraggio",
+    "esito": "4 determine trovate in 1 comuni, 0 allegati.",
+    "excel": "risultati/determine_2026-10-23_2230.xlsx",
+    "zip": ""
+  },
+  {
     "quando": "2026-10-23_2215",
     "tipo": "monitoraggio",
     "esito": "9 determine trovate in 1 comuni, 36 allegati.",
