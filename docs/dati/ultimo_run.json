@@ -1,448 +1,271 @@
 {
-  "quando": "2026-10-24_0006",
-  "esito": "19 determine trovate in 1 comuni, 104 allegati.",
-  "excel": "risultati/determine_2026-10-24_0006.xlsx",
-  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0006/allegati_2026-10-24_0006.zip",
+  "quando": "2026-10-24_0024",
+  "esito": "12 determine trovate in 1 comuni, 47 allegati.",
+  "excel": "risultati/determine_2026-10-24_0024.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0024/allegati_2026-10-24_0024.zip",
   "cartella": "",
   "risultati": [
     {
-      "id": "BS|Nave|2026-10-12|2026/964|MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRE",
-      "comune": "Nave",
+      "id": "BS|Rezzato|2026-10-20|2026/1369|ASSUNZIONE IMPEGNI DI SPESA PER CONGUAGLIO STAGIONE TERMICA 2025/2026 E PER CANO",
+      "comune": "Rezzato",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-12",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/964",
-      "oggetto": "MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) D.Lgs 36/2023, DELL’APPALTO PER IL SERVIZIO DI INDAGINE DIAGNOSTICA STRUTTURALE RELATIVO ALLA COPERTURA CON IMPIANTO FOTOVOLTAICO PER IL CENTRO DI RACCOLTA RIFIUTI FINANZIATO CON FONDI NEXT GENERATION EU PNRR - MISURA M2 C1 I1.1 LINEA DI INTERVENTO A \"MIGLIORAMENTO E MECCANIZZAZIONE DELLA RETE DI RACCOLTA DIFFERENZIATA DEI RIFIUTI URBANI”. LABORATORIO TECNOLOGICO LOMBARDO SRL (C.F. 03966370987) - CIG: BD3406F790 - CUP C61E22000270001.",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1369",
+      "oggetto": "ASSUNZIONE IMPEGNI DI SPESA PER CONGUAGLIO STAGIONE TERMICA 2025/2026 E PER CANONE STAGIONE TERMICA 2026/2027 DELLA CONCESSIONE, TRAMITE FINANZA DI PROGETTO DELLA GESTIONE DEL SERVIZIO DI ENERGIA TERMICA DEGLI EDIFICI COMUNALI NEL TERRITORIO DEL COMUNE DI REZZATO (BS) A FAVORE O.E. PEDERZANI IMPIANTI SRL CON SEDE IN STRADA MEDOLE 6S 46042 CASTEL GOFFREDO (MN) P.IVA 01899580201. CIG: 9360963F07 CUP: J59I22001200005",
+      "parole": [
+        "progetto"
+      ],
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794278?p_p_state=pop_up",
+      "allegati": [
+        "rezzato/rezzato_2026-10-20_01.pdf",
+        "rezzato/rezzato_2026-10-20_02.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_03.pdf"
+      ]
+    },
+    {
+      "id": "BS|Rezzato|2026-10-20|2026/1368|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO FORNITURA DRONE PER",
+      "comune": "Rezzato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1368",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO FORNITURA DRONE PER ISPEZIONE COPERTURE IMMOBILI COMUNALI ALL’O.E. CURRI DIEGO DRONEZERO VIA PADERNO, 13 RODENGO SAIANO (BS) - P.IVA. 03577400173 CIG: BD32FF5EC0",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794275?p_p_state=pop_up",
+      "allegati": [
+        "rezzato/rezzato_2026-10-20_04.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_05.pdf",
+        "rezzato/rezzato_2026-10-20_06.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_07.pdf"
+      ]
+    },
+    {
+      "id": "BS|Rezzato|2026-10-20|2026/1367|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO SERVIZIO DI MANUTEN",
+      "comune": "Rezzato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1367",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO SERVIZIO DI MANUTENZIONE STRAORDINARIA FIAT PANDA EL620FB IN DOTAZIONE AL PERSONALE DELL’UFFICIO TECNICO ALL’O.E. MICHELI GIOVANNI SNC CON SEDE IN VIA NAVIGLIO 7/9 REZZATO - P.IVA 00275520179. CIG: BD5D3C2EFE",
       "parole": [
         "affidamento",
-        "appalto",
+        "manutenzione"
+      ],
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794272?p_p_state=pop_up",
+      "allegati": [
+        "rezzato/rezzato_2026-10-20_08.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_09.pdf",
+        "rezzato/rezzato_2026-10-20_10.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_11.pdf"
+      ]
+    },
+    {
+      "id": "BS|Rezzato|2026-10-20|2026/1366|DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO LAVORI MANUTENZIONE STRAORDINAR",
+      "comune": "Rezzato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1366",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO LAVORI MANUTENZIONE STRAORDINARIA IMPIANTI SEMAFORICI DI VIA GARIBALDI E DI VIA MAZZINI-IV NOVEMBRE-MATTEOTTI-GARIBALDI ALL’O.E. SIBESTAR SRL CON SEDE A TORRE BOLDONE (BG) LARGO DELLE INDUSTRIE 2 C.F. / P.IVA 01917530162. CIG: BD1B8AAB28",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794269?p_p_state=pop_up",
+      "allegati": [
+        "rezzato/rezzato_2026-10-20_12.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_13.pdf",
+        "rezzato/rezzato_2026-10-20_14.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_15.pdf"
+      ]
+    },
+    {
+      "id": "BS|Rezzato|2026-10-20|2026/1365|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO OPERE DI TINTEGGIAT",
+      "comune": "Rezzato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1365",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO OPERE DI TINTEGGIATURA SALA INSEGNATI SCUOLA PERLASCA A FAVORE DELL’O.E. MUSART DI RESINELLI MASSIMO CON SEDE IN GAVARDO VIA PIAZZE, 43 P.IVA 04438930986. CIG: BCA141AFE6",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794266?p_p_state=pop_up",
+      "allegati": [
+        "rezzato/rezzato_2026-10-20_16.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_17.pdf",
+        "rezzato/rezzato_2026-10-20_18.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_19.pdf"
+      ]
+    },
+    {
+      "id": "BS|Rezzato|2026-10-20|2026/1364|ASSUNZIONE IMPEGNI DI SPESA PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA IMPIANT",
+      "comune": "Rezzato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1364",
+      "oggetto": "ASSUNZIONE IMPEGNI DI SPESA PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA IMPIANTI D’ALLARME ANTINTRUSIONE E ANTINCENDIO INSTALLATI PRESSO GLI IMMOBILI COMUNALI PER L’ ANNUALITA’ 2027. AGGIUDICAZIONE ALL’O.E. LAIS S.R.L. CON SEDE IN BRESCIA (BS) IN VIA LAMARMORA, 286 - C.F. / P.IVA 00998260178. CIG: B4FE4E54D9",
+      "parole": [
+        "manutenzione",
+        "aggiudicazione"
+      ],
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794263?p_p_state=pop_up",
+      "allegati": [
+        "rezzato/rezzato_2026-10-20_20.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_21.pdf",
+        "rezzato/rezzato_2026-10-20_22.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_23.pdf"
+      ]
+    },
+    {
+      "id": "BS|Rezzato|2026-10-20|2026/1363|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO DEL SERVIZIO DI TRA",
+      "comune": "Rezzato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1363",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO DEL SERVIZIO DI TRASLOCO IMMOBILI COMUNALI SITI IN VIE DIVERSE DA DESTINARE A MOBILITÀ INQUILINI PER INTERVENTI DI RISTRUTTURAZIONE, RIQUALIFICAZIONE ENERGETICA E MIGLIORAMENTO SISMICO COMPLESSO DI EDILIZIA RESIDENZIALE PUBBLICA SITUATI IN VIA DE GASPERI, 333. PROGETTO FINANZIATO CON FONDO COMPLEMENTARE AL PIANO NAZIONALE DI RIPRESA E RESILIENZA: PROGRAMMA “SICURO, VERDE E SOCIALE: RIQUALIFICAZIONE DELL’EDILIZIA RESIDENZIALE PUBBLICA”. AGGIUDICAZIONE ALL’O.E. SCABELLI GROUP S.R.L. CON SEDE LEGALE IN BRESCIA (BS) IN VIA FURA, 42 – C.F. / P.IVA 03418380980. CUP: J58I21000410002 – CIG: BD5D071264",
+      "parole": [
+        "affidamento",
+        "edilizia",
+        "progetto",
+        "aggiudicazione"
+      ],
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794261?p_p_state=pop_up",
+      "allegati": [
+        "rezzato/rezzato_2026-10-20_24.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_25.pdf",
+        "rezzato/rezzato_2026-10-20_26.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_27.pdf"
+      ]
+    },
+    {
+      "id": "BS|Rezzato|2026-10-20|2026/1362|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO AFFIDAMENTO INTERVE",
+      "comune": "Rezzato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1362",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO AFFIDAMENTO INTERVENTO DI SOSTITUZIONE DEI CORPI ILLUMINANTI ESAUSTI SU PALI DELLA PUBBLICA ILLUMINAZIONE SITI NEL QUARTIERE CARGNONI. AGGIUDICAZIONE ALL’O.E. ERREBI IMPIANTI SRL CON SEDE LEGALE IN CASTENEDOLO (BS) IN VIA LE GHISELLE, 26 – C.F. / P.IVA 03186150177. CUP: J51E26000040004 – CIG: BCE7E55203",
+      "parole": [
+        "affidamento",
         "aggiudicazione",
         "intervento"
       ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567565?p_p_state=pop_up",
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794257?p_p_state=pop_up",
       "allegati": [
-        "nave/nave_2026-10-12_01.pdf",
-        "nave/nave_2026-10-12_02.pdf.p7m",
-        "nave/nave_2026-10-12_03.pdf",
-        "nave/nave_2026-10-12_04.pdf.p7m",
-        "nave/nave_2026-10-12_05.pdf"
+        "rezzato/rezzato_2026-10-20_28.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_29.pdf",
+        "rezzato/rezzato_2026-10-20_30.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_31.pdf"
       ]
     },
     {
-      "id": "BS|Nave|2026-10-13|2026/986|MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRE",
-      "comune": "Nave",
+      "id": "BS|Rezzato|2026-10-20|2026/1361|APPROVAZIONE LAVORI SUPPLEMENTARI, AI SENSI DELL'ART. 120 DEL D.LGS N. 36/2023, ",
+      "comune": "Rezzato",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/986",
-      "oggetto": "MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLgs 36/2023, DELL’ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO, PER LA REALIZZAZIONE DEL SERVIZIO ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO, PER LA REALIZZAZIONE DEL SERVIZIO DI MANUTENZIONE IMMOBILI COMUNALI – OPERE STRADALI ED OPERE LEGATE AL PATRIMONIO. SISTEM WORK SNC DI ALBINI & NAVARRA (C.F. 02870400989) – CIG PADRE: BD392E8690. AFFIDAMENTO 1° CONTRATTO APPLICATIVO CIG DERIVATO: BD43BEF2ED",
-      "parole": [
-        "affidamento",
-        "manutenzione",
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567862?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-13_01.pdf",
-        "nave/nave_2026-10-13_02.pdf.p7m",
-        "nave/nave_2026-10-13_03.pdf",
-        "nave/nave_2026-10-13_04.pdf.p7m",
-        "nave/nave_2026-10-13_05.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-13|2026/985|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/985",
-      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLGS 36/2023, DELL’APPALTO PER LA FORNITURA NOTIFICHE DIGITALI SEND UFFICIO TRIBUTI A FAVORE DELLA DITTA GRUPPO MAGGIOLI SPA (C.F. /P.IVA 02066400405) TRAMITE ODA MEPA - CIG: BD539D8B70",
-      "parole": [
-        "affidamento",
-        "appalto",
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567814?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-13_06.pdf",
-        "nave/nave_2026-10-13_07.pdf.p7m",
-        "nave/nave_2026-10-13_08.pdf",
-        "nave/nave_2026-10-13_09.pdf.p7m",
-        "nave/nave_2026-10-13_10.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-13|2026/983|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO AI SENSI ",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/983",
-      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO AI SENSI DELL'ART.50, COMMA 2, LETT.A), DEL D.LGS. N.36/2023, PER INTEGRAZIONE DEL SERVIZIO DI GESTIONE STIPENDI E ADEMPIMENTI CONNESSI -PRATICHE INAIL - DITTA ALMA SPA (C.F.00572290047) - CIG: BD43A7D198",
-      "parole": [
-        "affidamento",
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567810?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-13_11.pdf",
-        "nave/nave_2026-10-13_12.pdf.p7m",
-        "nave/nave_2026-10-13_13.pdf",
-        "nave/nave_2026-10-13_14.pdf.p7m",
-        "nave/nave_2026-10-13_15.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-13|2026/980|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE ,MEDIANTE ADESIONE ALLA CONVENZIONE GA",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/980",
-      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE ,MEDIANTE ADESIONE ALLA CONVENZIONE GAS NATURALE 17 - LOTTO 3 - TRA CONSIP E MAGIS ENERGIA SPA (C.F. e P.IVA 02968430237), PER LA FORNITURA DI GAS NATURALE A PREZZO VARIABILE SUL TERRITORIO DI NAVE (CIG MASTER B6207489A2 - CIG DERIVATO BC5418A4DA)",
-      "parole": [
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567804?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-13_16.pdf.p7m",
-        "nave/nave_2026-10-13_17.pdf",
-        "nave/nave_2026-10-13_18.pdf.p7m",
-        "nave/nave_2026-10-13_19.pdf",
-        "nave/nave_2026-10-13_20.xlsx",
-        "nave/nave_2026-10-13_21.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-13|2026/979|MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRE",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/979",
-      "oggetto": "MANUTENZIONI. DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLgs 36/2023, DELL’ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO, PER LA REALIZZAZIONE DEL SERVIZIO DI MANUTENZIONE STRADE COMUNALI – SEGNALETICA ORIZZONTALE E VERTICALE. ASECAR SRL (C.F. 02155560176) – CIG PADRE: BD2FA75876.AFFIDAMENTO 1° CONTRATTO APPLICATIVO CIG DERIVATO: BD45DAA8BF",
-      "parole": [
-        "affidamento",
-        "manutenzione",
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567802?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-13_22.pdf",
-        "nave/nave_2026-10-13_23.pdf.p7m",
-        "nave/nave_2026-10-13_24.pdf",
-        "nave/nave_2026-10-13_25.pdf.p7m",
-        "nave/nave_2026-10-13_26.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-13|2026/976|LAVORI PUBBLICI - QUINTO CONTRATTO APPLICATIVO DI ACCORDO QUADRO CON UNICO OPERA",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/976",
-      "oggetto": "LAVORI PUBBLICI - QUINTO CONTRATTO APPLICATIVO DI ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO PER IL SERVIZIO TECNICO DI SUPPORTO AL RUP NELLA'MBITO DELLA REALIZZAZIONE DI OPERE PUBBLICHE CIG PADRE: B7FD042E09 CIG DERIVATO: BD454D0AC8.",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1361",
+      "oggetto": "APPROVAZIONE LAVORI SUPPLEMENTARI, AI SENSI DELL'ART. 120 DEL D.LGS N. 36/2023, PER LAVORI DI RIQUALIFICAZIONE E MESSA IN SICUREZZA STRADE, MARCIAPIEDI E PARCHEGGI NEL TERRITORIO DI REZZATO. CUP: J57H26000330004 – CIG: BBAE2C7D80",
       "parole": [
         "lavori"
       ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567796?p_p_state=pop_up",
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794255?p_p_state=pop_up",
       "allegati": [
-        "nave/nave_2026-10-13_27.pdf",
-        "nave/nave_2026-10-13_28.pdf.p7m",
-        "nave/nave_2026-10-13_29.pdf",
-        "nave/nave_2026-10-13_30.pdf.p7m",
-        "nave/nave_2026-10-13_31.pdf"
+        "rezzato/rezzato_2026-10-20_32.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_33.pdf",
+        "rezzato/rezzato_2026-10-20_34.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_35.pdf"
       ]
     },
     {
-      "id": "BS|Nave|2026-10-13|2026/975|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZIONE ENE",
-      "comune": "Nave",
+      "id": "BS|Rezzato|2026-10-20|2026/1360|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO PER L’ACQUISTO ABBI",
+      "comune": "Rezzato",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/975",
-      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZIONE ENERGIA ELETTRICA N.ID 2880 - LOTTO 3 - TRA CONSIP E MAGIS ENERGIA SPA (P.I. 02968430237), PER LA FORNITURA DI ENERGIA ELETTRICA A PREZZO VARIABILE SUL TERRITORIO DI NAVE, UTENZE: PARCO ZANARDELLI E VIA BARCELLA A DISPOSIZIONE - PER LA DURATA DI 24 MESI (CIG MASTER: B762D8D6BD - CIG DERIVATO:BCD09BD8A3)",
-      "parole": [
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567794?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-13_32.pdf",
-        "nave/nave_2026-10-13_33.pdf.p7m",
-        "nave/nave_2026-10-13_34.pdf",
-        "nave/nave_2026-10-13_35.pdf.p7m",
-        "nave/nave_2026-10-13_36.pdf",
-        "nave/nave_2026-10-13_37.xlsx",
-        "nave/nave_2026-10-13_38.pdf.p7m",
-        "nave/nave_2026-10-13_39.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-13|2026/974|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZION ENER",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-13",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/974",
-      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE ADESIONE ALLA CONVENZION ENERGIA ELETTRICA N.ID 2880 - LOTTO 3 - TRA CONSIP E MAGIS ENERGIA SPA (P.I. 02968430237), PER LA FORNITURA DI ENERGIA ELETTRICA A PREZZO VARIABILE SUL TERRITORIO DI NAVE, UTENZE: VIDEOSORVEGLIANZA IN VIA MURATELLO N.28 E PIAZZA GIOVANNI PAOLO II - PER LA DURATA DI 24 MESI (CIG MASTER: B762D8D6BD - CIG DERIVATO: BCD04B6294",
-      "parole": [
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10567792?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-13_40.pdf",
-        "nave/nave_2026-10-13_41.pdf.p7m",
-        "nave/nave_2026-10-13_42.pdf",
-        "nave/nave_2026-10-13_43.pdf.p7m",
-        "nave/nave_2026-10-13_44.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-19|2026/993|DETERMINAZIONE PER SECONDO CONTRATTO APPLICATIVO AFFIDAMENTO DIRETTO AI SENSI DE",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-19",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/993",
-      "oggetto": "DETERMINAZIONE PER SECONDO CONTRATTO APPLICATIVO AFFIDAMENTO DIRETTO AI SENSI DEL ART. 50 COMMA 1 LETTERA B) DLGS 36/2023, DELL’ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO,, PER LA FORNITURA DEL VESTIARIO IN DOTAZIONE ALLA POLIZIA LOCALE DI NAVE - PERIODO 2026- 2030- DITTA UNIFORMERIA SRL (CF.:03554190177) - CIG MASTER: BACAA168BF - CIG DERIVATO BD50DD6A71",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1360",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO PER L’ACQUISTO ABBIGLIAMENTO IN DOTAZIONE AGLI OPERAI COMUNALI ALL’O.E. SMAO SICUREZZA SRL CON SEDE IN VIA G. GALVANI, N° 4 SAN ZENO NAVIGLIO (BS) – C.F. E P.IVA 03280680178. CIG: BAC869D2E0",
       "parole": [
         "affidamento"
       ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10577950?p_p_state=pop_up",
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794251?p_p_state=pop_up",
       "allegati": [
-        "nave/nave_2026-10-19_01.pdf",
-        "nave/nave_2026-10-19_02.pdf.p7m",
-        "nave/nave_2026-10-19_03.pdf",
-        "nave/nave_2026-10-19_04.pdf.p7m",
-        "nave/nave_2026-10-19_05.pdf"
+        "rezzato/rezzato_2026-10-20_36.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_37.pdf",
+        "rezzato/rezzato_2026-10-20_38.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_39.pdf"
       ]
     },
     {
-      "id": "BS|Nave|2026-10-19|2026/992|AFFIDAMENTO DIRETTO PER L'ACQUISTO DEL CANONE DI ABBONAMENTO \" RECONEYEZ \" INERE",
-      "comune": "Nave",
+      "id": "BS|Rezzato|2026-10-20|2026/1357|ACCERTAMENTO RIMBORSO SINISTRO IN VIA SBERNA DEL 31/10/2025 PER DANNI AL PATRIMO",
+      "comune": "Rezzato",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-19",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/992",
-      "oggetto": "AFFIDAMENTO DIRETTO PER L'ACQUISTO DEL CANONE DI ABBONAMENTO \" RECONEYEZ \" INERENTE ALLE FOTOTRAPPOLE A FAVORE DELLA DITTA R.V.M. IMPIANTI S.R.L. P.IVA 00665380986 C.F. 01928000171 - CIG BD4B4DABCA",
+      "data": "2026-10-20",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1357",
+      "oggetto": "ACCERTAMENTO RIMBORSO SINISTRO IN VIA SBERNA DEL 31/10/2025 PER DANNI AL PATRIMONIO COMUNALE NEL COMUNE DI REZZATO A SEGUITO INTERVENTO DI RIMOZIONE, FORNITURA, POSA E MESSA IN SICUREZZA DEL PUNTO LUCE INCIDENTATO.",
       "parole": [
-        "affidamento"
+        "intervento"
       ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10577948?p_p_state=pop_up",
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2794243?p_p_state=pop_up",
       "allegati": [
-        "nave/nave_2026-10-19_06.pdf",
-        "nave/nave_2026-10-19_07.pdf.p7m",
-        "nave/nave_2026-10-19_08.pdf",
-        "nave/nave_2026-10-19_09.pdf.p7m",
-        "nave/nave_2026-10-19_10.pdf"
+        "rezzato/rezzato_2026-10-20_40.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_41.pdf",
+        "rezzato/rezzato_2026-10-20_42.pdf.p7m",
+        "rezzato/rezzato_2026-10-20_43.pdf"
       ]
     },
     {
-      "id": "BS|Nave|2026-10-21|2026/1006|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
-      "comune": "Nave",
+      "id": "BS|Rezzato|2026-10-23|2026/1391|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO DELLA FORNITURA E M",
+      "comune": "Rezzato",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/1006",
-      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 C. 1 LETT. B) DLgs 36/2023, DEL SERVIZIO DI FORNITURA E POSA DI ARREDO URBANO E INTERVENTI DI MANUTENZIONE PRESSO PARCO CAPRIM - SARBA SPA C.F. E P.IVA 00227660362 CIG:BD63E0F7E1",
-      "parole": [
-        "affidamento",
-        "manutenzione",
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585465?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-21_01.pdf",
-        "nave/nave_2026-10-21_02.pdf.p7m",
-        "nave/nave_2026-10-21_03.pdf",
-        "nave/nave_2026-10-21_04.pdf.p7m",
-        "nave/nave_2026-10-21_05.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-21|2026/1005|AFFIDAMENTO INCARICO PER LA REDAZIONE DEL COLLAUDO TECNICO/AMMNITRATIVO DELLE OP",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/1005",
-      "oggetto": "AFFIDAMENTO INCARICO PER LA REDAZIONE DEL COLLAUDO TECNICO/AMMNITRATIVO DELLE OPERE DI URBANIZZAZIONE PREVISTE NELL' ATTO UNILATERALE APPROVATO CON DELIBERAZIONE DI GIUNTA COMUNALE N. 129 DEL 12/11/2018 E SOTTOSCRITTO IN BRESCIA PRESSO IL NOTAIO FRANCESCA CAPALDO IN DATA 05/02/2019 COME MODIFICATO CON DELIBERAZIONE DI GIUNTA COMUNALE N. 61 DEL 30/06/2026 - ING. PIETRO BRIANZA, PROGETTO B20 SRL .",
-      "parole": [
-        "affidamento",
-        "incarico",
-        "progetto"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585463?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-21_06.pdf",
-        "nave/nave_2026-10-21_07.pdf.p7m",
-        "nave/nave_2026-10-21_08.pdf",
-        "nave/nave_2026-10-21_09.pdf.p7m",
-        "nave/nave_2026-10-21_10.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-21|2026/1004|MANUTENZIONI: 3° CONTRATTO APPLICATIVO ACCORDO QUADRO PER LA REALIZZAZIONE DEL S",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/1004",
-      "oggetto": "MANUTENZIONI: 3° CONTRATTO APPLICATIVO ACCORDO QUADRO PER LA REALIZZAZIONE DEL SERVIZIO DI MANUTENZIONE ORDINARIA TAPPETI ERBOSI CAMPI DI CALCIO. A FAVORE DELL'OPERATORE ECONOMICO “FERRARI VIVAI SRL” (CF. 02181020989). CIG DERIVATO:BD4D5C66CD",
-      "parole": [
-        "manutenzione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585461?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-21_11.pdf",
-        "nave/nave_2026-10-21_12.pdf.p7m",
-        "nave/nave_2026-10-21_13.pdf",
-        "nave/nave_2026-10-21_14.pdf.p7m",
-        "nave/nave_2026-10-21_15.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-21|2026/1003|MANUTENZIONI. 1° CONTRATTO APPLICATIVO DELL'ACCORDO QUADRO CON UNICO OPERATORE E",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/1003",
-      "oggetto": "MANUTENZIONI. 1° CONTRATTO APPLICATIVO DELL'ACCORDO QUADRO CON UNICO OPERATORE ECONOMICO PER IL SERVIZIO DI MANUTENZIONE IMMOBILI COMUNALI – OPERE DA IDRAULICO.” DITTA F.G. SAS DI FILIPPINI FABIO & C. (CF.03223740170) ) C.I.G. DERIVATO:BD16EDC358",
-      "parole": [
-        "manutenzione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10585459?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-21_16.pdf",
-        "nave/nave_2026-10-21_17.pdf.p7m",
-        "nave/nave_2026-10-21_18.pdf",
-        "nave/nave_2026-10-21_19.pdf.p7m",
-        "nave/nave_2026-10-21_20.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-21|2026/999|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/999",
-      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL'ART. 50 C.1 LETT B) D.LGS 36/2023 DELL'APPALTO PER LA FORNITURA DI TORCHIO E MATERIALE PER BOTTONI BP E MAGNETI PER LA BIBLIOTECA COMUNALE. OPERATORE ECONOMICO \"CPL S.R.L\" C.F. E P.IVA 00470030099 - CIG BD60B13508",
-      "parole": [
-        "affidamento",
-        "appalto",
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584180?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-21_21.pdf",
-        "nave/nave_2026-10-21_22.pdf.p7m",
-        "nave/nave_2026-10-21_23.pdf",
-        "nave/nave_2026-10-21_24.pdf.p7m",
-        "nave/nave_2026-10-21_25.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-21|2026/998|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE AFFIDAMENTO DIRETTO AI SENSI DE",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/998",
-      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 C.1 LETT B) D.LGS 36/2023 PER LA FORNITURA DI N.1 TARGA PER LE COMMEMORAZIONI CIVILI, A FAVORE DELL'OPERATORE ECONOMICO ZANOLLI SRL (C.F. 00090100173) - CIG BD665F7664",
+      "data": "2026-10-23",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1391",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO DELLA FORNITURA E MESSA A DIMORA DI ESSENZE VEGETALI. AGGIUDICAZIONE ALL’O.E. AZ. AGR. BORGOVERDE DI BONOMI LIVIO CON SEDE LEGALE IN BORGOSATOLLO (BS) IN VIA SANTISSIMA – C.F. BNMLVI61M29Z133W / P.IVA 03042930176. CIG: BD7EAB533F",
       "parole": [
         "affidamento",
         "aggiudicazione"
       ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584178?p_p_state=pop_up",
+      "link": "https://rezzato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2798951?p_p_state=pop_up",
       "allegati": [
-        "nave/nave_2026-10-21_26.pdf",
-        "nave/nave_2026-10-21_27.pdf.p7m",
-        "nave/nave_2026-10-21_28.pdf",
-        "nave/nave_2026-10-21_29.pdf.p7m",
-        "nave/nave_2026-10-21_30.pdf",
-        "nave/nave_2026-10-21_31.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-21|2026/997|LAVORI PUBBLICI - APPROVAZIONE MODIFICA CONTRATTUALE ART.120 COMMA 1 LETT.A) DEL",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/997",
-      "oggetto": "LAVORI PUBBLICI - APPROVAZIONE MODIFICA CONTRATTUALE ART.120 COMMA 1 LETT.A) DEL D.LGS.36/2023 OPERE OPZIONALI DEI LAVORI DI SISTEMAZIONE AREE ESTERNE E OPERE COMPLEMENTARI DEL NUOVO POLO ZEROSEI IN VIA MOIA. CUP C64D26000140004. DITTA L.M.G.BUILDING SRL C.F. 06527450156. CIG.BC247939C4.",
-      "parole": [
-        "lavori"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584176?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-21_32.pdf",
-        "nave/nave_2026-10-21_33.pdf.p7m",
-        "nave/nave_2026-10-21_34.pdf",
-        "nave/nave_2026-10-21_35.pdf.p7m",
-        "nave/nave_2026-10-21_36.pdf",
-        "nave/nave_2026-10-21_37.pdf.p7m",
-        "nave/nave_2026-10-21_38.pdf",
-        "nave/nave_2026-10-21_39.p7m",
-        "nave/nave_2026-10-21_40.pdf"
-      ]
-    },
-    {
-      "id": "BS|Nave|2026-10-21|2026/996|DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI ",
-      "comune": "Nave",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
-      "numero": "2026/996",
-      "oggetto": "DETERMINAZIONE A CONTRATTARE E DI AGGIUDICAZIONE. AFFIDAMENTO DIRETTO, AI SENSI DELL'ART. 50 C.1 LETT B) D.LGS 36/2023 PER LA FORNITURA DI TIMBRI ISTITUZIONALI IN USO ALL’AMMINISTRAZIONE COMUNALE. DITTA FRANCHI S.R.L. (C.F. 01962030985). C.I.G. BD57EFC9F1",
-      "parole": [
-        "affidamento",
-        "aggiudicazione"
-      ],
-      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10584174?p_p_state=pop_up",
-      "allegati": [
-        "nave/nave_2026-10-21_41.pdf",
-        "nave/nave_2026-10-21_42.pdf.p7m",
-        "nave/nave_2026-10-21_43.pdf",
-        "nave/nave_2026-10-21_44.pdf.p7m",
-        "nave/nave_2026-10-21_45.pdf"
+        "rezzato/rezzato_2026-10-23_01.pdf.p7m",
+        "rezzato/rezzato_2026-10-23_02.pdf",
+        "rezzato/rezzato_2026-10-23_03.pdf.p7m",
+        "rezzato/rezzato_2026-10-23_04.pdf"
       ]
     }
   ],
   "riepilogo": [
     {
-      "comune": "Nave",
+      "comune": "Rezzato",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "albo": "https://bit.ly/alborezzato",
       "dal": "2026-09-06",
-      "pagine": 3,
-      "letti": 60,
-      "trovati": 19,
-      "esito": "OK – 19 trovati"
+      "pagine": 4,
+      "letti": 75,
+      "trovati": 12,
+      "esito": "OK – 12 trovati"
     }
   ]
 }
