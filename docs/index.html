@@ -174,7 +174,7 @@ tr.fissato td { background: var(--abete-chiaro); }
       <small class="aiuto">Se un link manca o è sbagliato, incolla quello giusto e salva: non verrà più sovrascritto. Spunta comuni o province intere per controllare solo quelli nel passo 2.</small>
       <div class="tabella">
         <table>
-          <thead><tr><th scope="col">Sel.</th><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Link albo</th><th scope="col">Ultimo controllo</th><th scope="col">Stato</th></tr></thead>
+          <thead><tr><th scope="col">Sel.</th><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Link albo</th><th scope="col">Ultimo controllo</th><th scope="col">Stato</th><th scope="col"><span class="stat">Controlla</span></th></tr></thead>
           <tbody id="corpoComuni"></tbody>
         </table>
       </div>
@@ -220,6 +220,15 @@ tr.fissato td { background: var(--abete-chiaro); }
     </div>
     <div class="riga">
       <button id="btnMonitora" class="serve-token">Avvia il controllo</button>
+    </div>
+    <div class="selezione-box" style="margin-top:16px">
+      <b>Controllo rapido di un solo comune</b>
+      <small class="aiuto" style="margin-top:2px">Usa la data scelta qui sopra e le stesse parole chiave. Ci vogliono pochi minuti.</small>
+      <div class="riga" style="margin:8px 0 0">
+        <input type="text" id="inSingolo" list="listaComuni" placeholder="Scrivi il nome del comune…" aria-label="Comune da controllare" style="flex:1;min-width:220px">
+        <datalist id="listaComuni"></datalist>
+        <button class="serve-token" id="btnSingolo">Controlla solo questo comune</button>
+      </div>
     </div>
   </section>
 </div>
@@ -519,6 +528,7 @@ function visibili() {
 }
 function disegnaComuni() {
   menuArchivio();
+  $("listaComuni").innerHTML = D.comuni.filter(c => c.albo).map(c => `<option value="${esc(chiave(c))}">`).join("");
   const lista = visibili();
   const con = D.comuni.filter(c => c.albo).length;
   $("statAlbi").textContent = D.comuni.length ? `· ${con} albi su ${D.comuni.length} comuni` : "· vuoto";
@@ -531,9 +541,10 @@ function disegnaComuni() {
       <td>${esc(c.sigla || "")}</td>
       <td><input type="text" class="linkAlbo" data-k="${esc(k)}" value="${esc(c.albo)}" placeholder="incolla il link all'albo"></td>
       <td>${dataIt(ultimoControllo(c))}</td>
-      <td>${no ? `<span class="badge no" title="${esc(c.note)}">da verificare</span>` : `<span class="badge ok">${c.manuale ? "inserito a mano" : "ok"}</span>`}</td></tr>`;
-  }).join("") + (lista.length > 800 ? `<tr><td colspan="6" class="vuoto">Mostro i primi 800: usa i filtri per restringere.</td></tr>` : "")
-    : `<tr><td colspan="6" class="vuoto">${D.comuni.length ? "Nessun comune con questi filtri." : "Archivio vuoto: cerca i link agli albi."}</td></tr>`;
+      <td>${no ? `<span class="badge no" title="${esc(c.note)}">da verificare</span>` : `<span class="badge ok">${c.manuale ? "inserito a mano" : "ok"}</span>`}</td>
+      <td><button class="secondario piccolo btn-singolo" data-k="${esc(k)}" ${c.albo && haToken() && !corre ? "" : "disabled"} title="Controlla subito solo ${esc(c.nome)}">▶ Ora</button></td></tr>`;
+  }).join("") + (lista.length > 800 ? `<tr><td colspan="7" class="vuoto">Mostro i primi 800: usa i filtri per restringere.</td></tr>` : "")
+    : `<tr><td colspan="7" class="vuoto">${D.comuni.length ? "Nessun comune con questi filtri." : "Archivio vuoto: cerca i link agli albi."}</td></tr>`;
   aggiornaSel();
 }
 const selezionati = () => [...selezione];
@@ -685,6 +696,7 @@ $("rCerca").addEventListener("input", disegnaRisultati);
 
 function aggiornaPermessi() {
   document.querySelectorAll(".serve-token").forEach(b => b.disabled = !haToken() || corre);
+  document.querySelectorAll(".btn-singolo").forEach(b => { b.disabled = !haToken() || corre || !(D.comuni.find(c => chiave(c) === b.dataset.k) || {}).albo; });
   $("avvisoToken").hidden = haToken();
   $("btnImpostazioni").textContent = haToken() ? "GitHub collegato" : "Collega GitHub";
 }
@@ -775,6 +787,29 @@ $("btnMonitora").onclick = async () => {
     await avvia({ azione: "monitora", modo, data: $("data").value || "", solo });
   } catch (e) { messaggio(e.message, true); alert("Non sono riuscito ad avviare il lavoro.\n\n" + e.message); }
 };
+
+async function avviaSingolo(k) {
+  const c = D.comuni.find(x => chiave(x) === k);
+  if (!c) return messaggio("Comune non trovato nell'archivio: sceglilo dall'elenco che compare mentre scrivi.", true);
+  if (!c.albo) return messaggio(`${c.nome} non ha ancora il link all'albo: inseriscilo nell'archivio comuni.`, true);
+  const modo = document.querySelector("input[name=modo]:checked").value;
+  const dal = modo === "data" || !ultimoControllo(c) ? `dal ${dataIt($("data").value)}` : `dall'ultimo controllo (${dataIt(ultimoControllo(c))})`;
+  if (!confirm(`Controllare solo ${k} ${dal}?`)) return;
+  try {
+    confermaInput();
+    if (modificheImp) { messaggio("Salvo le impostazioni…"); await salvaImpostazioni(); }
+    await avvia({ azione: "monitora", modo, data: $("data").value || "", solo: k });
+  } catch (e) { messaggio(e.message, true); alert("Non sono riuscito ad avviare il lavoro.\n\n" + e.message); }
+}
+$("btnSingolo").onclick = () => {
+  const v = $("inSingolo").value.trim();
+  const omonimi = D.comuni.filter(c => normt(c.nome) === normt(v));
+  const trovato = D.comuni.find(c => chiave(c) === v) || (omonimi.length === 1 ? omonimi[0] : null);
+  if (!trovato) return messaggio(v ? "Comune non trovato: sceglilo dall'elenco che compare mentre scrivi." : "Scrivi il nome del comune.", true);
+  avviaSingolo(chiave(trovato));
+};
+$("inSingolo").addEventListener("keydown", e => { if (e.key === "Enter") $("btnSingolo").click(); });
+$("corpoComuni").addEventListener("click", e => { const b = e.target.closest(".btn-singolo"); if (b && !b.disabled) avviaSingolo(b.dataset.k); });
 
 // ------------------------------------------------- finestra avanzamento
 const FASI = ["In coda su GitHub", "Preparazione del browser", "", "Salvataggio dei risultati"];
