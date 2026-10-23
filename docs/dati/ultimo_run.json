@@ -1,25 +1,215 @@
 {
-  "quando": "2026-10-23_2209",
-  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-23_2209.xlsx",
-  "zip": "",
+  "quando": "2026-10-23_2215",
+  "esito": "9 determine trovate in 1 comuni, 36 allegati.",
+  "excel": "risultati/determine_2026-10-23_2215.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2215/allegati_2026-10-23_2215.zip",
   "cartella": "",
-  "risultati": [],
-  "riepilogo": [
+  "risultati": [
     {
-      "comune": "Palazzolo sull'Oglio",
+      "id": "BS|Chiari|2026-10-08|2026/1235|DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO D",
+      "comune": "Chiari",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017133/mc/mc_p_ricerca.php",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1235",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUENTI PRESTAZIONI: SERVIZIO DI MANUTENZIONE QUINQUENNALE DEGLI IMPIANTI DI SOLLEVAMENTO PRESSO IL POLO DELLE SECONDARIE MEDIANTE SCELTA DEL CONTRANTE CON, AFFIDAMENTO DIRETTO, ESPLETATO MEDIANTE LA PIATTAFORMA TELEMATICA DI EPROCUREMENT SINTEL DI REGIONE LOMBARDIA COD. ID UNIVOCO APPALTO: 0068AD2026 - CIG: BD060CC682- CUP: // - CUI: // COD. UNIVOCO UFFICIO: GMRKTN",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "appalto"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10558871?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-08_01.pdf",
+        "chiari/chiari_2026-10-08_02.pdf.p7m",
+        "chiari/chiari_2026-10-08_03.pdf",
+        "chiari/chiari_2026-10-08_04.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-08|2026/1233|DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO D",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-08",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1233",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUENTI PRESTAZIONI: “LAVORI PER OPERE EDILI VARIE E REALIZZAZIONE ARMADIO PER DISTRIBUZIONE ELETTRICA ED OPERE ESTERNE PER L'IMMOBILE EX POLIGONO DI TIRO IN VIA ORTI N° 4 A CHIARI” MEDIANTE SCELTA DEL CONTRANTE CON AFFIDAMENTO DIRETTO ESPLETATO MEDIANTE LA PIATTAFORMA TELEMATICA DI EPROCUREMENT SINTEL DI REGIONE LOMBARDIA COD. ID UNIVOCO APPALTO: 0178AD2026 - CIG: BCD2CBDAA9 - CUP: D48I21000610004 - COD. UNIVOCO UFFICIO: K5QLPZ",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "appalto"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10558869?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-08_05.pdf",
+        "chiari/chiari_2026-10-08_06.pdf.p7m",
+        "chiari/chiari_2026-10-08_07.pdf",
+        "chiari/chiari_2026-10-08_08.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-14|2026/1258|MODIFICA PER MERO ERRORE MATERIALE DELLE DETERMINAZIONI DIRIGENZIALI N. 550 DEL ",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1258",
+      "oggetto": "MODIFICA PER MERO ERRORE MATERIALE DELLE DETERMINAZIONI DIRIGENZIALI N. 550 DEL 11/08/2026, N. 551 DEL 11/08/2026, N. 552 DEL 11/08/2026, DI VARIAZIONE E PROROGA DEI CONTRATTI DI AFFIDAMENTO DELLE ATTIVITÀ DEL PROGETTO \"ITINELAB - PERCORSI ED ESPERIENZE PER CRESCERE INSIEME\" A VALERE SUL BANDO REGIONALE \"SPRINT ! LOMBARDIA INSIEME\" - CUP D11H24000200006 – CIG: B789214FF5 - CIG B7F38E1210 - CIG B7EF49991A - .",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10570195?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-14_01.pdf",
+        "chiari/chiari_2026-10-14_02.pdf.p7m",
+        "chiari/chiari_2026-10-14_03.pdf",
+        "chiari/chiari_2026-10-14_04.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-16|2026/1285|DETERMINA A CONTRARRE ED AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 C.A. LETT B) ",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1285",
+      "oggetto": "DETERMINA A CONTRARRE ED AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 C.A. LETT B) DEL D.LGS. N. 36/2023 E SS.MM.II. PER L'ACQUISTO SUL ME.PA PER IL RINNOVO DI 12 MESI DELLA SOLUZIONE \"REVIT LT SUITE - N. 2 LICENZE\" - (CIG: BD54CBF4B7 N. GARA: 0200AD2026 ) - CODICE UFFICIO AF2RR3",
+      "parole": [
+        "affidamento",
+        "gara"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10576029?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-16_01.pdf",
+        "chiari/chiari_2026-10-16_02.pdf.p7m",
+        "chiari/chiari_2026-10-16_03.pdf",
+        "chiari/chiari_2026-10-16_04.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-16|2026/1280|DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO D",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1280",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUENTI PRESTAZIONI: SERVIZIO DI PERITO DI PARTE IN RELAZIONE AL SINISTRO EVENTI ATMOSFERICI DEL 28/08/2026 AI DANNI DEI BENI DI PROPRIETA' COMUNALE, POLIZZA IN ESSERE CON GROUPAMA N.115303939, MEDIANTE SCELTA DEL CONTRANTE CON AFFIDAMENTO DIRETTO, ESPLETATO MEDIANTE LA PIATTAFORMA TELEMATICA DI EPROCUREMENT SINTEL DI REGIONE LOMBARDIA COD. ID UNIVOCO APPALTO: 0182AD2026. - CIG: BD0A7AE510 COD. UNIVOCO UFFICIO: UF6WVF",
+      "parole": [
+        "affidamento",
+        "appalto"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10575921?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-16_05.pdf",
+        "chiari/chiari_2026-10-16_06.pdf.p7m",
+        "chiari/chiari_2026-10-16_07.pdf",
+        "chiari/chiari_2026-10-16_08.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-16|2026/1279|AFFIDAMENTO ALL'ANUTEL ETS DELL'ATTIVITÀ FORMATIVA OBBLIGATORIA PER LA NOMINA DE",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1279",
+      "oggetto": "AFFIDAMENTO ALL'ANUTEL ETS DELL'ATTIVITÀ FORMATIVA OBBLIGATORIA PER LA NOMINA DEI \"MESSI NOTIFICATORI\" AI SENSI DELLA LEGGE N. 296 DEL 27.12.2006, ART. 1 COMMI 158, 159, 160 E 161.",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10575920?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-16_09.pdf",
+        "chiari/chiari_2026-10-16_10.pdf.p7m",
+        "chiari/chiari_2026-10-16_11.pdf",
+        "chiari/chiari_2026-10-16_12.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-16|2026/1278|DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO D",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1278",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUENTI PRESTAZIONI: SERVIZIO PER INTERVENTI MANUTENTIVI AL PARCO VEICOLI DI PROPRIETA’ COMUNALE (OPERE DA MECCANICO, ELETTRAUTO, CARROZZIERE, GOMMISTA) COMPRESO ASSISTENZA, SOCCORSO STRADALE, REVISIONI PERIODICHE E PRATICHE AUTOMOBILISTICHE PER IL PERIODO 2026-2030 MEDIANTE SCELTA DEL CONTRANTE CON, AFFIDAMENTO DIRETTO, ESPLETATO MEDIANTE LA PIATTAFORMA TELEMATICA DI EPROCUREMENT SINTEL DI REGIONE LOMBARDIA COD. ID UNIVOCO APPALTO 0134AD2026- CIG: BD066438FF - CUP: // - CUI: //",
+      "parole": [
+        "affidamento",
+        "stradale",
+        "appalto"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10575919?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-16_13.pdf",
+        "chiari/chiari_2026-10-16_14.pdf.p7m",
+        "chiari/chiari_2026-10-16_15.pdf",
+        "chiari/chiari_2026-10-16_16.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-16|2026/1277|NOMINA DELLA COMMISSIONE GIUDICATRICE. PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUEN",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1277",
+      "oggetto": "NOMINA DELLA COMMISSIONE GIUDICATRICE. PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUENTI PRESTAZIONI: «REALIZZAZIONE DI AULA CORSI E AUTORIMESSA IN VIA SS TRINITA' CHIARI - (BS) - CUP D42B25002680006», MEDIANTE SCELTA DEL CONTRAENTE CON PROCEDURA NEGOZIATA SENZA BANDO, E SELEZIONE DELLE OFFERTE CON IL CRITERIO DELL’OFFERTA ECONOMICAMENTE PIU’ VANTAGGIOSA (OEPV) DA ESPLETARSI ATTRAVERSO LA PIATTAFORMA TELEMATICA DI EPROCUREMENT SINTEL DI REGIONE LOMBARDIA COD. ID UNIVOCO APPALTO: 0130PN2026 - COD.CIG: BC9E5E80CB - COD.CUP: D42B25002680006 - COD.CUI: /",
+      "parole": [
+        "appalto",
+        "procedura negoziata"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10575917?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-16_17.pdf",
+        "chiari/chiari_2026-10-16_18.pdf.p7m",
+        "chiari/chiari_2026-10-16_19.pdf",
+        "chiari/chiari_2026-10-16_20.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Chiari|2026-10-16|2026/1275|DETERMINA A CONTRARRE PROPEDEUTICA ALL’AVVIO DELLA MANIFESTAZIONI DI INTERESSE A",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1275",
+      "oggetto": "DETERMINA A CONTRARRE PROPEDEUTICA ALL’AVVIO DELLA MANIFESTAZIONI DI INTERESSE A PARTECIPARE AL SUCCESSIVO PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUENTI PRESTAZIONI: «COORDINAMENTO, GESTIONE E MONITORAGGIO DEI PROGETTI E INTERVENTI PREVISTI DAL PIANO DI ZONA DELL’AMBITO TERRITORIALE OGLIO OVEST E DELLE ATTIVITÀ IN CARICO ALL’UFFICIO DI PIANO», MEDIANTE SCELTA DEL CONTRAENTE CON PROCEDURA NEGOZIATA SENZA BANDO E SELEZIONE DELLE OFFERTE CON IL CRITERIO DELL’OFFERTA ECONOMICAMENTE PIU’ VANTAGGIOSA (OEPV) DA ESPLETARSI ATTRAVERSO LA PIATTAFORMA TELEMATICA DI EPROCUREMENT SINTEL DI REGIONE LOMBARDIA. COD. ID UNIVOCO APPALTO: 0194PN2026 - CUP: / - CUI: S00606990174202600003",
+      "parole": [
+        "appalto",
+        "interesse",
+        "procedura negoziata"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10575817?p_p_state=pop_up",
+      "allegati": [
+        "chiari/chiari_2026-10-16_21.pdf",
+        "chiari/chiari_2026-10-16_22.pdf.p7m",
+        "chiari/chiari_2026-10-16_23.pdf",
+        "chiari/chiari_2026-10-16_24.pdf.p7m"
+      ]
+    }
+  ],
+  "riepilogo": [
+    {
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/menu-albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: pagina vuota o non caricata",
-      "diagnosi": "pagina vuota o non caricata",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-palazzolo-sull-oglio.jpg"
+      "pagine": 6,
+      "letti": 118,
+      "trovati": 9,
+      "esito": "OK – 9 trovati",
+      "albo_lista": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=58400"
     }
   ]
 }
