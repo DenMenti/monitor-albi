@@ -1,25 +1,262 @@
 {
-  "quando": "2026-10-23_2341",
-  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-23_2341.xlsx",
-  "zip": "",
+  "quando": "2026-10-23_2357",
+  "esito": "11 determine trovate in 1 comuni, 61 allegati.",
+  "excel": "risultati/determine_2026-10-23_2357.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2357/allegati_2026-10-23_2357.zip",
   "cartella": "",
-  "risultati": [],
-  "riepilogo": [
+  "risultati": [
     {
-      "comune": "Collebeato",
+      "id": "BS|Concesio|2026-10-08|2026/1373|Lavori di ampliamento e ristrutturazione con demolizione della sede municipale n",
+      "comune": "Concesio",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017057",
+      "data": "2026-10-08",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1373",
+      "oggetto": "Lavori di ampliamento e ristrutturazione con demolizione della sede municipale nel Comune di Concesio (BS) - codice nuts: ITC47 - CUP D45E20005980006 - CIG MASTER: 9552151C5C - Presa d’atto dell’emissione dei SAL 1-BIS, 2-BIS, 3-BIS E 4-BIS per l'incremento dei costi dei materiali (ai sensi dell'art. 26 del D.L. n. 50 del 17.05.2022 e ss.mm.ii.) e dell'istanza di accesso al fondo per la prosecuzione delle opere pubbliche istituito presso il MIT (c.d. fondo adeguamento prezzi).",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10559003",
+      "allegati": [
+        "concesio/concesio_2026-10-08_01.pdf",
+        "concesio/concesio_2026-10-08_02.pdf",
+        "concesio/concesio_2026-10-08_03.pdf.p7m",
+        "concesio/concesio_2026-10-08_04.pdf",
+        "concesio/concesio_2026-10-08_05.pdf.p7m",
+        "concesio/concesio_2026-10-08_06.pdf",
+        "concesio/concesio_2026-10-08_07.pdf.p7m",
+        "concesio/concesio_2026-10-08_08.pdf",
+        "concesio/concesio_2026-10-08_09.p7m",
+        "concesio/concesio_2026-10-08_10.pdf",
+        "concesio/concesio_2026-10-08_11.p7m",
+        "concesio/concesio_2026-10-08_12.p7m",
+        "concesio/concesio_2026-10-08_13.p7m",
+        "concesio/concesio_2026-10-08_14.pdf",
+        "concesio/concesio_2026-10-08_15.pdf.p7m",
+        "concesio/concesio_2026-10-08_16.pdf",
+        "concesio/concesio_2026-10-08_17.pdf.p7m",
+        "concesio/concesio_2026-10-08_18.pdf",
+        "concesio/concesio_2026-10-08_19.pdf.p7m",
+        "concesio/concesio_2026-10-08_20.pdf",
+        "concesio/concesio_2026-10-08_21.pdf.p7m",
+        "concesio/concesio_2026-10-08_22.pdf",
+        "concesio/concesio_2026-10-08_23.pdf",
+        "concesio/concesio_2026-10-08_24.p7m",
+        "concesio/concesio_2026-10-08_25.pdf",
+        "concesio/concesio_2026-10-08_26.p7m",
+        "concesio/concesio_2026-10-08_27.pdf",
+        "concesio/concesio_2026-10-08_28.p7m",
+        "concesio/concesio_2026-10-08_29.pdf",
+        "concesio/concesio_2026-10-08_30.pdf.p7m",
+        "concesio/concesio_2026-10-08_31.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-13|2026/1404|PROCEDURA APERTA EX ART. 71 DEL D.LGS 36/2023 E S.M.I. PER L'AFFIDAMENTO DEI LAV",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1404",
+      "oggetto": "PROCEDURA APERTA EX ART. 71 DEL D.LGS 36/2023 E S.M.I. PER L'AFFIDAMENTO DEI LAVORI DI “REALIZZAZIONE DELLA STRADA DI ACCESSO AL DEPURATORE DELLA VALLE TROMPIA IN VIA FALCONE – CUP D41B25000120009” – CIG BCEFC07C20. PROROGA TERMINI PER LA PRESENTAZIONE DELLE OFFERTE (ART. 92 DEL D.LGS. N. 36/2023)",
+      "parole": [
+        "lavori",
+        "affidamento"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10568178",
+      "allegati": [
+        "concesio/concesio_2026-10-13_01.pdf",
+        "concesio/concesio_2026-10-13_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-13|2026/1401|AFFIDAMENTO DIRETTO AI SENSI DELL'ART 50, COMMA 1, LETT B) DEL D.LGS. 36/2023 PE",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1401",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART 50, COMMA 1, LETT B) DEL D.LGS. 36/2023 PER IL SERVIZIO DI REVISIONE GRU DEL MEZZO NISSAN CB007FX- CIG BD4FDE310E",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10568175",
+      "allegati": [
+        "concesio/concesio_2026-10-13_03.pdf",
+        "concesio/concesio_2026-10-13_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-14|2026/1417|PRESA D'ATTO E CONFERMA DELLA LIQUIDAZIONE DELL’INCARICO RETRIBUITO PER ATTIVITA",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1417",
+      "oggetto": "PRESA D'ATTO E CONFERMA DELLA LIQUIDAZIONE DELL’INCARICO RETRIBUITO PER ATTIVITA' OCCASIONALE, AI SENSI DELL'ART. 53 D.LGS. 165/2001, ALL’ING. DONATO FONTANA PER LE ATTIVITA’ DI VERIFICA DELLA PROGETTAZIONE ESECUTIVA, EX ART. 42 DEL D.LGS. N. 36/2023, PER LA REALIZZAZIONE DELL’OPERA PUBBLICA “STRADA DI ACCESSO AL DEPURATORE DELLA VALLE TROMPIA IN VIA FALCONE – CUP D41B25000120009” – CIG BA74FF4D62.",
+      "parole": [
+        "progettazione",
+        "incarico"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10569609",
+      "allegati": [
+        "concesio/concesio_2026-10-14_01.pdf",
+        "concesio/concesio_2026-10-14_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-15|2026/1430|Nomina commissione giudicatrice ai sensi dell’art. 93 D.Lgs n. 36/2023 per la pr",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1430",
+      "oggetto": "Nomina commissione giudicatrice ai sensi dell’art. 93 D.Lgs n. 36/2023 per la procedura aperta ex art. 71 del D.Lgs. n. 36/2023 e s.m.i. per l'affidamento dei lavori di “Realizzazione della strada di accesso al depuratore della Valle Trompia in via Falcone – CUP D41B25000120009” - CIG: BCEFC07C20” mediante criterio dell’offerta economicamente più vantaggiosa, ai sensi dell’art. 108, commi 1 e 4.",
+      "parole": [
+        "lavori",
+        "affidamento"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10574391",
+      "allegati": [
+        "concesio/concesio_2026-10-15_01.pdf",
+        "concesio/concesio_2026-10-15_02.pdf",
+        "concesio/concesio_2026-10-15_03.pdf.p7m",
+        "concesio/concesio_2026-10-15_04.pdf",
+        "concesio/concesio_2026-10-15_05.pdf",
+        "concesio/concesio_2026-10-15_06.pdf",
+        "concesio/concesio_2026-10-15_07.pdf",
+        "concesio/concesio_2026-10-15_08.pdf.p7m",
+        "concesio/concesio_2026-10-15_09.pdf",
+        "concesio/concesio_2026-10-15_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-15|2026/1427|ASSUNZIONE A TEMPO PIENO ED INDETERMINATO DELLA SIG.RA TREZZA CLAUDIA IN QUALITA",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1427",
+      "oggetto": "ASSUNZIONE A TEMPO PIENO ED INDETERMINATO DELLA SIG.RA TREZZA CLAUDIA IN QUALITA’ DI FUNZIONARIO TECNICO (AREA DEI FUNZIONARI ED EQ) PRESSO IL SETTORE EDILIZIA ED ECOLOGIA DEL COMUNE DI CONCESIO.",
+      "parole": [
+        "edilizia"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10574386",
+      "allegati": [
+        "concesio/concesio_2026-10-15_11.pdf",
+        "concesio/concesio_2026-10-15_12.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-19|2026/1439|DETERMINA A CONTRARRE PER L'AFFIDAMENTO DEL SERVIZIO DI CONNETTIVITA DELLE SEDI ",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-19",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1439",
+      "oggetto": "DETERMINA A CONTRARRE PER L'AFFIDAMENTO DEL SERVIZIO DI CONNETTIVITA DELLE SEDI SCOLASTICHE (01/10/2026-31/07/2028) CIG BD2BFC16F7",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10578123",
+      "allegati": [
+        "concesio/concesio_2026-10-19_01.pdf",
+        "concesio/concesio_2026-10-19_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-19|2026/1437|DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER LA FORNITURA DI UN SISTEMA ",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-19",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1437",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER LA FORNITURA DI UN SISTEMA DI VIDEOCONFERENZA PER LA SALA RIUNIONI. CIG BD18DBF069",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10578121",
+      "allegati": [
+        "concesio/concesio_2026-10-19_03.pdf",
+        "concesio/concesio_2026-10-19_04.pdf",
+        "concesio/concesio_2026-10-19_05.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-19|2026/1436|DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER SERVIZIO DI FORMAZIONE SUGL",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-19",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1436",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO PER SERVIZIO DI FORMAZIONE SUGLI APPLICATIVI DEL SISTEMA GESTIONALE DELL'ENTE - CIG BD42995E00",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10578120",
+      "allegati": [
+        "concesio/concesio_2026-10-19_06.pdf",
+        "concesio/concesio_2026-10-19_07.pdf",
+        "concesio/concesio_2026-10-19_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-20|2026/1447|ACCERTAMENTO DELLE ENTRATE PER RICHIESTE DI ACCESSO AGLI ATTI - INFORTUNISTICA S",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1447",
+      "oggetto": "ACCERTAMENTO DELLE ENTRATE PER RICHIESTE DI ACCESSO AGLI ATTI - INFORTUNISTICA STRADALE - MAGGIO/SETTEMBRE 2026",
+      "parole": [
+        "stradale"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10582992",
+      "allegati": [
+        "concesio/concesio_2026-10-20_01.pdf",
+        "concesio/concesio_2026-10-20_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Concesio|2026-10-22|2026/1454|DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO, AI SENSI DELL' ART. 50 DEL D.LGS. 3",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1454",
+      "oggetto": "DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO, AI SENSI DELL' ART. 50 DEL D.LGS. 36/2023, DELLA FORNITURA DI UNA MEDAGLIA - CIG: BD6EFF4581",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10588464",
+      "allegati": [
+        "concesio/concesio_2026-10-22_01.pdf",
+        "concesio/concesio_2026-10-22_02.pdf"
+      ]
+    }
+  ],
+  "riepilogo": [
+    {
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: pagina vuota o non caricata",
-      "diagnosi": "pagina vuota o non caricata",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-collebeato.jpg"
+      "pagine": 6,
+      "letti": 103,
+      "trovati": 11,
+      "esito": "OK – 11 trovati"
     }
   ]
 }
