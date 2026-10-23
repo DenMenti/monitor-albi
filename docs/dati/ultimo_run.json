@@ -1,25 +1,25 @@
 {
-  "quando": "2026-10-23_2244",
+  "quando": "2026-10-23_2248",
   "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-23_2244.xlsx",
+  "excel": "risultati/determine_2026-10-23_2248.xlsx",
   "zip": "",
   "cartella": "",
   "risultati": [],
   "riepilogo": [
     {
-      "comune": "Ghedi",
+      "comune": "Lonato del Garda",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://ghedi.halleyweb.it/c017078/index.php?servizio=304",
+      "albo": "https://www.comune.lonato.bs.it/albo-pretorio",
       "dal": "2026-09-06",
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Errore: pagina vuota o non caricata",
-      "diagnosi": "pagina vuota o non caricata",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-ghedi.jpg"
+      "esito": "Nessuna riga letta: bloccato dal sito (protezione anti-robot)",
+      "diagnosi": "bloccato dal sito (protezione anti-robot)",
+      "diag_stato": 403,
+      "diag_url": "https://servizionline.comune.lonato.bs.it/openweb/albo/albo_pretorio.php",
+      "screenshot": "BS-lonato-del-garda.jpg"
     }
   ]
 }
