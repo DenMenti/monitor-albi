@@ -129,37 +129,6 @@
       "quando": "2026-10-23_2122"
     }
   },
-  "BS|Botticino|2026-10-20|2026/1112|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI RE": {
-    "stato": "fissato",
-    "quando": "2026-10-23T21:27:06.323Z",
-    "atto": {
-      "id": "BS|Botticino|2026-10-20|2026/1112|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI RE",
-      "comune": "Botticino",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-20",
-      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
-      "numero": "2026/1112",
-      "oggetto": "DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI REDAZIONE PROGETTO ESECUTIVO, DIREZIONE LAVORI, CONTABILITÀ, COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE PER LE \"OPERE DI MESSA IN SICUREZZA DELLA COPERTURA E DELLE SCALE DI EMERGENZA DELLA PALESTRA COMUNALE DELLA SCUOLA SECONDARIA DI PRIMO GRADO ‘G. SCALVINI’ IN BOTTICINO (BS)\" - CUP G22H26000370004 CIG. BD56762FEB",
-      "parole": [
-        "lavori",
-        "affidamento",
-        "progettazione",
-        "incarico",
-        "progetto",
-        "esecutivo"
-      ],
-      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456595?p_p_state=pop_up",
-      "allegati": [
-        "botticino/botticino_2026-10-20_01.pdf.p7m",
-        "botticino/botticino_2026-10-20_02.pdf",
-        "botticino/botticino_2026-10-20_03.pdf.p7m",
-        "botticino/botticino_2026-10-20_04.pdf"
-      ],
-      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2320/allegati_2026-10-23_2320.zip",
-      "quando": "2026-10-23_2320"
-    }
-  },
   "BS|Botticino|2026-10-20|2026/1110|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE PER R": {
     "stato": "fissato",
     "quando": "2026-10-23T21:27:14.241Z",
