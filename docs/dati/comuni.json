@@ -18,12 +18,13 @@
     "provincia": "Brescia",
     "sigla": "BS",
     "sito": "https://www.comune.adro.bs.it/",
-    "albo": "https://www.comune.adro.bs.it/albo-pretorio",
+    "albo": "https://www.halleyegov.it/c017002/mc/mc_p_ricerca.php",
     "altri": [
       "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=dr1543"
     ],
     "piattaforma": "",
-    "note": ""
+    "note": "link corretto a mano",
+    "manuale": true
   },
   {
     "nome": "Agnosine",
@@ -615,10 +616,11 @@
     "provincia": "Brescia",
     "sigla": "BS",
     "sito": "https://www.comune.cellatica.bs.it/",
-    "albo": "http://halleyweb.com/c017048/mc/mc_p_ricerca.php",
+    "albo": "https://www.halleyweb.com/c017048/mc/mc_p_ricerca.php",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "link corretto a mano",
+    "manuale": true
   },
   {
     "nome": "Cerveno",

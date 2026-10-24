@@ -315,6 +315,16 @@ class Motore:
             time.sleep(attesa - trascorso)
         self._ultimo_accesso[base] = time.time()
 
+    @staticmethod
+    def _variante_url(url):
+        """http://halleyweb.com/... -> https://www.halleyweb.com/... (molti siti hanno cambiato indirizzo)."""
+        u = urlparse(url)
+        host = u.hostname or ""
+        nuovo_host = host if host.startswith("www.") or host.count(".") > 1 else "www." + host
+        if u.scheme == "https" and nuovo_host == host:
+            return ""
+        return u._replace(scheme="https", netloc=nuovo_host + (f":{u.port}" if u.port else "")).geturl()
+
     def _apri(self, page, url, attesa=1500, cortese=False, veloce=False):
         if cortese:
             self._pausa_cortesia(url)
@@ -335,6 +345,15 @@ class Motore:
                     raise
                 self.log("  pagina lenta, riprovo…")
                 page.wait_for_timeout(5000)
+            except Exception as e:
+                # indirizzo vecchio (http, senza www): provo le varianti prima di arrendermi
+                if not re.search(r"ERR_CONNECTION|ERR_SSL|ERR_NAME_NOT_RESOLVED|ERR_ADDRESS|ERR_TIMED_OUT", str(e)):
+                    raise
+                alternativa = self._variante_url(url)
+                if not alternativa or tentativo == 2:
+                    raise
+                self.log(f"  {urlparse(url).hostname} non risponde, provo {alternativa}")
+                url = alternativa
         try:
             page.wait_for_load_state("networkidle", timeout=3000 if veloce else 8000)
         except PWTimeout:
