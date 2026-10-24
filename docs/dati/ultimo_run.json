@@ -1,204 +1,414 @@
 {
-  "quando": "2026-10-24_1035",
-  "esito": "8 determine trovate in 1 comuni, 46 allegati.",
-  "excel": "risultati/determine_2026-10-24_1035.xlsx",
-  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1035/allegati_2026-10-24_1035.zip",
+  "quando": "2026-10-24_1042",
+  "esito": "18 determine trovate in 1 comuni, 92 allegati.",
+  "excel": "risultati/determine_2026-10-24_1042.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1042/allegati_2026-10-24_1042.zip",
   "cartella": "",
   "risultati": [
     {
-      "id": "BS|Salò|2026-10-12|2026/1270|AFFIDAMENTO FORNITURA LIBRO “IL NUOVO PROCEDIMENTO AMMINISTRATIVO DOPO LA LEGGE ",
-      "comune": "Salò",
+      "id": "BS|Sirmione|2026-10-09|2026/1438|RIVA ARREDAMENTI SPA- FORNITURA DI ARREDO PER LA SALA VIRGILIO NELLA SEDE COMUNA",
+      "comune": "Sirmione",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-12",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1270",
-      "oggetto": "AFFIDAMENTO FORNITURA LIBRO “IL NUOVO PROCEDIMENTO AMMINISTRATIVO DOPO LA LEGGE N.1/2026” - MAGGIOLI EDITORE CIG B85EAAC655",
+      "data": "2026-10-09",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1438",
+      "oggetto": "RIVA ARREDAMENTI SPA- FORNITURA DI ARREDO PER LA SALA VIRGILIO NELLA SEDE COMUNALE-AFFIDAMENTO DIRETTO– CIG: BCFFD18F6D",
       "parole": [
         "affidamento"
       ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8441773?p_p_state=pop_up",
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5702584?p_auth=vSMog7Ph&p_p_state=pop_up",
       "allegati": [
-        "salo/salo_2026-10-12_01.pdf.p7m",
-        "salo/salo_2026-10-12_02.pdf",
-        "salo/salo_2026-10-12_03.pdf.p7m",
-        "salo/salo_2026-10-12_04.pdf"
+        "sirmione/sirmione_2026-10-09_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-09_02.pdf",
+        "sirmione/sirmione_2026-10-09_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-09_04.pdf"
       ]
     },
     {
-      "id": "BS|Salò|2026-10-15|2026/1291|AGGIUDICAZIONE PROCEDURA RELATIVA AI LAVORI DI “AGGIORNAMNETO IMPIANTO ANTINCEND",
-      "comune": "Salò",
+      "id": "BS|Sirmione|2026-10-09|2026/1435|GIELLE FORNITURE ALBERGHIERE DI LUSCIA GIOVANNI,-DETERMINAZIONE A CONTRATTARE E ",
+      "comune": "Sirmione",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1291",
-      "oggetto": "AGGIUDICAZIONE PROCEDURA RELATIVA AI LAVORI DI “AGGIORNAMNETO IMPIANTO ANTINCENDIO E RIFUNZIONALIZZAZIONE DELL’IMMOBILE EX COLLEGIO CIVICO -MU.SA.” – CUP: I58C26000020004 CIG: BCB240A8D9",
+      "data": "2026-10-09",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1435",
+      "oggetto": "GIELLE FORNITURE ALBERGHIERE DI LUSCIA GIOVANNI,-DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL DLGS N.36/2023, DELLA FORNITURA DI ATTREZZATURE CENTRO COTTURA A SERVIZIO DELLE MENSE DELLE SCUOLA PRIMARIA E SECONDARIA DI PRIMO GRADO DI SIRMIONE DELLA SCUOLA PRIMARIA BENEDETTA BIANCHI PORRO NEL COMUNE DI SIRMIONE – CIG BD0F995B92.",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5702217?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-09_05.pdf.p7m",
+        "sirmione/sirmione_2026-10-09_06.pdf",
+        "sirmione/sirmione_2026-10-09_07.pdf.p7m",
+        "sirmione/sirmione_2026-10-09_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-12|2026/1441|LABORATORIO “MOLOM - GLI SPAZI DEL SILENZIO”. AFFIDAMENTO DIRETTO DEL SERVIZIO D",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-12",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1441",
+      "oggetto": "LABORATORIO “MOLOM - GLI SPAZI DEL SILENZIO”. AFFIDAMENTO DIRETTO DEL SERVIZIO DI ORGANIZZAZIONE E GESTIONE AI SENSI DELL' ART. 50 COMMA 1 LETT. B) DEL D.LGD. 36/2023 - CIG: BD318F53D5",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5705037?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-12_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-12_02.pdf",
+        "sirmione/sirmione_2026-10-12_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-12_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-13|2026/1460|AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SERENA ASSISTENZA\" DEL SE",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1460",
+      "oggetto": "AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SERENA ASSISTENZA\" DEL SERVIZIO DI “ASSISTENZA MENSA SCOLASTICA” PER LA SCUOLA PRIMARIA PERIODO: 14 SETTEMBRE 2026 - 8 GIUGNO 2028 CIG BC88A1F070",
+      "parole": [
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5708595?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-13_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-13_02.pdf",
+        "sirmione/sirmione_2026-10-13_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-13_04.pdf",
+        "sirmione/sirmione_2026-10-13_05.pdf",
+        "sirmione/sirmione_2026-10-13_06.pdf",
+        "sirmione/sirmione_2026-10-13_07.pdf",
+        "sirmione/sirmione_2026-10-13_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-13|2026/1443|ANAC - PAGAMENTO QUOTA ANAC AFFIDAMENTO ACQUISTO DI SERVIZIO IGIENICO AUTOMATIZZ",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1443",
+      "oggetto": "ANAC - PAGAMENTO QUOTA ANAC AFFIDAMENTO ACQUISTO DI SERVIZIO IGIENICO AUTOMATIZZATO AUTOPULENTE IN SIRMIONE - CIG .BCC91FA409-",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5707053?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-13_09.pdf.p7m",
+        "sirmione/sirmione_2026-10-13_10.pdf",
+        "sirmione/sirmione_2026-10-13_11.pdf.p7m",
+        "sirmione/sirmione_2026-10-13_12.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-14|2026/1463|SERVICE AUDIO LUCI IN OCCASIONE DELLA PRESENTAZIONE DEL BOOK4 DELLA SIRMIONE PHO",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1463",
+      "oggetto": "SERVICE AUDIO LUCI IN OCCASIONE DELLA PRESENTAZIONE DEL BOOK4 DELLA SIRMIONE PHOTO RESIDENCY “VISTE DA LAGO DI GARDA”. AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 D.LGS N. 36/2023 DEL SERVIZIO. CIG: BD2E43D295",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5713124?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-14_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-14_02.pdf",
+        "sirmione/sirmione_2026-10-14_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-14_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-16|2026/1487|SANITARIA SERVIZI SRL- – LAVORI DI MANUTENZIONE STRAORDINARIA DEL CIMITERO COMUN",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1487",
+      "oggetto": "SANITARIA SERVIZI SRL- – LAVORI DI MANUTENZIONE STRAORDINARIA DEL CIMITERO COMUNALE –DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL DLGS N.36/2023 - CIG BD27BD7B94",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5718894?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-16_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_02.pdf",
+        "sirmione/sirmione_2026-10-16_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-16|2026/1484|SIRMIOGOMME DI LIMARDO VALERIO E C. SAS-DETERMINAZIONE A CONTRATTARE E AFFIDAMEN",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1484",
+      "oggetto": "SIRMIOGOMME DI LIMARDO VALERIO E C. SAS-DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL DLGS N.36/2023, SERVIZIO DI MANUTENZIONE, FORNITURA E MONTAGGIO DI PNEUMATICI PER PARCO MEZZI COMUNALE - ANNI 2024 -2025 – 2026 - CIG B0A2DC17B2-INTEGRAZIONE IMPEGNI DI SPESA",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5718262?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-16_05.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_06.pdf",
+        "sirmione/sirmione_2026-10-16_07.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-16|2026/1482|IL QUADRIFOGLIO COOP.SOC.TIPO B-AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DELLE A",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1482",
+      "oggetto": "IL QUADRIFOGLIO COOP.SOC.TIPO B-AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DELLE AREE VERDI COMUNALI CON CONVENZIONE CON COOP. SOC. TIPO B-SFALCIO PRATI - DAL 01.07.2026 AL 31.12.2028 - CIG BBE6F19F53 - AGGIUDICAZIONE EFFICACE",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5718258?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-16_09.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_10.pdf",
+        "sirmione/sirmione_2026-10-16_11.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_12.pdf",
+        "sirmione/sirmione_2026-10-16_13.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_14.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-16|2026/1481|SOLESERENO COOP.SOC.TIPO B- AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DELLE AREE ",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1481",
+      "oggetto": "SOLESERENO COOP.SOC.TIPO B- AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DELLE AREE VERDI COMUNALI CON CONVENZIONE CON COOP. SOC. TIPO B -AIUOLE FIORITE-DAL 01.08.2026 AL 31.12.2028 - CIG BC0E1A7BF2- AGGIUDICAZIONE EFFICACE",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5718256?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-16_15.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_16.pdf",
+        "sirmione/sirmione_2026-10-16_17.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_18.pdf",
+        "sirmione/sirmione_2026-10-16_19.pdf.p7m",
+        "sirmione/sirmione_2026-10-16_20.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-20|2026/1502|PRESA D'ATTO AGGIUDICAZIONE DEFINITIVA DELLA C.U.C. - LAVORI DI MANUTENZIONE ED ",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1502",
+      "oggetto": "PRESA D'ATTO AGGIUDICAZIONE DEFINITIVA DELLA C.U.C. - LAVORI DI MANUTENZIONE ED AMPLIAMENTO DI PAVIMENTAZIONI CARRABILI - PEDONALI DISSEMINATE IN VARIE LOCALIZZAZIONI DEL TERRITORIO – ANNO 2026 - CUP F57H26000740004- CIG: BC9AB0BD72 - APPALTATORE: NUOVA PRATI S.R.L.",
+      "parole": [
+        "lavori",
+        "manutenzione",
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5724987?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-20_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_02.pdf",
+        "sirmione/sirmione_2026-10-20_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-20|2026/1501|AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “LA SORGENTE\" DEL SERVIZIO",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1501",
+      "oggetto": "AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “LA SORGENTE\" DEL SERVIZIO DI “LUDOTECA\" PRESSO LA SCUOLA PRIMARIA DI SIRMIONE SETTEMBRE 2026 GIUGNO 2028 CIG BC88F99566",
+      "parole": [
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5724600?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-20_05.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_06.pdf",
+        "sirmione/sirmione_2026-10-20_07.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_08.pdf",
+        "sirmione/sirmione_2026-10-20_09.pdf",
+        "sirmione/sirmione_2026-10-20_10.pdf",
+        "sirmione/sirmione_2026-10-20_11.pdf",
+        "sirmione/sirmione_2026-10-20_12.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-20|2026/1500|AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “LA SORGENTE\" DEL SERVIZIO",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1500",
+      "oggetto": "AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “LA SORGENTE\" DEL SERVIZIO DI “PRESCUOLA” PER LA SCUOLA PRIMARIA PERIODO SETTEMBRE 2026 - GIUGNO 2028 CIG: BC890706D2",
+      "parole": [
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5724465?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-20_13.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_14.pdf",
+        "sirmione/sirmione_2026-10-20_15.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_16.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-20|2026/1499|AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SERENA ASSISTENZA\" DEL SE",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1499",
+      "oggetto": "AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SERENA ASSISTENZA\" DEL SERVIZIO DI \"PEDIBUS\" PRESSO LA SCUOLA PRIMARIA DI SIRMIONE SETTEMBRE 2026 GIUGNO 2028 CIG: BC890FFCD2",
+      "parole": [
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5724463?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-20_17.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_18.pdf",
+        "sirmione/sirmione_2026-10-20_19.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_20.pdf",
+        "sirmione/sirmione_2026-10-20_21.pdf",
+        "sirmione/sirmione_2026-10-20_22.pdf",
+        "sirmione/sirmione_2026-10-20_23.pdf",
+        "sirmione/sirmione_2026-10-20_24.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-20|2026/1498|AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SERENA ASSISTENZA\" DEL SE",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1498",
+      "oggetto": "AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SERENA ASSISTENZA\" DEL SERVIZIO DI “\"ASSISTENZA SCUOLABUS\" PER LA SCUOLA DELL’INFANZIA, PRIMARIA E SECONDARIA DI PRIMO GRADO PER IL PERIODO SETTEMBRE 2026 – GIUGNO 2028. CIG BC88E2E9D6",
+      "parole": [
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5724461?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-20_25.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_26.pdf",
+        "sirmione/sirmione_2026-10-20_27.pdf.p7m",
+        "sirmione/sirmione_2026-10-20_28.pdf",
+        "sirmione/sirmione_2026-10-20_29.pdf",
+        "sirmione/sirmione_2026-10-20_30.pdf",
+        "sirmione/sirmione_2026-10-20_31.pdf",
+        "sirmione/sirmione_2026-10-20_32.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-21|2026/1510|DETERMINAZIONE A CONTRARRE E CONTESTUALE AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIR",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1510",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/2023, DEL SERVIZIO RELATIVO ALLA PRESTAZIONE PROFESSIONALE PER LA REDAZIONE DEL PIANO DELLA DISCIPLINA PARTICOLAREGGIATA DEL CENTRO STORICO DI SIRMIONE E DEL CENTRO STORICO DI ROVIZZA PIANO NUCLEI DI ANTICA FORMAZIONE (NAF) CIG: BD07D660D2",
+      "parole": [
+        "affidamento",
+        "aggiudicazione"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5728059?p_auth=vSMog7Ph&p_p_state=pop_up",
+      "allegati": [
+        "sirmione/sirmione_2026-10-21_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-21_02.pdf",
+        "sirmione/sirmione_2026-10-21_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-21_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Sirmione|2026-10-22|2026/1520|PRESA D'ATTO AGGIUDICAZIONE DEFINITIVA DELLA C.U.C. - LAVORI DI MESSA IN SICUREZ",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1520",
+      "oggetto": "PRESA D'ATTO AGGIUDICAZIONE DEFINITIVA DELLA C.U.C. - LAVORI DI MESSA IN SICUREZZA DEI VERSANTI ROCCIOSI E MITIGAZIONE DEL RISCHIO IDROGEOLOGICO DI UN TRATTO DI VIA PIANA FRA I CIVICI 18 E 32 DEL COMUNE DI SIRMIONE (BS). CUP: F58E25000180004 - CIG: BCB3130291 - APPALTATORE: BERING SRL",
       "parole": [
         "lavori",
         "aggiudicazione"
       ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8449730?p_p_state=pop_up",
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5732555?p_auth=vSMog7Ph&p_p_state=pop_up",
       "allegati": [
-        "salo/salo_2026-10-15_01.pdf.p7m",
-        "salo/salo_2026-10-15_02.pdf",
-        "salo/salo_2026-10-15_03.pdf.p7m",
-        "salo/salo_2026-10-15_04.pdf",
-        "salo/salo_2026-10-15_05.pdf.p7m",
-        "salo/salo_2026-10-15_06.pdf",
-        "salo/salo_2026-10-15_07.pdf.p7m",
-        "salo/salo_2026-10-15_08.pdf",
-        "salo/salo_2026-10-15_09.pdf",
-        "salo/salo_2026-10-15_10.pdf",
-        "salo/salo_2026-10-15_11.pdf",
-        "salo/salo_2026-10-15_12.pdf",
-        "salo/salo_2026-10-15_13.pdf",
-        "salo/salo_2026-10-15_14.pdf"
+        "sirmione/sirmione_2026-10-22_01.pdf.p7m",
+        "sirmione/sirmione_2026-10-22_02.pdf",
+        "sirmione/sirmione_2026-10-22_03.pdf.p7m",
+        "sirmione/sirmione_2026-10-22_04.pdf"
       ]
     },
     {
-      "id": "BS|Salò|2026-10-15|2026/1285|AUTORIZZAZIONE ALLA CORRESPONSIONE DELL'ANTICIPAZIONE DEL PREZZO AI SENSI DELL'A",
-      "comune": "Salò",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-15",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1285",
-      "oggetto": "AUTORIZZAZIONE ALLA CORRESPONSIONE DELL'ANTICIPAZIONE DEL PREZZO AI SENSI DELL'ART. 125 D.LGS. 36/2023 RELATIVAMENTE ALL’OPERA PUBBLICA “LAVORI DI MESSA IN SICUREZZA TRATTO STRADA INTERVALLIVA TRA VIA PANORAMICA E VIA SERNIGA” CUP: I56C23000070006 - CIG: B7DBFC1B6C",
-      "parole": [
-        "lavori"
-      ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8448483?p_p_state=pop_up",
-      "allegati": [
-        "salo/salo_2026-10-15_15.pdf.p7m",
-        "salo/salo_2026-10-15_16.pdf",
-        "salo/salo_2026-10-15_17.pdf.p7m",
-        "salo/salo_2026-10-15_18.pdf"
-      ]
-    },
-    {
-      "id": "BS|Salò|2026-10-19|2026/1303|ASTA PUBBLICA PER L'ALIENAZIONE DI IMMOBILE DI PROPRIETÀ COMUNALE UBICATO IN VIA",
-      "comune": "Salò",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-19",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1303",
-      "oggetto": "ASTA PUBBLICA PER L'ALIENAZIONE DI IMMOBILE DI PROPRIETÀ COMUNALE UBICATO IN VIA GASPARO DA SALÒ ANGOLO VIA TRIESTE (FG. 32, PART. 2013). PRESA D'ATTO VERBALE DI GARA, AGGIUDICAZIONE DEFINITIVA A FAVORE DELLA \"FONDAZIONE CITTÀ DI SALÒ\" E PREVISIONE DI PARTECIPAZIONE AL ROGITO NOTARILE.",
-      "parole": [
-        "gara",
-        "aggiudicazione"
-      ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8454367?p_p_state=pop_up",
-      "allegati": [
-        "salo/salo_2026-10-19_01.pdf.p7m",
-        "salo/salo_2026-10-19_02.pdf",
-        "salo/salo_2026-10-19_03.pdf.p7m",
-        "salo/salo_2026-10-19_04.pdf",
-        "salo/salo_2026-10-19_05.p7m",
-        "salo/salo_2026-10-19_06.pdf"
-      ]
-    },
-    {
-      "id": "BS|Salò|2026-10-20|2026/1308|AGGIUDICAZIONE PROCEDURA PER L’AFFIDAMENTO DELL’INCARICO PER IL SERVIZIO DI REDA",
-      "comune": "Salò",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-20",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1308",
-      "oggetto": "AGGIUDICAZIONE PROCEDURA PER L’AFFIDAMENTO DELL’INCARICO PER IL SERVIZIO DI REDAZIONE DI PERIZIE ESTIMATIVE INERENTI ALLE RICHIESTE DI TRASFORMAZIONE DEI DIRITTI REALI SU AREE DI PROPRIETÀ DELL’AMMINISTRAZIONE COMUNALE - CIG: BD5F2F09F4",
-      "parole": [
-        "affidamento",
-        "incarico",
-        "aggiudicazione"
-      ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456359?p_p_state=pop_up",
-      "allegati": [
-        "salo/salo_2026-10-20_01.pdf.p7m",
-        "salo/salo_2026-10-20_02.pdf",
-        "salo/salo_2026-10-20_03.pdf.p7m",
-        "salo/salo_2026-10-20_04.pdf",
-        "salo/salo_2026-10-20_05.pdf.p7m",
-        "salo/salo_2026-10-20_06.pdf"
-      ]
-    },
-    {
-      "id": "BS|Salò|2026-10-21|2026/1313|DETERMINAZIONE A CONTRARRE PER L’AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER LA ",
-      "comune": "Salò",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-21",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1313",
-      "oggetto": "DETERMINAZIONE A CONTRARRE PER L’AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER LA PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA, PROGETTAZIONE ESECUTIVA E COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE PER L’OPERA PUBBLICA DENOMINATA “INTERVENTO DI ADEGUAMENTO FUNZIONALE E RIQUALIFICAZIONE ENERGETICA DELLA SCUOLA DELL'INFANZIA F.LLI CERVI”. CUP: I54E21000940001",
-      "parole": [
-        "affidamento",
-        "progettazione",
-        "incarico",
-        "intervento"
-      ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8458592?p_p_state=pop_up",
-      "allegati": [
-        "salo/salo_2026-10-21_01.pdf.p7m",
-        "salo/salo_2026-10-21_02.pdf",
-        "salo/salo_2026-10-21_03.pdf.p7m",
-        "salo/salo_2026-10-21_04.pdf"
-      ]
-    },
-    {
-      "id": "BS|Salò|2026-10-22|2026/1322|APPROVAZIONE PRIMO STATO AVANZAMENTO LAVORI E CERTIFICATO DI PAGAMENTO RELATIVO ",
-      "comune": "Salò",
+      "id": "BS|Sirmione|2026-10-22|2026/1515|PRESA D'ATTO DELL'AGGIUDICAZIONE DISPOSTA DALLA CENTRALE UNICA DI COMMITTENZA DE",
+      "comune": "Sirmione",
       "sigla": "BS",
       "provincia": "Brescia",
       "data": "2026-10-22",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1322",
-      "oggetto": "APPROVAZIONE PRIMO STATO AVANZAMENTO LAVORI E CERTIFICATO DI PAGAMENTO RELATIVO AI LAVORI DI “SPBS572 DI SALÒ - RIQUALIFICAZIONE DELL’INTERSEZIONE AL KM 6+922 CON VIA ENRICO FERMI”. CUP I51B24000550007- CIG: BBB627178C",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1515",
+      "oggetto": "PRESA D'ATTO DELL'AGGIUDICAZIONE DISPOSTA DALLA CENTRALE UNICA DI COMMITTENZA DELLA COMUNITÀ MONTANA DI VALLE SABBIA A FAVORE DI VIVENDA S.P.A. DEL SERVIZIO DI REFEZIONE SCOLASTICA PER GLI ANNI SCOLASTICI 2026/2027 – 2027/2028 – 2028/2029, PERIODO 14/09/2026 – 08/06/2029. RIDETERMINAZIONE DEGLI IMPEGNI DI SPESA. CIG BC61F05A57.",
       "parole": [
-        "lavori"
+        "aggiudicazione"
       ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8461533?p_p_state=pop_up",
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5731383?p_auth=vSMog7Ph&p_p_state=pop_up",
       "allegati": [
-        "salo/salo_2026-10-22_01.pdf.p7m",
-        "salo/salo_2026-10-22_02.pdf",
-        "salo/salo_2026-10-22_03.pdf.p7m",
-        "salo/salo_2026-10-22_04.pdf"
-      ]
-    },
-    {
-      "id": "BS|Salò|2026-10-22|2026/1321|AFFIDAMENTO AL CENTRO AGRICOLO GARDESANO PER ALLESTIMENTO CIMITERO CIG BD6D2828F",
-      "comune": "Salò",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "ATTI / DETERMINAZIONI",
-      "numero": "2026/1321",
-      "oggetto": "AFFIDAMENTO AL CENTRO AGRICOLO GARDESANO PER ALLESTIMENTO CIMITERO CIG BD6D2828F2",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8461531?p_p_state=pop_up",
-      "allegati": [
-        "salo/salo_2026-10-22_05.pdf.p7m",
-        "salo/salo_2026-10-22_06.pdf",
-        "salo/salo_2026-10-22_07.pdf.p7m",
-        "salo/salo_2026-10-22_08.pdf"
+        "sirmione/sirmione_2026-10-22_05.pdf.p7m",
+        "sirmione/sirmione_2026-10-22_06.pdf",
+        "sirmione/sirmione_2026-10-22_07.pdf.p7m",
+        "sirmione/sirmione_2026-10-22_08.pdf"
       ]
     }
   ],
   "riepilogo": [
     {
-      "comune": "Salò",
+      "comune": "Sirmione",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+      "albo": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 4,
-      "letti": 66,
-      "trovati": 8,
-      "esito": "OK – 8 trovati",
-      "albo_lista": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=22543"
+      "pagine": 6,
+      "letti": 103,
+      "trovati": 18,
+      "esito": "OK – 18 trovati",
+      "albo_lista": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=27072"
     }
   ]
 }
