@@ -1,25 +1,531 @@
 {
-  "quando": "2026-10-24_1113",
-  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-24_1113.xlsx",
-  "zip": "",
+  "quando": "2026-10-24_1115",
+  "esito": "24 determine trovate in 1 comuni, 103 allegati.",
+  "excel": "risultati/determine_2026-10-24_1115.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1115/allegati_2026-10-24_1115.zip",
   "cartella": "",
-  "risultati": [],
-  "riepilogo": [
+  "risultati": [
     {
-      "comune": "Cellatica",
+      "id": "BS|Manerbio|2026-10-13|2026/1304|ESITO DELL’AVVISO PUBBLICO PER L’ACQUISIZIONE DI MANIFESTAZIONI DI INTERESSE FIN",
+      "comune": "Manerbio",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "http://halleyweb.com/c017048/mc/mc_p_ricerca.php",
+      "data": "2026-10-13",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1304",
+      "oggetto": "ESITO DELL’AVVISO PUBBLICO PER L’ACQUISIZIONE DI MANIFESTAZIONI DI INTERESSE FINALIZZATE ALL’INDIVIDUAZIONE DI UNA O PIU’ SEDI PRIVATE DI PARTICOLARE PREGIO, ESTERNE ALLA CASA COMUNALE, PER LA CELEBRAZIONE DI MATRIMONI E UNIONI CIVILI – INDIVIDUAZIONE DELLA SEDE RITENUTA IDONEA.",
+      "parole": [
+        "interesse"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4810105?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-13_01.pdf.p7m",
+        "manerbio/manerbio_2026-10-13_02.pdf",
+        "manerbio/manerbio_2026-10-13_03.pdf.p7m",
+        "manerbio/manerbio_2026-10-13_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-14|2026/1320|APPROVAZIONE DEL DOCUMENTO DI INDIRIZZO ALLA PROGETTAZIONE (DIP), AI SENSI DELL’",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1320",
+      "oggetto": "APPROVAZIONE DEL DOCUMENTO DI INDIRIZZO ALLA PROGETTAZIONE (DIP), AI SENSI DELL’ART. 3 DELL’ALLEGATO I.7 AL D.LGS. 31 MARZO 2023, N. 36 E S.M.I., RELATIVO AI LAVORI DI MANUTENZIONE STRAORDINARIA E RIQUALIFICAZIONE DELLA PALESTRA COMUNALE DI PIAZZA ALDO MORO. IMPORTO COMPLESSIVO DELL’INTERVENTO € 870.000,00. ANNUALITÀ PREVISTA 2027.",
+      "parole": [
+        "lavori",
+        "manutenzione",
+        "progettazione",
+        "intervento"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4811580?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-14_01.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_02.pdf",
+        "manerbio/manerbio_2026-10-14_03.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_04.pdf",
+        "manerbio/manerbio_2026-10-14_05.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-14|2026/1319|APPROVAZIONE DEL DOCUMENTO DI INDIRIZZO ALLA PROGETTAZIONE (DIP) RELATIVO AI LAV",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1319",
+      "oggetto": "APPROVAZIONE DEL DOCUMENTO DI INDIRIZZO ALLA PROGETTAZIONE (DIP) RELATIVO AI LAVORI DI MANUTENZIONE STRAORDINARIA DELLE COPERTURE DEL CIMITERO COMUNALE, COMPRENSIVI DELLA RIMOZIONE E DELLO SMALTIMENTO DEI MATERIALI CONTENENTI AMIANTO. IMPORTO COMPLESSIVO DELL’INTERVENTO € 355.000,00.",
+      "parole": [
+        "lavori",
+        "manutenzione",
+        "progettazione",
+        "intervento"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4811577?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-14_06.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_07.pdf",
+        "manerbio/manerbio_2026-10-14_08.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_09.pdf",
+        "manerbio/manerbio_2026-10-14_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-14|2026/1314|LAVORI DI EFFICIENTAMENTO ENERGETICO DELLA SCUOLA MATERNA MARZOTTO INTERVENTO 1\"",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1314",
+      "oggetto": "LAVORI DI EFFICIENTAMENTO ENERGETICO DELLA SCUOLA MATERNA MARZOTTO INTERVENTO 1\" - CUP H14D24001630004. ACCERTAMENTO SOMME DERIVANTI DAGLI INCENTIVI GSE.",
+      "parole": [
+        "lavori",
+        "intervento"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4811562?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-14_11.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_12.pdf",
+        "manerbio/manerbio_2026-10-14_13.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_14.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-14|2026/1310|LAVORI DI SISTEMAZIONE DELLE AREE INTERNE DEL CIMITERO COMUNALE - CIG BCFC5BD12A",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1310",
+      "oggetto": "LAVORI DI SISTEMAZIONE DELLE AREE INTERNE DEL CIMITERO COMUNALE - CIG BCFC5BD12A.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4810969?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-14_15.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_16.pdf",
+        "manerbio/manerbio_2026-10-14_17.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_18.pdf",
+        "manerbio/manerbio_2026-10-14_19.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-14|2026/1307|INTERVENTI DI MANUTENZIONE EXTRA - CONTRATTO SUGLI IMPIANTI DI ILLUMINAZIONE PUB",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1307",
+      "oggetto": "INTERVENTI DI MANUTENZIONE EXTRA - CONTRATTO SUGLI IMPIANTI DI ILLUMINAZIONE PUBBLICA, DA PARTE DELLA SOCIETA’ “ASPM SORESINA SERVIZI S.R.L.” - CIG BD356E0C7B.",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4810960?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-14_20.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_21.pdf",
+        "manerbio/manerbio_2026-10-14_22.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_23.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-14|2026/1306|LAVORI DI REALIZZAZIONE IMPIANTI FOTOVOLTAICI SUGLI IMMOBILI SCOLASTICI - SCUOLA",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-14",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1306",
+      "oggetto": "LAVORI DI REALIZZAZIONE IMPIANTI FOTOVOLTAICI SUGLI IMMOBILI SCOLASTICI - SCUOLA PRIMARIA. CUP H14D25002160004 - CIG B9B489F839. APPROVAZIONE SECONDO STATO AVANZAMENTO LAVORI.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4810957?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-14_24.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_25.pdf",
+        "manerbio/manerbio_2026-10-14_26.pdf.p7m",
+        "manerbio/manerbio_2026-10-14_27.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-15|2026/1334|AFFIDAMENTO DELL'INCARICO PER LA GESTIONE E LA CONDUZIONE PER IL SISTEMA BIBLIOT",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1334",
+      "oggetto": "AFFIDAMENTO DELL'INCARICO PER LA GESTIONE E LA CONDUZIONE PER IL SISTEMA BIBLIOTECARIO BASSA BRESCIANA CENTRALE DEL GRUPPO DI LETTURA \"PAROLE CHE CURANO\" ALL'INTERNO DEL POLO ONCOLOGICO DELL'OSPEDALE DI MANERBIO - CIG BBDFDECA0E",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4812548?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-15_01.pdf.p7m",
+        "manerbio/manerbio_2026-10-15_02.pdf",
+        "manerbio/manerbio_2026-10-15_03.pdf.p7m",
+        "manerbio/manerbio_2026-10-15_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1366|NOMINA COMMISSIONE DI GARA - PROCEDURA PER L’ATTIVAZIONE DI UN SERVIZIO CONVENZI",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1366",
+      "oggetto": "NOMINA COMMISSIONE DI GARA - PROCEDURA PER L’ATTIVAZIONE DI UN SERVIZIO CONVENZIONATO PER LA RIMOZIONE E LO SMALTIMENTO DI MATERIALI CONTENENTI AMIANTO IN MATRICE COMPATTA PROVENIENTI DA UTENZE DOMESTICHE – APPROVAZIONE AVVISO PUBBLICO PER MANIFESTAZIONE DI INTERESSE E DOCUMENTAZIONE ALLEGATA.",
+      "parole": [
+        "gara",
+        "manifestazione",
+        "interesse"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816272?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_01.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_02.pdf",
+        "manerbio/manerbio_2026-10-20_03.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1363|AFFIDAMENTODELL'INCARICO PER LA CONDUZIONE DEL CICLO DI FORMAZIONE \"CRESCERE ANC",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1363",
+      "oggetto": "AFFIDAMENTODELL'INCARICO PER LA CONDUZIONE DEL CICLO DI FORMAZIONE \"CRESCERE ANCORA LETTORI\", EDIZIONE SCUOLA SECONDARIA 2026, PER I BIBLIOTECARI DEL SISTEMA BASSA BRESCIANA CENTRALE E GLI INSEGNANTI DEL TERRITORIO",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816259?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_05.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_06.pdf",
+        "manerbio/manerbio_2026-10-20_07.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_08.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1361|AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPE",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1361",
+      "oggetto": "AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPERANO NEL CAMPO DELLE ATTIVITÀ E DEI BENI CULTURALI – PROGETTO “MUSEO FUORI DI SÉ: LA CULTURA CHE UNISCE E FA STARE BENE. EDIZIONE 2026” – ID DOMANDA 7718555 – AFFIDAMENTO ALLA FORNERIA GUERRESCHI SRL PER LA FORNITURA DI PRODOTTI DA FORNO PER LE ATTIVITÀ DI PROGETTO – CIG BD19FCA420.",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816253?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_09.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_10.pdf",
+        "manerbio/manerbio_2026-10-20_11.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_12.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1358|AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPE",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1358",
+      "oggetto": "AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPERANO NEL CAMPO DELLE ATTIVITÀ E DEI BENI CULTURALI – PROGETTO “MUSEO FUORI DI SÉ: LA CULTURA CHE UNISCE E FA STARE BENE. EDIZIONE 2026” – ID DOMANDA 7718555 – AFFIDAMENTO A CHIARA DE AMBROGIO PER ATTIVITA’ DIDATTICHE CORRELATE AL PROGETTO – CIG BD3EDD602F.",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816237?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_13.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_14.pdf",
+        "manerbio/manerbio_2026-10-20_15.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_16.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1357|AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPE",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1357",
+      "oggetto": "AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPERANO NEL CAMPO DELLE ATTIVITÀ E DEI BENI CULTURALI – PROGETTO “MUSEO FUORI DI SÉ: LA CULTURA CHE UNISCE E FA STARE BENE. EDIZIONE 2026” – ID DOMANDA 7718555 – AFFIDAMENTO A SARA SGHIRINZETTI PER IL SERVIZIO LABORATORIALE, ATTIVITA’ DI PROGETTO “NOTTE AL MUSEO: DELITTO A PALAZZO LUZZAGO” – CIG BD3CBCFBA0.",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816234?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_17.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_18.pdf",
+        "manerbio/manerbio_2026-10-20_19.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_20.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1352|AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER PREDISPOSIZIONE E PRESENTAZIONE DOMA",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1352",
+      "oggetto": "AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER PREDISPOSIZIONE E PRESENTAZIONE DOMANDA DI CONTRIBUTO PER LA RIMOZIONE DI AMIANTO DA EDIFICI PUBBLICI – CIG BD48DBD4CF.",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816176?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_21.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_22.pdf",
+        "manerbio/manerbio_2026-10-20_23.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_24.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1351|AGGIUDICAZIONE DEFINITIVA NOLEGGIO, MONTAGGIO E SMONTAGGIO LUMINARIE NATALIZIE A",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1351",
+      "oggetto": "AGGIUDICAZIONE DEFINITIVA NOLEGGIO, MONTAGGIO E SMONTAGGIO LUMINARIE NATALIZIE ANNO 2026-2027 – CIG BD441A7B0C.",
+      "parole": [
+        "aggiudicazione"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816172?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_25.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_26.pdf",
+        "manerbio/manerbio_2026-10-20_27.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_28.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-20|2026/1350|SERVIZIO DI MANUTENZIONE AGLI IMPIANTI ELETTRICI PRESSO IL CIMITERO COMUNALE – C",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1350",
+      "oggetto": "SERVIZIO DI MANUTENZIONE AGLI IMPIANTI ELETTRICI PRESSO IL CIMITERO COMUNALE – CIG BD43D3A413.",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4816170?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-20_29.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_30.pdf",
+        "manerbio/manerbio_2026-10-20_31.pdf.p7m",
+        "manerbio/manerbio_2026-10-20_32.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-21|2026/1389|VENTICINQUESIMA VARIAZIONE DEL PIANO ESECUTIVO DI GESTIONE 2026/2028 - VARIAZION",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1389",
+      "oggetto": "VENTICINQUESIMA VARIAZIONE DEL PIANO ESECUTIVO DI GESTIONE 2026/2028 - VARIAZIONE COMPENSATIVA TRA CAPITOLI DI SPESA APPARTENENTI ALLO STESSO MACROAGGREGATO (ART. 175, COMMA 5-QUATER, LETT. A), D.LGS. N. 267/2000).",
+      "parole": [
+        "esecutivo"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4818218?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-21_01.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_02.pdf",
+        "manerbio/manerbio_2026-10-21_03.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_04.pdf",
+        "manerbio/manerbio_2026-10-21_05.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-21|2026/1387|LAVORI DI REALIZZAZIONE IMPIANTI FOTOVOLTAICI SUGLI IMMOBILI SCOLASTICI - SCUOLA",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1387",
+      "oggetto": "LAVORI DI REALIZZAZIONE IMPIANTI FOTOVOLTAICI SUGLI IMMOBILI SCOLASTICI - SCUOLA SECONDARIA - CUP H14D26003170001. DETERMINA A CONTRATTARE.",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4817622?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-21_06.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_07.pdf",
+        "manerbio/manerbio_2026-10-21_08.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_09.pdf",
+        "manerbio/manerbio_2026-10-21_10.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-21|2026/1383|AGGIUDICAZIONE DEFINITIVA DEI LAVORI DI REALIZZAZIONE DI IMPIANTI DI CLIMATIZZAZ",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1383",
+      "oggetto": "AGGIUDICAZIONE DEFINITIVA DEI LAVORI DI REALIZZAZIONE DI IMPIANTI DI CLIMATIZZAZIONE PRESSO I LOCALI DELLA BIBLIOTECA CIVICA DI MANERBIO - CIG BD359925E5.",
+      "parole": [
+        "lavori",
+        "aggiudicazione"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4817603?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-21_11.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_12.pdf",
+        "manerbio/manerbio_2026-10-21_13.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_14.pdf",
+        "manerbio/manerbio_2026-10-21_15.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-21|2026/1381|AFFIDAMENTO DELL'INCARICO PER LA REALIZZAZIONE DI INCONTRI DI PROMOZIONE SUL PRO",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1381",
+      "oggetto": "AFFIDAMENTO DELL'INCARICO PER LA REALIZZAZIONE DI INCONTRI DI PROMOZIONE SUL PROGETTO \"NATI PER LEGGERE\" NELLE BIBLIOTECHE DEL SISTEMA BASSA BRESCIANA CENTRALE - CIG BD41C2EEA6",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4817339?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-21_16.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_17.pdf",
+        "manerbio/manerbio_2026-10-21_18.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_19.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-21|2026/1380|AVVISO UNICO CULTURA 2026 – AMBITO B – MUSEI, SISTEMI BIBLIOTECARI E ARCHIVI – L",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1380",
+      "oggetto": "AVVISO UNICO CULTURA 2026 – AMBITO B – MUSEI, SISTEMI BIBLIOTECARI E ARCHIVI – LINEA 1 MUSEI, ID DOMANDA 7718555, PROGETTO “MUSEO FUORI DI SE’: LA CULTURA CHE UNISCE E FA STARE BENE”. PROGETTO DI EDUCAZIONE AL PATRIMONIO MUSEALE, AFFIDAMENTO SERVIZIO ALL’A.S.D. SPORTS ACADEMY PER IL SERVIZIO E ATTIVITA’ DI PROGETTO DENOMINATA “ORIENTEERING ARCHEOLOGICO” CIG BD28616029",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4817336?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-21_20.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_21.pdf",
+        "manerbio/manerbio_2026-10-21_22.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_23.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-21|2026/1379|AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPE",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1379",
+      "oggetto": "AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPERANO NEL CAMPO DELLE ATTIVITÀ E DEI BENI CULTURALI – PROGETTO “MUSEO FUORI DI SÉ: LA CULTURA CHE UNISCE E FA STARE BENE. EDIZIONE 2026” – ID DOMANDA 7718555 – AFFIDAMENTO A SARA SGHIRINZETTI PER IL SERVIZIO LABORATORIALE, ATTIVITA’ DI PROGETTO “IL PASSATO E’ UN GIOCO PRESENTE: ARCHEOLOGIA E ARTE CONTEMPORANEA PER L’INFANZIA” – CIG BD3CE70702",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4817333?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-21_24.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_25.pdf",
+        "manerbio/manerbio_2026-10-21_26.pdf.p7m",
+        "manerbio/manerbio_2026-10-21_27.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-22|2026/1396|AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPE",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1396",
+      "oggetto": "AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPERANO NEL CAMPO DELLE ATTIVITÀ E DEI BENI CULTURALI – PROGETTO “MUSEO FUORI DI SÉ: LA CULTURA CHE UNISCE E FA STARE BENE. EDIZIONE 2026” – ID DOMANDA 7718555 – AFFIDAMENTO A DOC EDUCATIONAL COOPERATIVA SOCIALE PER IL SERVIZIO LABORATORIALE – PROGETTO ARCHEOCOMICS - CIG BD59AE84AA.",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4819708?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-22_01.pdf.p7m",
+        "manerbio/manerbio_2026-10-22_02.pdf",
+        "manerbio/manerbio_2026-10-22_03.pdf.p7m",
+        "manerbio/manerbio_2026-10-22_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Manerbio|2026-10-22|2026/1394|AUTORIZZAZIONE PROCEDURA APERTA PER L’AFFIDAMENTO DELLA CONCESSIONE DEL SERVIZIO",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1394",
+      "oggetto": "AUTORIZZAZIONE PROCEDURA APERTA PER L’AFFIDAMENTO DELLA CONCESSIONE DEL SERVIZIO DI RISTORO INTERNO ATTRAVERSO DISTRIBUTORI AUTOMATICI DI BEVANDE, ALIMENTI E FORNITURA DI ACQUA PRESSO LA SEDE DEL COMUNE DI MANERBIO – APPROVAZIONE BANDO DI CONCESSIONE.",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4819702?p_p_state=pop_up",
+      "allegati": [
+        "manerbio/manerbio_2026-10-22_05.pdf.p7m",
+        "manerbio/manerbio_2026-10-22_06.pdf",
+        "manerbio/manerbio_2026-10-22_07.pdf.p7m",
+        "manerbio/manerbio_2026-10-22_08.pdf",
+        "manerbio/manerbio_2026-10-22_09.pdf"
+      ]
+    }
+  ],
+  "riepilogo": [
+    {
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: pagina vuota o non caricata",
-      "diagnosi": "pagina vuota o non caricata",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-cellatica.jpg"
+      "pagine": 6,
+      "letti": 107,
+      "trovati": 24,
+      "esito": "OK – 24 trovati",
+      "albo_lista": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=39839"
     }
   ]
 }
