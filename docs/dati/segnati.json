@@ -126,5 +126,34 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0006/allegati_2026-10-24_0006.zip",
       "quando": "2026-10-24_0006"
     }
+  },
+  "BS|Salò|2026-10-21|2026/1313|DETERMINAZIONE A CONTRARRE PER L’AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER LA ": {
+    "stato": "fissato",
+    "quando": "2026-10-24T08:41:46.918Z",
+    "atto": {
+      "id": "BS|Salò|2026-10-21|2026/1313|DETERMINAZIONE A CONTRARRE PER L’AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER LA ",
+      "comune": "Salò",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1313",
+      "oggetto": "DETERMINAZIONE A CONTRARRE PER L’AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER LA PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA, PROGETTAZIONE ESECUTIVA E COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE PER L’OPERA PUBBLICA DENOMINATA “INTERVENTO DI ADEGUAMENTO FUNZIONALE E RIQUALIFICAZIONE ENERGETICA DELLA SCUOLA DELL'INFANZIA F.LLI CERVI”. CUP: I54E21000940001",
+      "parole": [
+        "affidamento",
+        "progettazione",
+        "incarico",
+        "intervento"
+      ],
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8458592?p_p_state=pop_up",
+      "allegati": [
+        "salo/salo_2026-10-21_01.pdf.p7m",
+        "salo/salo_2026-10-21_02.pdf",
+        "salo/salo_2026-10-21_03.pdf.p7m",
+        "salo/salo_2026-10-21_04.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1035/allegati_2026-10-24_1035.zip",
+      "quando": "2026-10-24_1035"
+    }
   }
 }
