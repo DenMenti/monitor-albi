@@ -1,25 +1,138 @@
 {
-  "quando": "2026-10-24_1050",
-  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-24_1050.xlsx",
-  "zip": "",
+  "quando": "2026-10-24_1102",
+  "esito": "6 determine trovate in 1 comuni, 18 allegati.",
+  "excel": "risultati/determine_2026-10-24_1102.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1102/allegati_2026-10-24_1102.zip",
   "cartella": "",
-  "risultati": [],
-  "riepilogo": [
+  "risultati": [
     {
-      "comune": "Manerba del Garda",
+      "id": "BS|Erbusco|2026-10-13|2026/836|PUBBLICA SELEZIONE, PER TITOLI E COLLOQUIO, PER IL CONFERIMENTO DI N. 1 INCARICO",
+      "comune": "Erbusco",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200775",
+      "data": "2026-10-13",
+      "tipo": "BANDI / BANDO DI CONCORSO",
+      "numero": "2026/836",
+      "oggetto": "PUBBLICA SELEZIONE, PER TITOLI E COLLOQUIO, PER IL CONFERIMENTO DI N. 1 INCARICO A TEMPO DETERMINATO NEL PROFILO DI DIRIGENTE MEDICO DISCIPLINA MEDICINA D'EMERGENZA-URGENZA",
+      "parole": [
+        "incarico"
+      ],
+      "link": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5709534?p_auth=IgjLCHID&p_p_state=pop_up",
+      "allegati": [
+        "erbusco/erbusco_2026-10-13_01.pdf"
+      ]
+    },
+    {
+      "id": "BS|Erbusco|2026-10-13|2026/835|PUBBLICA SELEZIONE, PER TITOLI E COLLOQUIO, PER IL CONFERIMENTO DI N. 1 INCARICO",
+      "comune": "Erbusco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-13",
+      "tipo": "BANDI / BANDO DI CONCORSO",
+      "numero": "2026/835",
+      "oggetto": "PUBBLICA SELEZIONE, PER TITOLI E COLLOQUIO, PER IL CONFERIMENTO DI N. 1 INCARICO A TEMPO DETERMINATO NEL PROFILO DI DIRIGENTE MEDICO DISCIPLINA PSICHIATRIA",
+      "parole": [
+        "incarico"
+      ],
+      "link": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5709533?p_auth=IgjLCHID&p_p_state=pop_up",
+      "allegati": [
+        "erbusco/erbusco_2026-10-13_02.pdf"
+      ]
+    },
+    {
+      "id": "BS|Erbusco|2026-10-15|2026/852|LAVORI DI PREPARAZIONE DEL FONDO E ASFALTATURA DEL PARCHEGGIO DI INGRESSO ALLA S",
+      "comune": "Erbusco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-15",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/852",
+      "oggetto": "LAVORI DI PREPARAZIONE DEL FONDO E ASFALTATURA DEL PARCHEGGIO DI INGRESSO ALLA SCUOLA SECONDARIA DI PRIMO GRADO DI ERBUSCO. CIG: BD0BA36FEC",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5716829?p_auth=IgjLCHID&p_p_state=pop_up",
+      "allegati": [
+        "erbusco/erbusco_2026-10-15_01.pdf.p7m",
+        "erbusco/erbusco_2026-10-15_02.pdf",
+        "erbusco/erbusco_2026-10-15_03.pdf.p7m",
+        "erbusco/erbusco_2026-10-15_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Erbusco|2026-10-16|2026/857|AFFIDAMENTO INCARICO EX ART. 7 COMMA 6-QUATER D.LGS. N. 165/2001 - NOMINA PERSON",
+      "comune": "Erbusco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-16",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/857",
+      "oggetto": "AFFIDAMENTO INCARICO EX ART. 7 COMMA 6-QUATER D.LGS. N. 165/2001 - NOMINA PERSONALE A COMPONENTE DEL NUCLEO DI VALUTAZIONE E NELL’ESERCIZIO DELLE FUNZIONI PROPRIE DELL’ORGANISMO - DECORRENZA 1 OTTOBRE 2026 – 30 SETTEMBRE 2029",
+      "parole": [
+        "affidamento",
+        "incarico"
+      ],
+      "link": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5718753?p_auth=IgjLCHID&p_p_state=pop_up",
+      "allegati": [
+        "erbusco/erbusco_2026-10-16_01.pdf.p7m",
+        "erbusco/erbusco_2026-10-16_02.pdf",
+        "erbusco/erbusco_2026-10-16_03.pdf.p7m",
+        "erbusco/erbusco_2026-10-16_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Erbusco|2026-10-20|2026/862|NOMINA COMMISSIONE ESAMINATRICE RELATIVA AL CONCORSO PUBBLICO, PER SOLI ESAMI, P",
+      "comune": "Erbusco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-20",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/862",
+      "oggetto": "NOMINA COMMISSIONE ESAMINATRICE RELATIVA AL CONCORSO PUBBLICO, PER SOLI ESAMI, PER LA COPERTURA A TEMPO PIENO E INETERMINATO DI UN POSTO DI ISTRUTTORE TECNICO GEOMETRA - AREA DEGLI ISTRUTTORI – DA DESTTINARE ALL’AREA TECNICA – SERVIZI URBANISTICA – EDILIZIA PRIVATA - SUAP",
+      "parole": [
+        "edilizia"
+      ],
+      "link": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5725505?p_auth=IgjLCHID&p_p_state=pop_up",
+      "allegati": [
+        "erbusco/erbusco_2026-10-20_01.pdf.p7m",
+        "erbusco/erbusco_2026-10-20_02.pdf",
+        "erbusco/erbusco_2026-10-20_03.pdf.p7m",
+        "erbusco/erbusco_2026-10-20_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Erbusco|2026-10-23|2026/880|AFFIDAMENTO DIRETTO DEL SERVIZIO DI SUPPORTO SPECIALISTICO TEMPORANEO ALL’UFFICI",
+      "comune": "Erbusco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/880",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL SERVIZIO DI SUPPORTO SPECIALISTICO TEMPORANEO ALL’UFFICIO TRIBUTI PER LA GESTIONE DELL’IMPOSTA MUNICIPALE PROPRIA (IMU), PER IL PERIODO DAL 1° NOVEMBRE 2026 AL 30 GIUGNO 2027, CON EVENTUALE PROROGA DI ULTERIORI DUE MESI. CIG: BD68F3B415.",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5736578?p_auth=IgjLCHID&p_p_state=pop_up",
+      "allegati": [
+        "erbusco/erbusco_2026-10-23_01.pdf.p7m",
+        "erbusco/erbusco_2026-10-23_02.pdf",
+        "erbusco/erbusco_2026-10-23_03.pdf.p7m",
+        "erbusco/erbusco_2026-10-23_04.pdf"
+      ]
+    }
+  ],
+  "riepilogo": [
+    {
+      "comune": "Erbusco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Nessuna riga letta: elenco presente ma in un formato non riconosciuto",
-      "diagnosi": "elenco presente ma in un formato non riconosciuto",
-      "diag_stato": 200,
-      "diag_url": "https://cloud.urbi.it/urbi/progs/urp/ur1ME002.sto?DB_NAME=n1200775",
-      "screenshot": "BS-manerba-del-garda.jpg"
+      "pagine": 3,
+      "letti": 59,
+      "trovati": 6,
+      "esito": "OK – 6 trovati",
+      "albo_lista": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=11570"
     }
   ]
 }
