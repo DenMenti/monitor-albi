@@ -1,71 +1,25 @@
 {
-  "quando": "2026-10-24_1106",
-  "esito": "3 determine trovate in 1 comuni, 1 allegati.",
-  "excel": "risultati/determine_2026-10-24_1106.xlsx",
-  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1106/allegati_2026-10-24_1106.zip",
+  "quando": "2026-10-24_1111",
+  "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-10-24_1111.xlsx",
+  "zip": "",
   "cartella": "",
-  "risultati": [
-    {
-      "id": "BS|Rodengo Saiano|2026-10-19|657|DETERMINA N.401 DEL 19/10/2026 - AREA AFFARI GENERALI E SEGRETERIA: FUNZIONI TEC",
-      "comune": "Rodengo Saiano",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-19",
-      "tipo": "DETERMINAZIONI",
-      "numero": "657",
-      "oggetto": "DETERMINA N.401 DEL 19/10/2026 - AREA AFFARI GENERALI E SEGRETERIA: FUNZIONI TECNICHE: RIPARTIZIONE E IMPEGNO DEGLI INCENTIVI CORRELATI AD APPALTI DI LAVORI PUBBLICI.",
-      "parole": [
-        "lavori"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": []
-    },
-    {
-      "id": "BS|Rodengo Saiano|2026-10-22|666|DETERMINA N.406 DEL 22/10/2026 - AREA DEI SERVIZI ALLA PERSONA: AFFIDAMENTO DIRE",
-      "comune": "Rodengo Saiano",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "DETERMINAZIONI",
-      "numero": "666",
-      "oggetto": "DETERMINA N.406 DEL 22/10/2026 - AREA DEI SERVIZI ALLA PERSONA: AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DELLA CELEBRAZIONE DELLA RICORRENZA DEL 4 NOVEMBRE 2026.",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": [
-        "rodengo-saiano/rodengo-saiano_2026-10-22_01.pdf"
-      ]
-    },
-    {
-      "id": "BS|Rodengo Saiano|2026-10-22|665|DETERMINA N.405 DEL 22/10/2026 - AREA DEI SERVIZI ALLA PERSONA: AFFIDAMENTO DIRE",
-      "comune": "Rodengo Saiano",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "DETERMINAZIONI",
-      "numero": "665",
-      "oggetto": "DETERMINA N.405 DEL 22/10/2026 - AREA DEI SERVIZI ALLA PERSONA: AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DEL PROGETTO DENOMINATO DOPO SCUOLA A.S. 2026/2027",
-      "parole": [
-        "affidamento",
-        "progetto"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": []
-    }
-  ],
+  "risultati": [],
   "riepilogo": [
     {
-      "comune": "Rodengo Saiano",
+      "comune": "Adro",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/listaservizi.aspx?U=1&S=200",
+      "albo": "https://www.comune.adro.bs.it/albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 1,
-      "letti": 15,
-      "trovati": 3,
-      "esito": "OK – 3 trovati, 2 senza allegati",
-      "albo_lista": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400"
+      "pagine": 0,
+      "letti": 0,
+      "trovati": 0,
+      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
+      "diag_stato": 200,
+      "diag_url": "https://adro.halleyegov.it/EG0/EGHOMEPAGE.HBL",
+      "screenshot": "BS-adro.jpg"
     }
   ]
 }
