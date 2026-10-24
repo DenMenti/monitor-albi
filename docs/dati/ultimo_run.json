@@ -1,227 +1,204 @@
 {
-  "quando": "2026-10-24_1027",
-  "esito": "10 determine trovate in 1 comuni, 42 allegati.",
-  "excel": "risultati/determine_2026-10-24_1027.xlsx",
-  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1027/allegati_2026-10-24_1027.zip",
+  "quando": "2026-10-24_1035",
+  "esito": "8 determine trovate in 1 comuni, 46 allegati.",
+  "excel": "risultati/determine_2026-10-24_1035.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1035/allegati_2026-10-24_1035.zip",
   "cartella": "",
   "risultati": [
     {
-      "id": "BS|Roncadelle|2026-10-09|2026/869|RINNOVO AFFIDAMENTO DIRETTO DEL SERVIZIO DI ACCOMPAGNAMENTO E TRASPORTO DEGLI UT",
-      "comune": "Roncadelle",
+      "id": "BS|Salò|2026-10-12|2026/1270|AFFIDAMENTO FORNITURA LIBRO “IL NUOVO PROCEDIMENTO AMMINISTRATIVO DOPO LA LEGGE ",
+      "comune": "Salò",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-09",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/869",
-      "oggetto": "RINNOVO AFFIDAMENTO DIRETTO DEL SERVIZIO DI ACCOMPAGNAMENTO E TRASPORTO DEGLI UTENTI DEL TRASPORTO SCOLASTICO E DEGLI UTENTI DEI SERVIZI SOCIALI PERIODO SETTEMBRE 2026 - AGOSTO 2027– CIG: B83D587F56",
+      "data": "2026-10-12",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1270",
+      "oggetto": "AFFIDAMENTO FORNITURA LIBRO “IL NUOVO PROCEDIMENTO AMMINISTRATIVO DOPO LA LEGGE N.1/2026” - MAGGIOLI EDITORE CIG B85EAAC655",
       "parole": [
         "affidamento"
       ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440027?p_p_state=pop_up",
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8441773?p_p_state=pop_up",
       "allegati": [
-        "roncadelle/roncadelle_2026-10-09_01.pdf",
-        "roncadelle/roncadelle_2026-10-09_02.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-09_03.pdf",
-        "roncadelle/roncadelle_2026-10-09_04.pdf.p7m"
+        "salo/salo_2026-10-12_01.pdf.p7m",
+        "salo/salo_2026-10-12_02.pdf",
+        "salo/salo_2026-10-12_03.pdf.p7m",
+        "salo/salo_2026-10-12_04.pdf"
       ]
     },
     {
-      "id": "BS|Roncadelle|2026-10-09|2026/868|AFFIDAMENTO PER LA FORNITURA DI PRODOTTI PER LA PULIZIA DELL'ASILO NIDO COMUNALE",
-      "comune": "Roncadelle",
+      "id": "BS|Salò|2026-10-15|2026/1291|AGGIUDICAZIONE PROCEDURA RELATIVA AI LAVORI DI “AGGIORNAMNETO IMPIANTO ANTINCEND",
+      "comune": "Salò",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-09",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/868",
-      "oggetto": "AFFIDAMENTO PER LA FORNITURA DI PRODOTTI PER LA PULIZIA DELL'ASILO NIDO COMUNALE - CIG: BD3D411C27",
+      "data": "2026-10-15",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1291",
+      "oggetto": "AGGIUDICAZIONE PROCEDURA RELATIVA AI LAVORI DI “AGGIORNAMNETO IMPIANTO ANTINCENDIO E RIFUNZIONALIZZAZIONE DELL’IMMOBILE EX COLLEGIO CIVICO -MU.SA.” – CUP: I58C26000020004 CIG: BCB240A8D9",
       "parole": [
-        "affidamento"
+        "lavori",
+        "aggiudicazione"
       ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440024?p_p_state=pop_up",
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8449730?p_p_state=pop_up",
       "allegati": [
-        "roncadelle/roncadelle_2026-10-09_05.pdf",
-        "roncadelle/roncadelle_2026-10-09_06.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-09_07.pdf",
-        "roncadelle/roncadelle_2026-10-09_08.pdf.p7m"
+        "salo/salo_2026-10-15_01.pdf.p7m",
+        "salo/salo_2026-10-15_02.pdf",
+        "salo/salo_2026-10-15_03.pdf.p7m",
+        "salo/salo_2026-10-15_04.pdf",
+        "salo/salo_2026-10-15_05.pdf.p7m",
+        "salo/salo_2026-10-15_06.pdf",
+        "salo/salo_2026-10-15_07.pdf.p7m",
+        "salo/salo_2026-10-15_08.pdf",
+        "salo/salo_2026-10-15_09.pdf",
+        "salo/salo_2026-10-15_10.pdf",
+        "salo/salo_2026-10-15_11.pdf",
+        "salo/salo_2026-10-15_12.pdf",
+        "salo/salo_2026-10-15_13.pdf",
+        "salo/salo_2026-10-15_14.pdf"
       ]
     },
     {
-      "id": "BS|Roncadelle|2026-10-10|2026/873|INTEGRAZIONE IMPEGNI DI SPESA CONTRATTO 2026/00002/DIR DENOMINATO \"MANUTENZIONE ",
-      "comune": "Roncadelle",
+      "id": "BS|Salò|2026-10-15|2026/1285|AUTORIZZAZIONE ALLA CORRESPONSIONE DELL'ANTICIPAZIONE DEL PREZZO AI SENSI DELL'A",
+      "comune": "Salò",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-10",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/873",
-      "oggetto": "INTEGRAZIONE IMPEGNI DI SPESA CONTRATTO 2026/00002/DIR DENOMINATO \"MANUTENZIONE ORDINARIA E PERIODICA PER IL PERIODO GENNAIO 2026 - 30/04/2027 - OPERE DA LATTONIERE\" - CIG: BA1F554A0D",
+      "data": "2026-10-15",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1285",
+      "oggetto": "AUTORIZZAZIONE ALLA CORRESPONSIONE DELL'ANTICIPAZIONE DEL PREZZO AI SENSI DELL'ART. 125 D.LGS. 36/2023 RELATIVAMENTE ALL’OPERA PUBBLICA “LAVORI DI MESSA IN SICUREZZA TRATTO STRADA INTERVALLIVA TRA VIA PANORAMICA E VIA SERNIGA” CUP: I56C23000070006 - CIG: B7DBFC1B6C",
       "parole": [
-        "manutenzione"
+        "lavori"
       ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440972?p_p_state=pop_up",
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8448483?p_p_state=pop_up",
       "allegati": [
-        "roncadelle/roncadelle_2026-10-10_01.pdf",
-        "roncadelle/roncadelle_2026-10-10_02.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-10_03.pdf",
-        "roncadelle/roncadelle_2026-10-10_04.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-10_05.pdf",
-        "roncadelle/roncadelle_2026-10-10_06.pdf.p7m"
+        "salo/salo_2026-10-15_15.pdf.p7m",
+        "salo/salo_2026-10-15_16.pdf",
+        "salo/salo_2026-10-15_17.pdf.p7m",
+        "salo/salo_2026-10-15_18.pdf"
       ]
     },
     {
-      "id": "BS|Roncadelle|2026-10-10|2026/872|RINNOVO DEL CONTRATTO D’APPALTO DEL SERVIZIO CONTROLLO QUALITÀ DEL SERVIZIO DI R",
-      "comune": "Roncadelle",
+      "id": "BS|Salò|2026-10-19|2026/1303|ASTA PUBBLICA PER L'ALIENAZIONE DI IMMOBILE DI PROPRIETÀ COMUNALE UBICATO IN VIA",
+      "comune": "Salò",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-10",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/872",
-      "oggetto": "RINNOVO DEL CONTRATTO D’APPALTO DEL SERVIZIO CONTROLLO QUALITÀ DEL SERVIZIO DI REFEZIONE PER SCUOLE, ASILO NIDO E CRE – ANNO SCOLASTICO 2026-27 - CIG ZAB3D1C8B3",
-      "parole": [
-        "appalto"
-      ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440969?p_p_state=pop_up",
-      "allegati": [
-        "roncadelle/roncadelle_2026-10-10_07.pdf",
-        "roncadelle/roncadelle_2026-10-10_08.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-10_09.pdf",
-        "roncadelle/roncadelle_2026-10-10_10.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Roncadelle|2026-10-17|2026/888|AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DI UN SISTEMA INTEGRATO OPEN DATA E GES",
-      "comune": "Roncadelle",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-17",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/888",
-      "oggetto": "AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DI UN SISTEMA INTEGRATO OPEN DATA E GESTIONE PATRIMONIO INFORMATIVO PUBBLICO DEL COMUNE CON RELATIVO SUPPORTO TECNICO ORGANIZZATIVO. CIG BD4602873E",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8452802?p_p_state=pop_up",
-      "allegati": [
-        "roncadelle/roncadelle_2026-10-17_01.pdf",
-        "roncadelle/roncadelle_2026-10-17_02.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-17_03.pdf",
-        "roncadelle/roncadelle_2026-10-17_04.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Roncadelle|2026-10-23|2026/905|AFFIDAMENTO DIRETTO DELLA FORNITURA DI BANDIERE PER GLI EDIFICI COMUNALI E COPIE",
-      "comune": "Roncadelle",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-23",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/905",
-      "oggetto": "AFFIDAMENTO DIRETTO DELLA FORNITURA DI BANDIERE PER GLI EDIFICI COMUNALI E COPIE DELLA COSTITUZIONE DELLA REPUBBLICA ITALIANA. CIG BD53D9405E",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464355?p_p_state=pop_up",
-      "allegati": [
-        "roncadelle/roncadelle_2026-10-23_01.pdf",
-        "roncadelle/roncadelle_2026-10-23_02.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-23_03.pdf",
-        "roncadelle/roncadelle_2026-10-23_04.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Roncadelle|2026-10-23|2026/904|AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDO, COMPLEMENTI D'ARREDO E MATERIALE ",
-      "comune": "Roncadelle",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-23",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/904",
-      "oggetto": "AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDO, COMPLEMENTI D'ARREDO E MATERIALE ACCESSORI PER LA BIBLIOTECA COMUNALE. CIG.:BD4C7275FB",
-      "parole": [
-        "affidamento"
-      ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464352?p_p_state=pop_up",
-      "allegati": [
-        "roncadelle/roncadelle_2026-10-23_05.pdf",
-        "roncadelle/roncadelle_2026-10-23_06.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-23_07.pdf",
-        "roncadelle/roncadelle_2026-10-23_08.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Roncadelle|2026-10-23|2026/903|LIQUIDAZIONE COMPENSO AL COMPONENTE ESTERNO DELLA COMMISSIONE DI GARA PER L'APPA",
-      "comune": "Roncadelle",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-23",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/903",
-      "oggetto": "LIQUIDAZIONE COMPENSO AL COMPONENTE ESTERNO DELLA COMMISSIONE DI GARA PER L'APPALTO DEL SERVIZIO DI GESTIONE GLOBALE DELLA BIBLIOTECA COMUNALE PER IL PERIODO DAL 1° OTTOBRE 2026 AL 30 SETTEMBRE 2029.",
+      "data": "2026-10-19",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1303",
+      "oggetto": "ASTA PUBBLICA PER L'ALIENAZIONE DI IMMOBILE DI PROPRIETÀ COMUNALE UBICATO IN VIA GASPARO DA SALÒ ANGOLO VIA TRIESTE (FG. 32, PART. 2013). PRESA D'ATTO VERBALE DI GARA, AGGIUDICAZIONE DEFINITIVA A FAVORE DELLA \"FONDAZIONE CITTÀ DI SALÒ\" E PREVISIONE DI PARTECIPAZIONE AL ROGITO NOTARILE.",
       "parole": [
         "gara",
-        "appalto"
+        "aggiudicazione"
       ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464349?p_p_state=pop_up",
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8454367?p_p_state=pop_up",
       "allegati": [
-        "roncadelle/roncadelle_2026-10-23_09.pdf",
-        "roncadelle/roncadelle_2026-10-23_10.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-23_11.pdf",
-        "roncadelle/roncadelle_2026-10-23_12.pdf.p7m"
+        "salo/salo_2026-10-19_01.pdf.p7m",
+        "salo/salo_2026-10-19_02.pdf",
+        "salo/salo_2026-10-19_03.pdf.p7m",
+        "salo/salo_2026-10-19_04.pdf",
+        "salo/salo_2026-10-19_05.p7m",
+        "salo/salo_2026-10-19_06.pdf"
       ]
     },
     {
-      "id": "BS|Roncadelle|2026-10-23|2026/901|DETERMINA A CONTRATTARE PER AFFIDAMENTO DIRETTO DEL SERVIZIO DI FORMAZIONE A DIS",
-      "comune": "Roncadelle",
+      "id": "BS|Salò|2026-10-20|2026/1308|AGGIUDICAZIONE PROCEDURA PER L’AFFIDAMENTO DELL’INCARICO PER IL SERVIZIO DI REDA",
+      "comune": "Salò",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-10-23",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/901",
-      "oggetto": "DETERMINA A CONTRATTARE PER AFFIDAMENTO DIRETTO DEL SERVIZIO DI FORMAZIONE A DISTANZA IN MODALITÀ WEBINAR RIVOLTO A TUTTI I DIPENDENTI IN TEMA DI ANTICORRUZIONE E TRASPARENZA ALLA LUCE DEL PNA 2026-2028 - CIG. N. BD66EC9DBE",
+      "data": "2026-10-20",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1308",
+      "oggetto": "AGGIUDICAZIONE PROCEDURA PER L’AFFIDAMENTO DELL’INCARICO PER IL SERVIZIO DI REDAZIONE DI PERIZIE ESTIMATIVE INERENTI ALLE RICHIESTE DI TRASFORMAZIONE DEI DIRITTI REALI SU AREE DI PROPRIETÀ DELL’AMMINISTRAZIONE COMUNALE - CIG: BD5F2F09F4",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "aggiudicazione"
+      ],
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8456359?p_p_state=pop_up",
+      "allegati": [
+        "salo/salo_2026-10-20_01.pdf.p7m",
+        "salo/salo_2026-10-20_02.pdf",
+        "salo/salo_2026-10-20_03.pdf.p7m",
+        "salo/salo_2026-10-20_04.pdf",
+        "salo/salo_2026-10-20_05.pdf.p7m",
+        "salo/salo_2026-10-20_06.pdf"
+      ]
+    },
+    {
+      "id": "BS|Salò|2026-10-21|2026/1313|DETERMINAZIONE A CONTRARRE PER L’AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER LA ",
+      "comune": "Salò",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1313",
+      "oggetto": "DETERMINAZIONE A CONTRARRE PER L’AFFIDAMENTO DELL’INCARICO PROFESSIONALE PER LA PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA, PROGETTAZIONE ESECUTIVA E COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE PER L’OPERA PUBBLICA DENOMINATA “INTERVENTO DI ADEGUAMENTO FUNZIONALE E RIQUALIFICAZIONE ENERGETICA DELLA SCUOLA DELL'INFANZIA F.LLI CERVI”. CUP: I54E21000940001",
+      "parole": [
+        "affidamento",
+        "progettazione",
+        "incarico",
+        "intervento"
+      ],
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8458592?p_p_state=pop_up",
+      "allegati": [
+        "salo/salo_2026-10-21_01.pdf.p7m",
+        "salo/salo_2026-10-21_02.pdf",
+        "salo/salo_2026-10-21_03.pdf.p7m",
+        "salo/salo_2026-10-21_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Salò|2026-10-22|2026/1322|APPROVAZIONE PRIMO STATO AVANZAMENTO LAVORI E CERTIFICATO DI PAGAMENTO RELATIVO ",
+      "comune": "Salò",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1322",
+      "oggetto": "APPROVAZIONE PRIMO STATO AVANZAMENTO LAVORI E CERTIFICATO DI PAGAMENTO RELATIVO AI LAVORI DI “SPBS572 DI SALÒ - RIQUALIFICAZIONE DELL’INTERSEZIONE AL KM 6+922 CON VIA ENRICO FERMI”. CUP I51B24000550007- CIG: BBB627178C",
+      "parole": [
+        "lavori"
+      ],
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8461533?p_p_state=pop_up",
+      "allegati": [
+        "salo/salo_2026-10-22_01.pdf.p7m",
+        "salo/salo_2026-10-22_02.pdf",
+        "salo/salo_2026-10-22_03.pdf.p7m",
+        "salo/salo_2026-10-22_04.pdf"
+      ]
+    },
+    {
+      "id": "BS|Salò|2026-10-22|2026/1321|AFFIDAMENTO AL CENTRO AGRICOLO GARDESANO PER ALLESTIMENTO CIMITERO CIG BD6D2828F",
+      "comune": "Salò",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-22",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1321",
+      "oggetto": "AFFIDAMENTO AL CENTRO AGRICOLO GARDESANO PER ALLESTIMENTO CIMITERO CIG BD6D2828F2",
       "parole": [
         "affidamento"
       ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464343?p_p_state=pop_up",
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8461531?p_p_state=pop_up",
       "allegati": [
-        "roncadelle/roncadelle_2026-10-23_13.pdf",
-        "roncadelle/roncadelle_2026-10-23_14.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-23_15.pdf",
-        "roncadelle/roncadelle_2026-10-23_16.pdf.p7m"
-      ]
-    },
-    {
-      "id": "BS|Roncadelle|2026-10-23|2026/899|AFFIDAMENTO PROGETTO DI SUPERVISIONE E FORMAZIONE PROFESSIONALE PER ASILO NIDO C",
-      "comune": "Roncadelle",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-23",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/899",
-      "oggetto": "AFFIDAMENTO PROGETTO DI SUPERVISIONE E FORMAZIONE PROFESSIONALE PER ASILO NIDO COMUNALE PER L’A.E. 2026/2027 – CIG: BD6D29E010",
-      "parole": [
-        "affidamento",
-        "progetto"
-      ],
-      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464337?p_p_state=pop_up",
-      "allegati": [
-        "roncadelle/roncadelle_2026-10-23_17.pdf",
-        "roncadelle/roncadelle_2026-10-23_18.pdf.p7m",
-        "roncadelle/roncadelle_2026-10-23_19.pdf",
-        "roncadelle/roncadelle_2026-10-23_20.pdf.p7m"
+        "salo/salo_2026-10-22_05.pdf.p7m",
+        "salo/salo_2026-10-22_06.pdf",
+        "salo/salo_2026-10-22_07.pdf.p7m",
+        "salo/salo_2026-10-22_08.pdf"
       ]
     }
   ],
   "riepilogo": [
     {
-      "comune": "Roncadelle",
+      "comune": "Salò",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "http://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio-1",
+      "albo": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
       "dal": "2026-09-06",
-      "pagine": 3,
-      "letti": 42,
-      "trovati": 10,
-      "esito": "OK – 10 trovati",
-      "albo_lista": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=36641"
+      "pagine": 4,
+      "letti": 66,
+      "trovati": 8,
+      "esito": "OK – 8 trovati",
+      "albo_lista": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=22543"
     }
   ]
 }
