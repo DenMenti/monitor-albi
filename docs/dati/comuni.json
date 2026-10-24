@@ -2081,7 +2081,8 @@
     "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/listaservizi.aspx?U=1&S=200",
     "altri": [],
     "piattaforma": "",
-    "note": ""
+    "note": "",
+    "albo_lista": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400"
   },
   {
     "nome": "Roè Volciano",

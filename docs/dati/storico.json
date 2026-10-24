@@ -1,5 +1,12 @@
 [
   {
+    "quando": "2026-10-24_1106",
+    "tipo": "monitoraggio",
+    "esito": "3 determine trovate in 1 comuni, 1 allegati.",
+    "excel": "risultati/determine_2026-10-24_1106.xlsx",
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1106/allegati_2026-10-24_1106.zip"
+  },
+  {
     "quando": "2026-10-24_1102",
     "tipo": "monitoraggio",
     "esito": "6 determine trovate in 1 comuni, 18 allegati.",
