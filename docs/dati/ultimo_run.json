@@ -1,25 +1,25 @@
 {
-  "quando": "2026-10-24_1111",
+  "quando": "2026-10-24_1113",
   "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-  "excel": "risultati/determine_2026-10-24_1111.xlsx",
+  "excel": "risultati/determine_2026-10-24_1113.xlsx",
   "zip": "",
   "cartella": "",
   "risultati": [],
   "riepilogo": [
     {
-      "comune": "Adro",
+      "comune": "Cellatica",
       "sigla": "BS",
       "provincia": "Brescia",
-      "albo": "https://www.comune.adro.bs.it/albo-pretorio",
+      "albo": "http://halleyweb.com/c017048/mc/mc_p_ricerca.php",
       "dal": "2026-09-06",
       "pagine": 0,
       "letti": 0,
       "trovati": 0,
-      "esito": "Nessuna riga letta: pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
-      "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
-      "diag_stato": 200,
-      "diag_url": "https://adro.halleyegov.it/EG0/EGHOMEPAGE.HBL",
-      "screenshot": "BS-adro.jpg"
+      "esito": "Errore: pagina vuota o non caricata",
+      "diagnosi": "pagina vuota o non caricata",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BS-cellatica.jpg"
     }
   ]
 }
