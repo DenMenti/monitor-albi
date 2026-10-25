@@ -183,34 +183,5 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-25_0003/allegati_2026-10-25_0003.zip",
       "quando": "2026-10-25_0003"
     }
-  },
-  "BS|Casto|2026-10-22|2026/386|“RIQUALIFICAZIONE CENTRO SPORTIVO DI CASTO – VIA ROMA – RIFACIMENTO BLOCCO SPOGL": {
-    "stato": "fissato",
-    "quando": "2026-10-25T09:34:07.678Z",
-    "atto": {
-      "id": "BS|Casto|2026-10-22|2026/386|“RIQUALIFICAZIONE CENTRO SPORTIVO DI CASTO – VIA ROMA – RIFACIMENTO BLOCCO SPOGL",
-      "comune": "Casto",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-22",
-      "tipo": "DETERMINE / DETERMINA",
-      "numero": "2026/386",
-      "oggetto": "“RIQUALIFICAZIONE CENTRO SPORTIVO DI CASTO – VIA ROMA – RIFACIMENTO BLOCCO SPOGLIATOI E PAVIMENTAZIONE ESTERNA” CUP: D54J25000360006 CIG: BC01D370FD - RECEPIMENTO ESITI GARA SVOLTA DALLA C.U.C. DI VALLESABBIA ED AGGIUDICAZIONE DEFINITIVA LAVORI",
-      "parole": [
-        "lavori",
-        "gara",
-        "aggiudicazione"
-      ],
-      "link": "https://casto.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1797044?p_p_state=pop_up",
-      "allegati": [
-        "casto/casto_2026-10-22_01.pdf",
-        "casto/casto_2026-10-22_02.pdf.p7m",
-        "casto/casto_2026-10-22_03.pdf",
-        "casto/casto_2026-10-22_04.pdf.p7m",
-        "casto/casto_2026-10-22_05.pdf"
-      ],
-      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-25_0003/allegati_2026-10-25_0003.zip",
-      "quando": "2026-10-25_0003"
-    }
   }
 }
