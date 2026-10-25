@@ -155,5 +155,33 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1035/allegati_2026-10-24_1035.zip",
       "quando": "2026-10-24_1035"
     }
+  },
+  "BS|Ceto|2026-10-21|510|DETERMINA N.247 DEL 21/10/2026 - SETTORE TECNICO INFRASTRUTTURE: AFFIDAMENTO INC": {
+    "stato": "fissato",
+    "quando": "2026-10-25T09:27:58.252Z",
+    "atto": {
+      "id": "BS|Ceto|2026-10-21|510|DETERMINA N.247 DEL 21/10/2026 - SETTORE TECNICO INFRASTRUTTURE: AFFIDAMENTO INC",
+      "comune": "Ceto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-21",
+      "tipo": "Determinazioni",
+      "numero": "510",
+      "oggetto": "DETERMINA N.247 DEL 21/10/2026 - SETTORE TECNICO INFRASTRUTTURE: AFFIDAMENTO INCARICO REDAZIONE DEL PROGETTO ESECUTIVO, DIREZIONE E CONTABILITA' DEI LAVORI E ACCERTAMENTO DELLA REGOLARE ESECUZIONE, RELATIVAMENTE DEL PROGETTO DENOMINATO LAVORI DI RIQUALIFICAZIONE BIVACCO MATTIA ONTANI MALGA MONOCOLA PSP PIANO STRATEGICO NAZIONALE DELLA PAC 2023-2027 REG. (UE) 2021/. 115 COMPLEMENTO PER LO SVILUPPO RURALE DEL PIANO STRATEGICO NAZIONALE DELLA PAC 2023-2027 DELLA REGIONE LOMBARDIA. INTERVENTO SRD 09 INVESTIMENTI IN INFRASTRUTTURE PER L’AGRICOLTURA E PER LO SVILUPPO SOCIOECONOMICO DELLE AREE RURALI DOMANDA N. 202503392279.CUP C29D24010620006 - CIG: BD73386843",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "intervento"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsceto/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [
+        "ceto/ceto_2026-10-21_01.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-25_0003/allegati_2026-10-25_0003.zip",
+      "quando": "2026-10-25_0003"
+    }
   }
 }
