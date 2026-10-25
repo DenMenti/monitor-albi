@@ -1,0 +1,14 @@
+{
+ "comune": "Paspardo",
+ "sigla": "BS",
+ "albo": "https://halleyweb.com/c017135/mc/mc_p_ricerca.php",
+ "motivo": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.halleyweb.com/c017135/mc/mc_p_ricerca.php",
+ "diagnosi": "pagina vuota o non caricata",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}

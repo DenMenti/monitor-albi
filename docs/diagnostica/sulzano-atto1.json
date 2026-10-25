@@ -1,0 +1,50 @@
+{
+ "comune": "Sulzano",
+ "oggetto": "DETERMINA AREA AMMINISTRATIVA N° 211/146 del 22/10/26 Oggetto: AFFIDAMENTO DEL SERVIZIO INFORMATICO SAAS (GESTIONE IN CLOUD) - LICENZA ANNO 2026 - SOFTWARE GESTIONE VERBALI CODICE DELLA STRADA - VERBALI EXTRA CDS - SERVIZIO DI NOTIFICHE CON ADESIONE A SEND - CIG BD7B9ACC2C .",
+ "data": "2026-10-22",
+ "url_albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?Tipo=20&CE=slzn1554",
+ "link_dettaglio": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2956&Tipo=20&CE=slzn1554",
+ "link_trovati_non_scaricabili": [
+  "https://pdfreaders.org/"
+ ],
+ "html_riga_prima": "<tr data-albi-id=\"1\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\"><span class=\"Grassetto\">561</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\">22/10/2026 <br>06/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\">DETERMINA AREA AMMINISTRATIVA N° 211/146 del 22/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO DEL SERVIZIO INFORMATICO SAAS (GESTIONE IN CLOUD) - LICENZA ANNO 2026 - SOFTWARE GESTIONE VERBALI CODICE DELLA STRADA - VERBALI EXTRA CDS - SERVIZIO DI NOTIFICHE CON ADESIONE A SEND - CIG BD7B9ACC2C . </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\">Contabile</a></td>\n\t</tr>",
+ "html_riga_dopo": "<tr data-albi-id=\"1\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\"><span class=\"Grassetto\">561</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\">22/10/2026 <br>06/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\">DETERMINA AREA AMMINISTRATIVA N° 211/146 del 22/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO DEL SERVIZIO INFORMATICO SAAS (GESTIONE IN CLOUD) - LICENZA ANNO 2026 - SOFTWARE GESTIONE VERBALI CODICE DELLA STRADA - VERBALI EXTRA CDS - SERVIZIO DI NOTIFICHE CON ADESIONE A SEND - CIG BD7B9ACC2C . </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2956&amp;Tipo=20&amp;CE=slzn1554\">Contabile</a></td>\n\t</tr>",
+ "elementi_riga": [
+  {
+   "tag": "A",
+   "testo": "561\n2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2956&Tipo=20&CE=slzn1554",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "22/10/2026\n06/11/2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2956&Tipo=20&CE=slzn1554",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "DETERMINA AREA AMMINISTRATIVA N° 211/146 del 22/10/26\nOggetto: AFFIDAMENTO DEL S",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2956&Tipo=20&CE=slzn1554",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "Contabile",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2956&Tipo=20&CE=slzn1554",
+   "onclick": "",
+   "visibile": true
+  }
+ ]
+}

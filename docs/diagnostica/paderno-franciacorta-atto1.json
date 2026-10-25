@@ -1,0 +1,50 @@
+{
+ "comune": "Paderno Franciacorta",
+ "oggetto": "DETERMINA AREA AMMINISTRAZIONE GENERALE N° 111 del 06/10/26 Oggetto: AFFIDAMENTO SERVIZIO TELEFONIA MOBILE E APPARECCHI CONNESSI. PERIODO SETTEMBRE 2026-DICEMBRE 2029. CIG BD2DAB3361",
+ "data": "2026-10-12",
+ "url_albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?Tipo=15&CE=pdrnfrnccrt1545",
+ "link_dettaglio": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=3229&Tipo=15&CE=pdrnfrnccrt1545",
+ "link_trovati_non_scaricabili": [
+  "https://pdfreaders.org/"
+ ],
+ "html_riga_prima": "<tr data-albi-id=\"2\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\"><span class=\"Grassetto\">617</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\">12/10/2026 <br>27/10/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\">DETERMINA AREA AMMINISTRAZIONE GENERALE N° 111 del 06/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO SERVIZIO TELEFONIA MOBILE E APPARECCHI CONNESSI. PERIODO SETTEMBRE 2026-DICEMBRE 2029. CIG BD2DAB3361 </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\">SEGRETERIA</a></td>\n\t</tr>",
+ "html_riga_dopo": "<tr data-albi-id=\"2\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\"><span class=\"Grassetto\">617</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\">12/10/2026 <br>27/10/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\">DETERMINA AREA AMMINISTRAZIONE GENERALE N° 111 del 06/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO SERVIZIO TELEFONIA MOBILE E APPARECCHI CONNESSI. PERIODO SETTEMBRE 2026-DICEMBRE 2029. CIG BD2DAB3361 </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=3229&amp;Tipo=15&amp;CE=pdrnfrnccrt1545\">SEGRETERIA</a></td>\n\t</tr>",
+ "elementi_riga": [
+  {
+   "tag": "A",
+   "testo": "617\n2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=3229&Tipo=15&CE=pdrnfrnccrt1545",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "12/10/2026\n27/10/2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=3229&Tipo=15&CE=pdrnfrnccrt1545",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "DETERMINA AREA AMMINISTRAZIONE GENERALE N° 111 del 06/10/26\nOggetto: AFFIDAMENTO",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=3229&Tipo=15&CE=pdrnfrnccrt1545",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "SEGRETERIA",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=3229&Tipo=15&CE=pdrnfrnccrt1545",
+   "onclick": "",
+   "visibile": true
+  }
+ ]
+}

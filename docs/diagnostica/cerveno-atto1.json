@@ -1,0 +1,50 @@
+{
+ "comune": "Cerveno",
+ "oggetto": "DETERMINA SERVIZIO ECONOMICO - FINANZIARIO N° 17 del 16/10/26 Oggetto: CONTRIBUTO ECONOMICO AL CONSORZIO COMUNI BIM DI VALLE CAMONICA PER PROGETTO FREE SKI PASS 2026/2027.",
+ "data": "2026-10-17",
+ "url_albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=crvn1570",
+ "link_dettaglio": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2580&RicCro=1&CE=crvn1570",
+ "link_trovati_non_scaricabili": [
+  "https://pdfreaders.org/"
+ ],
+ "html_riga_prima": "<tr data-albi-id=\"4\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\"><span class=\"Grassetto\">328</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\">17/10/2026 <br>01/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\">DETERMINA SERVIZIO ECONOMICO - FINANZIARIO N° 17 del 16/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> CONTRIBUTO ECONOMICO AL CONSORZIO COMUNI BIM DI VALLE CAMONICA PER PROGETTO FREE SKI PASS 2026/2027. </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\">SERVIZIO ECONOMICO FINANZIARIO</a></td>\n\t</tr>",
+ "html_riga_dopo": "<tr data-albi-id=\"4\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\"><span class=\"Grassetto\">328</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\">17/10/2026 <br>01/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\">DETERMINA SERVIZIO ECONOMICO - FINANZIARIO N° 17 del 16/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> CONTRIBUTO ECONOMICO AL CONSORZIO COMUNI BIM DI VALLE CAMONICA PER PROGETTO FREE SKI PASS 2026/2027. </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2580&amp;RicCro=1&amp;CE=crvn1570\">SERVIZIO ECONOMICO FINANZIARIO</a></td>\n\t</tr>",
+ "elementi_riga": [
+  {
+   "tag": "A",
+   "testo": "328\n2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2580&RicCro=1&CE=crvn1570",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "17/10/2026\n01/11/2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2580&RicCro=1&CE=crvn1570",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "DETERMINA SERVIZIO ECONOMICO - FINANZIARIO N° 17 del 16/10/26\nOggetto: CONTRIBUT",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2580&RicCro=1&CE=crvn1570",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "SERVIZIO ECONOMICO FINANZIARIO",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2580&RicCro=1&CE=crvn1570",
+   "onclick": "",
+   "visibile": true
+  }
+ ]
+}
