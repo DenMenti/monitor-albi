@@ -1,5 +1,12 @@
 [
   {
+    "quando": "2026-10-26_1159",
+    "tipo": "monitoraggio",
+    "esito": "72 determine trovate in 260 comuni, 211 allegati. 92 albi da controllare a mano.",
+    "excel": "risultati/determine_2026-10-26_1159.xlsx",
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip"
+  },
+  {
     "quando": "2026-10-25_0003",
     "tipo": "monitoraggio",
     "esito": "679 determine trovate in 200 comuni, 2400 allegati. 63 albi da controllare a mano.",

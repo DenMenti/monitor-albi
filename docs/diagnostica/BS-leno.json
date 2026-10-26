@@ -1,0 +1,14 @@
+{
+ "comune": "Leno",
+ "sigla": "BS",
+ "albo": "https://leno.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=18970&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=30404",
+ "motivo": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+ "diagnosi": "il sito non risponde (timeout)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}
