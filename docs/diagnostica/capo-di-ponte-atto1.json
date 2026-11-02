@@ -1,0 +1,50 @@
+{
+ "comune": "Capo di Ponte",
+ "oggetto": "DETERMINA AREA SERVIZI AMMINISTRATIVI N° 126/36 del 28/10/26 Oggetto: AFFIDAMENTO DIRETTO, AI SENSI DELL ART. 50, COMMA 1 - LETTERA B) DEL D.LGS. N. 36/2023 - DELLA FORNITURA DI CORONE DI ALLORO PER CELEBRAZIONE 108° ANNIVERSARIO DELLA VITTORIA (COD. CIG: BD8E6C449C).",
+ "data": "2026-10-30",
+ "url_albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=cpdpnt1569",
+ "link_dettaglio": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2226&RicCro=1&CE=cpdpnt1569",
+ "link_trovati_non_scaricabili": [
+  "https://pdfreaders.org/"
+ ],
+ "html_riga_prima": "<tr data-albi-id=\"1\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\"><span class=\"Grassetto\">480</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\">30/10/2026 <br>14/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\">DETERMINA AREA SERVIZI AMMINISTRATIVI N° 126/36 del 28/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO DIRETTO, AI SENSI DELL ART. 50, COMMA 1 - LETTERA B) DEL D.LGS. N. 36/2023 - DELLA FORNITURA DI CORONE DI ALLORO PER CELEBRAZIONE 108° ANNIVERSARIO DELLA VITTORIA (COD. CIG: BD8E6C449C). </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\">Servizio Amministrativo</a></td>\n\t</tr>",
+ "html_riga_dopo": "<tr data-albi-id=\"1\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\"><span class=\"Grassetto\">480</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\">30/10/2026 <br>14/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\">DETERMINA AREA SERVIZI AMMINISTRATIVI N° 126/36 del 28/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO DIRETTO, AI SENSI DELL ART. 50, COMMA 1 - LETTERA B) DEL D.LGS. N. 36/2023 - DELLA FORNITURA DI CORONE DI ALLORO PER CELEBRAZIONE 108° ANNIVERSARIO DELLA VITTORIA (COD. CIG: BD8E6C449C). </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2226&amp;RicCro=1&amp;CE=cpdpnt1569\">Servizio Amministrativo</a></td>\n\t</tr>",
+ "elementi_riga": [
+  {
+   "tag": "A",
+   "testo": "480\n2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2226&RicCro=1&CE=cpdpnt1569",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "30/10/2026\n14/11/2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2226&RicCro=1&CE=cpdpnt1569",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "DETERMINA AREA SERVIZI AMMINISTRATIVI N° 126/36 del 28/10/26\nOggetto: AFFIDAMENT",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2226&RicCro=1&CE=cpdpnt1569",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "Servizio Amministrativo",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2226&RicCro=1&CE=cpdpnt1569",
+   "onclick": "",
+   "visibile": true
+  }
+ ]
+}

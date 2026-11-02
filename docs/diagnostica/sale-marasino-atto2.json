@@ -1,0 +1,50 @@
+{
+ "comune": "Sale Marasino",
+ "oggetto": "DETERMINA AREA AMMINISTRATIVA GENERALE N° 298/120 del 29/10/26 Oggetto: AFFIDAMENTO SERVIZI INFORMATICI - SOLUZIONI INFORMATICHE -DIGITALIZZAZIONE DELLE PROCEDURE (SUAP E SUE) CODICE CUP: D41F26000400006 CIG: BD7909DA39 MISURE: MISURA 2.2.3 DIGITALIZZAZIONE DELLE PROCEDURE (SUAP E SUE) - ENTI TERZI - COMUNI - APPROVED02",
+ "data": "2026-10-29",
+ "url_albo": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Pubblicazioni.aspx?RicCro=1&CE=slmrsn1592",
+ "link_dettaglio": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2615&RicCro=1&CE=slmrsn1592",
+ "link_trovati_non_scaricabili": [
+  "https://pdfreaders.org/"
+ ],
+ "html_riga_prima": "<tr data-albi-id=\"25\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\"><span class=\"Grassetto\">677</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\">29/10/2026 <br>13/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\">DETERMINA AREA AMMINISTRATIVA GENERALE N° 298/120 del 29/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO SERVIZI INFORMATICI - SOLUZIONI INFORMATICHE -DIGITALIZZAZIONE DELLE PROCEDURE (SUAP E SUE) CODICE CUP: D41F26000400006 CIG: BD7909DA39 MISURE: MISURA 2.2.3 DIGITALIZZAZIONE DELLE PROCEDURE (SUAP E SUE) - ENTI TERZI - COMUNI - APPROVED02 </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\">AFFARI GENERALI</a></td>\n\t</tr>",
+ "html_riga_dopo": "<tr data-albi-id=\"25\">\n\t\t<td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\"><span class=\"Grassetto\">677</span><br>2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\">29/10/2026 <br>13/11/2026</a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\">DETERMINA AREA AMMINISTRATIVA GENERALE N° 298/120 del 29/10/26<br>Oggetto: <span class=\"LinkPubblicazioniTesto\"> AFFIDAMENTO SERVIZI INFORMATICI - SOLUZIONI INFORMATICHE -DIGITALIZZAZIONE DELLE PROCEDURE (SUAP E SUE) CODICE CUP: D41F26000400006 CIG: BD7909DA39 MISURE: MISURA 2.2.3 DIGITALIZZAZIONE DELLE PROCEDURE (SUAP E SUE) - ENTI TERZI - COMUNI - APPROVED02 </span></a></td><td><a title=\"Fare click sul testo per accedere al dettaglio dell'atto\" class=\"LinkPubblicazioni\" href=\"Dettaglio.aspx?Pub=2615&amp;RicCro=1&amp;CE=slmrsn1592\">AFFARI GENERALI</a></td>\n\t</tr>",
+ "elementi_riga": [
+  {
+   "tag": "A",
+   "testo": "677\n2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2615&RicCro=1&CE=slmrsn1592",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "29/10/2026\n13/11/2026",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2615&RicCro=1&CE=slmrsn1592",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "DETERMINA AREA AMMINISTRATIVA GENERALE N° 298/120 del 29/10/26\nOggetto: AFFIDAME",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2615&RicCro=1&CE=slmrsn1592",
+   "onclick": "",
+   "visibile": true
+  },
+  {
+   "tag": "A",
+   "testo": "AFFARI GENERALI",
+   "title": "Fare click sul testo per accedere al dettaglio dell'atto",
+   "classe": "LinkPubblicazioni",
+   "href": "Dettaglio.aspx?Pub=2615&RicCro=1&CE=slmrsn1592",
+   "onclick": "",
+   "visibile": true
+  }
+ ]
+}
