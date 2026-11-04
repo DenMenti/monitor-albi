@@ -615,5 +615,31 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Taibon Agordino|2026-10-25|2026/488|LIQUIDAZIONE SALDO COMPENSO INCENTIVANTE ART. 113 D.LGS. 50/2016 AL RESPONSABILE": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:54:25.166Z",
+    "atto": {
+      "id": "BL|Taibon Agordino|2026-10-25|2026/488|LIQUIDAZIONE SALDO COMPENSO INCENTIVANTE ART. 113 D.LGS. 50/2016 AL RESPONSABILE",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-25",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/488",
+      "oggetto": "LIQUIDAZIONE SALDO COMPENSO INCENTIVANTE ART. 113 D.LGS. 50/2016 AL RESPONSABILE UNICO DEL PROCEDIMENTO DEL COMUNE DI TAIBON AGORDINO. O.C.D.P.C. N. 558/2018 - “RIFACIMENTO PONTE, DIFESE SPONDALI E RIPRISTINO VIABILITÀ DI EMERGENZA IN LOCALITÀ PESCHIERE IN COMUNE DI TAIBON AGORDINO (BL)” – INTERVENTO LN145-2021-D-BL-157. CUP: B27H21002500001 – CIG: 9031137A02",
+      "parole": [
+        "intervento"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8465990?p_p_state=pop_up",
+      "allegati": [
+        "taibon-agordino/taibon-agordino_2026-10-25_25.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_26.pdf",
+        "taibon-agordino/taibon-agordino_2026-10-25_27.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_28.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
