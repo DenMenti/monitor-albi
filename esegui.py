@@ -198,26 +198,44 @@ def cmd_monitora(args):
                 for f in files:
                     p = os.path.join(root, f)
                     z.write(p, os.path.join(f"monitoraggio_{stamp}", os.path.relpath(p, cartella)))
+        tag_rel = "run-" + dt.datetime.now().strftime("%Y-%m-%d_%H%M%S")   # unico anche per giri ravvicinati
         repo = os.environ.get("GITHUB_REPOSITORY", "")
         if LOCALE:
             url_zip = f"/uscita/{nome_zip}"
         elif repo:
-            url_zip = f"https://github.com/{repo}/releases/download/run-{stamp}/{nome_zip}"
-        output_github(zip=os.path.join(USCITA, nome_zip), tag=f"run-{stamp}")
+            url_zip = f"https://github.com/{repo}/releases/download/{tag_rel}/{nome_zip}"
+        output_github(zip=os.path.join(USCITA, nome_zip), tag=tag_rel)
 
     rimasti = sum(1 for r in riepilogo if r["esito"].startswith("Non controllato"))
     da_controllare = sum(1 for r in riepilogo if not r["esito"].startswith("OK") and not r["esito"].startswith("Non controllato"))
     esito = (f"{len(risultati)} determine trovate in {len(riepilogo)} comuni, {n_allegati} allegati."
              + (f" {da_controllare} albi da controllare a mano." if da_controllare else "")
-             + (f" ATTENZIONE: {rimasti} comuni non controllati per raggiunto tempo massimo: rilancia il controllo"
-                f" \"dall'ultimo controllo\" per completarli." if rimasti else ""))
+             + ((f" {rimasti} comuni rimasti: il controllo prosegue da solo con un nuovo giro." if args.continua
+                 else f" ATTENZIONE: {rimasti} comuni non controllati per raggiunto tempo massimo: rilancia il controllo"
+                      f" \"dall'ultimo controllo\" per completarli.") if rimasti else ""))
 
+    ris_json = [{**r, "data": r["data"].isoformat() if r["data"] else ""} for r in risultati]
+    rie_json = [{**r, "dal": r["dal"].isoformat() if r["dal"] else ""} for r in riepilogo]
+    esito_tot = esito
+    if args.unisci:
+        # giro di continuazione: nella pagina si vedono insieme i risultati di tutti i giri della catena
+        prec = leggi("ultimo_run.json", {})
+        fatti_ora = {L.chiave({"nome": r["comune"], "sigla": r.get("sigla")}) for r in rie_json}
+        rie_json = [r for r in prec.get("riepilogo", []) if L.chiave({"nome": r["comune"], "sigla": r.get("sigla")}) not in fatti_ora] + rie_json
+        ris_json = prec.get("risultati", []) + ris_json
+        n_all_tot = sum(len(r.get("allegati") or []) for r in ris_json)
+        esito_tot = (f"{len(ris_json)} determine trovate in {len(rie_json)} comuni, {n_all_tot} allegati (più giri consecutivi)."
+                     + (f" Questo giro: {esito}" if esito else ""))
     scrivi("ultimo_run.json", {
-        "quando": stamp, "esito": esito, "excel": f"risultati/{nome_x}", "zip": url_zip,
+        "quando": stamp, "esito": esito_tot, "excel": f"risultati/{nome_x}", "zip": url_zip,
         "cartella": cartella if LOCALE else "",
-        "risultati": [{**r, "data": r["data"].isoformat() if r["data"] else ""} for r in risultati],
-        "riepilogo": [{**r, "dal": r["dal"].isoformat() if r["dal"] else ""} for r in riepilogo],
+        "risultati": ris_json,
+        "riepilogo": rie_json,
     })
+    if rimasti:
+        output_github(rimasti=str(rimasti),
+                      solo_rimasti=";".join(L.chiave({"nome": r["comune"], "sigla": r.get("sigla")})
+                                            for r in riepilogo if r["esito"].startswith("Non controllato")))
     registra_run({"quando": stamp, "tipo": "monitoraggio", "esito": esito,
                   "excel": f"risultati/{nome_x}", "zip": url_zip})
     log(esito)
@@ -235,6 +253,8 @@ def main():
     m.add_argument("--modo", default="ultimo", choices=["ultimo", "data"])
     m.add_argument("--data", default="")
     m.add_argument("--solo", default="")
+    m.add_argument("--continua", action="store_true", help="i comuni rimasti verranno controllati da un nuovo giro automatico")
+    m.add_argument("--unisci", action="store_true", help="giro di continuazione: aggiunge i risultati a quelli del giro precedente")
     args = ap.parse_args()
     {"albi": cmd_albi, "monitora": cmd_monitora}[args.cmd](args)
 

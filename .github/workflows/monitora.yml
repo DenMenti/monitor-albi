@@ -30,12 +30,17 @@ on:
       salta_trovati:
         description: "Ricerca albi: salta i comuni già trovati (si/no)"
         default: "si"
-  # Controllo automatico: ogni lunedì alle 7 (ora italiana). Cancella queste due righe per disattivarlo.
+      catena:
+        description: "Uso interno: numero del giro di continuazione (0 = giro avviato da una persona)"
+        default: "0"
+  # Controllo automatico: ogni notte dal lunedì al sabato alle 3 (ora italiana), dall'ultimo controllo di ogni comune.
+  # Cancella queste due righe per disattivarlo.
   schedule:
-    - cron: "0 5 * * 1"
+    - cron: "0 2 * * 1-6"
 
 permissions:
   contents: write
+  actions: write      # serve per far proseguire da solo un giro troppo lungo
 
 concurrency:
   group: monitor-albi
@@ -79,8 +84,13 @@ jobs:
           MODO: ${{ inputs.modo || 'ultimo' }}
           DATA: ${{ inputs.data }}
           SOLO: ${{ inputs.solo }}
+          CATENA: ${{ inputs.catena || '0' }}
           MONITOR_TEMPO_MAX_MIN: "270"
-        run: python esegui.py monitora --modo "$MODO" --data "$DATA" --solo "$SOLO"
+        run: |
+          EXTRA=""
+          if [ "$CATENA" -lt 8 ]; then EXTRA="--continua"; fi
+          if [ "$CATENA" -gt 0 ]; then EXTRA="$EXTRA --unisci"; fi
+          python esegui.py monitora --modo "$MODO" --data "$DATA" --solo "$SOLO" $EXTRA
 
       - name: Pubblica gli allegati
         if: steps.monitora.outputs.zip != ''
@@ -106,3 +116,17 @@ jobs:
             sleep 10
           done
           exit 1
+
+      - name: Prosegui con i comuni rimasti
+        # il giro si è fermato per tempo: ne parte subito un altro con i soli comuni rimasti (al massimo 8 giri di fila)
+        if: success() && steps.monitora.outputs.rimasti != '' && steps.monitora.outputs.rimasti != '0' && fromJSON(inputs.catena || '0') < 8
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODO: ${{ inputs.modo || 'ultimo' }}
+          DATA: ${{ inputs.data }}
+          RIMASTI: ${{ steps.monitora.outputs.solo_rimasti }}
+          CATENA: ${{ inputs.catena || '0' }}
+        run: |
+          gh workflow run monitora.yml --ref "${{ github.ref_name }}" \
+            -f azione=monitora -f modo="$MODO" -f data="$DATA" -f solo="$RIMASTI" -f catena="$((CATENA + 1))"
+          echo "Avviato il giro successivo con ${{ steps.monitora.outputs.rimasti }} comuni rimasti"
