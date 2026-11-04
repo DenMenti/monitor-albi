@@ -641,5 +641,32 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Agordo|2026-10-23|2026/866|INTERVENTO DI AMPLIAMENTO, RISTRUTTURAZIONE E RIFUNZIONALIZZAZIONE EDIFICIO A SE": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:54:27.674Z",
+    "atto": {
+      "id": "BL|Agordo|2026-10-23|2026/866|INTERVENTO DI AMPLIAMENTO, RISTRUTTURAZIONE E RIFUNZIONALIZZAZIONE EDIFICIO A SE",
+      "comune": "Agordo",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/866",
+      "oggetto": "INTERVENTO DI AMPLIAMENTO, RISTRUTTURAZIONE E RIFUNZIONALIZZAZIONE EDIFICIO A SERVIZIO DELLA PRATICA SPORTIVA DEL TENNIS – 1 STRALCIO FUNZIONALE – CUP H72H25000280009 CIG BD74499F51 AFFIDO INCARICO DI REDAZIONE COLLAUDO STATICO. ART.192 D.LGS 18.8.2000, N. 267 E ART. 17 DEL D.LGS 36/2023",
+      "parole": [
+        "incarico",
+        "intervento"
+      ],
+      "link": "https://agordo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4820646?p_p_state=pop_up",
+      "allegati": [
+        "agordo/agordo_2026-10-23_01.pdf.p7m",
+        "agordo/agordo_2026-10-23_02.pdf",
+        "agordo/agordo_2026-10-23_03.pdf.p7m",
+        "agordo/agordo_2026-10-23_04.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
