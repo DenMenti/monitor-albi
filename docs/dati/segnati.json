@@ -402,5 +402,31 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Taibon Agordino|2026-10-25|2026/498|DETERMINA A CONTRARRE E AFFIDAMENTO FORNITURA DI UNA CORONA DI ALLORO DA APPORRE": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:53:36.864Z",
+    "atto": {
+      "id": "BL|Taibon Agordino|2026-10-25|2026/498|DETERMINA A CONTRARRE E AFFIDAMENTO FORNITURA DI UNA CORONA DI ALLORO DA APPORRE",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-25",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/498",
+      "oggetto": "DETERMINA A CONTRARRE E AFFIDAMENTO FORNITURA DI UNA CORONA DI ALLORO DA APPORRE AL MONUMENTO DEDICATO AI CADUTI IN GUERRA PER LA RICORRENZA DEL 4 NOVEMBRE. ECONOMATO.",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8466014?p_p_state=pop_up",
+      "allegati": [
+        "taibon-agordino/taibon-agordino_2026-10-25_01.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_02.pdf",
+        "taibon-agordino/taibon-agordino_2026-10-25_03.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_04.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
