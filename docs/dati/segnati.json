@@ -536,5 +536,32 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Taibon Agordino|2026-10-25|2026/489|LIQUIDAZIONE SALDO COMPENSO INCENTIVANTE ART. 113 D.LGS. 50/2016 AL RESPONSABILE": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:54:14.927Z",
+    "atto": {
+      "id": "BL|Taibon Agordino|2026-10-25|2026/489|LIQUIDAZIONE SALDO COMPENSO INCENTIVANTE ART. 113 D.LGS. 50/2016 AL RESPONSABILE",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-25",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/489",
+      "oggetto": "LIQUIDAZIONE SALDO COMPENSO INCENTIVANTE ART. 113 D.LGS. 50/2016 AL RESPONSABILE UNICO DEL PROCEDIMENTO DEL COMUNE DI TAIBON AGORDINO. O.C.D.P.C. N. 558/2018 - LAVORI DI SISTEMAZIONE STRADE SILVO-PASTORALI PER RIMOZIONE SCHIANTI, IN COMUNE DI TAIBON AGORDINO (BL). INTERVENTO 44 SILV 1 - LOTTO 1 E INTERVENTO 44 SILV 2 - LOTTO 2. CUP: B23B19000040002",
+      "parole": [
+        "lavori",
+        "intervento"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8465992?p_p_state=pop_up",
+      "allegati": [
+        "taibon-agordino/taibon-agordino_2026-10-25_21.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_22.pdf",
+        "taibon-agordino/taibon-agordino_2026-10-25_23.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_24.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
