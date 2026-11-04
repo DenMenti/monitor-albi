@@ -694,5 +694,31 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Auronzo di Cadore|2026-10-23|2026/1017|AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA PER L'IMPIANTO DI ALLARME INSTALL": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:54:50.170Z",
+    "atto": {
+      "id": "BL|Auronzo di Cadore|2026-10-23|2026/1017|AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA PER L'IMPIANTO DI ALLARME INSTALL",
+      "comune": "Auronzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1017",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA PER L'IMPIANTO DI ALLARME INSTALLATO PRESSO L'UFFICIO SERVIZI DEMOGRAFICI",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1452817?p_p_state=pop_up",
+      "allegati": [
+        "auronzo-di-cadore/auronzo-di-cadore_2026-10-23_05.pdf",
+        "auronzo-di-cadore/auronzo-di-cadore_2026-10-23_06.pdf.p7m",
+        "auronzo-di-cadore/auronzo-di-cadore_2026-10-23_07.pdf",
+        "auronzo-di-cadore/auronzo-di-cadore_2026-10-23_08.pdf.p7m"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
