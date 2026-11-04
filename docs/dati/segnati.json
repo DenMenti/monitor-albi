@@ -206,5 +206,31 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Calalzo di Cadore|2026-10-26|2026/457|DECISIONE A CONTRARRE RELATIVA ALL’AFFIDAMENTO DIRETTO PER L’ASPORTAZIONE DI MAT": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:50:02.893Z",
+    "atto": {
+      "id": "BL|Calalzo di Cadore|2026-10-26|2026/457|DECISIONE A CONTRARRE RELATIVA ALL’AFFIDAMENTO DIRETTO PER L’ASPORTAZIONE DI MAT",
+      "comune": "Calalzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/457",
+      "oggetto": "DECISIONE A CONTRARRE RELATIVA ALL’AFFIDAMENTO DIRETTO PER L’ASPORTAZIONE DI MATERIALE UBICATO PRESSO L’AREA DEI TENNIS DI VIA B. TOFFOLI. CIG BD76401A24",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://calalzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1453448?p_p_state=pop_up",
+      "allegati": [
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_05.pdf",
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_06.pdf.p7m",
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_07.pdf",
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_08.pdf.p7m"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
