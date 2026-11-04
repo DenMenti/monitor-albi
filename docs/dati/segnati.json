@@ -455,5 +455,31 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Taibon Agordino|2026-10-25|2026/492|LIQUIDAZIONE INCENTIVO ART 113 D.LGS 50/2016 AL PERSONALE COMUNALE COINVOLTO. O.": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:53:41.522Z",
+    "atto": {
+      "id": "BL|Taibon Agordino|2026-10-25|2026/492|LIQUIDAZIONE INCENTIVO ART 113 D.LGS 50/2016 AL PERSONALE COMUNALE COINVOLTO. O.",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-25",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/492",
+      "oggetto": "LIQUIDAZIONE INCENTIVO ART 113 D.LGS 50/2016 AL PERSONALE COMUNALE COINVOLTO. O.C.D.P.C. N. 558/2018 - INTERVENTO DI MESSA IN SICUREZZA VERSANTI A MONTE STRADA TAIBON AGORDO, SISTEMAZIONE VERSANTI FR. BRUGNACH E SMALTIMENTO ACQUE RACCOLTE, IN COMUNE DI TAIBON AGORDINO (BL). – (INT. LN 145-2021-BL-164). (CUP: B27H21002490001).",
+      "parole": [
+        "intervento"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8465998?p_p_state=pop_up",
+      "allegati": [
+        "taibon-agordino/taibon-agordino_2026-10-25_13.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_14.pdf",
+        "taibon-agordino/taibon-agordino_2026-10-25_15.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_16.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
