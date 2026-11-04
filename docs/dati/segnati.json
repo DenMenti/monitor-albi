@@ -338,5 +338,36 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Limana|2026-10-26|2026/850|DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DELLA FORNITUR": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:51:48.426Z",
+    "atto": {
+      "id": "BL|Limana|2026-10-26|2026/850|DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DELLA FORNITUR",
+      "comune": "Limana",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/850",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DELLA FORNITURA DI RICAMBI E MATERIALE DI CONSUMO PER I MEZZI COMUNALI (CIG BD783EB040).",
+      "parole": [
+        "affidamento",
+        "appalto"
+      ],
+      "link": "https://limana.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/3210079?p_p_state=pop_up",
+      "allegati": [
+        "limana/limana_2026-10-26_09.pdf.p7m",
+        "limana/limana_2026-10-26_10.pdf",
+        "limana/limana_2026-10-26_11.pdf.p7m",
+        "limana/limana_2026-10-26_12.pdf",
+        "limana/limana_2026-10-26_13.pdf.p7m",
+        "limana/limana_2026-10-26_14.pdf",
+        "limana/limana_2026-10-26_15.pdf.p7m",
+        "limana/limana_2026-10-26_16.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
