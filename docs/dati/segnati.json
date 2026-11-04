@@ -887,5 +887,32 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Pieve di Cadore|2026-10-23|2026/683|APPROVAZIONE VARIANTE LAVORI DI RISTRUTTURAZIONE EDILIZIA, MESSA IN SICUREZZA ED": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:57:00.965Z",
+    "atto": {
+      "id": "BL|Pieve di Cadore|2026-10-23|2026/683|APPROVAZIONE VARIANTE LAVORI DI RISTRUTTURAZIONE EDILIZIA, MESSA IN SICUREZZA ED",
+      "comune": "Pieve di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/683",
+      "oggetto": "APPROVAZIONE VARIANTE LAVORI DI RISTRUTTURAZIONE EDILIZIA, MESSA IN SICUREZZA ED EFFICIENTAMENTO ENERGETICO DELLA SCUOLA PRIMARIA “PIER FORTUNATO CALVI DITTA F.LLI DE PRA SPA DI PONTE NELLE ALPI (BL)CUP F97H21001050005 – CIG B2471FB990",
+      "parole": [
+        "lavori",
+        "edilizia"
+      ],
+      "link": "https://pievedicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/838800?p_p_state=pop_up",
+      "allegati": [
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_01.pdf.p7m",
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_02.pdf",
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_03.pdf.p7m",
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_04.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
