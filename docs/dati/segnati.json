@@ -232,5 +232,29 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Falcade|2026-10-26|2026/708|AFFIDAMENTO DEL SERVIZIO DI RIMOZIONE E SMALTIMENTO DI VEICOLI IN STATO DI ABBAN": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:50:05.199Z",
+    "atto": {
+      "id": "BL|Falcade|2026-10-26|2026/708|AFFIDAMENTO DEL SERVIZIO DI RIMOZIONE E SMALTIMENTO DI VEICOLI IN STATO DI ABBAN",
+      "comune": "Falcade",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/708",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI RIMOZIONE E SMALTIMENTO DI VEICOLI IN STATO DI ABBANDONO RINVENUTI NEL TERRITORIO COMUNALE AI SENSI DEL D.M. N. 460/1999. IMPEGNO E LIQUIDAZIONE DI SPESA A FAVORE DELLA SOCIETÀ “BRESOLIN S.R.L.” - C.I.G.: BD67E39B0A.",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://falcade.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8467258?p_p_state=pop_up",
+      "allegati": [
+        "falcade/falcade_2026-10-26_01.pdf",
+        "falcade/falcade_2026-10-26_02.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
