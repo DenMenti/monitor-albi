@@ -944,5 +944,35 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Pieve di Cadore|2026-10-23|2026/673|AFFIDAMENTO ALL’ARCH. ALESSIA LANARI CON SEDE IN BELLUNO (BL) INCARICO PER LA RE": {
+    "stato": "fissato",
+    "quando": "2026-11-04T17:57:42.949Z",
+    "atto": {
+      "id": "BL|Pieve di Cadore|2026-10-23|2026/673|AFFIDAMENTO ALL’ARCH. ALESSIA LANARI CON SEDE IN BELLUNO (BL) INCARICO PER LA RE",
+      "comune": "Pieve di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/673",
+      "oggetto": "AFFIDAMENTO ALL’ARCH. ALESSIA LANARI CON SEDE IN BELLUNO (BL) INCARICO PER LA REDAZIONE DEL PROGETTO ESECUTIVO E DELLA DIREZIONE DEI LAVORI PER LA RIQUALIFICAZIONE DEGLI AMBIENTI INTERNI DELL’EDIFICIO “PALAZZO JACOBI – EX SCUOLA ELEMENTARE DEL COMUNE DI PIEVE DI CADORE” GIÀ OCCUPATI DAGLI UFFICI DELL’AGENZIA DELLE ENTRATE.CUP F98H25002370008 CIG: BD649A7926.",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "incarico",
+        "progetto",
+        "esecutivo"
+      ],
+      "link": "https://pievedicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/838678?p_p_state=pop_up",
+      "allegati": [
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_09.pdf.p7m",
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_10.pdf",
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_11.pdf.p7m",
+        "pieve-di-cadore/pieve-di-cadore_2026-10-23_12.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
