@@ -769,32 +769,6 @@
       "quando": "2026-10-26_1159"
     }
   },
-  "BL|Comelico Superiore|2026-10-23|575|DETERMINA N. Sett.195 DEL 23/10/2026 - AREA TECNICA - N. Gen.: 303/2026: O.C.D.P": {
-    "stato": "fissato",
-    "quando": "2026-11-04T17:55:42.748Z",
-    "atto": {
-      "id": "BL|Comelico Superiore|2026-10-23|575|DETERMINA N. Sett.195 DEL 23/10/2026 - AREA TECNICA - N. Gen.: 303/2026: O.C.D.P",
-      "comune": "Comelico Superiore",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "data": "2026-10-23",
-      "tipo": "DETERMINAZIONI",
-      "numero": "575",
-      "oggetto": "DETERMINA N. Sett.195 DEL 23/10/2026 - AREA TECNICA - N. Gen.: 303/2026: O.C.D.P.C. N. 1025 DEL 26/09/2023 DECRETO MINISTERO INTERNO DEL 09/05/2025. INTERVENTO N. 19 - RIPRISTINO TRATTI DI STRADA E RICOMPOSIZIONE AMBIENTALE DA BIVIO SS 52 CARNICA A MALGA RINFREDDO.AFFIDAMENTO INCARICO PROFESSIONALE PER REDAZIONE DEGLI ELABORATI PROGETTUALI DI LIVELLO ESECUTIVO E DEL COORDINAMENTO DELLA SICUREZZA NELLE FASI DI PROGETTAZIONE ED ESECUZIONE E DIREZIONE LAVORI. CUP D37H24004810001. CIG BD5E47FF16",
-      "parole": [
-        "lavori",
-        "affidamento",
-        "progettazione",
-        "incarico",
-        "esecutivo",
-        "intervento"
-      ],
-      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
-      "allegati": [],
-      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
-      "quando": "2026-10-26_1159"
-    }
-  },
   "BL|Danta di Cadore|2026-10-23|474|DETERMINA N. Sett.45 DEL 23/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 134/20": {
     "stato": "fissato",
     "quando": "2026-11-04T17:56:24.777Z",
