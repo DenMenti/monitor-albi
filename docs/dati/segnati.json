@@ -179,5 +179,32 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Calalzo di Cadore|2026-10-26|2026/458|“FONDO COMUNI CONFINANTI” DI CUI ALL’ARTICOLO 2, COMMI 117 E 117 BIS, DELLA LEGG": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:49:59.669Z",
+    "atto": {
+      "id": "BL|Calalzo di Cadore|2026-10-26|2026/458|“FONDO COMUNI CONFINANTI” DI CUI ALL’ARTICOLO 2, COMMI 117 E 117 BIS, DELLA LEGG",
+      "comune": "Calalzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/458",
+      "oggetto": "“FONDO COMUNI CONFINANTI” DI CUI ALL’ARTICOLO 2, COMMI 117 E 117 BIS, DELLA LEGGE 23 DICEMBRE 2009, N. 191 E S.M.I. – APPROVAZIONE QUADRO ECONOMICO POST GARA DEI LAVORI DI REALIZZAZIONE DELLA “CITTADELLA DELLO SPORT” CUP J59F22000000005 CIG. BAD1F8A5A6 APPROVAZIONE PERIZIA SUPPLETIVA E DI VARIANTE, SCHEMA ATTO DI SOTTOMISSIONE E VERBALE DI CONCORDAMENTO NUOVI PREZZI.",
+      "parole": [
+        "lavori",
+        "gara"
+      ],
+      "link": "https://calalzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1453451?p_p_state=pop_up",
+      "allegati": [
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_01.pdf",
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_02.pdf.p7m",
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_03.pdf",
+        "calalzo-di-cadore/calalzo-di-cadore_2026-10-26_04.pdf.p7m"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
