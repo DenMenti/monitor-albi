@@ -1,0 +1,14 @@
+{
+ "comune": "Val di Zoldo",
+ "sigla": "BL",
+ "albo": "https://servizi.comune.valdizoldo.bl.it/ServiziOnLine/Istanze/landingIstanza?Id=22",
+ "motivo": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+ "diagnosi": "il sito non risponde (timeout)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}
