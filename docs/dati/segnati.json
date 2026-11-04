@@ -794,5 +794,29 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Danta di Cadore|2026-10-23|474|DETERMINA N. Sett.45 DEL 23/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 134/20": {
+    "stato": "fissato",
+    "quando": "2026-11-04T17:56:24.777Z",
+    "atto": {
+      "id": "BL|Danta di Cadore|2026-10-23|474|DETERMINA N. Sett.45 DEL 23/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 134/20",
+      "comune": "Danta di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "Determinazioni",
+      "numero": "474",
+      "oggetto": "DETERMINA N. Sett.45 DEL 23/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 134/2026: DETERMINAZIONE A CONTRATTARE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B), DEL D.LGS. 36/2023, DEL SERVIZIO DI ARCHITETTURA E INGEGNERIA PER LA REDAZIONE DEL PROGETTO DI FATTIBILITÀ TECNICO-ECONOMICA (PFTE) E DELLA DOCUMENTAZIONE TECNICA PER LA CANDIDATURA AL BANDO PR FESR 2021-2027 PRIORITÀ 5 AZIONE 5.2.2 CIG BD7B340F7F",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [
+        "danta-di-cadore/danta-di-cadore_2026-10-23_01.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
