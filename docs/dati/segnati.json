@@ -861,5 +861,31 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Livinallongo del CdL|2026-10-23|2026/774|LAVORI DI RIPRISTINO PIANO VIABILE IN LOCALITA' FONDOVALLE. AGGIUDICAZIONE INTER": {
+    "stato": "fissato",
+    "quando": "2026-11-04T17:56:49.431Z",
+    "atto": {
+      "id": "BL|Livinallongo del CdL|2026-10-23|2026/774|LAVORI DI RIPRISTINO PIANO VIABILE IN LOCALITA' FONDOVALLE. AGGIUDICAZIONE INTER",
+      "comune": "Livinallongo del CdL",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/774",
+      "oggetto": "LAVORI DI RIPRISTINO PIANO VIABILE IN LOCALITA' FONDOVALLE. AGGIUDICAZIONE INTERVENTO. CIG BD7BDCA1F9",
+      "parole": [
+        "lavori",
+        "aggiudicazione",
+        "intervento"
+      ],
+      "link": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464491?p_p_state=pop_up",
+      "allegati": [
+        "livinallongo-del-cdl/livinallongo-del-cdl_2026-10-23_01.pdf",
+        "livinallongo-del-cdl/livinallongo-del-cdl_2026-10-23_02.odt"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
