@@ -125,5 +125,31 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Auronzo di Cadore|2026-10-26|2026/1034|APPROVAZIONE DELLA CONTABILITÀ CORRISPONDENTE AL FINALE, DELLA RELAZIONE SUL CON": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:49:48.713Z",
+    "atto": {
+      "id": "BL|Auronzo di Cadore|2026-10-26|2026/1034|APPROVAZIONE DELLA CONTABILITÀ CORRISPONDENTE AL FINALE, DELLA RELAZIONE SUL CON",
+      "comune": "Auronzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1034",
+      "oggetto": "APPROVAZIONE DELLA CONTABILITÀ CORRISPONDENTE AL FINALE, DELLA RELAZIONE SUL CONTO FINALE E DEL CERTIFICATO DI REGOLARE ESECUZIONE CON CONSEGUENTE LIQUIDAZIONE DEL CREDITO RIGUARDANTI I LAVORI DI MANUTENZIONE STRAORDINARIA DELLA PAVIMENTAZIONE STRADALE DELLA VIA ANSIEI NEL COMUNE DI AURONZO DI CADORE. CUP B27H25002990004 CIG B9C2149438",
+      "parole": [
+        "lavori",
+        "manutenzione",
+        "stradale"
+      ],
+      "link": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1453680?p_p_state=pop_up",
+      "allegati": [
+        "auronzo-di-cadore/auronzo-di-cadore_2026-10-26_01.pdf",
+        "auronzo-di-cadore/auronzo-di-cadore_2026-10-26_02.pdf.p7m"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
