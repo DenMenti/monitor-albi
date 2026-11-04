@@ -97,5 +97,33 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
       "quando": "2026-10-23_2122"
     }
+  },
+  "BL|Alleghe|2026-10-26|2026/669|LAVORI DI MANUTENZIONE STRAORDINARIA COPERTURA STADIO DEL GHIACCIO A SEGUITO DEL": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:49:38.664Z",
+    "atto": {
+      "id": "BL|Alleghe|2026-10-26|2026/669|LAVORI DI MANUTENZIONE STRAORDINARIA COPERTURA STADIO DEL GHIACCIO A SEGUITO DEL",
+      "comune": "Alleghe",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/669",
+      "oggetto": "LAVORI DI MANUTENZIONE STRAORDINARIA COPERTURA STADIO DEL GHIACCIO A SEGUITO DELL’EVENTO METEO ESTATE 2024. AFFIDAMENTO ALLA DITTA ISOLROOF S.R.L. - CIG: BD7EDECA66.",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://alleghe.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8467134?p_p_state=pop_up",
+      "allegati": [
+        "alleghe/alleghe_2026-10-26_01.pdf.p7m",
+        "alleghe/alleghe_2026-10-26_02.pdf",
+        "alleghe/alleghe_2026-10-26_03.pdf.p7m",
+        "alleghe/alleghe_2026-10-26_04.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
