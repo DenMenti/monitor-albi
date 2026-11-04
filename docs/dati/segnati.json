@@ -744,5 +744,29 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Comelico Superiore|2026-10-23|576|DETERMINA N. Sett.196 DEL 23/10/2026 - AREA TECNICA - N. Gen.: 304/2026: OCDPC N": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:55:22.562Z",
+    "atto": {
+      "id": "BL|Comelico Superiore|2026-10-23|576|DETERMINA N. Sett.196 DEL 23/10/2026 - AREA TECNICA - N. Gen.: 304/2026: OCDPC N",
+      "comune": "Comelico Superiore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI",
+      "numero": "576",
+      "oggetto": "DETERMINA N. Sett.196 DEL 23/10/2026 - AREA TECNICA - N. Gen.: 304/2026: OCDPC N. 558 DEL 15/11/2018 O.C. N. 4 DEL 21/04/2020 PROGETTO LN145-2020-558-BL-039 - RIFACIMENTO PONTI SCALZATI STRADA COMUNALE GERA-SOPALU'.- PIANO DEGLI INTERVENTI 2020 DI CUI AL D.P.C.M. DEL 27 FEBBRAIO 2019. O.C. N. 10/2021 PROGETTO LN145-2021-D-BL-65 RAZIONALIZZAZIONE E CONSOLIDAMENTO PONTI LUNGO LA TRATTA STRADALE GERA SOPALU' .AFFIDAMENTO DIRETTO PER IL COLLAUDO STATICO CIG BD7FF633FE - CUP D37H20004790001",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "stradale",
+        "progetto"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscomelicosup/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
