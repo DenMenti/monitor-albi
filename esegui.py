@@ -13,6 +13,7 @@ import os
 import shutil
 import sys
 import threading
+import time
 import zipfile
 
 import logica as L
@@ -158,6 +159,11 @@ def cmd_monitora(args):
     # diagnostica: tengo solo quella dell'ultimo controllo
     shutil.rmtree(DIAG, ignore_errors=True)
     opz["diagnostica"] = DIAG
+    # su GitHub un lavoro viene interrotto dopo ~6 ore perdendo tutto: mi fermo prima e salvo quello che ho fatto
+    minuti = float(os.environ.get("MONITOR_TEMPO_MAX_MIN") or 0)
+    if minuti:
+        opz["scadenza_giro"] = time.time() + minuti * 60
+        log(f"Tempo massimo del giro: {minuti:.0f} minuti (i comuni rimasti si completano rilanciando)")
     m = Motore(log, avanzamento, STOP)
     risultati, riepilogo = m.monitora(comuni, dal, opz, cartella)
 
@@ -199,9 +205,12 @@ def cmd_monitora(args):
             url_zip = f"https://github.com/{repo}/releases/download/run-{stamp}/{nome_zip}"
         output_github(zip=os.path.join(USCITA, nome_zip), tag=f"run-{stamp}")
 
-    da_controllare = sum(1 for r in riepilogo if not r["esito"].startswith("OK"))
+    rimasti = sum(1 for r in riepilogo if r["esito"].startswith("Non controllato"))
+    da_controllare = sum(1 for r in riepilogo if not r["esito"].startswith("OK") and not r["esito"].startswith("Non controllato"))
     esito = (f"{len(risultati)} determine trovate in {len(riepilogo)} comuni, {n_allegati} allegati."
-             + (f" {da_controllare} albi da controllare a mano." if da_controllare else ""))
+             + (f" {da_controllare} albi da controllare a mano." if da_controllare else "")
+             + (f" ATTENZIONE: {rimasti} comuni non controllati per raggiunto tempo massimo: rilancia il controllo"
+                f" \"dall'ultimo controllo\" per completarli." if rimasti else ""))
 
     scrivi("ultimo_run.json", {
         "quando": stamp, "esito": esito, "excel": f"risultati/{nome_x}", "zip": url_zip,

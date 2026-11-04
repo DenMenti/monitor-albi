@@ -79,6 +79,7 @@ jobs:
           MODO: ${{ inputs.modo || 'ultimo' }}
           DATA: ${{ inputs.data }}
           SOLO: ${{ inputs.solo }}
+          MONITOR_TEMPO_MAX_MIN: "270"
         run: python esegui.py monitora --modo "$MODO" --data "$DATA" --solo "$SOLO"
 
       - name: Pubblica gli allegati

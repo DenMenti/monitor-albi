@@ -618,8 +618,18 @@ class Motore:
                     page = ctx.new_page()
                 nome = c["nome"]
                 dal = dal_per_comune(c)
+                scadenza_giro = opz.get("scadenza_giro")
+                if scadenza_giro and time.time() > scadenza_giro:
+                    # il giro sta per superare il tempo massimo: chiudo bene invece di farmi interrompere
+                    riepilogo.append({"comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
+                                      "albo": c["albo"], "dal": dal, "pagine": 0, "letti": 0, "trovati": 0,
+                                      "esito": "Non controllato: tempo massimo del giro raggiunto (rilancia per completare)",
+                                      "diagnosi": "non controllato per tempo"})
+                    continue
                 self._inizio_comune = time.time()
                 self._scadenza_lettura = self._inizio_comune + TEMPO_MAX_COMUNE
+                if scadenza_giro:
+                    self._scadenza_lettura = min(self._scadenza_lettura, scadenza_giro + 10 * 60)
                 saltati = [0]
                 self.avanzamento(n - 1, len(da_fare), nome)
                 rie = {"comune": nome, "sigla": c.get("sigla", ""), "provincia": c.get("provincia", ""),
