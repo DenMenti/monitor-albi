@@ -507,5 +507,34 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Taibon Agordino|2026-10-25|2026/490|PROCEDURA EX ART. 50, CO. 1, LETT. A), DEL D.LGS. N. 36/2023 (E S.M.I.) PER L'AF": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:54:11.478Z",
+    "atto": {
+      "id": "BL|Taibon Agordino|2026-10-25|2026/490|PROCEDURA EX ART. 50, CO. 1, LETT. A), DEL D.LGS. N. 36/2023 (E S.M.I.) PER L'AF",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-25",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/490",
+      "oggetto": "PROCEDURA EX ART. 50, CO. 1, LETT. A), DEL D.LGS. N. 36/2023 (E S.M.I.) PER L'AFFIDAMENTO DEI LAVORI DI COMPLETAMENTO OPERE DI MESSA IN SICUREZZA MEDIANTE REALIZZAZIONE DI DRENAGGI SULLA STRADA SOCCOL - BRUGNACH NELL’AMBITO DEL PROGETTO DENOMINATO O.C.D.P.C. N. 558/2018 – SISTEMAZIONE VERSANTI A MONTE DELLA STRADA COMUNALE DI SOCCOL - INTERVENTO BL 025-059-129, IN COMUNE DI TAIBON AGORDINO (BL). - CUP B23H20000200001 CIG BBEDC5B8E8 RETTIFICA ERRORE MATERIALE",
+      "parole": [
+        "lavori",
+        "affidamento",
+        "progetto",
+        "intervento"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8465994?p_p_state=pop_up",
+      "allegati": [
+        "taibon-agordino/taibon-agordino_2026-10-25_17.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_18.pdf",
+        "taibon-agordino/taibon-agordino_2026-10-25_19.pdf.p7m",
+        "taibon-agordino/taibon-agordino_2026-10-25_20.pdf"
+      ],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
