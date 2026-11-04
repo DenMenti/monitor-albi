@@ -818,5 +818,27 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BL|Danta di Cadore|2026-10-23|473|DETERMINA N. Sett.46 DEL 23/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 135/20": {
+    "stato": "nascosto",
+    "quando": "2026-11-04T17:56:34.992Z",
+    "atto": {
+      "id": "BL|Danta di Cadore|2026-10-23|473|DETERMINA N. Sett.46 DEL 23/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 135/20",
+      "comune": "Danta di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-23",
+      "tipo": "Determinazioni",
+      "numero": "473",
+      "oggetto": "DETERMINA N. Sett.46 DEL 23/10/2026 - AREA TECNICA MANUTENTIVA - N. Gen.: 135/2026: DETERMINAZIONE A CONTRATTARE. AFFIDAMENTO DIRETTO, INFERIORE A 40.000 EURO, AI SENSI DELL’ART. 50 C. 1, LETT. A) DEL D.LGS. 36/2023, DEI LAVORI DI SOSTITUZIONE DI N. 2 PALI DELL’ILLUMINAZIONE PUBBLICA DANNEGGIATI IN PIAZZA DORIGUZZI LUTTIN E VIA SANTO STEFANO- CIG. BD623E722C.",
+      "parole": [
+        "lavori",
+        "affidamento"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsdantadicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+      "quando": "2026-10-26_1159"
+    }
   }
 }
