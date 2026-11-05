@@ -1,0 +1,14 @@
+{
+ "comune": "Castegnato",
+ "sigla": "BS",
+ "albo": "https://portale.comunecastegnato.org/openweb/albo/albo_pretorio.php",
+ "motivo": "nessuna riga letta",
+ "diagnosi": "bloccato dal sito (protezione anti-robot)",
+ "stato_http": 403,
+ "url": "https://portale.comunecastegnato.org/openweb/albo/albo_pretorio.php",
+ "titolo": "403 Forbidden",
+ "testo": "403 Forbidden Microsoft-Azure-Application-Gateway/v2",
+ "tabelle": 0,
+ "link": 0,
+ "frame": []
+}

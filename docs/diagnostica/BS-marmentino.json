@@ -1,0 +1,14 @@
+{
+ "comune": "Marmentino",
+ "sigla": "BS",
+ "albo": "https://albo.apkappa.it/marmentino/albo/index.php",
+ "motivo": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+ "diagnosi": "il sito non risponde (timeout)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}

@@ -1,5 +1,12 @@
 [
   {
+    "quando": "2026-11-05_1015",
+    "tipo": "monitoraggio",
+    "esito": "227 determine trovate in 260 comuni, 0 allegati. 83 albi da controllare a mano.",
+    "excel": "risultati/determine_2026-11-05_1015.xlsx",
+    "zip": ""
+  },
+  {
     "quando": "2026-11-04_2007",
     "tipo": "monitoraggio",
     "esito": "81 determine trovate in 60 comuni, 0 allegati. 13 albi da controllare a mano.",
