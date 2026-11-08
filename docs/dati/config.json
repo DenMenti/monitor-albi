@@ -15,7 +15,8 @@
   ],
   "esclusioni": [
     "impegno di spesa",
-    "subappalto"
+    "subappalto",
+    "liquidazione"
   ],
   "solo_determine": true,
   "scarica": false,
