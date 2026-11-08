@@ -1008,7 +1008,8 @@
       "https://gavardo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "albo_lista": "https://gavardo.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=4589"
   },
   {
     "nome": "Ghedi",
@@ -1491,7 +1492,8 @@
       "https://mura.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "albo_lista": "https://mura.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=1684"
   },
   {
     "nome": "Muscoline",
@@ -1643,7 +1645,8 @@
     "albo": "https://www.comune.ospitaletto.bs.it/albo-pretorio",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "albo_lista": "https://www.halleyweb.com/c017127/mc/mc_p_ricerca.php"
   },
   {
     "nome": "Ossimo",
@@ -1759,7 +1762,8 @@
     "albo": "https://comune.passirano.bs.it/documenti/2389535/albo-pretorio",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "albo_lista": "http://www.halleyweb.com/c017136/mc/mc_gridev_messi.php?x=&servizio=&bck=http%3A%2F%2Fwww.halleyweb.com%2Fc017136%2Fhh%2Findex.php"
   },
   {
     "nome": "Pavone del Mella",
@@ -1787,7 +1791,8 @@
       "https://perticaalta.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "albo_lista": "https://perticaalta.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=2084"
   },
   {
     "nome": "Pertica Bassa",
@@ -1945,7 +1950,8 @@
     "albo": "https://www.comune.pontoglio.bs.it/albo-pretorio",
     "altri": [],
     "piattaforma": "Halley",
-    "note": ""
+    "note": "",
+    "albo_lista": "https://www.halleyweb.com/c017150/mc/mc_p_ricerca.php"
   },
   {
     "nome": "Pozzolengo",
