@@ -5477,5 +5477,30 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Livinallongo del CdL|2026-10-30|2026/801|AFFIDO INCARICO PER IL SERVIZIO DI COLLAUDO STATICO IN CORSO D’OPERA DELL’INTERV": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:09:20.580Z",
+    "atto": {
+      "id": "BL|Livinallongo del CdL|2026-10-30|2026/801|AFFIDO INCARICO PER IL SERVIZIO DI COLLAUDO STATICO IN CORSO D’OPERA DELL’INTERV",
+      "comune": "Livinallongo del CdL",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/801",
+      "oggetto": "AFFIDO INCARICO PER IL SERVIZIO DI COLLAUDO STATICO IN CORSO D’OPERA DELL’INTERVENTO DENOMINATO “STRADA COMUNALE DI CHERZ - VIA CHERZ - INSTAL-LAZIONE PARAMASSI, OPERE DI CONSOLIDAMENTO VERSANTI, RIPRISTINO BARRIERE STRADALI”. CUP E96F24000080001. CIG BD9550F8DD.",
+      "parole": [
+        "incarico",
+        "intervento",
+        "strad",
+        "ripristin"
+      ],
+      "link": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8478233?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
