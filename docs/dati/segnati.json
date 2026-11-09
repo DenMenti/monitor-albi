@@ -5069,5 +5069,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-30|2026/7888|LIQUIDAZIONE DEGLI INCENTIVI TECNICI DI CUI ALL'ART. 45 DEL D.LGS. N. 36/2023 PE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:07:11.139Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-30|2026/7888|LIQUIDAZIONE DEGLI INCENTIVI TECNICI DI CUI ALL'ART. 45 DEL D.LGS. N. 36/2023 PE",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7888",
+      "oggetto": "LIQUIDAZIONE DEGLI INCENTIVI TECNICI DI CUI ALL'ART. 45 DEL D.LGS. N. 36/2023 PER SERVIZIO DI NOLEGGIO OPERATIVO DI DEFIBRILLATORI SEMI-AUTOMATICI ESTERNI (DAE) E ATTIVITA’ DI MANUTENZIONE PER UN PERIODO DI 48 MESI ALL'OPERATORE ECONOMICO IREDEEM SPA ANNUALITA' 2024-2025. CODICE GARA: G10807; CIG: B45518E9F5.",
+      "parole": [
+        "gara",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2805388",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
