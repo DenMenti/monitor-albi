@@ -5235,5 +5235,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Borno|2026-10-30|2026/626|PATTO TERRITORIALE COMPRENSORIO BORNO MONTE ALTISSIMO – NUOVA TELECABINA DI ARRO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:08:04.700Z",
+    "atto": {
+      "id": "BS|Borno|2026-10-30|2026/626|PATTO TERRITORIALE COMPRENSORIO BORNO MONTE ALTISSIMO – NUOVA TELECABINA DI ARRO",
+      "comune": "Borno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/626",
+      "oggetto": "PATTO TERRITORIALE COMPRENSORIO BORNO MONTE ALTISSIMO – NUOVA TELECABINA DI ARROCCAMENTO AL MONTE ALTISSIMO. (CUP G11C22000050003). APPROVAZIONE PARZIALE E CONDIZIONATA DI STRALCIO DEL PROGETTO ESECUTIVO PER FONDAZIONI SPECIALI E PER OPERE SOTTOPOSTE A NULLA OSTA TECNICO ANSFISA EX ART.3 DEL DPR 753/80, CON RELATIVA AUTORIZZAZIONE ALLA CONSEGNA LAVORI.",
+      "parole": [
+        "progetto",
+        "esecutivo",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://borno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2078753?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
