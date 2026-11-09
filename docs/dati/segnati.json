@@ -2470,5 +2470,28 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BL|San Vito di Cadore|2026-10-27|2026/630|ACCORDO PER IL SERVIZIO DI RINFORZO DI POLIZIA LOCALE TRA I COMUNI DI PADOVA E S": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:34:04.006Z",
+    "atto": {
+      "id": "BL|San Vito di Cadore|2026-10-27|2026/630|ACCORDO PER IL SERVIZIO DI RINFORZO DI POLIZIA LOCALE TRA I COMUNI DI PADOVA E S",
+      "comune": "San Vito di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/630",
+      "oggetto": "ACCORDO PER IL SERVIZIO DI RINFORZO DI POLIZIA LOCALE TRA I COMUNI DI PADOVA E SAN VITO DI CADORE. ASSUNZIONE DEGLI IMPEGNI DI SPESA NECESSARI E LIQUIDAZIONE DEL PROGETTO OBIETTIVO E DELLA RIVALUTAZIONE EX CCNL ED EX PEO ANNO 2025.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://sanvitodicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4470209?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
