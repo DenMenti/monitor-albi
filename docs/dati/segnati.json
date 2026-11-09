@@ -1664,5 +1664,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-26|2026/7758|BO 58/2026 - AFFIDAMENTO DIRETTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE, COMP": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:06.483Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-26|2026/7758|BO 58/2026 - AFFIDAMENTO DIRETTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE, COMP",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7758",
+      "oggetto": "BO 58/2026 - AFFIDAMENTO DIRETTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE, COMPRENSIVO DELLA LICENZA, DELL’APPLICATIVO “ENTRATEONLINE – SOGGIORNIAMO” PER LA GESTIONE DELL’IMPOSTA DI SOGGIORNO PER IL PERIODO DAL 01/12/2026 AL 30/11/2027 - CIG BD6B89C9B2 - ALL’OPERATORE ECONOMICO OESIS S.R.L.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2800027",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
