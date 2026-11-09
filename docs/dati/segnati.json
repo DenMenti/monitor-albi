@@ -3882,5 +3882,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Pozzolengo|2026-10-29|646|DETERMINA N.391 DEL 28/10/2026 - AREA POLIZIA LOCALE: AFFIDAMENTO DIRETTO AI SEN": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:59:08.250Z",
+    "atto": {
+      "id": "BS|Pozzolengo|2026-10-29|646|DETERMINA N.391 DEL 28/10/2026 - AREA POLIZIA LOCALE: AFFIDAMENTO DIRETTO AI SEN",
+      "comune": "Pozzolengo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "Determinazioni",
+      "numero": "646",
+      "oggetto": "DETERMINA N.391 DEL 28/10/2026 - AREA POLIZIA LOCALE: AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL D.LGS. 36/2023 ALL'OPERATORE ECONOMICO MEGAH TELECOMUNICAZIONI SRL PER ASSISTENZA TECNICA E MANUTENZIONE AL PARCO RICETRASMITTENTI E RINNOVO DELLA CONCESSIONE D’USO FREQUENZA DEL PONTE RADIO: CIG BD39876C07",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspozzolengo/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
