@@ -3638,5 +3638,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Pontoglio|2026-10-29||Numero pubblicazione 721 Mittente COMUNE DI PONTOGLIO Tipo Determinazione Oggett": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:57:28.210Z",
+    "atto": {
+      "id": "BS|Pontoglio|2026-10-29||Numero pubblicazione 721 Mittente COMUNE DI PONTOGLIO Tipo Determinazione Oggett",
+      "comune": "Pontoglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 721 Mittente COMUNE DI PONTOGLIO Tipo Determinazione Oggetto DECISIONE A CONTRARRE E AFFIDAMENTO DEL SERVIZIO PER IL SUPPORTO TECNICO SULLA PROCEDURA AD ACCESSO DIRETTO SUL PORTALE DEL GESTORE SERVIZI ENERGETICI (GSE) - EDIFICIO SCUOLA DELL'INFANZIA - C.I.G BD8E5DA382. Numero atto 142 Data atto 29/10/2026 N.Registro generale 361 Data registro generale 29/10/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "affidamento",
+        "edificio"
+      ],
+      "link": "https://www.halleyweb.com/c017150/mc/mc_p_dettaglio.php?id_pubbl=2934",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
