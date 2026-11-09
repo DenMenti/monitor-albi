@@ -5766,5 +5766,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Alpago|2026-10-30||Numero pubblicazione 984 Mittente COMUNE DI ALPAGO Tipo Determina Oggetto CIG BA": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:10:58.052Z",
+    "atto": {
+      "id": "BL|Alpago|2026-10-30||Numero pubblicazione 984 Mittente COMUNE DI ALPAGO Tipo Determina Oggetto CIG BA",
+      "comune": "Alpago",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 984 Mittente COMUNE DI ALPAGO Tipo Determina Oggetto CIG BADFDE75A5. CUP B62H25001860006. ACCORDO PER LA COESIONE FSC 2021-2027 REGIONE DEL VENETO - AREA TEMATICA 10 SOCIALE E SALUTE - LINEA DI INTERVENTO 10.01 STRUTTURE SOCIALI. (ID SCHEDE INTERVENTO FSCRI_RI_454 E FSCRI_RI_1619). LAVORI DI RISTRUTTURAZIONE, RIFACIMENTO IGIENICO SANITARIO ED IMPIANTISTICO DEL \"COMPLESSO SPORTIVO PIEVE\" IN COMUNE DI ALPAGO. BANDO \"FSC 2021 - 2027. ADEGUAMENTO NORMATIVO, MIGLIORAMENTO E RISTRUTTURAZIONE DI IMPIANTI SPORTIVI DI ENTI LOCALI\" APPROVATO CON D.G.R. N. 1575 DEL 30 DICEMBRE 2024. DETERMINA DI APPROVAZIONE SAL N. 2 PARI AL FINALE. Numero atto 286 Data atto 30/10/2026 N.Registro generale 596 Data registro generale 30/10/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "intervento",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "https://servizionline.comune.alpago.bl.it/c025072/mc/mc_p_dettaglio.php?id_pubbl=2579",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
