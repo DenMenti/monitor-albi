@@ -1687,5 +1687,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-26|2026/7761|AFFIDAMENTO DIRETTO DEL SERVIZIO DI SPURGO, ASPIRAZIONE LIQUAMI ED EVENTUALE PUL": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:08.876Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-26|2026/7761|AFFIDAMENTO DIRETTO DEL SERVIZIO DI SPURGO, ASPIRAZIONE LIQUAMI ED EVENTUALE PUL",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7761",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL SERVIZIO DI SPURGO, ASPIRAZIONE LIQUAMI ED EVENTUALE PULIZIA DELLE FOSSE BIOLOGICHE, DELLE RETI E CONDOTTE DI SCARICO E FOGNARIE, COMPRESI INTERVENTI DI VIDEO-ISPEZIONE PRESSO I FABBRICATI DI EDILIZIA CIVILE E SOCIALE DEL COMUNE DI BRESCIA – TRIENNIO 2026-2029” - CIG BD61ECA9F1 – ALL’OPERATORE ECONOMICO CAVAGNA GIULIO DI CAVAGNA MARCO & C. SNC - PROCEDURA G12822",
+      "parole": [
+        "affidamento",
+        "edilizia"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2800155",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
