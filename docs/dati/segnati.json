@@ -5647,5 +5647,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Auronzo di Cadore|2026-10-30|2026/1050|PRIMI INTERVENTI URGENTI DI P.C. IN CONSEGUENZA DEGLI ECCEZIONALI EVENTI METEORO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:10:18.642Z",
+    "atto": {
+      "id": "BL|Auronzo di Cadore|2026-10-30|2026/1050|PRIMI INTERVENTI URGENTI DI P.C. IN CONSEGUENZA DEGLI ECCEZIONALI EVENTI METEORO",
+      "comune": "Auronzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1050",
+      "oggetto": "PRIMI INTERVENTI URGENTI DI P.C. IN CONSEGUENZA DEGLI ECCEZIONALI EVENTI METEOROLOGICI DAL 27.10 AL 05.11.2018 - DELIBERA CONSIGLIO DEI MINISTRI 08.11.2018 E OCDPC N. 558 DEL 15.11.2018 - INTERVENTO DI “RIFACIMENTO COPERTURE CASON DEI SAI” – CUP B23B19000050001 - CIG ZCF29EBF5C: APPROVAZIONE ED ACCERTAMENTO DELLA SPESA COMPLESSIVAMENTE SOSTENUTA",
+      "parole": [
+        "intervento",
+        "rifacimento"
+      ],
+      "link": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1456554?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
