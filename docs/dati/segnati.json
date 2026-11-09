@@ -2282,5 +2282,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Concesio|2026-10-27|2026/1469|APPROVAZIONE BOZZA DI RISOLUZIONE CONSENSUALE DEL CONTRATTO DI APPALTO REP. N. 3": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:33:05.054Z",
+    "atto": {
+      "id": "BS|Concesio|2026-10-27|2026/1469|APPROVAZIONE BOZZA DI RISOLUZIONE CONSENSUALE DEL CONTRATTO DI APPALTO REP. N. 3",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1469",
+      "oggetto": "APPROVAZIONE BOZZA DI RISOLUZIONE CONSENSUALE DEL CONTRATTO DI APPALTO REP. N. 3431 IN DATA 08/05/2025 SERVIZIO DI MANUTENZIONE DEL VERDE PUBBLICO PER GLI ANNI 2025-2029 A MEZZO DI ACCORDO QUADRO - CIG A.Q.: B54B7EF496",
+      "parole": [
+        "appalto",
+        "manutenzione"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10597224",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
