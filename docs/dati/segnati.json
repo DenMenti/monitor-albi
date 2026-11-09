@@ -5813,5 +5813,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Padenghe sul Garda|2026-10-31|759|DETERMINA N. Sett.112 DEL 30/10/2026 - AREA 5 - CULTURA TURISMO, DIGITALIZZAZION": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:11:08.598Z",
+    "atto": {
+      "id": "BS|Padenghe sul Garda|2026-10-31|759|DETERMINA N. Sett.112 DEL 30/10/2026 - AREA 5 - CULTURA TURISMO, DIGITALIZZAZION",
+      "comune": "Padenghe sul Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-31",
+      "tipo": "Determinazioni",
+      "numero": "759",
+      "oggetto": "DETERMINA N. Sett.112 DEL 30/10/2026 - AREA 5 - CULTURA TURISMO, DIGITALIZZAZIONE E SERVIZI ALLA PERSONA - N. Gen.: 354/2026: PROCEDURA AFFIDAMENTO DIRETTO, ART. 50, COMMA 1, LETT. B) DEL D.LGS. N. 36/2023 PER SERVIZIO DI SPOSTAMENTO E NUOVA UBICAZIONE DELLE ATTREZZATURE INFORMATICHE DEGLI UFFICI COMUNALI CAUSA LAVORI DI RIQUALIFICAZIONE DI PALAZZO BARBIERI - SEDE COMUNALE. CIG BD9565C1F01",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspadenghesulgarda/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
