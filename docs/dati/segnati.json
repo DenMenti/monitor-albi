@@ -1852,5 +1852,30 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Alpago|2026-10-26||Numero pubblicazione 960 Mittente COMUNE DI ALPAGO Tipo Determina Oggetto CUP B6": {
+    "stato": "fissato",
+    "quando": "2026-11-09T17:29:59.671Z",
+    "atto": {
+      "id": "BL|Alpago|2026-10-26||Numero pubblicazione 960 Mittente COMUNE DI ALPAGO Tipo Determina Oggetto CUP B6",
+      "comune": "Alpago",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 960 Mittente COMUNE DI ALPAGO Tipo Determina Oggetto CUP B67H19003220001. CIG BCB242F762. O.C.D.P.C. 819/2022 EX O.C.D.P.C. 622/2019. LEGGE 178 DEL 30/12/2020. EVENTI METEOROLOGICI ECCEZIONALI DEL MESE DI NOVEMBRE 2019. III° STRALCIO PIANO INTERVENTI. CONSOLIDAMENTO VERSANTE E SEDE STRADALE E REGIMAZIONE ACQUE IN LOCALITÀ NOAL DEL COMUNE DI ALPAGO (BL). DETERMINA DI AGGIUDICAZIONE DELL'APPALTO MEDIANTE PROCEDURA NEGOZIATA AI SENSI DELL'ART. 50, COMMA 1, LETT. C) DEL D.LGS. N. 36/2023 ED ASSUNZIONE IMPEGNI DI SPESA. Numero atto 277 Data atto 26/10/2026 N.Registro generale 582 Data registro generale 26/10/2026 Data inizio 26/10/2026 Data fine 10/11/2026",
+      "parole": [
+        "appalto",
+        "procedura negoziata",
+        "aggiudicazione",
+        "strad"
+      ],
+      "link": "https://servizionline.comune.alpago.bl.it/c025072/mc/mc_p_dettaglio.php?id_pubbl=2555",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
