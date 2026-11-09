@@ -2893,5 +2893,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Gavardo|2026-10-28|2026/762|AFFIDAMENTO DIRETTO LAVORI EDILI PER RIPRISTINO PUBBLICA ILLUMINAZIONE IN VIA SA": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:40:48.610Z",
+    "atto": {
+      "id": "BS|Gavardo|2026-10-28|2026/762|AFFIDAMENTO DIRETTO LAVORI EDILI PER RIPRISTINO PUBBLICA ILLUMINAZIONE IN VIA SA",
+      "comune": "Gavardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/762",
+      "oggetto": "AFFIDAMENTO DIRETTO LAVORI EDILI PER RIPRISTINO PUBBLICA ILLUMINAZIONE IN VIA SANT’ANTONIO – CIG BD825084B2",
+      "parole": [
+        "affidamento",
+        "lavor",
+        "ripristin"
+      ],
+      "link": "https://gavardo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2803078?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
