@@ -2824,5 +2824,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Passirano|2026-10-28||PROCEDIMENTO DI COPROGETTAZIONE AI SENSI DELL'ART. 55 DEL D.LGS. 3 LUGLIO 2017, ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:40:36.708Z",
+    "atto": {
+      "id": "BS|Passirano|2026-10-28||PROCEDIMENTO DI COPROGETTAZIONE AI SENSI DELL'ART. 55 DEL D.LGS. 3 LUGLIO 2017, ",
+      "comune": "Passirano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "PROCEDIMENTO DI COPROGETTAZIONE AI SENSI DELL'ART. 55 DEL D.LGS. 3 LUGLIO 2017, N. 117, PER LA DEFINIZIONE E REALIZZAZIONE IN PARTENARIATO DEL PROGETTO DI GESTIONE DELL'ASILO NIDO COMUNALE SITO IN VIA CHIESA N. 28, A CAMIGNONE - NOMINA DELLA COMMISSIONE PER LA VALUTAZIONE DELLA PROPOSTA PROGETTUALE",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017136/mc/mc_gridev_messi.php?x=&servizio=&bck=http%3A%2F%2Fwww.halleyweb.com%2Fc017136%2Fhh%2Findex.php",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
