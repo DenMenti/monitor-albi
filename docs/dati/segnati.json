@@ -3227,5 +3227,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Manerbio|2026-10-28|2026/1422|AFFIDAMENTO DELL'INCARICO PER LA REALIZZAZIONE DELLA BIBLIOGRAFIA E DELLA FORMAZ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:43:10.664Z",
+    "atto": {
+      "id": "BS|Manerbio|2026-10-28|2026/1422|AFFIDAMENTO DELL'INCARICO PER LA REALIZZAZIONE DELLA BIBLIOGRAFIA E DELLA FORMAZ",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1422",
+      "oggetto": "AFFIDAMENTO DELL'INCARICO PER LA REALIZZAZIONE DELLA BIBLIOGRAFIA E DELLA FORMAZIONE AI BIBLIOTECARI PER IL PROGETTO \"LIBRI SENZA GRAVITA': STORIE NELLO SPAZIO\" - CIG BD41622137",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4825224?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
