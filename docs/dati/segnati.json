@@ -1640,5 +1640,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-26|2026/7755|AFFIDAMENTO DIRETTO DEL SERVIZIO DI ASSISTENZA ALLA PROGETTAZIONE E ALLA RIGENER": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:03.117Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-26|2026/7755|AFFIDAMENTO DIRETTO DEL SERVIZIO DI ASSISTENZA ALLA PROGETTAZIONE E ALLA RIGENER",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7755",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL SERVIZIO DI ASSISTENZA ALLA PROGETTAZIONE E ALLA RIGENERAZIONE DEL PARCO DUCOS, FINALIZZATO ALLA REALIZZAZIONE DEL PROGETTO “OASI DI BIODIVERSITÀ AL PARCO DUCOS - BRESCIA” NELL’AMBITO DELLA CALL TO ACTION DEL PROGETTO ‘’JOIN NATURE’’ - PROJECT DOCS 2026_40390_2026-3756- CIG BD68615766 – G13014 - ALL’OPERATORE ECONOMICO 3 BEE SRL",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2800021",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
