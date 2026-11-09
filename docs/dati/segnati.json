@@ -3131,5 +3131,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Orzinuovi|2026-10-28|2026/1279|OPERE COMPLEMENTARI DI RIORDINO DELLA VIABILITA’ E SPAZI PER LA SOSTA, INTERVENT": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:42:52.103Z",
+    "atto": {
+      "id": "BS|Orzinuovi|2026-10-28|2026/1279|OPERE COMPLEMENTARI DI RIORDINO DELLA VIABILITA’ E SPAZI PER LA SOSTA, INTERVENT",
+      "comune": "Orzinuovi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINA",
+      "numero": "2026/1279",
+      "oggetto": "OPERE COMPLEMENTARI DI RIORDINO DELLA VIABILITA’ E SPAZI PER LA SOSTA, INTERVENTI DI RIQUALIFICAZIONE STRADALE SUL TERRITORIO COMUNALE – ANNO 2026. DETERMINAZIONE A CONTRARRE E AGGIUDICAZIONE DELLA PROCEDURA DI AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, C. 1, LETT. A) DEL D.LGS. 36/2023 E SS.MM.II. ESPLETATA MEDIANTE LA PIATTAFORMA TELEMATICA PER L’EPROCUREMENT SINTEL DI REGIONE LOMBARDIA. CIG: BD84BAB701 – CUP: J57H26000390004",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "strad"
+      ],
+      "link": "https://orzinuovi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/8474482",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
