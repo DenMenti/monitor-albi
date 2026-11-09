@@ -3905,5 +3905,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Piancogno|2026-10-29|2026/488|AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEI SISTEMI ANTINCENDIO EDIFICI PUBBLIC": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:59:14.021Z",
+    "atto": {
+      "id": "BS|Piancogno|2026-10-29|2026/488|AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEI SISTEMI ANTINCENDIO EDIFICI PUBBLIC",
+      "comune": "Piancogno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/488",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEI SISTEMI ANTINCENDIO EDIFICI PUBBLICI DEL COMUNE DI PIANCOGNO DAL 01.01.2027 AL 31.12.2028. CIG:BD6A6E39A5.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2077426?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
