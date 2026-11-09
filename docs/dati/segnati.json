@@ -6264,5 +6264,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Piancogno|2026-11-02|2026/492|AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE ATTREZZATURE DELLE CUCINE ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:14:53.915Z",
+    "atto": {
+      "id": "BS|Piancogno|2026-11-02|2026/492|AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE ATTREZZATURE DELLE CUCINE ",
+      "comune": "Piancogno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/492",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE ATTREZZATURE DELLE CUCINE PRESENTI PRESSO LE SCUOLE DELL'INFANZIA DEL COMUNE DI PIANCOGNO DAL 01.01.2027 AL 31.12.2028. CIG: BD8081B5E5.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2079464?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
