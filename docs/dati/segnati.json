@@ -6121,5 +6121,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Gianico|2026-11-02||Numero pubblicazione 433 Mittente COMUNE DI GIANICO Tipo Determina Oggetto APPRO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:12:48.336Z",
+    "atto": {
+      "id": "BS|Gianico|2026-11-02||Numero pubblicazione 433 Mittente COMUNE DI GIANICO Tipo Determina Oggetto APPRO",
+      "comune": "Gianico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 433 Mittente COMUNE DI GIANICO Tipo Determina Oggetto APPROVAZIONE STATO DI AVANZAMENTO LAVORI 2 FINALE E CERTIFICATO DI PAGAMENTO INERENTE I LAVORI RELATIVI ALL'INTERVENTO DENOMINATO \"DGR 2829/2020 INTERVENTO URGENTE DI MITIGAZIONE DEL RISCHIO FRANA LUNGO LA STRADA PER IL SANTUARIO DELLA MADONNA DEL MONTE IN COMUNE DI GIANICO (BS)\". CUP C47H25000240006 - CIG BA30BDB328. N.Registro generale 229 Data registro generale 29/10/2026 Data inizio 02/11/2026 Data fine 17/11/2026",
+      "parole": [
+        "intervento",
+        "strad",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017079/mc/mc_p_dettaglio.php?id_pubbl=4204",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
