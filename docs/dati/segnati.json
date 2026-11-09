@@ -1033,5 +1033,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sarezzo|2026-10-26|2026/1052|RIDUZIONE E ASSUNZIONE DI NUOVO IMPEGNO PER VARIAZIONE DEL PROGETTO DI HOUSING S": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T15:25:01.698Z",
+    "atto": {
+      "id": "BS|Sarezzo|2026-10-26|2026/1052|RIDUZIONE E ASSUNZIONE DI NUOVO IMPEGNO PER VARIAZIONE DEL PROGETTO DI HOUSING S",
+      "comune": "Sarezzo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/1052",
+      "oggetto": "RIDUZIONE E ASSUNZIONE DI NUOVO IMPEGNO PER VARIAZIONE DEL PROGETTO DI HOUSING SOCIALE A FAVORE DI PERSONA IDENTIFICATA CON IL N. 123/2026. PERIODO FINO A OTTOBRE 2026. CIG: BA6EC71EBF.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2799373?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
