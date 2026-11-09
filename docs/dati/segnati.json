@@ -4355,5 +4355,32 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Barbariga|2026-10-29|538|DETERMINA N.253 DEL 29/10/2026 - AREA TERRITORIO: AFFIDAMENTO DEI LAVORI DI RIQU": {
+    "stato": "fissato",
+    "quando": "2026-11-09T18:02:19.228Z",
+    "atto": {
+      "id": "BS|Barbariga|2026-10-29|538|DETERMINA N.253 DEL 29/10/2026 - AREA TERRITORIO: AFFIDAMENTO DEI LAVORI DI RIQU",
+      "comune": "Barbariga",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "",
+      "numero": "538",
+      "oggetto": "DETERMINA N.253 DEL 29/10/2026 - AREA TERRITORIO: AFFIDAMENTO DEI LAVORI DI RIQUALIFICAZIONE, RIGENERAZIONE E COMPLETAMENTO DELL’IMPIANTO SPORTIVO SITO IN PIAZZA 11 SETTEMBRE BARBARIGA APPROVAZIONE VERBALI DI GARA E AGGIUDICAZIONE DEFINITIVA A FAVORE DELL'OPERATORE ECONOMICO DITTA CREA.MI S.R.L., C.F/P.IVA 08287360963 AI SENSI DELL'ART. 50, COMMA 1, LETT. C) DEL D. LGS. N. 36/2023.CUP: J88E25000180006 PDF: 0.1.8CIG: BC4781BA69IMPORTO COMPLESSIVO DI PROGETTO (QTE): 1.050.000,00 FINANZIAMENTO: CONTRIBUTO REGIONALE BANDO IMPIANTI SPORTIVI 2025 ( 510.000,00) E COFINANZIAMENTO COMUNALE ( 540.000,00)",
+      "parole": [
+        "affidamento",
+        "gara",
+        "progetto",
+        "aggiudicazione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsbarbariga/portale/albopretorio/albopretorioconsultazione.aspx?P=6500",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
