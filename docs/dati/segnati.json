@@ -5601,5 +5601,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Auronzo di Cadore|2026-10-30|2026/1048|COSTITUZIONE DEL GRUPPO DI LAVORO E CONFERIMENTO DEGLI INCARICHI PER IL RICONOSC": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:09:56.475Z",
+    "atto": {
+      "id": "BL|Auronzo di Cadore|2026-10-30|2026/1048|COSTITUZIONE DEL GRUPPO DI LAVORO E CONFERIMENTO DEGLI INCARICHI PER IL RICONOSC",
+      "comune": "Auronzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1048",
+      "oggetto": "COSTITUZIONE DEL GRUPPO DI LAVORO E CONFERIMENTO DEGLI INCARICHI PER IL RICONOSCIMENTO DEGLI INCENTIVI PER LE FUNZIONI TECNICHE DI CUI ALL’ART. 45 DEL D. LGS. 36/2023 PER L’AFFIDAMENTO PLURIENNALE DEL SERVIZIO DI ASILO MICRONIDO, SERVIZI ACCESSORI E GESTIONE CENTRO ESTIVO 3-6 ANNI PER IL PERIODO 2026/2027 – 2027/2028 - 2028/2029 ED EVENTUALE PROROGA BIENNALE 2029/2030 – 2030/2031",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1456548?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
