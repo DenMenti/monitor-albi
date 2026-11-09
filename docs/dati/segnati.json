@@ -6194,5 +6194,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Trenzano|2026-11-02|2026/578|SERVIZIO DI SGOMBERO NEVE E DISGELO STRADALE STAGIONI INVERNALI 2026/2027, 2027/": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:13:00.818Z",
+    "atto": {
+      "id": "BS|Trenzano|2026-11-02|2026/578|SERVIZIO DI SGOMBERO NEVE E DISGELO STRADALE STAGIONI INVERNALI 2026/2027, 2027/",
+      "comune": "Trenzano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/578",
+      "oggetto": "SERVIZIO DI SGOMBERO NEVE E DISGELO STRADALE STAGIONI INVERNALI 2026/2027, 2027/2028 E 2028/2029. DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. A) DEL DLGS N.36/2023. CIG: BD98BDB125",
+      "parole": [
+        "affidamento",
+        "strad"
+      ],
+      "link": "https://trenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8481815?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
