@@ -4071,5 +4071,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Corteno Golgi|2026-10-29||Fornitura elettropompa per interventi di manutenzione su acquedotti comunali. Af": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:00:30.962Z",
+    "atto": {
+      "id": "BS|Corteno Golgi|2026-10-29||Fornitura elettropompa per interventi di manutenzione su acquedotti comunali. Af",
+      "comune": "Corteno Golgi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Fornitura elettropompa per interventi di manutenzione su acquedotti comunali. Affidamento, ai sensi dell’art. 50, comma 1, lett. b) del d.lgs. 36/2023, alla ditta Magro Silvio Ferramenta (P. IVA. 00655580140, C.F. MGRSLV63D09L175W), con sede a Villa di Tirano (So), Via Nazionale, 80. CIG: BD5A570579 Determinazioni dirigenziali EMITTENTE: Ufficio Amministrativo NUMERO ATTO/DOCUMENTO: n.239 / 2026 del 14/10/2026 NUMERO DI PUBBLICAZIONE: 602 PERIODO DI PUBBLICAZIONE: dal 29/10/2026 al 13/11/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://www.comune.corteno-golgi.bs.it/Pages/Albo/?Id=446183&pg=2",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
