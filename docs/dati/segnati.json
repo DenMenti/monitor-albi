@@ -2657,5 +2657,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Limana|2026-10-27|2026/857|DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DELLA FORNITUR": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:36:48.905Z",
+    "atto": {
+      "id": "BL|Limana|2026-10-27|2026/857|DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DELLA FORNITUR",
+      "comune": "Limana",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/857",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DELLA FORNITURA DI MATERIALE IDRAULICO PER LA MANUTENZIONE DEI FABBRICATI COMUNALI (CIG BD818F7F8F).",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "manutenzione"
+      ],
+      "link": "https://limana.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/3212373?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
