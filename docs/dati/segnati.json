@@ -5043,5 +5043,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ceto|2026-10-30|534|DETERMINA N.260 DEL 30/10/2026 - SETTORE TECNICO INFRASTRUTTURE: AFFIDAMENTO INC": {
+    "stato": "fissato",
+    "quando": "2026-11-09T18:06:54.084Z",
+    "atto": {
+      "id": "BS|Ceto|2026-10-30|534|DETERMINA N.260 DEL 30/10/2026 - SETTORE TECNICO INFRASTRUTTURE: AFFIDAMENTO INC",
+      "comune": "Ceto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "Determinazioni",
+      "numero": "534",
+      "oggetto": "DETERMINA N.260 DEL 30/10/2026 - SETTORE TECNICO INFRASTRUTTURE: AFFIDAMENTO INCARICO PROFESSIONALE PER REDAZIONE DEL PROGETTO DI FATTIBILITA' TECNICA ECONOMICA (PFTE) RELATIVAMENTE AGLI INTERVENTI DI RIFACIMENTO FOGNATURA E REALIZZAZIONE PARCHEGGI E MARCIAPIEDI IN VARIE ZONE DEL PAESE - CIG BD75B99A41",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "rifacimento",
+        "progett"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsceto/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
