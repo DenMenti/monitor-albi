@@ -4141,5 +4141,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ceto|2026-10-29|528|DETERMINA N.256 DEL 29/10/2026 - SETTORE TECNICO GESTIONE DEL TERRITORIO: DETERM": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:00:50.973Z",
+    "atto": {
+      "id": "BS|Ceto|2026-10-29|528|DETERMINA N.256 DEL 29/10/2026 - SETTORE TECNICO GESTIONE DEL TERRITORIO: DETERM",
+      "comune": "Ceto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "Determinazioni",
+      "numero": "528",
+      "oggetto": "DETERMINA N.256 DEL 29/10/2026 - SETTORE TECNICO GESTIONE DEL TERRITORIO: DETERMINA A CONTRARRE PER L'ESECUZIONE DI OPERE AGGIUNTIVE DEI LAVORI DI RIQUALIFICAZIONE DI VIA PAPA GIOVANNI VENTITREESIMO, CON FORMAZIONE DI UN PERCORSO DI COLLEGAMENTO CON IL COMUNE DI BRAONE, AL FINE DI VALORIZZARE IL TERRITORIO E FAVORIRE L'ATTRATTIVITA' TURISTICA DEL COMUNE DI CETO - CUP C27H23000350001 - AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 DEL D.LGS. N. 36/2023 E S.M.I. - CIG: BD8B60F2DE.",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsceto/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
