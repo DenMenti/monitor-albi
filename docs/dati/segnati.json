@@ -6335,5 +6335,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Montirone|2026-11-02|2026/564|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO, EX ART. ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:15:11.816Z",
+    "atto": {
+      "id": "BS|Montirone|2026-11-02|2026/564|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO, EX ART. ",
+      "comune": "Montirone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/564",
+      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO, EX ART. 50, COMMA 1, LETT. B), DEL D.LGS. 36/2023, PER FORNITURA DI MATERIALE DI CONSUMO UTILIZZATO PER LAVORI IN AMMINISTRAZIONE DIRETTA ESEGUITI DAGLI OPERATORI DELL’ENTE ANNUALITA' 2026-2028 – DITTA BRICOMAN ITALIA S.R.L. – CIG: BD545415EE",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "https://montirone.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10609202?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
