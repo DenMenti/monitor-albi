@@ -1342,5 +1342,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Incudine|2026-10-26||AFFIDAMENTO INCARICO ALLA COOPERATIVA SOCIALE STELLA ALPINA CON SEDE LEGALE IN V": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:27:00.449Z",
+    "atto": {
+      "id": "BS|Incudine|2026-10-26||AFFIDAMENTO INCARICO ALLA COOPERATIVA SOCIALE STELLA ALPINA CON SEDE LEGALE IN V",
+      "comune": "Incudine",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "AFFIDAMENTO INCARICO ALLA COOPERATIVA SOCIALE STELLA ALPINA CON SEDE LEGALE IN VIA VAL D’AVIO N. 39/I A TEMU’ (BS), PER L’ACQUISTO E LA MANUTENZIONE DI FIORI E PIANTE PERENNI. CIG BD677FD5FC Determinazioni dirigenziali EMITTENTE: Ufficio Manutenzione e Patrimonio NUMERO ATTO/DOCUMENTO: n.71 / 2026 del 02/10/2026 NUMERO DI PUBBLICAZIONE: 232 PERIODO DI PUBBLICAZIONE: dal 26/10/2026 al 10/11/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "manutenzione"
+      ],
+      "link": "https://www.comune.incudine.bs.it/Pages/Albo/?Id=446060&pg=1",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
