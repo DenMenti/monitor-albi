@@ -2112,5 +2112,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Muscoline|2026-10-27|2026/434|APPROVAZIONE DOCUMENTO INDIRIZZO ALLA PROGETTAZIONE ED ATTRIBUZIONE COMPETENZE S": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:32:04.297Z",
+    "atto": {
+      "id": "BS|Muscoline|2026-10-27|2026/434|APPROVAZIONE DOCUMENTO INDIRIZZO ALLA PROGETTAZIONE ED ATTRIBUZIONE COMPETENZE S",
+      "comune": "Muscoline",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/434",
+      "oggetto": "APPROVAZIONE DOCUMENTO INDIRIZZO ALLA PROGETTAZIONE ED ATTRIBUZIONE COMPETENZE SUL PROCEDIMENTO (ART. 15, D.LGS 36/2023) PER LA REDAZIONE DEL PROGETTO DI FATTIBILITÀ TECNICO ECONOMICA RELATIVO ALLA RISTRUTTURAZIONE DI INTERO FABBRICATO – HOUSING SOCIALE IN LOCALITÀ CABIANCO.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://muscoline.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1454720?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
