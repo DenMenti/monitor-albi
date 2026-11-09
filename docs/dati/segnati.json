@@ -891,5 +891,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Iseo|2026-10-26||Numero pubblicazione 1528 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto In": {
+    "stato": "eliminato",
+    "quando": "2026-11-09T15:22:16.106Z",
+    "atto": {
+      "id": "BS|Iseo|2026-10-26||Numero pubblicazione 1528 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto In",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1528 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Integrazione diritti di segreteria Vigili del Fuoco a seguito di verbale di visita tecnica con richiesta di adeguamento SCIA antincendio ex art. 4 del DPR 01/08/2011 n. 151 - Rif. Pratica VV.F. n. 38953, inerente alla scuola primaria di Iseo a seguito di parere conforme della valutazione progetto inerente all'attività 72.1.C del DPR 151/2011 N.Registro generale 841 Data registro generale 26/10/2026 Data inizio 26/10/2026 Data fine 10/11/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21353",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
