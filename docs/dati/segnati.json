@@ -3928,5 +3928,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Piancogno|2026-10-29|2026/489|APPROVAZIONE DELLO STATO FINALE DEI LAVORI E CERTIFICATO DI REGOLARE ESECUZIONE ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:59:20.523Z",
+    "atto": {
+      "id": "BS|Piancogno|2026-10-29|2026/489|APPROVAZIONE DELLO STATO FINALE DEI LAVORI E CERTIFICATO DI REGOLARE ESECUZIONE ",
+      "comune": "Piancogno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/489",
+      "oggetto": "APPROVAZIONE DELLO STATO FINALE DEI LAVORI E CERTIFICATO DI REGOLARE ESECUZIONE RELATIVO AI LAVORI DI “REALIZZAZIONE DI UN NUOVO ASILO NIDO IN VIALE STAZIONE A PIANCOGNO (BS)”. CUP: C55E25000040006 - CIG: B837F887FE. INTERVENTO FINANZIATO DALL’UNIONE EUROPEA – NEXTGENERATIONEU, NELL’AMBITO DEL PNRR – MISSIONE 4, COMPONENTE 1, INVESTIMENTO 1.1.",
+      "parole": [
+        "intervento",
+        "lavor"
+      ],
+      "link": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2077561?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
