@@ -6481,5 +6481,29 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BL|Limana|2026-11-02|2026/865|DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DEL SERVIZIO D": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:16:14.069Z",
+    "atto": {
+      "id": "BL|Limana|2026-11-02|2026/865|DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DEL SERVIZIO D",
+      "comune": "Limana",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/865",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE PER L'AFFIDAMENTO DIRETTO IN APPALTO DEL SERVIZIO DI MANUTENZIONE ED ASSISTENZA TECNICA DEGLI IMPIANTI DI ALLARME INSTALLATI PRESSO LA SEDE MUNICIPALE E LA BIBLIOTECA - PERIODO: SETTEMBRE 2026 - AGOSTO 2027 (CIG BD90DE2C6A).",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "manutenzione"
+      ],
+      "link": "https://limana.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/3217531?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
