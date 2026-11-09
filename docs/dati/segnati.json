@@ -6553,5 +6553,30 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Falcade|2026-11-02|2026/738|AFFIDAMENTO LAVORI DI MANUTENZIONE DI UN TRATTO DI STRADA PRESSO LA FRAZIONE DI ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:16:33.846Z",
+    "atto": {
+      "id": "BL|Falcade|2026-11-02|2026/738|AFFIDAMENTO LAVORI DI MANUTENZIONE DI UN TRATTO DI STRADA PRESSO LA FRAZIONE DI ",
+      "comune": "Falcade",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/738",
+      "oggetto": "AFFIDAMENTO LAVORI DI MANUTENZIONE DI UN TRATTO DI STRADA PRESSO LA FRAZIONE DI SOMOR. AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, COMMA 1, LETT. A), D.LGS. 36/2023 E SS.MM.II. IMPEGNO E LIQUIDAZIONE DI SPESA. CIG: BD9DFFAC60.",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://falcade.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8482763?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
