@@ -3416,5 +3416,32 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-28|2026/7840|SERVIZIO DI ARCHITETTURA E INGEGNERIA AFFIDATO ALL’OPERATORE ECONOMICO ARCH. GIA": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:53:55.174Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-28|2026/7840|SERVIZIO DI ARCHITETTURA E INGEGNERIA AFFIDATO ALL’OPERATORE ECONOMICO ARCH. GIA",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7840",
+      "oggetto": "SERVIZIO DI ARCHITETTURA E INGEGNERIA AFFIDATO ALL’OPERATORE ECONOMICO ARCH. GIAMPAOLO TURINI PER L’ATTIVITA’ DI PROGETTAZIONE ESECUTIVA E DIREZIONE LAVORI PER LE OPERE DI MANUTENZIONE STRAORDINARIA COPERTURE E FACCIATE DELL’EDIFICIO DI EDILIZIA RESIDENZIALE PUBBLICA DI VIA SANT’ORSOLA CIVICO N. 168 – BRESCIA - CUP: C82D24000190004 – CIG B836B6AE12 - CODICE GARA G11736. MODIFICA CONTRATTUALE AI SENSI DELL’ART. 120 COMMA 1 LETT. B) DEL D.LGS. N. 36/2023",
+      "parole": [
+        "gara",
+        "manutenzione",
+        "edificio",
+        "edilizia",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2802846",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
