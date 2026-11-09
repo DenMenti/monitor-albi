@@ -4382,5 +4382,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Ponte nelle Alpi|2026-10-29||Numero pubblicazione 981 Mittente AREA MANUTENZIONI Tipo Determinazione Oggetto ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:02:26.301Z",
+    "atto": {
+      "id": "BL|Ponte nelle Alpi|2026-10-29||Numero pubblicazione 981 Mittente AREA MANUTENZIONI Tipo Determinazione Oggetto ",
+      "comune": "Ponte nelle Alpi",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-29",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 981 Mittente AREA MANUTENZIONI Tipo Determinazione Oggetto DECISIONE DI CONTRARRE ED AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1, LETTERA B) DEL D.LGS. 36/2023, DEL SERVIZIO DI PULIZIA STRAORDINARIA DELL'ALLOGGIO SITO NELL'EDIFICIO POLIFUNZIONALE DI COL DI CUGNAN. CIG BD8CFAE785 Numero atto 150 Data atto 29/10/2026 N.Registro generale 493 Data registro generale 29/10/2026 Data inizio 29/10/2026 Data fine 13/11/2026",
+      "parole": [
+        "affidamento",
+        "edificio"
+      ],
+      "link": "https://servizionline.comune.pontenellealpi.bl.it/mc/mc_p_dettaglio.php?id_pubbl=21357",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
