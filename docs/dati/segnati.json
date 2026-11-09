@@ -1221,5 +1221,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Niardo|2026-10-26|2026/347|LAVORI DI “REALIZZAZIONE DI CICLABILE RURALE STORICO-AGRICOLA – PERCORSI DI MEMO": {
+    "stato": "fissato",
+    "quando": "2026-11-09T17:26:18.882Z",
+    "atto": {
+      "id": "BS|Niardo|2026-10-26|2026/347|LAVORI DI “REALIZZAZIONE DI CICLABILE RURALE STORICO-AGRICOLA – PERCORSI DI MEMO",
+      "comune": "Niardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/347",
+      "oggetto": "LAVORI DI “REALIZZAZIONE DI CICLABILE RURALE STORICO-AGRICOLA – PERCORSI DI MEMORIA E PAESAGGIO” IN COMUNE DI NIARDO. AFFIDAMENTO DELL’INCARICO PER IL SERVIZIO DI PROGETTAZIONE ESECUTIVA NONCHÉ PER IL COORDINAMENTO SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, LA DIREZIONE DEI LAVORI E REDAZIONE DEL CERTIFICATO DI REGOLARE ESECUZIONE. CODICE CUP: B77H26000280006 – CIG: BD58914E52.",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://niardo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5738272?p_auth=JjowYUTA&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
