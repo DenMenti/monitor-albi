@@ -2705,5 +2705,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Colle Santa Lucia|2026-10-27|2026/617|INCARICO PROFESSIONALE PER LE ATTIVITA’ DI RILEVAZIONE E FRAZIONAMENTO CATASTALE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:38:04.346Z",
+    "atto": {
+      "id": "BL|Colle Santa Lucia|2026-10-27|2026/617|INCARICO PROFESSIONALE PER LE ATTIVITA’ DI RILEVAZIONE E FRAZIONAMENTO CATASTALE",
+      "comune": "Colle Santa Lucia",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/617",
+      "oggetto": "INCARICO PROFESSIONALE PER LE ATTIVITA’ DI RILEVAZIONE E FRAZIONAMENTO CATASTALE DI ALCUNI TRATTI DELLA STRADA COMUNALE SOPPAUSE-CANAZEI. LIQUIDAZIONE ACCONTO COMPETENZE DEL PROFESSIONISTA. CIG: ZC434A6501",
+      "parole": [
+        "incarico",
+        "strad"
+      ],
+      "link": "https://collesantalucia.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8469297?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
