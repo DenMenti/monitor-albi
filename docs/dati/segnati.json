@@ -2917,5 +2917,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sellero|2026-10-28|2026/375|CSR 2023-2027-INTERVENTO SRD 12 – AZIONE 12.1. PROGETTO DI ADEGUAMENTO INFRASTRU": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:40:55.785Z",
+    "atto": {
+      "id": "BS|Sellero|2026-10-28|2026/375|CSR 2023-2027-INTERVENTO SRD 12 – AZIONE 12.1. PROGETTO DI ADEGUAMENTO INFRASTRU",
+      "comune": "Sellero",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/375",
+      "oggetto": "CSR 2023-2027-INTERVENTO SRD 12 – AZIONE 12.1. PROGETTO DI ADEGUAMENTO INFRASTRUTTURALE ANTINCENDIO BOSCHIVO IN COMUNE DI SELLERO. CUP G22H25000200002. LIQUIDAZIONE A FAVORE DELLA COMUNITA’ MONTANA DI VALLE CAMONICA DELLA QUOTA DI COFINANZIAMENTO DELL’INTERVENTO.",
+      "parole": [
+        "progetto",
+        "intervento",
+        "progett"
+      ],
+      "link": "https://sellero.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8471928?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
