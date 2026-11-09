@@ -6837,5 +6837,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Castenedolo|2026-11-03||Numero pubblicazione 1249 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:26:17.453Z",
+    "atto": {
+      "id": "BS|Castenedolo|2026-11-03||Numero pubblicazione 1249 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1249 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Lavori di manutenzione straordinaria immobili comunali opere da elettricista anno 2026: validazione progetto esecutivo -CUP J42F26000440004 N.Registro generale 760 Data registro generale 03/11/2026 Data inizio 03/11/2026 Data fine 18/11/2026",
+      "parole": [
+        "progetto",
+        "esecutivo",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29304",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
