@@ -5431,5 +5431,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Ponte nelle Alpi|2026-10-30||Numero pubblicazione 991 Mittente AREA AMMINISTRATIVA E POLIZIA LOCALE Tipo Dete": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:08:57.313Z",
+    "atto": {
+      "id": "BL|Ponte nelle Alpi|2026-10-30||Numero pubblicazione 991 Mittente AREA AMMINISTRATIVA E POLIZIA LOCALE Tipo Dete",
+      "comune": "Ponte nelle Alpi",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 991 Mittente AREA AMMINISTRATIVA E POLIZIA LOCALE Tipo Determinazione Oggetto EROGAZIONE CONTRIBUTO AL CIRCOLO CULTURA E STAMPA PER LA REALIZZAZIONE DEL PROGETTO \"IL FILO ROSSO TRA ARRIGO ELEONOR....\" Numero atto 71 Data atto 30/10/2026 N.Registro generale 497 Data registro generale 30/10/2026 Data inizio 31/10/2026 Data fine 15/11/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://servizionline.comune.pontenellealpi.bl.it/mc/mc_p_dettaglio.php?id_pubbl=21367",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
