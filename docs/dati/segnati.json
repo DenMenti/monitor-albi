@@ -6458,5 +6458,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-11-02|2026/7965|INTERVENTO DI MANUTENZIONE STRAORDINARIA FINALIZZATO ALL'ADEGUAMENTO NORMATIVO P": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:16:06.354Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-02|2026/7965|INTERVENTO DI MANUTENZIONE STRAORDINARIA FINALIZZATO ALL'ADEGUAMENTO NORMATIVO P",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7965",
+      "oggetto": "INTERVENTO DI MANUTENZIONE STRAORDINARIA FINALIZZATO ALL'ADEGUAMENTO NORMATIVO PER L'ABBATTIMENTO DELLE BARRIERE ARCHITETTONICHE PRESSO VARI SALE CIVICHE COMUNALI, APPROVAZIONE CERTIFICATO DI REGOLARE ESECUZIONE, LIQUIDAZIONE A SALDO ALL’IMPRESA ARCADIA S.R.L. (CF E P.IVA 03038850982) E SVINCOLO POLIZZE, CUP C87D24000130004 - CIG B9677DFC10.",
+      "parole": [
+        "intervento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2807790",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
