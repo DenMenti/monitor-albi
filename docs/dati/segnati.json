@@ -3586,5 +3586,32 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Chies d'Alpago|2026-10-28||Numero pubblicazione 517 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione O": {
+    "stato": "fissato",
+    "quando": "2026-11-09T17:57:15.265Z",
+    "atto": {
+      "id": "BL|Chies d'Alpago|2026-10-28||Numero pubblicazione 517 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione O",
+      "comune": "Chies d'Alpago",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-28",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 517 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione Oggetto PROCEDURA EX ART. 50, COMMA 1, LETT. B), DEL D.LGS. 36/2023 E S.M.I. PER L'AFFIDAMENTO DEL SERVIZIO DI PROGETTAZIONE DI FATTIBILITÀ TECNICO-ECONOMICA ED ESECUTIVA IN UNICO LIVELLO E COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE PER L'INTERVENTO DENOMINATO \"LAVORI DI MANUTENZIONE E MIGLIORAMENTO VIABILITA' (STRADA CHIES-MONT - PARK MOLINI)\" - CUP J97H26000830001 - CIG BD8626DEC3 Numero atto 53 Data atto 28/10/2026 Data inizio 28/10/2026 Data fine 12/11/2026",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "strad",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://sac5.halleysac.it/c025012/mc/mc_p_dettaglio.php?id_pubbl=1421",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
