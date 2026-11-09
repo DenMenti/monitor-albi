@@ -4213,5 +4213,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Capo di Ponte|2026-10-29||DETERMINA AREA SERVIZIO TECNICO N° 128/50 del 29/10/26 Oggetto: AFFIDAMENTO DIRE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:01:08.781Z",
+    "atto": {
+      "id": "BS|Capo di Ponte|2026-10-29||DETERMINA AREA SERVIZIO TECNICO N° 128/50 del 29/10/26 Oggetto: AFFIDAMENTO DIRE",
+      "comune": "Capo di Ponte",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "DETERMINA AREA SERVIZIO TECNICO N° 128/50 del 29/10/26 Oggetto: AFFIDAMENTO DIRETTO, AI SENSI DELL ART. 50, COMMA 1 - LETTERA B) DEL D.LGS. N. 36/2023, DEI SERVIZI RELATIVI ALLA MANUTENZIONE STRAORDINARIA DEI PARCHI GIOCHI COMUNALI PER MIGLIORAMENTO DELLA SICUREZZA - COD. CIG BD722EF787. DETERMINA A CONTRATTARE E AGGIUDICAZIONE.",
+      "numero": "",
+      "oggetto": "DETERMINA AREA SERVIZIO TECNICO N° 128/50 del 29/10/26 Oggetto: AFFIDAMENTO DIRETTO, AI SENSI DELL ART. 50, COMMA 1 - LETTERA B) DEL D.LGS. N. 36/2023, DEI SERVIZI RELATIVI ALLA MANUTENZIONE STRAORDINARIA DEI PARCHI GIOCHI COMUNALI PER MIGLIORAMENTO DELLA SICUREZZA - COD. CIG BD722EF787. DETERMINA A CONTRATTARE E AGGIUDICAZIONE.",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "manutenzione",
+        "edilizia"
+      ],
+      "link": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2223&RicCro=1&CE=cpdpnt1569",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
