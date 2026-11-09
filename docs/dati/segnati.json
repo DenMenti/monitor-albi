@@ -2941,5 +2941,28 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BS|Salò|2026-10-28|2026/1346|AGGIUDICAZIONE PROCEDURA PER SERVIZIO DI MANUTENZIONE PERIODICA, RIPARAZIONE E A": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:41:03.053Z",
+    "atto": {
+      "id": "BS|Salò|2026-10-28|2026/1346|AGGIUDICAZIONE PROCEDURA PER SERVIZIO DI MANUTENZIONE PERIODICA, RIPARAZIONE E A",
+      "comune": "Salò",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1346",
+      "oggetto": "AGGIUDICAZIONE PROCEDURA PER SERVIZIO DI MANUTENZIONE PERIODICA, RIPARAZIONE E ASSISTENZA TECNICA DEI DISSUASORI AUTOMATICI TIPO “PILOMAT” PRESENTI SUL TERRITORIO COMUNALE. - CIG: BD7D709767",
+      "parole": [
+        "aggiudicazione",
+        "manutenzione"
+      ],
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8472898?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
