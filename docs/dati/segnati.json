@@ -6741,5 +6741,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ospitaletto|2026-11-03||Numero pubblicazione 1083 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:25:21.149Z",
+    "atto": {
+      "id": "BS|Ospitaletto|2026-11-03||Numero pubblicazione 1083 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ",
+      "comune": "Ospitaletto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1083 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto AFFIDAMENTO DIRETTO RIPRISTINO CENTRO LUMINOSO N. 771 PRESSO PIAZZA DEL MERCATO - ENEL SOLE S.R.L. Numero atto 132 Data atto 03/11/2026 N.Registro generale 583 Data registro generale 03/11/2026 Data inizio 04/11/2026 Data fine 19/11/2026",
+      "parole": [
+        "affidamento",
+        "ripristin"
+      ],
+      "link": "https://www.halleyweb.com/c017127/mc/mc_p_dettaglio.php?id_pubbl=19059",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
