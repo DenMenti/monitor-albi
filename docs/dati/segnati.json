@@ -4047,5 +4047,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Lumezzane|2026-10-29||DETERMINAZIONE Determina n. 649 servizio: 52 - Servizio ambiente, manutenzioni, ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:00:19.815Z",
+    "atto": {
+      "id": "BS|Lumezzane|2026-10-29||DETERMINAZIONE Determina n. 649 servizio: 52 - Servizio ambiente, manutenzioni, ",
+      "comune": "Lumezzane",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 649 servizio: 52 - Servizio ambiente, manutenzioni, lavori pubblici, RIM del 29/10/2026 LAVORI DI “AMPLIAMENTO DELL'ALA NUOVA E ADEGUAMENTO SISMICO CON RIQUALIFICAZIONE ENERGETICA DELL'ALA VECCHIA DELLA SCUOLA PRIMARIA CADUTI PER LA PATRIA - LOTTO N. 3” PROGETTO PARZIALMENTE FINANZIATO DALL’UNIONE EUROPEA – NEXT GENERATION EU FONDI PNRR M4.C1.I.3.3.– CUP: G36C18000030005 – CIG. B0F06FF5E5 - APPROVAZIONE CONTO FINALE E CERTIFICATO DI REGOLARE ESECUZIONE",
+      "parole": [
+        "progetto",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
