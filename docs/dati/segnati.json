@@ -7215,5 +7215,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Leno|2026-11-03|2026/1432|AFFIDAMENTO DIRETTO INCARICO PROFESSIONALE DI VERIFICA PROGETTO DI FATTIBILITA’ ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:46:14.543Z",
+    "atto": {
+      "id": "BS|Leno|2026-11-03|2026/1432|AFFIDAMENTO DIRETTO INCARICO PROFESSIONALE DI VERIFICA PROGETTO DI FATTIBILITA’ ",
+      "comune": "Leno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1432",
+      "oggetto": "AFFIDAMENTO DIRETTO INCARICO PROFESSIONALE DI VERIFICA PROGETTO DI FATTIBILITA’ TECNICO-ECONOMICA E PROGETTO ESECUTIVO PER REALIZZAZIONE NUOVO PARCHEGGIO IN VIA OSPEDALE_ING. GIOVANNI SORA_CIG BD957F5D2D_CUP H41J26000520004",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "progett"
+      ],
+      "link": "https://leno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5760462?p_auth=5Gsda1Fb&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
