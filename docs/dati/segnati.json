@@ -6764,5 +6764,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ospitaletto|2026-11-03||Numero pubblicazione 1084 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:25:28.404Z",
+    "atto": {
+      "id": "BS|Ospitaletto|2026-11-03||Numero pubblicazione 1084 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ",
+      "comune": "Ospitaletto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1084 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto AFFIDAMENTO DIRETTO, TRAMITE PORTALE SINTEL, SERVIZIO DI MANUTENZIONE DEGLI ASCENSORI PRESENTI NEGLI IMMOBILI PUBBLICI COMUNALI NOVEMBRE 2026- OTTOBRE 2028 - OTIS SERVIZI SRL Numero atto 133 Data atto 03/11/2026 N.Registro generale 584 Data registro generale 03/11/2026 Data inizio 04/11/2026 Data fine 19/11/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://www.halleyweb.com/c017127/mc/mc_p_dettaglio.php?id_pubbl=19060",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
