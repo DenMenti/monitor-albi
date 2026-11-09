@@ -7667,5 +7667,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Roè Volciano|2026-11-04|2026/627|DECRETO DEL MINISTRO DELL’ISTRUZIONE E DEL MERITO DELL’11 DICEMBRE 2024, N. 254 ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:50:52.860Z",
+    "atto": {
+      "id": "BS|Roè Volciano|2026-11-04|2026/627|DECRETO DEL MINISTRO DELL’ISTRUZIONE E DEL MERITO DELL’11 DICEMBRE 2024, N. 254 ",
+      "comune": "Roè Volciano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/627",
+      "oggetto": "DECRETO DEL MINISTRO DELL’ISTRUZIONE E DEL MERITO DELL’11 DICEMBRE 2024, N. 254 DI RIPARTO DELLE RISORSE DI CUI ALL’ARTICOLO 32-BIS DEL DECRETO LEGGE 30 SETTEMBRE 2003, N. 269 (CD. “FONDO PROTEZIONE CIVILE”) – INTERVENTO DI ADEGUAMENTO STRUT-TURALE ED ANTISISMICO DELL’EDIFICIO DENOMINATO “SCUOLA SECONDARIA DI PRIMO GRA-DO F. ODORICI” – CUP G85E22000390007 CIG B6D828D97E. APPROVAZIONE V° STATO DI AVANZAMENTO LAVORI A TUTTO IL 31 OTTOBRE 2026 E CERTIFICATO DI PAGAMENTO N. 4.",
+      "parole": [
+        "intervento",
+        "edificio",
+        "lavor"
+      ],
+      "link": "https://roevolciano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1459194?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
