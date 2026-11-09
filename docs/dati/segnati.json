@@ -1591,5 +1591,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-26|2026/7737|LAVORI DI RIQUALIFICAZIONE SERVIZI IGIENICI SCUOLA DELL'INFANZIA BETTINZOLI - CU": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:28:55.464Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-26|2026/7737|LAVORI DI RIQUALIFICAZIONE SERVIZI IGIENICI SCUOLA DELL'INFANZIA BETTINZOLI - CU",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7737",
+      "oggetto": "LAVORI DI RIQUALIFICAZIONE SERVIZI IGIENICI SCUOLA DELL'INFANZIA BETTINZOLI - CUP C82B26000130004 – CIG BBC1377D23 -APPROVAZIONE CERTIFICATO DI REGOLARE ESECUZIONE E LIQUIDAZIONE SALDO ALL’IMPRESA IDROTERMICA BOLPAGNI SRL - SVINCOLO GARANZIE.",
+      "parole": [
+        "gara",
+        "lavor"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2799880",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
