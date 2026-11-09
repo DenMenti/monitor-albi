@@ -5186,5 +5186,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-30|2026/7924|2° CONTRATTO ATTUATIVO - OPERE DA ELETTRICISTA ED AFFINI RELATIVI AGLI EDIFICI S": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:07:33.258Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-30|2026/7924|2° CONTRATTO ATTUATIVO - OPERE DA ELETTRICISTA ED AFFINI RELATIVI AGLI EDIFICI S",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7924",
+      "oggetto": "2° CONTRATTO ATTUATIVO - OPERE DA ELETTRICISTA ED AFFINI RELATIVI AGLI EDIFICI SCOLASTICI MEDIANTE INTERVENTI A \"CHIAMATA\", A \"GUASTO\", NONCHE' DI MANUTENZIONE PROGRAMMATA, DURATA TRIENNALE CUP C88H26000230004 – CIG BBE48551CC APPROVAZIONE CERTIFICATO DI REGOLARE ESECUZIONE E LIQUIDAZIONE SALDO ALL’IMPRESA R.V.M. IMPIANTI SRL - SVINCOLO GARANZIE",
+      "parole": [
+        "gara",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2806647",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
