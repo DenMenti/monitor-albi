@@ -3203,5 +3203,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Manerbio|2026-10-28|2026/1421|AFFIDAMENTO DELLA FORNITURA DI LIBRI PER IL PROGETTO \"LIBRI SENZA GRAVITA': STOR": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:43:07.264Z",
+    "atto": {
+      "id": "BS|Manerbio|2026-10-28|2026/1421|AFFIDAMENTO DELLA FORNITURA DI LIBRI PER IL PROGETTO \"LIBRI SENZA GRAVITA': STOR",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1421",
+      "oggetto": "AFFIDAMENTO DELLA FORNITURA DI LIBRI PER IL PROGETTO \"LIBRI SENZA GRAVITA': STORIE NELLO SPAZIO\" PER LE BIBLIOTECHE DEL SISTEMA - CIG BD6303ADBF",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4825221?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
