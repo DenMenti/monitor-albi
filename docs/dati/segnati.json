@@ -7621,5 +7621,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Verolavecchia|2026-11-04|2026/601|G.TECH – GRUPPO GASPARI: AFFIDAMENTO DIRETTO PER FORNITURA SOFTWARE PER LA GESTI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:50:33.529Z",
+    "atto": {
+      "id": "BS|Verolavecchia|2026-11-04|2026/601|G.TECH – GRUPPO GASPARI: AFFIDAMENTO DIRETTO PER FORNITURA SOFTWARE PER LA GESTI",
+      "comune": "Verolavecchia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/601",
+      "oggetto": "G.TECH – GRUPPO GASPARI: AFFIDAMENTO DIRETTO PER FORNITURA SOFTWARE PER LA GESTIONE DELLE SANZIONI AL CODICE DELLA STRADA- CIG BDA1F38CC9",
+      "parole": [
+        "affidamento",
+        "strad"
+      ],
+      "link": "https://verolavecchia.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10616481?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
