@@ -3951,5 +3951,32 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ossimo|2026-10-29|2026/341|PIANO LOMBARDIA (L.R. 9/2020): PROGRAMMA 2024/2026 DI INTERVENTI URGENTI E PRIOR": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:59:35.772Z",
+    "atto": {
+      "id": "BS|Ossimo|2026-10-29|2026/341|PIANO LOMBARDIA (L.R. 9/2020): PROGRAMMA 2024/2026 DI INTERVENTI URGENTI E PRIOR",
+      "comune": "Ossimo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINE",
+      "numero": "2026/341",
+      "oggetto": "PIANO LOMBARDIA (L.R. 9/2020): PROGRAMMA 2024/2026 DI INTERVENTI URGENTI E PRIORITARI PER LA DIFESA DEL SUOLO E LA MITIGAZIONE DEI RISCHI IDROGEOLOGICI DEL TERRITORIO - D.G.R. XII/3394 DEL 11 NOVEMBRE 2024, ALLEGATO A – INTERVENTO N. 10. PROCEDURA NEGOZIATA SENZA BANDO AI SENSI DELL'ART. 50, COMMA 1- LETTERA C) DEL D.LGS. N. 36 DEL 31/03/2023 E S.M.I., DA AGGIUDICARE CON IL CRITERIO DEL MINOR PREZZO AI SENSI DELL'ART. 108 - COMMA 1 DEL D.LGS. N. 36/2023 E S.M.I. SULLA BASE DEL PROGETTO ESECUTIVO AI SENSI DELL'ART. 41 DEL D.LGS. N. 36/2023 E S.M.I., INTERVENTO DI SISTEMAZIONE IDRAULICA DELLA VALLE DEL FOSSATO. CUP: D88B24000400002 - CIG: BA7461EF76 APPROVAZIONE STATO AVANZAMENTO LAVORI N. 1.",
+      "parole": [
+        "progetto",
+        "esecutivo",
+        "procedura negoziata",
+        "intervento",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://ossimo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5748093?p_auth=bQdWHXeg&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
