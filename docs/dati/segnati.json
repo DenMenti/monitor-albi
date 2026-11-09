@@ -1246,5 +1246,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Niardo|2026-10-26|2026/348|LAVORI DI “RIQUALIFICAZIONE ENERGETICA DI DUE EDIFICI SITI IN VIA SOMMAVILLA NEL": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:26:36.797Z",
+    "atto": {
+      "id": "BS|Niardo|2026-10-26|2026/348|LAVORI DI “RIQUALIFICAZIONE ENERGETICA DI DUE EDIFICI SITI IN VIA SOMMAVILLA NEL",
+      "comune": "Niardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/348",
+      "oggetto": "LAVORI DI “RIQUALIFICAZIONE ENERGETICA DI DUE EDIFICI SITI IN VIA SOMMAVILLA NEL COMUNE DI NIARDO” IN COMUNE DI NIARDO. AFFIDAMENTO DELL’INCARICO PER IL SERVIZIO DI ADEGUAMENTO DELLA PROGETTAZIONE ESECUTIVA NONCHÉ PER IL COORDINAMENTO SICUREZZA IN FASE DI PROGETTAZIONE. CODICE CUP: G74H26000230002 – CIG: BD58BD10D2.",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://niardo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5738275?p_auth=JjowYUTA&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
