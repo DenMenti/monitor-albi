@@ -4451,5 +4451,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Canale d'Agordo|2026-10-29|2026/437|FORNITURA RICAMBI E ACCESSORI PER MANUTENZIONE MEZZI COMUNALI - AFFIDAMENTO ALL'": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:02:38.961Z",
+    "atto": {
+      "id": "BL|Canale d'Agordo|2026-10-29|2026/437|FORNITURA RICAMBI E ACCESSORI PER MANUTENZIONE MEZZI COMUNALI - AFFIDAMENTO ALL'",
+      "comune": "Canale d'Agordo",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-29",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/437",
+      "oggetto": "FORNITURA RICAMBI E ACCESSORI PER MANUTENZIONE MEZZI COMUNALI - AFFIDAMENTO ALL'IMPRESA STAHLGRUBER - B.M. SRL C.F./P.IVA 00654970268 (CIG BD9092EAD8)",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://canaledagordo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8477557?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
