@@ -6217,5 +6217,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Rodengo Saiano|2026-11-02|695|DETERMINA N.422 DEL 29/10/2026 - AREA TECNICA: INCARICO PROGETTAZIONE ESECUTIVA ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:13:09.584Z",
+    "atto": {
+      "id": "BS|Rodengo Saiano|2026-11-02|695|DETERMINA N.422 DEL 29/10/2026 - AREA TECNICA: INCARICO PROGETTAZIONE ESECUTIVA ",
+      "comune": "Rodengo Saiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI",
+      "numero": "695",
+      "oggetto": "DETERMINA N.422 DEL 29/10/2026 - AREA TECNICA: INCARICO PROGETTAZIONE ESECUTIVA OPERE DI RIFACIMENTO IMPIANTO RILEVAZIONE AUTOMATICA DI INCENDIO PRESSO LA RSA TILDE E LUIGI COLOSIO - CUP I72C26001000004 - CIG BD8D12C2C3",
+      "parole": [
+        "incarico",
+        "rifacimento",
+        "progett"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
