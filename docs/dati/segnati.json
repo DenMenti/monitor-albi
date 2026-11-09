@@ -4926,5 +4926,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Malonno|2026-10-30||TRASFERIMENTO AL CONSORZIO BIM DI VALLECAMONICA DELLA QUOTA DI ADESIONE AL PROGE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:06:16.591Z",
+    "atto": {
+      "id": "BS|Malonno|2026-10-30||TRASFERIMENTO AL CONSORZIO BIM DI VALLECAMONICA DELLA QUOTA DI ADESIONE AL PROGE",
+      "comune": "Malonno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "TRASFERIMENTO AL CONSORZIO BIM DI VALLECAMONICA DELLA QUOTA DI ADESIONE AL PROGETTO FREE SKIPASS E DELLE SPESE DI GESTIONE PRATICHE AMMINISTRATIVE DA INCASSARE DAGLI UTENTI. Determinazioni dirigenziali EMITTENTE: Ufficio Segreteria/Personale/Ammin.vo NUMERO ATTO/DOCUMENTO: n.204/26 DET SA / 2026 del 21/10/2026 NUMERO DI PUBBLICAZIONE: 464 PERIODO DI PUBBLICAZIONE: dal 30/10/2026 al 14/11/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.comune.malonno.bs.it/Pages/Albo/?Id=446298&pg=1",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
