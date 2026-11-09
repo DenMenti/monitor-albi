@@ -7549,5 +7549,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Castenedolo|2026-11-04||Numero pubblicazione 1262 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:50:07.567Z",
+    "atto": {
+      "id": "BS|Castenedolo|2026-11-04||Numero pubblicazione 1262 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1262 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Affidamento diretto dei lavori di messa in sicurezza Centro Sportivo Comparto 2. Integrazione incarico servizi tecnici. CUP J42H25000330004 CIG B877E68268 N.Registro generale 765 Data registro generale 04/11/2026 Data inizio 04/11/2026 Data fine 19/11/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29317",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
