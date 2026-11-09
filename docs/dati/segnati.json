@@ -4405,5 +4405,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Lorenzago di Cadore|2026-10-29|2026/536|AFFIDAMENTO LAVORI DI UTILIZZAZIONE DI ALCUNE PIANTE COLPITE DAL BOSTRICO IN LOC": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:02:31.851Z",
+    "atto": {
+      "id": "BL|Lorenzago di Cadore|2026-10-29|2026/536|AFFIDAMENTO LAVORI DI UTILIZZAZIONE DI ALCUNE PIANTE COLPITE DAL BOSTRICO IN LOC",
+      "comune": "Lorenzago di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-29",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/536",
+      "oggetto": "AFFIDAMENTO LAVORI DI UTILIZZAZIONE DI ALCUNE PIANTE COLPITE DAL BOSTRICO IN LOCALITÀ VALDESCURA, SULLA PARTICELLA FORESTALE N. A007/0 DEL COMUNE DI LORENZAGO DI CADORE.",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://lorenzagodicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1455781?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
