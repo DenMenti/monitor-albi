@@ -8065,5 +8065,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Chiari|2026-11-04|2026/1398|DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO D": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:56:59.986Z",
+    "atto": {
+      "id": "BS|Chiari|2026-11-04|2026/1398|DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO D",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1398",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AFFIDAMENTO A CONCLUSIONE DEL PROCEDIMENTO DI ACQUISIZIONE DELLE SEGUENTI PRESTAZIONI: “LAVORI PER NUOVO ACCATASTAMENTO DELL’IMMOBILE EX POLIGONO IN VIA ORTI N. 4”, A CONCLUSIONE DEI LAVORI DI RIQUALIFICAZIONE MEDIANTE SCELTA DEL CONTRANTE CON AFFIDAMENTO DIRETTO ESPLETATO MEDIANTE LA PIATTAFORMA TELEMATICA DI EPROCUREMENT SINTEL DI REGIONE LOMBARDIA COD. ID UNIVOCO APPALTO: 0202AD2026 - CIG: BD97774AFA - COD. UNIVOCO UFFICIO: K5QLPZ",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "lavor"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10614557?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
