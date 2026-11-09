@@ -7241,5 +7241,33 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Leno|2026-11-03|2026/1433|AFFIDAMENTO DIRETTO INCARICO PROFESSIONALE DI VERIFICA PROGETTO DI FATTIBILITA’ ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:46:20.438Z",
+    "atto": {
+      "id": "BS|Leno|2026-11-03|2026/1433|AFFIDAMENTO DIRETTO INCARICO PROFESSIONALE DI VERIFICA PROGETTO DI FATTIBILITA’ ",
+      "comune": "Leno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1433",
+      "oggetto": "AFFIDAMENTO DIRETTO INCARICO PROFESSIONALE DI VERIFICA PROGETTO DI FATTIBILITA’ TECNICO-ECONOMICA E PROGETTO ESECUTIVO PER LAVORI ASFALTATURA STRADE COMUNALI_ING. ENRICO CORINALDESI_CIG BD958DDCA1_CUP H47H25001510004",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "strad",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://leno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5760465?p_auth=5Gsda1Fb&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
