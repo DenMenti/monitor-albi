@@ -1803,5 +1803,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Ospitale di Cadore|2026-10-26||Numero pubblicazione 368 Mittente COMUNE DI OSPITALE DI CADORE Tipo Determina Og": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:41.041Z",
+    "atto": {
+      "id": "BL|Ospitale di Cadore|2026-10-26||Numero pubblicazione 368 Mittente COMUNE DI OSPITALE DI CADORE Tipo Determina Og",
+      "comune": "Ospitale di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 368 Mittente COMUNE DI OSPITALE DI CADORE Tipo Determina Oggetto DGR 1130/2025 PROSECUZIONE MISURE FINALIZZATE ALL'INCLUSIONE E ALL 'INSERIMENTO SOCIALE E/O LAVORATIVO (RIA XII). LIQUIDAZIONE MENSILITA' ALL'UTENTE DEL PROGETTO. Numero atto 84 Data atto 23/10/2026 Data inizio 26/10/2026 Data fine 10/11/2026",
+      "parole": [
+        "progetto",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://servizionline.comune.ospitaledicadore.bl.it/c025035/mc/mc_p_dettaglio.php?id_pubbl=3060",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
