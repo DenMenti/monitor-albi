@@ -869,33 +869,6 @@
       "quando": "2026-10-26_1159"
     }
   },
-  "BL|Vallada Agordina|2026-11-04|2026/463|PROCEDURA DI AFFIDAMENTO LAVORI, AI SENSI DELL’ART. 50, COMMA 1 LETT. C) DEL D.L": {
-    "stato": "fissato",
-    "quando": "2026-11-08T20:46:09.735Z",
-    "atto": {
-      "id": "BL|Vallada Agordina|2026-11-04|2026/463|PROCEDURA DI AFFIDAMENTO LAVORI, AI SENSI DELL’ART. 50, COMMA 1 LETT. C) DEL D.L",
-      "comune": "Vallada Agordina",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "data": "2026-11-04",
-      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-      "numero": "2026/463",
-      "oggetto": "PROCEDURA DI AFFIDAMENTO LAVORI, AI SENSI DELL’ART. 50, COMMA 1 LETT. C) DEL D.LGS. 36/2023, PREVISTI NEL PROGETTO: “STRADA DI COLLEGAMENTO SECONDARIA TRA LA LOCALITA’ MULAN E CENCENIGHE – SISTEMAZIONE SCARPATE A MONTE DELLA STRADA E REALIZZAZIONE SCOGLIERE E INTERVENTI PER LA PERCORRIBILITA’ DELLA STRADA OCDPC 1025/2023 – DECRETO MINISTERIALE 09.05.2025” - APPROVAZIONE VERBALE DI GARA E AGGIUDICAZIONE LAVORI. - CUP C56F24000080002 – CIG BCCAB3AA4A",
-      "parole": [
-        "affidamento",
-        "gara",
-        "progetto",
-        "aggiudicazione",
-        "strad",
-        "lavor",
-        "progett"
-      ],
-      "link": "https://valladaagordina.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8486638?p_p_state=pop_up",
-      "allegati": [],
-      "zip": "",
-      "quando": "2026-11-04_2007"
-    }
-  },
   "BL|Auronzo di Cadore|2026-10-30|2026/1054|AFFIDAMENTO DELLA PROGETTAZIONE ESECUTIVA, DIREZIONE LAVORI E REDAZIONE DELLA CO": {
     "stato": "fissato",
     "quando": "2026-11-08T20:48:37.600Z",
