@@ -7866,5 +7866,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Manerbio|2026-11-04|2026/1445|AGGIUDICAZIONE DEFINITIVA ED EFFICACE ACCORDO QUADRO MEDIANTE PROCEDURA APERTA P": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:55:56.639Z",
+    "atto": {
+      "id": "BS|Manerbio|2026-11-04|2026/1445|AGGIUDICAZIONE DEFINITIVA ED EFFICACE ACCORDO QUADRO MEDIANTE PROCEDURA APERTA P",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1445",
+      "oggetto": "AGGIUDICAZIONE DEFINITIVA ED EFFICACE ACCORDO QUADRO MEDIANTE PROCEDURA APERTA PER LAVORI DI MANUTENZIONE DI ORDINARIA E STRAORDINARIA DEGLI IMMOBILI COMUNALI: OPERE DA FABBRO - PERIODO 2026/2028. CIG: BCA4213001.",
+      "parole": [
+        "aggiudicazione",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4831996?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
