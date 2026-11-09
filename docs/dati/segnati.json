@@ -5884,5 +5884,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Taibon Agordino|2026-10-31|2026/510|PROCEDURA EX ART. 50, CO. 1, LETT. A), DEL D.LGS. N. 36/2023 (E S.M.I.) PER L'AF": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:11:48.987Z",
+    "atto": {
+      "id": "BL|Taibon Agordino|2026-10-31|2026/510|PROCEDURA EX ART. 50, CO. 1, LETT. A), DEL D.LGS. N. 36/2023 (E S.M.I.) PER L'AF",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-31",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/510",
+      "oggetto": "PROCEDURA EX ART. 50, CO. 1, LETT. A), DEL D.LGS. N. 36/2023 (E S.M.I.) PER L'AFFIDAMENTO DEI LAVORI DI REALIZZAZIONE DI SEGNALETICA STRADALE ORIZZONTALE NELL’AMBITO DEL PROGETTO DENOMINATO INTERVENTI DI RIQUALIFICAZIONE DI ALCUNI TRATTI DELLE STRADE COMUNALI VOLTI ALLA VALORIZZAZIONE DEL TERRITORIO. FONDO COMUNI CONFINANTI ANNUALITÀ 2023. - CUP B27H23002420005. CIG BD89A3355A",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "strad",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8480472?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
