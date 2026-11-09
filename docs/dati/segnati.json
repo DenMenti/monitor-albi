@@ -6505,5 +6505,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Limana|2026-11-02|2026/869|DETERMINAZIONE A CONTRATTARE PER L’AFFIDAMENTO DIRETTO IN APPALTO DEL SERVIZIO D": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:16:19.440Z",
+    "atto": {
+      "id": "BL|Limana|2026-11-02|2026/869|DETERMINAZIONE A CONTRATTARE PER L’AFFIDAMENTO DIRETTO IN APPALTO DEL SERVIZIO D",
+      "comune": "Limana",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/869",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE PER L’AFFIDAMENTO DIRETTO IN APPALTO DEL SERVIZIO DI SVOLGIMENTO DI INCONTRI PER GENITORI E BAMBINI 0-3 ANNI PROGETTO “API E FUCHI. VOLIAMO NEI PROFUMI DELLE PAROLE” 2^ EDIZIONE. CIG N. BD815463BC.",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://limana.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/3217592?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
