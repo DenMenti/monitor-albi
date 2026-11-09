@@ -4739,5 +4739,28 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BS|Sale Marasino|2026-10-30||DETERMINA AREA TECNICA N° 293/125 del 27/10/26 Oggetto: MODIFICA IMPUTAZIONI DI ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:04:20.700Z",
+    "atto": {
+      "id": "BS|Sale Marasino|2026-10-30||DETERMINA AREA TECNICA N° 293/125 del 27/10/26 Oggetto: MODIFICA IMPUTAZIONI DI ",
+      "comune": "Sale Marasino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "DETERMINA AREA TECNICA N° 293/125 del 27/10/26 Oggetto: MODIFICA IMPUTAZIONI DI BILANCIO IMPEGNI DI SPESA INCARICO PROFESSIONALE PER LA REDAZIONE DELLA VARIANTE GENERALE AL PIANO DI GOVERNO DEL TERRITORIO (P.G.T.) A FAVORE DELLO STUDIO PIANOZERO PROGETTI SRL DI BEDIZZOLE NELLA PERSONA DELL'ING. CESARE BERTOCCHII - CODICE CIG B925B5353F.",
+      "numero": "",
+      "oggetto": "DETERMINA AREA TECNICA N° 293/125 del 27/10/26 Oggetto: MODIFICA IMPUTAZIONI DI BILANCIO IMPEGNI DI SPESA INCARICO PROFESSIONALE PER LA REDAZIONE DELLA VARIANTE GENERALE AL PIANO DI GOVERNO DEL TERRITORIO (P.G.T.) A FAVORE DELLO STUDIO PIANOZERO PROGETTI SRL DI BEDIZZOLE NELLA PERSONA DELL'ING. CESARE BERTOCCHII - CODICE CIG B925B5353F.",
+      "parole": [
+        "incarico",
+        "progett"
+      ],
+      "link": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2618&RicCro=1&CE=slmrsn1592",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
