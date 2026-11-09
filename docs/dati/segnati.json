@@ -7740,5 +7740,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Pezzaze|2026-11-04|388|DETERMINA N.132 DEL 02/11/2026 - AREA ASSETTO DEL TERRITORIO, SUAP E SERVIZIO IN": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:52:10.813Z",
+    "atto": {
+      "id": "BS|Pezzaze|2026-11-04|388|DETERMINA N.132 DEL 02/11/2026 - AREA ASSETTO DEL TERRITORIO, SUAP E SERVIZIO IN",
+      "comune": "Pezzaze",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "Determine",
+      "numero": "388",
+      "oggetto": "DETERMINA N.132 DEL 02/11/2026 - AREA ASSETTO DEL TERRITORIO, SUAP E SERVIZIO INFORMATICO: DETERMINA PER AFFIDAMENTO DIRETTO, AI SENSI DELL'ART. 50 DEL D. LGS. 36/2023, PER LAVORI DI MANUTENZIONE ORDINARIA PATRIMONIO COMUNALE ALLA DITTA BREGOLI PAOLO (BS) - CIG. BD8D5486E5",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspezzaze/portale/albopretorio/albopretorioconsultazione.aspx?P=600",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
