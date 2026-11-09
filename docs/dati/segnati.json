@@ -5526,5 +5526,33 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Livinallongo del CdL|2026-10-30|2026/804|AFFIDO INCARICO PER PROCEDURA DI VERIFICA PREVISTA DALL’ART. 42 D.LGS. 36/2023 E": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:09:34.175Z",
+    "atto": {
+      "id": "BL|Livinallongo del CdL|2026-10-30|2026/804|AFFIDO INCARICO PER PROCEDURA DI VERIFICA PREVISTA DALL’ART. 42 D.LGS. 36/2023 E",
+      "comune": "Livinallongo del CdL",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/804",
+      "oggetto": "AFFIDO INCARICO PER PROCEDURA DI VERIFICA PREVISTA DALL’ART. 42 D.LGS. 36/2023 E DALL’ART. 34 DELL’ALLEGATO I.7 D.LGS. 36/2023 NEI RIGUARDI DEL PROGETTO DI FATTIBILITÀ TECNICA ED ECONOMICA ED ESECUTIVO. INTERVENTO DENOMINATO “STRADA COMUNALE DI CHERZ - VIA CHERZ - INSTALLAZIONE PARAMASSI, OPERE DI CONSOLIDAMENTO VERSANTI, RIPRISTINO BARRIERE STRADALI”. CUP E96F24000080001. CIG BD95C4081B.",
+      "parole": [
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "intervento",
+        "strad",
+        "progett",
+        "ripristin"
+      ],
+      "link": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8478932?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
