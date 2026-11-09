@@ -3539,5 +3539,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Domegge di Cadore|2026-10-28|2026/486|AFFIDAMENTO DEL SERVIZIO DI CONSULENZA ED ASSISTENZA OPERATIVA PER LA VALUTAZION": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:56:33.553Z",
+    "atto": {
+      "id": "BL|Domegge di Cadore|2026-10-28|2026/486|AFFIDAMENTO DEL SERVIZIO DI CONSULENZA ED ASSISTENZA OPERATIVA PER LA VALUTAZION",
+      "comune": "Domegge di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-28",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/486",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI CONSULENZA ED ASSISTENZA OPERATIVA PER LA VALUTAZIONE PRELIMINARE, STRUTTURAZIONE E PREPARAZIONE DI UNA PROPOSTA PROGETTUALE PER LA VALUTAZIONE PRELIMINARE SUL BANDO PROGRAMMA CLLD DOLOMITI LIVE INTERREG ITALIA-AUSTRIA 2021-2027",
+      "parole": [
+        "affidamento",
+        "progett"
+      ],
+      "link": "https://domeggedicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1454799?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
