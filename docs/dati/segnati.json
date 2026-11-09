@@ -6433,5 +6433,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-11-02|2026/7963|PROCEDURA NEGOZIATA, AI SENSI DELL’ART.50, COMMA 1, LETTERA E) DEL D.LGS N.36/20": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:15:52.430Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-02|2026/7963|PROCEDURA NEGOZIATA, AI SENSI DELL’ART.50, COMMA 1, LETTERA E) DEL D.LGS N.36/20",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7963",
+      "oggetto": "PROCEDURA NEGOZIATA, AI SENSI DELL’ART.50, COMMA 1, LETTERA E) DEL D.LGS N.36/2023 E SS.MM.II., PER L’AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DELLE ATTREZZATURE LUDICHE NELLE SCUOLE CITTADINE PER GLI ANNI 2027 E 2028 – CIG: BD1F001624 – G 12891. AGGIUDICAZIONE A FAVORE DELL’O.E. FOR PLAY DI ZANOTTI MARIA LAURA & C. SAS.",
+      "parole": [
+        "affidamento",
+        "procedura negoziata",
+        "aggiudicazione",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2807786",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
