@@ -1366,5 +1366,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Desenzano del Garda|2026-10-26|2026/2655|AFFIDAMENTO INCARICO PROFESSIONALE DI COORDINATORE PER LA SICUREZZA IN FASE PROG": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:27:13.575Z",
+    "atto": {
+      "id": "BS|Desenzano del Garda|2026-10-26|2026/2655|AFFIDAMENTO INCARICO PROFESSIONALE DI COORDINATORE PER LA SICUREZZA IN FASE PROG",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2655",
+      "oggetto": "AFFIDAMENTO INCARICO PROFESSIONALE DI COORDINATORE PER LA SICUREZZA IN FASE PROGETTUALE ED ESECUTIVA INERENTE I LAVORI DI MANUTENZIONE STRAORDINARIA DELLA PISCINA DEL CENTRO SOCIALE ANFFAS - GEOM. GIULIO GOTTARDO - CUP I18C26000290004 - CIG BD65F6AE7A",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2800264?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
