@@ -5670,5 +5670,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Auronzo di Cadore|2026-10-30|2026/1051|PRIMI INTERVENTI URGENTI DI P.C. IN CONSEGUENZA DEGLI ECCEZIONALI EVENTI METEORO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:10:21.916Z",
+    "atto": {
+      "id": "BL|Auronzo di Cadore|2026-10-30|2026/1051|PRIMI INTERVENTI URGENTI DI P.C. IN CONSEGUENZA DEGLI ECCEZIONALI EVENTI METEORO",
+      "comune": "Auronzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1051",
+      "oggetto": "PRIMI INTERVENTI URGENTI DI P.C. IN CONSEGUENZA DEGLI ECCEZIONALI EVENTI METEOROLOGICI DAL 27.10 AL 05.11.2018 - DELIBERA CONSIGLIO DEI MINISTRI 08.11.2018 E OCDPC N. 558 DEL 15.11.2018 - INTERVENTO DI “RIPRISTINO DELLA LINEA DI PUBBLICA ILLUMINAZIONE LUNGOLAGO” – CUP B27H19001160001 - CIG ZE629F083B: APPROVAZIONE ED ACCERTAMENTO DELLA SPESA COMPLESSIVAMENTE SOSTENUTA",
+      "parole": [
+        "intervento",
+        "ripristin"
+      ],
+      "link": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1456557?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
