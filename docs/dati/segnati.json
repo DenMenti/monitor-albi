@@ -3275,5 +3275,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Malegno|2026-10-28|2026/488|FORNITURA E POSA NUOVO DEFIBRILLATORE ED AFFIDAMENTO DEL SERVIZIO DI MANUTENZION": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:43:21.596Z",
+    "atto": {
+      "id": "BS|Malegno|2026-10-28|2026/488|FORNITURA E POSA NUOVO DEFIBRILLATORE ED AFFIDAMENTO DEL SERVIZIO DI MANUTENZION",
+      "comune": "Malegno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/488",
+      "oggetto": "FORNITURA E POSA NUOVO DEFIBRILLATORE ED AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE ORDINARIA 2026-2029 - AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, COMMA 1, LETTERA B) DEL D. LGS. 36/2023 E S.M.I.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://malegno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5745310?p_auth=kyD1iI0p&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
