@@ -4262,5 +4262,28 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BS|Brescia|2026-10-29|2026/7877|BO 263/2026. AFFIDAMENTO DIRETTO DEL SERVIZIO DI MANUTENZIONE PERIODICA DI N. 1 ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:01:20.745Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-29|2026/7877|BO 263/2026. AFFIDAMENTO DIRETTO DEL SERVIZIO DI MANUTENZIONE PERIODICA DI N. 1 ",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7877",
+      "oggetto": "BO 263/2026. AFFIDAMENTO DIRETTO DEL SERVIZIO DI MANUTENZIONE PERIODICA DI N. 1 SOLLEVATORE PRESSO LA SCUOLA IN LOCALITÀ S.POLO CIG BD828A71AF – G13036 – PER UN IMPORTO COMPLESSIVO DI €. 115,00 (ONERI FISCALI INCLUSI) ALL’OPERATORE ECONOMICO BIOMEDICA SU MISURA SRL.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2804815",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
