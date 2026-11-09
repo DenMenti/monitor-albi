@@ -1779,5 +1779,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Valle di Cadore|2026-10-26|2026/654|CONFERIMENTO DI INCARICO DI COLLABORAZIONE AI SENSI DELL'ART. 7 C. 6 DEL D.LGS. ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:32.125Z",
+    "atto": {
+      "id": "BL|Valle di Cadore|2026-10-26|2026/654|CONFERIMENTO DI INCARICO DI COLLABORAZIONE AI SENSI DELL'ART. 7 C. 6 DEL D.LGS. ",
+      "comune": "Valle di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/654",
+      "oggetto": "CONFERIMENTO DI INCARICO DI COLLABORAZIONE AI SENSI DELL'ART. 7 C. 6 DEL D.LGS. 165/2001 ALLA MAESTRA PAOLA MENEGHINI PER LO SVOLGIMENTO DEL PROGETTO DI MUSICA CORALE PRESSO LA SCUOLA PRIMARIA DI VALLE DI CADORE",
+      "parole": [
+        "incarico",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://valledicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1454107?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
