@@ -2964,5 +2964,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Roncadelle|2026-10-28|2026/929|AFFIDAMENTO CONTRATTO 2026/00022/DIR - PROGETTAZIONE DI FATTIBILITÀ TECNICA ECON": {
+    "stato": "fissato",
+    "quando": "2026-11-09T17:41:13.314Z",
+    "atto": {
+      "id": "BS|Roncadelle|2026-10-28|2026/929|AFFIDAMENTO CONTRATTO 2026/00022/DIR - PROGETTAZIONE DI FATTIBILITÀ TECNICA ECON",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/929",
+      "oggetto": "AFFIDAMENTO CONTRATTO 2026/00022/DIR - PROGETTAZIONE DI FATTIBILITÀ TECNICA ECONOMICA, ESECUTIVA, DIREZIONE LAVORI E SICUREZZA DEI LAVORI DENOMINATI \"RIQUALIFICAZIONE ENERGETICA DELLA SEDE MUNICIPALE - PARTE NUOVA\" - CUP: C94J26000500005 - CIG: BD833E2634",
+      "parole": [
+        "affidamento",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8471536?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
