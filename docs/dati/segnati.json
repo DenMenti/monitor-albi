@@ -7122,5 +7122,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Rodengo Saiano|2026-11-03|699|DETERMINA N.425 DEL 02/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO CONTRATTO DEI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:45:42.165Z",
+    "atto": {
+      "id": "BS|Rodengo Saiano|2026-11-03|699|DETERMINA N.425 DEL 02/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO CONTRATTO DEI",
+      "comune": "Rodengo Saiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINAZIONI",
+      "numero": "699",
+      "oggetto": "DETERMINA N.425 DEL 02/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO CONTRATTO DEI LAVORI DENOMINATI MANUTENZIONE STRAORDINARIA ADDOLCITORI CENTRALI TERMICHE EDIFICI COMUNALI OPERE DA IDRAULICO. CIG: BD97FCAC02.",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
