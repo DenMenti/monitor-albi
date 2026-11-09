@@ -5092,5 +5092,28 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BS|Brescia|2026-10-30|2026/7889|SERVIZIO PER LA “REALIZZAZIONE DI PANNELLI VEGETALI IN VIA INDIPENDENZA – LOCALI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:07:16.364Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-30|2026/7889|SERVIZIO PER LA “REALIZZAZIONE DI PANNELLI VEGETALI IN VIA INDIPENDENZA – LOCALI",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7889",
+      "oggetto": "SERVIZIO PER LA “REALIZZAZIONE DI PANNELLI VEGETALI IN VIA INDIPENDENZA – LOCALITÀ S. EUFEMIA NELL’AMBITO DEL PROGETTO DI VALORIZZAZIONE DI BENI E ATTIVITÀ CULTURALI” - CIG BCC09D7C12 - APPROVAZIONE CERTIFICATO DI REGOLARE ESECUZIONE E LIQUIDAZIONE A SALDO ALL’OPERATORE ECONOMICO IL LAURO S.R.L.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2805390",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
