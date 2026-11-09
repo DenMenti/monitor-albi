@@ -2870,5 +2870,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ghedi|2026-10-28||Numero pubblicazione 1349 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:40:45.547Z",
+    "atto": {
+      "id": "BS|Ghedi|2026-10-28||Numero pubblicazione 1349 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter",
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1349 Mittente Città di Ghedi -Ufficio Segreteria Tipo Determina Oggetto CUP D32B25005300004 - AUTORIZZAZIONE INCREMENTO ALLA DITTA \"MANUALE EDILE SRL\" PER L'ASSISTENZA EDILE RELATIVA AI LAVORI DI MITIGAZIONE DELLE CONCENTRAZIONI DI GAS RADON PRESSO LA SALA BANDA, L'ASILO NIDO ARCOBALENO, INFANZIA CIRCUITO SUD, PRIMARIA PALAZZO E TOSONI - SECONDO INTERVENTO Numero atto 178 Data atto 28/10/2026 N.Registro generale 768 Data registro generale 28/10/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "intervento",
+        "lavor"
+      ],
+      "link": "https://ghedi.halleyweb.it/c017078/mc/mc_p_dettaglio.php?id_pubbl=36309",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
