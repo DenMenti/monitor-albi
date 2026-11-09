@@ -3562,5 +3562,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Domegge di Cadore|2026-10-28|2026/487|AFFIDAMENTO LAVORI PER INTERVENTI IDRAULICI DI MANUTENZIONE ORDINARIA DI ALCUNI ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:56:37.960Z",
+    "atto": {
+      "id": "BL|Domegge di Cadore|2026-10-28|2026/487|AFFIDAMENTO LAVORI PER INTERVENTI IDRAULICI DI MANUTENZIONE ORDINARIA DI ALCUNI ",
+      "comune": "Domegge di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-28",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/487",
+      "oggetto": "AFFIDAMENTO LAVORI PER INTERVENTI IDRAULICI DI MANUTENZIONE ORDINARIA DI ALCUNI IMMOBILI COMUNALI E FONTANE PUBBLICHE. CIG: BD69C4CC74",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://domeggedicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1454814?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
