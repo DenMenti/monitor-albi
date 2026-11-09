@@ -4001,5 +4001,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Montichiari|2026-10-29|2026/1632|REALIZZAZIONE DI UN PROGETTO DENOMINATO “NEXT T.A.G. - TERRITORIO, AZIONE E GIOV": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:00:01.336Z",
+    "atto": {
+      "id": "BS|Montichiari|2026-10-29|2026/1632|REALIZZAZIONE DI UN PROGETTO DENOMINATO “NEXT T.A.G. - TERRITORIO, AZIONE E GIOV",
+      "comune": "Montichiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1632",
+      "oggetto": "REALIZZAZIONE DI UN PROGETTO DENOMINATO “NEXT T.A.G. - TERRITORIO, AZIONE E GIOVANI” FINANZIATO A VALERE SULL’AVVISO “LA LOMBARDIA E’ DEI GIOVANI” ANNO 2026. CUP E81B26000210003- IMPEGNI DI SPESA",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10601384",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
