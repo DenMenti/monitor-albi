@@ -1520,5 +1520,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Cologne|2026-10-26|2026/853|M2C4 INV. 2.2 – ART. 1 C. 139 L. 145/2018 - CUP: D27H20001110001 - “INTERVENTO D": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:28:37.132Z",
+    "atto": {
+      "id": "BS|Cologne|2026-10-26|2026/853|M2C4 INV. 2.2 – ART. 1 C. 139 L. 145/2018 - CUP: D27H20001110001 - “INTERVENTO D",
+      "comune": "Cologne",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/853",
+      "oggetto": "M2C4 INV. 2.2 – ART. 1 C. 139 L. 145/2018 - CUP: D27H20001110001 - “INTERVENTO DI MESSA IN SICUREZZA STRADALE CON AMPLIAMENTO DI UN TRATTO DI VIA FRANCESCA E RIFACIMENTO DELL’INTERSEZIONE CON VIA SAN PIETRO (SP17)” – PRESA ATTO DEL SUBAFFIDAMENTO INFERIORE AL 2% DELL’IMPORTO CONTRATTUALE ALLA DITTA LINEA S.R.L. CON SEDE LEGALE IN VIA BRUSATI, N. 1 – 26040 MARTIGNANA DI PO (CR) C.F. E P. I.V.A.: 01073500199.",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "strad",
+        "rifacimento"
+      ],
+      "link": "https://cologne.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10594422?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
