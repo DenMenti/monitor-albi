@@ -1733,5 +1733,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-26|2026/7774|BO N. 59/2026 - AFFIDAMENTO DIRETTO DEI SERVIZI DI ACQUISIZIONE DELLE SUBSCRIPTI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:21.374Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-26|2026/7774|BO N. 59/2026 - AFFIDAMENTO DIRETTO DEI SERVIZI DI ACQUISIZIONE DELLE SUBSCRIPTI",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7774",
+      "oggetto": "BO N. 59/2026 - AFFIDAMENTO DIRETTO DEI SERVIZI DI ACQUISIZIONE DELLE SUBSCRIPTION NUTANIX CLOUD INFRASTRUCTURE (NCI) PRO SOFTWARE LICENSE & PRODUCTION SOFTWARE SUPPORT SERVICE E MANUTENZIONE HARDWARE DEGLI APPARATI NUTANIX NX-8155-G7-HY E NX-8155N-G8-HY PER IL PERIODO DAL 28/12/2026 AL 27/12/2027 - CIG BD77DDE1F9 – G12993 - ALL’OPERATORE ECONOMICO NEXTONE S.R.L.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2800557",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
