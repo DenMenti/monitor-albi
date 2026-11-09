@@ -5285,5 +5285,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Bienno|2026-10-30|2026/609|SERVIZIO DI NOLEGGIO E MANUTENZIONE DEL FOTOCOPIATORE IN USO PRESSO LA SEDE COMU": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:08:16.178Z",
+    "atto": {
+      "id": "BS|Bienno|2026-10-30|2026/609|SERVIZIO DI NOLEGGIO E MANUTENZIONE DEL FOTOCOPIATORE IN USO PRESSO LA SEDE COMU",
+      "comune": "Bienno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/609",
+      "oggetto": "SERVIZIO DI NOLEGGIO E MANUTENZIONE DEL FOTOCOPIATORE IN USO PRESSO LA SEDE COMUNALE DI PRESTINE PER 5 ANNI (01.11.2026 - 31.10.2031). AGGIUDICAZIONE DEFINITIVA. CIG: BD8529D243",
+      "parole": [
+        "aggiudicazione",
+        "manutenzione"
+      ],
+      "link": "https://bienno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4476365?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
