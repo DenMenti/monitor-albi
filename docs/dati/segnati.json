@@ -3370,5 +3370,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ceto|2026-10-28|525|DETERMINA N.254 DEL 28/10/2026 - SETTORE TECNICO GESTIONE DEL TERRITORIO: LAVORI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:53:26.853Z",
+    "atto": {
+      "id": "BS|Ceto|2026-10-28|525|DETERMINA N.254 DEL 28/10/2026 - SETTORE TECNICO GESTIONE DEL TERRITORIO: LAVORI",
+      "comune": "Ceto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "Determinazioni",
+      "numero": "525",
+      "oggetto": "DETERMINA N.254 DEL 28/10/2026 - SETTORE TECNICO GESTIONE DEL TERRITORIO: LAVORI DI RIQUALIFICAZIONE BIVACCO MATTIA ONTANI MALGA MONOCOLA PSP - PIANO STRATEGICO NAZIONALE DELLA PAC 2023-2027 - REG. (UE) 2021/2115 - COMPLEMENTO PER LO SVILUPPO RURALE DEL PIANO STRATEGICO NAZIONALE DELLA PAC 2023-2027 DELLA REGIONE LOMBARDIA. INTERVENTO SRD 07 INVESTIMENTI IN INFRASTRUTTURE PER L’AGRICOLTURA E PER LO SVILUPPO SOCIOECONOMICO DELLE AREE RURALI. CUP C29D24010620006. DETERMINAZIONE DI CONCLUSIONE POSITIVA DELLA CONFERENZA DI SERVIZI DECISORIA EX ART. 14, COMMA 2, LEGGE N. 241/1990.",
+      "parole": [
+        "intervento",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsceto/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
