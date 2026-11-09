@@ -6287,5 +6287,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Piancogno|2026-11-02|2026/494|AFFIDAMENTO DEL LAVORO DI MANUTENZIONE - OPERE DA FALEGNAME - PER IL COMUNE DI P": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:14:59.204Z",
+    "atto": {
+      "id": "BS|Piancogno|2026-11-02|2026/494|AFFIDAMENTO DEL LAVORO DI MANUTENZIONE - OPERE DA FALEGNAME - PER IL COMUNE DI P",
+      "comune": "Piancogno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/494",
+      "oggetto": "AFFIDAMENTO DEL LAVORO DI MANUTENZIONE - OPERE DA FALEGNAME - PER IL COMUNE DI PIANCOGNO DAL 01.01.2027 AL 31.12.2028. CIG: BD9A8BF882.",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2079857?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
