@@ -3346,5 +3346,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Flero|2026-10-28|2026/804|ATTIVAZIONE OPZIONE DET. N. 64 DEL 10/02/2026 - AFFIDAMENTO DELL’APPALTO CONCERN": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:43:58.762Z",
+    "atto": {
+      "id": "BS|Flero|2026-10-28|2026/804|ATTIVAZIONE OPZIONE DET. N. 64 DEL 10/02/2026 - AFFIDAMENTO DELL’APPALTO CONCERN",
+      "comune": "Flero",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/804",
+      "oggetto": "ATTIVAZIONE OPZIONE DET. N. 64 DEL 10/02/2026 - AFFIDAMENTO DELL’APPALTO CONCERNENTE IL SERVIZIO DI CONTROLLO CASSETTE PRONTO SOCCORSO, MANUTENZIONE PRESIDI ANTINCENDIO – IMPIANTI DI RILEVAZIONE E DI SPEGNIMENTO ANTINCENDIO PER LA DURATA DI 36 MESI PROROGABILE PER ULTERIORI 36 MESI – DITTA ASSOPADANA FIRE & SAFETY CIG: BA079500C4",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "manutenzione"
+      ],
+      "link": "https://flero.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10599015?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
