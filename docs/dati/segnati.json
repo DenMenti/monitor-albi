@@ -5333,5 +5333,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Berzo Demo|2026-10-30|2026/479|DETERMINA DI AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:08:33.164Z",
+    "atto": {
+      "id": "BS|Berzo Demo|2026-10-30|2026/479|DETERMINA DI AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D",
+      "comune": "Berzo Demo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/479",
+      "oggetto": "DETERMINA DI AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D.LGS. N. 36/2023, DEL SERVIZIO PROFESSIONALE DI REDAZIONE DEL PROGETTO ESECUTIVO (PE) PER LO SMALTIMENTO DEI RIFIUTI DEL LOTTO 1, COMPRENSIVO DELLE PRESTAZIONI CONSULENZIALI PROPEDEUTICHE, DEL PIANO DI COORDINAMENTO E SICUREZZA (PSC) FINALIZZATO AD ATTUARE L’INTERVENTO SOSTITUTIVO DELLE OPERE DI RIMOZIONE DEI RIFIUTI NEL SITO “EX SELCA” IN COMUNE DI BERZO DEMO (BS) ALLA SOCIETÀ D’INGEGNERIA “INGAMBIENTE S.R.L.” P.IVA/C.F. 04577460985 – CUP: G42B25012010009 - CIG BD927D99B2.",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "esecutivo",
+        "intervento",
+        "progett"
+      ],
+      "link": "https://berzodemo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8478201?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
