@@ -3736,5 +3736,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sarezzo|2026-10-29|2026/1074|ACCORDO QUADRO PER L’AFFIDAMENTO DELLA FORNITURA DI PRODOTTI PER LA MANUTENZIONE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:58:28.698Z",
+    "atto": {
+      "id": "BS|Sarezzo|2026-10-29|2026/1074|ACCORDO QUADRO PER L’AFFIDAMENTO DELLA FORNITURA DI PRODOTTI PER LA MANUTENZIONE",
+      "comune": "Sarezzo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/1074",
+      "oggetto": "ACCORDO QUADRO PER L’AFFIDAMENTO DELLA FORNITURA DI PRODOTTI PER LA MANUTENZIONE STRADALE DALLA DATA DI AGGIUDICAZIONE FINO AL 30/06/2028 (CIG B26011B7DE) - AFFIDAMENTO 4° CONTRATTO ATTUATIVO FORNITURA DI PRODOTTI PER LA MANUTENZIONE STRADALE (CIG BD859ECA40)",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "strad",
+        "manutenzione"
+      ],
+      "link": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2804118?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
