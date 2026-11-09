@@ -6530,5 +6530,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Falcade|2026-11-02|2026/737|MISURA REGIONALE “SOSTEGNO ALL’ABITARE SO.A.” DI CUI ALLA D.G.R.V. N. 1130 DEL 2": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:16:28.584Z",
+    "atto": {
+      "id": "BL|Falcade|2026-11-02|2026/737|MISURA REGIONALE “SOSTEGNO ALL’ABITARE SO.A.” DI CUI ALLA D.G.R.V. N. 1130 DEL 2",
+      "comune": "Falcade",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/737",
+      "oggetto": "MISURA REGIONALE “SOSTEGNO ALL’ABITARE SO.A.” DI CUI ALLA D.G.R.V. N. 1130 DEL 22.09.2025. LIQUIDAZIONE TERZA RATA CONTRIBUTO A FAVORE DI CITTADINO RESIDENTE SOTTOSCRITTORE DEL PROGETTO PERSONALIZZATO SO.A. ASSUNTO AL PROT. COMUNALE AL N. 0005622/2026 IN DATA 27.07.2026, IN ESECUZIONE DELLA DELIBERAZIONE DI GIUNTA COMUNALE N. 55 DEL 29.07.2026 E DELLA DETERMINAZIONE N. 230 DEL 10.08.2026.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://falcade.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8481817?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
