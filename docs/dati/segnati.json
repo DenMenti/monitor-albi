@@ -3443,5 +3443,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-28|2026/7844|AFFIDAMENTO DIRETTO DEL SERVIZIO DI IDEAZIONE, PROGETTAZIONE, REALIZZAZIONE E NO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:54:04.701Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-28|2026/7844|AFFIDAMENTO DIRETTO DEL SERVIZIO DI IDEAZIONE, PROGETTAZIONE, REALIZZAZIONE E NO",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7844",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL SERVIZIO DI IDEAZIONE, PROGETTAZIONE, REALIZZAZIONE E NOLEGGIO DI ALLESTIMENTI DECORATIVI LUMINOSI TEMPORANEI CON TECNOLOGIA TWINKLY PRESSO ANGOLO CORSO ZANARDELLI/CORSO PALESTRO E STAZIONE FS, PER IL PERIODO 15 NOVEMBRE 2026 – 15 GENNAIO 2027 INCLUSO CODICE GARA G12978 CIG BD34D8FC51",
+      "parole": [
+        "affidamento",
+        "gara",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2802904",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
