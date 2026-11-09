@@ -868,5 +868,28 @@
       "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
       "quando": "2026-10-26_1159"
     }
+  },
+  "BS|Iseo|2026-10-26||Numero pubblicazione 1521 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Pr": {
+    "stato": "eliminato",
+    "quando": "2026-11-09T15:21:57.619Z",
+    "atto": {
+      "id": "BS|Iseo|2026-10-26||Numero pubblicazione 1521 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Pr",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1521 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Procedura aperta ai sensi dell'art. 71 del d.lgs. 36/2023 per l'affidamento del servizio di refezione scolastica e fornitura pasti a domicilio per anziani, disabili e persone in difficoltà per gli anni scolastici 2026/27, 2027/28, 2028/29 - costituzione del gruppo di lavoro per la ripartizione del fondo incentivi funzioni tecniche ai sensi dell'art. 45 D.Lgs. 36/2023 N.Registro generale 834 Data registro generale 21/10/2026 Data inizio 26/10/2026 Data fine 10/11/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21346",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
