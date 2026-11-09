@@ -4619,5 +4619,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Berzo Inferiore|2026-10-30||Numero pubblicazione 501 Mittente COMUNE DI BERZO INFERIORE Tipo Determinazione ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:03:52.965Z",
+    "atto": {
+      "id": "BS|Berzo Inferiore|2026-10-30||Numero pubblicazione 501 Mittente COMUNE DI BERZO INFERIORE Tipo Determinazione ",
+      "comune": "Berzo Inferiore",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 501 Mittente COMUNE DI BERZO INFERIORE Tipo Determinazione Oggetto ESAME ED APPROVAZIONE ATTI DI CONTABILITA' FINALE E CERTIFICATO DI REGOLARE ESECUZIONE DEI LAVORI DI \"AMPLIAMENTO DELLA SCUOLA DELL'INFANZIA DI BERZO INFERIORE PER LA REALIZZAZIONE DI UN NUOVO SERVIZIO DI ASILO NIDO\" (Intervento in parte finanziato dall'Unione Europea NextGenerationEU). (Codice CUP: D55E21000100006) - (Codice CIG: BAC7E746F9). Numero atto 109 Data atto 30/10/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "intervento",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017017/mc/mc_p_dettaglio.php?id_pubbl=3344",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
