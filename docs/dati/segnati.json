@@ -6578,5 +6578,30 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Borgo Valbelluna|2026-11-02|2026/1211|LAVORI DI “RIQUALIFICAZIONE DELLA FONTANA E ABBEVERATOIO DI CORTE” FINANZIATO CO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:16:38.316Z",
+    "atto": {
+      "id": "BL|Borgo Valbelluna|2026-11-02|2026/1211|LAVORI DI “RIQUALIFICAZIONE DELLA FONTANA E ABBEVERATOIO DI CORTE” FINANZIATO CO",
+      "comune": "Borgo Valbelluna",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1211",
+      "oggetto": "LAVORI DI “RIQUALIFICAZIONE DELLA FONTANA E ABBEVERATOIO DI CORTE” FINANZIATO CON IL CONTRIBUTO DEL MASAF “FONDO VOLTO A SOSTENERE LE INIZIATIVE DEI COMUNI PER IL RIPRISTINO, LA MANUTENZIONE E LA VALORIZZAZIONE DELLE INFRASTRUTTURE DI INTERESSE STORICO E PAESAGGISTICO PERCORSE DAGLI ANIMALI NEGLI SPOSTAMENTI PER LA TRANSUMANZA, LA MONTICAZIONE, L’ALPEGGIO E ALTRE PRATICHE TRADIZIONALI”. LIQUIDAZIONE ANTICIPAZIONE CONTRATTUALE. CUP: E87B25000160001 – CIG: BBE745D7BD",
+      "parole": [
+        "interesse",
+        "manutenzione",
+        "lavor",
+        "ripristin"
+      ],
+      "link": "https://borgovalbelluna.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4477941?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
