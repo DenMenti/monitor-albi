@@ -1056,5 +1056,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sarezzo|2026-10-26|2026/1054|ACCORDO QUADRO CON UN UNICO OPERATORE DEL SERVIZIO DI MANUTENZIONE AUTOMEZZI COM": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T15:25:04.638Z",
+    "atto": {
+      "id": "BS|Sarezzo|2026-10-26|2026/1054|ACCORDO QUADRO CON UN UNICO OPERATORE DEL SERVIZIO DI MANUTENZIONE AUTOMEZZI COM",
+      "comune": "Sarezzo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/1054",
+      "oggetto": "ACCORDO QUADRO CON UN UNICO OPERATORE DEL SERVIZIO DI MANUTENZIONE AUTOMEZZI COMUNALI ANNI 2023-2024-2025-2026 – CIG: ZB03911AE9 – AFFIDAMENTO 6° CONTRATTO ATTUATIVO (CIG BD76C645E8)",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2799379?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
