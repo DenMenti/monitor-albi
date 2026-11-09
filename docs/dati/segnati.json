@@ -6407,5 +6407,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Erbusco|2026-11-02|2026/914|DETERMINA A CONTRARRE E DELEGA ALLA CUC AREA VASTA BRESCIA, DELLA PROCEDURA NEGO": {
+    "stato": "fissato",
+    "quando": "2026-11-09T18:15:37.625Z",
+    "atto": {
+      "id": "BS|Erbusco|2026-11-02|2026/914|DETERMINA A CONTRARRE E DELEGA ALLA CUC AREA VASTA BRESCIA, DELLA PROCEDURA NEGO",
+      "comune": "Erbusco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/914",
+      "oggetto": "DETERMINA A CONTRARRE E DELEGA ALLA CUC AREA VASTA BRESCIA, DELLA PROCEDURA NEGOZIATA AI SENSI DELL’ART. 50, COMMA 1 DEL D. LGS 36/2023 PREVIA MANIFESTAZIONE DI INTERESSE PER L'APPALTO DEI LAVORI DI “RIQUALIFICAZIONE VIA S. CLEMENTE”. - CUP: H37H19002220004 -",
+      "parole": [
+        "appalto",
+        "manifestazione",
+        "interesse",
+        "procedura negoziata",
+        "lavor"
+      ],
+      "link": "https://erbusco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5756861?p_auth=j68o3pox&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
