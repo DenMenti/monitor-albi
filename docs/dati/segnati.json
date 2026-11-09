@@ -1827,5 +1827,30 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Fonzaso|2026-10-26||Numero pubblicazione 608 Mittente COMUNE DI FONZASO Tipo Determine Oggetto LAVOR": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:49.430Z",
+    "atto": {
+      "id": "BL|Fonzaso|2026-10-26||Numero pubblicazione 608 Mittente COMUNE DI FONZASO Tipo Determine Oggetto LAVOR",
+      "comune": "Fonzaso",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 608 Mittente COMUNE DI FONZASO Tipo Determine Oggetto LAVORI DI MANUTENZIONE STRAORDINARIA E RIQUALIFICAZIONE EDIFICIO SITO IN VIA PRIMIERO A FONZASO (BL) FINALIZZATO ALLA REALIZZAZIONE DI N. 2 ALLOGGI IN CO-HUOSING. STRATEGIA SISUS - PR FESR 2021-2027. CUP: D12D23000290008 CIG: BD79E1ABBA. AFFIDAMENTO OPERE DI COMPLETAMENTO (FACCIATE ESTERNE, PAVIMENTAZIONI, MARCIAPIEDE) ALLA DITTA COSTRUZIONI CASANOVA SRL - P.IVA 00848790259 Numero atto 121 Data atto 23/10/2026 Data inizio 26/10/2026 Data fine 10/11/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "edificio",
+        "lavor"
+      ],
+      "link": "https://servizionline.comune.fonzaso.bl.it/c025022/mc/mc_p_dettaglio.php?id_pubbl=12530",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
