@@ -4238,5 +4238,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-29|2026/7861|ACCORDO QUADRO DI DURATA TRIENNALE CON UNICO OPERATORE ECONOMICO LAVORI MANUTENT": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:01:16.363Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-29|2026/7861|ACCORDO QUADRO DI DURATA TRIENNALE CON UNICO OPERATORE ECONOMICO LAVORI MANUTENT",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7861",
+      "oggetto": "ACCORDO QUADRO DI DURATA TRIENNALE CON UNICO OPERATORE ECONOMICO LAVORI MANUTENTIVI – OPERE DA PITTORE – RELATIVI AGLI EDIFICI DI COMPETENZA MEDIANTE INTERVENTI A “CHIAMATA” NONCHE’ DI MANUTENZIONE PROGRAMMATA PRESSO GLI STABILI COMUNALI AD USO SCOLASTICO, - 2 LOTTI - LOTTO 1 ZONA NORD. CIG PADRE 9896150154 - 6° CONTRATTO ATTUATIVO CIG DERIVATO B9AF6738C4 - APPROVAZIONE CERTIFICATO DI REGOLARE ESECUZIONE E LIQUIDAZIONE SALDO ALL’IMPRESA F.G.P. S.R.L. SVINCOLO GARANZIE",
+      "parole": [
+        "gara",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2803779",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
