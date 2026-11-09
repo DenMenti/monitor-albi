@@ -5741,5 +5741,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Auronzo di Cadore|2026-10-30|2026/1055|AFFIDAMENTO DELL’ INCARICO PROFESSIONALE PER IL SERVIZIO DI ACCATASTAMENTO DI IM": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:10:38.800Z",
+    "atto": {
+      "id": "BL|Auronzo di Cadore|2026-10-30|2026/1055|AFFIDAMENTO DELL’ INCARICO PROFESSIONALE PER IL SERVIZIO DI ACCATASTAMENTO DI IM",
+      "comune": "Auronzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1055",
+      "oggetto": "AFFIDAMENTO DELL’ INCARICO PROFESSIONALE PER IL SERVIZIO DI ACCATASTAMENTO DI IMMOBILE DI PROPRIETA’ COMUNALE IN SEGUITO AI LAVORI DI REALIZZAZIONE DI GARAGES INTERRATI CON PARCHEGGI IN LOCALITA’ CELLA NEL COMUNE DI AURONZO DI CADORE. CIG: BD91697BD8",
+      "parole": [
+        "affidamento",
+        "gara",
+        "incarico",
+        "lavor"
+      ],
+      "link": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1456569?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
