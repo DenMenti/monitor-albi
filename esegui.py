@@ -45,7 +45,7 @@ def leggi(nome, default):
 
 
 def scrivi(nome, dati):
-    os.makedirs(DATI, exist_ok=True)
+    os.makedirs(os.path.dirname(os.path.join(DATI, nome)), exist_ok=True)
     with open(os.path.join(DATI, nome), "w", encoding="utf-8") as f:
         json.dump(dati, f, ensure_ascii=False, indent=2, default=str)
 
@@ -91,6 +91,17 @@ def unisci(archivio, nuovi):
     for c in nuovi:
         per_chiave[L.chiave(c)] = c
     return sorted(per_chiave.values(), key=lambda c: (c.get("regione", ""), c.get("sigla", ""), L.norm(c["nome"])))
+
+
+def pulisci_giri(tenere=90):
+    """Tiene solo le copie dei giri più recenti."""
+    cartella = os.path.join(DATI, "controlli")
+    try:
+        giri = sorted(f for f in os.listdir(cartella) if f.endswith(".json"))
+    except FileNotFoundError:
+        return
+    for f in giri[:-tenere]:
+        os.remove(os.path.join(cartella, f))
 
 
 def registra_run(voce):
@@ -236,8 +247,13 @@ def cmd_monitora(args):
         output_github(rimasti=str(rimasti),
                       solo_rimasti=";".join(L.chiave({"nome": r["comune"], "sigla": r.get("sigla")})
                                             for r in riepilogo if r["esito"].startswith("Non controllato")))
+    # copia dei risultati di questo giro: la pagina può mostrare anche i controlli precedenti
+    nome_giro = f"controlli/{stamp}.json"
+    scrivi(nome_giro, {"quando": stamp, "esito": esito, "excel": f"risultati/{nome_x}", "zip": url_zip,
+                       "risultati": [{**r, "data": r["data"].isoformat() if r["data"] else ""} for r in risultati]})
+    pulisci_giri()
     registra_run({"quando": stamp, "tipo": "monitoraggio", "esito": esito,
-                  "excel": f"risultati/{nome_x}", "zip": url_zip})
+                  "excel": f"risultati/{nome_x}", "zip": url_zip, "dati": nome_giro, "n": len(risultati)})
     log(esito)
 
 

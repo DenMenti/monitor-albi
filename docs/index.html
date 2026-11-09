@@ -260,6 +260,11 @@ tr.fissato td { background: var(--abete-chiaro); }
 <section class="blocco risultati-wrap" aria-labelledby="t3">
   <h2 id="t3">Determine trovate</h2>
   <p class="desc" id="descRisultati">—</p>
+  <div class="riga">
+    <label for="rGiro"><b>Controlli da mostrare</b></label>
+    <select id="rGiro" aria-label="Controlli da mostrare"></select>
+    <span class="stat" id="rGiroStato"></span>
+  </div>
   <div class="riga" role="group" aria-label="Quali risultati mostrare">
     <div class="vista" id="vista">
       <button data-v="attivi" aria-pressed="true">Da vedere <span id="nAttivi"></span></button>
@@ -277,7 +282,7 @@ tr.fissato td { background: var(--abete-chiaro); }
   </div>
   <div class="tabella" style="max-height:600px">
     <table>
-      <thead><tr><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Pubblicata</th><th scope="col">Oggetto</th><th scope="col">Parole</th><th scope="col">Allegati</th><th scope="col">Atto</th><th scope="col">Azioni</th></tr></thead>
+      <thead><tr><th scope="col">Comune</th><th scope="col">Prov.</th><th scope="col">Pubblicata</th><th scope="col" title="Data del controllo che l'ha trovata">Trovata</th><th scope="col">Oggetto</th><th scope="col">Parole</th><th scope="col">Allegati</th><th scope="col">Atto</th><th scope="col">Azioni</th></tr></thead>
       <tbody id="corpoRisultati"></tbody>
     </table>
   </div>
@@ -594,6 +599,7 @@ $("btnSelProv").onclick = () => {
   disegnaComuni();
 };
 
+$("storico").addEventListener("click", e => { const a = e.target.closest(".vedi-giro"); if (a) { e.preventDefault(); mostraGiro(a.dataset.q); } });
 function disegnaStorico() {
   $("storico").innerHTML = D.storico.length ? D.storico.slice(0, 15).map(s => `<li>
     <div class="quando">${quandoIt(s.quando)} · ${s.tipo === "albi" ? "ricerca albi" : "controllo determine"}</div>
@@ -601,25 +607,67 @@ function disegnaStorico() {
     <div class="riga" style="margin:6px 0 0">
       ${s.excel ? `<a href="${esc(linkFile(s.excel))}">Excel</a>` : ""}
       ${s.zip ? `<a href="${esc(s.zip)}">Excel + allegati (zip)</a>` : ""}
+      ${s.tipo !== "albi" && (s.dati || s.quando === (D.ultimo || {}).quando) ? `<a href="#" class="vedi-giro" data-q="${esc(s.quando)}">Vedi le determine</a>` : ""}
     </div></li>`).join("") : `<li class="vuoto">Ancora nessun controllo.</li>`;
 }
 
 const idAtto = r => r.id || `${r.sigla || ""}|${r.comune}|${(r.data || "").slice(0, 10)}|${String(r.numero || "").trim()}|${String(r.oggetto || "").replace(/\s+/g, " ").trim().slice(0, 80)}`;
 let vista = "attivi";
 
+// ---- controlli precedenti: ogni giro ha una copia dei risultati in dati/controlli/AAAA-MM-GG_HHMM.json
+const GIRI = new Map();            // quando -> {quando, zip, risultati}
+let selGiro = "tutti30";
+const giorniFa = q => { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(q || ""); return m ? (Date.now() - new Date(+m[1], m[2] - 1, +m[3])) / 864e5 : 999; };
+function giriDisponibili() {
+  return (D.storico || []).filter(x => x.tipo !== "albi" && (x.dati || x.quando === (D.ultimo || {}).quando));
+}
+function giriScelti() {
+  const disp = giriDisponibili();
+  if (selGiro === "ultimo") return disp.slice(0, 1);
+  if (selGiro === "tutti30") return disp.filter(x => giorniFa(x.quando) <= 30);
+  return disp.filter(x => x.quando === selGiro);
+}
+async function caricaGiri() {
+  const servono = giriScelti().filter(x => !GIRI.has(x.quando));
+  if (!servono.length) return;
+  $("rGiroStato").textContent = `Carico ${servono.length} controlli…`;
+  await Promise.all(servono.map(async x => {
+    if (x.dati) {
+      const g = await leggiDato(x.dati, null);
+      if (g && g.risultati) { GIRI.set(x.quando, { ...g, quando: x.quando, zip: g.zip || x.zip }); return; }
+    }
+    if (x.quando === (D.ultimo || {}).quando) GIRI.set(x.quando, D.ultimo);   // controlli fatti prima di questa versione
+  }));
+  $("rGiroStato").textContent = "";
+}
+function menuGiri() {
+  const disp = giriDisponibili();
+  const opz = [{ value: "tutti30", label: "Tutti i controlli degli ultimi 30 giorni" }, { value: "ultimo", label: "Solo l'ultimo controllo" }]
+    .concat(disp.map(x => ({ value: x.quando, label: `Controllo del ${quandoIt(x.quando)}` + (x.n != null ? ` (${x.n})` : "") })));
+  opzioni($("rGiro"), opz);
+  $("rGiro").value = selGiro;
+}
+$("rGiro").addEventListener("change", async () => { selGiro = $("rGiro").value; await caricaGiri(); disegnaRisultati(); });
+async function mostraGiro(q) {
+  selGiro = q; menuGiri(); await caricaGiri(); vista = "attivi"; disegnaRisultati();
+  $("t3").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function tuttiGliAtti() {
-  // risultati dell'ultimo controllo + atti fissati nei controlli precedenti
-  const u = D.ultimo || {};
+  // risultati dei controlli scelti (il più recente vince sui doppioni) + atti fissati nei controlli precedenti
   const mappa = new Map();
-  for (const r of u.risultati || []) mappa.set(idAtto(r), { ...r, zip: u.zip, quando: u.quando });
+  const giri = giriScelti().map(x => GIRI.get(x.quando)).filter(Boolean).sort((a, b) => String(a.quando).localeCompare(String(b.quando)));
+  for (const g of giri) for (const r of g.risultati || []) mappa.set(idAtto(r), { ...r, zip: g.zip, quando: g.quando, _trovato: g.quando });
   for (const [id, v] of Object.entries(D.segnati || {})) if (v.atto && !mappa.has(id)) mappa.set(id, v.atto);
   return [...mappa].map(([id, r]) => ({ ...r, _id: id, _stato: (D.segnati[id] || {}).stato || "" }));
 }
 
 function disegnaRisultati() {
   const u = D.ultimo || {};
+  const nGiri = giriScelti().length;
   $("descRisultati").innerHTML = u.quando
     ? `Ultimo controllo: ${quandoIt(u.quando)}. ${esc(u.esito)} ${u.zip ? `<a href="${esc(u.zip)}">Scarica Excel e allegati</a>` : (u.excel ? `<a href="${esc(linkFile(u.excel))}">Scarica l'Excel</a>` : "")}`
+      + (nGiri > 1 ? `<br>Nella tabella: le determine di <b>${nGiri} controlli</b>, senza doppioni. Quelle già fissate, nascoste o eliminate restano nella loro scheda.` : "")
     : "Ancora nessun controllo.";
   const tutti = tuttiGliAtti();
   const conta = st => tutti.filter(r => st === "attivi" ? !["nascosto", "eliminato"].includes(r._stato) : r._stato === st).length;
@@ -643,18 +691,18 @@ function disegnaRisultati() {
   $("corpoRisultati").innerHTML = vis.length ? vis.map(r => {
     const fis = r._stato === "fissato", nas = r._stato === "nascosto", eli = r._stato === "eliminato";
     const nAll = (r.allegati || []).length;
-    const all = nAll ? (r.zip ? `<a href="${esc(r.zip)}" title="Nello zip del controllo">${nAll} file</a>` : `${nAll} file`) : `<span class="badge no">nessuno</span>`;
+    const all = nAll ? (r.zip ? `<a href="${esc(r.zip)}" title="Nello zip del controllo">${nAll} file</a>` : `${nAll} file`) : (D.config && D.config.scarica === false ? `<span class="stat" title="Download degli allegati disattivato nelle impostazioni">—</span>` : `<span class="badge no">nessuno</span>`);
     const az = eli
       ? `<button data-az="ripristina" ${puo}>Ripristina</button>`
       : `<button data-az="fissa" aria-pressed="${fis}" ${puo} title="${fis ? "Togli da fissati" : "Fissa in cima"}">📌 ${fis ? "Fissato" : "Fissa"}</button>
          <button data-az="${nas ? "ripristina" : "nascondi"}" ${puo}>${nas ? "Mostra" : "Nascondi"}</button>
          <button data-az="elimina" class="rosso" ${puo}>Elimina</button>`;
     return `<tr class="${fis ? "fissato" : ""}" data-id="${esc(r._id)}">
-      <td>${esc(r.comune)}</td><td>${esc(r.sigla || "")}</td><td>${dataIt(r.data)}</td><td>${esc(r.oggetto)}</td>
+      <td>${esc(r.comune)}</td><td>${esc(r.sigla || "")}</td><td>${dataIt(r.data)}</td><td class="stat">${r._trovato ? quandoIt(r._trovato).replace(/\/\d{4} alle /, " ") : ""}</td><td>${esc(r.oggetto)}</td>
       <td>${esc((r.parole || []).join(", "))}</td><td>${all}</td>
       <td>${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">apri</a>` : ""}</td>
       <td><div class="azioni">${az}</div></td></tr>`;
-  }).join("") : `<tr><td colspan="8" class="vuoto">${{ attivi: "Nessuna determina da vedere.", fissati: "Nessun atto fissato.", nascosti: "Nessun atto nascosto.", eliminati: "Nessun atto eliminato." }[vista]}</td></tr>`;
+  }).join("") : `<tr><td colspan="9" class="vuoto">${{ attivi: "Nessuna determina da vedere.", fissati: "Nessun atto fissato.", nascosti: "Nessun atto nascosto.", eliminati: "Nessun atto eliminato." }[vista]}</td></tr>`;
   const prob = (u.riepilogo || []).filter(r => !String(r.esito).startsWith("OK"));
   $("detRiep").hidden = !prob.length;
   const perDiagnosi = {};
@@ -748,6 +796,9 @@ async function carica() {
     try { ITALIA = await (await fetch("dati/italia.json")).json(); } catch (e) { ITALIA = { regioni: [] }; }
   }
   menuRicerca();
+  GIRI.delete((D.ultimo || {}).quando);        // l'ultimo controllo si rilegge sempre (può essere stato unito a un giro successivo)
+  menuGiri();
+  await caricaGiri();
   disegnaComuni(); disegnaStorico(); disegnaRisultati();
 }
 

@@ -219,8 +219,11 @@ class Gestore(BaseHTTPRequestHandler):
             with open(risorsa("index.html"), "rb") as f:
                 return self._invia(f.read(), "text/html; charset=utf-8")
         if p.startswith("/api/dati/") or p.startswith("/dati/"):
-            nome = os.path.basename(p)
-            percorso = os.path.join(DATI, nome)
+            rel = p.split("/dati/", 1)[1]
+            nome = os.path.basename(rel)
+            percorso = os.path.abspath(os.path.join(DATI, rel))
+            if not percorso.startswith(os.path.abspath(DATI)):
+                return self._json({"errore": "percorso non valido"}, 400)
             if not os.path.exists(percorso) and nome == "italia.json":
                 percorso = risorsa("italia.json")
             if not os.path.exists(percorso):
