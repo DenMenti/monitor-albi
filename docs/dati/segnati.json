@@ -6934,5 +6934,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Villanuova sul Clisi|2026-11-03|2026/586|AFFIDAMENTO NELL’AMBITO DELL’ACCORDO QUADRO PER IL SERVIZIO DI MANUTENZIONE VIAB": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:26:51.509Z",
+    "atto": {
+      "id": "BS|Villanuova sul Clisi|2026-11-03|2026/586|AFFIDAMENTO NELL’AMBITO DELL’ACCORDO QUADRO PER IL SERVIZIO DI MANUTENZIONE VIAB",
+      "comune": "Villanuova sul Clisi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/586",
+      "oggetto": "AFFIDAMENTO NELL’AMBITO DELL’ACCORDO QUADRO PER IL SERVIZIO DI MANUTENZIONE VIABILITÀ E ATTIVITÀ ACCESSORIE PER UN PERIODO DI DODICI MESI C.I.G. MASTER: BB4B3743CA - ORDINE DI ESECUZIONE N. 4 – CIG DERIVATO: BD7F121FE7",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1457702?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
