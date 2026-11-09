@@ -5115,5 +5115,28 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BS|Brescia|2026-10-30|2026/7912|BO 249/2026 - AFFIDAMENTO DIRETTO ALL’OPERATORE ECONOMICO TECOMS SRL PER IL SERV": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:07:21.527Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-30|2026/7912|BO 249/2026 - AFFIDAMENTO DIRETTO ALL’OPERATORE ECONOMICO TECOMS SRL PER IL SERV",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7912",
+      "oggetto": "BO 249/2026 - AFFIDAMENTO DIRETTO ALL’OPERATORE ECONOMICO TECOMS SRL PER IL SERVIZIO DI MANUTENZIONE TRIENNALE SOFTWARE PER ANALISI METADATI TRAFFICO TELEFONICO DI AUSILIO ALL’ATTIVITÀ INVESTIGATIVA DEGLI ORGANI DI POLIZIA GIUDIZIARIA – IMPORTO DEL CONTRATTO €. 5.307,00 (ONERI FISCALI INCLUSI) –- PERIODO DAL 01/01/2027 AL 31/12/2029. PROCEDURA G13008- CIG. BD75CF26F6",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2806359",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
