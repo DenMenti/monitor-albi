@@ -3107,5 +3107,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Orzinuovi|2026-10-28|2026/1271|INCARICO INERENTE LA PRESTAZIONE PROFESSIONALE PER MANSIONE DI CCORDINATORE DELL": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:42:40.837Z",
+    "atto": {
+      "id": "BS|Orzinuovi|2026-10-28|2026/1271|INCARICO INERENTE LA PRESTAZIONE PROFESSIONALE PER MANSIONE DI CCORDINATORE DELL",
+      "comune": "Orzinuovi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINA",
+      "numero": "2026/1271",
+      "oggetto": "INCARICO INERENTE LA PRESTAZIONE PROFESSIONALE PER MANSIONE DI CCORDINATORE DELLA SICUREZZA IN FASE DI PROGETTAZIONE DELLE OPERE DI RIORDINO DELLA VIABILITA’ E SPAZI PER LA SOSTA, INTERVENTI DI RIQUALIFICAZIONE MOBILITA’ SOSTENIBILE MEDIANTE LA REALIZZAZIONE ED IL POTENZIAMENTO DELLA RETE CICLOPEDONALE TERRITORIALE. AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, C.1, LETT. B) DEL D.LGS.36/2023 E SS.MM.II. CIG: BD6907CCF8 – CUP: J57H25000500006",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progett"
+      ],
+      "link": "https://orzinuovi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/8471325",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
