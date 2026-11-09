@@ -387,7 +387,9 @@ async function leggiDato(nome, def) {
   if (LOCALE) { try { return await apiLocale(`/api/dati/${nome}?t=${Date.now()}`); } catch (e) { return def; } }
   try {
     if (haToken()) return JSON.parse(await gh(`/repos/${repo()}/contents/docs/dati/${nome}?ref=${ramo}`, { raw: true }));
-    const r = await fetch(`dati/${nome}?t=${Date.now()}`);
+    // senza token leggo i dati direttamente dal repository (la pagina pubblicata non contiene i dati aggiornati)
+    const r = repo() ? await fetch(`https://raw.githubusercontent.com/${repo()}/${ramo}/docs/dati/${nome}?t=${Date.now()}`)
+                     : await fetch(`dati/${nome}?t=${Date.now()}`);
     return r.ok ? await r.json() : def;
   } catch (e) { return def; }
 }
