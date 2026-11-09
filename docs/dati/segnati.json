@@ -1318,5 +1318,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Incudine|2026-10-26||BANDO ITINERARI IN LOMBARDIA - ANNO 2026. AFFIDAMENTO APPALTO DEL SERVIZIO DI OR": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:26:52.448Z",
+    "atto": {
+      "id": "BS|Incudine|2026-10-26||BANDO ITINERARI IN LOMBARDIA - ANNO 2026. AFFIDAMENTO APPALTO DEL SERVIZIO DI OR",
+      "comune": "Incudine",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "BANDO ITINERARI IN LOMBARDIA - ANNO 2026. AFFIDAMENTO APPALTO DEL SERVIZIO DI ORGANIZZAZIONE DELL'EVENTO DI PROMOZIONE TURISTICA NEL TERRITORIO COMUNALE A PESENTI SERVIZI S.R.L. DI ZOGNO (BG). Determinazioni dirigenziali EMITTENTE: Ufficio Manutenzione e Patrimonio NUMERO ATTO/DOCUMENTO: n.60 / 2026 del 18/08/2026 NUMERO DI PUBBLICAZIONE: 230 PERIODO DI PUBBLICAZIONE: dal 26/10/2026 al 10/11/2026",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "manutenzione"
+      ],
+      "link": "https://www.comune.incudine.bs.it/Pages/Albo/?Id=446058&pg=1",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
