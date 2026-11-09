@@ -1614,5 +1614,31 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BS|Brescia|2026-10-26|2026/7744|APPROVAZIONE PROGETTO ESECUTIVO E AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, COM": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:28:58.740Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-26|2026/7744|APPROVAZIONE PROGETTO ESECUTIVO E AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, COM",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7744",
+      "oggetto": "APPROVAZIONE PROGETTO ESECUTIVO E AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, COMMA 1, LETTERA A), DEL D.LGS. N. 36/2023, DEI LAVORI DI REALIZZAZIONE IMPIANTO ALLARME E RIVELAZIONE INCENDIO SCUOLA SECONDARIA DI I° GRADO \"U. FOSCOLO\" E \"CPIA 1 BS\" - CUP C88H26000700004 – CIG BD5548F72A - CODICE PROCEDURA G12985, ALL’OPERATORE ECONOMICO TEDOLDI ERMANNO SRL.",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "esecutivo",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2799950",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
