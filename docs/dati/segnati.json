@@ -7764,5 +7764,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Montirone|2026-11-04|2026/571|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO, EX ART. ": {
+    "stato": "fissato",
+    "quando": "2026-11-09T19:52:35.595Z",
+    "atto": {
+      "id": "BS|Montirone|2026-11-04|2026/571|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO, EX ART. ",
+      "comune": "Montirone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/571",
+      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO, EX ART. 50, COMMA 1, LETT. A), DEL D.LGS. 36/2023 LAVORI EDILI DI RIPRISTINO E RIPARAZIONE DEI DANNI CONSEGUENTI A SINISTRI PRESSO IMMOBILI E STRUTTURE DI PROPRIETÀ COMUNALE– DITTA M.G. SNC DI MANENTI ANGELO & C - CIG: BD77862B58",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "lavor",
+        "ripristin"
+      ],
+      "link": "https://montirone.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10616374?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
