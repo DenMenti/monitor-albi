@@ -4,287 +4,369 @@
     "tipo": "monitoraggio",
     "esito": "7 determine trovate in 260 comuni, 0 allegati. 86 albi da controllare a mano.",
     "excel": "risultati/determine_2026-11-09_1030.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-11-09_1030.json",
+    "n": 7
   },
   {
     "quando": "2026-11-08_2155",
     "tipo": "monitoraggio",
     "esito": "351 determine trovate in 260 comuni, 0 allegati. 67 albi da controllare a mano.",
     "excel": "risultati/determine_2026-11-08_2155.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-11-08_2155.json",
+    "n": 351
   },
   {
     "quando": "2026-11-07_0935",
     "tipo": "monitoraggio",
     "esito": "26 determine trovate in 260 comuni, 0 allegati. 91 albi da controllare a mano.",
     "excel": "risultati/determine_2026-11-07_0935.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-11-07_0935.json",
+    "n": 26
   },
   {
     "quando": "2026-11-06_1007",
     "tipo": "monitoraggio",
     "esito": "54 determine trovate in 260 comuni, 0 allegati. 79 albi da controllare a mano.",
     "excel": "risultati/determine_2026-11-06_1007.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-11-06_1007.json",
+    "n": 54
   },
   {
     "quando": "2026-11-05_1015",
     "tipo": "monitoraggio",
     "esito": "227 determine trovate in 260 comuni, 0 allegati. 83 albi da controllare a mano.",
     "excel": "risultati/determine_2026-11-05_1015.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-11-05_1015.json",
+    "n": 227
   },
   {
     "quando": "2026-11-04_2007",
     "tipo": "monitoraggio",
     "esito": "81 determine trovate in 60 comuni, 0 allegati. 13 albi da controllare a mano.",
     "excel": "risultati/determine_2026-11-04_2007.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-11-04_2007.json",
+    "n": 81
   },
   {
     "quando": "2026-10-26_1159",
     "tipo": "monitoraggio",
     "esito": "72 determine trovate in 260 comuni, 211 allegati. 92 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-26_1159.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-26_1159/allegati_2026-10-26_1159.zip",
+    "dati": "controlli/2026-10-26_1159.json",
+    "n": 72
   },
   {
     "quando": "2026-10-25_0003",
     "tipo": "monitoraggio",
     "esito": "679 determine trovate in 200 comuni, 2400 allegati. 63 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-25_0003.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-25_0003/allegati_2026-10-25_0003.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-25_0003/allegati_2026-10-25_0003.zip",
+    "dati": "controlli/2026-10-25_0003.json",
+    "n": 679
   },
   {
     "quando": "2026-10-24_1121",
     "tipo": "monitoraggio",
     "esito": "4 determine trovate in 1 comuni, 18 allegati.",
     "excel": "risultati/determine_2026-10-24_1121.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1121/allegati_2026-10-24_1121.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1121/allegati_2026-10-24_1121.zip",
+    "dati": "controlli/2026-10-24_1121.json",
+    "n": 4
   },
   {
     "quando": "2026-10-24_1115",
     "tipo": "monitoraggio",
     "esito": "24 determine trovate in 1 comuni, 103 allegati.",
     "excel": "risultati/determine_2026-10-24_1115.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1115/allegati_2026-10-24_1115.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1115/allegati_2026-10-24_1115.zip",
+    "dati": "controlli/2026-10-24_1115.json",
+    "n": 24
   },
   {
     "quando": "2026-10-24_1113",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-24_1113.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-24_1113.json",
+    "n": 0
   },
   {
     "quando": "2026-10-24_1111",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-24_1111.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-24_1111.json",
+    "n": 0
   },
   {
     "quando": "2026-10-24_1106",
     "tipo": "monitoraggio",
     "esito": "3 determine trovate in 1 comuni, 1 allegati.",
     "excel": "risultati/determine_2026-10-24_1106.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1106/allegati_2026-10-24_1106.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1106/allegati_2026-10-24_1106.zip",
+    "dati": "controlli/2026-10-24_1106.json",
+    "n": 3
   },
   {
     "quando": "2026-10-24_1102",
     "tipo": "monitoraggio",
     "esito": "6 determine trovate in 1 comuni, 18 allegati.",
     "excel": "risultati/determine_2026-10-24_1102.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1102/allegati_2026-10-24_1102.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1102/allegati_2026-10-24_1102.zip",
+    "dati": "controlli/2026-10-24_1102.json",
+    "n": 6
   },
   {
     "quando": "2026-10-24_1050",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-24_1050.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-24_1050.json",
+    "n": 0
   },
   {
     "quando": "2026-10-24_1042",
     "tipo": "monitoraggio",
     "esito": "18 determine trovate in 1 comuni, 92 allegati.",
     "excel": "risultati/determine_2026-10-24_1042.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1042/allegati_2026-10-24_1042.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1042/allegati_2026-10-24_1042.zip",
+    "dati": "controlli/2026-10-24_1042.json",
+    "n": 18
   },
   {
     "quando": "2026-10-24_1035",
     "tipo": "monitoraggio",
     "esito": "8 determine trovate in 1 comuni, 46 allegati.",
     "excel": "risultati/determine_2026-10-24_1035.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1035/allegati_2026-10-24_1035.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1035/allegati_2026-10-24_1035.zip",
+    "dati": "controlli/2026-10-24_1035.json",
+    "n": 8
   },
   {
     "quando": "2026-10-24_1027",
     "tipo": "monitoraggio",
     "esito": "10 determine trovate in 1 comuni, 42 allegati.",
     "excel": "risultati/determine_2026-10-24_1027.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1027/allegati_2026-10-24_1027.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1027/allegati_2026-10-24_1027.zip",
+    "dati": "controlli/2026-10-24_1027.json",
+    "n": 10
   },
   {
     "quando": "2026-10-24_0024",
     "tipo": "monitoraggio",
     "esito": "12 determine trovate in 1 comuni, 47 allegati.",
     "excel": "risultati/determine_2026-10-24_0024.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0024/allegati_2026-10-24_0024.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0024/allegati_2026-10-24_0024.zip",
+    "dati": "controlli/2026-10-24_0024.json",
+    "n": 12
   },
   {
     "quando": "2026-10-24_0006",
     "tipo": "monitoraggio",
     "esito": "19 determine trovate in 1 comuni, 104 allegati.",
     "excel": "risultati/determine_2026-10-24_0006.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0006/allegati_2026-10-24_0006.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_0006/allegati_2026-10-24_0006.zip",
+    "dati": "controlli/2026-10-24_0006.json",
+    "n": 19
   },
   {
     "quando": "2026-10-23_2357",
     "tipo": "monitoraggio",
     "esito": "11 determine trovate in 1 comuni, 61 allegati.",
     "excel": "risultati/determine_2026-10-23_2357.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2357/allegati_2026-10-23_2357.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2357/allegati_2026-10-23_2357.zip",
+    "dati": "controlli/2026-10-23_2357.json",
+    "n": 11
   },
   {
     "quando": "2026-10-23_2341",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_2341.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_2341.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_2320",
     "tipo": "monitoraggio",
     "esito": "7 determine trovate in 1 comuni, 32 allegati.",
     "excel": "risultati/determine_2026-10-23_2320.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2320/allegati_2026-10-23_2320.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2320/allegati_2026-10-23_2320.zip",
+    "dati": "controlli/2026-10-23_2320.json",
+    "n": 7
   },
   {
     "quando": "2026-10-23_2259",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_2259.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_2259.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_2254",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_2254.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_2254.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_2248",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_2248.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_2248.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_2244",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_2244.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_2244.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_2230",
     "tipo": "monitoraggio",
     "esito": "4 determine trovate in 1 comuni, 0 allegati.",
     "excel": "risultati/determine_2026-10-23_2230.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_2230.json",
+    "n": 4
   },
   {
     "quando": "2026-10-23_2215",
     "tipo": "monitoraggio",
     "esito": "9 determine trovate in 1 comuni, 36 allegati.",
     "excel": "risultati/determine_2026-10-23_2215.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2215/allegati_2026-10-23_2215.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2215/allegati_2026-10-23_2215.zip",
+    "dati": "controlli/2026-10-23_2215.json",
+    "n": 9
   },
   {
     "quando": "2026-10-23_2209",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_2209.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_2209.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_2153",
     "tipo": "monitoraggio",
     "esito": "7 determine trovate in 1 comuni, 16 allegati.",
     "excel": "risultati/determine_2026-10-23_2153.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2153/allegati_2026-10-23_2153.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2153/allegati_2026-10-23_2153.zip",
+    "dati": "controlli/2026-10-23_2153.json",
+    "n": 7
   },
   {
     "quando": "2026-10-23_2134",
     "tipo": "monitoraggio",
     "esito": "16 determine trovate in 1 comuni, 120 allegati.",
     "excel": "risultati/determine_2026-10-23_2134.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2134/allegati_2026-10-23_2134.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2134/allegati_2026-10-23_2134.zip",
+    "dati": "controlli/2026-10-23_2134.json",
+    "n": 16
   },
   {
     "quando": "2026-10-23_2122",
     "tipo": "monitoraggio",
     "esito": "33 determine trovate in 1 comuni, 146 allegati.",
     "excel": "risultati/determine_2026-10-23_2122.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
+    "dati": "controlli/2026-10-23_2122.json",
+    "n": 33
   },
   {
     "quando": "2026-10-23_1642",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_1642.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_1642.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_1443",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_1443.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_1443.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_1154",
     "tipo": "monitoraggio",
     "esito": "4 determine trovate in 1 comuni, 1 allegati.",
     "excel": "risultati/determine_2026-10-23_1154.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_1154/allegati_2026-10-23_1154.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_1154/allegati_2026-10-23_1154.zip",
+    "dati": "controlli/2026-10-23_1154.json",
+    "n": 4
   },
   {
     "quando": "2026-10-23_1148",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_1148.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_1148.json",
+    "n": 0
   },
   {
     "quando": "2026-10-23_0846",
     "tipo": "monitoraggio",
     "esito": "276 determine trovate in 60 comuni, 0 allegati. 22 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-23_0846.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-23_0846.json",
+    "n": 276
   },
   {
     "quando": "2026-10-22_1639",
     "tipo": "monitoraggio",
     "esito": "28 determine trovate in 60 comuni, 0 allegati. 53 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-22_1639.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-22_1639.json",
+    "n": 28
   },
   {
     "quando": "2026-10-22_1422",
     "tipo": "monitoraggio",
     "esito": "26 determine trovate in 60 comuni, 0 allegati. 53 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-22_1422.xlsx",
-    "zip": ""
+    "zip": "",
+    "dati": "controlli/2026-10-22_1422.json",
+    "n": 26
   },
   {
     "quando": "2026-10-22_0842",
     "tipo": "monitoraggio",
     "esito": "1216 determine trovate in 260 comuni, 3 allegati. 171 albi da controllare a mano.",
     "excel": "risultati/determine_2026-10-22_0842.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-22_0842/allegati_2026-10-22_0842.zip"
+    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-22_0842/allegati_2026-10-22_0842.zip",
+    "dati": "controlli/2026-10-22_0842.json",
+    "n": 1216
   },
   {
     "quando": "2026-10-21_1800",
