@@ -2,6 +2,7 @@ name: Pubblica la pagina
 
 # La pagina si ripubblica solo quando cambia la pagina stessa, non a ogni salvataggio di dati
 # (fissa, nascondi, risultati...): i dati la pagina li legge direttamente dal repository.
+# Attivo da: Settings > Pages > Source = GitHub Actions.
 on:
   workflow_dispatch:
   push:
