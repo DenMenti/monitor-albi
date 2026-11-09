@@ -1079,5 +1079,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Roncadelle|2026-10-26|2026/915|AFFIDAMENTO CONTRATTO 2026/00098/CCPP - \"INTERVENTO DI RIPRISTINO IMPIANTI SEMAF": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T15:25:17.614Z",
+    "atto": {
+      "id": "BS|Roncadelle|2026-10-26|2026/915|AFFIDAMENTO CONTRATTO 2026/00098/CCPP - \"INTERVENTO DI RIPRISTINO IMPIANTI SEMAF",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/915",
+      "oggetto": "AFFIDAMENTO CONTRATTO 2026/00098/CCPP - \"INTERVENTO DI RIPRISTINO IMPIANTI SEMAFORICI IN VIA BERLINGUER/VIA GHISLANDI/VIA PERTINI/DE GASPERI DANNEGGIATI A SEGUITO DI GRANDINATA\" - CIG: BD4FC22E83",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "ripristin"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8468151?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
