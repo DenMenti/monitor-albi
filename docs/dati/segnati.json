@@ -4690,5 +4690,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Villachiara|2026-10-30|2026/495|AFFIDAMENTO INCARICO PER ESECUZIONE LAVORI DI MANUTENZIONE ATTREZZATURE ANTINCEN": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:04:12.071Z",
+    "atto": {
+      "id": "BS|Villachiara|2026-10-30|2026/495|AFFIDAMENTO INCARICO PER ESECUZIONE LAVORI DI MANUTENZIONE ATTREZZATURE ANTINCEN",
+      "comune": "Villachiara",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/495",
+      "oggetto": "AFFIDAMENTO INCARICO PER ESECUZIONE LAVORI DI MANUTENZIONE ATTREZZATURE ANTINCENDIO SCUOLA DELL'INFANZIA DR. LUIGI MANTOVA. CIG: BD84C3AD01.",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://villachiara.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10605558?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
