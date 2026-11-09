@@ -7644,5 +7644,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Torbole Casaglia|2026-11-04|2026/540|MANUTENZIONE STRAORDINARIA PARCHI GIOCHI DI VIA MICHELANGELO E VIA VENETO - AFFI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:50:38.086Z",
+    "atto": {
+      "id": "BS|Torbole Casaglia|2026-11-04|2026/540|MANUTENZIONE STRAORDINARIA PARCHI GIOCHI DI VIA MICHELANGELO E VIA VENETO - AFFI",
+      "comune": "Torbole Casaglia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI E GENERALI / DETERMINAZIONE",
+      "numero": "2026/540",
+      "oggetto": "MANUTENZIONE STRAORDINARIA PARCHI GIOCHI DI VIA MICHELANGELO E VIA VENETO - AFFIDAMENTO (CIG: BD86EEE054)",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://torbolecasaglia.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/3220308?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
