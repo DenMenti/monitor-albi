@@ -4642,5 +4642,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Berzo Inferiore|2026-10-30||Numero pubblicazione 502 Mittente COMUNE DI BERZO INFERIORE Tipo Determinazione ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:04:03.155Z",
+    "atto": {
+      "id": "BS|Berzo Inferiore|2026-10-30||Numero pubblicazione 502 Mittente COMUNE DI BERZO INFERIORE Tipo Determinazione ",
+      "comune": "Berzo Inferiore",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 502 Mittente COMUNE DI BERZO INFERIORE Tipo Determinazione Oggetto AFFIDAMENTO INCARICO PROFESSIONALE PER REDAZIONE COLLAUDO STATICO OPERE STRUTTURALI NELL'AMBITO DEI LAVORI DI AMPLIAMENTO DELLA SCUOLA DELL'INFANZIA DI BERZO INFERIORE PER LA REALIZZAZIONE DI UN NUOVO SERVIZIO DI ASILO NIDO (Intervento in parte finanziato dall'Unione Europea NextGenerationEU). (Codice CUP: D55E21000100006) - (Codice CIG: BBA9023B05). Numero atto 49 Data atto 14/05/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "intervento",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017017/mc/mc_p_dettaglio.php?id_pubbl=3345",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
