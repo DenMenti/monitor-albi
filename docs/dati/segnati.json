@@ -7098,5 +7098,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Rodengo Saiano|2026-11-03|698|DETERMINA N.424 DEL 02/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO DEL CONTRATTO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:45:36.535Z",
+    "atto": {
+      "id": "BS|Rodengo Saiano|2026-11-03|698|DETERMINA N.424 DEL 02/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO DEL CONTRATTO",
+      "comune": "Rodengo Saiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINAZIONI",
+      "numero": "698",
+      "oggetto": "DETERMINA N.424 DEL 02/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO DEL CONTRATTO DENOMINATO MANUTENZIONE ORDINARIA STRADE E RELATIVE STRUTTURE E IMPIANTI COMUNALI 2027/2030 - CIG: BD923A51C3.",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
