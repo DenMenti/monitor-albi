@@ -3011,5 +3011,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Rodengo Saiano|2026-10-28|692|DETERMINA N.415 DEL 28/10/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO DELL’INCARICO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:41:23.622Z",
+    "atto": {
+      "id": "BS|Rodengo Saiano|2026-10-28|692|DETERMINA N.415 DEL 28/10/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO DELL’INCARICO",
+      "comune": "Rodengo Saiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "DETERMINAZIONI",
+      "numero": "692",
+      "oggetto": "DETERMINA N.415 DEL 28/10/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO DELL’INCARICO PER PUBBLICAZIONE SU QUOTIDIANO LOCALE DI AVVISO PROCEDURA VARIANTE URBANISTICA EX ART. 8 DPR 180/2010 - CIG: BD85CFC13D.",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "edilizia"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
