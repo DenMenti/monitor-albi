@@ -4596,5 +4596,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Iseo|2026-10-30||Numero pubblicazione 1553 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Af": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:03:35.767Z",
+    "atto": {
+      "id": "BS|Iseo|2026-10-30||Numero pubblicazione 1553 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Af",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1553 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Affidamento contratto derivato all'interno di accordo quadro per il servizio di manutenzione globale del verde pubblico facente parte del patrimonio comunale di Iseo e della frazione di Pilzone (Lotto 2 - Zona B) CIG padre: B8C075484C - Ordine di esecuzione n. 10 - Codice univoco contratto derivato: COMUNE_ISEO_1508_2026_0171 - CIG derivato: BD92E1E630 N.Registro generale 858 Data registro generale 30/10/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21378",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
