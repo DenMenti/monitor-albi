@@ -6170,5 +6170,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Verolavecchia|2026-11-02|2026/593|INCARICO PROFESSIONALE IN REGIME DI PRESTAZIONE OCCASIONALE PER PROGETTO DANZANT": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:12:56.643Z",
+    "atto": {
+      "id": "BS|Verolavecchia|2026-11-02|2026/593|INCARICO PROFESSIONALE IN REGIME DI PRESTAZIONE OCCASIONALE PER PROGETTO DANZANT",
+      "comune": "Verolavecchia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-02",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/593",
+      "oggetto": "INCARICO PROFESSIONALE IN REGIME DI PRESTAZIONE OCCASIONALE PER PROGETTO DANZANTE DA REALIZZARSI PRESSO LA PALESTRA DELLA SCUOLA MEDIA",
+      "parole": [
+        "incarico",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://verolavecchia.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10610363?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
