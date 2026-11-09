@@ -7815,5 +7815,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Mazzano|2026-11-04|2026/1221|PROGETTO “ARENA VIVA” FINANZIATO DA REGIONE LOMBARDIA CON CONTRIBUTO A SOSTEGNO ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:55:34.603Z",
+    "atto": {
+      "id": "BS|Mazzano|2026-11-04|2026/1221|PROGETTO “ARENA VIVA” FINANZIATO DA REGIONE LOMBARDIA CON CONTRIBUTO A SOSTEGNO ",
+      "comune": "Mazzano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINE",
+      "numero": "2026/1221",
+      "oggetto": "PROGETTO “ARENA VIVA” FINANZIATO DA REGIONE LOMBARDIA CON CONTRIBUTO A SOSTEGNO DEI PROGETTI DI EDUCATIVA DI STRADA PER L’ANNO 2026 DI CUI ALLA L.R. 22 APRILE 2025, N. 3. DETERMINAZIONE A CONTRATTARE PER L’ AFFIDAMENTO DIRETTO, AI SENSI DELL’ARTICOLO 50, COMMA 1, LETT. B), DEL D. LGS. 31/03/2023, N. 36, DELL'APPALTO AVENTE AD OGGETTO SERVIZI DI EDUCATIVA DI TERRITORIO. AFFIDAMENTO INFERIORE A € 5.000,00. VALORE DELL’AFFIDAMENTO: € 3.688,52. C.I.G. N. BD332937A9.",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "progetto",
+        "strad",
+        "progett"
+      ],
+      "link": "https://mazzano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10615941",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
