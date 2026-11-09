@@ -4024,5 +4024,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Mazzano|2026-10-29|2026/1197|CIG BCCBBF3716 DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO INFERIORE A 5.000 EUR": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:00:04.848Z",
+    "atto": {
+      "id": "BS|Mazzano|2026-10-29|2026/1197|CIG BCCBBF3716 DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO INFERIORE A 5.000 EUR",
+      "comune": "Mazzano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINE",
+      "numero": "2026/1197",
+      "oggetto": "CIG BCCBBF3716 DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO INFERIORE A 5.000 EURO PER IL SERVIZIO DI ASSISTENZA E MANUTENZIONE DEI DEFIBRILLATORI DI MAZZANO E NUVOLERA DELLA DURATA DI 3 ANNI, 2026 – 2027 – 2028.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://mazzano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10603342",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
