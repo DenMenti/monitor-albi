@@ -3393,5 +3393,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-28|2026/7832|AFFIDAMENTO DIRETTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER ATTIVITÀ INERE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:53:39.396Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-28|2026/7832|AFFIDAMENTO DIRETTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER ATTIVITÀ INERE",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7832",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER ATTIVITÀ INERENTI IL COLLAUDO STATICO NELL’AMBITO DELLE OPERE DI MANUTENZIONE STRAORDINARIA DELLA COPERTURA CARRABILE DEL TORRENTE GARZA – VIA TRIUMPLINA CIG BD4993185E CUP - C87H24001610004 AFFIDAMENTO ALL’OPERATORE ECONOMICO STUDIO DI INGEGNERIA ING. GIANLUCA BIANCHINI",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2802638",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
