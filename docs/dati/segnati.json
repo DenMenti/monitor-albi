@@ -6957,5 +6957,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Villanuova sul Clisi|2026-11-03|2026/588|AFFIDAMENTO NELL’AMBITO DELL’ACCORDO QUADRO PER IL SERVIZIO DI MANUTENZIONE DEL ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:26:55.985Z",
+    "atto": {
+      "id": "BS|Villanuova sul Clisi|2026-11-03|2026/588|AFFIDAMENTO NELL’AMBITO DELL’ACCORDO QUADRO PER IL SERVIZIO DI MANUTENZIONE DEL ",
+      "comune": "Villanuova sul Clisi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/588",
+      "oggetto": "AFFIDAMENTO NELL’AMBITO DELL’ACCORDO QUADRO PER IL SERVIZIO DI MANUTENZIONE DEL VERDE PUBBLICO. C.I.G. MASTER: BB16BC66D5 - ORDINE DI ESECUZIONE N. 2 – CIG DERIVATO: BD7FADD860",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1457706?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
