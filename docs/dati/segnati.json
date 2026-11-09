@@ -6787,5 +6787,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ghedi|2026-11-03||Numero pubblicazione 1388 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:25:35.009Z",
+    "atto": {
+      "id": "BS|Ghedi|2026-11-03||Numero pubblicazione 1388 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter",
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1388 Mittente Città di Ghedi -Ufficio Segreteria Tipo Determina Oggetto PRIMA SEGNALETICA & ENGINEERING CIG: B9FDBF562D - INTEGRAZIONE AI SENSI DELL'ART 120, COMMA 1 E 2 DEL D.LGS 36/2023 RELATIVA ALL'ANNO 2026 DELL'APPALTO LAVORI RIFACIMENTO SEGNALETICA ORIZZONTALE E FORNITURA SEGNALETICA VERTICALE STRADE COMUNALI BIENNIO 2006-2027 Numero atto 180 Data atto 03/11/2026 N.Registro generale 787 Data registro generale 03/11/2026 Data inizio 04/11/2026 Data fine 19/11/2026",
+      "parole": [
+        "appalto",
+        "strad",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "https://ghedi.halleyweb.it/c017078/mc/mc_p_dettaglio.php?id_pubbl=36348",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
