@@ -2041,5 +2041,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Pezzaze|2026-10-27|381|DETERMINA N.129 DEL 27/10/2026 - AREA ASSETTO DEL TERRITORIO, SUAP E SERVIZIO IN": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:31:25.385Z",
+    "atto": {
+      "id": "BS|Pezzaze|2026-10-27|381|DETERMINA N.129 DEL 27/10/2026 - AREA ASSETTO DEL TERRITORIO, SUAP E SERVIZIO IN",
+      "comune": "Pezzaze",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "Determine",
+      "numero": "381",
+      "oggetto": "DETERMINA N.129 DEL 27/10/2026 - AREA ASSETTO DEL TERRITORIO, SUAP E SERVIZIO INFORMATICO: AFFIDAMENTO DEL SERVIZIO DI CONDUZIONE E MANUTENZIONE DELL'IMPIANTI TERMICI COMUNALI PER LE STAGIONI 2026-2028 - 'TERZO RESPONSABILE' ALLA DITTA CLIMAGEST S.R.L. CON SEDE IN BRESCIA P.IVA 0321260176 TRAMITE IL MERCATO ELETTRONICO DELLA PUBBLICA AMMINISTRAZIONE (SINTEL) - CIG. BD738E7899",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspezzaze/portale/albopretorio/albopretorioconsultazione.aspx?P=600",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
