@@ -2353,5 +2353,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Calcinato|2026-10-27|2026/919|DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO DEL PROGETTO RELATIVO ALL'AVVIS": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:33:25.916Z",
+    "atto": {
+      "id": "BS|Calcinato|2026-10-27|2026/919|DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO DEL PROGETTO RELATIVO ALL'AVVIS",
+      "comune": "Calcinato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONE / DETERMINAZIONI",
+      "numero": "2026/919",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E AFFIDAMENTO DIRETTO DEL PROGETTO RELATIVO ALL'AVVISO PNRR MISSIONE 1 - COMPONENTE 1 - INVESTIMENTO 2.2 \"TASK FORCE DIGITALIZZAZIONE, MONITORAGGIO E PERFORMANCE\" - SUB-INVESTIMENTO 2.2.3 “DIGITALIZZAZIONE DELLE PROCEDURE (SUAP & SUE)” - ADEGUAMENTO ALLE NUOVE SPECIFICHE TECNICHE (APPROVED02) - FINANZIATO DALL’UNIONE EUROPEA – NEXTGENERATIONEU – CUP B21F26000200006 - CIG BD820DF5D4 - IMPORTO DELL'APPALTO € 810,77 + IVA - DITTA STARCH SRL",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://calcinato.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8470442?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
