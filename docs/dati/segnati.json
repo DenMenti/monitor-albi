@@ -3978,5 +3978,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ome|2026-10-29|2026/530|AFFIDAMENTO DIRETTO (2026/00057/CCPP) RELAZIONE GEOLOGICA, GEOTECNICA E SISMICA ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:59:56.903Z",
+    "atto": {
+      "id": "BS|Ome|2026-10-29|2026/530|AFFIDAMENTO DIRETTO (2026/00057/CCPP) RELAZIONE GEOLOGICA, GEOTECNICA E SISMICA ",
+      "comune": "Ome",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/530",
+      "oggetto": "AFFIDAMENTO DIRETTO (2026/00057/CCPP) RELAZIONE GEOLOGICA, GEOTECNICA E SISMICA – \"REGIMAZIONE IDRAULICA, RIPRISTINO DEL DISSESTO IDROGEOLOGICO DI VALLE DEL MORANDI E MESSA IN SICUREZZA DI VIA PIANELLO\" CIG: BD5F80E302 CUP: E38H24000740006",
+      "parole": [
+        "affidamento",
+        "ripristin"
+      ],
+      "link": "https://ome.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5750738?p_auth=8LvcrNGo&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
