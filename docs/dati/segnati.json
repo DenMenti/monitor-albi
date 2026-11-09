@@ -5554,5 +5554,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Fonzaso|2026-10-30||Numero pubblicazione 620 Mittente COMUNE DI FONZASO Tipo Determine Oggetto PROGE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:09:36.755Z",
+    "atto": {
+      "id": "BL|Fonzaso|2026-10-30||Numero pubblicazione 620 Mittente COMUNE DI FONZASO Tipo Determine Oggetto PROGE",
+      "comune": "Fonzaso",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 620 Mittente COMUNE DI FONZASO Tipo Determine Oggetto PROGETTO REGIONALE \"REDDITO DI INCLUSIONE ATTIVA - R.I.A. XII° ANNUALITÀ\" - D.G.R. N. 1130/2025. Erogazione contributo a favore di nucleo famigliare in stato di bisogno (Prot.n. 5924/2026). Numero atto 69 Data atto 30/10/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://servizionline.comune.fonzaso.bl.it/c025022/mc/mc_p_dettaglio.php?id_pubbl=12542",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
