@@ -1710,5 +1710,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-26|2026/7762|AFFIDAMENTO DIRETTO DEL SERVIZIO DI SMONTAGGIO E SMALTIMENTO DELL’EDIFICIO “CORP": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:29:17.477Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-26|2026/7762|AFFIDAMENTO DIRETTO DEL SERVIZIO DI SMONTAGGIO E SMALTIMENTO DELL’EDIFICIO “CORP",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7762",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL SERVIZIO DI SMONTAGGIO E SMALTIMENTO DELL’EDIFICIO “CORPO B” SITO IN VIA CORRIDONI N. 9, BRESCIA, CIG BD5E2B22AC – G12977 – CUP C84H22000120007 - ALL’OPERATORE ECONOMICO REMED SRLS",
+      "parole": [
+        "affidamento",
+        "edificio"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2800157",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
