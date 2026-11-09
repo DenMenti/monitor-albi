@@ -2516,5 +2516,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Longarone|2026-10-27|2026/844|INTERVENTO DI MANUTENZIONE STRAORDINARIA DELL’IMPIANTO IDRAULICO DELLE PISCINE E": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:34:19.300Z",
+    "atto": {
+      "id": "BL|Longarone|2026-10-27|2026/844|INTERVENTO DI MANUTENZIONE STRAORDINARIA DELL’IMPIANTO IDRAULICO DELLE PISCINE E",
+      "comune": "Longarone",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-27",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/844",
+      "oggetto": "INTERVENTO DI MANUTENZIONE STRAORDINARIA DELL’IMPIANTO IDRAULICO DELLE PISCINE E DELL’UNITÀ DI TRATTAMENTO ARIA DEL PALASPORT DI LONGARONE - CIG BD85BA997A",
+      "parole": [
+        "intervento",
+        "manutenzione"
+      ],
+      "link": "https://longarone.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1454290?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
