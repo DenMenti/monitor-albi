@@ -1271,5 +1271,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Malonno|2026-10-26||CIG BD2AD4DC97 – AFFIDAMENTO DIRETTO SERVIZIO DI MANUTENZIONE SEGNALETICA STRADA": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:26:39.767Z",
+    "atto": {
+      "id": "BS|Malonno|2026-10-26||CIG BD2AD4DC97 – AFFIDAMENTO DIRETTO SERVIZIO DI MANUTENZIONE SEGNALETICA STRADA",
+      "comune": "Malonno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "CIG BD2AD4DC97 – AFFIDAMENTO DIRETTO SERVIZIO DI MANUTENZIONE SEGNALETICA STRADALE ORIZZONTALE ANNO 2026. KAPPAEMME S.r.l. – CIVIDATE CAMUNO (BS). Determinazioni dirigenziali EMITTENTE: Ufficio LL.PP./Edil.Privata/Urbanistica NUMERO ATTO/DOCUMENTO: n.192/26 DET ST / 2026 del 30/09/2026 NUMERO DI PUBBLICAZIONE: 449 PERIODO DI PUBBLICAZIONE: dal 26/10/2026 al 10/11/2026",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione"
+      ],
+      "link": "https://www.comune.malonno.bs.it/Pages/Albo/?Id=446078&pg=3",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
