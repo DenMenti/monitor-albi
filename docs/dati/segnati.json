@@ -5577,5 +5577,29 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Chies d'Alpago|2026-10-30||Numero pubblicazione 521 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione O": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:09:39.661Z",
+    "atto": {
+      "id": "BL|Chies d'Alpago|2026-10-30||Numero pubblicazione 521 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione O",
+      "comune": "Chies d'Alpago",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 521 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione Oggetto DETERMINA DI AFFIDAMENTO DEL SERVIZIO DI SGOMBERO NEVE E SPARGIMENTO SALE E GHIAINO SU STRADE E PIAZZE COMUNALI. STAGIONI INVERNALI 2026-2027, 2027-2028 E 2028-2029. AFFIDAMENTO DIRETTO ALLA P.R. LAVORI FORESTALI DI PAIER RUDY DI CHIES D'ALPAGO (BL) Numero atto 105 Data atto 30/10/2026 Data inizio 30/10/2026 Data fine 14/11/2026",
+      "parole": [
+        "affidamento",
+        "strad",
+        "lavor"
+      ],
+      "link": "https://sac5.halleysac.it/c025012/mc/mc_p_dettaglio.php?id_pubbl=1425",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
