@@ -7269,5 +7269,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Leno|2026-11-03|2026/1434|AFFIDAMENTO DIRETTO PER SISTEMAZIONI STRADALI IN VIA LEONARDO DA VINCI E VIA UMB": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:46:24.566Z",
+    "atto": {
+      "id": "BS|Leno|2026-11-03|2026/1434|AFFIDAMENTO DIRETTO PER SISTEMAZIONI STRADALI IN VIA LEONARDO DA VINCI E VIA UMB",
+      "comune": "Leno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1434",
+      "oggetto": "AFFIDAMENTO DIRETTO PER SISTEMAZIONI STRADALI IN VIA LEONARDO DA VINCI E VIA UMBRIA_BOSCO STRADE S.R.L._CIG BCE7698F39",
+      "parole": [
+        "affidamento",
+        "strad"
+      ],
+      "link": "https://leno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5760468?p_auth=5Gsda1Fb&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
