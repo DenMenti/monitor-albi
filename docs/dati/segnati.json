@@ -1418,5 +1418,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Dello|2026-10-26|2026/551|ACCORDO QUADRO CON UN UNICO OPERATORE ECONOMICO PER SERVIZI TECNICI DI RILIEVI, ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:27:35.734Z",
+    "atto": {
+      "id": "BS|Dello|2026-10-26|2026/551|ACCORDO QUADRO CON UN UNICO OPERATORE ECONOMICO PER SERVIZI TECNICI DI RILIEVI, ",
+      "comune": "Dello",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINE",
+      "numero": "2026/551",
+      "oggetto": "ACCORDO QUADRO CON UN UNICO OPERATORE ECONOMICO PER SERVIZI TECNICI DI RILIEVI, INDAGINI, PROGETTAZIONE E DIREZIONE INTERVENTI DI MANUTENZIONE ORDINARIA E STRAORDINARIA VERDE PUBBLICO. CODICE IDENTIFICATIVO DELLA GARA - CIG PADRE ACCORDO QUADRO: BC8D95B352. CODICE IDENTIFICATIVO DELLA GARA - CIG PRIMO CONTRATTO ATTUATIVO: BD4F620952 CODICE IDENTIFICATIVO DELLA GARA - CIG SECONDO CONTRATTO ATTUATIVO: BD4F66A664 CODICE UNICO DI PROGETTO CUP: E98E26000240004",
+      "parole": [
+        "gara",
+        "progetto",
+        "manutenzione",
+        "progett"
+      ],
+      "link": "https://dello.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10592527?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
