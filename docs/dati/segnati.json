@@ -1947,5 +1947,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Toscolano-Maderno|2026-10-27||DETERMINAZIONE Determina n. 737 servizio: AREA LAVORI PUBBLICI del 27/10/2026 “I": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:30:18.031Z",
+    "atto": {
+      "id": "BS|Toscolano-Maderno|2026-10-27||DETERMINAZIONE Determina n. 737 servizio: AREA LAVORI PUBBLICI del 27/10/2026 “I",
+      "comune": "Toscolano-Maderno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 737 servizio: AREA LAVORI PUBBLICI del 27/10/2026 “Incarico per la progettazione di fattibilità tecnica ed economica, esecutiva, direzione lavori, contabilità e sicurezza dei lavori di Riqualificazione urbana della Piazza Caduti - CUP J47H23002200004 CIG ZCB3DA472E”. Rideterminazione incarico e impegni di spesa.",
+      "parole": [
+        "incarico",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00581090982",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
