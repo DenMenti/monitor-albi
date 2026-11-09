@@ -6672,5 +6672,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Paratico|2026-11-03||Numero pubblicazione 793 Mittente ASST DELLA FRANCIACORTA Tipo Bando Di Concorso": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:17:07.646Z",
+    "atto": {
+      "id": "BS|Paratico|2026-11-03||Numero pubblicazione 793 Mittente ASST DELLA FRANCIACORTA Tipo Bando Di Concorso",
+      "comune": "Paratico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 793 Mittente ASST DELLA FRANCIACORTA Tipo Bando Di Concorso Oggetto BANDO DI PUBBLICA SELEZIONE, PER TITOLI E COLLOQUIO, PER IL CONFERIMENTO DI N. 1 INCARICO A TEMPO DETERMINATO E PER LA STIPULA DEL SUSSEGUENTE CONTRATTO DI LAVORO A TERMINE NEL PROFILO PROFESSIONALE DI ASSISTENTE SOCIALE Numero atto 0 Data atto 03/11/2026 Data inizio 03/11/2026 Data fine 17/11/2026",
+      "parole": [
+        "incarico",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017134/mc/mc_p_dettaglio.php?id_pubbl=10414",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
