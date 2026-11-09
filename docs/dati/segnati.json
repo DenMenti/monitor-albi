@@ -4856,5 +4856,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Nave|2026-10-30|2026/1040|APPALTO SERVIZIO GESTIONE ASILO NIDO COMUNALE MONDOGIOCONDO PERIODO 01/09/2026 -": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:05:52.321Z",
+    "atto": {
+      "id": "BS|Nave|2026-10-30|2026/1040|APPALTO SERVIZIO GESTIONE ASILO NIDO COMUNALE MONDOGIOCONDO PERIODO 01/09/2026 -",
+      "comune": "Nave",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONI DEI RESPONSABILI DI SERVIZIO",
+      "numero": "2026/1040",
+      "oggetto": "APPALTO SERVIZIO GESTIONE ASILO NIDO COMUNALE MONDOGIOCONDO PERIODO 01/09/2026 - 27/07/2029 CON OPZIONE DI RINNOVO PER UN ULTERIORE TRIENNIO: INDIVIDUAZIONE GRUPPO DI LAVORO E COSTITUZIONE, RIPARTIZIONE E ACCANTONAMENTO DELLE RISORSE DESTINATE AGLI INCENTIVI ALLE FUNZIONI TECNICHE DI CUI ALL'ART. 45 DEL D.LGS 36/2023 E S.M.I.",
+      "parole": [
+        "appalto",
+        "lavor"
+      ],
+      "link": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10605494?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
