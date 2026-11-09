@@ -8042,5 +8042,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Gottolengo|2026-11-04|2026/728|ISCRIZIONE AL CORSO DI FORMAZIONE FINALIZZATO AD OTTENERE LA QUALIFICAZIONE DELL": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:56:48.269Z",
+    "atto": {
+      "id": "BS|Gottolengo|2026-11-04|2026/728|ISCRIZIONE AL CORSO DI FORMAZIONE FINALIZZATO AD OTTENERE LA QUALIFICAZIONE DELL",
+      "comune": "Gottolengo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/728",
+      "oggetto": "ISCRIZIONE AL CORSO DI FORMAZIONE FINALIZZATO AD OTTENERE LA QUALIFICAZIONE DELLE STAZIONI APPALTANTI NELLA FASE DI AFFIDAMENTO E PROGETTAZIONE ORGANIZZATO DALL'UNIVERSITÀ DI BRESCIA E FONDAZIONE EULO - CIG BD373687F0",
+      "parole": [
+        "affidamento",
+        "progett"
+      ],
+      "link": "https://gottolengo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10614084?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
