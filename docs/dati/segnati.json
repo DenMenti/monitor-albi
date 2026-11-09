@@ -4164,5 +4164,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Castel Mella|2026-10-29|2026/914|DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE A FAVORE DELLA DITTA SOLE IMM": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:00:57.253Z",
+    "atto": {
+      "id": "BS|Castel Mella|2026-10-29|2026/914|DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE A FAVORE DELLA DITTA SOLE IMM",
+      "comune": "Castel Mella",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/914",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE A FAVORE DELLA DITTA SOLE IMMOMEC S.R.L., AI SENSI DELL’ART. 50 COMMA 1 LETT. A DEL D.LGS. 36/2023, DEI LAVORI DI ASFALTATURA DI ALCUNE STRADE COMUNALI - LOTTO 2. CUP: B37H26000970004 - CIG: BD392C2734",
+      "parole": [
+        "aggiudicazione",
+        "strad",
+        "lavor"
+      ],
+      "link": "https://castelmella.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10601156?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
