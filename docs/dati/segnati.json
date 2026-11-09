@@ -7361,5 +7361,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Corzano|2026-11-03|322|DETERMINA N.190 DEL 28/10/2026 - AREA ECONOMICO FINANZIARIA: LAVORI DI COLLEGAME": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:46:52.162Z",
+    "atto": {
+      "id": "BS|Corzano|2026-11-03|322|DETERMINA N.190 DEL 28/10/2026 - AREA ECONOMICO FINANZIARIA: LAVORI DI COLLEGAME",
+      "comune": "Corzano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "Determinazioni",
+      "numero": "322",
+      "oggetto": "DETERMINA N.190 DEL 28/10/2026 - AREA ECONOMICO FINANZIARIA: LAVORI DI COLLEGAMENTO DELL’IMPIANTO INTERNO DELL’ANTINCENDIO DELLA SCUOLA DELL’INFANZIA - DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. A) DEL DLGS N.36/2023. CIG: BD78527504",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscorzano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
