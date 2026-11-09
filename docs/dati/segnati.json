@@ -7026,5 +7026,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sirmione|2026-11-03|2026/1581|ARCH. GUARDINI MATTEO - INCARICO PROFESSIONALE RELATIVO AL SUPPORTO PER LA REDAZ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:27:33.223Z",
+    "atto": {
+      "id": "BS|Sirmione|2026-11-03|2026/1581|ARCH. GUARDINI MATTEO - INCARICO PROFESSIONALE RELATIVO AL SUPPORTO PER LA REDAZ",
+      "comune": "Sirmione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1581",
+      "oggetto": "ARCH. GUARDINI MATTEO - INCARICO PROFESSIONALE RELATIVO AL SUPPORTO PER LA REDAZIONE DEL DELLA PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA – PROGETTAZIONE ESECUTIVA E DIREZIONE LAVORI E COORDINATORE PER LA SICUREZZA PER LA SISTEMAZIONE DELLE AREE ESTERNE A SERVIZIO DEL NUOVO CENTRO COTTURA E DELLA SCUOLA SECONDARIA DI PRIMO GRADO TREBESCHI – CIG BCC7B3ADE8 - CUP F58E26000160004",
+      "parole": [
+        "incarico",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://sirmione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5759456?p_auth=LSNiPPVk&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
