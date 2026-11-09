@@ -3833,5 +3833,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Puegnago del Garda|2026-10-29|591|DETERMINA N.261 DEL 29/10/2026 - AREA TECNICA: DETERMINAZIONE A CONTRARRE ED AFF": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:58:54.872Z",
+    "atto": {
+      "id": "BS|Puegnago del Garda|2026-10-29|591|DETERMINA N.261 DEL 29/10/2026 - AREA TECNICA: DETERMINAZIONE A CONTRARRE ED AFF",
+      "comune": "Puegnago del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "Determinazioni",
+      "numero": "591",
+      "oggetto": "DETERMINA N.261 DEL 29/10/2026 - AREA TECNICA: DETERMINAZIONE A CONTRARRE ED AFFIDAMENTO DIRETTO APPALTO DI MANUTENZIONE IMPIANTO DI POMPA DI CALORE PRESSO SCUOLA INFANZIA PUEGNAGO DEL GARDA.CIG: BD8DAC1B08.",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspuegnagogarda/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
