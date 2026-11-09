@@ -2586,5 +2586,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Livinallongo del CdL|2026-10-27|2026/787|APPROVAZIONE DOCUMENTO DI INDIRIZZO ALLA PROGETTAZIONE. PROGETTO DENOMINATO “EFF": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:34:37.386Z",
+    "atto": {
+      "id": "BL|Livinallongo del CdL|2026-10-27|2026/787|APPROVAZIONE DOCUMENTO DI INDIRIZZO ALLA PROGETTAZIONE. PROGETTO DENOMINATO “EFF",
+      "comune": "Livinallongo del CdL",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/787",
+      "oggetto": "APPROVAZIONE DOCUMENTO DI INDIRIZZO ALLA PROGETTAZIONE. PROGETTO DENOMINATO “EFFICIENTAMENTO ENERGETICO DELLA SCUOLA MEDIA DI BRENTA - CUP E94D26005720009”",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8470577?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
