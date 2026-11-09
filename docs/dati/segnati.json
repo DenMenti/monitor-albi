@@ -7716,5 +7716,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Rodengo Saiano|2026-11-04|708|DETERMINA N.432 DEL 04/11/2026 - AREA DEI SERVIZI ALLA PERSONA: INTEGRAZIONE DAT": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:51:32.754Z",
+    "atto": {
+      "id": "BS|Rodengo Saiano|2026-11-04|708|DETERMINA N.432 DEL 04/11/2026 - AREA DEI SERVIZI ALLA PERSONA: INTEGRAZIONE DAT",
+      "comune": "Rodengo Saiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "DETERMINAZIONI",
+      "numero": "708",
+      "oggetto": "DETERMINA N.432 DEL 04/11/2026 - AREA DEI SERVIZI ALLA PERSONA: INTEGRAZIONE DATO CUP E81B26000210003 ALLA DETERMINAZIONE N.12/2025 RELATIVA ALL’AFFIDAMENTO DIRETTO DEL SERVIZIO SPAZIO GIOVANI IN ATTUAZIONE DEL PROGETTO UNLOCK SBLOCCA IL TUO POTENZIALE FINANZIATO DAL BANDO LA LOMBARDIA E’ DEI GIOVANI 2026 PERIODO NOVEMBRE 2026-DICEMBRE 2027. CIG B5189D4264.",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
