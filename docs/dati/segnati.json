@@ -1150,5 +1150,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Rodengo Saiano|2026-10-26|674|DETERMINA N.409 DEL 26/10/2026 - AREA TECNICA: AFFIDAMENTO SERVIZIO DI GESTIONE ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:26:01.678Z",
+    "atto": {
+      "id": "BS|Rodengo Saiano|2026-10-26|674|DETERMINA N.409 DEL 26/10/2026 - AREA TECNICA: AFFIDAMENTO SERVIZIO DI GESTIONE ",
+      "comune": "Rodengo Saiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "DETERMINAZIONI",
+      "numero": "674",
+      "oggetto": "DETERMINA N.409 DEL 26/10/2026 - AREA TECNICA: AFFIDAMENTO SERVIZIO DI GESTIONE INTEGRATA DELLA SALUTE SUI LUOGHI DI LAVORO NEGLI IMMOBILI COMUNALI RSPP, DVR E PIANO FORMAZIONE - QUADRIENNIO 2027/2030 CON OPZIONE DI RINNOVO PER ULTERIORE ANNI 2 -. CIG:BD790F2061.",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsrodengosaiano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
