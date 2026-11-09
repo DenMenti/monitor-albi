@@ -985,5 +985,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Cellatica|2026-10-26||Numero pubblicazione 578 Mittente Comune di Cellatica Tipo Determinazione Oggett": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T15:24:52.552Z",
+    "atto": {
+      "id": "BS|Cellatica|2026-10-26||Numero pubblicazione 578 Mittente Comune di Cellatica Tipo Determinazione Oggett",
+      "comune": "Cellatica",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 578 Mittente Comune di Cellatica Tipo Determinazione Oggetto AFFIDAMENTO DIRETTO ai sensi dell'art. 50, comma 1, lett. b) del d. lgs. n.36/2023 PER LA COMPARTECIPAZIONE COMUNALE AI RESIDENTI PER IL PROGETTO DEL CORSO DI SCACCHI PER ADULTI - DA NOVEMBRE 26 - CIG BD48E98987 N.Registro generale 280 Data registro generale 16/10/2026 Data inizio 26/10/2026 Data fine 10/11/2026",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017048/mc/mc_p_dettaglio.php?id_pubbl=8317",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
