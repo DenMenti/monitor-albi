@@ -7526,5 +7526,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Corte Franca|2026-11-04||Numero pubblicazione 1896 Mittente AZIENDA SOCIO-SANITARIA TERRITORIALE DELLA FR": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:50:02.106Z",
+    "atto": {
+      "id": "BS|Corte Franca|2026-11-04||Numero pubblicazione 1896 Mittente AZIENDA SOCIO-SANITARIA TERRITORIALE DELLA FR",
+      "comune": "Corte Franca",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1896 Mittente AZIENDA SOCIO-SANITARIA TERRITORIALE DELLA FRANCIACORTA con sede a CHIARI Tipo Bando Di Concorso Oggetto BANDO DI PUBBLICA SELEZIONE, PER TITOLI E COLLOQUIO, PER IL CONFERIMENTO DI N. 1 INCARICO A TEMPO DETERMINATO E PER LA STIPULA DEL SUSSEGUENTE CONTRATTO DI LAVORO A TERMINE NEL PROFILO PROFESSIONALE DI ASSISTENTE SOCIAL N.Registro generale 0 Data registro generale Data inizio 04/11/2026 Data fine 17/11/2026",
+      "parole": [
+        "incarico",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017062/mc/mc_p_dettaglio.php?id_pubbl=17171",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
