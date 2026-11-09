@@ -1877,5 +1877,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Alleghe|2026-10-26|2026/670|CONFERENZA DI SERVIZI DECISORIA SEMPLIFICATA E ASINCRONA AI SENSI DEGLI ART. 14 ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:30:03.217Z",
+    "atto": {
+      "id": "BL|Alleghe|2026-10-26|2026/670|CONFERENZA DI SERVIZI DECISORIA SEMPLIFICATA E ASINCRONA AI SENSI DEGLI ART. 14 ",
+      "comune": "Alleghe",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-26",
+      "tipo": "ATTI VARI",
+      "numero": "2026/670",
+      "oggetto": "CONFERENZA DI SERVIZI DECISORIA SEMPLIFICATA E ASINCRONA AI SENSI DEGLI ART. 14 E 14-BIS DELLA LEGGE N. 241/1990 COME MODIFICATI DAL D.LGS. 127/2016 PER ACQUISIZIONE PARERI E NULLA OSTA COMUNQUE DENOMINATI RELATIVI AL PROGETTO PER LA “ REALIZZAZIONE NUOVO SERBATOIO IN LOCALITA' \" I COI \" ED INTERCONNESSIONI CON LA RETE ACQUEDOTTISTICA ESISTENTE IN COMUNE DI ALLEGHE ”. PUBBLICAZIONE DETERMINA DI CHIUSURA POSITIVA DELLA CDS.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://alleghe.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8467671?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
