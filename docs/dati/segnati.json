@@ -5138,5 +5138,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-10-30|2026/7913|BO 30A/2026 – AMMINISTRATIVO. AFFIDAMENTO DIRETTO DEL SERVIZIO DI STAMPA DI MATE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:07:25.403Z",
+    "atto": {
+      "id": "BS|Brescia|2026-10-30|2026/7913|BO 30A/2026 – AMMINISTRATIVO. AFFIDAMENTO DIRETTO DEL SERVIZIO DI STAMPA DI MATE",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/7913",
+      "oggetto": "BO 30A/2026 – AMMINISTRATIVO. AFFIDAMENTO DIRETTO DEL SERVIZIO DI STAMPA DI MATERIALE INFORMATIVO IN FORMATO A5 CON CONTESTUALE TRASPORTO PRESSO I 7 COMUNI DEL SITO SERIALE UNESCO NELL'AMBITO DEL PROGETTO LONGOBARDS IN ITALY. HERITAGE FOR ALL. CYCLING THROUGHT ART AND HISTORY - CUP: C37H22002330005 PER IL PERIODO 9.11.2026 - 9.12.2026 CIG BD8A2253DD – G13020 - ALL’OPERATORE ECONOMICO GRUBERDRUCK SRL",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2806361",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
