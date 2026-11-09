@@ -4762,5 +4762,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Piancogno|2026-10-30|2026/490|AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE DELL'ASCENSORE INSTALLATO ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:04:25.789Z",
+    "atto": {
+      "id": "BS|Piancogno|2026-10-30|2026/490|AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE DELL'ASCENSORE INSTALLATO ",
+      "comune": "Piancogno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/490",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE DELL'ASCENSORE INSTALLATO PRESSO IL COMPLESSO SCOLASTICO DI COGNO DAL 01.01.2027 AL 31.12.2028. CIG: BD6AA56254.",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2078540?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
