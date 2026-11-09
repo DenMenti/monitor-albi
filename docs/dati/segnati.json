@@ -6003,5 +6003,29 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Taibon Agordino|2026-10-31|2026/518|LIQUIDAZIONE DELLA RATA DI SALDO E SVINCOLO DELLE GARANZIE A SEGUITO DELL’APPROV": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:12:13.662Z",
+    "atto": {
+      "id": "BL|Taibon Agordino|2026-10-31|2026/518|LIQUIDAZIONE DELLA RATA DI SALDO E SVINCOLO DELLE GARANZIE A SEGUITO DELL’APPROV",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-31",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/518",
+      "oggetto": "LIQUIDAZIONE DELLA RATA DI SALDO E SVINCOLO DELLE GARANZIE A SEGUITO DELL’APPROVAZIONE DELLO STATO FINALE E DEL CERTIFICATO DI REGOLARE ESECUZIONE. O.C.D.P.C. N. 558/2018 - INTERVENTO DI “SISTEMAZIONE VERSANTI A MONTE DELLA STRADA COMUNALE DI TAIBON - AGORDO IN COMUNE DI TAIBON AGORDINO (BL)” – INT. LN145-2020-558-BL-131-R, IN COMUNE DI TAIBON AGORDINO (BL). CUP: B23H20000220001– CIG: 8466017A3B",
+      "parole": [
+        "gara",
+        "intervento",
+        "strad"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8480626?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
