@@ -2801,5 +2801,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Passirano|2026-10-28||CENTRO SICUREZZA SRL - AFFIDAMENTO DIRETTO DEL SERVIZIO DI MANUTENZIONE ORDINARI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:40:31.726Z",
+    "atto": {
+      "id": "BS|Passirano|2026-10-28||CENTRO SICUREZZA SRL - AFFIDAMENTO DIRETTO DEL SERVIZIO DI MANUTENZIONE ORDINARI",
+      "comune": "Passirano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "CENTRO SICUREZZA SRL - AFFIDAMENTO DIRETTO DEL SERVIZIO DI MANUTENZIONE ORDINARIA ALL'IMPIANTO DI RIVELAZIONE E ALLARME INCENDIO DEL MUNICIPIO - CIG: BD86E454DC",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "http://www.halleyweb.com/c017136/mc/mc_gridev_messi.php?x=&servizio=&bck=http%3A%2F%2Fwww.halleyweb.com%2Fc017136%2Fhh%2Findex.php",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
