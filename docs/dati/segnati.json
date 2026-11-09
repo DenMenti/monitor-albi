@@ -5502,5 +5502,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Livinallongo del CdL|2026-10-30|2026/802|AFFIDO INCARICO PER IL SERVIZIO DI COLLAUDO STATICO IN CORSO D’OPERA DELL’INTERV": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:09:25.136Z",
+    "atto": {
+      "id": "BL|Livinallongo del CdL|2026-10-30|2026/802|AFFIDO INCARICO PER IL SERVIZIO DI COLLAUDO STATICO IN CORSO D’OPERA DELL’INTERV",
+      "comune": "Livinallongo del CdL",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-30",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/802",
+      "oggetto": "AFFIDO INCARICO PER IL SERVIZIO DI COLLAUDO STATICO IN CORSO D’OPERA DELL’INTERVENTO DENOMINATO “LAVORI DI ADEGUAMENTO DELLA VIABILITA’ COMUNALE”. FONDO COMUNI CONFINANTI ANNUALITA’ 2024. CUP E97H24001090001. CIG BD7BEE0761.",
+      "parole": [
+        "incarico",
+        "intervento",
+        "lavor"
+      ],
+      "link": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8478354?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
