@@ -616,7 +616,7 @@ let vista = "attivi";
 
 // ---- controlli precedenti: ogni giro ha una copia dei risultati in dati/controlli/AAAA-MM-GG_HHMM.json
 const GIRI = new Map();            // quando -> {quando, zip, risultati}
-let selGiro = "tutti30";
+let selGiro = "tutti7";
 const giorniFa = q => { const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(q || ""); return m ? (Date.now() - new Date(+m[1], m[2] - 1, +m[3])) / 864e5 : 999; };
 function giriDisponibili() {
   return (D.storico || []).filter(x => x.tipo !== "albi" && (x.dati || x.quando === (D.ultimo || {}).quando));
@@ -624,6 +624,7 @@ function giriDisponibili() {
 function giriScelti() {
   const disp = giriDisponibili();
   if (selGiro === "ultimo") return disp.slice(0, 1);
+  if (selGiro === "tutti7") return disp.filter(x => giorniFa(x.quando) <= 7);
   if (selGiro === "tutti30") return disp.filter(x => giorniFa(x.quando) <= 30);
   return disp.filter(x => x.quando === selGiro);
 }
@@ -642,7 +643,7 @@ async function caricaGiri() {
 }
 function menuGiri() {
   const disp = giriDisponibili();
-  const opz = [{ value: "tutti30", label: "Tutti i controlli degli ultimi 30 giorni" }, { value: "ultimo", label: "Solo l'ultimo controllo" }]
+  const opz = [{ value: "tutti7", label: "Tutti i controlli degli ultimi 7 giorni" }, { value: "tutti30", label: "Tutti i controlli degli ultimi 30 giorni" }, { value: "ultimo", label: "Solo l'ultimo controllo" }]
     .concat(disp.map(x => ({ value: x.quando, label: `Controllo del ${quandoIt(x.quando)}` + (x.n != null ? ` (${x.n})` : "") })));
   opzioni($("rGiro"), opz);
   $("rGiro").value = selGiro;
