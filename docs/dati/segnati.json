@@ -2777,5 +2777,29 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Alleghe|2026-10-27|2026/671|AFFIDAMENTO INCARICO ALLA DITTA BELLUNO SERVICE SRL PER MANUTENZIONE, RIPARAZION": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:40:28.268Z",
+    "atto": {
+      "id": "BL|Alleghe|2026-10-27|2026/671|AFFIDAMENTO INCARICO ALLA DITTA BELLUNO SERVICE SRL PER MANUTENZIONE, RIPARAZION",
+      "comune": "Alleghe",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/671",
+      "oggetto": "AFFIDAMENTO INCARICO ALLA DITTA BELLUNO SERVICE SRL PER MANUTENZIONE, RIPARAZIONE E REVISIONE PERIODICA ANNUALE ALL'AUTOCARRO COMUNALE MERCEDES UNIMOG TARGATO EX026DM. CIG : BD8512A01B",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "manutenzione"
+      ],
+      "link": "https://alleghe.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8468769?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
