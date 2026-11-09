@@ -7075,5 +7075,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Salò|2026-11-03|2026/1384|DECISIONE A CONTRARRE E AFFIDO DIRETTO EX ART. 50 D.LGS. 36/2023 A FAVORE DELL'O": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:45:31.989Z",
+    "atto": {
+      "id": "BS|Salò|2026-11-03|2026/1384|DECISIONE A CONTRARRE E AFFIDO DIRETTO EX ART. 50 D.LGS. 36/2023 A FAVORE DELL'O",
+      "comune": "Salò",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "ATTI / DETERMINAZIONI",
+      "numero": "2026/1384",
+      "oggetto": "DECISIONE A CONTRARRE E AFFIDO DIRETTO EX ART. 50 D.LGS. 36/2023 A FAVORE DELL'OPERATORE ECONOMICO CHERUBINI ROBERTA PER NOLEGGIO, INSTALLAZIONE, MONTAGGIO, SMONTAGGIO E MANUTENZIONE CON PRONTO INTERVENTO DELLE LUMINARIE E ALBERI PER IL PERIODO NATALIZIO 2026 CON DISALLESTIMENTO GENNAIO 2027 CIG BD9CF64C77",
+      "parole": [
+        "intervento",
+        "manutenzione"
+      ],
+      "link": "https://salo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8484853?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
