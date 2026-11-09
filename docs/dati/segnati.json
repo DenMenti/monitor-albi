@@ -4715,5 +4715,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Vestone|2026-10-30|2026/624|MANUTENZIONE STRAORDINARIA DI PASSERELLA PEDONALE IN LOC. NOZZA. DETERMINAZIONE ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:04:16.977Z",
+    "atto": {
+      "id": "BS|Vestone|2026-10-30|2026/624|MANUTENZIONE STRAORDINARIA DI PASSERELLA PEDONALE IN LOC. NOZZA. DETERMINAZIONE ",
+      "comune": "Vestone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/624",
+      "oggetto": "MANUTENZIONE STRAORDINARIA DI PASSERELLA PEDONALE IN LOC. NOZZA. DETERMINAZIONE A CONTRATTARE PER AFFIDAMENTO INCARICO DI COLLAUDATORE ALL'ING. TISI STEFANO - CIG: BD94EC476D",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "manutenzione"
+      ],
+      "link": "https://vestone.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1456355?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
