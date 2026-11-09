@@ -7502,5 +7502,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Gavardo|2026-11-04|2026/782|AFFIDAMENTO DIRETTO LAVORI DI MANUTENZIONE STRAORDINARIA COPERTURA PALAZZINA “ER": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:48:21.317Z",
+    "atto": {
+      "id": "BS|Gavardo|2026-11-04|2026/782|AFFIDAMENTO DIRETTO LAVORI DI MANUTENZIONE STRAORDINARIA COPERTURA PALAZZINA “ER",
+      "comune": "Gavardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/782",
+      "oggetto": "AFFIDAMENTO DIRETTO LAVORI DI MANUTENZIONE STRAORDINARIA COPERTURA PALAZZINA “ERP” DI PROPRIETÀ COMUNALE SITA IN PIAZZA DON CELESTINO PANIZZA – CIG BD9A943571",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://gavardo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2811018?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
