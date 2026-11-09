@@ -6980,5 +6980,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Villanuova sul Clisi|2026-11-03|2026/589|DETERMINAZIONE A CONTRATTARE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:27:13.625Z",
+    "atto": {
+      "id": "BS|Villanuova sul Clisi|2026-11-03|2026/589|DETERMINAZIONE A CONTRATTARE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1",
+      "comune": "Villanuova sul Clisi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/589",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 DEL D.LGS. 36/2023, PER MANUTENZIONE DI VEICOLI COMUNALI. C.I.G. BD7F38267A",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1457708?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
