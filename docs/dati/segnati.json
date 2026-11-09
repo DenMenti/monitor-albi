@@ -2135,5 +2135,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Muscoline|2026-10-27|2026/435|APPROVAZIONE DOCUMENTO INDIRIZZO ALLA PROGETTAZIONE ED ATTRIBUZIONE COMPETENZE S": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:32:06.666Z",
+    "atto": {
+      "id": "BS|Muscoline|2026-10-27|2026/435|APPROVAZIONE DOCUMENTO INDIRIZZO ALLA PROGETTAZIONE ED ATTRIBUZIONE COMPETENZE S",
+      "comune": "Muscoline",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/435",
+      "oggetto": "APPROVAZIONE DOCUMENTO INDIRIZZO ALLA PROGETTAZIONE ED ATTRIBUZIONE COMPETENZE SUL PROCEDIMENTO (ART. 15, D.LGS 36/2023) PER LA REDAZIONE DEL PROGETTO ESECUTIVO PER LAVORI DI STRAORDINARIA MANUTENZIONE FINALIZZATI ALL’ELIMINAZIONE DEL FENOMENO DELL’UMIDITÀ DI RISALITA, ALLA RIDUZIONE DEL RISCHIO DI CONCENTRAZIONE DEL GAS RADON E ALL’ADEGUAMENTO DELL’ACCESSIBILITÀ DELLA RAMPA PER L’ACCESSO DEI DISABILI; PRESSO LA PALESTRA DELL’ISTITUTO COMPRENSIVO MARIO LODI, PLESSO SCUOLA PRIMARIA DI MUSCOLINE. CUP: E52B26000310006",
+      "parole": [
+        "progetto",
+        "esecutivo",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://muscoline.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1454722?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
