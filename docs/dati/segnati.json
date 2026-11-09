@@ -7338,5 +7338,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Corzano|2026-11-03|320|DETERMINA N.191 DEL 28/10/2026 - AREA ECONOMICO FINANZIARIA: AFFIDAMENTO FORNITU": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:46:47.368Z",
+    "atto": {
+      "id": "BS|Corzano|2026-11-03|320|DETERMINA N.191 DEL 28/10/2026 - AREA ECONOMICO FINANZIARIA: AFFIDAMENTO FORNITU",
+      "comune": "Corzano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "Determinazioni",
+      "numero": "320",
+      "oggetto": "DETERMINA N.191 DEL 28/10/2026 - AREA ECONOMICO FINANZIARIA: AFFIDAMENTO FORNITURA SEGNALETICA STRADALE. DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL DLGS N.36/2023. CIG:BD78A6694A.",
+      "parole": [
+        "affidamento",
+        "strad"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmscorzano/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
