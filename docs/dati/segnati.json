@@ -1295,5 +1295,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Malonno|2026-10-26||CUP D88H23002150007 CIG B762FDF0EE CIG FIGLIO B8874EBFEF. APPALTO LAVORI DI REGI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:26:47.094Z",
+    "atto": {
+      "id": "BS|Malonno|2026-10-26||CUP D88H23002150007 CIG B762FDF0EE CIG FIGLIO B8874EBFEF. APPALTO LAVORI DI REGI",
+      "comune": "Malonno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "CUP D88H23002150007 CIG B762FDF0EE CIG FIGLIO B8874EBFEF. APPALTO LAVORI DI REGIMAZIONE E DI MESSA IN SICUREZZA DELLA VALLE DI LAVA IN COMUNE DI MALONNO. ESAME ED APPROVAZIONE 2° STATO DI AVANZAMENTO LAVORI E SALDO RELATIVO 2° CERTIFICATO DI PAGAMENTO. SINERGIE S.R.L. – PEDRENGO (BG). Determinazioni dirigenziali EMITTENTE: Ufficio LL.PP./Edil.Privata/Urbanistica NUMERO ATTO/DOCUMENTO: n.202/26 DET ST / 2026 del 20/10/2026 NUMERO DI PUBBLICAZIONE: 450 PERIODO DI PUBBLICAZIONE: dal 26/10/2026 al 10/11/2026",
+      "parole": [
+        "appalto",
+        "lavor"
+      ],
+      "link": "https://www.comune.malonno.bs.it/Pages/Albo/?Id=446079&pg=3",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
