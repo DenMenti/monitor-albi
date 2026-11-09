@@ -1756,5 +1756,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Bione|2026-10-26|2026/320|AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SALVADORI FELICE SRL” CON": {
+    "stato": "fissato",
+    "quando": "2026-11-09T17:29:28.846Z",
+    "atto": {
+      "id": "BS|Bione|2026-10-26|2026/320|AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SALVADORI FELICE SRL” CON",
+      "comune": "Bione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINA",
+      "numero": "2026/320",
+      "oggetto": "AGGIUDICAZIONE NEI CONFRONTI DELL’OPERATORE ECONOMICO “SALVADORI FELICE SRL” CON SEDE LEGALE IN STORO – C.F./P.IVA 02992390985 DEI LAVORI DI REGIMAZIONE ACQUE VERSANTI IN DISSESTO – LOCALITA’ MORCHERANE. CODICE CUP: F78H25000580002; CODICE CIG: BD7EC0DF1C",
+      "parole": [
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "https://bione.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1453684?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
