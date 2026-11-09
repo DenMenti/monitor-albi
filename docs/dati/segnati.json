@@ -2493,5 +2493,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Rivamonte Agordino|2026-10-27|2026/312|PROGETTO DENOMINATO \"MESSA IN SICUREZZA DELLA VIA MINIERE DEL COMUNE DI RIVAMONT": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:34:09.743Z",
+    "atto": {
+      "id": "BL|Rivamonte Agordino|2026-10-27|2026/312|PROGETTO DENOMINATO \"MESSA IN SICUREZZA DELLA VIA MINIERE DEL COMUNE DI RIVAMONT",
+      "comune": "Rivamonte Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-10-27",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/312",
+      "oggetto": "PROGETTO DENOMINATO \"MESSA IN SICUREZZA DELLA VIA MINIERE DEL COMUNE DI RIVAMONTE AGORDINO - 2° STRALCIO. CUP: D45F26000180005\". IMPEGNO E LIQUIDAZIONE DELLA SPESA A FAVORE DELLA REGIONE DEL VENETO PER ONERI ISTRUTTORI RELATIVI AL RILASCIO DELL’AUTORIZZAZIONE IDRAULICA PER INTERVENTI RICADENTI NELLA FASCIA DI RISPETTO DEL TORRENTE CORDEVOLE.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://rivamonteagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8483534?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-04_2007",
+      "_trovato": "2026-11-04_2007"
+    }
   }
 }
