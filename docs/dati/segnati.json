@@ -6695,5 +6695,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Paratico|2026-11-03||Numero pubblicazione 796 Mittente COMUNE DI PARATICO Tipo Determine Oggetto INCA": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:25:13.187Z",
+    "atto": {
+      "id": "BS|Paratico|2026-11-03||Numero pubblicazione 796 Mittente COMUNE DI PARATICO Tipo Determine Oggetto INCA",
+      "comune": "Paratico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 796 Mittente COMUNE DI PARATICO Tipo Determine Oggetto INCARICO PROFESSIONALE PER CONSULENZA TECNICA E PROGETTAZIONE ESECUTIVA DEGLI IMPIANTI ELETTRICI DELLA NUOVA SEDE DEL COMANDO DI POLIZIA LOCALE. Numero atto 18 Data atto 03/11/2026 Data inizio 03/11/2026 Data fine 18/11/2026",
+      "parole": [
+        "incarico",
+        "progett"
+      ],
+      "link": "https://halleyweb.com/c017134/mc/mc_p_dettaglio.php?id_pubbl=10417",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
