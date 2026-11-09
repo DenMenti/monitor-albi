@@ -1443,5 +1443,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Corteno Golgi|2026-10-26||Complemento per lo sviluppo rurale del Piano strategico nazionale della PAC 2023": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:27:54.638Z",
+    "atto": {
+      "id": "BS|Corteno Golgi|2026-10-26||Complemento per lo sviluppo rurale del Piano strategico nazionale della PAC 2023",
+      "comune": "Corteno Golgi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Complemento per lo sviluppo rurale del Piano strategico nazionale della PAC 2023 - 2027 della Regione Lombardia. Intervento SRD08 «Investimenti in infrastrutture con finalità ambientali – Azione 1 – Viabilità forestale e silvo-pastorale. Lavori di “Manutenzione straordinaria alla strada agro-silvo-pastorale “Strada dei Cavalli – Campovecchio - Malga Culvegla” - SO17063_00004 in Comune di Corteno Golgi (Bs). CUP: I68E25000090006. Affidamento ai sensi dell’art. 7 comma 2 del D.Lgs. n. 36/2023 e s.m.i. dell’esecuzione dei lavori alla società in house Consorzio Forestale Alta Valle Camonica con sede in Edolo (Bs), Via Treboldi, 77 CIG: BD7AFFF01A. Determinazioni dirigenziali EMITTENTE: Ufficio Amministrativo NUMERO ATTO/DOCUMENTO: n.247 / 2026 del 22/10/2026 NUMERO DI PUBBLICAZIONE: 595 PERIODO DI PUBBLICAZIONE: dal 26/10/2026 al 10/11/2026",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "strad",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://www.comune.corteno-golgi.bs.it/Pages/Albo/?Id=446053&pg=2",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
