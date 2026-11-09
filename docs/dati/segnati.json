@@ -5308,5 +5308,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Bienno|2026-10-30|2026/611|AFFIDAMENTO DIRETTO DEI LAVORI DI MANUTENZIONE DELLA PAVIMENTAZIONE DELLA STRADA": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:08:21.905Z",
+    "atto": {
+      "id": "BS|Bienno|2026-10-30|2026/611|AFFIDAMENTO DIRETTO DEI LAVORI DI MANUTENZIONE DELLA PAVIMENTAZIONE DELLA STRADA",
+      "comune": "Bienno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-30",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/611",
+      "oggetto": "AFFIDAMENTO DIRETTO DEI LAVORI DI MANUTENZIONE DELLA PAVIMENTAZIONE DELLA STRADA COMUNALE IN LOCALITÀ LE VALLI. CIG: BD93022003",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://bienno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4476367?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
