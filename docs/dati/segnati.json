@@ -7456,5 +7456,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Mura|2026-11-04|2026/248|AFFIDAMENTO LAVORI DI MESSA IN SICUREZZA TORNANTE 11° OLSENAGO PIANI DI MURA. CU": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:47:57.312Z",
+    "atto": {
+      "id": "BS|Mura|2026-11-04|2026/248|AFFIDAMENTO LAVORI DI MESSA IN SICUREZZA TORNANTE 11° OLSENAGO PIANI DI MURA. CU",
+      "comune": "Mura",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/248",
+      "oggetto": "AFFIDAMENTO LAVORI DI MESSA IN SICUREZZA TORNANTE 11° OLSENAGO PIANI DI MURA. CUP D45F25000590003 CIG BD460AF6A6",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://mura.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1459275?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
