@@ -6603,5 +6603,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BL|Alleghe|2026-11-02|2026/681|AFFIDAMENTO DEL SERVIZIO DI SGOMBERO NEVE DELLE STRADE COMUNALI DEL COMUNE DI AL": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:16:42.406Z",
+    "atto": {
+      "id": "BL|Alleghe|2026-11-02|2026/681|AFFIDAMENTO DEL SERVIZIO DI SGOMBERO NEVE DELLE STRADE COMUNALI DEL COMUNE DI AL",
+      "comune": "Alleghe",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-02",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/681",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO DI SGOMBERO NEVE DELLE STRADE COMUNALI DEL COMUNE DI ALLEGHE PER LE STAGIONI INVERNALI 2026/2027, 2027/2028, 2028/2029. - ZONA N. 1: CAPRILE CENTRO E FRAZIONE DI SAC ALLA DITTA SORARÙ WOOD SRL – CIG: BD8701EB2F.",
+      "parole": [
+        "affidamento",
+        "strad"
+      ],
+      "link": "https://alleghe.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8481504?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
