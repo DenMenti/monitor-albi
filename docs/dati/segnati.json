@@ -7407,5 +7407,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Bienno|2026-11-03|2026/621|LAVORI DI COMPLETAMENTO DELL’INTERVENTO DI RINFORZO STRUTTURALE, CONSOLIDAMENTO ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:47:38.227Z",
+    "atto": {
+      "id": "BS|Bienno|2026-11-03|2026/621|LAVORI DI COMPLETAMENTO DELL’INTERVENTO DI RINFORZO STRUTTURALE, CONSOLIDAMENTO ",
+      "comune": "Bienno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-03",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/621",
+      "oggetto": "LAVORI DI COMPLETAMENTO DELL’INTERVENTO DI RINFORZO STRUTTURALE, CONSOLIDAMENTO E MIGLIORAMENTO SISMICO DELL’EDIFICIO DENOMINATO “EX CASEIFICIO” SITO IN COMUNE DI BIENNO E REALIZZAZIONE CENTRO MEDICO IN VIA PRATI. OPERE ESTERNE. APPROVAZIONE PRIMO STATO D'AVANZAMENTO LAVORI E RELATIVO CERTIFICATO DI PAGAMENTO. CUP: E68I26001640004 - CIG: BC12B9B323",
+      "parole": [
+        "intervento",
+        "edificio",
+        "lavor"
+      ],
+      "link": "https://bienno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4480150?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
