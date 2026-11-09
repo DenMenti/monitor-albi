@@ -1971,5 +1971,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Pian Camuno|2026-10-27|2026/647|Aggiudicazione ed affidamento alla ditta Valle Camonica Servizi Vendite Spa - P.": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:30:34.718Z",
+    "atto": {
+      "id": "BS|Pian Camuno|2026-10-27|2026/647|Aggiudicazione ed affidamento alla ditta Valle Camonica Servizi Vendite Spa - P.",
+      "comune": "Pian Camuno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/647",
+      "oggetto": "Aggiudicazione ed affidamento alla ditta Valle Camonica Servizi Vendite Spa - P.Iva 02349420980 - con sede in via Mario Rigamonti n.65 a Darfo Boario Terme (BS) del servizio manutenzione ordinaria delle centrali termiche di proprieta' comunale per le stagioni invernali 2026/2027 - 2027/2028- 2028/2029 - 2029/2030 CIG BD79C4F0F6",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "manutenzione"
+      ],
+      "link": "https://piancamuno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5744083?p_auth=r2lj7kjH&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
