@@ -5790,5 +5790,28 @@
       "quando": "2026-11-04_2007",
       "_trovato": "2026-11-04_2007"
     }
+  },
+  "BS|Quinzano d'Oglio|2026-10-31||DETERMINAZIONI RIDETERMINAZIONE IMPEGNI DI SPESA ASSUNTI CON DETERMINAZIONE A CO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:11:02.257Z",
+    "atto": {
+      "id": "BS|Quinzano d'Oglio|2026-10-31||DETERMINAZIONI RIDETERMINAZIONE IMPEGNI DI SPESA ASSUNTI CON DETERMINAZIONE A CO",
+      "comune": "Quinzano d'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-31",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONI RIDETERMINAZIONE IMPEGNI DI SPESA ASSUNTI CON DETERMINAZIONE A CONTRATTARE. AFFIDAMENTO DIRETTO AI SENSI DELL'ART.50 COMMA 1 LETT. B) DEL D. LGS 36/2023 PER SERVIZIO DI MANUTENZIONE DEL PATRIMONIO IMMOBILIARE DEL COMUNE DI QUINZANO D'OGLIO OPERE DA Unità organizzativa:SETTORE SERVIZI AL TERRITORIO Ufficio:UFFICIO TECNICO Pubblicazione dal 16-10-2026 al 31-10-2026 num. 688 Atto n. 85 del 15-10-2026",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
