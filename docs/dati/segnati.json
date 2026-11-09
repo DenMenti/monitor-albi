@@ -3081,5 +3081,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Orzinuovi|2026-10-28|2026/1270|ACCORDO QUADRO PER LAVORI AFFERENTI ALL’ESECUZIONE, COMPRESA ASSISTENZA TECNICA ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:42:35.415Z",
+    "atto": {
+      "id": "BS|Orzinuovi|2026-10-28|2026/1270|ACCORDO QUADRO PER LAVORI AFFERENTI ALL’ESECUZIONE, COMPRESA ASSISTENZA TECNICA ",
+      "comune": "Orzinuovi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINA",
+      "numero": "2026/1270",
+      "oggetto": "ACCORDO QUADRO PER LAVORI AFFERENTI ALL’ESECUZIONE, COMPRESA ASSISTENZA TECNICA E FORNITURA DI MATERIALI, DI OPERE DI MANUTENZIONE A MANUFATTI EDILI E MANTI STRADALI LUNGO LA RETE VIARIA COMUNALE PER IL PERIODO 11/2026-2027. DETERMINAZIONE A CONTRARRE E AGGIUDICAZIONE DELLA PROCEDURA DI AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, C. 1, LETT. A) DEL D.LGS. 36/2023 E SS.MM.II. ESPLETATA MEDIANTE LA PIATTAFORMA TELEMATICA PER L’EPROCUREMENT SINTEL DI REGIONE LOMBARDIA. CIG: BD7615340B",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "strad",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://orzinuovi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/8471323",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
