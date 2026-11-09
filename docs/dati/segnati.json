@@ -3298,5 +3298,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Malegno|2026-10-28|2026/495|INTERVENTI DI MANUTENZIONE STRAORDINARIA STRADE DENOMINATE “DEI MONTI” E “CASTEL": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:43:43.208Z",
+    "atto": {
+      "id": "BS|Malegno|2026-10-28|2026/495|INTERVENTI DI MANUTENZIONE STRAORDINARIA STRADE DENOMINATE “DEI MONTI” E “CASTEL",
+      "comune": "Malegno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/495",
+      "oggetto": "INTERVENTI DI MANUTENZIONE STRAORDINARIA STRADE DENOMINATE “DEI MONTI” E “CASTELLO” – CUO D77H26009360004 AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, COMMA 1, LETTERA A) DEL D. LGS. 36/2023 E S.M.I.",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione"
+      ],
+      "link": "https://malegno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5745457?p_auth=kyD1iI0p&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
