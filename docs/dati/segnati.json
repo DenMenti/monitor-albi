@@ -3761,5 +3761,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Roè Volciano|2026-10-29|2026/623|CIG BD8BEC966B – AFFIDAMENTO LAVORI DI MANUTENZIONE STRAORDINARIA DEGLI INFISSI ": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:58:31.514Z",
+    "atto": {
+      "id": "BS|Roè Volciano|2026-10-29|2026/623|CIG BD8BEC966B – AFFIDAMENTO LAVORI DI MANUTENZIONE STRAORDINARIA DEGLI INFISSI ",
+      "comune": "Roè Volciano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-29",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/623",
+      "oggetto": "CIG BD8BEC966B – AFFIDAMENTO LAVORI DI MANUTENZIONE STRAORDINARIA DEGLI INFISSI E SERRAMENTI DELLA SEDE COMUNALE A FAVORE DELLA DITTA TIZIANO BAZZANI (C.F. BZZTZN73T06E667M).",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://roevolciano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1455439?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
