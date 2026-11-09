@@ -3492,5 +3492,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Berzo Demo|2026-10-28|2026/477|ESAME ED APPROVAZIONE DEL PROGETTO DI FATTIBILITÀ TECNICO-ECONOMICA PER I LAVORI": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:54:51.070Z",
+    "atto": {
+      "id": "BS|Berzo Demo|2026-10-28|2026/477|ESAME ED APPROVAZIONE DEL PROGETTO DI FATTIBILITÀ TECNICO-ECONOMICA PER I LAVORI",
+      "comune": "Berzo Demo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-28",
+      "tipo": "ATTI AMMINISTRATIVI / DELIBERA DI GIUNTA",
+      "numero": "2026/477",
+      "oggetto": "ESAME ED APPROVAZIONE DEL PROGETTO DI FATTIBILITÀ TECNICO-ECONOMICA PER I LAVORI DI \"CREAZIONE E RIQUALIFICAZIONE DELL'AREA SPORTIVA E AGGREGATIVA GIOVANILE IN FRAZIONE BERZO\" MEDIANTE INSTALLAZIONE DI CIRCUITO CALISTHENICS, ATTREZZATURE FITNESS INCLUSIVE E OPERE COMPLEMENTARI SUL PATRIMONIO COMUNALE, E DETERMINAZIONI IN ORDINE ALLA CANDIDATURA A VALERE SUL BANDO REGIONALE \"AREA SPORTIVA GIOVANI\" (D.G.R. N. XII/6640 DEL 03.08.2026 E D.D.S. N. 11827 DEL 11.09.2026). CUP G42H26000520005",
+      "parole": [
+        "progetto",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://berzodemo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8474907?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
