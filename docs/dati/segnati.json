@@ -7431,5 +7431,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Borgo Valbelluna|2026-11-03|2026/1221|DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETTER": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T19:47:51.275Z",
+    "atto": {
+      "id": "BL|Borgo Valbelluna|2026-11-03|2026/1221|DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETTER",
+      "comune": "Borgo Valbelluna",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-03",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1221",
+      "oggetto": "DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETTERA A) DEL D. LGS. N. 36/2023, DEI LAVORI DI DI ASFALTATURA E RIPRISTINO DELLA PAVIMENTAZIONE DELLA STRADA COMUNALE IN LOCALITÀ CARVE. CIG: BD6609BA2D",
+      "parole": [
+        "affidamento",
+        "strad",
+        "lavor",
+        "ripristin"
+      ],
+      "link": "https://borgovalbelluna.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4480079?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
