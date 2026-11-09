@@ -2447,5 +2447,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Bedizzole|2026-10-27|2026/1146|CUP: B29C24000070004 – CIG: B8B33C2069 - LAVORI DI “RESTAURO E RISANAMENTO CONSE": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T17:34:00.444Z",
+    "atto": {
+      "id": "BS|Bedizzole|2026-10-27|2026/1146|CUP: B29C24000070004 – CIG: B8B33C2069 - LAVORI DI “RESTAURO E RISANAMENTO CONSE",
+      "comune": "Bedizzole",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-27",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1146",
+      "oggetto": "CUP: B29C24000070004 – CIG: B8B33C2069 - LAVORI DI “RESTAURO E RISANAMENTO CONSERVATIVO DEL CIMITERO DEL CAPOLUOGO - TERZO STRALCIO ESECUTIVO” - APPROVAZIONE ATTI CONTABILI SAL 03 E RELATIVO CERTIFICATO DI PAGAMENTO 03",
+      "parole": [
+        "esecutivo",
+        "lavor"
+      ],
+      "link": "https://bedizzole.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2801889?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
