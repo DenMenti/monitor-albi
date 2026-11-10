@@ -8643,5 +8643,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Travagliato|2026-11-05|2026/1064|AFFIDAMENTO DIRETTO OPERE COMPLEMENTARI DI POSA PARAPETTI FISSI SULLA COPERTURA ": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:11:29.245Z",
+    "atto": {
+      "id": "BS|Travagliato|2026-11-05|2026/1064|AFFIDAMENTO DIRETTO OPERE COMPLEMENTARI DI POSA PARAPETTI FISSI SULLA COPERTURA ",
+      "comune": "Travagliato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1064",
+      "oggetto": "AFFIDAMENTO DIRETTO OPERE COMPLEMENTARI DI POSA PARAPETTI FISSI SULLA COPERTURA DELLA PALESTRA RELATIVAMENTE AI LAVORI DI ADEGUAMENTO ANTINCENDIO DELLA SCUOLA SECONDARIA – FINANZIAMENTO PNRR 4.1.3.3 (CUP J58H25002040001)",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://travagliato.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/8489328",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
