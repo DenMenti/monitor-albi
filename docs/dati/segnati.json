@@ -9287,5 +9287,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Berzo Demo|2026-11-05|2026/487|LAVORI DI “OPERE DI REGIMAZIONE IDRAULICA DEL RETICOLO MINORE DI COMPETENZA COMU": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T19:52:55.845Z",
+    "atto": {
+      "id": "BS|Berzo Demo|2026-11-05|2026/487|LAVORI DI “OPERE DI REGIMAZIONE IDRAULICA DEL RETICOLO MINORE DI COMPETENZA COMU",
+      "comune": "Berzo Demo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/487",
+      "oggetto": "LAVORI DI “OPERE DI REGIMAZIONE IDRAULICA DEL RETICOLO MINORE DI COMPETENZA COMUNALE N.03017016-0021 “DELLE MALOGNE” IN COMUNE DI BERZO DEMO (BS) - CUP G48H24000870006” - DETERMINA A CONTRARRE E DI AFFIDAMENTO, AI SENSI DELL’ART.50 CO.1 LETTERA B), DEL D.LGS. 36/2023, DI PRESTAZIONI TECNICHE PROFESSIONALI RELATIVE ALLE ATTIVITA' COLLAUDO STATICO DELLE OPERE STRUTTURALI ALLO “STUDIO DI INGEGNERIA FANETTI” P.IVA 01994900981. CIG BDA2C5A335.",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://berzodemo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8489835?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
