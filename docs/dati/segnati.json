@@ -8952,5 +8952,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Montichiari|2026-11-05|2026/1677|AFFIDAMENTO SERVIZIO DI ORGANIZZAZIONE PROGETTO \"EDUCAZIONE ALLA LEGALITA', SICU": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:14:31.641Z",
+    "atto": {
+      "id": "BS|Montichiari|2026-11-05|2026/1677|AFFIDAMENTO SERVIZIO DI ORGANIZZAZIONE PROGETTO \"EDUCAZIONE ALLA LEGALITA', SICU",
+      "comune": "Montichiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1677",
+      "oggetto": "AFFIDAMENTO SERVIZIO DI ORGANIZZAZIONE PROGETTO \"EDUCAZIONE ALLA LEGALITA', SICUREZZA E GIUSTIZIA SOCIALE\" A.S. 2026/27 RIVOLTO AGLI STUDENTI DELLA SCUOLA SECONDARIA DI PRIMO GRADO - CIG N. BDA1AC0CBA",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://montichiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10618876",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
