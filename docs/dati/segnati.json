@@ -8547,5 +8547,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Vobarno|2026-11-05|2026/745|DETERMINA A CONTRARRE ED AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO AI SENSI DE": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:09:38.424Z",
+    "atto": {
+      "id": "BS|Vobarno|2026-11-05|2026/745|DETERMINA A CONTRARRE ED AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO AI SENSI DE",
+      "comune": "Vobarno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/745",
+      "oggetto": "DETERMINA A CONTRARRE ED AGGIUDICAZIONE MEDIANTE AFFIDAMENTO DIRETTO AI SENSI DELL’ARTICOLO 50 COMMA 1 LETTERA B) DEL D.LGS 36/2023 DEL SERVIZIO PER LA REDAZIONE DEI DOCUMENTI PER PARTECIPARE AL BANDO REGIONALE “FONDO PER LA PREVENZIONE DEL RISCHIO SISMICO (DI CUI ALL’ART. 11, DEL DECRETO-LEGGE N. 39/2009, CONVERTITO, CON MODIFICAZIONI, DALLA LEGGE N.77/2009)” PER L’EDIFICIO “EX SCUOLA DI POMPEGNINO”. CIG BD906F33A6",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "edificio"
+      ],
+      "link": "https://vobarno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1459869?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
