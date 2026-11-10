@@ -8854,5 +8854,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Pompiano|2026-11-05|2026/421|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE, AI SENSI DELL’ART. 50 COMMA 1 LETTERA": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:13:39.465Z",
+    "atto": {
+      "id": "BS|Pompiano|2026-11-05|2026/421|DETERMINA A CONTRARRE E DI AGGIUDICAZIONE, AI SENSI DELL’ART. 50 COMMA 1 LETTERA",
+      "comune": "Pompiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/421",
+      "oggetto": "DETERMINA A CONTRARRE E DI AGGIUDICAZIONE, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) E DELL'ART. 17, COMMA 2 DEL D.LGS. 36/2023, DEI SERVIZI TECNICI DI PROGETTAZIONE ESECUTIVA, NONCHÉ PER IL COORDINAMENTO SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, LA DIREZIONE DEI LAVORI E REDAZIONE DEL CERTIFICATO DI REGOLARE ESECUZIONE. CIG BDABFEA8F1 DEL PROGETTO DENOMINATO “CUP E85E25000330001 – PLESSO SCOLASTICO SECONDARIO DI PRIMO GRADO \"DON GIOVANNI PAPA\" VIA ORTAGLIA ADEGUAMENTO ANTINCENDIO DEL PLESSO SCOLASTICO E PALESTRA” FINANZIATO DALL’UNIONE EUROPEA – NEXT GENERATION EU NELL’AMBITO DELLA MISSIONE LINEA M4C1I3.3.",
+      "parole": [
+        "progetto",
+        "aggiudicazione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://pompiano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/3221537?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
