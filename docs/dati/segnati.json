@@ -8240,5 +8240,28 @@
       "quando": "2026-11-05_1015",
       "_trovato": "2026-11-05_1015"
     }
+  },
+  "BS|Valvestino|2026-11-05||Numero pubblicazione 171 Mittente Comune di Valvestino Tipo Determinazione Ogget": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:06:09.354Z",
+    "atto": {
+      "id": "BS|Valvestino|2026-11-05||Numero pubblicazione 171 Mittente Comune di Valvestino Tipo Determinazione Ogget",
+      "comune": "Valvestino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 171 Mittente Comune di Valvestino Tipo Determinazione Oggetto AFFIDAMENTO DIRETTO ALLA DITTA COLORIFICIO TOSELLI DI PALADINI DARIO & C. S.N.C. PER LA FORNITURA DI ABBIGLIAMENTO E CALZATURE DA LAVORO PER IL PERSONALE COMUNALE Numero atto 23 Data atto 05/11/2026 Data inizio 05/11/2026 Data fine 20/11/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "http://halleyweb.com/c017194/mc/mc_p_dettaglio.php?id_pubbl=785",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
