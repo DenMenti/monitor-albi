@@ -8666,5 +8666,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Tavernole sul Mella|2026-11-05|287|DETERMINA N.86 DEL 03/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO LAVORI DI TINT": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:11:33.063Z",
+    "atto": {
+      "id": "BS|Tavernole sul Mella|2026-11-05|287|DETERMINA N.86 DEL 03/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO LAVORI DI TINT",
+      "comune": "Tavernole sul Mella",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINAZIONI",
+      "numero": "287",
+      "oggetto": "DETERMINA N.86 DEL 03/11/2026 - AREA TECNICA: AFFIDAMENTO DIRETTO LAVORI DI TINTEGGIATURA DEI LOCALI INTERNI DELLA CASERMA DEI CARABINIERI DI PROPRIETA’ DEL COMUNE DI TAVERNOLE SUL MELLA. CIG: BD4E2E6B8E",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmstavernole/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
