@@ -8191,5 +8191,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Artogne|2026-11-04|2026/568|DETERMINA A CONTRARRE AI SENSI DELL’ART. 17 COMMA 2 D.LGS. N. 36/2023 E S.M.I. A": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:05:56.550Z",
+    "atto": {
+      "id": "BS|Artogne|2026-11-04|2026/568|DETERMINA A CONTRARRE AI SENSI DELL’ART. 17 COMMA 2 D.LGS. N. 36/2023 E S.M.I. A",
+      "comune": "Artogne",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/568",
+      "oggetto": "DETERMINA A CONTRARRE AI SENSI DELL’ART. 17 COMMA 2 D.LGS. N. 36/2023 E S.M.I. AGGIUDICAZIONE DEFINITIVA PER AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 LETTERA A) DEL D.LGS. N. 36/2023 E S.M.I. PER I LAVORI DI MANUTENZIONE STRAORDINARIA, RIQUALIFICAZIONE E MESSA IN SICUREZZA DI TRATTI DELLA VIABILITÀ DEL COMUNE DI ARTOGNE TRA IL CAPOLUOGO E LA FRAZIONE DI ACQUEBONE. IMPEGNI DI SPESA ED APPROVAZIONE DEL NUOVO QUADRO ECONOMICO. CUP C47H26000750004 – CIG BD811BA66D",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://artogne.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2082490?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
