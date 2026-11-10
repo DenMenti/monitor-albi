@@ -9047,5 +9047,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Calvisano|2026-11-05|2026/838|PROGETTO OCCUPIAMOCI 2026/2027 (DGC N. 92 DEL 15.07.2026) – LIQUIDAZIONE CONTRIB": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:21:21.753Z",
+    "atto": {
+      "id": "BS|Calvisano|2026-11-05|2026/838|PROGETTO OCCUPIAMOCI 2026/2027 (DGC N. 92 DEL 15.07.2026) – LIQUIDAZIONE CONTRIB",
+      "comune": "Calvisano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/838",
+      "oggetto": "PROGETTO OCCUPIAMOCI 2026/2027 (DGC N. 92 DEL 15.07.2026) – LIQUIDAZIONE CONTRIBUTI MOTIVAZIONALI - PERIODO SETTEMBRE - OTTOBRE 2026.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://calvisano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4484548?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-06_1007",
+      "_trovato": "2026-11-06_1007"
+    }
   }
 }
