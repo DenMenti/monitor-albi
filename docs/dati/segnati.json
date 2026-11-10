@@ -8571,5 +8571,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Villanuova sul Clisi|2026-11-05|2026/602|DETERMINA A CONTRARRE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 DEL D.": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:10:32.641Z",
+    "atto": {
+      "id": "BS|Villanuova sul Clisi|2026-11-05|2026/602|DETERMINA A CONTRARRE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 DEL D.",
+      "comune": "Villanuova sul Clisi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/602",
+      "oggetto": "DETERMINA A CONTRARRE. AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 DEL D.LGS. 36/2023 PER L’INCARICO PROFESSIONALE PER LA REDAZIONE DEL DOCUMENTO DI FATTIBILITÀ DELLE ALTERNATIVE PROGETTUALI (DOCFAP) PER IL NUOVO ATTRAVERSAMENTO CARRABILE DI COLLEGAMENTO TRA VILLANUOVA SUL CLISI E ROÈ VOLCIANO E DELLE OPERE STRADALI CONNESSE, INCLUSA LA REALIZZAZIONE DELLA ROTATORIA DI INNESTO E PARCHEGGIO PUBBLICO IN LOCALITÀ TORMINI. C.U.P. H91B25000700008 C.I.G. BDA309F92C",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "strad",
+        "progett"
+      ],
+      "link": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1459774?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
