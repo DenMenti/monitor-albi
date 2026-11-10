@@ -9381,5 +9381,32 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Botticino|2026-11-09|2026/1224|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI RE": {
+    "stato": "fissato",
+    "quando": "2026-11-10T19:57:06.089Z",
+    "atto": {
+      "id": "BS|Botticino|2026-11-09|2026/1224|DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI RE",
+      "comune": "Botticino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-09",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/1224",
+      "oggetto": "DETERMINA A CONTRARRE, AFFIDAMENTO ED IMPEGNO PER L'INCARICO PROFESSIONALE DI REDAZIONE PROGETTO ESECUTIVO, DIREZIONE LAVORI, CONTABILITÀ, COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE PER LE OPERE DI \"REALIZZAZIONE DI NUOVO MURO DI CONTENIMENTO PRESSO L'IMMOBILE \"CASA DEGLI ALPINI DI BOTTICINO MATTINA\" CUP G25E26000200004 CIG BDA9B6FE26",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://botticino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8495400?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-10_1031",
+      "_trovato": "2026-11-10_1031"
+    }
   }
 }
