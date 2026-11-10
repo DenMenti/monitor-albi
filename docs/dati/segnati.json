@@ -9070,5 +9070,30 @@
       "quando": "2026-11-06_1007",
       "_trovato": "2026-11-06_1007"
     }
+  },
+  "BS|Brescia|2026-11-05|2026/8056|INTERVENTO “SCUOLA DELL’INFANZIA CHIZZOLINI – BONIFICA DELLE AREE ESTERNE DI PER": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:26:02.727Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-05|2026/8056|INTERVENTO “SCUOLA DELL’INFANZIA CHIZZOLINI – BONIFICA DELLE AREE ESTERNE DI PER",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8056",
+      "oggetto": "INTERVENTO “SCUOLA DELL’INFANZIA CHIZZOLINI – BONIFICA DELLE AREE ESTERNE DI PERTINENZA DELLA SCUOLA. PROGETTO ESECUTIVO\" CODICE CUP C88E26000050004 – CODICE CIG BC52DF8E75 - APPROVAZIONE CERTIFICATO DI REGOLARE ESECUZIONE, CONTESTUALE LIQUIDAZIONE DEL SAL FINALE E SVINCOLO DELLA POLIZZA.",
+      "parole": [
+        "progetto",
+        "esecutivo",
+        "intervento",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2811484",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-06_1007",
+      "_trovato": "2026-11-06_1007"
+    }
   }
 }
