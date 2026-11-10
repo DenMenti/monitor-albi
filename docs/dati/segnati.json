@@ -9334,5 +9334,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sulzano|2026-11-05||DETERMINA AREA AMMINISTRATIVA N° 219/152 del 05/11/26 Oggetto: ADESIONE AL PROGE": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T19:53:13.167Z",
+    "atto": {
+      "id": "BS|Sulzano|2026-11-05||DETERMINA AREA AMMINISTRATIVA N° 219/152 del 05/11/26 Oggetto: ADESIONE AL PROGE",
+      "comune": "Sulzano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINA AREA AMMINISTRATIVA N° 219/152 del 05/11/26 Oggetto: ADESIONE AL PROGETTO FREE SKIPASS 2026/2027.",
+      "numero": "",
+      "oggetto": "DETERMINA AREA AMMINISTRATIVA N° 219/152 del 05/11/26 Oggetto: ADESIONE AL PROGETTO FREE SKIPASS 2026/2027.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2973&Tipo=20&CE=slzn1554",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
