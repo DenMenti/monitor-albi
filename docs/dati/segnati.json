@@ -9166,5 +9166,30 @@
       "quando": "2026-11-10_1031",
       "_trovato": "2026-11-10_1031"
     }
+  },
+  "BS|Brescia|2026-11-05|2026/8083|ACCORDO QUADRO CON UNICO OPERATORE PER L’AFFIDAMENTO DI “MANUTENZIONE STRAORDINA": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T19:49:41.643Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-05|2026/8083|ACCORDO QUADRO CON UNICO OPERATORE PER L’AFFIDAMENTO DI “MANUTENZIONE STRAORDINA",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8083",
+      "oggetto": "ACCORDO QUADRO CON UNICO OPERATORE PER L’AFFIDAMENTO DI “MANUTENZIONE STRAORDINARIA DELLE ASFALTATURE STRADALI - LOTTO NORD” DURATA TRIENNALE - CIG PADRE B5DDBF9449 - 2° CONTRATTO ATTUATIVO DELLE “OPERE DI MANUTENZIONE STRAORDINARIA DELLE ASFALTATURE STRADALI LOTTO NORD (2-2026) - CUP C87H25001330004” - CIG DERIVATO BBC47A5C82. PRESA D’ATTO MODIFICA QUOTE DEL RTI E LIQUIDAZIONE 1° STATO AVANZAMENTO LAVORI A RTI GIUDICI SPA - ANTONUTTI SRL – NOVASTRADE SRL - BONZI SPA – SIAS S.P.A.",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2811758",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-06_1007",
+      "_trovato": "2026-11-06_1007"
+    }
   }
 }
