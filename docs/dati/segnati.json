@@ -8167,5 +8167,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Artogne|2026-11-04|2026/567|INCARICO DI FORNITURA MOTOSEGA PER MANUTENZIONE AREE VERDI NEL COMUNE DI ARTOGNE": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:05:41.532Z",
+    "atto": {
+      "id": "BS|Artogne|2026-11-04|2026/567|INCARICO DI FORNITURA MOTOSEGA PER MANUTENZIONE AREE VERDI NEL COMUNE DI ARTOGNE",
+      "comune": "Artogne",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/567",
+      "oggetto": "INCARICO DI FORNITURA MOTOSEGA PER MANUTENZIONE AREE VERDI NEL COMUNE DI ARTOGNE DETERMINA A CONTRARRE AI SENSI DELL’ART. 17 COMMA 2 D.LGS. N. 36/2023 E S.M.I. AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D.LGS. N. 36/2023 E S.M.I. CIG BD9CF5C5DF",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "manutenzione"
+      ],
+      "link": "https://artogne.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2082488?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
