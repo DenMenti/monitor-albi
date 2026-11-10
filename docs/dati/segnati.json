@@ -9310,5 +9310,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Vezza d'Oglio|2026-11-05||Presa d’atto dell’aggiornamento delle condizioni relative al prestito ordinario ": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T19:53:05.555Z",
+    "atto": {
+      "id": "BS|Vezza d'Oglio|2026-11-05||Presa d’atto dell’aggiornamento delle condizioni relative al prestito ordinario ",
+      "comune": "Vezza d'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Presa d’atto dell’aggiornamento delle condizioni relative al prestito ordinario di euro 1.000.000,00 per i “Lavori di riqualificazione delle aree urbane nell'abitato di Vezza d'Oglio (BS) - rifacimento infrastruttura di distribuzione acquedottistica” – Aggiudicazione alla Banca Valsabbina S.c.p.a. di Vestone (BS). CUP H62E26000000004. CIG. n. BD9A33AA76. Determinazioni dirigenziali EMITTENTE: Servizi Economico-Finanziari e Tributari NUMERO ATTO/DOCUMENTO: n.203/SB02 / 2026 del 24/10/2026 NUMERO DI PUBBLICAZIONE: 520 PERIODO DI PUBBLICAZIONE: dal 05/11/2026 al 20/11/2026",
+      "parole": [
+        "aggiudicazione",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "https://www.comune.vezza-d-oglio.bs.it/Pages/Albo/?Id=446533&pg=0",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
