@@ -8473,5 +8473,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Castenedolo|2026-11-05||Numero pubblicazione 1263 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:09:02.653Z",
+    "atto": {
+      "id": "BS|Castenedolo|2026-11-05||Numero pubblicazione 1263 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1263 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Nomina Geom. Alessandro Gafforini quale Responsabile Unico del Progetto dei lavori di manutenzione straordinaria immobili comunali opere da idraulico anno 2026. -CUP J42F26000450004 N.Registro generale 768 Data registro generale 05/11/2026 Data inizio 05/11/2026 Data fine 20/11/2026",
+      "parole": [
+        "progetto",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29318",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
