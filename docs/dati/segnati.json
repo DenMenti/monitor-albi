@@ -8928,5 +8928,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ome|2026-11-05|2026/557|AFFIDAMENTO DIRETTO REALIZZAZIONE EVENTO FINALE DEL PALINSESTO (QUOTA PARTE) - F": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:14:25.462Z",
+    "atto": {
+      "id": "BS|Ome|2026-11-05|2026/557|AFFIDAMENTO DIRETTO REALIZZAZIONE EVENTO FINALE DEL PALINSESTO (QUOTA PARTE) - F",
+      "comune": "Ome",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/557",
+      "oggetto": "AFFIDAMENTO DIRETTO REALIZZAZIONE EVENTO FINALE DEL PALINSESTO (QUOTA PARTE) - FINANZIATO DA REGIONE LOMBARDIA COL PROGETTO TRAME DI TERRITORIO - LOMBARDIA STYLE CIG BDA35200AB CUP E39I25001710006",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://ome.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5768803?p_auth=8LvcrNGo&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
