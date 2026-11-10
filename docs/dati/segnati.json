@@ -3613,31 +3613,6 @@
       "_trovato": "2026-11-08_2155"
     }
   },
-  "BS|Braone|2026-10-29||Numero pubblicazione 344 Mittente Comune di Braone Tipo Determinazione Oggetto A": {
-    "stato": "fissato",
-    "quando": "2026-11-09T17:58:04.377Z",
-    "atto": {
-      "id": "BS|Braone|2026-10-29||Numero pubblicazione 344 Mittente Comune di Braone Tipo Determinazione Oggetto A",
-      "comune": "Braone",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "data": "2026-10-29",
-      "tipo": "",
-      "numero": "",
-      "oggetto": "Numero pubblicazione 344 Mittente Comune di Braone Tipo Determinazione Oggetto AFFIDAMENTO INCARICO PROFESSIONALE RELATIVO ALLA PROGETTAZIONE ESECUTIVA, DIREZIONE LAVORI E CONTABILITA' PER LA: \"Realizzazione area di sosta per camper in Via Giacomo Cappellini nel Comune di Braone\". (Codice CUP: I66B25000090005 Codice CIG: BD5491E614) Numero atto 78 Data atto 27/10/2026 Data inizio 29/10/2026 Data fine 13/11/2026",
-      "parole": [
-        "affidamento",
-        "incarico",
-        "lavor",
-        "progett"
-      ],
-      "link": "https://www.halleyweb.com/c017027/mc/mc_p_dettaglio.php?id_pubbl=2086",
-      "allegati": [],
-      "zip": "",
-      "quando": "2026-11-08_2155",
-      "_trovato": "2026-11-08_2155"
-    }
-  },
   "BS|Sirmione|2026-10-29|2026/1548|ARCH.ROBERTA LUSSIGNOLI E GEOM.BAVELLONI EMER-AFFIDAMENTO PROGETTAZIONE-DL-CSP-C": {
     "stato": "nascosto",
     "quando": "2026-11-09T17:58:19.361Z",
