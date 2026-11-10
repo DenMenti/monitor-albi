@@ -5807,7 +5807,7 @@
         "affidamento",
         "manutenzione"
       ],
-      "link": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL",
+      "link": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg173&freeze=1&P=",
       "allegati": [],
       "zip": "",
       "quando": "2026-11-08_2155",
@@ -8124,7 +8124,7 @@
       "comune": "Quinzano d'Oglio",
       "sigla": "BS",
       "provincia": "Brescia",
-      "data": "2026-11-24",
+      "data": "2026-11-09",
       "tipo": "",
       "numero": "",
       "oggetto": "DETERMINAZIONI AFFIDAMENTO DIRETTO, AI SENSI DELL'ART.36 C.2 LETTERA A) E DELL'ART.37 C.1 DEL D. LGS 50/2016, LAVORI STRADALI DI COMPLETAMENTO CON SOMME A DISPOSIZIONE DEL QE \"INTERVENTO DI RIFACIMENTO PAVIMENTAZIONE E FORMAZIONE ROTATORIA PIAZZA XX SETTEMBRE\" ai Unità organizzativa:SETTORE SERVIZI AL TERRITORIO Ufficio:UFFICIO TECNICO Pubblicazione dal 09-11-2026 al 24-11-2026 num. 760 Atto n. 88 del 06-11-2026",
@@ -8135,7 +8135,7 @@
         "rifacimento",
         "lavor"
       ],
-      "link": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL",
+      "link": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg173&freeze=1&P=",
       "allegati": [],
       "zip": "",
       "quando": "2026-11-10_1031",
@@ -8735,6 +8735,55 @@
       "zip": "",
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
+    }
+  },
+  "BS|Quinzano d'Oglio|2026-10-16||DETERMINAZIONI RIDETERMINAZIONE IMPEGNI DI SPESA ASSUNTI CON DETERMINAZIONE A CO": {
+    "stato": "nascosto",
+    "quando": "2026-11-09T18:11:02.257Z",
+    "atto": {
+      "id": "BS|Quinzano d'Oglio|2026-10-31||DETERMINAZIONI RIDETERMINAZIONE IMPEGNI DI SPESA ASSUNTI CON DETERMINAZIONE A CO",
+      "comune": "Quinzano d'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-31",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONI RIDETERMINAZIONE IMPEGNI DI SPESA ASSUNTI CON DETERMINAZIONE A CONTRATTARE. AFFIDAMENTO DIRETTO AI SENSI DELL'ART.50 COMMA 1 LETT. B) DEL D. LGS 36/2023 PER SERVIZIO DI MANUTENZIONE DEL PATRIMONIO IMMOBILIARE DEL COMUNE DI QUINZANO D'OGLIO OPERE DA Unità organizzativa:SETTORE SERVIZI AL TERRITORIO Ufficio:UFFICIO TECNICO Pubblicazione dal 16-10-2026 al 31-10-2026 num. 688 Atto n. 85 del 15-10-2026",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg173&freeze=1&P=",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
+  },
+  "BS|Quinzano d'Oglio|2026-11-09||DETERMINAZIONI AFFIDAMENTO DIRETTO, AI SENSI DELL'ART.36 C.2 LETTERA A) E DELL'A": {
+    "stato": "eliminato",
+    "quando": "2026-11-10T15:02:38.021Z",
+    "atto": {
+      "id": "BS|Quinzano d'Oglio|2026-11-24||DETERMINAZIONI AFFIDAMENTO DIRETTO, AI SENSI DELL'ART.36 C.2 LETTERA A) E DELL'A",
+      "comune": "Quinzano d'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-09",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONI AFFIDAMENTO DIRETTO, AI SENSI DELL'ART.36 C.2 LETTERA A) E DELL'ART.37 C.1 DEL D. LGS 50/2016, LAVORI STRADALI DI COMPLETAMENTO CON SOMME A DISPOSIZIONE DEL QE \"INTERVENTO DI RIFACIMENTO PAVIMENTAZIONE E FORMAZIONE ROTATORIA PIAZZA XX SETTEMBRE\" ai Unità organizzativa:SETTORE SERVIZI AL TERRITORIO Ufficio:UFFICIO TECNICO Pubblicazione dal 09-11-2026 al 24-11-2026 num. 760 Atto n. 88 del 06-11-2026",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "strad",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "https://www.comune.quinzanodoglio.bs.it/EG0/EGHOMEPAGE.HBL?ss=1&F=MC09&en=eg173&freeze=1&P=",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-10_1031",
+      "_trovato": "2026-11-10_1031"
     }
   }
 }

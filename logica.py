@@ -161,6 +161,37 @@ def mappa_colonne(headers):
     return {k: v for k, v in m.items() if v is not None}
 
 
+_D = r"(\d{1,2}[/.\-]\d{1,2}[/.\-](?:\d{4}|\d{2}))"
+
+
+def data_pubblicazione(testo, oggi=None):
+    """Data di inizio pubblicazione letta dal testo di una riga.
+    Prima cerca le formule esplicite ("pubblicazione dal X al Y", "inizio pubblicazione X", "pubblicato il X"),
+    poi usa le date presenti; non restituisce mai una data futura (sarebbe la fine della pubblicazione)."""
+    oggi = oggi or dt.date.today()
+    t = testo or ""
+    for schema in (r"(?:pubblica\w*|affiss\w*|periodo)\W{0,3}(?:dal|da)\s*:?\s*" + _D,
+                   r"inizio\s+(?:pubblicazione|affissione)\W{0,3}" + _D,
+                   r"pubblicat[oa]\s+(?:il|in data)\s*:?\s*" + _D,
+                   r"\bdal\s*:?\s*" + _D + r"\s*(?:al|a)\s*:?\s*\d"):
+        m = re.search(schema, t, re.I)
+        if m:
+            d = prima_data(m.group(1))
+            if d and d <= oggi:
+                return d
+    date = tutte_le_date(t)
+    if len(date) >= 3:
+        scelta = date[1]          # spesso: data atto, inizio, fine pubblicazione
+    elif date:
+        scelta = date[0]          # inizio (e fine) pubblicazione
+    else:
+        return None
+    if scelta > oggi:             # data futura: è la fine pubblicazione, prendo la più recente non futura
+        passate = [d for d in date if d <= oggi]
+        scelta = max(passate) if passate else scelta
+    return scelta
+
+
 def riga_in_atto(r):
     """Converte una riga grezza letta dalla pagina in un dizionario 'atto'."""
     cells = r.get("cells") or []
@@ -175,11 +206,7 @@ def riga_in_atto(r):
 
     data = prima_data(cella("data")) if m.get("data") is not None else None
     if data is None:
-        date = tutte_le_date(testo)
-        if len(date) >= 3:
-            data = date[1]       # spesso: data atto, inizio, fine pubblicazione
-        elif date:
-            data = date[0]       # inizio (e fine) pubblicazione
+        data = data_pubblicazione(testo)
     oggetto = cella("oggetto")
     if not oggetto:
         oggetto = max(cells, key=len) if cells else testo

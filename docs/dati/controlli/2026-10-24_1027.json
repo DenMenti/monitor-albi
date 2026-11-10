@@ -1,212 +1,212 @@
 {
- "quando": "2026-10-24_1027",
- "esito": "10 determine trovate in 1 comuni, 42 allegati.",
- "excel": "risultati/determine_2026-10-24_1027.xlsx",
- "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1027/allegati_2026-10-24_1027.zip",
- "risultati": [
-  {
-   "id": "BS|Roncadelle|2026-10-09|2026/869|RINNOVO AFFIDAMENTO DIRETTO DEL SERVIZIO DI ACCOMPAGNAMENTO E TRASPORTO DEGLI UT",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-09",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/869",
-   "oggetto": "RINNOVO AFFIDAMENTO DIRETTO DEL SERVIZIO DI ACCOMPAGNAMENTO E TRASPORTO DEGLI UTENTI DEL TRASPORTO SCOLASTICO E DEGLI UTENTI DEI SERVIZI SOCIALI PERIODO SETTEMBRE 2026 - AGOSTO 2027– CIG: B83D587F56",
-   "parole": [
-    "affidamento"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440027?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-09_01.pdf",
-    "roncadelle/roncadelle_2026-10-09_02.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-09_03.pdf",
-    "roncadelle/roncadelle_2026-10-09_04.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-09|2026/868|AFFIDAMENTO PER LA FORNITURA DI PRODOTTI PER LA PULIZIA DELL'ASILO NIDO COMUNALE",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-09",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/868",
-   "oggetto": "AFFIDAMENTO PER LA FORNITURA DI PRODOTTI PER LA PULIZIA DELL'ASILO NIDO COMUNALE - CIG: BD3D411C27",
-   "parole": [
-    "affidamento"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440024?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-09_05.pdf",
-    "roncadelle/roncadelle_2026-10-09_06.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-09_07.pdf",
-    "roncadelle/roncadelle_2026-10-09_08.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-10|2026/873|INTEGRAZIONE IMPEGNI DI SPESA CONTRATTO 2026/00002/DIR DENOMINATO \"MANUTENZIONE ",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-10",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/873",
-   "oggetto": "INTEGRAZIONE IMPEGNI DI SPESA CONTRATTO 2026/00002/DIR DENOMINATO \"MANUTENZIONE ORDINARIA E PERIODICA PER IL PERIODO GENNAIO 2026 - 30/04/2027 - OPERE DA LATTONIERE\" - CIG: BA1F554A0D",
-   "parole": [
-    "manutenzione"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440972?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-10_01.pdf",
-    "roncadelle/roncadelle_2026-10-10_02.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-10_03.pdf",
-    "roncadelle/roncadelle_2026-10-10_04.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-10_05.pdf",
-    "roncadelle/roncadelle_2026-10-10_06.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-10|2026/872|RINNOVO DEL CONTRATTO D’APPALTO DEL SERVIZIO CONTROLLO QUALITÀ DEL SERVIZIO DI R",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-10",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/872",
-   "oggetto": "RINNOVO DEL CONTRATTO D’APPALTO DEL SERVIZIO CONTROLLO QUALITÀ DEL SERVIZIO DI REFEZIONE PER SCUOLE, ASILO NIDO E CRE – ANNO SCOLASTICO 2026-27 - CIG ZAB3D1C8B3",
-   "parole": [
-    "appalto"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440969?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-10_07.pdf",
-    "roncadelle/roncadelle_2026-10-10_08.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-10_09.pdf",
-    "roncadelle/roncadelle_2026-10-10_10.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-17|2026/888|AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DI UN SISTEMA INTEGRATO OPEN DATA E GES",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-17",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/888",
-   "oggetto": "AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DI UN SISTEMA INTEGRATO OPEN DATA E GESTIONE PATRIMONIO INFORMATIVO PUBBLICO DEL COMUNE CON RELATIVO SUPPORTO TECNICO ORGANIZZATIVO. CIG BD4602873E",
-   "parole": [
-    "affidamento"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8452802?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-17_01.pdf",
-    "roncadelle/roncadelle_2026-10-17_02.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-17_03.pdf",
-    "roncadelle/roncadelle_2026-10-17_04.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-23|2026/905|AFFIDAMENTO DIRETTO DELLA FORNITURA DI BANDIERE PER GLI EDIFICI COMUNALI E COPIE",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-23",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/905",
-   "oggetto": "AFFIDAMENTO DIRETTO DELLA FORNITURA DI BANDIERE PER GLI EDIFICI COMUNALI E COPIE DELLA COSTITUZIONE DELLA REPUBBLICA ITALIANA. CIG BD53D9405E",
-   "parole": [
-    "affidamento"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464355?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-23_01.pdf",
-    "roncadelle/roncadelle_2026-10-23_02.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-23_03.pdf",
-    "roncadelle/roncadelle_2026-10-23_04.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-23|2026/904|AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDO, COMPLEMENTI D'ARREDO E MATERIALE ",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-23",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/904",
-   "oggetto": "AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDO, COMPLEMENTI D'ARREDO E MATERIALE ACCESSORI PER LA BIBLIOTECA COMUNALE. CIG.:BD4C7275FB",
-   "parole": [
-    "affidamento"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464352?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-23_05.pdf",
-    "roncadelle/roncadelle_2026-10-23_06.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-23_07.pdf",
-    "roncadelle/roncadelle_2026-10-23_08.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-23|2026/903|LIQUIDAZIONE COMPENSO AL COMPONENTE ESTERNO DELLA COMMISSIONE DI GARA PER L'APPA",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-23",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/903",
-   "oggetto": "LIQUIDAZIONE COMPENSO AL COMPONENTE ESTERNO DELLA COMMISSIONE DI GARA PER L'APPALTO DEL SERVIZIO DI GESTIONE GLOBALE DELLA BIBLIOTECA COMUNALE PER IL PERIODO DAL 1° OTTOBRE 2026 AL 30 SETTEMBRE 2029.",
-   "parole": [
-    "gara",
-    "appalto"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464349?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-23_09.pdf",
-    "roncadelle/roncadelle_2026-10-23_10.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-23_11.pdf",
-    "roncadelle/roncadelle_2026-10-23_12.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-23|2026/901|DETERMINA A CONTRATTARE PER AFFIDAMENTO DIRETTO DEL SERVIZIO DI FORMAZIONE A DIS",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-23",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/901",
-   "oggetto": "DETERMINA A CONTRATTARE PER AFFIDAMENTO DIRETTO DEL SERVIZIO DI FORMAZIONE A DISTANZA IN MODALITÀ WEBINAR RIVOLTO A TUTTI I DIPENDENTI IN TEMA DI ANTICORRUZIONE E TRASPARENZA ALLA LUCE DEL PNA 2026-2028 - CIG. N. BD66EC9DBE",
-   "parole": [
-    "affidamento"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464343?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-23_13.pdf",
-    "roncadelle/roncadelle_2026-10-23_14.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-23_15.pdf",
-    "roncadelle/roncadelle_2026-10-23_16.pdf.p7m"
-   ]
-  },
-  {
-   "id": "BS|Roncadelle|2026-10-23|2026/899|AFFIDAMENTO PROGETTO DI SUPERVISIONE E FORMAZIONE PROFESSIONALE PER ASILO NIDO C",
-   "comune": "Roncadelle",
-   "sigla": "BS",
-   "provincia": "Brescia",
-   "data": "2026-10-23",
-   "tipo": "DETERMINAZIONI / DETERMINAZIONE",
-   "numero": "2026/899",
-   "oggetto": "AFFIDAMENTO PROGETTO DI SUPERVISIONE E FORMAZIONE PROFESSIONALE PER ASILO NIDO COMUNALE PER L’A.E. 2026/2027 – CIG: BD6D29E010",
-   "parole": [
-    "affidamento",
-    "progetto"
-   ],
-   "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464337?p_p_state=pop_up",
-   "allegati": [
-    "roncadelle/roncadelle_2026-10-23_17.pdf",
-    "roncadelle/roncadelle_2026-10-23_18.pdf.p7m",
-    "roncadelle/roncadelle_2026-10-23_19.pdf",
-    "roncadelle/roncadelle_2026-10-23_20.pdf.p7m"
-   ]
-  }
- ]
+  "quando": "2026-10-24_1027",
+  "esito": "10 determine trovate in 1 comuni, 42 allegati.",
+  "excel": "risultati/determine_2026-10-24_1027.xlsx",
+  "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-24_1027/allegati_2026-10-24_1027.zip",
+  "risultati": [
+    {
+      "id": "BS|Roncadelle|2026-10-09|2026/869|RINNOVO AFFIDAMENTO DIRETTO DEL SERVIZIO DI ACCOMPAGNAMENTO E TRASPORTO DEGLI UT",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-09",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/869",
+      "oggetto": "RINNOVO AFFIDAMENTO DIRETTO DEL SERVIZIO DI ACCOMPAGNAMENTO E TRASPORTO DEGLI UTENTI DEL TRASPORTO SCOLASTICO E DEGLI UTENTI DEI SERVIZI SOCIALI PERIODO SETTEMBRE 2026 - AGOSTO 2027– CIG: B83D587F56",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440027?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-09_01.pdf",
+        "roncadelle/roncadelle_2026-10-09_02.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-09_03.pdf",
+        "roncadelle/roncadelle_2026-10-09_04.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-09|2026/868|AFFIDAMENTO PER LA FORNITURA DI PRODOTTI PER LA PULIZIA DELL'ASILO NIDO COMUNALE",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-09",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/868",
+      "oggetto": "AFFIDAMENTO PER LA FORNITURA DI PRODOTTI PER LA PULIZIA DELL'ASILO NIDO COMUNALE - CIG: BD3D411C27",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440024?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-09_05.pdf",
+        "roncadelle/roncadelle_2026-10-09_06.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-09_07.pdf",
+        "roncadelle/roncadelle_2026-10-09_08.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-10|2026/873|INTEGRAZIONE IMPEGNI DI SPESA CONTRATTO 2026/00002/DIR DENOMINATO \"MANUTENZIONE ",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-10",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/873",
+      "oggetto": "INTEGRAZIONE IMPEGNI DI SPESA CONTRATTO 2026/00002/DIR DENOMINATO \"MANUTENZIONE ORDINARIA E PERIODICA PER IL PERIODO GENNAIO 2026 - 30/04/2027 - OPERE DA LATTONIERE\" - CIG: BA1F554A0D",
+      "parole": [
+        "manutenzione"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440972?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-10_01.pdf",
+        "roncadelle/roncadelle_2026-10-10_02.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-10_03.pdf",
+        "roncadelle/roncadelle_2026-10-10_04.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-10_05.pdf",
+        "roncadelle/roncadelle_2026-10-10_06.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-10|2026/872|RINNOVO DEL CONTRATTO D’APPALTO DEL SERVIZIO CONTROLLO QUALITÀ DEL SERVIZIO DI R",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-10",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/872",
+      "oggetto": "RINNOVO DEL CONTRATTO D’APPALTO DEL SERVIZIO CONTROLLO QUALITÀ DEL SERVIZIO DI REFEZIONE PER SCUOLE, ASILO NIDO E CRE – ANNO SCOLASTICO 2026-27 - CIG ZAB3D1C8B3",
+      "parole": [
+        "appalto"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8440969?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-10_07.pdf",
+        "roncadelle/roncadelle_2026-10-10_08.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-10_09.pdf",
+        "roncadelle/roncadelle_2026-10-10_10.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-17|2026/888|AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DI UN SISTEMA INTEGRATO OPEN DATA E GES",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-17",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/888",
+      "oggetto": "AFFIDAMENTO DIRETTO PER LA REALIZZAZIONE DI UN SISTEMA INTEGRATO OPEN DATA E GESTIONE PATRIMONIO INFORMATIVO PUBBLICO DEL COMUNE CON RELATIVO SUPPORTO TECNICO ORGANIZZATIVO. CIG BD4602873E",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8452802?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-17_01.pdf",
+        "roncadelle/roncadelle_2026-10-17_02.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-17_03.pdf",
+        "roncadelle/roncadelle_2026-10-17_04.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-23|2026/905|AFFIDAMENTO DIRETTO DELLA FORNITURA DI BANDIERE PER GLI EDIFICI COMUNALI E COPIE",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/905",
+      "oggetto": "AFFIDAMENTO DIRETTO DELLA FORNITURA DI BANDIERE PER GLI EDIFICI COMUNALI E COPIE DELLA COSTITUZIONE DELLA REPUBBLICA ITALIANA. CIG BD53D9405E",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464355?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-23_01.pdf",
+        "roncadelle/roncadelle_2026-10-23_02.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-23_03.pdf",
+        "roncadelle/roncadelle_2026-10-23_04.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-23|2026/904|AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDO, COMPLEMENTI D'ARREDO E MATERIALE ",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/904",
+      "oggetto": "AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDO, COMPLEMENTI D'ARREDO E MATERIALE ACCESSORI PER LA BIBLIOTECA COMUNALE. CIG.:BD4C7275FB",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464352?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-23_05.pdf",
+        "roncadelle/roncadelle_2026-10-23_06.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-23_07.pdf",
+        "roncadelle/roncadelle_2026-10-23_08.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-23|2026/903|LIQUIDAZIONE COMPENSO AL COMPONENTE ESTERNO DELLA COMMISSIONE DI GARA PER L'APPA",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/903",
+      "oggetto": "LIQUIDAZIONE COMPENSO AL COMPONENTE ESTERNO DELLA COMMISSIONE DI GARA PER L'APPALTO DEL SERVIZIO DI GESTIONE GLOBALE DELLA BIBLIOTECA COMUNALE PER IL PERIODO DAL 1° OTTOBRE 2026 AL 30 SETTEMBRE 2029.",
+      "parole": [
+        "gara",
+        "appalto"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464349?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-23_09.pdf",
+        "roncadelle/roncadelle_2026-10-23_10.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-23_11.pdf",
+        "roncadelle/roncadelle_2026-10-23_12.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-23|2026/901|DETERMINA A CONTRATTARE PER AFFIDAMENTO DIRETTO DEL SERVIZIO DI FORMAZIONE A DIS",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/901",
+      "oggetto": "DETERMINA A CONTRATTARE PER AFFIDAMENTO DIRETTO DEL SERVIZIO DI FORMAZIONE A DISTANZA IN MODALITÀ WEBINAR RIVOLTO A TUTTI I DIPENDENTI IN TEMA DI ANTICORRUZIONE E TRASPARENZA ALLA LUCE DEL PNA 2026-2028 - CIG. N. BD66EC9DBE",
+      "parole": [
+        "affidamento"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464343?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-23_13.pdf",
+        "roncadelle/roncadelle_2026-10-23_14.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-23_15.pdf",
+        "roncadelle/roncadelle_2026-10-23_16.pdf.p7m"
+      ]
+    },
+    {
+      "id": "BS|Roncadelle|2026-10-23|2026/899|AFFIDAMENTO PROGETTO DI SUPERVISIONE E FORMAZIONE PROFESSIONALE PER ASILO NIDO C",
+      "comune": "Roncadelle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-10-23",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/899",
+      "oggetto": "AFFIDAMENTO PROGETTO DI SUPERVISIONE E FORMAZIONE PROFESSIONALE PER ASILO NIDO COMUNALE PER L’A.E. 2026/2027 – CIG: BD6D29E010",
+      "parole": [
+        "affidamento",
+        "progetto"
+      ],
+      "link": "https://roncadelle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8464337?p_p_state=pop_up",
+      "allegati": [
+        "roncadelle/roncadelle_2026-10-23_17.pdf",
+        "roncadelle/roncadelle_2026-10-23_18.pdf.p7m",
+        "roncadelle/roncadelle_2026-10-23_19.pdf",
+        "roncadelle/roncadelle_2026-10-23_20.pdf.p7m"
+      ]
+    }
+  ]
 }

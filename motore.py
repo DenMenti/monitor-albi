@@ -645,6 +645,12 @@ class Motore:
                         return
                     ida = L.id_atto(nome, c.get("sigla", ""), a["data"], a["numero"], a["oggetto"])
                     url_elenco = pg.url          # l'elenco vero (non il menu da cui si è partiti)
+                    try:
+                        # elenco dentro un riquadro (es. portali Halley "EG"): il link utile è quello del riquadro
+                        if frame is not pg.main_frame and frame.url.startswith("http"):
+                            url_elenco = frame.url
+                    except Exception:
+                        pass
                     if ida in esclusi:
                         return
                     self._controlla_stop()
