@@ -9191,5 +9191,29 @@
       "quando": "2026-11-06_1007",
       "_trovato": "2026-11-06_1007"
     }
+  },
+  "BS|Brescia|2026-11-05|2026/8087|OPERE DI URBANIZZAZIONE PRIMARIA PER LAVORI IN VIA DEL CARSO CONNESSI AL PERMESS": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T19:49:55.481Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-05|2026/8087|OPERE DI URBANIZZAZIONE PRIMARIA PER LAVORI IN VIA DEL CARSO CONNESSI AL PERMESS",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8087",
+      "oggetto": "OPERE DI URBANIZZAZIONE PRIMARIA PER LAVORI IN VIA DEL CARSO CONNESSI AL PERMESSO DI COSTRUIRE CONVENZIONATO PE 2090/2021 RIGUARDANTE LE AREE INSERITE NEL PROGETTO SPECIALE “PRS3 CARSO” DI PROPRIETÀ DELLA SOCIETÀ SANTAMARGHERITA S.R.L. APPROVAZIONE DEL CERTIFICATO DI REGOLARE ESECUZIONE DELLE OPERE DI URBANIZZAZIONE PRIMARIA E SVINCOLO DELLA POLIZZA FIDEIUSSORIA.",
+      "parole": [
+        "progetto",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2811806",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
