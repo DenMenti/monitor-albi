@@ -8332,5 +8332,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Ospitaletto|2026-11-05||Numero pubblicazione 1090 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:06:44.306Z",
+    "atto": {
+      "id": "BS|Ospitaletto|2026-11-05||Numero pubblicazione 1090 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ",
+      "comune": "Ospitaletto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1090 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto AFFIDAMENTO DIRETTO RIPRISTINO CENTRO LUMINOSO N. 7313 IN VIA DIVISIONE ALPINA TRIDENTINA - ENEL SOLE S.R.L. Numero atto 136 Data atto 05/11/2026 N.Registro generale 587 Data registro generale 05/11/2026 Data inizio 05/11/2026 Data fine 20/11/2026",
+      "parole": [
+        "affidamento",
+        "ripristin"
+      ],
+      "link": "https://www.halleyweb.com/c017127/mc/mc_p_dettaglio.php?id_pubbl=19066",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
