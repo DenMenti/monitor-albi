@@ -8976,5 +8976,30 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Esine|2026-11-05|2026/504|AFFIDAMENTO OPERE DA FABBRO DI COMPLETAMENTO NELL’AMBITO DEL PROGETTO DI “RICONV": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:14:36.247Z",
+    "atto": {
+      "id": "BS|Esine|2026-11-05|2026/504|AFFIDAMENTO OPERE DA FABBRO DI COMPLETAMENTO NELL’AMBITO DEL PROGETTO DI “RICONV",
+      "comune": "Esine",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINE",
+      "numero": "2026/504",
+      "oggetto": "AFFIDAMENTO OPERE DA FABBRO DI COMPLETAMENTO NELL’AMBITO DEL PROGETTO DI “RICONVERSIONE LOCALI DA ADIBIRE AD ASILO NIDO NELL'EDIFICIO ATTUALMENTE OCCUPATO DALLA SEDE AVIS E AMBULATORI”. CUP: G48H25000430006 - CIG: BD9E79FB58",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "edificio",
+        "progett"
+      ],
+      "link": "https://esine.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5766883?p_auth=y9cG3RMp&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
