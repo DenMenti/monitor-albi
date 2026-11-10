@@ -8689,5 +8689,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sarezzo|2026-11-05|2026/1093|DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE DELLA SEG": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:11:38.073Z",
+    "atto": {
+      "id": "BS|Sarezzo|2026-11-05|2026/1093|DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE DELLA SEG",
+      "comune": "Sarezzo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/1093",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE DELLA SEGNALETICA STRADALE ORIZZONTALE E DELLA FORNITURA DI SEGNALETICA VERTICALE - CIG: BDA5962C67",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione"
+      ],
+      "link": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2812807?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
