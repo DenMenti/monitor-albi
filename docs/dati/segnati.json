@@ -8498,5 +8498,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Castenedolo|2026-11-05||Numero pubblicazione 1272 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:09:14.490Z",
+    "atto": {
+      "id": "BS|Castenedolo|2026-11-05||Numero pubblicazione 1272 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1272 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Appalto servizi cimiteriali anni 2027/2028/2029. Determina a contrattare CIG BDA97C4745. N.Registro generale 777 Data registro generale 05/11/2026 Data inizio 05/11/2026 Data fine 20/11/2026",
+      "parole": [
+        "appalto",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29327",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
