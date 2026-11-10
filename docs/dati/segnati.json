@@ -8713,5 +8713,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Sarezzo|2026-11-05|2026/1096|DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO DELLA FORNITURA E POSA IN OPE": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:11:42.993Z",
+    "atto": {
+      "id": "BS|Sarezzo|2026-11-05|2026/1096|DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO DELLA FORNITURA E POSA IN OPE",
+      "comune": "Sarezzo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/1096",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO DELLA FORNITURA E POSA IN OPERA DI GUAINA IN VETRORESINA UV PER IL RISANAMENTO DELLA CONDOTTA DELLE ACQUE BIANCHE IN VIA MAESTRI DEL LAVORO – CIG: BD84DE8FD9",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2812834?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
