@@ -9095,5 +9095,29 @@
       "quando": "2026-11-06_1007",
       "_trovato": "2026-11-06_1007"
     }
+  },
+  "BS|Brescia|2026-11-05|2026/8060|BO 254/2026 AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDI E ATTREZZATURE PER ALL": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:26:12.517Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-05|2026/8060|BO 254/2026 AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDI E ATTREZZATURE PER ALL",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8060",
+      "oggetto": "BO 254/2026 AFFIDAMENTO DIRETTO DELLA FORNITURA DI ARREDI E ATTREZZATURE PER ALLESTIMENTO SPAZIO MULTIFUNZIONALE IN VIA LIVORNO 7 BRESCIA - PROGETTO DESTEENAZIONE QUOTA FONDI FESR CUP C85E25000110006 – ALL’OPERATORE ECONOMICO MOBILFERRO SRL – CIG BD6BE541D6 G13027 - EURO 13.463,31 (ONERI FISCALI INCLUSI)",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2811492",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
