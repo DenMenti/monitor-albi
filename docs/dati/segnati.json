@@ -8879,5 +8879,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Pian Camuno|2026-11-05|2026/663|Conferimento dell’incarico professionale per il servizio di redazione del PFTE, ": {
+    "stato": "fissato",
+    "quando": "2026-11-10T15:13:50.164Z",
+    "atto": {
+      "id": "BS|Pian Camuno|2026-11-05|2026/663|Conferimento dell’incarico professionale per il servizio di redazione del PFTE, ",
+      "comune": "Pian Camuno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/663",
+      "oggetto": "Conferimento dell’incarico professionale per il servizio di redazione del PFTE, progetto esecutivo, rilievi, studio geologico/geotecnico/sismico, progetto strutturale, D.L., contabilità e sicurezza cantieri in fase di progettazione ed esecuzione, pratiche autorizzative per captazione pozzo ad uso potabile nonché tutte le eventuali relazioni specialistiche anche di tipo impiantistico relativamente ai lavori di “Potenziamento dell’acquedotto comunale in località Minolfa e Beata con la realizzazione di un nuovo pozzo di captazione e vasca di accumulo” - CUP D42E26000140004 - CIG BD60BEFA93",
+      "parole": [
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://piancamuno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5767981?p_auth=r2lj7kjH&p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
