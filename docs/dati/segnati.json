@@ -8808,5 +8808,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Rudiano|2026-11-05|2026/599|EROGAZIONE BORSE DI STUDIO A FAVORE DI GIOVANI TALENTI MUSICALI DEL TERRITORIO N": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:13:24.577Z",
+    "atto": {
+      "id": "BS|Rudiano|2026-11-05|2026/599|EROGAZIONE BORSE DI STUDIO A FAVORE DI GIOVANI TALENTI MUSICALI DEL TERRITORIO N",
+      "comune": "Rudiano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/599",
+      "oggetto": "EROGAZIONE BORSE DI STUDIO A FAVORE DI GIOVANI TALENTI MUSICALI DEL TERRITORIO NELL’AMBITO DEL PROGETTO “GENERAZIONE GNARI” BANDO REGIONE LOMBARDIA “GIOVANI SMART – TERZA EDIZIONE” CUP E81B25000280003 – IMPEGNI DI SPESA.",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://rudiano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2811693?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
