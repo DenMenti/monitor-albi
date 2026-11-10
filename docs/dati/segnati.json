@@ -9119,5 +9119,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Brescia|2026-11-05|2026/8068|AFFIDAMENTO DIRETTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER ATTIVITÀ DI AG": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:26:32.401Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-05|2026/8068|AFFIDAMENTO DIRETTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER ATTIVITÀ DI AG",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8068",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL SERVIZIO DI INGEGNERIA E ARCHITETTURA PER ATTIVITÀ DI AGGIORNAMENTO CATASTALE DEGLI IMMOBILI DI EDILIZIA RESIDENZIALE PUBBLICA SITI IN BRESCIA, VIA BIXIO, VIA CARINI, VIA PAGANINI, VIA DEI SABBIO, VIA PIGAFETTA E ALLOGGI SPARSI QUARTIERE CARMINE CIG BD8EA0FC44 AFFIDAMENTO ALL’OPERATORE ECONOMICO GEOM. ALESSIO MARCHESE.",
+      "parole": [
+        "affidamento",
+        "edilizia"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2811522",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
