@@ -9240,5 +9240,29 @@
       "quando": "2026-11-06_1007",
       "_trovato": "2026-11-06_1007"
     }
+  },
+  "BS|Brescia|2026-11-05|2026/8104|1° CONTRATTO ATTUATIVO -ACCORDO QUADRO LAVORI MANUTENTIVI – OPERE EDILI ED AFFIN": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T19:50:14.964Z",
+    "atto": {
+      "id": "BS|Brescia|2026-11-05|2026/8104|1° CONTRATTO ATTUATIVO -ACCORDO QUADRO LAVORI MANUTENTIVI – OPERE EDILI ED AFFIN",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8104",
+      "oggetto": "1° CONTRATTO ATTUATIVO -ACCORDO QUADRO LAVORI MANUTENTIVI – OPERE EDILI ED AFFINI – RELATIVI AGLI EDIFICI SCOLASTICI MEDIANTE INTERVENTI A “CHIAMATA”, A “GUASTO”, NONCHE’ DI MANUTENZIONE PROGRAMMATA, SU N. 2 LOTTI, DURATA TRIENNALE– LOTTO 1 ZONA NORD” - CIG PADRE B7E04180C4 - CIG DERIVATO B961FD76C6 - APPROVAZIONE CERTIFICATO DI REGOLARE ESECUZIONE E LIQUIDAZIONE SALDO ALL’IMPRESA SECOOP IMPRESA SOCIALE SOCIETA’ COOPERATIVA SOCIALE ONLUS - SVINCOLO GARANZIE.",
+      "parole": [
+        "gara",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2811984",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-06_1007",
+      "_trovato": "2026-11-06_1007"
+    }
   }
 }
