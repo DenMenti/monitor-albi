@@ -8785,5 +8785,28 @@
       "quando": "2026-11-10_1031",
       "_trovato": "2026-11-10_1031"
     }
+  },
+  "BS|Sarezzo|2026-11-05|2026/1097|DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE COPERTURA": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:13:19.929Z",
+    "atto": {
+      "id": "BS|Sarezzo|2026-11-05|2026/1097|DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE COPERTURA",
+      "comune": "Sarezzo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/1097",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE COPERTURA DELLA SCUOLA DELL’INFANZIA RODARI IN VIA 1850 - CIG: BDA9792E00",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2812837?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
