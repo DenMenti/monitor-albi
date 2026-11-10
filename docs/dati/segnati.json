@@ -8426,5 +8426,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Iseo|2026-11-05||Numero pubblicazione 1590 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto In": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:07:14.736Z",
+    "atto": {
+      "id": "BS|Iseo|2026-11-05||Numero pubblicazione 1590 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto In",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1590 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Integrazione accertamento del canone annuale da parte di Cogeme Spa, ex art. 2.5 \"Concessione di Servizi mediante finanza di progetto ai sensi dell'art. 30 D.Lgs. 163/2006, dell'art. 278 del D.P.R. n. 207/2010 e smi relativa alla progettazione, realizzazione e gestione dei servizi cimiteriali nel Comune di Iseo, capoluogo e frazioni - CIG 5281983E3F\" - anno 2026 N.Registro generale 870 Data registro generale 04/11/2026 Data inizio 05/11/2026 Data fine 20/11/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21415",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
