@@ -8620,5 +8620,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Travagliato|2026-11-05|2026/1062|AFFIDAMENTO INTERVENTI STRAORDINARI DI SFALCIO E POTATURE DI AREE COMUNALI E RIF": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:10:44.915Z",
+    "atto": {
+      "id": "BS|Travagliato|2026-11-05|2026/1062|AFFIDAMENTO INTERVENTI STRAORDINARI DI SFALCIO E POTATURE DI AREE COMUNALI E RIF",
+      "comune": "Travagliato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1062",
+      "oggetto": "AFFIDAMENTO INTERVENTI STRAORDINARI DI SFALCIO E POTATURE DI AREE COMUNALI E RIFACIMENTO DELL’AREA VERDE PRESSO IL NUOVO ASILO NIDO",
+      "parole": [
+        "affidamento",
+        "rifacimento"
+      ],
+      "link": "https://travagliato.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/8489324",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
