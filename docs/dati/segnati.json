@@ -9408,5 +9408,30 @@
       "quando": "2026-11-10_1031",
       "_trovato": "2026-11-10_1031"
     }
+  },
+  "BS|Castel Mella|2026-11-10|2026/948|DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE DEFINITIVA ALLA DITTA LEGORI ": {
+    "stato": "fissato",
+    "quando": "2026-11-10T19:58:24.833Z",
+    "atto": {
+      "id": "BS|Castel Mella|2026-11-10|2026/948|DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE DEFINITIVA ALLA DITTA LEGORI ",
+      "comune": "Castel Mella",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/948",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE DEFINITIVA ALLA DITTA LEGORI FRANCESCO E GIOVANNI S.N.C., AI SENSI DELL’ART. 50 COMMA 1 LETT. A DEL D.LGS. 36/2023, DELL'APPALTO PER I LAVORI DI RIFACIMENTO PARZIALE DELLA COPERTURA DEL CIMITERO E LA REALIZZAZIONE DI NUOVA TUBAZIONE DI SCARICO DELLE ACQUE PIOVANE PRESSO LA PIAZZA UNITA' D'ITALIA CUP: B32E26049060004 CIG: BD8C330872",
+      "parole": [
+        "appalto",
+        "aggiudicazione",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "https://castelmella.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10627300?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-10_1031",
+      "_trovato": "2026-11-10_1031"
+    }
   }
 }
