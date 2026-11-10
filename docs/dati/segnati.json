@@ -9001,5 +9001,28 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Corteno Golgi|2026-11-05||Opere di “ripristino arginature, sede viaria e sottoservizi nel tratto di Valle ": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:14:52.682Z",
+    "atto": {
+      "id": "BS|Corteno Golgi|2026-11-05||Opere di “ripristino arginature, sede viaria e sottoservizi nel tratto di Valle ",
+      "comune": "Corteno Golgi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Opere di “ripristino arginature, sede viaria e sottoservizi nel tratto di Valle di Sant’Antonio compreso fra la realizzanda galleria e frazione Sant’Antonio” in Comune di Corteno Golgi (Bs). OCDPC 766/2021: Intervento ID: OCDPC766-21_ULT.FAB_138d del Piano degli interventi di cui all’art. 1 c. 5 dell’Ordinanza 766 del 9 aprile 2021 – Rimodulazione II 2022”. CUP: I67H21002130001, CIG padre opera : B3F754CCAA, CIG derivato opera: B556EA8E2D. Approvazione Collaudo Statico Strutture e approvazione Collaudo Tecnico-Amministrativo opera. Determinazioni dirigenziali EMITTENTE: Ufficio Amministrativo NUMERO ATTO/DOCUMENTO: n.242 / 2026 del 14/10/2026 NUMERO DI PUBBLICAZIONE: 616 PERIODO DI PUBBLICAZIONE: dal 05/11/2026 al 20/11/2026",
+      "parole": [
+        "intervento",
+        "ripristin"
+      ],
+      "link": "https://www.comune.corteno-golgi.bs.it/Pages/Albo/?Id=446544&pg=0",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
