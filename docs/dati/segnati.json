@@ -8141,5 +8141,31 @@
       "quando": "2026-11-10_1031",
       "_trovato": "2026-11-10_1031"
     }
+  },
+  "BS|Cevo|2026-11-04|2026/496|PROCEDURA NEGOZIATA, AI SENSI DELL’ART. 50, COMMA 1, LETTERA C), DEL D.LGS. 36/2": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:05:36.400Z",
+    "atto": {
+      "id": "BS|Cevo|2026-11-04|2026/496|PROCEDURA NEGOZIATA, AI SENSI DELL’ART. 50, COMMA 1, LETTERA C), DEL D.LGS. 36/2",
+      "comune": "Cevo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/496",
+      "oggetto": "PROCEDURA NEGOZIATA, AI SENSI DELL’ART. 50, COMMA 1, LETTERA C), DEL D.LGS. 36/2023, PER L’AFFIDAMENTO DEI LAVORI DI “RIQUALIFICAZIONE DEL PARCO COMUNALE (PINETA) CON POTENZIAMENTO DEI SERVIZI DI RICETTIVITÀ TURISTICA – LOTTO 2” – CUP D38E22000170002 – CIG BC99873561 – PROCEDURA SINTEL N. 224464883 – PRESA D’ATTO DEI VERBALI DI GARA E PROPOSTA DI AGGIUDICAZIONE.",
+      "parole": [
+        "affidamento",
+        "gara",
+        "procedura negoziata",
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "https://cevo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8488070?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
