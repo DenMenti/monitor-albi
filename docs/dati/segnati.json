@@ -8378,5 +8378,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Iseo|2026-11-05||Numero pubblicazione 1587 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Af": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:06:57.484Z",
+    "atto": {
+      "id": "BS|Iseo|2026-11-05||Numero pubblicazione 1587 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Af",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-05",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1587 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Affidamento contratto derivato all'interno di accordo quadro per i servizi di manutenzione ordinaria e straordinaria per opere da imbianchino e servizi affini degli immobili facenti parte del patrimonio di competenza comunale CIG padre B45638E49B - Ordine di esecuzione n. 10 - Codice univoco appalto COMUNE_ISEO_1508_2026_0162 - CIG derivato/figlio: BD7CDC51F9 N.Registro generale 867 Data registro generale 03/11/2026 Data inizio 05/11/2026 Data fine 20/11/2026",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "manutenzione"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21412",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-08_2155",
+      "_trovato": "2026-11-08_2155"
+    }
   }
 }
