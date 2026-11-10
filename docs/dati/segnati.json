@@ -8216,5 +8216,29 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BS|Artogne|2026-11-04|2026/570|AGGIUDICAZIONE DEFINITIVA PER AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 ": {
+    "stato": "nascosto",
+    "quando": "2026-11-10T15:06:02.086Z",
+    "atto": {
+      "id": "BS|Artogne|2026-11-04|2026/570|AGGIUDICAZIONE DEFINITIVA PER AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 ",
+      "comune": "Artogne",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-04",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/570",
+      "oggetto": "AGGIUDICAZIONE DEFINITIVA PER AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 LETTERA A) DEL D.LGS. N. 36/2023 E S.M.I. DEI LAVORI PER “REALIZZAZIONE DI NUOVA AREA DESTINATA A PARCHEGGIO PUBBLICO IN LOCALITÀ MAROCHELLO AD ARTOGNE.” IMPEGNO QUOTE INCENTIVO FUNZIONI TECNICHE. APPROVAZIONE SAL FINALE, CRE E LIQUIDAZIONE DEL CONTO FINALE ALL’IMPRESA. APPROVAZIONE QUADRO ECONOMICO FINALE. CUP C41B24000400004 – CIG BB9C8DFA96",
+      "parole": [
+        "affidamento",
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "https://artogne.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2082535?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-05_1015",
+      "_trovato": "2026-11-05_1015"
+    }
   }
 }
