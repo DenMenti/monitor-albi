@@ -1,0 +1,833 @@
+{
+  "quando": "2026-11-11_1005",
+  "esito": "49 determine trovate in 260 comuni, 0 allegati. 76 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-11-11_1005.xlsx",
+  "zip": "",
+  "risultati": [
+    {
+      "id": "BL|Auronzo di Cadore|2026-11-10|2026/1092|INTERVENTO DI \"RIFACIMENTO DEI PARCHI NELLE AREE VERDI DEL LAGO DI SANTA CATERIN",
+      "comune": "Auronzo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/1092",
+      "oggetto": "INTERVENTO DI \"RIFACIMENTO DEI PARCHI NELLE AREE VERDI DEL LAGO DI SANTA CATERINA - SISTEMAZIONE AREA LAGO PONTE TRANSACQUA\": APPROVAZIONE GENERALE ACCLARANTE I RAPPORTI FINANZIARI TRA LA REGIONE DEL VENETO E IL COMUNE DI AURONZO DI CADORE. CIG 76144445F7 - CUP B24H14001670004.",
+      "parole": [
+        "intervento",
+        "rifacimento"
+      ],
+      "link": "https://auronzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1462124?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BL|Domegge di Cadore|2026-11-10|2026/515|AFFIDAMENTO DELLA FORNITURA DI GHIAINO ANTISDRUCCIOLO E STABILIZZATO AD USO STRA",
+      "comune": "Domegge di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/515",
+      "oggetto": "AFFIDAMENTO DELLA FORNITURA DI GHIAINO ANTISDRUCCIOLO E STABILIZZATO AD USO STRADALE. CIG: BD8E29C691",
+      "parole": [
+        "affidamento",
+        "strad"
+      ],
+      "link": "https://domeggedicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1461814?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BL|Livinallongo del CdL|2026-11-10|2026/835|AGGIUDICAZIONE LAVORI DENOMINATI “LAVORI DI ADEGUAMENTO DELLA VIABILITA’ COMUNAL",
+      "comune": "Livinallongo del CdL",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/835",
+      "oggetto": "AGGIUDICAZIONE LAVORI DENOMINATI “LAVORI DI ADEGUAMENTO DELLA VIABILITA’ COMUNALE”. FONDO COMUNI CONFINANTI ANNUALITA’ 2024. CUP E97H24001090001 - CIG BD575A332F",
+      "parole": [
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "https://livinallongo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8496511?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BL|Ponte nelle Alpi|2026-11-10||Numero pubblicazione 1030 Mittente AREA EDILIZIA E SERVIZI SOCIO-CULTURALI Tipo ",
+      "comune": "Ponte nelle Alpi",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1030 Mittente AREA EDILIZIA E SERVIZI SOCIO-CULTURALI Tipo Determinazione Oggetto DECISIONE DI CONTRARRE E AFFIDAMENTO DIRETTO, AI SENSI DELL'ART. 50, COMMA 1, LETT. B) DEL D.LGS N. 36/2023, DEL SERVIZIO PER LA REALIZZAZIONE DELL'EVENTO ORGANIZZATO DALL'AMMINISTRAZIONE COMUNALE A FAVORE DEI DIPLOMATI E NEOLAUREATI RESIDENTI - ANNO 2026. CIG BDB41B1170 - CUP D19I26000600009 Numero atto 79 Data atto 10/11/2026 N.Registro generale 515 Data registro generale 10/11/2026 Data inizio 10/11/2026 Data fine 25/11/2026",
+      "parole": [
+        "affidamento",
+        "edilizia"
+      ],
+      "link": "https://servizionline.comune.pontenellealpi.bl.it/mc/mc_p_dettaglio.php?id_pubbl=21406",
+      "allegati": []
+    },
+    {
+      "id": "BL|San Pietro di Cadore|2026-11-10|477|DETERMINA N. Sett.171 DEL 10/11/2026 - AREA TECNICA - N. Gen.: 263/2026: APPALTO",
+      "comune": "San Pietro di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "Determinazioni",
+      "numero": "477",
+      "oggetto": "DETERMINA N. Sett.171 DEL 10/11/2026 - AREA TECNICA - N. Gen.: 263/2026: APPALTO SERVIZIO DI MANUTENZIONE IMPIANTI IDRICI, FOGNARI E TERMICI, BRUCIATORI PER IL INTEGRAZIONE IMPEGNO ANNUALITA' 2026 CIG: BB35ACC86F",
+      "parole": [
+        "appalto",
+        "manutenzione"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspietrodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": []
+    },
+    {
+      "id": "BL|Santo Stefano di Cadore|2026-11-10|435|DETERMINA N.185 DEL 10/11/2026 - AREA TECNICA - EDILIZIA PRIVATA E PUBBLICA: AFF",
+      "comune": "Santo Stefano di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "Determinazioni",
+      "numero": "435",
+      "oggetto": "DETERMINA N.185 DEL 10/11/2026 - AREA TECNICA - EDILIZIA PRIVATA E PUBBLICA: AFFIDAMENTO FORNITURA SALGEMMA - CIG BDBA045DCC",
+      "parole": [
+        "affidamento",
+        "edilizia"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsstefanodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": []
+    },
+    {
+      "id": "BL|Santo Stefano di Cadore|2026-11-10|433|DETERMINA N.184 DEL 10/11/2026 - AREA TECNICA - EDILIZIA PRIVATA E PUBBLICA: AFF",
+      "comune": "Santo Stefano di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "Determinazioni",
+      "numero": "433",
+      "oggetto": "DETERMINA N.184 DEL 10/11/2026 - AREA TECNICA - EDILIZIA PRIVATA E PUBBLICA: AFFIDAMENTO LAVORI DI SISTEMAZIONE RINGHIERA IN VIA COSTA SOPRA LA PIAZZA SANTISSIMA TRINITÀ DI COSTALISSOIO - CIG: BCECE07645",
+      "parole": [
+        "affidamento",
+        "edilizia",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmsstefanodicadore/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": []
+    },
+    {
+      "id": "BL|Taibon Agordino|2026-11-10|2026/547|SERVIZIO DI MANUTENZIONE LAVASTOVIGLIE SCUOLA DELL’INFANZIA. AFFIDAMENTO DIRETTO",
+      "comune": "Taibon Agordino",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/547",
+      "oggetto": "SERVIZIO DI MANUTENZIONE LAVASTOVIGLIE SCUOLA DELL’INFANZIA. AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1, LETT. B) DEL D.LGS. N. 36/2023. CIG:BD91345E66",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://taibonagordino.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8498746?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BL|Vigo di Cadore|2026-11-10|2026/576|AFFIDAMENTO DEL SERVIZIO TECNICO DI PROGETTAZIONE ESECUTIVA, COORDINAMENTO DELLA",
+      "comune": "Vigo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/576",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO TECNICO DI PROGETTAZIONE ESECUTIVA, COORDINAMENTO DELLA SICUREZZA, DIREZIONE LAVORI, CONTABILITA’ E REDAZIONE DEL CERTIFICATO DI REGOLARE ESECUZIONE DELL’INTERVENTO DI SISTEMAZIONE E MANUTENZIONE STRAORDINARIA DELLA VIABILITA’ DI ACCESSO AL TORRENTE PIOVA, DENOMINATA “S. OSVALDO-LAVINAI”. CUP: C87H26001540004 - CIG: BDB91014D3",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://vigodicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1461819?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/608|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1, LETT. B), DEL D.LGS. 36/2023",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/608",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1, LETT. B), DEL D.LGS. 36/2023 DEL SERVIZIO ANNUALE DI UTILIZZO DELLA PIATTAFORMA SOFTWARE CONNET NEXT PER LA GESTIONE DEL CICLO SANZIONATORIO DEL CODICE DELLA STRADA – SOCIETÀ DEDA NEXT S.R.L. CIG BDA92E2FBA",
+      "parole": [
+        "affidamento",
+        "strad"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5779141?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/591|AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS. 36/2023 ME",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/591",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS. 36/2023 MEDIANTE PIATTAFORMA REGIONALE SINTEL DELLA REALIZZAZIONE DEL PROGETTO \"I SENTIERI DELLA VALCAMONICA\" NELLA TAPPA \"TRA BOSCHI, SENTIERI E PANORAMI: VIVI ANGOLO TERME\" OGGETTO DEL BANDO ITINERARI ED EVENTI INLOMBARDIA 2026 A CONSORZIO TURISTICO THERMAE & SKI VALLE CAMONICA - CUP J39I26000300006 - CIG BD67844095",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5779124?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/587|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DEL D.LGS 36/2023 DEL",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/587",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DEL D.LGS 36/2023 DELL'APPALTO PER L’AFFIDAMENTO DEI LAVORI PER INTERVENTI MANUTENTIVI AL CAMPO SPORTIVO IN ERBA SINTETICA IN PIAZZA GIOVANNI XXIII NEL COMUNE DI ANGOLO TERME. CIG BD64191CED.",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "lavor"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778998?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/586|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DELL' INCARICO PROFES",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/586",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DELL' INCARICO PROFESSIONALE INERENTE LA REDAZIONE DEL DEL PROGETTO DI FATTIBILITÀ TECNICO ED ECONOMICA DEI LAVORI \"INTERVENTI DI RIQUALIFICAZIONE DELL’EDIFICIO SCOLASTICO FINALIZZATI AL BENESSERE DELLA COMUNITÀ SCOLASTICA\" PER LA PARTECIPAZIONE AL BANDO DI REGIONE LOMBARDIA “SCUOLA SI-CURA” APPROVATO DECRETO N. 11285 DEL 28/08/2026. CIG BD5EB401EB.",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "edificio",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778997?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/583|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DELL'APPALTO PER L'ES",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/583",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DELL'APPALTO PER L'ESECUZIONE DEI LAVORI DI \"MANUTENZIONE STRAORDINARIA PER LA REALIZZAZIONE DI UN PARCO GIOCHI INCLUSIVO IN PIAZZA SAN GIACOMO NELLA FRAZIONE DI MAZZUNNO” - CUP J32H26001130009 - CIG BD308480F2.",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778994?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/581|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/2023 DEL",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/581",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/2023 DEL SERVIZIO PER TRASLOCO DELLE APPARECCHIATURE HARDWARE E LA SISTEMAZIONE DEFINITIVA DEL CABLAGGIO DEGLI UFFICI IN SEGUITO AI LAVORI DI RIQUALIFICAZIONE ED EFFICIENTAMENTO ENERGETICO DEL PALAZZO COMUNALE (BANDO RECAP DI REGIONE LOMBARDIA). CIG BD2B396C61.",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778992?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/572|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DEL D.LGS 36/2023 DEI",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/572",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DEL D.LGS 36/2023 DEI LAVORI REALIZZAZIONE TRATTO DI ACQUEDOTTO PER ALLACCIAMENTO NUOVA AREA CAMPER IN LOC. COLLE VARENO. CIG BCFD0B1B16.",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778983?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/570|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DEL D.LGS 36/2023 DEI",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/570",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. A) DEL D.LGS 36/2023 DEI LAVORI DI SIGILLATURA DELLE FESSURE PRESENTI NEL MANTO STRADALE DEL VILLAGGIO \"COLLE VARENO\". CIG BCFB5F3997.",
+      "parole": [
+        "affidamento",
+        "strad",
+        "lavor"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778927?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Angolo Terme|2026-11-10|2026/568|AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/2023 DEL",
+      "comune": "Angolo Terme",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/568",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/2023 DEL SERVIZIO DI RIPARAZIONE IMPIANTO SOLARE TERMICO INSTALLATO PRESSO L'EDIFICIO DI PROPRIETÀ COMUNALE SITO NELLA FRAZIONE DI MAZZUNNO ADIBITO AD OSTELLO. CIG BCE46BAEE7.",
+      "parole": [
+        "affidamento",
+        "edificio"
+      ],
+      "link": "https://angoloterme.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778925?p_auth=oC39cjv9&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Brescia|2026-11-10|2026/8255|EROGAZIONE DI € 1.250,00 A SALDO DEL CONTRIBUTO CONCESSO A MANOLIBERA COOPERATIV",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8255",
+      "oggetto": "EROGAZIONE DI € 1.250,00 A SALDO DEL CONTRIBUTO CONCESSO A MANOLIBERA COOPERATIVA SOCIALE ETS PER LA REALIZZAZIONE DEL PROGETTO \"CAMPER RANDAGIO 2.0\"-ANNO 2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2817613",
+      "allegati": []
+    },
+    {
+      "id": "BS|Brescia|2026-11-10|2026/8218|AFFIDAMENTO DIRETTO DEL “SERVIZIO DI PRONTO INTERVENTO E MANUTENZIONE IMPIANTI A",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/8218",
+      "oggetto": "AFFIDAMENTO DIRETTO DEL “SERVIZIO DI PRONTO INTERVENTO E MANUTENZIONE IMPIANTI ANTINTRUSIONE E VIDEOSORVEGLIANZA INSTALLATI PRESSO GLI EDIFICI CIVILI E SOCIALI” – DURATA BIENNALE 2026 – 2028 - CIG BD9F96889A – G13022 - ALL’OPERATORE ECONOMICO RIZZI FAUSTO & C. SNC",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "manutenzione"
+      ],
+      "link": "https://albopretorio.comune.brescia.it/web/trasparenza/albo-pretorio/-/papca/display/2816156",
+      "allegati": []
+    },
+    {
+      "id": "BS|Castel Mella|2026-11-10|2026/953|AFFIDAMENTO DIRETTO DI INCARICO PROFESSIONALE PER L'AGGIORNAMENTO DEL DOCUMENTO ",
+      "comune": "Castel Mella",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/953",
+      "oggetto": "AFFIDAMENTO DIRETTO DI INCARICO PROFESSIONALE PER L'AGGIORNAMENTO DEL DOCUMENTO DI VALUTAZIONE RISCHI, DI EDIFICI COMUNALI, IN MATERIA DI SALUTE E SICUREZZA SUI LUOGHI DI LAVORO. IMPORTO INFERIORE AD EURO 5.000,00 CIG BDAF941A6F",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "lavor"
+      ],
+      "link": "https://castelmella.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10627458?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Castel Mella|2026-11-10|2026/948|DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE DEFINITIVA ALLA DITTA LEGORI ",
+      "comune": "Castel Mella",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/948",
+      "oggetto": "DETERMINA A CONTRARRE E CONTESTUALE AGGIUDICAZIONE DEFINITIVA ALLA DITTA LEGORI FRANCESCO E GIOVANNI S.N.C., AI SENSI DELL’ART. 50 COMMA 1 LETT. A DEL D.LGS. 36/2023, DELL'APPALTO PER I LAVORI DI RIFACIMENTO PARZIALE DELLA COPERTURA DEL CIMITERO E LA REALIZZAZIONE DI NUOVA TUBAZIONE DI SCARICO DELLE ACQUE PIOVANE PRESSO LA PIAZZA UNITA' D'ITALIA CUP: B32E26049060004 CIG: BD8C330872",
+      "parole": [
+        "appalto",
+        "aggiudicazione",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "https://castelmella.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10627300?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Cologne|2026-11-11|2026/908|M2C4 INV. 2.2 – ART. 1 C. 139 L. 145/2018 - CUP: D27H20001110001 - “INTERVENTO D",
+      "comune": "Cologne",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-11",
+      "tipo": "ATTI / DETERMINAZIONE",
+      "numero": "2026/908",
+      "oggetto": "M2C4 INV. 2.2 – ART. 1 C. 139 L. 145/2018 - CUP: D27H20001110001 - “INTERVENTO DI MESSA IN SICUREZZA STRADALE CON AMPLIAMENTO DI UN TRATTO DI VIA FRANCESCA E RIFACIMENTO DELL’INTERSEZIONE CON VIA SAN PIETRO (SP17)” – APPROVAZIONE DEL SECONDO STATO DI AVANZAMENTO DEI LAVORI.",
+      "parole": [
+        "intervento",
+        "strad",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "https://cologne.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10630329?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Concesio|2026-11-10|2026/1538|APPROVAZIONE DEL PROGETTO FORMATIVO RELATIVO ALLO SVOLGIMENTO DEL TIROCINIO CURR",
+      "comune": "Concesio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1538",
+      "oggetto": "APPROVAZIONE DEL PROGETTO FORMATIVO RELATIVO ALLO SVOLGIMENTO DEL TIROCINIO CURRICOLARE DI E.P., STUDENTESSA DELL'ACCADEMIA S.GIULIA",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://concesio.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/10630115",
+      "allegati": []
+    },
+    {
+      "id": "BS|Edolo|2026-11-10||Progetto scuola montagna 2026-2027 – Affidamento per n. 1 trasporto alunni Scuol",
+      "comune": "Edolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Progetto scuola montagna 2026-2027 – Affidamento per n. 1 trasporto alunni Scuola Secondaria di primo grado, insegnanti e guide. CIG: BD4A63DC9E Determinazioni dirigenziali EMITTENTE: Area Demografico e Manutentivo NUMERO ATTO/DOCUMENTO: n.119 / 2026 del 14/10/2026 NUMERO DI PUBBLICAZIONE: 772 PERIODO DI PUBBLICAZIONE: dal 10/11/2026 al 25/11/2026",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.comune.edolo.bs.it/Pages/Albo/?Id=446775&pg=0",
+      "allegati": []
+    },
+    {
+      "id": "BS|Edolo|2026-11-10||Affidamento in house del servizio di revisione del Piano di Assestamento Foresta",
+      "comune": "Edolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Affidamento in house del servizio di revisione del Piano di Assestamento Forestale del Comune di Edolo. CUP E27F25000050003. CIG BD766577A1 Determinazioni dirigenziali EMITTENTE: Area Lavori Pubblici e Ambiente NUMERO ATTO/DOCUMENTO: n.86 / 2026 del 22/10/2026 NUMERO DI PUBBLICAZIONE: 768 PERIODO DI PUBBLICAZIONE: dal 10/11/2026 al 25/11/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://www.comune.edolo.bs.it/Pages/Albo/?Id=446771&pg=0",
+      "allegati": []
+    },
+    {
+      "id": "BS|Gavardo|2026-11-10|2026/791|AFFIDAMENTO DIRETTO SERVIZIO MANUTENZIONE STRAORDINARIA VERDE ROTATORIE VIA GOSA",
+      "comune": "Gavardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI",
+      "numero": "2026/791",
+      "oggetto": "AFFIDAMENTO DIRETTO SERVIZIO MANUTENZIONE STRAORDINARIA VERDE ROTATORIE VIA GOSA E VIA FRANCHI – CIG BDB4B5AA36",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://gavardo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2816394?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Leno|2026-11-10|2026/1464|AFFIDAMENTO DIRETTO LAVORI DI SISTEMAZIONE SERVIZI IGIENICI INCONTRAGIOVANI - SA",
+      "comune": "Leno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1464",
+      "oggetto": "AFFIDAMENTO DIRETTO LAVORI DI SISTEMAZIONE SERVIZI IGIENICI INCONTRAGIOVANI - SAMA COSTRUZIONI SRL - CIG BD95C9C408 - CUP H45B24000020004",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://leno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5776110?p_auth=UdaoHNAS&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Leno|2026-11-11|2026/1473|AFFIDAMENTO DIRETTO A MAGGIOLI SPA PER LA REALIZZAZIONE DEL SERVIZIO OGGETTO DEL",
+      "comune": "Leno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-11",
+      "tipo": "DETERMINAZIONI / DETERMINA",
+      "numero": "2026/1473",
+      "oggetto": "AFFIDAMENTO DIRETTO A MAGGIOLI SPA PER LA REALIZZAZIONE DEL SERVIZIO OGGETTO DELLA DOMANDA DI PARTECIPAZIONE PRESENTATA DA VALERE SUL PNRR M1C1 INVESTIMENTO 2.2.3 RELATIVO L'ADEGUAMENTO ALLE SPECIFICHE TECNICHE DI INTEROPERABILITA' SUE DELLE COMPONENTI INFORMATICHE PER LA GESTIONE DELLE PRATICHE DEGLI SPORTELLI UNICI PER L'EDILIZIA - SUE - CUP H41F25000710006 CIG BDBC459399",
+      "parole": [
+        "affidamento",
+        "edilizia"
+      ],
+      "link": "https://leno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5780217?p_auth=UdaoHNAS&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Lumezzane|2026-11-10||DETERMINAZIONE Determina n. 673 servizio: 52 - Servizio ambiente, manutenzioni, ",
+      "comune": "Lumezzane",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE Determina n. 673 servizio: 52 - Servizio ambiente, manutenzioni, lavori pubblici, RIM del 10/11/2026 PATTI TERRITORIALI DI SOSTENIBILITÀ D.G.R. N. 4914 DEL 01/08/2025 – PROGETTO RELATIVO ALLA RACCOLTA DIFFERENZIATA DEGLI OLI ESAUSTI – ACCERTAMENTO DEL CONTRIBUTO REGIONALE.",
+      "parole": [
+        "progetto",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://albopretorio.sipalinformatica.it/sipal_ap/servlet/ListPubblicazione?codfisc=00451340178",
+      "allegati": []
+    },
+    {
+      "id": "BS|Malonno|2026-11-10||PRESA D’ATTO DELL’AVVENUTA AMMISSIONE E FINANZIAMENTO DEL PROGETTO “LA LINGUA DE",
+      "comune": "Malonno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "PRESA D’ATTO DELL’AVVENUTA AMMISSIONE E FINANZIAMENTO DEL PROGETTO “LA LINGUA DELLA TELA” NELL’AMBITO DEL BANDO “CULTURA DIFFUSA” PROMOSSO DA FONDAZIONE CARIPLO E DETERMINAZIONI CONSEGUENTI. Delibere di Giunta EMITTENTE: Ufficio Servizi Sociali NUMERO ATTO/DOCUMENTO: n.57/16 DEL GC / 2026 del 26/10/2026 NUMERO DI PUBBLICAZIONE: 487 PERIODO DI PUBBLICAZIONE: dal 10/11/2026 al 25/11/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.comune.malonno.bs.it/Pages/Albo/?Id=446758&pg=0",
+      "allegati": []
+    },
+    {
+      "id": "BS|Manerbio|2026-11-10|2026/1469|AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPE",
+      "comune": "Manerbio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "DETERMINAZIONI",
+      "numero": "2026/1469",
+      "oggetto": "AVVISO UNICO CULTURA 2026 – CONTRIBUTI REGIONALI A SOSTEGNO DEI SOGGETTI CHE OPERANO NEL CAMPO DELLE ATTIVITÀ E DEI BENI CULTURALI – PROGETTO “MUSEO FUORI DI SÉ: LA CULTURA CHE UNISCE E FA STARE BENE. EDIZIONE 2026” – ID DOMANDA 7718555 – AFFIDAMENTO A SARA SGHIRINZETTI PER IL SERVIZIO LABORATORIALE, ATTIVITA’ “MEMORIE EMERSE: L’ARCHEOLOGIA INCONTRA LA TERAPEUTICA ARTISTICA” – CIG BD8473F0DB.",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://manerbio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4836503?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ome|2026-11-10|2026/566|AFFIDAMENTO CONTRATTO 2026/00012/OOPP - MANUTENZIONE STRAORDINARIA CASA MUSEO MA",
+      "comune": "Ome",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/566",
+      "oggetto": "AFFIDAMENTO CONTRATTO 2026/00012/OOPP - MANUTENZIONE STRAORDINARIA CASA MUSEO MALOSSI - RIPRISTINO IMPIANTO ANTINCENDIO - CIG: BDBDBC6879",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "ripristin"
+      ],
+      "link": "https://ome.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778786?p_auth=eTRfIErB&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ome|2026-11-11|2026/567|AFFIDAMENTO DIRETTO (2026/00013/OOPP) PROGETTAZIONE ESECUTIVA, DIREZIONE LAVORI ",
+      "comune": "Ome",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-11",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/567",
+      "oggetto": "AFFIDAMENTO DIRETTO (2026/00013/OOPP) PROGETTAZIONE ESECUTIVA, DIREZIONE LAVORI E CONTABILITÀ DEI LAVORI DENOMINATI \"RIQUALIFICAZIONE IMPIANTO ELETTRICO DEL MUNICIPIO\" CIG: BDBD2B2AA5 - CUP: E36I26000320004.",
+      "parole": [
+        "affidamento",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://ome.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5779620?p_auth=eTRfIErB&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ossimo|2026-11-10|2026/349|ELENCO LAVORI, FORNITURE DI BENI E SERVIZI DA ESEGUIRE IN ECONOMIA PER IL TRIENN",
+      "comune": "Ossimo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINE",
+      "numero": "2026/349",
+      "oggetto": "ELENCO LAVORI, FORNITURE DI BENI E SERVIZI DA ESEGUIRE IN ECONOMIA PER IL TRIENNIO 2027-2029 DI CUI ALLA DELIBERAZIONE DI GIUNTA COMUNALE N. 85 DEL 10.10.2026: - AFFIDAMENTO DIRETTO DI ALCUNE CATEGORIE DI LAVORI E FORNITURE; - INDIZIONE DEI PROCEDIMENTI DI GARA PER L’INDIVIDUAZIONE DITTE APPALTATRICI ED APPROVAZIONE AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE.",
+      "parole": [
+        "affidamento",
+        "gara",
+        "manifestazione",
+        "interesse",
+        "lavor"
+      ],
+      "link": "https://ossimo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778223?p_auth=SXrVHHte&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ossimo|2026-11-10|2026/345|LAVORI DI RIQUALIFICAZIONE ESTERNA DELLA CASA DI COMUNITÀ, REALIZZAZIONE PARCHEG",
+      "comune": "Ossimo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINE",
+      "numero": "2026/345",
+      "oggetto": "LAVORI DI RIQUALIFICAZIONE ESTERNA DELLA CASA DI COMUNITÀ, REALIZZAZIONE PARCHEGGIO PUBBLICO E OPERE COMPLEMENTARI. CUP: D81B24000360005 – CIG: BD9FC78F92 INCARICO PROFESSIONALE PER ACCATASTAMENTO PARCHEGGIO.",
+      "parole": [
+        "incarico",
+        "lavor"
+      ],
+      "link": "https://ossimo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5778198?p_auth=SXrVHHte&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Piancogno|2026-11-10|2026/507|APPROVAZIONE CONTABILITÀ FINALE E CERTIFICATO DI REGOLARE ESECUZIONE RELATIVI AI",
+      "comune": "Piancogno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/507",
+      "oggetto": "APPROVAZIONE CONTABILITÀ FINALE E CERTIFICATO DI REGOLARE ESECUZIONE RELATIVI AI LAVORI DI \"ADEGUAMENTO DEL SISTEMA ANTINCENDIO DELL’EDIFICIO SCOLASTICO EX CONVITTO OLCESE IN VIA ROMA IN COMUNE DI PIANCOGNO (BS)\" CUP: C18H25001600005 – CIG: BC25280DEB INTERVENTO FINANZIATO DALL'UNIONE EUROPEA – NEXTGENERATIONEU, NELL'AMBITO DEL PNRR M4C1 – INVESTIMENTO 3.3",
+      "parole": [
+        "intervento",
+        "edificio",
+        "lavor"
+      ],
+      "link": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2088511?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Piancogno|2026-11-10|2026/506|APPROVAZIONE CONTABILITÀ FINALE E CERTIFICATO DI REGOLARE ESECUZIONE RELATIVI AI",
+      "comune": "Piancogno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/506",
+      "oggetto": "APPROVAZIONE CONTABILITÀ FINALE E CERTIFICATO DI REGOLARE ESECUZIONE RELATIVI AI LAVORI DI \"ADEGUAMENTO DEL SISTEMA ANTINCENDIO DELL'EDIFICIO SCOLASTICO SCUOLA PRIMARIA PIAMBORNO IN VIALE STAZIONE IN COMUNE DI PINCOGNO (BS)\". CUP: C18H25001590005 – CIG: BC27D5240F INTERVENTO FINANZIATO DALL'UNIONE EUROPEA – NEXTGENERATIONEU, NELL'AMBITO DEL PNRR M4C1 – INVESTIMENTO 3.3",
+      "parole": [
+        "intervento",
+        "edificio",
+        "lavor"
+      ],
+      "link": "https://piancogno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2088509?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Prevalle|2026-11-10|2026/621|DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO DEI LAVORI DI MANUTENZIONE ORDINARIA",
+      "comune": "Prevalle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/621",
+      "oggetto": "DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO DEI LAVORI DI MANUTENZIONE ORDINARIA DELLA TINTEGGIATURA DELLE FACCIATE ESTERNE E VERNICIATURA TRAVI DELLA SEDE ASSOCIAZIONE DI PUBBLICO SERVIZIO (APS) - CIG BD9F5340AB. CONTRIBUTO LEGGE REGIONALE 7 AGOSTO 2026, N. 22.",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://prevalle.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio/-/papca/display/8498396",
+      "allegati": []
+    },
+    {
+      "id": "BS|Puegnago del Garda|2026-11-10|618|DETERMINA N.274 DEL 10/11/2026 - AREA TECNICA: DETERMINAZIONE A CONTRARRE ED AFF",
+      "comune": "Puegnago del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "Determinazioni",
+      "numero": "618",
+      "oggetto": "DETERMINA N.274 DEL 10/11/2026 - AREA TECNICA: DETERMINAZIONE A CONTRARRE ED AFFIDAMENTO DIRETTO APPALTO PER INCARICO DI RESPONSABILE DEL SERVIZIO DI PREVENZIONE E PROTEZIONE (RSPP) ED ADEMPIMENTI CONSEGUENTI IN ATTUAZIONE DEL D.LGS. 81/08. CIG: BDB710C5A6.",
+      "parole": [
+        "affidamento",
+        "appalto",
+        "incarico",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspuegnagogarda/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": []
+    },
+    {
+      "id": "BS|Roè Volciano|2026-11-09|2026/642|PRESA D'ATTO DELL'AVVENUTA PRESENTAZIONE DEL PROGETTO ESECUTIVO E ARCHIVIAZIONE ",
+      "comune": "Roè Volciano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-09",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/642",
+      "oggetto": "PRESA D'ATTO DELL'AVVENUTA PRESENTAZIONE DEL PROGETTO ESECUTIVO E ARCHIVIAZIONE DEL PROCEDIMENTO DI REVOCA DELL'INCARICO PROFESSIONALE CONFERITO ALL'ING. MICHELE SARAMONDI PER I SERVIZI TECNICI RELATIVI ALL'INTERVENTO DI «REALIZZAZIONE DI UN SITO PER IL COMPOSTAGGIO DI PROSSIMITÀ». CUP: G82F25000000002 – CIG: BBD6EB2851.",
+      "parole": [
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "intervento",
+        "progett"
+      ],
+      "link": "https://roevolciano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1461041?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Roè Volciano|2026-11-11|2026/645|CIG BD8C64FBCC. AFFIDAMENTO EX ART. 50 C. 1 LETT. B) DEL D.LGS. N. 36/2023 DEL S",
+      "comune": "Roè Volciano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-11",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/645",
+      "oggetto": "CIG BD8C64FBCC. AFFIDAMENTO EX ART. 50 C. 1 LETT. B) DEL D.LGS. N. 36/2023 DEL SERVIZIO TECNICO DI PROGETTAZIONE, DIREZIONE LAVORI, CONTABILITÀ E CERTIFICATO DI REGOLARE ESECUZIONE PER LA \"REALIZZAZIONE DI UNA PIASTRA POLIFUNZIONALE PRESSO IL CENTRO SPORTIVO COMUNALE\". AFFIDAMENTO A FAVORE DEL GEOM. TONNI ANDREA",
+      "parole": [
+        "affidamento",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://roevolciano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1462829?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|San Felice del Benaco|2026-11-10|2026/680|DETERMINA A CONTRARRE E AFFIDAMENTO ALLA CUC VALLE SABBIA L'ESPLETAMENTO DELLA G",
+      "comune": "San Felice del Benaco",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINA",
+      "numero": "2026/680",
+      "oggetto": "DETERMINA A CONTRARRE E AFFIDAMENTO ALLA CUC VALLE SABBIA L'ESPLETAMENTO DELLA GARA PER L'AFFIDAMENTO MEDIANTE PROCEDURA APERTA DEI SERVIZI TECNICI DI REDAZIONE PROGETTAZIONE FATTIBILITÀ TECNICO-ECONOMICA, PROGETTAZIONE ESECUTIVA, DIREZIONE DEI LAVORI, CONTABILITÀ E COORDINAMENTO PER LA SICUREZZA IN FASE DI ESECUZIONE NEI CANTIERI, RELATIVI ALL’INTERVENTO PER L’ADEGUAMENTO SISMICO ED EFFICIENTAMENTO ENERGETICO ATTRAVERSO DEMOLIZIONE E RICOSTRUZIONE DELLA SCUOLA PRIMARIA “B. RUBELLI”. CUP: G65E26000180004.",
+      "parole": [
+        "affidamento",
+        "gara",
+        "intervento",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://sanfelicedelbenaco.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1462509?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Sarezzo|2026-11-10|2026/1106|DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE DI UN PIL",
+      "comune": "Sarezzo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "DETERMINE / DETERMINAZIONE",
+      "numero": "2026/1106",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO PER LA MANUTENZIONE DI UN PILASTRO AI FINI DEL SUO ADEGUAMENTO IN MATERIA DI SICUREZZA – CIG: BDB958D563",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://sarezzo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2816699?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Sellero|2026-11-10|2026/393|AFFIDAMENTO DIRETTO AI SENSI DELL’ART.50 CO.1 LETTERA B) DEL D.LGS. N.36/2023, P",
+      "comune": "Sellero",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/393",
+      "oggetto": "AFFIDAMENTO DIRETTO AI SENSI DELL’ART.50 CO.1 LETTERA B) DEL D.LGS. N.36/2023, PER IL SERVIZIO DI FORNITURA NUOVA ATTREZZATURA E NECESSARIA SISTEMAZIONE E RIPRISTINO DELL’ATTREZZATURA ESISTENTE PRESSO I CIMITERI COMUNALI. CIG: BDAB2CB503",
+      "parole": [
+        "affidamento",
+        "ripristin"
+      ],
+      "link": "https://sellero.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8497900?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Serle|2026-11-11|2026/480|DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO, AI SENSI DELL’ART.",
+      "comune": "Serle",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-11",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/480",
+      "oggetto": "DETERMINAZIONE A CONTRARRE E CONTESTUALE AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D.LGS 36/2023, PER I LAVORI DI ASFALTATURA SU VIA BERANA E VIA VILLA",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://serle.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1462726?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Temù|2026-11-10||DETERMINAZIONE A CONTRATTARE MEDIANTE PROCEDURA APERTA, AI SENSI DELL'ART. 71 DE",
+      "comune": "Temù",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "DETERMINAZIONE A CONTRATTARE MEDIANTE PROCEDURA APERTA, AI SENSI DELL'ART. 71 DEL D.LGS. N. 36/2023, PER L’AFFIDAMENTO DEL SERVIZIO DI SGOMBERO NEVE E SABBIATURA DELLE STRADE COMUNALI PER LE STAGIONI INVERNALI 2026/2027, 2027/2028 E 2028/2029, SUDDIVISO NEI SEGUENTI LOTTI: • LOTTO N. 1 – TEMU’, CAPOLUOGO – CODICE CIG BD49AFB254; • LOTTO N. 2 – TEMU’, VAL D’AVIO E ZONA CENTRALE – CODICE CIG BD49AFC327; • LOTTO N. 3 – FRAZIONE PONTAGNA – CODICE CIG BD49AFD3FA; • LOTTO N. 4 – FRAZIONE VILLA DALEGNO, CENTRO STORICO E STRADE INTERNE – CODICE CIG BD49AFE4CD; • LOTTO N. 5 – FRAZIONE VILLA DALEGNO, STRADE ESTERNE – CODICE CIG BD49AFF5A0. Determinazioni dirigenziali EMITTENTE: Servizio Tecnologico - Manutentivo - Lavori Pubblici NUMERO ATTO/DOCUMENTO: n.86 / 2026 del 06/10/2026 NUMERO DI PUBBLICAZIONE: 596 PERIODO DI PUBBLICAZIONE: dal 10/11/2026 al 25/11/2026",
+      "parole": [
+        "affidamento",
+        "strad",
+        "lavor"
+      ],
+      "link": "https://www.comune.temu.bs.it/Pages/Albo/?Id=446752&pg=0",
+      "allegati": []
+    },
+    {
+      "id": "BS|Trenzano|2026-11-10|2026/620|AFFIDAMENTO LAVORI DI MANUTENZIONI STRAORDINARIE SOSITUZIONE LAMPADE PALAZZO MUN",
+      "comune": "Trenzano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/620",
+      "oggetto": "AFFIDAMENTO LAVORI DI MANUTENZIONI STRAORDINARIE SOSITUZIONE LAMPADE PALAZZO MUNICIPALE E SISTEMZIONE WI FII SCUOLA PRIMARIA COSSIRANO. DETERMINAZIONE A CONTRATTARE E AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. A) DEL DLGS N.36/2023. CIG: BD6F73B6E6",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://trenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/8497411?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Vione|2026-11-10||Affidamento diretto del servizio di realizzazione prodotto divulgativo virtuale ",
+      "comune": "Vione",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-10",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Affidamento diretto del servizio di realizzazione prodotto divulgativo virtuale nell’ambito del progetto \"Tor dei Pagà (Vione): studio e valorizzazione di un sito archeologico di alta quota\" - Vione Archeologica 2026 (CUP I19D26000190002 - CIG BD6E62A17E) a favore della Ditta Stefano Benedetti Computer Grafica con sede in Trento. Determinazioni dirigenziali EMITTENTE: Ufficio Tecnico Manutentivo NUMERO ATTO/DOCUMENTO: n.71 / 2026 del 20/10/2026 NUMERO DI PUBBLICAZIONE: 396 PERIODO DI PUBBLICAZIONE: dal 10/11/2026 al 25/11/2026",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.comune.vione.bs.it/Pages/Albo/?Id=446734&pg=0",
+      "allegati": []
+    }
+  ]
+}
