@@ -1,0 +1,14 @@
+{
+ "comune": "Soiano del Lago",
+ "sigla": "BS",
+ "albo": "https://servizionline.hspromilaprod.hypersicapp.net/cmssoianodellago/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+ "motivo": "nessuna riga letta",
+ "diagnosi": "il sito risponde con errore 502",
+ "stato_http": 502,
+ "url": "https://servizionline.hspromilaprod.hypersicapp.net/cmssoianodellago/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+ "titolo": "",
+ "testo": "502 Bad Gateway The server returned an invalid or incomplete response.",
+ "tabelle": 0,
+ "link": 0,
+ "frame": []
+}
