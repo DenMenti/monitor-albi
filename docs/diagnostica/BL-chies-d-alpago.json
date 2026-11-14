@@ -1,0 +1,14 @@
+{
+ "comune": "Chies d'Alpago",
+ "sigla": "BL",
+ "albo": "https://www.comune.chiesdalpago.bl.it/albo_on_line",
+ "motivo": "Error: Page.goto: net::ERR_TIMED_OUT at https://sac5.halleysac.it/c025012/mc/mc_p_ricerca.php",
+ "diagnosi": "pagina vuota o non caricata",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}
