@@ -1,0 +1,160 @@
+{
+  "quando": "2026-11-16_1018",
+  "esito": "9 determine trovate in 260 comuni, 0 allegati. 77 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-11-16_1018.xlsx",
+  "zip": "",
+  "risultati": [
+    {
+      "id": "BL|Borgo Valbelluna|2026-11-16|2026/1273|DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETTER",
+      "comune": "Borgo Valbelluna",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-16",
+      "tipo": "DETERMINAZIONI / DETERMINAZIONE",
+      "numero": "2026/1273",
+      "oggetto": "DETERMINA A CONTRARRE E AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50 COMMA 1 LETTERA A) DEL D. LGS. N. 36/2023, DEI LAVORI DI SISTEMAZIONE ESTERNA DEL MICRONIDO “IL BORGO DELLE MERAVIGLIE” E DELLA SCUOLA DELL’INFANZIA DI VILLA DI VILLA. CIG: BDCC4FDCF1",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://borgovalbelluna.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4499464?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BL|Chies d'Alpago|2026-11-13||Numero pubblicazione 556 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione O",
+      "comune": "Chies d'Alpago",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-13",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 556 Mittente COMUNE DI CHIES D'ALPAGO Tipo Determinazione Oggetto DETERMINA A CONTRARRE PER L'AFFIDAMENTO DELLA MANUTENZIONE STRAORDINARIA DEGLI IMPIANTI ELETTRICI DEGLI EDIFICI COMUNALI ALLA DITTA CASA IN DI ZANON RENATO & C. S.A.S. DI CHIES D'ALPAGO. Numero atto 111 Data atto 13/11/2026 Data inizio 13/11/2026 Data fine 28/11/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://sac5.halleysac.it/c025012/mc/mc_p_dettaglio.php?id_pubbl=1460",
+      "allegati": []
+    },
+    {
+      "id": "BS|Capo di Ponte|2026-11-16||DETERMINA AREA SERVIZIO TECNICO N° 131/52 del 04/11/26 Oggetto: AFFIDAMENTO DIRE",
+      "comune": "Capo di Ponte",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-16",
+      "tipo": "DETERMINA AREA SERVIZIO TECNICO N° 131/52 del 04/11/26 Oggetto: AFFIDAMENTO DIRETTO, AI SENSI DELL ART. 50, COMMA 1 - LETTERA B) DEL D.LGS. N. 36/2023, DEL SERVIZIO DI PULIZIA STRAORDINARIA DI ALCUNE VIE DEL CAPOLUOGO CON MOTOSCOPA E PULIZIA MANUALE MARCIAPIEDI E TAGLIO AREE VERDI ADIACENTI LE STRADE MEDESIME DEL CAPOLUOGO NONCHE DI ALCUNE STRADE NELLE FRAZIONI (COD. CIG BD5A20750D).",
+      "numero": "",
+      "oggetto": "DETERMINA AREA SERVIZIO TECNICO N° 131/52 del 04/11/26 Oggetto: AFFIDAMENTO DIRETTO, AI SENSI DELL ART. 50, COMMA 1 - LETTERA B) DEL D.LGS. N. 36/2023, DEL SERVIZIO DI PULIZIA STRAORDINARIA DI ALCUNE VIE DEL CAPOLUOGO CON MOTOSCOPA E PULIZIA MANUALE MARCIAPIEDI E TAGLIO AREE VERDI ADIACENTI LE STRADE MEDESIME DEL CAPOLUOGO NONCHE DI ALCUNE STRADE NELLE FRAZIONI (COD. CIG BD5A20750D).",
+      "parole": [
+        "affidamento",
+        "strad",
+        "edilizia"
+      ],
+      "link": "https://www.servizipubblicaamministrazione.it/servizi/saturnweb/Dettaglio.aspx?Pub=2242&RicCro=1&CE=cpdpnt1569",
+      "allegati": []
+    },
+    {
+      "id": "BS|Chiari|2026-11-16|2026/1444|DETERMINA A CONTRARRE ED AFFIDAMENTO DIRETTO, AI SENSI DELL’ART.50, C.1, LETT.B)",
+      "comune": "Chiari",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1444",
+      "oggetto": "DETERMINA A CONTRARRE ED AFFIDAMENTO DIRETTO, AI SENSI DELL’ART.50, C.1, LETT.B) DEL “D.LGS.N.36/2023” E SS.MM.II. DELLE SEGUENTI PRESTAZIONI: SERVIZIO MANUTENZIONE SCANNER E PLOTTER. CIG BDBF02F04A",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "https://chiari.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/10641070?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Coccaglio|2026-11-16|2026/1110|AFFIDAMENTO DEI LAVORI DI TRASPORTO, MONTAGGIO, ALLESTIMENTO E SUCCESSIVO SMONTA",
+      "comune": "Coccaglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/1110",
+      "oggetto": "AFFIDAMENTO DEI LAVORI DI TRASPORTO, MONTAGGIO, ALLESTIMENTO E SUCCESSIVO SMONTAGGIO DELL’ALBERO DI NATALE ARTIFICIALE PRESSO LA P.ZZA LUCA MARENZIO DITTA: ECO-GREEN EXPERT S.R.L.S. CIG: BDA115464A",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://coccaglio.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/4842605?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Desenzano del Garda|2026-11-16|2026/2905|PARTENARIATO PUBBLICO PRIVATO MEDIANTE FINANZA DI PROGETTO PER L’AFFIDAMENTO IN ",
+      "comune": "Desenzano del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONI DIRIGENZIALI",
+      "numero": "2026/2905",
+      "oggetto": "PARTENARIATO PUBBLICO PRIVATO MEDIANTE FINANZA DI PROGETTO PER L’AFFIDAMENTO IN CONCESSIONE DELLA PROGETTAZIONE ESECUTIVA, DELL’ESECUZIONE DEI LAVORI DI RIQUALIFICAZIONE, DELLA GESTIONE E DELLA MANUTENZIONE DEL CENTRO NATATORIO COMUNALE “G. SIGNORI” DI DESENZANO DEL GARDA (BS) PER 20 ANNI - CUP: I13I24000160002 - AUTORIZZAZIONE AL PAGAMENTO DELL’ANTICIPAZIONE DEL PREZZO 20% AL RTI.",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://desenzano.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2822289?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Offlaga|2026-11-16|2026/431|AGGIUDICAZIONE DEFINITIVA DELLA GARA A PROCEDURA NEGOZIATA PER L’APPALTO DEI LAV",
+      "comune": "Offlaga",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-16",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/431",
+      "oggetto": "AGGIUDICAZIONE DEFINITIVA DELLA GARA A PROCEDURA NEGOZIATA PER L’APPALTO DEI LAVORI DI ARREDO URBANO DI QUARTIERE IN VIA MAZZINI. CUP: I25F25000700005 CIG: BDAB9A4BA0",
+      "parole": [
+        "gara",
+        "appalto",
+        "procedura negoziata",
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "https://offlaga.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/2822388?p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Pian Camuno|2026-11-15|2026/693|Affidamento diretto del servizio di organizzazione, promozione e realizzazione d",
+      "comune": "Pian Camuno",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-15",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/693",
+      "oggetto": "Affidamento diretto del servizio di organizzazione, promozione e realizzazione del progetto \"Note sotto l'albero\" – Organizzazione evento \"chiavi in mano\" – ID Progetto 7614002 - CUP D49B26000000006 – Consorzio Turistico Thermae & Ski Vallecamonica - Bando \"Itinerari ed Eventi inLombardia\"",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://piancamuno.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/5789944?p_auth=r6pc6Pnc&p_p_state=pop_up",
+      "allegati": []
+    },
+    {
+      "id": "BS|Puegnago del Garda|2026-11-16|632|DETERMINA N.283 DEL 16/11/2026 - AREA TECNICA: DETERMINAZIONE A CONTRARRE ED AFF",
+      "comune": "Puegnago del Garda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-16",
+      "tipo": "Determinazioni",
+      "numero": "632",
+      "oggetto": "DETERMINA N.283 DEL 16/11/2026 - AREA TECNICA: DETERMINAZIONE A CONTRARRE ED AFFIDAMENTO DIRETTO FORNITURA E ISTALLAZIONE PER SOSTITUZIONE PERGOLA PRESSO L’IMMOBILE COMUNALE SITO IN PIAZZA BEATO DON GIUSEPPE BALDO. CIG: BDBC3F1DC3.",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://servizionline.hspromilaprod.hypersicapp.net/cmspuegnagogarda/portale/albopretorio/albopretorioconsultazione.aspx?P=400",
+      "allegati": []
+    }
+  ]
+}
