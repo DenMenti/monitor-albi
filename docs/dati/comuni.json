@@ -2762,13 +2762,14 @@
     "nome": "Belluno",
     "scheda": "https://www.tuttitalia.it/veneto/31-belluno/",
     "sito": "https://www.comune.belluno.it/",
-    "albo": "https://alboonline.comune.belluno.it/",
+    "albo": "https://alboonline.comune.belluno.it/AlboOnline/ricercaAlbo",
     "altri": [],
     "piattaforma": "",
-    "note": "",
+    "note": "link inserito a mano",
     "regione": "Veneto",
     "provincia": "Belluno",
-    "sigla": "BL"
+    "sigla": "BL",
+    "manuale": true
   },
   {
     "nome": "Borca di Cadore",
