@@ -1,5 +1,14 @@
 [
   {
+    "quando": "2026-11-17_2119",
+    "tipo": "monitoraggio",
+    "esito": "87 determine trovate in 60 comuni, 0 allegati. 12 albi da controllare a mano.",
+    "excel": "risultati/determine_2026-11-17_2119.xlsx",
+    "zip": "",
+    "dati": "controlli/2026-11-17_2119.json",
+    "n": 87
+  },
+  {
     "quando": "2026-11-17_2057",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
