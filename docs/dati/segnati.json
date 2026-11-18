@@ -8948,5 +8948,31 @@
       "quando": "2026-11-08_2155",
       "_trovato": "2026-11-08_2155"
     }
+  },
+  "BL|Vigo di Cadore|2026-11-10|2026/576|AFFIDAMENTO DEL SERVIZIO TECNICO DI PROGETTAZIONE ESECUTIVA, COORDINAMENTO DELLA": {
+    "stato": "fissato",
+    "quando": "2026-11-18T18:30:41.955Z",
+    "atto": {
+      "id": "BL|Vigo di Cadore|2026-11-10|2026/576|AFFIDAMENTO DEL SERVIZIO TECNICO DI PROGETTAZIONE ESECUTIVA, COORDINAMENTO DELLA",
+      "comune": "Vigo di Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-10",
+      "tipo": "ATTI AMMINISTRATIVI / DETERMINAZIONE",
+      "numero": "2026/576",
+      "oggetto": "AFFIDAMENTO DEL SERVIZIO TECNICO DI PROGETTAZIONE ESECUTIVA, COORDINAMENTO DELLA SICUREZZA, DIREZIONE LAVORI, CONTABILITA’ E REDAZIONE DEL CERTIFICATO DI REGOLARE ESECUZIONE DELL’INTERVENTO DI SISTEMAZIONE E MANUTENZIONE STRAORDINARIA DELLA VIABILITA’ DI ACCESSO AL TORRENTE PIOVA, DENOMINATA “S. OSVALDO-LAVINAI”. CUP: C87H26001540004 - CIG: BDB91014D3",
+      "parole": [
+        "affidamento",
+        "intervento",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://vigodicadore.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1461819?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-17_2119",
+      "_trovato": "2026-11-17_2119"
+    }
   }
 }
