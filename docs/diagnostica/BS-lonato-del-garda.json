@@ -1,0 +1,14 @@
+{
+ "comune": "Lonato del Garda",
+ "sigla": "BS",
+ "albo": "https://www.comune.lonato.bs.it/albo-pretorio",
+ "motivo": "nessuna riga letta",
+ "diagnosi": "bloccato dal sito (protezione anti-robot)",
+ "stato_http": 403,
+ "url": "https://servizionline.comune.lonato.bs.it/openweb/albo/albo_pretorio.php",
+ "titolo": "Service unavailable",
+ "testo": "The request is blocked. 20261118T101821Z-1656f8b79d74zkrmhC1BN1wq440000004dcg000000000819",
+ "tabelle": 0,
+ "link": 0,
+ "frame": []
+}
