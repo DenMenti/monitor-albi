@@ -8997,5 +8997,32 @@
       "quando": "2026-11-17_2119",
       "_trovato": "2026-11-17_2119"
     }
+  },
+  "BL|Vodo Cadore|2026-11-12|2026/494|APPROVAZIONE PROGETTO ESECUTIVO E DETERMINA A CONTRARRE PER L'AFFIDAMENTO DEI LA": {
+    "stato": "fissato",
+    "quando": "2026-11-18T18:45:02.308Z",
+    "atto": {
+      "id": "BL|Vodo Cadore|2026-11-12|2026/494|APPROVAZIONE PROGETTO ESECUTIVO E DETERMINA A CONTRARRE PER L'AFFIDAMENTO DEI LA",
+      "comune": "Vodo Cadore",
+      "sigla": "BL",
+      "provincia": "Belluno",
+      "data": "2026-11-12",
+      "tipo": "DETERMINE / DETERMINA",
+      "numero": "2026/494",
+      "oggetto": "APPROVAZIONE PROGETTO ESECUTIVO E DETERMINA A CONTRARRE PER L'AFFIDAMENTO DEI LAVORI DI \"EFFICIENTAMENTO ENERGETICO E ALTRI INTERVENTI EDIFICIO MUNICIPALE SEDE AMMINISTRATIVA DEL COMUNE DI VODO DI CADORE (BL)\". CUP: C94J23001400001 - CIG: DA ACQUISIRE",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "esecutivo",
+        "edificio",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://vodo.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1463342?p_p_state=pop_up",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-17_2119",
+      "_trovato": "2026-11-17_2119"
+    }
   }
 }
