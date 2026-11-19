@@ -9023,5 +9023,30 @@
       "quando": "2026-11-14_0948",
       "_trovato": "2026-11-14_0948"
     }
+  },
+  "BS|Acquafredda|2026-11-16||Numero pubblicazione 507 Mittente UFFICIO SEGRETERIA COMUNE ACQUAFREDDA Tipo Det": {
+    "stato": "fissato",
+    "quando": "2026-11-19T20:45:58.091Z",
+    "atto": {
+      "id": "BS|Acquafredda|2026-11-16||Numero pubblicazione 507 Mittente UFFICIO SEGRETERIA COMUNE ACQUAFREDDA Tipo Det",
+      "comune": "Acquafredda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-16",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 507 Mittente UFFICIO SEGRETERIA COMUNE ACQUAFREDDA Tipo Determinazioni Oggetto LAVORI DI RISTRUTTURAZIONE DEL CIMITERO COMUNALE (PAVIMENTAZIONE). AGGIUDICAZIONE INCARICO A DITTA PAVONI SPA CON SEDE IN VOBARNO (BS), IN SEGUITO A PROCEDURA NEGOZIATA. Numero atto 263 Data atto 10/11/2026 Data inizio 16/11/2026 Data fine 01/12/2026",
+      "parole": [
+        "incarico",
+        "procedura negoziata",
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "http://www.halleyweb.com/c017001/mc/mc_p_dettaglio.php?id_pubbl=8632",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-17_1127",
+      "_trovato": "2026-11-17_1127"
+    }
   }
 }
