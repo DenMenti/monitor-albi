@@ -8949,32 +8949,6 @@
       "_trovato": "2026-11-08_2155"
     }
   },
-  "BL|La Valle Agordina|2026-11-13||Numero pubblicazione 295 Mittente COMUNE LA VALLE AGORDINA Tipo Determine Oggett": {
-    "stato": "fissato",
-    "quando": "2026-11-18T18:45:27.596Z",
-    "atto": {
-      "id": "BL|La Valle Agordina|2026-11-13||Numero pubblicazione 295 Mittente COMUNE LA VALLE AGORDINA Tipo Determine Oggett",
-      "comune": "La Valle Agordina",
-      "sigla": "BL",
-      "provincia": "Belluno",
-      "data": "2026-11-13",
-      "tipo": "",
-      "numero": "",
-      "oggetto": "Numero pubblicazione 295 Mittente COMUNE LA VALLE AGORDINA Tipo Determine Oggetto Affidamento incarico redazione progetto di fattibilità tecnica ed economica per i lavori di consolidamento e recupero del Forte storico di Moschesin nel Comune di La Valle Agordina - CIG: BDC9DAA965 Numero atto 255 Data atto 12/11/2026 Data inizio 13/11/2026 Data fine 28/11/2026",
-      "parole": [
-        "affidamento",
-        "incarico",
-        "progetto",
-        "lavor",
-        "progett"
-      ],
-      "link": "https://servizionline.comune.lavalleagordina.bl.it/c025027/mc/mc_p_dettaglio.php?id_pubbl=5476",
-      "allegati": [],
-      "zip": "",
-      "quando": "2026-11-17_2119",
-      "_trovato": "2026-11-17_2119"
-    }
-  },
   "BS|Corteno Golgi|2026-11-12||Intervento di “pulizia alveo, rifacimento arginature e adeguamento collettore fo": {
     "stato": "fissato",
     "quando": "2026-11-19T19:52:25.262Z",
