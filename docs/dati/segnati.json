@@ -9074,5 +9074,32 @@
       "quando": "2026-11-13_1019",
       "_trovato": "2026-11-13_1019"
     }
+  },
+  "BS|Collebeato|2026-11-13||Numero pubblicazione 669 Mittente COMUNE DI COLLEBEATO Tipo Determinazione Ogget": {
+    "stato": "fissato",
+    "quando": "2026-11-19T19:52:56.208Z",
+    "atto": {
+      "id": "BS|Collebeato|2026-11-13||Numero pubblicazione 669 Mittente COMUNE DI COLLEBEATO Tipo Determinazione Ogget",
+      "comune": "Collebeato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-13",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 669 Mittente COMUNE DI COLLEBEATO Tipo Determinazione Oggetto INCARICO PROFESSIONALE PER PROGETTO ESECUTIVO, DIREZIONE LAVORI E SICUREZZA PER INTERVENTO DI \"RESTAURO E RISANAMENTO CONSERVATIVO DEL CIMITERO COMUNALE CON CONTESTUALE REALIZZAZIONE DI NUOVE DOTAZIONI CIMITERIALI\" - LOTTI A / F (CUP D99D26000080004) N.Registro generale 356 Data registro generale 10/11/2026 Data inizio 13/11/2026 Data fine 28/11/2026",
+      "parole": [
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "intervento",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://collebeato.halleyweb.it/c017057/mc/mc_p_dettaglio.php?id_pubbl=9578",
+      "allegati": [],
+      "zip": "",
+      "quando": "2026-11-17_1127",
+      "_trovato": "2026-11-17_1127"
+    }
   }
 }
