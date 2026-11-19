@@ -1,0 +1,14 @@
+{
+ "comune": "Artogne",
+ "sigla": "BS",
+ "albo": "https://artogne.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+ "motivo": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+ "diagnosi": "il sito non risponde (timeout)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}

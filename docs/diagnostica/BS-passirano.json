@@ -1,0 +1,14 @@
+{
+ "comune": "Passirano",
+ "sigla": "BS",
+ "albo": "https://comune.passirano.bs.it/documenti/2389535/albo-pretorio",
+ "motivo": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.halleyweb.com/c017136/mc/mc_gridev_messi.php?x=&servizio=&bck=http%3",
+ "diagnosi": "pagina vuota o non caricata",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}

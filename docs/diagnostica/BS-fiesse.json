@@ -1,0 +1,14 @@
+{
+ "comune": "Fiesse",
+ "sigla": "BS",
+ "albo": "http://www.halleyweb.com/c017071/index.php?servizio=304",
+ "motivo": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.halleyweb.com/c017071/index.php?servizio=304",
+ "diagnosi": "pagina vuota o non caricata",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}
