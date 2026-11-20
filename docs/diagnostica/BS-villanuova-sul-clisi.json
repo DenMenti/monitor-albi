@@ -1,0 +1,14 @@
+{
+ "comune": "Villanuova sul Clisi",
+ "sigla": "BS",
+ "albo": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+ "motivo": "nessuna riga letta",
+ "diagnosi": "il sito risponde con errore 421",
+ "stato_http": 421,
+ "url": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
+ "titolo": "421 Misdirected Request",
+ "testo": "Misdirected Request The client needs a new connection for this request as the requested host name does not match the Server Name Indication (SNI) in use for this connection.",
+ "tabelle": 0,
+ "link": 0,
+ "frame": []
+}

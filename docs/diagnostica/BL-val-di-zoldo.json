@@ -2,13 +2,13 @@
  "comune": "Val di Zoldo",
  "sigla": "BL",
  "albo": "https://servizi.comune.valdizoldo.bl.it/ServiziOnLine/Istanze/landingIstanza?Id=22",
- "motivo": "nessuna riga letta",
- "diagnosi": "pagina senza elenco: forse è un menu, serve il link alla lista degli atti",
- "stato_http": 200,
- "url": "https://servizi.comune.valdizoldo.bl.it/ServiziOnLine/Istanze/landingIstanza?Id=22",
- "titolo": "Albo Pretorio | Comune di Val di Zoldo",
- "testo": "Regione Veneto Lingua attiva: ITA Accedi all'area personale Comune di Val di Zoldo Cerca Amministrazione Novità Servizi Vivere il Comune Accesso all'informazione Tutti gli argomenti... Home/ Servizi/ Anagrafe e stato civile/ Albo Pretorio Albo Pretorio Servizio attivo L'Albo pretorio e' il luogo dove vengono esposti tutti gli atti emanati dal Comune. Vengono altresi esposti gli atti destinati ai cittadini che, per assenza o irreperibilita', non sono stati loro consegnati. Accedi al servizio Condividi Vedi azioni INDICE DELLA PAGINA A chi è rivolto Descrizione Come fare Cosa serve Cosa si ottiene Tempi e scadenze Costi Accedi al servizio Condizioni di servizio Contatti Unità organizzativa responsabile A chi è rivolto A tutti i cittadini, professionisti ed imprese. Descrizione A far data dal 1° gennaio 2010 (termine prorogato al 1° gennaio 2011 n.d.r.) gli obblighi di pubblicazione di atti e provvedimenti amministrativi aventi effetto di pubblicità legale si intendono assolti con la pubblicazione nei propri siti informatici da parte delle amministrazioni e degli enti pubblici obbligati.” Il legislatore aggiunge, comma 2, che “Dalla stessa data del 1º gennaio 2010 (termine prorogato al 1° gennaio 2011 n.d.r.), al fine di promuovere il progressivo superamento della pubblicazione in forma cartacea, le amministrazioni e gli enti pubblici tenuti a pubblicare sulla stampa quotidiana atti e provvedimenti concernenti procedure ad evidenza pubblica o i propri bilanci, oltre all’adempimento di tale obbligo con le stesse modalità previste dalla legislazione vigente alla data di entrata in vigore della presente legge, ivi compreso il richiamo all’indirizzo elettronico, provvedono altresì alla pubblicazione nei siti informatici, secondo modalità stabilite con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro per la pubblica amministrazione e l’innovazione di concerto con il Ministro delle infrastrutture e dei trasporti per le materie di propria competenza. Come fare La consultazione è libera. Documenti all'albo con firma digitale I documenti firmati digitalmente, riconoscibili dal formato .p7m, possono essere visualizzati e verificati con un qualsiasi software in grado di elaborare file firmati digitalmente o con delle apposite applicazioni web che non necessitano quindi l'installazione di alcun software. Software gratuito di verifica della firma digitale Cosa serve L'accesso è possibile da PC, tablet e smartphone. Cosa si ottiene Elenco delle pubblicazioni attive all'albo pretorio comunale. Tempi e scadenze Accesso immediato Costi Non è previsto alcun costo. Accedi al servizio Accedi direttamente online tramite identità digitale Accedi al servizio Condizioni di servizio Per conoscere i dettagli di scadenze, requisiti e altre informazioni importanti, leggi i termini e le condizioni di servizio. Termini e condizioni di servizio Contatti Telefono: 0437789485 Email: ragioneria.valdizoldo@clz.bl.it Unità organizzativa responsabile Personal",
+ "motivo": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+ "diagnosi": "il sito non risponde (timeout)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
  "tabelle": 0,
- "link": 99,
- "frame": []
+ "link": 0
 }
