@@ -163,7 +163,8 @@
       "https://barghe.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "albo_lista": "https://barghe.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=184"
   },
   {
     "nome": "Bassano Bresciano",
@@ -191,7 +192,8 @@
       "https://bedizzole.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
     ],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "albo_lista": "https://bedizzole.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=17888"
   },
   {
     "nome": "Berlingo",
@@ -625,7 +627,8 @@
     "albo": "https://cedegolo.trasparenza-valutazione-merito.it/",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "albo_lista": "https://cedegolo.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
   },
   {
     "nome": "Cellatica",
@@ -2119,7 +2122,8 @@
     "albo": "https://roccafranca.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "albo_lista": "https://roccafranca.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
   },
   {
     "nome": "Rodengo Saiano",
