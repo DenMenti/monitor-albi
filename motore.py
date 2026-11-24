@@ -18,7 +18,43 @@ import logica as L
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36 Edg/126.0")
 SEL_CLICK = "a, button, [role=link], [role=menuitem], [role=button], [onclick]"
-COOKIE_TESTI = ["accetta tutti", "accetto tutti", "accetta", "accetto", "acconsento", "ho capito", "ok", "chiudi"]
+COOKIE_TESTI = ["accetta tutti", "accetto tutti", "accetta tutto", "accetta i cookie", "accetta", "accetto", "acconsento",
+                "consenti tutti", "consenti", "rifiuta tutti", "rifiuta", "solo necessari", "solo tecnici",
+                "continua senza accettare", "ho capito", "accept all", "accept", "ok", "chiudi"]
+
+# pulsanti dei sistemi di consenso più usati dai siti dei comuni (Cookiebot, OneTrust, iubenda, Klaro, CookieConsent, ecc.)
+JS_COOKIE = r"""() => {
+  const sel = ['#onetrust-accept-btn-handler','#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll',
+    '#CybotCookiebotDialogBodyButtonAccept','.iubenda-cs-accept-btn','.iubenda-cs-reject-btn',
+    '[data-role="all"]','[data-cc="accept-all"]','.cc-allow','.cc-accept','.cc-dismiss','.cm-btn-success',
+    '.klaro .cm-btn-accept-all','#cookie_action_close_header','.cookie-accept','#cookie-accept','.accept-cookies',
+    '#accetta-cookie','.js-cookie-accept','#cookieChoiceDismiss','.cookiebar-accept','#cookies-ok',
+    'button[aria-label*="ccett" i]','a[aria-label*="ccett" i]'];
+  for (const s of sel) {
+    let el; try { el = document.querySelector(s); } catch (e) { continue; }
+    if (el && el.offsetParent !== null) { el.click(); return true; }
+  }
+  const re = /^(accett|accetto|acconsento|consenti|ok\b|ho capito|rifiuta|solo (necessari|tecnici)|chiudi|accept)/i;
+  for (const el of document.querySelectorAll('button, a[role=button], input[type=button], input[type=submit], [class*=cookie] a')) {
+    const box = el.closest('[id*=cookie i],[class*=cookie i],[id*=consent i],[class*=consent i],[id*=gdpr i],[class*=gdpr i],[aria-label*=cookie i],[role=dialog]');
+    const t = (el.innerText || el.value || '').trim();
+    if (box && t.length < 40 && re.test(t) && el.offsetParent !== null) { el.click(); return true; }
+  }
+  return false;
+}"""
+
+# se un banner resta comunque sopra la pagina, lo nascondo (e sblocco lo scorrimento)
+JS_TOGLI_VELI = r"""() => {
+  for (const el of document.querySelectorAll('body *')) {
+    const st = getComputedStyle(el);
+    if (st.position !== 'fixed' && st.position !== 'sticky') continue;
+    const id = (el.id + ' ' + el.className + ' ' + (el.getAttribute('aria-label') || '')).toLowerCase();
+    const testo = (el.innerText || '').toLowerCase().slice(0, 600);
+    if (/cookie|consent|gdpr|privacy/.test(id) || (/cookie/.test(testo) && el.getBoundingClientRect().height > 60))
+      el.style.setProperty('display', 'none', 'important');
+  }
+  document.documentElement.style.overflow = 'auto'; if (document.body) document.body.style.overflow = 'auto';
+}"""
 MAX_PAGINE = 40
 PAUSA_STESSO_SITO = 4             # secondi minimi tra due albi sullo stesso dominio
 TEMPO_ALLEGATI_COMUNE = 15 * 60   # oltre questo tempo su un comune, gli atti trovati vengono elencati senza scaricare gli allegati
@@ -293,15 +329,26 @@ class Motore:
         return ctx
 
     def _chiudi_cookie(self, page):
+        """Chiude i banner dei cookie (anche quelli dentro i riquadri) e, se restano, li toglie di mezzo."""
+        for frame in [page.main_frame] + [f for f in page.frames if f is not page.main_frame][:6]:
+            try:
+                if frame.evaluate(JS_COOKIE):
+                    page.wait_for_timeout(500)
+            except Exception:
+                pass
         for t in COOKIE_TESTI:
             try:
                 btn = page.get_by_role("button", name=re.compile(rf"^\s*{re.escape(t)}\b", re.I)).first
                 if btn.count() and btn.is_visible():
                     btn.click(timeout=2000)
                     page.wait_for_timeout(400)
-                    return
+                    break
             except Exception:
                 pass
+        try:
+            page.evaluate(JS_TOGLI_VELI)
+        except Exception:
+            pass
 
     def _pausa_cortesia(self, url):
         """Non bombarda lo stesso sito: tra due albi sullo stesso dominio lascia qualche secondo."""
@@ -726,6 +773,8 @@ class Motore:
                                              r"|are you a robot|sei un robot|bot detection|cloudflare|attention required"
                                              r"|richiesta bloccata|too many requests", t):
             diagnosi = "bloccato dal sito (protezione anti-robot)"
+        elif re.search(r"ERR_CONNECTION_(RESET|REFUSED|CLOSED)", motivo):
+            diagnosi = "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)"
         elif "timeout" in motivo.lower():
             diagnosi = "il sito non risponde (timeout)"
         elif stato and stato >= 400:
