@@ -1,5 +1,14 @@
 [
   {
+    "quando": "2026-11-24_0910",
+    "tipo": "monitoraggio",
+    "esito": "0 determine trovate in 26 comuni, 0 allegati. 26 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
+    "excel": "risultati/determine_2026-11-24_0910.xlsx",
+    "zip": "",
+    "dati": "controlli/2026-11-24_0910.json",
+    "n": 0
+  },
+  {
     "quando": "2026-11-24_0903",
     "tipo": "monitoraggio",
     "esito": "0 determine trovate in 26 comuni, 0 allegati. 26 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
@@ -529,12 +538,5 @@
     "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-22_0842/allegati_2026-10-22_0842.zip",
     "dati": "controlli/2026-10-22_0842.json",
     "n": 1216
-  },
-  {
-    "quando": "2026-10-21_1800",
-    "tipo": "albi",
-    "esito": "Lombardia / BS: albo trovato per 200 comuni su 206. In archivio 266 comuni.",
-    "excel": "risultati/albi_pretori_2026-10-21_1800.xlsx",
-    "zip": ""
   }
 ]
