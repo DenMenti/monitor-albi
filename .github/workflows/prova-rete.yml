@@ -1,0 +1,14 @@
+name: Prova rete (temporanea)
+on: workflow_dispatch
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -s https://ipinfo.io/json | head -8 || true
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          echo "=== controllo noto"; curl -sS -m 20 -o /dev/null -w "%{http_code}\n" -A "$UA" https://www.halleyweb.com/c017085/mc/mc_p_ricerca.php || true
+          for s in acquafredda adro berzoinferiore braone castenedolo cellatica cigole cimbergo collebeato cortefranca fiesse gardoneriviera gargnano ghedi gianico iseo lozio palazzolosulloglio paratico paspardo sanzenonaviglio tignale valvestino ospitaletto passirano pontoglio; do
+            r=$(curl -sS -m 20 -L -o b.html -w "%{http_code} %{url_effective}" -A "$UA" "https://$s.halleyegov.it/redirect.html?F=MC09" 2>&1 | tail -1)
+            echo "$s -> $r | $(grep -o '<title>[^<]*' b.html 2>/dev/null | head -1)"
+          done
