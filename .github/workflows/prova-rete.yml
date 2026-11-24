@@ -1,0 +1,16 @@
+name: Prova rete (temporanea)
+on: workflow_dispatch
+jobs:
+  prova:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -s https://ipinfo.io/ip; echo
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          t(){ curl -sS -m 15 -o /dev/null -w "$1 %{http_code}\n" -A "$UA" "$2" 2>&1 | tail -1; }
+          t "https-prima" https://www.halleyweb.com/c017085/mc/mc_p_ricerca.php
+          t "https-prima2" https://www.halleyweb.com/c017001/mc/mc_p_ricerca.php
+          t "http" http://www.halleyweb.com/c017001/mc/mc_p_ricerca.php
+          for i in 1 2 3; do sleep 10; t "https-dopo-$i" https://www.halleyweb.com/c017085/mc/mc_p_ricerca.php; done
+          sleep 60; t "https-dopo-70s" https://www.halleyweb.com/c017085/mc/mc_p_ricerca.php
+          sleep 120; t "https-dopo-190s" https://www.halleyweb.com/c017085/mc/mc_p_ricerca.php
