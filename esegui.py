@@ -220,9 +220,9 @@ def cmd_monitora(args):
 
     rimasti = sum(1 for r in riepilogo if r["esito"].startswith("Non controllato"))
     # siti (soprattutto Halley) che rifiutano alcuni server di GitHub ma non altri: un nuovo giro parte su un altro
-    # server, quindi li riprovo da soli fino a 3 volte
+    # server, quindi li riprovo da soli fino a 6 volte
     respinti = [r for r in riepilogo if "rifiuta la connessione" in (r.get("diagnosi") or "")]
-    riprova = bool(respinti) and args.continua and int(os.environ.get("CATENA") or 0) < 3
+    riprova = bool(respinti) and args.continua and int(os.environ.get("CATENA") or 0) < 6
     da_controllare = sum(1 for r in riepilogo if not r["esito"].startswith("OK") and not r["esito"].startswith("Non controllato"))
     esito = (f"{len(risultati)} determine trovate in {len(riepilogo)} comuni, {n_allegati} allegati."
              + (f" {da_controllare} albi da controllare a mano." if da_controllare else "")
