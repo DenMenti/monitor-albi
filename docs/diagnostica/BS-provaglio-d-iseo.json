@@ -1,0 +1,14 @@
+{
+ "comune": "Provaglio d'Iseo",
+ "sigla": "BS",
+ "albo": "https://provaglio.soluzionipa.it/openweb/albo/albo_pretorio.php?oggi=1",
+ "motivo": "nessuna riga letta",
+ "diagnosi": "bloccato dal sito (protezione anti-robot)",
+ "stato_http": 403,
+ "url": "https://provaglio.soluzionipa.it/openweb/albo/albo_pretorio.php?oggi=1",
+ "titolo": "Service unavailable",
+ "testo": "The request is blocked. 20261124T130236Z-r1b556f4fccfh4h9hC1SN13vnn0000000sn0000000003a44",
+ "tabelle": 0,
+ "link": 0,
+ "frame": []
+}

@@ -298,7 +298,8 @@
     "albo": "https://borno.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=2698",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "albo_lista": "https://borno.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=2698"
   },
   {
     "nome": "Botticino",
@@ -1908,7 +1909,8 @@
     "albo": "https://pompiano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "albo_lista": "https://pompiano.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
   },
   {
     "nome": "Poncarale",

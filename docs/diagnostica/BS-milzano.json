@@ -1,0 +1,14 @@
+{
+ "comune": "Milzano",
+ "sigla": "BS",
+ "albo": "https://www.comune.milzano.bs.it/it/page/16800",
+ "motivo": "TimeoutError: Page.goto: Timeout 45000ms exceeded.",
+ "diagnosi": "il sito non risponde (timeout)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}
