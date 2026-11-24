@@ -167,8 +167,9 @@ def cmd_monitora(args):
            "solo_determine": cfg["solo_determine"], "scarica": cfg["scarica"], "esclusi": esclusi}
     if esclusi:
         log(f"{len(esclusi)} atti eliminati in passato verranno ignorati")
-    # diagnostica: tengo solo quella dell'ultimo controllo
-    shutil.rmtree(DIAG, ignore_errors=True)
+    # diagnostica: tengo solo quella dell'ultimo controllo (in un giro di continuazione aggiungo a quella del giro prima)
+    if not args.unisci:
+        shutil.rmtree(DIAG, ignore_errors=True)
     opz["diagnostica"] = DIAG
     # su GitHub un lavoro viene interrotto dopo ~6 ore perdendo tutto: mi fermo prima e salvo quello che ho fatto
     minuti = float(os.environ.get("MONITOR_TEMPO_MAX_MIN") or 0)
@@ -218,12 +219,17 @@ def cmd_monitora(args):
         output_github(zip=os.path.join(USCITA, nome_zip), tag=tag_rel)
 
     rimasti = sum(1 for r in riepilogo if r["esito"].startswith("Non controllato"))
+    # siti (soprattutto Halley) che rifiutano alcuni server di GitHub ma non altri: un nuovo giro parte su un altro
+    # server, quindi li riprovo da soli fino a 3 volte
+    respinti = [r for r in riepilogo if "rifiuta la connessione" in (r.get("diagnosi") or "")]
+    riprova = bool(respinti) and args.continua and int(os.environ.get("CATENA") or 0) < 3
     da_controllare = sum(1 for r in riepilogo if not r["esito"].startswith("OK") and not r["esito"].startswith("Non controllato"))
     esito = (f"{len(risultati)} determine trovate in {len(riepilogo)} comuni, {n_allegati} allegati."
              + (f" {da_controllare} albi da controllare a mano." if da_controllare else "")
              + ((f" {rimasti} comuni rimasti: il controllo prosegue da solo con un nuovo giro." if args.continua
                  else f" ATTENZIONE: {rimasti} comuni non controllati per raggiunto tempo massimo: rilancia il controllo"
-                      f" \"dall'ultimo controllo\" per completarli.") if rimasti else ""))
+                      f" \"dall'ultimo controllo\" per completarli.") if rimasti else "")
+             + (f" {len(respinti)} siti hanno rifiutato la connessione: li riprovo da soli con un altro server." if riprova else ""))
 
     ris_json = [{**r, "data": r["data"].isoformat() if r["data"] else ""} for r in risultati]
     rie_json = [{**r, "dal": r["dal"].isoformat() if r["dal"] else ""} for r in riepilogo]
@@ -243,10 +249,10 @@ def cmd_monitora(args):
         "risultati": ris_json,
         "riepilogo": rie_json,
     })
-    if rimasti:
-        output_github(rimasti=str(rimasti),
-                      solo_rimasti=";".join(L.chiave({"nome": r["comune"], "sigla": r.get("sigla")})
-                                            for r in riepilogo if r["esito"].startswith("Non controllato")))
+    da_rifare = [r for r in riepilogo if r["esito"].startswith("Non controllato")] + (respinti if riprova else [])
+    if da_rifare:
+        output_github(rimasti=str(len(da_rifare)),
+                      solo_rimasti=";".join(L.chiave({"nome": r["comune"], "sigla": r.get("sigla")}) for r in da_rifare))
     # copia dei risultati di questo giro: la pagina può mostrare anche i controlli precedenti
     nome_giro = f"controlli/{stamp}.json"
     scrivi(nome_giro, {"quando": stamp, "esito": esito, "excel": f"risultati/{nome_x}", "zip": url_zip,
