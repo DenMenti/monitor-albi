@@ -1,5 +1,14 @@
 [
   {
+    "quando": "2026-11-24_0903",
+    "tipo": "monitoraggio",
+    "esito": "0 determine trovate in 26 comuni, 0 allegati. 26 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
+    "excel": "risultati/determine_2026-11-24_0903.xlsx",
+    "zip": "",
+    "dati": "controlli/2026-11-24_0903.json",
+    "n": 0
+  },
+  {
     "quando": "2026-11-23_1133",
     "tipo": "monitoraggio",
     "esito": "19 determine trovate in 260 comuni, 0 allegati. 70 albi da controllare a mano.",
@@ -526,13 +535,6 @@
     "tipo": "albi",
     "esito": "Lombardia / BS: albo trovato per 200 comuni su 206. In archivio 266 comuni.",
     "excel": "risultati/albi_pretori_2026-10-21_1800.xlsx",
-    "zip": ""
-  },
-  {
-    "quando": "2026-10-21_1444",
-    "tipo": "albi",
-    "esito": "Albo trovato per 58 comuni su 60.",
-    "excel": "risultati/albi_pretori_2026-10-21_1444.xlsx",
     "zip": ""
   }
 ]

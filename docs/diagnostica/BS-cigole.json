@@ -3,7 +3,7 @@
  "sigla": "BS",
  "albo": "https://cigole.halleyweb.it/c017053/mc/mc_p_ricerca.php",
  "motivo": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://cigole.halleyweb.it/c017053/mc/mc_p_ricerca.php",
- "diagnosi": "pagina vuota o non caricata",
+ "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
  "stato_http": null,
  "url": "",
  "titolo": "",
