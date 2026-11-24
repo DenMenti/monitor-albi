@@ -1,5 +1,14 @@
 [
   {
+    "quando": "2026-11-24_1432",
+    "tipo": "monitoraggio",
+    "esito": "35 determine trovate in 26 comuni, 0 allegati. 1 albi da controllare a mano.",
+    "excel": "risultati/determine_2026-11-24_1432.xlsx",
+    "zip": "",
+    "dati": "controlli/2026-11-24_1432.json",
+    "n": 35
+  },
+  {
     "quando": "2026-11-24_1314",
     "tipo": "monitoraggio",
     "esito": "55 determine trovate in 260 comuni, 0 allegati. 74 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
@@ -528,15 +537,6 @@
     "excel": "risultati/determine_2026-10-23_1642.xlsx",
     "zip": "",
     "dati": "controlli/2026-10-23_1642.json",
-    "n": 0
-  },
-  {
-    "quando": "2026-10-23_1443",
-    "tipo": "monitoraggio",
-    "esito": "0 determine trovate in 1 comuni, 0 allegati. 1 albi da controllare a mano.",
-    "excel": "risultati/determine_2026-10-23_1443.xlsx",
-    "zip": "",
-    "dati": "controlli/2026-10-23_1443.json",
     "n": 0
   }
 ]

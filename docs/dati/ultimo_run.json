@@ -1,7 +1,7 @@
 {
-  "quando": "2026-11-24_1314",
-  "esito": "55 determine trovate in 260 comuni, 0 allegati. 74 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
-  "excel": "risultati/determine_2026-11-24_1314.xlsx",
+  "quando": "2026-11-24_1432",
+  "esito": "90 determine trovate in 260 comuni, 0 allegati (più giri consecutivi). Questo giro: 35 determine trovate in 26 comuni, 0 allegati. 1 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-11-24_1432.xlsx",
   "zip": "",
   "cartella": "",
   "risultati": [
@@ -939,39 +939,601 @@
       ],
       "link": "https://villanuovasulclisi.trasparenza-valutazione-merito.it/web/trasparenza/papca-ap/-/papca/display/1469559?p_p_state=pop_up",
       "allegati": []
+    },
+    {
+      "id": "BS|Braone|2026-11-19||Numero pubblicazione 368 Mittente Comune di Braone Tipo Determinazione Oggetto A",
+      "comune": "Braone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 368 Mittente Comune di Braone Tipo Determinazione Oggetto AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1, LETT. B) DEL D.LGS. N.36/2023 DELL' INCARICO PROFESSIONALE RELATIVO AL P.F.T.E, ALLA PROGETTAZIONE ESECUTIVA, DIREZIONE LAVORI E CONTABILITA', ADEMPIMENTI PER LA SICUREZZA CSP/CSE PER LA: \"RICONVERSIONE EDIFICIO ADIBITO A SCUOLA DELL'INFANZIA DA DESTINARSI A SALA GIOVANI, SEDE PRO LOCO E CREAZIONE DI N. 3 RESIDENZE SOCIALI \". (Codice CUP: I68J24000090002 Codice CIG: BDCAD60077) Numero atto 91 Data atto 18/11/2026 Data inizio 19/11/2026 Data fine 04/12/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "edificio",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017027/mc/mc_p_dettaglio.php?id_pubbl=2110",
+      "allegati": []
+    },
+    {
+      "id": "BS|Braone|2026-11-19||Numero pubblicazione 366 Mittente Comune di Braone Tipo Determinazione Oggetto L",
+      "comune": "Braone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 366 Mittente Comune di Braone Tipo Determinazione Oggetto Lavori di modifica della centrale termica e sistemazione impianto spogliatoio/bar centro sportivo - CIG BDC4B3A1D5 - AFFIDAMENTO DIRETTO LAVORI AI SENSI DALL'ART. 50 COMMA 1 LETT. B) DEL D.LGS. N. 36/2023 ALLA DITTA: \"PRANDINI DAVIDE IMPIANTI IDRAULICI\" con sede in Via Motta n. 1 Braone (P.Iva 00376740981 e C.F. PRNDVD63M30Z133B) Numero atto 89 Data atto 18/11/2026 Data inizio 19/11/2026 Data fine 04/12/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017027/mc/mc_p_dettaglio.php?id_pubbl=2108",
+      "allegati": []
+    },
+    {
+      "id": "BS|Braone|2026-11-19||Numero pubblicazione 365 Mittente Comune di Braone Tipo Determinazione Oggetto R",
+      "comune": "Braone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 365 Mittente Comune di Braone Tipo Determinazione Oggetto Realizzazione opere in cartongesso presso il bar del centro sportivo ed il nuovo centro anziani - CIG BDC443353F - AFFIDAMENTO DIRETTO LAVORI AI SENSI DALL'ART. 50 COMMA 1 LETT. B) DEL D.LGS. N. 36/2023 ALLA DITTA: SMARC di Cocchi Mariangelo & C. s.n.c con sede in Via Dossi n. 11 Braone (BS) (P.Iva e C.F. 02118500988) Numero atto 88 Data atto 18/11/2026 Data inizio 19/11/2026 Data fine 04/12/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017027/mc/mc_p_dettaglio.php?id_pubbl=2107",
+      "allegati": []
+    },
+    {
+      "id": "BS|Braone|2026-11-19||Numero pubblicazione 363 Mittente Comune di Braone Tipo Determinazione Oggetto A",
+      "comune": "Braone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 363 Mittente Comune di Braone Tipo Determinazione Oggetto Acquisto targa I.D. PROGETTO 3574451: bando di Regione Lombardia: Bando per l'erogazione di contributi per la rete escursionistica lombarda, la viabilità agrosilvopastorale e i percorsi ciclopedonali e ciclabili nei comuni montani - BANDO ITINERARI denominato: MANUTENZIONE STRAORDINARIA PERCORSO ESCURSIONISTICO BRAONE - CIMA GALLINER ATTRAVERSO IL SENTIERO DELLA \"GRANDE GUERRA\" CUP I68E22000110006 Numero atto 86 Data atto 18/11/2026 Data inizio 19/11/2026 Data fine 04/12/2026",
+      "parole": [
+        "progetto",
+        "manutenzione",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017027/mc/mc_p_dettaglio.php?id_pubbl=2105",
+      "allegati": []
+    },
+    {
+      "id": "BS|Castenedolo|2026-11-18||Numero pubblicazione 1369 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-18",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1369 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Lavori di manutenzione straordinaria immobili comunali opere da imprenditore edile anno 2026: determina a contrattare. (Affidamento diretto ai sensi Art. 50 comma 1 lett. a) del D.lgs. n. 36/2023). -CUP J42F26000460004 N.Registro generale 835 Data registro generale 17/11/2026 Data inizio 18/11/2026 Data fine 03/12/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29424",
+      "allegati": []
+    },
+    {
+      "id": "BS|Castenedolo|2026-11-20||Numero pubblicazione 1380 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1380 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Affidamento diretto materiale per manutenzione parchi. CIG BDE1B5A3E5 N.Registro generale 843 Data registro generale 19/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29435",
+      "allegati": []
+    },
+    {
+      "id": "BS|Castenedolo|2026-11-20||Numero pubblicazione 1379 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1379 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Nomina Commissione Giudicatrice per l'appalto dei servizi cimiteriali anni 2027-2028-2029. CIG BDA97C4745. N.Registro generale 844 Data registro generale 20/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "appalto",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29434",
+      "allegati": []
+    },
+    {
+      "id": "BS|Castenedolo|2026-11-23||Numero pubblicazione 1387 Mittente SERVIZI SOCIALI Tipo Determina Oggetto Affida",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1387 Mittente SERVIZI SOCIALI Tipo Determina Oggetto Affidamento diretto ai sensi dell'art. 50, comma 1, lett. b) del D.Lgs. 36/2023 del servizio di progettazione e realizzazione del progetto 'Laboratorio Podcast' - CIG BDC3566E74 N.Registro generale 851 Data registro generale 20/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29442",
+      "allegati": []
+    },
+    {
+      "id": "BS|Cellatica|2026-11-23||Numero pubblicazione 652 Mittente Comune di Cellatica Tipo Determinazione Oggett",
+      "comune": "Cellatica",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 652 Mittente Comune di Cellatica Tipo Determinazione Oggetto INTEGRAZIONE PER LA COMPARTECIPAZIONE COMUNALE AI RESIDENTI PER IL PROGETTO DEL CORSO DI CERAMICA \"UN NATALE D'ARGILLA\" - CIG BD55783709 N.Registro generale 325 Data registro generale 18/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017048/mc/mc_p_dettaglio.php?id_pubbl=8392",
+      "allegati": []
+    },
+    {
+      "id": "BS|Collebeato|2026-11-20||Numero pubblicazione 686 Mittente COMUNE DI COLLEBEATO Tipo Determinazione Ogget",
+      "comune": "Collebeato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 686 Mittente COMUNE DI COLLEBEATO Tipo Determinazione Oggetto AFFIDAMENTO LAVORI DI RIPARAZIONE PERDITA SU IMPIANTO GAS METANO A SERVIZIO DEL CENTRO SPORTIVO DI COLLEBEATO - CIG BDDA73AF8F - SCARONI FAUSTO ANGELO S.R.L. N.Registro generale 374 Data registro generale 18/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://collebeato.halleyweb.it/c017057/mc/mc_p_dettaglio.php?id_pubbl=9595",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ghedi|2026-11-19||Numero pubblicazione 1473 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter",
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1473 Mittente Città di Ghedi -Ufficio Segreteria Tipo Determina Oggetto \"ALMA S.R.L.\" - CUP D34D26007120004 - CIG BDD2B1A131 - AFFIDAMENTO DIRETTO PER IL RIFACIMENTO DELL'INFRASTRUTTURA DI RETE INFORMATICA E POTENZIAMENTO DELLA COPERTURA WI-FI PRESSO LA SCUOLA SECONDARIA DI PRIMO GRADO - AFFIDATO AI SENSI DELL'ART. 50 COMMA 1 LETT. B DEL D.LGS 36/2023 Numero atto 191 Data atto 19/11/2026 N.Registro generale 846 Data registro generale 19/11/2026 Data inizio 19/11/2026 Data fine 04/12/2026",
+      "parole": [
+        "affidamento",
+        "rifacimento"
+      ],
+      "link": "https://ghedi.halleyweb.it/c017078/mc/mc_p_dettaglio.php?id_pubbl=36433",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ghedi|2026-11-19||Numero pubblicazione 1471 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter",
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1471 Mittente Città di Ghedi -Ufficio Segreteria Tipo Determina Oggetto \"NOVALUX DI NARDI & TOMASONI S.N.C.\" - CIG BDD514A499 - CUP D34J26000660004 - DETERMINA A CONTRARRE E AFFIDAMENTO DELL'INCARICO PER INTERVENTI DI MANUTENZIONE FARI INTERNI PRESSO IL PALAZZETTO DELLO SPORT DI VIA OLIMPIA - AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1, LETT. A) DEL D.LGS. 36/2023 Numero atto 189 Data atto 19/11/2026 N.Registro generale 844 Data registro generale 19/11/2026 Data inizio 19/11/2026 Data fine 04/12/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "manutenzione"
+      ],
+      "link": "https://ghedi.halleyweb.it/c017078/mc/mc_p_dettaglio.php?id_pubbl=36431",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ghedi|2026-11-19||Numero pubblicazione 1470 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter",
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1470 Mittente Città di Ghedi -Ufficio Segreteria Tipo Determina Oggetto \"GEOM. DONINELLI LUIGI\" - CIG BDD8ABAAB7 - CUP D32B25005300004 - AFFIDAMENTO INCARICO PROFESSIONALE PER REDAZIONE PROGETTO DI FATTIBILITA' TECNICO-ECONOMICA ED ESECUTIVO, DIREZIONE E CONTABILITA' LAVORI, COORDINAMENTO DELLA SICUREZZA IN FASE DI ESECUZIONE PER INTERVENTO DI RISANAMENTO GAS RADON PRESSO L'INTERRATO DELLA SEDE DELLA POLIZIA LOCALE - AFFIDAMENTO DIRETTO AI SENSI DELL'ART. 50, COMMA 1, LETT. B) DEL D.LGS. 36/2023 Numero atto 188 Data atto 19/11/2026 N.Registro generale 843 Data registro generale 19/11/2026 Data inizio 19/11/2026 Data fine 04/12/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "intervento",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://ghedi.halleyweb.it/c017078/mc/mc_p_dettaglio.php?id_pubbl=36430",
+      "allegati": []
+    },
+    {
+      "id": "BS|Gianico|2026-11-18||Numero pubblicazione 457 Mittente COMUNE DI GIANICO Tipo Determina Oggetto AGGIU",
+      "comune": "Gianico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-18",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 457 Mittente COMUNE DI GIANICO Tipo Determina Oggetto AGGIUDICAZIONE ED AFFIDAMENTO DELL'INCARICO PER IL SERVIZIO DI MANUTENZIONE STRAORDINARIA E QUANTO NECESSARIO AL CORRETTO FUNZIONAMENTO DEGLI IMPIANTI DI SOLLEVAMENTO COMUNALI (CIG BAEDF266A8) N.Registro generale 239 Data registro generale 16/11/2026 Data inizio 18/11/2026 Data fine 03/12/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "aggiudicazione",
+        "manutenzione"
+      ],
+      "link": "https://www.halleyweb.com/c017079/mc/mc_p_dettaglio.php?id_pubbl=4228",
+      "allegati": []
+    },
+    {
+      "id": "BS|Gianico|2026-11-23||Numero pubblicazione 463 Mittente COMUNE DI GIANICO Tipo Determina Oggetto AFFID",
+      "comune": "Gianico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 463 Mittente COMUNE DI GIANICO Tipo Determina Oggetto AFFIDAMENTO LAVORI INERENTI L'ESECUZIONE DELLE OPERE DI ASFALTATURA DELLE STRADE COMUNALI PER L'ANNO 2026. CIG BDD8DB7206 N.Registro generale 244 Data registro generale 19/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "affidamento",
+        "strad",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017079/mc/mc_p_dettaglio.php?id_pubbl=4234",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-20||Numero pubblicazione 1674 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto No",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1674 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Nomina del Responsabile unico del progetto per il servizio di supporto all'Ufficio Tributi per l'accertamento e il recupero dell'evasione IMU, TASI e TARI affidato a Fraternità Sistemi - CIG A0095810B4. N.Registro generale 925 Data registro generale 19/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21499",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-20||Numero pubblicazione 1672 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Ap",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1672 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Approvazione stato di avanzamento lavori n. 2 (SAL n. 2) dei lavori inerenti all'esecuzione dell'intervento di \"Riqualificazione palestra e rifacimento nuovi spogliatoi palestra in frazione di Clusane\" CUP: F15E24000210007 - CIG: BB24395E17 - COMUNE_ISEO_1508_2026_0053 N.Registro generale 923 Data registro generale 19/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "intervento",
+        "rifacimento",
+        "lavor"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21497",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-20||Numero pubblicazione 1671 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Af",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1671 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Affidamento all'interno dell'accordo quadro per il servizio di sgombero neve e interventi di manutenzione strade per calamità naturali - ZONA A: territorio delle frazioni di Clusane e Cremignane - CIG padre: B9379873EA - Ordine di esecuzione n. 2 - Codice univoco stazione appaltante contratto derivato: COMUNE_ISEO_1508_2026_0180 - CIG figlio/derivato: BDD15CCC65 N.Registro generale 922 Data registro generale 19/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21496",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-20||Numero pubblicazione 1670 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Af",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1670 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Affidamento contratto derivato all'interno dell'accordo quadro relativo al servizio di manutenzione globale degli impianti idrotermosanitari facenti parte del patrimonio di competenza comunale - CIG padre: A0188564E1 - Buono d'ordine di esecuzione n.9 - Codice univoco contratto derivato: COMUNE_ISEO_1508_2026_0166 - CIG derivato: BDA6151871 N.Registro generale 921 Data registro generale 19/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21495",
+      "allegati": []
+    },
+    {
+      "id": "BS|Lozio|2026-11-20||Numero pubblicazione 290 Mittente Comune di Lozio Tipo Determinazione Oggetto In",
+      "comune": "Lozio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 290 Mittente Comune di Lozio Tipo Determinazione Oggetto Incarico professionale per la redazione del progetto di fattibilità tecnico-economica intervento di Riqualificazione ambientale attraverso azioni di tutela dei sistemi ecologici, della biodiversità e azioni di valorizzazione del paesaggio montano. CIG BDE5E5AE29 CUP G21G26000320002 Numero atto 81 Data atto 20/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "incarico",
+        "progetto",
+        "intervento",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017095/mc/mc_p_dettaglio.php?id_pubbl=2629",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ospitaletto|2026-11-19||Numero pubblicazione 1140 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ",
+      "comune": "Ospitaletto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-19",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1140 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto AFFIDAMENTO DIRETTO LAVORI EXTRA CANONE DI MANUTENZIONE APPARECCHI TELEFONICI E LINEA PRESSO GLI IMMOBILI COMUNALI- CHINELLI TECNOLOGIE SRL Numero atto 141 Data atto 19/11/2026 N.Registro generale 609 Data registro generale 19/11/2026 Data inizio 20/11/2026 Data fine 05/12/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017127/mc/mc_p_dettaglio.php?id_pubbl=19116",
+      "allegati": []
+    },
+    {
+      "id": "BS|Ospitaletto|2026-11-20||Numero pubblicazione 1152 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto ",
+      "comune": "Ospitaletto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-20",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1152 Mittente COMUNE DI OSPITALETTO Tipo Determine Oggetto AFFIDAMENTO, MEDIANTE ACCORDO QUADRO CON UNICO OPERATORE, DEL SERVIZIO DI GESTIONE, DEI SEGUENTI LAVORI E SERVIZI - COSTITUZIONE GRUPPO DI LAVORO Numero atto 142 Data atto 20/11/2026 N.Registro generale 617 Data registro generale 20/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "https://www.halleyweb.com/c017127/mc/mc_p_dettaglio.php?id_pubbl=19128",
+      "allegati": []
+    },
+    {
+      "id": "BS|Palazzolo sull'Oglio|2026-11-23||Numero pubblicazione 1949 Mittente Comune di Palazzolo sull'Oglio Tipo Determina",
+      "comune": "Palazzolo sull'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1949 Mittente Comune di Palazzolo sull'Oglio Tipo Determinazione Oggetto BANDO REGIONALE \"VALORIZZAZIONE DEL PATRIMONIO CULTURALE DELLA LOMBARDIA: PROGETTI INTEGRATI DELLA CULTURA 2026/2029\". PROGETTO \"LE VILLE SORELLE\". AFFIDAMENTO DEL SERVIZIO DI PROJECT MANAGEMENT. CUP J49D2600040006; CIG BDF020F692 Numero atto 159 Data atto 23/11/2026 N.Registro generale 1052 Data registro generale 23/11/2026 Data inizio 24/11/2026 Data fine 09/12/2026",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017133/mc/mc_p_dettaglio.php?id_pubbl=25463",
+      "allegati": []
+    },
+    {
+      "id": "BS|Palazzolo sull'Oglio|2026-11-23||Numero pubblicazione 1946 Mittente Comune di Palazzolo sull'Oglio Tipo Determina",
+      "comune": "Palazzolo sull'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1946 Mittente Comune di Palazzolo sull'Oglio Tipo Determinazione Oggetto Svolgimento dell'attività di committenza ausiliaria a favore del Comune di Milzano per l'affidamento in concessione delle attività di progettazione e realizzazione degli interventi di efficienza energetica, riqualificazione e la successiva manutenzione dell'immobile \"Palestra-Asilo-Scuola Primaria\" Numero atto 110 Data atto 23/11/2026 N.Registro generale 1048 Data registro generale 23/11/2026 Data inizio 24/11/2026 Data fine 09/12/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017133/mc/mc_p_dettaglio.php?id_pubbl=25460",
+      "allegati": []
+    },
+    {
+      "id": "BS|Palazzolo sull'Oglio|2026-11-23||Numero pubblicazione 1945 Mittente Comune di Palazzolo sull'Oglio Tipo Determina",
+      "comune": "Palazzolo sull'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1945 Mittente Comune di Palazzolo sull'Oglio Tipo Determinazione Oggetto PROGETTO \"SPAZIO FAMIGLIA\". INCARICO PER PROGETTO \"E TU COME FARESTI? - STORIE DA GENITORI E NON SOLO..\" CIG BDEC93E3A9 Numero atto 158 Data atto 23/11/2026 N.Registro generale 1044 Data registro generale 23/11/2026 Data inizio 24/11/2026 Data fine 09/12/2026",
+      "parole": [
+        "incarico",
+        "progetto",
+        "progett"
+      ],
+      "link": "https://www.halleyweb.com/c017133/mc/mc_p_dettaglio.php?id_pubbl=25459",
+      "allegati": []
+    },
+    {
+      "id": "BS|Paspardo|2026-11-23||Numero pubblicazione 315 Mittente Comune di Paspardo Tipo Determina Oggetto \"Mig",
+      "comune": "Paspardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 315 Mittente Comune di Paspardo Tipo Determina Oggetto \"Miglioramento e riqualificazione del campo sportivo esistente di proprietà comunale sito in Via Canneto nel Comune di Paspardo (BS)\" - CUP: I63I25000100006 - CIG: BD18908C59 - Presa d'atto proposta di aggiudicazione formulata dalla Centrale Unica di Committenza di Valle Camonica ed aggiudicazione definitiva dei lavori. Numero atto 130 Data atto 19/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "aggiudicazione",
+        "lavor"
+      ],
+      "link": "https://halleyweb.com/c017135/mc/mc_p_dettaglio.php?id_pubbl=642",
+      "allegati": []
+    },
+    {
+      "id": "BS|Passirano|2026-11-23||PNRR - MISSIONE 5, COMPONENTE 2 - INVESTIMENTO 1.1.2 - AUTONOMIA DEGLI ANZIANI N",
+      "comune": "Passirano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "PNRR - MISSIONE 5, COMPONENTE 2 - INVESTIMENTO 1.1.2 - AUTONOMIA DEGLI ANZIANI NON AUTOSUFFICIENTI - PROGETTO PER L'AUTONOMIA ABITATIVA DELLE PERSONE CON DISABILITÀ - PRESA D'ATTO DELLA GRADUATORIA E PROVVEDIMENTO DI ASSEGNAZIONE DELL'ALLOGGIO A SEGUITO DEL SECONDO AVVISO PUBBLICO - CUP C84H22000100007",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017136/mc/mc_gridev_messi.php?x=&servizio=&bck=http%3A%2F%2Fwww.halleyweb.com%2Fc017136%2Fhh%2Findex.php",
+      "allegati": []
+    },
+    {
+      "id": "BS|Passirano|2026-11-23||COSTRUENDO S.R.L. - AFFIDAMENTO DEI LAVORI DI DEMOLIZIONE DELLE STRUTTURE DELL'E",
+      "comune": "Passirano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "COSTRUENDO S.R.L. - AFFIDAMENTO DEI LAVORI DI DEMOLIZIONE DELLE STRUTTURE DELL'EX BOCCIODROMO COMUNALE (CUP: J76C26000230004 - CIG: BD900D89D0)",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "http://www.halleyweb.com/c017136/mc/mc_gridev_messi.php?x=&servizio=&bck=http%3A%2F%2Fwww.halleyweb.com%2Fc017136%2Fhh%2Findex.php",
+      "allegati": []
+    },
+    {
+      "id": "BS|Tignale|2026-11-23||Numero pubblicazione 482 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto ",
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 482 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto Progetto Telesoccorso: acquisto n. 2 dispositivi Seremy del Gruppo Selyon srl con sede in Ferrara per effettuazione test affidabilità della connessione dati N.Registro generale 259 Data registro generale 17/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017185/mc/mc_p_dettaglio.php?id_pubbl=6099",
+      "allegati": []
+    },
+    {
+      "id": "BS|Tignale|2026-11-23||Numero pubblicazione 477 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto ",
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 477 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto AFFIDAMENTO DIRETTO LAVORI DI INTEGRAZIONE LUCI LUNGO LA VIABILITÀ PEDONALE SP 38. N.Registro generale 257 Data registro generale 17/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "affidamento",
+        "lavor"
+      ],
+      "link": "http://www.halleyweb.com/c017185/mc/mc_p_dettaglio.php?id_pubbl=6094",
+      "allegati": []
+    },
+    {
+      "id": "BS|Tignale|2026-11-23||Numero pubblicazione 475 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto ",
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 475 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto Affidamento incarico professionale per servizi di ingegneria e architettura e attività di predisposizione PFTE, progetto esecutivo, direzione lavori, contabilità, cre, coordinamento sicurezza in fase di progettazione ed esecuzione opere di \"Riqualificazione centro sportivo di Tignale a servizio delle scuole e dei residenti\" - Presa d'atto costituzione RTP, CUP: H28E26000090006 N.Registro generale 251 Data registro generale 11/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "affidamento",
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "lavor",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017185/mc/mc_p_dettaglio.php?id_pubbl=6092",
+      "allegati": []
+    },
+    {
+      "id": "BS|Tignale|2026-11-23||Numero pubblicazione 474 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto ",
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 474 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto Progetto realizzazione nuovo parcheggio pubblico in frazione di Aer. Interventi integrativi di completamento CUP: H21B23000350004 N.Registro generale 250 Data registro generale 10/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017185/mc/mc_p_dettaglio.php?id_pubbl=6091",
+      "allegati": []
+    },
+    {
+      "id": "BS|Tignale|2026-11-23||Numero pubblicazione 473 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto ",
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 473 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto Progetto realizzazione di un micro nido presso parte dell'area in disuso nell'edificio di proprietà comunale attualmente adibito a scuola infanzia in Comune di Tignale. Interventi integrativi di completamento. Codice CUP: H22B25005380006 N.Registro generale 249 Data registro generale 10/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "progetto",
+        "edificio",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017185/mc/mc_p_dettaglio.php?id_pubbl=6090",
+      "allegati": []
+    },
+    {
+      "id": "BS|Tignale|2026-11-23||Numero pubblicazione 472 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto ",
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 472 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto Progetto realizzazione di un micro nido presso parte dell'area in disuso nell'edificio di proprietà comunale attualmente adibito a scuola infanzia in Comune di Tignale.Approvazione CRE e conto finale. Codice CUP: H22B25005380006 N.Registro generale 248 Data registro generale 10/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "progetto",
+        "edificio",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017185/mc/mc_p_dettaglio.php?id_pubbl=6089",
+      "allegati": []
+    },
+    {
+      "id": "BS|Tignale|2026-11-23||Numero pubblicazione 468 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto ",
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-23",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 468 Mittente COMUNE DI TIGNALE Tipo Determinazione Oggetto Incarico allo studio Notarile Magnocavallo Casini per la stipula dell'atto di acquisizione senza corrispettivo in denaro delle aree di parziale sedime dell'opera pubblica realizzata in esecuzione del progetto esecutivo approvato con deliberazione di Giunta Comunale n. 26/2023. N.Registro generale 246 Data registro generale 03/11/2026 Data inizio 23/11/2026 Data fine 08/12/2026",
+      "parole": [
+        "incarico",
+        "progetto",
+        "esecutivo",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017185/mc/mc_p_dettaglio.php?id_pubbl=6085",
+      "allegati": []
     }
   ],
   "riepilogo": [
-    {
-      "comune": "Acquafredda",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017001/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-acquafredda.jpg"
-    },
-    {
-      "comune": "Adro",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyegov.it/c017002/mc/mc_p_ricerca.php",
-      "dal": "2026-10-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-adro.jpg"
-    },
     {
       "comune": "Agnosine",
       "sigla": "BS",
@@ -1135,21 +1697,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Berzo Inferiore",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017017/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-berzo-inferiore.jpg"
-    },
-    {
       "comune": "Bienno",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1258,21 +1805,6 @@
       "trovati": 0,
       "esito": "OK – 0 trovati",
       "albo_lista": "https://brandico.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=5570"
-    },
-    {
-      "comune": "Braone",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017027/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-braone.jpg"
     },
     {
       "comune": "Breno",
@@ -1442,21 +1974,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Castenedolo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017043/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017043",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-castenedolo.jpg"
-    },
-    {
       "comune": "Casto",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1506,21 +2023,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Cellatica",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017048/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-cellatica.jpg"
-    },
-    {
       "comune": "Cerveno",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1565,36 +2067,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Cigole",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://cigole.halleyweb.it/c017053/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-cigole.jpg"
-    },
-    {
-      "comune": "Cimbergo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://halleyweb.com/c017054/index.php?servizio=304",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-cimbergo.jpg"
-    },
-    {
       "comune": "Cividate Camuno",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1616,21 +2088,6 @@
       "trovati": 0,
       "esito": "OK – 0 trovati",
       "albo_lista": "https://coccaglio.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=41033"
-    },
-    {
-      "comune": "Collebeato",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017057",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-collebeato.jpg"
     },
     {
       "comune": "Collio",
@@ -1680,21 +2137,6 @@
       "letti": 40,
       "trovati": 1,
       "esito": "OK – 1 trovati"
-    },
-    {
-      "comune": "Corte Franca",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017062/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-corte-franca.jpg"
     },
     {
       "comune": "Corteno Golgi",
@@ -1790,21 +2232,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Fiesse",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017071/index.php?servizio=304",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-fiesse.jpg"
-    },
-    {
       "comune": "Flero",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1827,21 +2254,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Gardone Riviera",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017074/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-gardone-riviera.jpg"
-    },
-    {
       "comune": "Gardone Val Trompia",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1857,21 +2269,6 @@
       "screenshot": "BS-gardone-val-trompia.jpg"
     },
     {
-      "comune": "Gargnano",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017076/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-gargnano.jpg"
-    },
-    {
       "comune": "Gavardo",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1881,36 +2278,6 @@
       "letti": 40,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Ghedi",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://ghedi.halleyweb.it/c017078/index.php?servizio=304",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-ghedi.jpg"
-    },
-    {
-      "comune": "Gianico",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017079/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-gianico.jpg"
     },
     {
       "comune": "Gottolengo",
@@ -1975,21 +2342,6 @@
       "diag_stato": null,
       "diag_url": "",
       "screenshot": "BS-irma.jpg"
-    },
-    {
-      "comune": "Iseo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017085/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-iseo.jpg"
     },
     {
       "comune": "Isorella",
@@ -2105,21 +2457,6 @@
       "letti": 13,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Lozio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017095/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-lozio.jpg"
     },
     {
       "comune": "Lumezzane",
@@ -2481,21 +2818,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Ospitaletto",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.comune.ospitaletto.bs.it/albo-pretorio",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-ospitaletto.jpg"
-    },
-    {
       "comune": "Ossimo",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -2549,66 +2871,6 @@
       "letti": 31,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Palazzolo sull'Oglio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017133/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-palazzolo-sull-oglio.jpg"
-    },
-    {
-      "comune": "Paratico",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017134/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-paratico.jpg"
-    },
-    {
-      "comune": "Paspardo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017135/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-paspardo.jpg"
-    },
-    {
-      "comune": "Passirano",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://comune.passirano.bs.it/documenti/2389535/albo-pretorio",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-passirano.jpg"
     },
     {
       "comune": "Pavone del Mella",
@@ -2762,21 +3024,6 @@
       "letti": 20,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Pontoglio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.comune.pontoglio.bs.it/albo-pretorio",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-pontoglio.jpg"
     },
     {
       "comune": "Pozzolengo",
@@ -3024,21 +3271,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "San Zeno Naviglio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017173/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-san-zeno-naviglio.jpg"
-    },
-    {
       "comune": "Sarezzo",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -3160,21 +3392,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Tignale",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017185/mc/mc_p_ricerca.php",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-tignale.jpg"
-    },
-    {
       "comune": "Torbole Casaglia",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -3269,21 +3486,6 @@
       "letti": 18,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Valvestino",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://halleyweb.com/c017194/index.php?servizio=304",
-      "dal": "2026-11-18",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-valvestino.jpg"
     },
     {
       "comune": "Verolanuova",
@@ -4113,6 +4315,296 @@
       "dal": "2026-11-23",
       "pagine": 2,
       "letti": 28,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Acquafredda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017001/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 2,
+      "letti": 20,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Adro",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyegov.it/c017002/mc/mc_p_ricerca.php",
+      "dal": "2026-10-25",
+      "pagine": 0,
+      "letti": 0,
+      "trovati": 0,
+      "esito": "Errore: pagina vuota o non caricata",
+      "diagnosi": "pagina vuota o non caricata",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BS-adro.jpg"
+    },
+    {
+      "comune": "Berzo Inferiore",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017017/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 21,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Braone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017027/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 20,
+      "trovati": 4,
+      "esito": "OK – 4 trovati"
+    },
+    {
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017043/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017043",
+      "dal": "2026-11-18",
+      "pagine": 6,
+      "letti": 48,
+      "trovati": 4,
+      "esito": "OK – 4 trovati"
+    },
+    {
+      "comune": "Cellatica",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017048/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 6,
+      "letti": 60,
+      "trovati": 1,
+      "esito": "OK – 1 trovati"
+    },
+    {
+      "comune": "Cigole",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://cigole.halleyweb.it/c017053/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 2,
+      "letti": 19,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Cimbergo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://halleyweb.com/c017054/index.php?servizio=304",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 20,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Collebeato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017057",
+      "dal": "2026-11-18",
+      "pagine": 4,
+      "letti": 28,
+      "trovati": 1,
+      "esito": "OK – 1 trovati"
+    },
+    {
+      "comune": "Corte Franca",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017062/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Fiesse",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017071/index.php?servizio=304",
+      "dal": "2026-11-18",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Gardone Riviera",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017074/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 21,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Gargnano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017076/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 30,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://ghedi.halleyweb.it/c017078/index.php?servizio=304",
+      "dal": "2026-11-18",
+      "pagine": 2,
+      "letti": 40,
+      "trovati": 3,
+      "esito": "OK – 3 trovati"
+    },
+    {
+      "comune": "Gianico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017079/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 30,
+      "trovati": 2,
+      "esito": "OK – 2 trovati"
+    },
+    {
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017085/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 5,
+      "letti": 35,
+      "trovati": 4,
+      "esito": "OK – 4 trovati"
+    },
+    {
+      "comune": "Lozio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017095/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 21,
+      "trovati": 1,
+      "esito": "OK – 1 trovati"
+    },
+    {
+      "comune": "Ospitaletto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.comune.ospitaletto.bs.it/albo-pretorio",
+      "dal": "2026-11-18",
+      "pagine": 4,
+      "letti": 28,
+      "trovati": 2,
+      "esito": "OK – 2 trovati"
+    },
+    {
+      "comune": "Palazzolo sull'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017133/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 5,
+      "letti": 35,
+      "trovati": 3,
+      "esito": "OK – 3 trovati"
+    },
+    {
+      "comune": "Paratico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017134/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 4,
+      "letti": 28,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Paspardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017135/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 1,
+      "esito": "OK – 1 trovati"
+    },
+    {
+      "comune": "Passirano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://comune.passirano.bs.it/documenti/2389535/albo-pretorio",
+      "dal": "2026-11-18",
+      "pagine": 1,
+      "letti": 49,
+      "trovati": 2,
+      "esito": "OK – 2 trovati"
+    },
+    {
+      "comune": "Pontoglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.comune.pontoglio.bs.it/albo-pretorio",
+      "dal": "2026-11-18",
+      "pagine": 3,
+      "letti": 30,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "San Zeno Naviglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017173/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 4,
+      "letti": 28,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017185/mc/mc_p_ricerca.php",
+      "dal": "2026-11-18",
+      "pagine": 6,
+      "letti": 42,
+      "trovati": 7,
+      "esito": "OK – 7 trovati"
+    },
+    {
+      "comune": "Valvestino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://halleyweb.com/c017194/index.php?servizio=304",
+      "dal": "2026-11-18",
+      "pagine": 2,
+      "letti": 14,
       "trovati": 0,
       "esito": "OK – 0 trovati"
     }
