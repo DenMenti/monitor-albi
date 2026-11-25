@@ -550,7 +550,8 @@
     "albo": "https://castelmella.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-sezione?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=68300",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": ""
+    "note": "",
+    "albo_lista": "https://castelmella.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-sezione?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=68300"
   },
   {
     "nome": "Castelcovati",
@@ -1528,7 +1529,8 @@
     "albo": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio",
     "altri": [],
     "piattaforma": "Gazzetta Amministrativa",
-    "note": "presente archivio storico"
+    "note": "presente archivio storico",
+    "albo_lista": "https://nave.trasparenza-valutazione-merito.it/web/trasparenza/albo-pretorio"
   },
   {
     "nome": "Niardo",
@@ -3091,7 +3093,8 @@
     "note": "presente archivio storico",
     "regione": "Veneto",
     "provincia": "Belluno",
-    "sigla": "BL"
+    "sigla": "BL",
+    "albo_lista": "https://lozzodicadore.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=7184"
   },
   {
     "nome": "Ospitale di Cadore",

@@ -5,10 +5,10 @@
  "motivo": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.halleyweb.com/c017127/mc/mc_p_ricerca.php",
  "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
  "stato_http": null,
- "url": "",
- "titolo": "",
- "testo": "",
- "frame": [],
+ "url": "chrome-error://chromewebdata/",
+ "titolo": "www.halleyweb.com",
+ "testo": "Hmmm… can't reach this page The connection was reset. Try: Checking the connection Checking the proxy and the firewall ERR_CONNECTION_RESET Refresh Details",
  "tabelle": 0,
- "link": 0
+ "link": 1,
+ "frame": []
 }
