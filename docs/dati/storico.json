@@ -1,5 +1,14 @@
 [
   {
+    "quando": "2026-11-25_1328",
+    "tipo": "monitoraggio",
+    "esito": "1 determine trovate in 26 comuni, 0 allegati. 1 albi da controllare a mano.",
+    "excel": "risultati/determine_2026-11-25_1328.xlsx",
+    "zip": "",
+    "dati": "controlli/2026-11-25_1328.json",
+    "n": 1
+  },
+  {
     "quando": "2026-11-25_1202",
     "tipo": "monitoraggio",
     "esito": "47 determine trovate in 260 comuni, 0 allegati. 70 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
@@ -529,14 +538,5 @@
     "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2134/allegati_2026-10-23_2134.zip",
     "dati": "controlli/2026-10-23_2134.json",
     "n": 16
-  },
-  {
-    "quando": "2026-10-23_2122",
-    "tipo": "monitoraggio",
-    "esito": "33 determine trovate in 1 comuni, 146 allegati.",
-    "excel": "risultati/determine_2026-10-23_2122.xlsx",
-    "zip": "https://github.com/DenMenti/monitor-albi/releases/download/run-2026-10-23_2122/allegati_2026-10-23_2122.zip",
-    "dati": "controlli/2026-10-23_2122.json",
-    "n": 33
   }
 ]

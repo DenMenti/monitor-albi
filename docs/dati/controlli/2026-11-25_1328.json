@@ -1,0 +1,26 @@
+{
+  "quando": "2026-11-25_1328",
+  "esito": "1 determine trovate in 26 comuni, 0 allegati. 1 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-11-25_1328.xlsx",
+  "zip": "",
+  "risultati": [
+    {
+      "id": "BS|Ghedi|2026-11-24||Numero pubblicazione 1493 Mittente Città di Ghedi -Ufficio Segreteria Tipo Deter",
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-24",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1493 Mittente Città di Ghedi -Ufficio Segreteria Tipo Determina Oggetto \"Q-AID INSPECTION SRL\" - CIG BDE0386A02 - CUP D34H25000140004 - DETERMINA A CONTRARRE E MODALITÀ DI AFFIDAMENTO PER LA VERIFICA, AI FINI DELLA VALIDAZIONE, DEL PROGETTO ESECUTIVO NELL'AMBITO DELLA CONVENZIONE PER LA REALIZZAZIONE IN CONCESSIONE MEDIANTE FINANZA DI PROGETTO DI INTERVENTI DI RIQUALIFICAZIONE E DI ADEGUAMENTO NORMATIVO DEGLI IMPIANTI TERMICI DEGLI EDIFICI DEL COMUNE DI GHEDI E LA GESTIONE PLURIENNALE DEI SERVIZI CONNESSI - AFFIDATO AI SENSI DELL'ART. 50, COMMA 1 LETT. B) DEL D.LGS 36/2023 Numero atto 195 Data atto 24/11/2026 N.Registro generale 856 Data registro generale 24/11/2026 Data inizio 25/11/2026 Data fine 10/12/2026",
+      "parole": [
+        "affidamento",
+        "progetto",
+        "esecutivo",
+        "progett"
+      ],
+      "link": "https://ghedi.halleyweb.it/c017078/mc/mc_p_dettaglio.php?id_pubbl=36453",
+      "allegati": []
+    }
+  ]
+}
