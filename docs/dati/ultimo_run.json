@@ -1,7 +1,7 @@
 {
-  "quando": "2026-11-26_1139",
-  "esito": "49 determine trovate in 260 comuni, 0 allegati. 73 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
-  "excel": "risultati/determine_2026-11-26_1139.xlsx",
+  "quando": "2026-11-26_1248",
+  "esito": "57 determine trovate in 260 comuni, 0 allegati (più giri consecutivi). Questo giro: 8 determine trovate in 26 comuni, 0 allegati. 1 albi da controllare a mano.",
+  "excel": "risultati/determine_2026-11-26_1248.xlsx",
   "zip": "",
   "cartella": "",
   "risultati": [
@@ -843,39 +843,149 @@
       ],
       "link": "https://www.comune.vione.bs.it/Pages/Albo/?Id=447395&pg=0",
       "allegati": []
+    },
+    {
+      "id": "BS|Castenedolo|2026-11-26||Numero pubblicazione 1410 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Deter",
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1410 Mittente LAVORI PUBBLICI E SERVIZI COMUNALI Tipo Determina Oggetto Lavori di manutenzione ordinaria verde pubblico 2026. Validazione progetto esecutivo. CUPJ41E26000150004 N.Registro generale 865 Data registro generale 26/11/2026 Data inizio 26/11/2026 Data fine 11/12/2026",
+      "parole": [
+        "progetto",
+        "esecutivo",
+        "manutenzione",
+        "lavor",
+        "progett"
+      ],
+      "link": "https://halleyweb.com/c017043/mc/mc_p_dettaglio.php?id_pubbl=29465",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-25||Numero pubblicazione 1719 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Ap",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-25",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1719 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Approvazione documentazione di fine lavori, stato di avanzamento lavori finale (SAL finale), relazione sul conto finale e Certificato di Regolare Esecuzione dell'intervento inerente ai \"Lavori per ripristino porzione di strada a seguito di evento franoso/smottamento (RA.S.DA. SCHEDA_2026.00013-A_17085) sulla strada comunale Agro-Silvo-Pastorale denominata via Imbocasso codice VASP ISE-03 Strada Imbocasso\" CUP: F17H26000220007 - COMUNE_ISEO_1508_2026_0054 - CIG: BB2E94266A N.Registro generale 951 Data registro generale 25/11/2026 Data inizio 25/11/2026 Data fine 10/12/2026",
+      "parole": [
+        "intervento",
+        "strad",
+        "lavor",
+        "ripristin"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21544",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-25||Numero pubblicazione 1718 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Pr",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-25",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1718 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Proroga accordo quadro per il servizio di sgombero neve e interventi di manutenzione strade per calamità naturali- ZONA B: territorio di Iseo e della frazione di Pilzone CIG padre: B9467BB633 e affidamento contratto derivato - Ordine di esecuzione n. 2 - Codice univoco contratto derivato: COMUNE_ISEO_1508_2026_0181 CIG figlio/derivato: BDD165C33D N.Registro generale 950 Data registro generale 24/11/2026 Data inizio 25/11/2026 Data fine 10/12/2026",
+      "parole": [
+        "affidamento",
+        "strad",
+        "manutenzione"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21543",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-25||Numero pubblicazione 1714 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Ac",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-25",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1714 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Accertamento dell'entrata relativa al contributo concesso da Regione Lombardia nell'ambito del Bando \"Itinerari ed Eventi inLombardia 2026\" per la realizzazione del progetto \"Cammino dei Borghi Riflessi\". N.Registro generale 946 Data registro generale 24/11/2026 Data inizio 25/11/2026 Data fine 10/12/2026",
+      "parole": [
+        "progetto",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21539",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-25||Numero pubblicazione 1713 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto De",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-25",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1713 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Determinazione a contrarre e aggiudicazione ai sensi dei combinati art. 50, comma 1, lett. b), art. 49 del D.Lgs. 36/2023 dei servizi tecnici di progettazione, CSP, Direzione Lavori, CSE e CRE per la realizzazione del progetto denominato \"Interventi di sistemazione idraulica del reticolo idrico minore dei versanti e monitoraggio del dissesto idrogeologico nel territorio del Comune di Iseo\" - Codice Univoco Appalto COMUNE_ISEO_1508_2026_0177 CUP G18H24001290006 CIG BDDF51C4EE N.Registro generale 945 Data registro generale 24/11/2026 Data inizio 25/11/2026 Data fine 10/12/2026",
+      "parole": [
+        "appalto",
+        "progetto",
+        "aggiudicazione",
+        "lavor",
+        "progett"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21538",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-25||Numero pubblicazione 1712 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Af",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-25",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1712 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Affidamento contratto derivato all'interno dell'accordo quadro per lavori da fabbro per manutenzione del patrimonio comunale e altre prestazioni connesse - CIG padre: B6822250D5 - Ordine di Esecuzione n. 7 - Codice univoco contratto derivato: COMUNE_ISEO_1508_2026_0179 - CIG derivato: BDC8144A00 N.Registro generale 944 Data registro generale 24/11/2026 Data inizio 25/11/2026 Data fine 10/12/2026",
+      "parole": [
+        "affidamento",
+        "manutenzione",
+        "lavor"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21537",
+      "allegati": []
+    },
+    {
+      "id": "BS|Iseo|2026-11-25||Numero pubblicazione 1697 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Ac",
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-25",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 1697 Mittente COMUNE DI ISEO Tipo Determinazione Oggetto Accertamento contributo del Ministero dell'Interno \"Contributi ai Comuni colpiti da eventi alluvionali 28 agosto 2023\" relativo all'intervento \"Ripristino della funzionalità idraulica dell'impianto di smaltimento acque metereologiche da monte mediante ripristino funzionalità caditoie, tombotti e impianti fognature comunali - Via Fenice\" N.Registro generale 929 Data registro generale 23/11/2026 Data inizio 25/11/2026 Data fine 10/12/2026",
+      "parole": [
+        "intervento",
+        "ripristin"
+      ],
+      "link": "http://www.halleyweb.com/c017085/mc/mc_p_dettaglio.php?id_pubbl=21522",
+      "allegati": []
+    },
+    {
+      "id": "BS|Paratico|2026-11-26||Numero pubblicazione 854 Mittente COMUNE DI PARATICO Tipo Determine Oggetto NOMI",
+      "comune": "Paratico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "data": "2026-11-26",
+      "tipo": "",
+      "numero": "",
+      "oggetto": "Numero pubblicazione 854 Mittente COMUNE DI PARATICO Tipo Determine Oggetto NOMINA DEL RESPONSABILE UNICO DEL PROGETTO (RUP), AI SENSI DELL'ART. 15 DEL D.LGS. 36/2023, PER L'INTERVENTO DI \"ADEGUAMENTO FUNZIONALE, ABBATTIMENTO DELLE BARRIERE ARCHITETTONICHE E MESSA IN SICUREZZA DEL PLESSO SCOLASTICO MEDIANTE POSA DI PIATTAFORMA ELEVATRICE\" (CODICE EDIFICIO ARES: 0171341010) FINALIZZATO ALLA CANDIDATURA AL BANDO REGIONALE \"SCUOLA SI-CURA\" (D.G.R. N. XII/6490 DEL 13.07.2026). Numero atto 34 Data atto 26/11/2026 Data inizio 26/11/2026 Data fine 11/12/2026",
+      "parole": [
+        "progetto",
+        "intervento",
+        "edificio",
+        "progett"
+      ],
+      "link": "https://halleyweb.com/c017134/mc/mc_p_dettaglio.php?id_pubbl=10475",
+      "allegati": []
     }
   ],
   "riepilogo": [
-    {
-      "comune": "Acquafredda",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017001/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-acquafredda.jpg"
-    },
-    {
-      "comune": "Adro",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyegov.it/c017002/mc/mc_p_ricerca.php",
-      "dal": "2026-10-27",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-adro.jpg"
-    },
     {
       "comune": "Agnosine",
       "sigla": "BS",
@@ -1041,21 +1151,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Berzo Inferiore",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017017/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-berzo-inferiore.jpg"
-    },
-    {
       "comune": "Bienno",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1162,21 +1257,6 @@
       "letti": 2,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Braone",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017027/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-braone.jpg"
     },
     {
       "comune": "Breno",
@@ -1345,21 +1425,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Castenedolo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017043/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017043",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-castenedolo.jpg"
-    },
-    {
       "comune": "Casto",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1408,21 +1473,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Cellatica",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017048/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-cellatica.jpg"
-    },
-    {
       "comune": "Cerveno",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1467,36 +1517,6 @@
       "esito": "OK – 1 trovati"
     },
     {
-      "comune": "Cigole",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://cigole.halleyweb.it/c017053/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-cigole.jpg"
-    },
-    {
-      "comune": "Cimbergo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://halleyweb.com/c017054/index.php?servizio=304",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-cimbergo.jpg"
-    },
-    {
       "comune": "Cividate Camuno",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1517,21 +1537,6 @@
       "letti": 40,
       "trovati": 1,
       "esito": "OK – 1 trovati"
-    },
-    {
-      "comune": "Collebeato",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017057",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-collebeato.jpg"
     },
     {
       "comune": "Collio",
@@ -1580,21 +1585,6 @@
       "letti": 40,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Corte Franca",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017062/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-corte-franca.jpg"
     },
     {
       "comune": "Corteno Golgi",
@@ -1690,21 +1680,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Fiesse",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017071/index.php?servizio=304",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-fiesse.jpg"
-    },
-    {
       "comune": "Flero",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1727,21 +1702,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Gardone Riviera",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017074/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-gardone-riviera.jpg"
-    },
-    {
       "comune": "Gardone Val Trompia",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1757,21 +1717,6 @@
       "screenshot": "BS-gardone-val-trompia.jpg"
     },
     {
-      "comune": "Gargnano",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017076/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-gargnano.jpg"
-    },
-    {
       "comune": "Gavardo",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -1781,36 +1726,6 @@
       "letti": 40,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Ghedi",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://ghedi.halleyweb.it/c017078/index.php?servizio=304",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-ghedi.jpg"
-    },
-    {
-      "comune": "Gianico",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017079/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-gianico.jpg"
     },
     {
       "comune": "Gottolengo",
@@ -1874,21 +1789,6 @@
       "diag_stato": null,
       "diag_url": "",
       "screenshot": "BS-irma.jpg"
-    },
-    {
-      "comune": "Iseo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017085/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-iseo.jpg"
     },
     {
       "comune": "Isorella",
@@ -2000,21 +1900,6 @@
       "letti": 11,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Lozio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017095/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-lozio.jpg"
     },
     {
       "comune": "Lumezzane",
@@ -2375,21 +2260,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Ospitaletto",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.comune.ospitaletto.bs.it/albo-pretorio",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-ospitaletto.jpg"
-    },
-    {
       "comune": "Ossimo",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -2443,66 +2313,6 @@
       "letti": 34,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Palazzolo sull'Oglio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017133/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-palazzolo-sull-oglio.jpg"
-    },
-    {
-      "comune": "Paratico",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017134/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-paratico.jpg"
-    },
-    {
-      "comune": "Paspardo",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://halleyweb.com/c017135/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-paspardo.jpg"
-    },
-    {
-      "comune": "Passirano",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://comune.passirano.bs.it/documenti/2389535/albo-pretorio",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-passirano.jpg"
     },
     {
       "comune": "Pavone del Mella",
@@ -2651,20 +2461,6 @@
       "letti": 20,
       "trovati": 0,
       "esito": "OK – 0 trovati"
-    },
-    {
-      "comune": "Pontoglio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.comune.pontoglio.bs.it/albo-pretorio",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": ""
     },
     {
       "comune": "Pozzolengo",
@@ -2914,21 +2710,6 @@
       "albo_lista": "https://sanpaolo.trasparenza-valutazione-merito.it/web/trasparenza/dettaglio-albo-pretorio?p_p_id=jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page-parent=0&_jcitygovmenutrasversaleleftcolumn_WAR_jcitygovalbiportlet_current-page=7166"
     },
     {
-      "comune": "San Zeno Naviglio",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "https://www.halleyweb.com/c017173/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-san-zeno-naviglio.jpg"
-    },
-    {
       "comune": "Sarezzo",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -3050,21 +2831,6 @@
       "esito": "OK – 0 trovati"
     },
     {
-      "comune": "Tignale",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://www.halleyweb.com/c017185/mc/mc_p_ricerca.php",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-tignale.jpg"
-    },
-    {
       "comune": "Torbole Casaglia",
       "sigla": "BS",
       "provincia": "Brescia",
@@ -3164,21 +2930,6 @@
       "letti": 19,
       "trovati": 1,
       "esito": "OK – 1 trovati"
-    },
-    {
-      "comune": "Valvestino",
-      "sigla": "BS",
-      "provincia": "Brescia",
-      "albo": "http://halleyweb.com/c017194/index.php?servizio=304",
-      "dal": "2026-11-25",
-      "pagine": 0,
-      "letti": 0,
-      "trovati": 0,
-      "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
-      "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-valvestino.jpg"
     },
     {
       "comune": "Verolanuova",
@@ -4006,6 +3757,296 @@
       "dal": "2026-11-25",
       "pagine": 2,
       "letti": 25,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Acquafredda",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017001/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 1,
+      "letti": 10,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Adro",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyegov.it/c017002/mc/mc_p_ricerca.php",
+      "dal": "2026-10-27",
+      "pagine": 0,
+      "letti": 0,
+      "trovati": 0,
+      "esito": "Errore: pagina vuota o non caricata",
+      "diagnosi": "pagina vuota o non caricata",
+      "diag_stato": null,
+      "diag_url": "",
+      "screenshot": "BS-adro.jpg"
+    },
+    {
+      "comune": "Berzo Inferiore",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017017/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Braone",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017027/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Castenedolo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017043/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017043",
+      "dal": "2026-11-25",
+      "pagine": 3,
+      "letti": 24,
+      "trovati": 1,
+      "esito": "OK – 1 trovati"
+    },
+    {
+      "comune": "Cellatica",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017048/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 20,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Cigole",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://cigole.halleyweb.it/c017053/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 1,
+      "letti": 10,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Cimbergo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://halleyweb.com/c017054/index.php?servizio=304",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Collebeato",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017057",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Corte Franca",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017062/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 1,
+      "letti": 7,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Fiesse",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017071/index.php?servizio=304",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Gardone Riviera",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017074/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Gargnano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017076/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 20,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Ghedi",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://ghedi.halleyweb.it/c017078/index.php?servizio=304",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 40,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Gianico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017079/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 20,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Iseo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017085/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 6,
+      "letti": 42,
+      "trovati": 6,
+      "esito": "OK – 6 trovati"
+    },
+    {
+      "comune": "Lozio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017095/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Ospitaletto",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.comune.ospitaletto.bs.it/albo-pretorio",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Palazzolo sull'Oglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017133/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Paratico",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017134/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 1,
+      "esito": "OK – 1 trovati"
+    },
+    {
+      "comune": "Paspardo",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://halleyweb.com/c017135/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 1,
+      "letti": 7,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Passirano",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://comune.passirano.bs.it/documenti/2389535/albo-pretorio",
+      "dal": "2026-11-25",
+      "pagine": 1,
+      "letti": 49,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Pontoglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.comune.pontoglio.bs.it/albo-pretorio",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 20,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "San Zeno Naviglio",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "https://www.halleyweb.com/c017173/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 2,
+      "letti": 14,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Tignale",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://www.halleyweb.com/c017185/mc/mc_p_ricerca.php",
+      "dal": "2026-11-25",
+      "pagine": 1,
+      "letti": 7,
+      "trovati": 0,
+      "esito": "OK – 0 trovati"
+    },
+    {
+      "comune": "Valvestino",
+      "sigla": "BS",
+      "provincia": "Brescia",
+      "albo": "http://halleyweb.com/c017194/index.php?servizio=304",
+      "dal": "2026-11-25",
+      "pagine": 1,
+      "letti": 7,
       "trovati": 0,
       "esito": "OK – 0 trovati"
     }
