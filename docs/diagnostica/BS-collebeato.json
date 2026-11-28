@@ -1,0 +1,14 @@
+{
+ "comune": "Collebeato",
+ "sigla": "BS",
+ "albo": "https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&multiente=c017057",
+ "motivo": "Error: Page.goto: net::ERR_CONNECTION_RESET at https://collebeato.halleyweb.it/c017057/mc/mc_p_ricerca.php?noHeaderFooter=1&mul",
+ "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
+ "stato_http": null,
+ "url": "",
+ "titolo": "",
+ "testo": "",
+ "frame": [],
+ "tabelle": 0,
+ "link": 0
+}
