@@ -1,7 +1,7 @@
 {
-  "quando": "2026-11-28_1219",
+  "quando": "2026-11-28_1225",
   "esito": "20 determine trovate in 260 comuni, 0 allegati (più giri consecutivi). Questo giro: 0 determine trovate in 26 comuni, 0 allegati. 26 albi da controllare a mano. 26 siti hanno rifiutato la connessione: li riprovo da soli con un altro server.",
-  "excel": "risultati/determine_2026-11-28_1219.xlsx",
+  "excel": "risultati/determine_2026-11-28_1225.xlsx",
   "zip": "",
   "cartella": "",
   "risultati": [
@@ -3519,8 +3519,7 @@
       "esito": "Errore: il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
       "diagnosi": "il sito rifiuta la connessione dai server online: va controllato dal PC (versione Windows)",
       "diag_stato": null,
-      "diag_url": "",
-      "screenshot": "BS-ospitaletto.jpg"
+      "diag_url": ""
     },
     {
       "comune": "Palazzolo sull'Oglio",
